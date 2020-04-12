@@ -15,6 +15,9 @@ Although the COVID-19 KG was generated using BEL, it can also be exported to mul
 - [GML](http://graphml.graphdrawing.org) (.gml or .xml)
 - [GraphML](http://docs.yworks.com/yfiles/doc/developers-guide/gml.html) (.graphml or .xml)
 - [SIF](http://www.cbmc.it/fastcent/doc/SifFormat.htm) (.csv, .tsv, or .txt)
+- [Pickle](https://docs.python.org/3/library/pickle.html) 
+- [CX]https://home.ndexbio.org/data-model/) (.cx)
+- [JGF](https://jsongraphformat.info/) (.jgif)
 
 ### Releases
 The table below contains information of the different releases of the COVID-19 KG.
