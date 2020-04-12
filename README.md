@@ -20,7 +20,7 @@ Although the COVID-19 KG was generated using BEL, it can also be exported to mul
 - [JGF](https://jsongraphformat.info/) (.jgif)
 
 ### Releases
-The table below contains information of the different releases of the COVID-19 KG.
+The table below contains information of the different releases of the COVID-19 KG. Each release contains the original BEL files are aforementioned formats before.
 
 | Release | Date       | Articles |
 |---------|------------|----------|
