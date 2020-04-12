@@ -1,4 +1,5 @@
-# COVID-19 Knowledge Graph
+
+# COVID-19 Knowledge Graph [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3748950.svg)](https://doi.org/10.5281/zenodo.3748950)
 COVID-19 Knowledge Graph: a computable, multi-modal, cause-and-effect knowledge model of COVID-19 pathophysiology.
 
 ## Resource
