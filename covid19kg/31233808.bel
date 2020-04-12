@@ -1,0 +1,73 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "31233808.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+#not in template.bel
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Assay AS LIST {"Fluorescent in situ hybridization targeting ribonucleic acid molecules"}
+DEFINE ANNOTATION Dose AS LIST {"0.01 μM"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","Antiviral Res. 2019 Sep;169:104541. doi: 10.1016/j.antiviral.2019.104541. Epub 2019 Jun 21.","31233808"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "A) HCoV-OC43 antiviral assay plate layout in Huh7 cells treated with DMSO or a dose response of RDV. B) A
+dose dependent reduction in viral foci is visualized through antibody staining.[Fig. 1.]"
+
+SET CellLine = "Huh7 cell"
+a(PUBCHEM:121304016) -| a(TAX:"Human coronavirus OC43")
+UNSET CellLine
+
+SET Evidence = "With RNA FISH visualized through fluorescence microscopy, we observed an RDV dose-dependent reduction in HCoVOC43
+genomic RNA (Fig. 2A)."
+SET CellLine = "Huh7 cell"
+SET Assay = "Fluorescent in situ hybridization targeting ribonucleic acid molecules"
+a(PUBCHEM:121304016) -| a(TAX:"Human coronavirus OC43")
+UNSET Assay
+UNSET CellLine
+
+SET Evidence = "At the highest dose of RDV (0.25 μM), HCoV-OC43 FISH signal was not detected but as RDV dose was diminished, virus replication gradually increased to levels similar to that in untreated cells (Fig. 2C)."
+SET Dose = "0.01 μM"
+a(PUBCHEM:121304016) ->  a(TAX:"Human coronavirus OC43")
+UNSET Dose
+
+SET Evidence = "Unlike HCoV-OC43, HCoV-229E infection of Huh7 causes CPE."
+SET CellLine = "Huh7 cell"
+a(TAX:"Human coronavirus 229E") -> bp(MESH:"Cytopathogenic Effect, Viral")
+UNSET CellLine
+
+SET Evidence = "An RDV dose-dependent reduction in HCoV-229E replication was observed (Fig. 3B) without drug-induced cytotoxicity (Fig. 3C)."
+SET CellLine = "Huh7 cell"
+a(PUBCHEM:121304016) ->  a(TAX:"Human coronavirus 229E")
+UNSET CellLine
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

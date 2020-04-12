@@ -1,0 +1,858 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Preprint",
+        "Published"
+      ],
+      "PublicationType": [
+        "Editorial",
+        "Research",
+        "Review"
+      ],
+      "Section": [
+        "Abstract",
+        "Full Text",
+        "Results"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {},
+    "document_metadata": {
+      "authors": "Shounak Baksi",
+      "contact": "shounak.baksi@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32178711.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "PUBCHEM": "^\\d+$"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "EFO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/efo/efo-20171206.belns",
+      "GOBP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+    },
+    "path": "32178711.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cunningham AC",
+          "Goh HP",
+          "Koh D"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32178711",
+        "db_name": "Critical care (London, England)",
+        "first": "Cunningham AC",
+        "last": "Koh D",
+        "pages": "91",
+        "volume": "24"
+      },
+      "evidence": "The mortality appears to be around 2%; early published data indicate 25.9% with SARS-CoV-2 pneumonia required ICU admission and 20.1% developed acute respiratory distress syndrome",
+      "key": "b20d7948351527768a4f5e741cf9e655",
+      "line": 83,
+      "relation": "association",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cunningham AC",
+          "Goh HP",
+          "Koh D"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32178711",
+        "db_name": "Critical care (London, England)",
+        "first": "Cunningham AC",
+        "last": "Koh D",
+        "pages": "91",
+        "volume": "24"
+      },
+      "evidence": "The mortality appears to be around 2%; early published data indicate 25.9% with SARS-CoV-2 pneumonia required ICU admission and 20.1% developed acute respiratory distress syndrome",
+      "key": "b2b5a5cdf89cbc591fd7591678f40d9c",
+      "line": 83,
+      "relation": "association",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cunningham AC",
+          "Goh HP",
+          "Koh D"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32178711",
+        "db_name": "Critical care (London, England)",
+        "first": "Cunningham AC",
+        "last": "Koh D",
+        "pages": "91",
+        "volume": "24"
+      },
+      "evidence": "The management of patients mainly focuses on the provision of supportive care, e.g., oxygenation, ventilation, and fluid management.",
+      "key": "071924dc8d10855e71a9972805601607",
+      "line": 87,
+      "relation": "decreases",
+      "source": 12,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cunningham AC",
+          "Goh HP",
+          "Koh D"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32178711",
+        "db_name": "Critical care (London, England)",
+        "first": "Cunningham AC",
+        "last": "Koh D",
+        "pages": "91",
+        "volume": "24"
+      },
+      "evidence": "The management of patients mainly focuses on the provision of supportive care, e.g., oxygenation, ventilation, and fluid management.",
+      "key": "80bec45877fcb878de8760183ed96f9d",
+      "line": 88,
+      "relation": "decreases",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cunningham AC",
+          "Goh HP",
+          "Koh D"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32178711",
+        "db_name": "Critical care (London, England)",
+        "first": "Cunningham AC",
+        "last": "Koh D",
+        "pages": "91",
+        "volume": "24"
+      },
+      "evidence": "The management of patients mainly focuses on the provision of supportive care, e.g., oxygenation, ventilation, and fluid management.",
+      "key": "ea70e68e79e296bdc6a340a724f38957",
+      "line": 89,
+      "relation": "decreases",
+      "source": 11,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cunningham AC",
+          "Goh HP",
+          "Koh D"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32178711",
+        "db_name": "Critical care (London, England)",
+        "first": "Cunningham AC",
+        "last": "Koh D",
+        "pages": "91",
+        "volume": "24"
+      },
+      "evidence": "Combination treatment of low-dose systematic corticosteroids and anti-virals and atomization inhalation of interferon have been encouraged as part of critical COVID-19 management [2].",
+      "key": "7da8d1b35892bca1e2460260994360f5",
+      "line": 93,
+      "relation": "decreases",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "key": "99b787631b2b3a014d9fbb518b3b970c",
+      "relation": "partOf",
+      "source": 0,
+      "target": 14
+    },
+    {
+      "key": "4ff94d768d1837a617548021a34426b6",
+      "relation": "partOf",
+      "source": 2,
+      "target": 14
+    },
+    {
+      "key": "f342bdad6e5c3b23981ce072d38c7eb7",
+      "relation": "partOf",
+      "source": 4,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cunningham AC",
+          "Goh HP",
+          "Koh D"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32178711",
+        "db_name": "Critical care (London, England)",
+        "first": "Cunningham AC",
+        "last": "Koh D",
+        "pages": "91",
+        "volume": "24"
+      },
+      "evidence": "Other reported therapeutic agents that are used for the treatment of seriously ill patients have been noted in Table 1.",
+      "key": "52906bbf9d35ea39fcd90afc7ffa1877",
+      "line": 97,
+      "relation": "decreases",
+      "source": 6,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cunningham AC",
+          "Goh HP",
+          "Koh D"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32178711",
+        "db_name": "Critical care (London, England)",
+        "first": "Cunningham AC",
+        "last": "Koh D",
+        "pages": "91",
+        "volume": "24"
+      },
+      "evidence": "Other reported therapeutic agents that are used for the treatment of seriously ill patients have been noted in Table 1.",
+      "key": "2cb595def3817df3b27ea4aef8c1b3f5",
+      "line": 98,
+      "relation": "decreases",
+      "source": 3,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cunningham AC",
+          "Goh HP",
+          "Koh D"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32178711",
+        "db_name": "Critical care (London, England)",
+        "first": "Cunningham AC",
+        "last": "Koh D",
+        "pages": "91",
+        "volume": "24"
+      },
+      "evidence": "Other reported therapeutic agents that are used for the treatment of seriously ill patients have been noted in Table 1.",
+      "key": "d128152644faa70dc05afb2c5facacfa",
+      "line": 99,
+      "relation": "decreases",
+      "source": 9,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cunningham AC",
+          "Goh HP",
+          "Koh D"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32178711",
+        "db_name": "Critical care (London, England)",
+        "first": "Cunningham AC",
+        "last": "Koh D",
+        "pages": "91",
+        "volume": "24"
+      },
+      "evidence": "Other reported therapeutic agents that are used for the treatment of seriously ill patients have been noted in Table 1.",
+      "key": "bc46f28550ab96dd3cddefb75d498662",
+      "line": 101,
+      "relation": "decreases",
+      "source": 5,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cunningham AC",
+          "Goh HP",
+          "Koh D"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32178711",
+        "db_name": "Critical care (London, England)",
+        "first": "Cunningham AC",
+        "last": "Koh D",
+        "pages": "91",
+        "volume": "24"
+      },
+      "evidence": "Other reported therapeutic agents that are used for the treatment of seriously ill patients have been noted in Table 1.",
+      "key": "a280f8c0c5ef439222cb2863a8927d8f",
+      "line": 102,
+      "relation": "decreases",
+      "source": 7,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cunningham AC",
+          "Goh HP",
+          "Koh D"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32178711",
+        "db_name": "Critical care (London, England)",
+        "first": "Cunningham AC",
+        "last": "Koh D",
+        "pages": "91",
+        "volume": "24"
+      },
+      "evidence": "Other reported therapeutic agents that are used for the treatment of seriously ill patients have been noted in Table 1.",
+      "key": "0fe31415cb9655cba6d4539505d032db",
+      "line": 103,
+      "relation": "decreases",
+      "source": 1,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cunningham AC",
+          "Goh HP",
+          "Koh D"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32178711",
+        "db_name": "Critical care (London, England)",
+        "first": "Cunningham AC",
+        "last": "Koh D",
+        "pages": "91",
+        "volume": "24"
+      },
+      "evidence": "Other reported therapeutic agents that are used for the treatment of seriously ill patients have been noted in Table 1.",
+      "key": "065c4005ef64b71799d79a72f4346c69",
+      "line": 104,
+      "relation": "decreases",
+      "source": 8,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cunningham AC",
+          "Goh HP",
+          "Koh D"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32178711",
+        "db_name": "Critical care (London, England)",
+        "first": "Cunningham AC",
+        "last": "Koh D",
+        "pages": "91",
+        "volume": "24"
+      },
+      "evidence": "China National Biotec Group Co has claimed that 10 seriously ill patients receiving this immunoglobulin therapy demonstrated improved oxygenation and reduced inflammation and viral load [7].",
+      "key": "e4c6859a82fe67f0860cf2cb1b78d360",
+      "line": 108,
+      "relation": "decreases",
+      "source": 17,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cunningham AC",
+          "Goh HP",
+          "Koh D"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32178711",
+        "db_name": "Critical care (London, England)",
+        "first": "Cunningham AC",
+        "last": "Koh D",
+        "pages": "91",
+        "volume": "24"
+      },
+      "evidence": "China National Biotec Group Co has claimed that 10 seriously ill patients receiving this immunoglobulin therapy demonstrated improved oxygenation and reduced inflammation and viral load [7].",
+      "key": "86bdb8cae32b5651dd568adac05de01f",
+      "line": 109,
+      "relation": "increases",
+      "source": 17,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cunningham AC",
+          "Goh HP",
+          "Koh D"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32178711",
+        "db_name": "Critical care (London, England)",
+        "first": "Cunningham AC",
+        "last": "Koh D",
+        "pages": "91",
+        "volume": "24"
+      },
+      "evidence": "China National Biotec Group Co has claimed that 10 seriously ill patients receiving this immunoglobulin therapy demonstrated improved oxygenation and reduced inflammation and viral load [7].",
+      "key": "5a90f50921f53ab2ae1dd6e4f998cf45",
+      "line": 110,
+      "relation": "decreases",
+      "source": 17,
+      "target": 18
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:\"antiviral agent\")",
+      "concept": {
+        "name": "antiviral agent",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "a6172ccd2ae78b81ed069d369b9a5aae"
+    },
+    {
+      "bel": "a(CHEBI:chloroquine)",
+      "concept": {
+        "name": "chloroquine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "c368fe204031ce23a04cc402914492f6"
+    },
+    {
+      "bel": "a(CHEBI:corticosteroid)",
+      "concept": {
+        "name": "corticosteroid",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "a468686acdbd9b5763eec60c73e99320"
+    },
+    {
+      "bel": "a(CHEBI:ganciclovir)",
+      "concept": {
+        "name": "ganciclovir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "6468c53d586079ab4afcd0322b6dd6f3"
+    },
+    {
+      "bel": "a(CHEBI:interferon)",
+      "concept": {
+        "name": "interferon",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "5df10d84c820d3d6ffd20d18aeeb74e6"
+    },
+    {
+      "bel": "a(CHEBI:lopinavir)",
+      "concept": {
+        "name": "lopinavir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "540f0a29f78ff437222f25e1c2e1b0fd"
+    },
+    {
+      "bel": "a(CHEBI:oseltamivir)",
+      "concept": {
+        "name": "oseltamivir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "843ea51adf2f81bd54de5e9dbce9a2f2"
+    },
+    {
+      "bel": "a(CHEBI:ritonavir)",
+      "concept": {
+        "name": "ritonavir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "07c1651afef7019b0cb107f1ce5fef12"
+    },
+    {
+      "bel": "a(MESH:\"Medicine, Chinese Traditional\")",
+      "concept": {
+        "name": "Medicine, Chinese Traditional",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "b74a1ebaacfeac828bf9a3a0ec89b5de"
+    },
+    {
+      "bel": "a(PUBCHEM:121304016)",
+      "concept": {
+        "name": "121304016",
+        "namespace": "PUBCHEM"
+      },
+      "function": "Abundance",
+      "id": "7704f9ea62204912dace9e0cfb704c95"
+    },
+    {
+      "bel": "bp(GOBP:\"oxygen transport\")",
+      "concept": {
+        "name": "oxygen transport",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "0c7b474851683dece566789a1c5a365c"
+    },
+    {
+      "bel": "bp(MESH:\"Fluid Therapy\")",
+      "concept": {
+        "name": "Fluid Therapy",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "d3561230ae56efc66dceba883384d8a6"
+    },
+    {
+      "bel": "bp(MESH:\"Oxygen Inhalation Therapy\")",
+      "concept": {
+        "name": "Oxygen Inhalation Therapy",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "385500825a3d4b39ec1414366a099975"
+    },
+    {
+      "bel": "bp(MESH:Ventilation)",
+      "concept": {
+        "name": "Ventilation",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "2f54edef19579109a9870f0e81ac49c9"
+    },
+    {
+      "bel": "composite(a(CHEBI:\"antiviral agent\"), a(CHEBI:corticosteroid), a(CHEBI:interferon))",
+      "function": "Composite",
+      "id": "8f0de4ba9111944123c1057bb8641d4f",
+      "members": [
+        {
+          "bel": "a(CHEBI:\"antiviral agent\")",
+          "concept": {
+            "name": "antiviral agent",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "a6172ccd2ae78b81ed069d369b9a5aae"
+        },
+        {
+          "bel": "a(CHEBI:corticosteroid)",
+          "concept": {
+            "name": "corticosteroid",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "a468686acdbd9b5763eec60c73e99320"
+        },
+        {
+          "bel": "a(CHEBI:interferon)",
+          "concept": {
+            "name": "interferon",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "5df10d84c820d3d6ffd20d18aeeb74e6"
+        }
+      ]
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(EFO:\"acute respiratory distress syndrome\")",
+      "concept": {
+        "name": "acute respiratory distress syndrome",
+        "namespace": "EFO"
+      },
+      "function": "Pathology",
+      "id": "f3314ef28a1a3d7c8c5d89dfe1a7fb75"
+    },
+    {
+      "bel": "path(MESH:Convalescence)",
+      "concept": {
+        "name": "Convalescence",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "59ecae08f296747eb6252eb2211a0c76"
+    },
+    {
+      "bel": "path(MESH:Inflammation)",
+      "concept": {
+        "name": "Inflammation",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "10cd96fd4056a5e6c27264e0130e89f9"
+    }
+  ]
+}

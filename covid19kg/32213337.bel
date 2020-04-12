@@ -1,0 +1,154 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32213337.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID_Knowledge_Curation_project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Severity AS LIST {"Severe","Mild"}
+DEFINE ANNOTATION Sample AS LIST {"Rectal swab","Saliva"}
+DEFINE ANNOTATION Timeline AS LIST {"7 days","10 days"}
+DEFINE ANNOTATION Assay AS LIST {"enzyme immunoassay"}
+DEFINE ANNOTATION Technique AS LIST {"computed tomography"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","Lancet Infect Dis. 2020;S1473-3099(20)30196-1. doi:10.1016/S1473-3099(20)30196-1","32213337"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "On presentation, the most common symptom was fever in 22 patients \
+(96%), followed by cough in five (22%), chills in four (17%), and \
+dyspnoea in four (17%; table)."
+
+SET Species = "9606"
+path(DO:"COVID-19") -> path(MESH:Cough)
+path(DO:"COVID-19") -> path(MESH:Chills)
+path(DO:"COVID-19") -> path(MESH:Dyspnea)
+
+SET Evidence = "Dyspnoea was significantly more frequent among the ten patients with \
+severe disease than among those with mild disease (four [40%] of ten \
+vs none [0%] of 13; p=0·024)."
+
+SET Severity = "Severe"
+path(DO:"COVID-19") -> path(MESH:Dyspnea)
+UNSET Severity
+
+SET Evidence = "Serum alkaline phosphatase was significantly higher among patients \
+with severe disease than among those with mild disease (74 U/L [range \
+56–149] vs 60 U/L [38–118]; p=0·026)."
+
+SET Severity = "Severe"
+SET MeSHAnatomy = "Serum"
+path(DO:"COVID-19") -> p(GFAM:"Alkaline phosphatases")
+UNSET MeSHAnatomy
+UNSET Severity
+
+SET Evidence = "The lymphocyte count was lower among patients with severe disease than \
+among those with mild disease (0·65 × 10⁹ cells per L [range \
+0·30–1·90] vs 1·03 [0·57–2·25]), but this difference was not \
+significant (p=0·088)."
+
+SET Severity = "Severe"
+path(DO:"COVID-19") -| a(MESH:Lymphocytes)
+UNSET Severity
+
+SET Evidence = "Lymphopenia and neutrophilia were present in a higher proportion of \
+patients with severe disease than in those with mild disease, but the \
+differences were not significant (p=0·090 and p=0·068, respectively)."
+
+SET Severity = "Severe"
+path(DO:"COVID-19") -> path(DO:lymphopenia)
+path(DO:"COVID-19") -> path(HP:Neutrophilia)
+UNSET Severity
+
+SET Evidence = "Multifocal ground-glass lung opacities were seen in 17 (74%) patients \
+on CT."
+
+SET Technique = "computed tomography"
+path(DO:"COVID-19") -> path(HP:"Ground-glass opacification on pulmonary HRCT")
+UNSET Technique
+
+SET Evidence = "SARS-CoV-2 RNA was detected in blood samples in five (22%) patients \
+and rectal swabs in four (27%), but the detection rate between severe \
+and mild cases did not differ (p=0·62 and p=0·57, respectively; \
+table)."
+
+SET Severity = {"Severe","Mild"}
+SET MeSHAnatomy = "Blood"
+SET Sample = "Rectal swab"
+path(DO:"COVID-19") -> r(COVID:ORF1ab)
+r(COVID:ORF1ab) -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Sample
+UNSET MeSHAnatomy
+UNSET Severity
+
+SET Evidence = "The viral load in posterior oropharyngeal saliva samples was highest \
+during the first week of symptom onset then gradually declined (slope \
+–0·15, 95% CI –0·19 to –0·11; R²=0·71; figure 2)."
+
+SET MeSHAnatomy = "Oropharynx"
+SET Sample = "Saliva"
+SET Timeline = "7 days"
+path(DO:"COVID-19") -> a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Timeline
+UNSET Sample
+UNSET MeSHAnatomy
+
+SET Evidence = "A significant positive correlation between age and peak viral load was \
+noted (Spearman’s ρ=0·48, 95% CI 0·074–0·75; p=0·020; figure 3A)."
+
+SET Custom_Disease = "COVID-19"
+a(MESH:"Age of Onset") pos a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Custom_Disease
+
+SET Evidence = "An increase was noted in IgG or IgM antibody levels against NP or RBD \
+for most patients at 10 days or later after symptom onset, as shown by \
+OD values in EIA (figure 4)."
+
+SET Custom_Disease = "COVID-19"
+SET Timeline = "10 days"
+SET Assay = "enzyme immunoassay"
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> a(MESH:"Immunoglobulin G")
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> a(MESH:"Immunoglobulin M")
+a(MESH:"Immunoglobulin G") -| p(COVID:N)
+a(MESH:"Immunoglobulin M") -| p(COVID:N)
+p(COVID:N) -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+a(MESH:"Immunoglobulin G") -| p(COVID:S)
+a(MESH:"Immunoglobulin M") -| p(COVID:S)
+p(COVID:S) -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Assay
+UNSET Timeline
+UNSET Custom_Disease
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

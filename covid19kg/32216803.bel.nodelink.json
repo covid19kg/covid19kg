@@ -1,0 +1,1698 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Cohort_Age": [
+        "above 60",
+        "below 40"
+      ],
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Preprint",
+        "Published"
+      ],
+      "PublicationType": [
+        "Case Report",
+        "Research",
+        "Review"
+      ],
+      "Section": [
+        "Abstract",
+        "Full Text",
+        "Results"
+      ],
+      "Severity": [
+        "Severe"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Shounak Baksi",
+      "contact": "shounak.baksi@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32216803.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "EFO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/efo/efo-20171206.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+    },
+    "path": "32216803.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Cohort_Age": {
+          "below 40": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "As shown by Table 1, <40 years or >60 years group was related to higher risk of reaching the composite endpoint (R2 = 0.203, P4 = 0.049).",
+      "key": "eaf838b9acde25108e5ee8a6d5ab764f",
+      "line": 88,
+      "relation": "negativeCorrelation",
+      "source": 0,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cohort_Age": {
+          "above 60": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "As shown by Table 1, <40 years or >60 years group was related to higher risk of reaching the composite endpoint (R2 = 0.203, P4 = 0.049).",
+      "key": "bd9f128749ed008172a947747696e8d7",
+      "line": 91,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cohort_Age": {
+          "below 40": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "As shown by Table 1, <40 years or >60 years group was related to higher risk of reaching the composite endpoint (R2 = 0.203, P4 = 0.049).",
+      "key": "e064347737cad5d61fd7eee8cb41cc12",
+      "line": 88,
+      "relation": "negativeCorrelation",
+      "source": 15,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Cohort_Age": {
+          "above 60": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "As shown by Table 1, <40 years or >60 years group was related to higher risk of reaching the composite endpoint (R2 = 0.203, P4 = 0.049).",
+      "key": "604f4f9875b93745f49ddb76b1df79b4",
+      "line": 91,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher temperature was related to severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.362, R2 = 0.383, P3<0.001, P4<0.001).",
+      "key": "7bc540001c4dea174cd3a3fb8034b114",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "> 10*10^9/L group were strongly related to severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.604, P3<0.001, R2 = 0.543, P4<0.001).",
+      "key": "3c3dc43fd82a4f6caa65dc0a88313c61",
+      "line": 106,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher neutrophil percentage was strongly related to severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.641, P3<0.001, R2 = 0.492, P4<0.001).",
+      "key": "898b6adc07d8497ff6c4ae0fb724b800",
+      "line": 112,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Lower lymphocyte count was strongly related to severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = -0.451, P3<0.001, R2 = -0.415, P4<0.001).",
+      "key": "203c5691b2455cedcafc0df22afdcd6f",
+      "line": 118,
+      "relation": "negativeCorrelation",
+      "source": 15,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher C-reactive protein level was strongly related to severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.572, P3<0.001, R2 = 0.503, P4<0.001).",
+      "key": "19bed357af1873a5db5655b44c623fa2",
+      "line": 124,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher D-dimer level was strongly related to severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.717, P3<0.001,R2 = 0.737,P4<0.001).",
+      "key": "c5ce011acafdd25a1960d5aacda2268a",
+      "line": 130,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher alanine aminotransferase activity was related to severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.243, P3 = 0.013, R2 = 0.306, P4 = 0.002).",
+      "key": "14c508e0e20b4234049dd29567f2fd2e",
+      "line": 136,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher aspartate aminotransferase activity was related to severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.202, P3 = 0.042, R2 = 0.325, P4 = 0.001).",
+      "key": "d885962cba481e3090be69cbd1d9f7c0",
+      "line": 142,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher aspartate aminotransferase activity was related to severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.202, P3 = 0.042, R2 = 0.325, P4 = 0.001).",
+      "key": "70f0a76d6b2e19b07371c45590ac582a",
+      "line": 143,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher α - hydroxybutyrate dehydrogenase activity correlated strongly with severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.449, P3<0.001, R2 = 0.439, P4<0.001).",
+      "key": "0b895f05f0558b047094706bf4bf5bbc",
+      "line": 149,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher lactate dehydrogenase activity correlated strongly with severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.454, P3<0.001, R2 = 0.453, P4<0.001).",
+      "key": "a62e42a465ec9508f80b6a11a0d70a9a",
+      "line": 155,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher lactate dehydrogenase activity correlated strongly with severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.454, P3<0.001, R2 = 0.453, P4<0.001).",
+      "key": "904e208bbde18f3b1060ac21082cbab0",
+      "line": 156,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher creatine kinase activity correlated strongly with severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.231, P3 = 0.019, R2 = 0.289, P4 = 0.003).",
+      "key": "32115790b9f90b018ebc4ead5696d209",
+      "line": 162,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Lower total protein level correlated with severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = − 0.340, P3 = 0.001, R2 = − 0.252, P4 = 0.015).",
+      "key": "287785c5f95aec933825645142261c30",
+      "line": 168,
+      "relation": "negativeCorrelation",
+      "source": 15,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher temperature was related to severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.362, R2 = 0.383, P3<0.001, P4<0.001).",
+      "key": "51b1a56e985ab7d359d76ac7082129fc",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "> 10*10^9/L group were strongly related to severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.604, P3<0.001, R2 = 0.543, P4<0.001).",
+      "key": "00568f1a69abbe5fd3c3f4e22b8af11c",
+      "line": 106,
+      "relation": "positiveCorrelation",
+      "source": 3,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher neutrophil percentage was strongly related to severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.641, P3<0.001, R2 = 0.492, P4<0.001).",
+      "key": "38ba7b40f6930fe5b8f4b01c0350884a",
+      "line": 112,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Lower lymphocyte count was strongly related to severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = -0.451, P3<0.001, R2 = -0.415, P4<0.001).",
+      "key": "50d580bd5d1a3b960323a36a63ffbf0d",
+      "line": 118,
+      "relation": "negativeCorrelation",
+      "source": 4,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher C-reactive protein level was strongly related to severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.572, P3<0.001, R2 = 0.503, P4<0.001).",
+      "key": "45cf3affccd6a094679945538114f9e6",
+      "line": 124,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher D-dimer level was strongly related to severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.717, P3<0.001,R2 = 0.737,P4<0.001).",
+      "key": "5da4d6a2273cf98de4b56a8ddd4fa400",
+      "line": 130,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher alanine aminotransferase activity was related to severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.243, P3 = 0.013, R2 = 0.306, P4 = 0.002).",
+      "key": "656b61ea5ed84c07b10958a2fe0a454b",
+      "line": 136,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher aspartate aminotransferase activity was related to severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.202, P3 = 0.042, R2 = 0.325, P4 = 0.001).",
+      "key": "a9739e37233f61b53287f49eb72a2fd3",
+      "line": 142,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher aspartate aminotransferase activity was related to severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.202, P3 = 0.042, R2 = 0.325, P4 = 0.001).",
+      "key": "1589f5943348cfccb589ec4dfcbe636c",
+      "line": 143,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher α - hydroxybutyrate dehydrogenase activity correlated strongly with severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.449, P3<0.001, R2 = 0.439, P4<0.001).",
+      "key": "297529990f610a7639b61f2f0dd0e3bd",
+      "line": 149,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher lactate dehydrogenase activity correlated strongly with severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.454, P3<0.001, R2 = 0.453, P4<0.001).",
+      "key": "272b3ea66f00cf26cb531424a76a6e44",
+      "line": 155,
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher lactate dehydrogenase activity correlated strongly with severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.454, P3<0.001, R2 = 0.453, P4<0.001).",
+      "key": "ba4d66b91ed4264a8c2c9d99a58f2710",
+      "line": 156,
+      "relation": "positiveCorrelation",
+      "source": 14,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Higher creatine kinase activity correlated strongly with severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.231, P3 = 0.019, R2 = 0.289, P4 = 0.003).",
+      "key": "8c51e9a3aa799307415dacb380eb8956",
+      "line": 162,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationType": {
+          "Case Report": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Qiu S",
+          "Wang B",
+          "Wang Q",
+          "Zhang G",
+          "Zhang J",
+          "Zhu X"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32216803",
+        "db_name": "Respiratory research",
+        "first": "Zhang G",
+        "last": "Qiu S",
+        "pages": "74",
+        "volume": "21"
+      },
+      "evidence": "Lower total protein level correlated with severe 2019 novel coronavirus pneumonia and composite endpoint. (R1 = − 0.340, P3 = 0.001, R2 = − 0.252, P4 = 0.015).",
+      "key": "ad5716337703f7523a49d4e06a167816",
+      "line": 168,
+      "relation": "negativeCorrelation",
+      "source": 1,
+      "target": 15
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(MESH:\"Age of Onset\")",
+      "concept": {
+        "name": "Age of Onset",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "0896fa3662038c7fd85cf6d48191d84f"
+    },
+    {
+      "bel": "a(MESH:\"Blood Proteins\")",
+      "concept": {
+        "name": "Blood Proteins",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "8b54b859063602f40737fc981c43a027"
+    },
+    {
+      "bel": "a(MESH:\"C-Reactive Protein\")",
+      "concept": {
+        "name": "C-Reactive Protein",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "1e1f45b2e019ff5ba76092b7d8017f2f"
+    },
+    {
+      "bel": "a(MESH:Leukocytes)",
+      "concept": {
+        "name": "Leukocytes",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "b215981af8ba668bcfd399aeb27b72fb"
+    },
+    {
+      "bel": "a(MESH:Lymphocytes)",
+      "concept": {
+        "name": "Lymphocytes",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "05994a861f52857ee7dd98e839952695"
+    },
+    {
+      "bel": "a(MESH:Neutrophils)",
+      "concept": {
+        "name": "Neutrophils",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "994989dde1444ddb73e4c899a00aabc7"
+    },
+    {
+      "bel": "bp(EFO:\"D dimer measurement\")",
+      "concept": {
+        "name": "D dimer measurement",
+        "namespace": "EFO"
+      },
+      "function": "BiologicalProcess",
+      "id": "adb2c6aaf5600372075f4348dbf9d820"
+    },
+    {
+      "bel": "bp(MESH:\"Body Temperature\")",
+      "concept": {
+        "name": "Body Temperature",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "96541d6ab1404cb8f6211e78c2db1124"
+    },
+    {
+      "bel": "p(HGNC:BDH1)",
+      "concept": {
+        "name": "BDH1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "60a5249c8146b3d1897b5013ce0d176b"
+    },
+    {
+      "bel": "p(HGNC:CKB)",
+      "concept": {
+        "name": "CKB",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "59ee114c9af89ea338bc76939e7992ca"
+    },
+    {
+      "bel": "p(HGNC:GOT1)",
+      "concept": {
+        "name": "GOT1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "6806c176d9bfc798054f31b888c388f8"
+    },
+    {
+      "bel": "p(HGNC:GOT2)",
+      "concept": {
+        "name": "GOT2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "59afa483cee08ca40a6240a5bf760be5"
+    },
+    {
+      "bel": "p(HGNC:GPT)",
+      "concept": {
+        "name": "GPT",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "86617b0271f3cba1d1ebdf66ff44b39a"
+    },
+    {
+      "bel": "p(HGNC:LDHA)",
+      "concept": {
+        "name": "LDHA",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "192b81d449af3caef26e890a119b659a"
+    },
+    {
+      "bel": "p(HGNC:LDHB)",
+      "concept": {
+        "name": "LDHB",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "a6651e465b61bc96d95581c2f9c1050e"
+    },
+    {
+      "bel": "path(MESH:Mortality)",
+      "concept": {
+        "name": "Mortality",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "df8c4e5f3d406d3ef8f732f01595a9a6"
+    }
+  ]
+}

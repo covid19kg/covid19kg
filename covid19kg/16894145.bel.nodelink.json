@@ -1,0 +1,1283 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Species": [
+        "8353"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "Cell": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno",
+      "CellLine": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno",
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Geena Mariya Jose",
+      "contact": "geena.mariya.jose@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "16894145.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "16894145.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "BioAssay": {
+          "ELISA": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "Results show that SARS patients’ sera contain high levels of IgG recognizing 3a protein (Fig. 1A).",
+      "key": "a94e83fa99db1748c8f818e7cd8e53d7",
+      "line": 56,
+      "relation": "increases",
+      "source": 4,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "western blot": true
+        },
+        "CellLine": {
+          "FRhK-4 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "A 37-kDa protein (3a protein) was recognized by the anti-LH21 Ab in virus-infected cell lysate but not in uninfected cell lysate (Fig. 1B), which indicates an active expression of 3a protein in the virus-infected cells.",
+      "key": "42a490ff36106c55fb6086b841ee715e",
+      "line": 65,
+      "relation": "increases",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "ELISA": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "Results show that SARS patients’ sera contain high levels of IgG recognizing 3a protein (Fig. 1A).",
+      "key": "92ac4226195e486e589f3d5fd5388a8e",
+      "line": 57,
+      "relation": "association",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "ELISA": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "Results show that SARS patients’ sera contain high levels of IgG recognizing 3a protein (Fig. 1A).",
+      "key": "8926c6b0a2117958afdea0c9a7e91c24",
+      "line": 57,
+      "relation": "association",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "confocal microscopy": true,
+          "immunohistochemistry": true
+        },
+        "CellLine": {
+          "FRhK-4 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "Fig. 1C reveals a high density of the 3a protein at the cell membrane and also in the cytoplasm and the nucleus of the infected cells.",
+      "key": "4fc5568c63297becccd9266a1c5e849b",
+      "line": 70,
+      "relation": "association",
+      "source": 9,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "confocal microscopy": true,
+          "immunohistochemistry": true
+        },
+        "Cell": {
+          "oocyte": true
+        },
+        "Custom_Species": {
+          "8353": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "The 3a protein expression for both wild-type and M6 mutant was revealed on the oocyte cell membranes by anti-LH21 Ab and confocal microscopy (Fig. 4 B and C).",
+      "key": "9cda861256201dd676b67b6dedd8eec4",
+      "line": 93,
+      "relation": "association",
+      "source": 9,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "confocal microscopy": true,
+          "immunohistochemistry": true
+        },
+        "CellLine": {
+          "FRhK-4 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "Fig. 1C reveals a high density of the 3a protein at the cell membrane and also in the cytoplasm and the nucleus of the infected cells.",
+      "key": "efde7659ef1f597eeb44c5677be286f6",
+      "line": 71,
+      "relation": "association",
+      "source": 9,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "confocal microscopy": true,
+          "immunohistochemistry": true
+        },
+        "CellLine": {
+          "FRhK-4 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "Fig. 1C reveals a high density of the 3a protein at the cell membrane and also in the cytoplasm and the nucleus of the infected cells.",
+      "key": "9be2f0c09bff90a4f4f16ff270846940",
+      "line": 72,
+      "relation": "association",
+      "source": 9,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "confocal microscopy": true,
+          "immunohistochemistry": true
+        },
+        "CellLine": {
+          "FRhK-4 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "These findings demonstrate that 3a protein is a transmembrane protein with an extracellular N terminus and an intracellular C terminus (Fig. 2C).",
+      "key": "8afbecdfc7928b9300d1339c92255066",
+      "line": 75,
+      "relation": "isA",
+      "source": 9,
+      "target": 3
+    },
+    {
+      "key": "5edf92271104b7e9f3c504fc2e5eaadf",
+      "relation": "partOf",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "key": "1d8ea3f66905c4f0a7b9b86742574690",
+      "relation": "hasVariant",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electrophysiological method": true
+        },
+        "Cell": {
+          "oocyte": true
+        },
+        "Custom_Species": {
+          "8353": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "We observed that oocytes expressing 3a protein at their membrane surface led to a dramatic increase of membrane current over the entire potential range in 100 mM potassium solution (Fig. 4E).",
+      "key": "97c3718cc134772af3bbcaa4f24bc9ef",
+      "line": 100,
+      "relation": "increases",
+      "source": 9,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 6
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electrophysiological method": true
+        },
+        "Cell": {
+          "oocyte": true
+        },
+        "Custom_Species": {
+          "8353": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "The 3a-mediated potassium-sensitive current could be completely blocked by 10 mM barium in the bath solution (Fig. 4F).",
+      "key": "1ef35e5c27657b0212f8445c6eed1944",
+      "line": 106,
+      "relation": "association",
+      "source": 9,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative reverse transcription PCR": true,
+          "titration method": true
+        },
+        "CellLine": {
+          "FRhK-4 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "The results suggest that the viral 3a protein function may contribute to the release of the virus from infected cells.",
+      "key": "64461a2a06977c2897da8073bf745596",
+      "line": 115,
+      "relation": "increases",
+      "source": 9,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 7
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "confocal microscopy": true,
+          "immunohistochemistry": true
+        },
+        "CellLine": {
+          "FRhK-4 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "Fig. 1C reveals a high density of the 3a protein at the cell membrane and also in the cytoplasm and the nucleus of the infected cells.",
+      "key": "41aa096e3e6ccb605441c25c3d311618",
+      "line": 70,
+      "relation": "association",
+      "source": 0,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "confocal microscopy": true,
+          "immunohistochemistry": true
+        },
+        "Cell": {
+          "oocyte": true
+        },
+        "Custom_Species": {
+          "8353": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "The 3a protein expression for both wild-type and M6 mutant was revealed on the oocyte cell membranes by anti-LH21 Ab and confocal microscopy (Fig. 4 B and C).",
+      "key": "21b91f8d0f124ba07e676f7068a35ad6",
+      "line": 93,
+      "relation": "association",
+      "source": 0,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "confocal microscopy": true,
+          "immunohistochemistry": true
+        },
+        "Cell": {
+          "oocyte": true
+        },
+        "Custom_Species": {
+          "8353": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "The 3a protein expression for both wild-type and M6 mutant was revealed on the oocyte cell membranes by anti-LH21 Ab and confocal microscopy (Fig. 4 B and C).",
+      "key": "8312f10b46f0847cb80e8695b289c104",
+      "line": 94,
+      "relation": "association",
+      "source": 0,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "confocal microscopy": true,
+          "immunohistochemistry": true
+        },
+        "CellLine": {
+          "FRhK-4 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "Fig. 1C reveals a high density of the 3a protein at the cell membrane and also in the cytoplasm and the nucleus of the infected cells.",
+      "key": "7c3d9b7899c257439419e31bbf8158f0",
+      "line": 71,
+      "relation": "association",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "confocal microscopy": true,
+          "immunohistochemistry": true
+        },
+        "CellLine": {
+          "FRhK-4 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "Fig. 1C reveals a high density of the 3a protein at the cell membrane and also in the cytoplasm and the nucleus of the infected cells.",
+      "key": "abe2b5baf16fb8535f30d441269ea51e",
+      "line": 72,
+      "relation": "association",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "western blot": true
+        },
+        "CellLine": {
+          "HEK293": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "However, mutation M6 on cysteine 133 led to near abrogation of both dimers and tetramers of the protein, suggesting that this cysteine is involved in 3a protein polymerization.",
+      "key": "9c59daa6856af5169d445a7faff09771",
+      "line": 85,
+      "relation": "decreases",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "confocal microscopy": true,
+          "immunohistochemistry": true
+        },
+        "Cell": {
+          "oocyte": true
+        },
+        "Custom_Species": {
+          "8353": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "The 3a protein expression for both wild-type and M6 mutant was revealed on the oocyte cell membranes by anti-LH21 Ab and confocal microscopy (Fig. 4 B and C).",
+      "key": "a04e72e65b97423e87080fcf6ead18c8",
+      "line": 94,
+      "relation": "association",
+      "source": 10,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electrophysiological method": true
+        },
+        "Cell": {
+          "oocyte": true
+        },
+        "Custom_Species": {
+          "8353": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "Expression of M6 mutant 3a protein, in contrast to expression of the native 3a protein, did not result in an increase of membrane current when extracellular potassium concentration was kept at 100 mM; the current was similar to that of noninjected oocytes (Fig. 4E).",
+      "key": "3a3cc1a720da0673eb6988df763efc68",
+      "line": 103,
+      "relation": "decreases",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electrophysiological method": true
+        },
+        "Cell": {
+          "oocyte": true
+        },
+        "Custom_Species": {
+          "8353": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "The 3a-mediated potassium-sensitive current could be completely blocked by 10 mM barium in the bath solution (Fig. 4F).",
+      "key": "f178f07267bfdcbd515f771d26c0b008",
+      "line": 106,
+      "relation": "association",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electrophysiological method": true
+        },
+        "Cell": {
+          "oocyte": true
+        },
+        "Custom_Species": {
+          "8353": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Deubel V",
+          "Du L",
+          "Duan S",
+          "Lu W",
+          "Schwarz W",
+          "Sun B",
+          "Wong CK",
+          "Xu K",
+          "Zheng BJ"
+        ],
+        "date": "2006-08-15",
+        "db": "PubMed",
+        "db_id": "16894145",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Lu W",
+        "last": "Sun B",
+        "pages": "12540-5",
+        "volume": "103"
+      },
+      "evidence": "The 3a-mediated potassium-sensitive current could be completely blocked by 10 mM barium in the bath solution (Fig. 4F).",
+      "key": "04f9b61a8aa2e24b9913a2a08fef04be",
+      "line": 107,
+      "relation": "increases",
+      "source": 5,
+      "target": 6
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(GO:\"plasma membrane\")",
+      "concept": {
+        "name": "plasma membrane",
+        "namespace": "GO"
+      },
+      "function": "Abundance",
+      "id": "3e074a90d5bf024e09f9247724f474cd"
+    },
+    {
+      "bel": "a(GO:cytoplasm)",
+      "concept": {
+        "name": "cytoplasm",
+        "namespace": "GO"
+      },
+      "function": "Abundance",
+      "id": "2eefe0aae5d452b20fac5e2d05420302"
+    },
+    {
+      "bel": "a(GO:nucleus)",
+      "concept": {
+        "name": "nucleus",
+        "namespace": "GO"
+      },
+      "function": "Abundance",
+      "id": "3ffb994d127c4504e1b4c75f1f1d9446"
+    },
+    {
+      "bel": "a(MESH:\"Membrane Proteins\")",
+      "concept": {
+        "name": "Membrane Proteins",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "8ea9080da3d565ba6d78d31dfd1801af"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "a824ba056422b4e42996cd3269ec9a19"
+    },
+    {
+      "bel": "bp(GO:\"potassium channel activity\")",
+      "concept": {
+        "name": "potassium channel activity",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "d7799286d5480c292791d9fd17843c7b"
+    },
+    {
+      "bel": "bp(GO:\"potassium ion transmembrane transport\")",
+      "concept": {
+        "name": "potassium ion transmembrane transport",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "d8c998ec47c951c3731ab0745de4ca60"
+    },
+    {
+      "bel": "bp(GO:\"viral release from host cell\")",
+      "concept": {
+        "name": "viral release from host cell",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "7ddc4c2af85f52bf1e7fc0a3497fc58b"
+    },
+    {
+      "bel": "complex(p(UNIPROT:P59632), p(UNIPROT:P59632))",
+      "function": "Complex",
+      "id": "790e1ffc359fcc3bdaf92c812df63d17",
+      "members": [
+        {
+          "bel": "p(UNIPROT:P59632)",
+          "concept": {
+            "name": "P59632",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "3f9bf94203188b4bd8e831d4e61cb9cc"
+        },
+        {
+          "bel": "p(UNIPROT:P59632)",
+          "concept": {
+            "name": "P59632",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "3f9bf94203188b4bd8e831d4e61cb9cc"
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P59632)",
+      "concept": {
+        "name": "P59632",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "3f9bf94203188b4bd8e831d4e61cb9cc"
+    },
+    {
+      "bel": "p(UNIPROT:P59632, var(\"p.Cys133Ala\"))",
+      "concept": {
+        "name": "P59632",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "7d02f48c275a7cffb714f1704132a6e0",
+      "variants": [
+        {
+          "hgvs": "p.Cys133Ala",
+          "kind": "hgvs"
+        }
+      ]
+    },
+    {
+      "bel": "path(DO:\"severe acute respiratory syndrome\")",
+      "concept": {
+        "name": "severe acute respiratory syndrome",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "06fc6690e6ddfff254197e953a470c95"
+    }
+  ]
+}

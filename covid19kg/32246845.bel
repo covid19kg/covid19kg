@@ -1,0 +1,131 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Lukassen_et.al_2020.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","32246845"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "As expected from prior literature, the AT2 cells showed highest ACE2 expression in the lung both in terms of their CPM values (Fig. 1D, further referred to as ACE2+ cells) and the percentage of positive cells (Supp. Fig. 3)."
+SET Species = "9606"
+SET MeSHAnatomy = "Lung"
+SET BioAssay = "nucleic acid sequencing method"
+p(HGNC:ACE2) -- a(MESH:"Alveolar Epithelial Cells")
+
+SET Evidence = "The expression of TMPRSS2 across cell types of the lung (further referred to as TMPRSS2+ cells) was much stronger with a certain specificity for AT2 cells (Fig. 1E), which is in agreement with previous studies."
+p(HGNC:TMPRSS2) -- a(MESH:"Alveolar Epithelial Cells")
+p(HGNC:TMPRSS2) -- path(HP:"ciliated epithelial cell")
+p(HGNC:TMPRSS2) -- path(HP:"lung endothelial cell")
+p(HGNC:TMPRSS2) -- path(HP:"fibroblast of lung")
+p(HGNC:TMPRSS2) -- a(MESH:Monocytes)
+p(HGNC:TMPRSS2) -- path(HP:"T cell")
+p(HGNC:TMPRSS2) -- path(HP:"endothelial cell of lymphatic vessel")
+UNSET MeSHAnatomy
+
+SET Evidence = "Expression levels of ACE2 were comparable but slightly elevated compared to the lung tissue samples, with the strongest expression being observed in a subset of secretory cells (‘secretory3’; Fig. 1G)."
+SET Cell = "bronchial epithelial cell"
+p(HGNC:ACE2) -- path(HP:"lung secretory cell")
+
+SET Evidence = "While TMPRSS2 was less strongly expressed in HBECs than in lung tissue cells, its expression was still markedly higher than that of ACE2 (Fig. 1H)."
+p(HGNC:TMPRSS2) -- path(HP:"lung secretory cell")
+
+SET Evidence = "‘Secretory3’ cells were found at an intermediate position between club or goblet cells and ciliated cells (Fig. 2A), which could be confirmed by shared marker gene expression (Fig. 2B)."
+p(HGNC:SCGB1A1) -- path(HP:"lung secretory cell")
+p(HGNC:XBP1) -- path(HP:"lung secretory cell")
+p(HGNC:VMO1) -- path(HP:"lung secretory cell")
+p(HGNC:PIGR) -- path(HP:"lung secretory cell")
+p(HGNC:TUBA1A) -- path(HP:"lung secretory cell")
+p(HGNC:TUBB4B) -- path(HP:"lung secretory cell")
+p(HGNC:PLAUR) -- path(HP:"lung secretory cell")
+p(HGNC:ISG20) -- path(HP:"lung secretory cell")
+UNSET Cell
+
+SET Evidence = "In agreement with ongoing differentiation towards an epithelial cell lineage, the cells pecific markers of the transient secretory cells showed an enrichment of RHO GTPases and their related pathways (Fig. 2E)."
+path(HP:"lung secretory cell") -- g(GFAM:"Rho family GTPases")
+
+SET Evidence = "As RHO GTPases have been implicated in membrane remodeling and the viral replication cycle, especially entry, replication, and spread [Van den Broeke et al. (2014)], transient secretory cells may be more permissive to SARS-CoV-2 infection
+adding to a potential vulnerability caused by considerably high co-expression levels
+of ACE2 and TMPRSS2."
+g(GFAM:"Rho family GTPases") -- bp(GO:"viral life cycle")
+g(GFAM:"Rho family GTPases") -- bp(GO:"viral entry into host cell")
+g(GFAM:"Rho family GTPases") -- path(MESH:"Virus Replication")
+g(GFAM:"Rho family GTPases") -- bp(GO:"viral release from host cell")
+
+SET Evidence = "Therefore, we investigated the expression of FURIN, as SARS-CoV-2 but not SARS-CoV was reported to have a FURIN cleavage site in its S protein, potentially increasing its priming upon ACE2 receptor binding."
+p(HGNC:FURIN) reg p(COVID:S)
+p(HGNC:FURIN) -> complex(a(TAX:"Severe acute respiratory syndrome coronavirus 2"),p(HGNC:ACE2))
+
+SET Evidence = "In lung tissue, AT2, endothelial, and immune cells were most strongly positive for FURIN expression (Fig. 3A)."
+SET MeSHAnatomy = "Lung"
+p(HGNC:FURIN) -- a(MESH:"Alveolar Epithelial Cells")
+p(HGNC:FURIN) -- path(HP:"lung endothelial cell")
+p(HGNC:FURIN) -- a(MESH:Monocytes)
+p(HGNC:FURIN) -- path(HP:"T cell")
+
+SET Evidence = "Across cell types, we observed a marked enrichment of the number of double and triple positive cells for any combination of ACE2, TMPRSS2, and/or FURIN expression, indicating a preference for co-expression (Fig. 3B)."
+composite(p(HGNC:FURIN),p(HGNC:TMPRSS2),p(HGNC:ACE2)) -- path(HP:lung)
+UNSET MeSHAnatomy
+
+SET Evidence = "Interestingly, also transient secretory cells in the HBECs showed an intermediate expression of FURIN (Fig. 3C)."
+SET Cell = "bronchial epithelial cell"
+p(HGNC:FURIN) -- path(HP:"lung secretory cell")
+
+SET Evidence = "In the HBECs, a significant enrichment of the number of ACE2+/TMPRSS2+ double-positive cells was observed, while ACE2+/TMPRSS2+/FURIN+ enrichment did not reach
+significance (Fig. 3D)."
+composite(p(HGNC:TMPRSS2),p(HGNC:ACE2)) -- path(HP:"bronchial epithelial cell")
+UNSET Cell
+
+SET Evidence = "Thus, our data suggest that FURIN might increase overall permissiveness of cells in the respiratory tract by potentially equipping more cells with proteolytic activity for SARS-CoV-2 S protein priming after ACE2 receptor binding."
+p(HGNC:FURIN) -> complex(a(TAX:"Severe acute respiratory syndrome coronavirus 2"),p(HGNC:ACE2))
+complex(a(TAX:"Severe acute respiratory syndrome coronavirus 2"),p(HGNC:ACE2)) -> bp(GO:"viral entry into host cell")
+
+SET Evidence = "Here, we see a trend for increasing overall expression of ACE2 with age for all female lung samples (R2=0.40; p=0.065)."
+p(HGNC:ACE2) pos path(HP:"human aged stage")
+UNSET BioAssay
+UNSET Species
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

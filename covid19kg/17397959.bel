@@ -1,0 +1,182 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "17397959.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+#DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Custom_CellLine AS LIST {"Vero E6 cell"}
+DEFINE ANNOTATION Timeline AS LIST {"10-14 hours","12 hours postinfection"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","17397959"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "When the variability between nsp 3 isolates of the SARS epidemic are \
+compared, the results suggest that nsps 1-3 perform cell- and host- \
+specific roles in replication and/or virulence. Additionally, they \
+have demonstrated high capacity for adaptation to new environments and \
+selective pressures."
+
+p(UNIPROT:P0C6X7) -- a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+p(UNIPROT:P0C6X7, frag("1_180")) -- bp(MESH:"Virus Replication")
+#p(UNIPROT:P0C6X7, frag("1_180")) = nsp1
+p(UNIPROT:P0C6X7, frag("181_818")) -- bp(MESH:"Virus Replication")
+#p(UNIPROT:P0C6X7, frag("181_818")) = nsp2
+p(UNIPROT:P0C6X7, frag("819_2740")) -- bp(MESH:"Virus Replication")
+#p(UNIPROT:P0C6X7, frag("819_2740")) = nsp3
+
+SET Evidence = "Kamitami et al. observed that SARS-CoV replication in human 293 cells \
+suppresses IFN-β mRNA accumulation (Kamitani et al., 2006). Plasmid- \
+based overexpression of nsp 1 resulted in the inhibition of host gene \
+expression by promoting degradation of host mRNA, and that IFN-β mRNA \
+accumulation was decreased without alteration of IRF-3 \
+phosphorylation, dimerization, or translocation."
+
+SET Species = "9606"
+SET CellLine = "HEK293"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -| r(HGNC:IFNB1)
+p(UNIPROT:P0C6X7, frag("1_180")) -| r(HGNC:IFNB1)
+UNSET CellLine
+UNSET Species
+
+SET Evidence = "Further analysis showed that SARS-CoV nsp 1 suppressed Sendai virus- \
+induced IFN-β mRNA accumulation, and suppressed reporter mRNA \
+accumulation in cells."
+
+SET Species = "10090"
+a(TAX:"Murine respirovirus") -> r(MGI:Ifnb1)
+p(UNIPROT:P0C6X7, frag("1_180")) -| r(MGI:Ifnb1)
+UNSET Species
+
+SET Evidence = "Overexpression of nsp 1 in the lung epithelial cell line A549 \
+increases the production of CCL5, CXCL10 and CCL3 cytokines \
+30-200-fold compared with mock-transfected cells or cells expressing \
+nsp 5 (Law et al., 2006). Similar results were detected with CCL5 and \
+CXCL10 in HepG2 cells, suggesting that this was not a cell line- \
+specific induction."
+
+SET Species = "9606"
+SET CellLine = {"A549 cell","Hep G2 cell"}
+p(UNIPROT:P0C6X7, frag("1_180")) -> p(HGNC:CCL5)
+p(UNIPROT:P0C6X7, frag("1_180")) -> p(HGNC:CXCL10)
+UNSET CellLine
+SET CellLine = "A549 cell"
+p(UNIPROT:P0C6X7, frag("1_180")) -> p(HGNC:CCL3)
+UNSET CellLine
+UNSET Species
+
+SET Evidence = "NFκ-B expression increased 10-14 h post-nsp 1 transfection, suggesting \
+that cytokine induction occurred via an NFκ-B-dependent pathway. In \
+support of this hypothesis, expression of CCL5, CCL3 and CXCL10 was \
+reduced up to 60% in nsp 1-expressing cells in the presence of the \
+IKK-β inhibitor, sodium salicylate."
+
+SET Species = "9606"
+SET CellLine = "Hep G2 cell"
+SET Timeline = "10-14 hours"
+p(UNIPROT:P0C6X7, frag("1_180")) -> p(GFAM:"NF-kappa B complex subunits")
+composite(p(UNIPROT:P0C6X7, frag("1_180")),a(CHEBI:"Sodium salicylate")) -| p(HGNC:CCL5)
+composite(p(UNIPROT:P0C6X7, frag("1_180")),a(CHEBI:"Sodium salicylate")) -| p(HGNC:CXCL10)
+composite(p(UNIPROT:P0C6X7, frag("1_180")),a(CHEBI:"Sodium salicylate")) -| p(HGNC:CCL3)
+UNSET Timeline
+UNSET CellLine
+UNSET Species
+
+SET Evidence = "The Appr-1″-p domain of nsp 3 is proposed to have functions in viral \
+RNA synthesis (Snijder et al., 2003)."
+
+p(UNIPROT:P0C6X7, frag("819_2740")) -> bp(GO:"RNA biosynthetic process")
+bp(GO:"RNA biosynthetic process") -- a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+
+SET Evidence = "Two groups subsequently demonstrated that expressed and purified SARS \
+PLP possesses deubiquitinating activity (Barretto et al., 2005; \
+Lindner et al., 2005)."
+
+act(p(UNIPROT:P0C6X7, frag("819_2740"))) -> bp(GO:"protein deubiquitination")
+
+SET Evidence = "At 12 h post-infection (p.i.), wildtype nsps 1 and 2 both displayed \
+bright, punctate perinuclear localization, similar to that observed in \
+MHV infection (Fig. 4A)."
+
+SET Custom_CellLine = "Vero E6 cell"
+SET Timeline = "12 hours postinfection"
+p(UNIPROT:P0C6X7, frag("1_180")) -> a(MESH:Punctures, loc(GO:"nuclear outer membrane"))
+p(UNIPROT:P0C6X7, frag("181_818")) -> a(MESH:Punctures, loc(GO:"nuclear outer membrane"))
+UNSET Timeline
+UNSET Custom_CellLine
+
+SET Evidence = "This data suggests that the deletion of the 226 RGV 228 in the A4 \
+mutant may disrupt a domain of nsp 2 required for proper replication \
+complex interaction, though the formation of the replication complexes \
+is apparently not hindered, as evidenced by the localization of nsps 1 \
+and 8."
+
+p(UNIPROT:P0C6X7, var("p.226_228delRGV")) -| complex(p(UNIPROT:P0C6X7, frag("181_818")),complex(GO:"viral replication complex"))
+
+SET Evidence = "Together, nsps 3, 4, and 6 are predicted to function to nucleate and \
+anchor viral replication complexes on double-membrane vesicles in the \
+cytoplasm (Gosert et al., 2002;Prentice et al., 2004a;van der Meer et \
+al., 1999)."
+
+composite(p(UNIPROT:P0C6X7, frag("819_2740")),p(UNIPROT:P0C6X7, frag("2741_3240")),p(UNIPROT:P0C6X7, frag("3547_3836"))) -> bp(GO:enucleation)
+composite(p(UNIPROT:P0C6X7, frag("819_2740")),p(UNIPROT:P0C6X7, frag("2741_3240")),p(UNIPROT:P0C6X7, frag("3547_3836"))) -> bp(GO:"viral replication complex formation and maintenance")
+
+SET Evidence = "It was discovered that SARS-CoV nsp 4 is cleaved first at its amino \
+terminus by the PLP (PLP2 for MHV) and at its carboxy terminus by \
+3CLPro (Harcourt et al., 2004;Kanjanahaluethai et al., 2003;Prentice \
+et al., 2004b)."
+
+act(p(UNIPROT:P0C6X7, frag("819_2740"))) -> p(UNIPROT:P0C6X7, frag("2741_?"))
+act(p(UNIPROT:P0C6X7, frag("3547_3836"))) -> p(UNIPROT:P0C6X7, frag("?_3240"))
+
+SET Evidence = "Nsp 14 likely functions coordinately with nsps 15 and 16 in processing \
+and modification of viral or cellular RNAs."
+
+composite(p(UNIPROT:P0C6X7, frag("5903_6429")),p(UNIPROT:P0C6X7, frag("6430_6775"))) -> bp(GO:"viral RNA genome packaging")
+composite(p(UNIPROT:P0C6X7, frag("5903_6429")),p(UNIPROT:P0C6X7, frag("6776_7073"))) -> bp(GO:"viral RNA genome packaging")
+
+SET Evidence = "However, the Y414 virus was virulent in mice, whereas the Y414H mutant \
+was completely attenuated, even in the absence of the mutation in the \
+2a protein (Sperry et al., 2005)."
+
+SET Species = "10090"
+p(UNIPROT:P0C6X7, frag("5903_6429")) -> bp(GO:"viral process")
+p(UNIPROT:P0C6X7, var("p.Tyr414His")) -| bp(GO:"viral process")
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

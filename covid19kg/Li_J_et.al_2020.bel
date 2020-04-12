@@ -1,0 +1,152 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Li_J_et.al_2020.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Severity AS LIST {"Mild","Severe"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"DOI","10.1101/2020.03.31.019216"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Full Text"
+
+SET Evidence = "This novel strain of coronavirus has been identified as the causative agent for the epidemic of acute respiratory distress syndrome [also referred to as coronavirus disease 2019 (COVID-19)] in Wuhan, China 1–3 ."
+
+SET Species = "9606"
+SET Custom_Disease = "COVID-19"
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") pos path(DO:"COVID-19")
+
+SET Evidence = "The common clinical manifestations of fever and cough in conjunction with laboratory results of progressively increasing neutrophil counts and leukocytopenia in serum samples taken from COVID-19 patients at various stages of the illness indicates uncontrolled neutrophil extravasation and activation 11,12 . "
+
+path(DO:"COVID-19") pos path(MESH:Fever)
+path(DO:"COVID-19") pos path(MESH:Cough)
+SET MeSHAnatomy = "Serum"
+path(DO:"COVID-19") -> a(MESH:Neutrophils)
+path(DO:"COVID-19") -| a(MESH:Leukocytes)
+UNSET MeSHAnatomy
+path(DO:"COVID-19") -> bp(GO:"neutrophil extravasation")
+path(DO:"COVID-19") -> bp(GO:"neutrophil activation")
+
+SET Evidence = "Chemical signals such as Interleukin-8 (IL-8) and IL-6 stimulate neutrophil chemotaxis and recruitment to the site of infection where they congregate and cause the release of more proinflammatory mediators that in turn activate additional inflammatory signals, leading to cytokine storms that may progress to vital organ failure 13 ."
+
+path(DO:"COVID-19") pos p(HGNC:IL6)
+path(DO:"COVID-19") pos p(HGNC:CXCL8)
+p(HGNC:IL6) -> bp(GO:"neutrophil chemotaxis")
+p(HGNC:CXCL8) -> bp(GO:"neutrophil chemotaxis")
+bp(GO:"neutrophil chemotaxis") -> bp(GO:"inflammatory response")
+
+SET Evidence = "Key viral-cellular PPIs that may influence the pathogenesis of SARS-CoV-2 include interaction between NKRF (an endogenous repressor of IL-8/IL-6 synthesis) and nsp9/nsp10/nsp12/nsp13/nsp15 20,21 , C1QBP (involved in complement C1 activation) and nsp9/nsp10 22 , G3BP2 (anti-viral stress granule protein) and N 23 , and RAE1 (an interferon-inducible mRNA nuclear export protein) and ORF6 24 ."
+
+act(p(HGNC:NKRF)) -| bp(GO:"interleukin-6 biosynthetic process")
+act(p(HGNC:NKRF)) -| bp(GO:"interleukin-8 biosynthetic process")
+complex(p(HGNC:NKRF),p(COVID:ORF1ab, frag("4141_4253"))) reg path(DO:"COVID-19")
+complex(p(HGNC:NKRF),p(COVID:ORF1ab, frag("4254_4392"))) reg path(DO:"COVID-19")
+complex(p(HGNC:NKRF),p(COVID:ORF1ab, frag("4393_5324"))) reg path(DO:"COVID-19")
+complex(p(HGNC:NKRF),p(COVID:ORF1ab, frag("5325_5925"))) reg path(DO:"COVID-19")
+complex(p(HGNC:NKRF),p(COVID:ORF1ab, frag("6453_6798"))) reg path(DO:"COVID-19")
+act(p(HGNC:C1QBP)) -> bp(GO:"complement activation")
+complex(p(HGNC:C1QBP),p(COVID:ORF1ab, frag("4141_4253"))) reg path(DO:"COVID-19")
+complex(p(HGNC:C1QBP),p(COVID:ORF1ab, frag("4254_4392"))) reg path(DO:"COVID-19")
+complex(p(HGNC:G3BP2),p(COVID:N)) reg path(DO:"COVID-19")
+complex(p(HGNC:RAE1),p(COVID:ORF6)) reg path(DO:"COVID-19")
+p(HGNC:RAE1) -- complex(GO:"RNA nuclear export complex")
+
+SET Evidence = "Functional analysis by DAVID and Cluster Profiler revealed that these genes were enriched in specific cellular biological processes, including positive regulation of neutrophil chemotaxis, neutrophil activation, type I interferon signaling pathway, inflammatory response, and antigen processing and presentation (Fig.3b and Extended Data Fig.5c-d), suggesting an active innate immune response against SARS-CoV-2 infection."
+
+path(DO:"COVID-19") pos bp(GO:"neutrophil chemotaxis")
+path(DO:"COVID-19") pos bp(GO:"neutrophil activation")
+path(DO:"COVID-19") pos bp(GO:"type I interferon signaling pathway")
+path(DO:"COVID-19") pos bp(GO:"inflammatory response")
+path(DO:"COVID-19") pos bp(GO:"antigen processing and presentation")
+
+SET Evidence = "Analysis of the global proteomic changes reveal significant upregulation of CXCR2, PRG3, LBP, MMP25, CRP, NLRP1 in the COVID-19-MS PBMC cohort (Fig.3c)."
+
+SET Severity = "Mild"
+path(DO:"COVID-19") pos p(HGNC:CXCR2)
+path(DO:"COVID-19") pos p(HGNC:PRG3)
+path(DO:"COVID-19") pos p(HGNC:LBP)
+path(DO:"COVID-19") pos p(HGNC:MMP25)
+path(DO:"COVID-19") pos p(HGNC:CRP)
+path(DO:"COVID-19") pos p(HGNC:NLRP1)
+UNSET Severity
+
+SET Evidence = "The elevation of IL-8 and IL-6 but not IL-17 in PMBCs collected from COVID-19 patients indicates possible roles for IL-8/IL-6 in the severe inflammatory response induced by SARS-CoV-2 (Fig.3d-e and Extended Data Fig.5e)."
+
+SET Severity = "Severe"
+SET Cell = "peripheral blood mononuclear cell"
+path(DO:"COVID-19") pos p(HGNC:IL6)
+path(DO:"COVID-19") pos p(HGNC:CXCL8)
+UNSET Cell
+UNSET Severity
+
+SET Evidence = "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function."
+
+SET Severity = "Severe"
+path(DO:"COVID-19") pos p(HGNC:CD3E)
+path(DO:"COVID-19") pos p(HGNC:CD3G)
+path(DO:"COVID-19") pos p(HGNC:CD247)
+path(DO:"COVID-19") pos g(HGNC:TRAC)
+path(DO:"COVID-19") pos g(HGNC:TRBC1)
+path(DO:"COVID-19") pos p(HGNC:CD4)
+path(DO:"COVID-19") pos p(HGNC:CD8A)
+path(DO:"COVID-19") pos p(HGNC:CD8B)
+path(DO:"COVID-19") pos p(HGNC:CD2)
+path(DO:"COVID-19") pos p(HGNC:"HLA-DRA")
+path(DO:"COVID-19") pos p(HGNC:"HLA-DRB1")
+path(DO:"COVID-19") pos p(HGNC:"HLA-DRB4")
+path(DO:"COVID-19") pos p(HGNC:"HLA-DRB5")
+path(DO:"COVID-19") pos p(HGNC:ZAP70)
+path(DO:"COVID-19") pos p(HGNC:LCK)
+path(DO:"COVID-19") pos p(HGNC:FYN)
+path(DO:"COVID-19") neg bp(GO:"T cell activation")
+UNSET Severity
+
+SET Evidence = "The expressions of immunoglobulin subunits (IGHG1, IGHG2, IGHG4, IGLC2, IGLL1, and IGHE) were also significant lower in COVID-19-SS (Fig.3a,h), indicating reduced antibody secretion by B cells."
+
+SET Severity = "Severe"
+path(DO:"COVID-19") neg p(HGNC:IGHG1)
+path(DO:"COVID-19") neg p(HGNC:IGHG2)
+path(DO:"COVID-19") neg p(HGNC:IGHG4)
+path(DO:"COVID-19") neg p(HGNC:IGLC2)
+path(DO:"COVID-19") neg p(HGNC:IGLL1)
+path(DO:"COVID-19") neg p(HGNC:IGHE)
+UNSET Severity
+UNSET Custom_Disease
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

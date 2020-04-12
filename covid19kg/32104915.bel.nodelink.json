@@ -1,0 +1,2594 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Species": [
+        "9823"
+      ],
+      "PublicationStatus": [
+        "Preprint"
+      ],
+      "PublicationType": [
+        "Review"
+      ],
+      "Section": [
+        "Full Text"
+      ],
+      "Technique": [
+        "computed tomography"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno",
+      "TextLocation": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+    },
+    "document_metadata": {
+      "authors": "Geena Mariya Jose",
+      "contact": "geena.mariya.jose@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32104915.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32104915.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Most human CoVs, such as hCoV-229E, OC43, NL63, and HKU1, cause mild respiratory diseases, but the worldwide spread of two previously unrecognized coronaviruses, the severe acute respiratory syndrome CoV (SARS-CoV) and Middle East respiratory syndrome CoV (MERS-CoV), has called global attention to the lethal potential of human CoVs 2.",
+      "key": "bdb44578d85f6c1b470be6fc83797c24",
+      "line": 55,
+      "relation": "increases",
+      "source": 2,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Such neuroinvasive propensity of CoVs has been documented almost for all the betacoronaviruses, including SARS-CoV 1, MERS-CoV 11, HCoV-229E 16, HCoV-OC43 12, mouse hepatitis virus (MHV) 17, and porcine hemagglutinating encephalomyelitis coronavirus (HEV) 9-10, 18-19.",
+      "key": "47ff741c075870f771c3755d3c414289",
+      "line": 83,
+      "relation": "increases",
+      "source": 2,
+      "target": 37
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Most human CoVs, such as hCoV-229E, OC43, NL63, and HKU1, cause mild respiratory diseases, but the worldwide spread of two previously unrecognized coronaviruses, the severe acute respiratory syndrome CoV (SARS-CoV) and Middle East respiratory syndrome CoV (MERS-CoV), has called global attention to the lethal potential of human CoVs 2.",
+      "key": "ac2055c713732b7bfa76a49c65178ff2",
+      "line": 56,
+      "relation": "increases",
+      "source": 5,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Such neuroinvasive propensity of CoVs has been documented almost for all the betacoronaviruses, including SARS-CoV 1, MERS-CoV 11, HCoV-229E 16, HCoV-OC43 12, mouse hepatitis virus (MHV) 17, and porcine hemagglutinating encephalomyelitis coronavirus (HEV) 9-10, 18-19.",
+      "key": "a1ebaa0201d82a00f250b8f98c6319fd",
+      "line": 84,
+      "relation": "increases",
+      "source": 5,
+      "target": 37
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Most human CoVs, such as hCoV-229E, OC43, NL63, and HKU1, cause mild respiratory diseases, but the worldwide spread of two previously unrecognized coronaviruses, the severe acute respiratory syndrome CoV (SARS-CoV) and Middle East respiratory syndrome CoV (MERS-CoV), has called global attention to the lethal potential of human CoVs 2.",
+      "key": "79abfabe98880939206f083eb0050ff1",
+      "line": 57,
+      "relation": "increases",
+      "source": 4,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Most human CoVs, such as hCoV-229E, OC43, NL63, and HKU1, cause mild respiratory diseases, but the worldwide spread of two previously unrecognized coronaviruses, the severe acute respiratory syndrome CoV (SARS-CoV) and Middle East respiratory syndrome CoV (MERS-CoV), has called global attention to the lethal potential of human CoVs 2.",
+      "key": "5678978ea25981dd31f159963e751d44",
+      "line": 58,
+      "relation": "increases",
+      "source": 3,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Most human CoVs, such as hCoV-229E, OC43, NL63, and HKU1, cause mild respiratory diseases, but the worldwide spread of two previously unrecognized coronaviruses, the severe acute respiratory syndrome CoV (SARS-CoV) and Middle East respiratory syndrome CoV (MERS-CoV), has called global attention to the lethal potential of human CoVs 2.",
+      "key": "4c15c532c19f38e78daeea40ee3d15ed",
+      "line": 59,
+      "relation": "increases",
+      "source": 12,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Such neuroinvasive propensity of CoVs has been documented almost for all the betacoronaviruses, including SARS-CoV 1, MERS-CoV 11, HCoV-229E 16, HCoV-OC43 12, mouse hepatitis virus (MHV) 17, and porcine hemagglutinating encephalomyelitis coronavirus (HEV) 9-10, 18-19.",
+      "key": "3a9f7e0e35fd719f935ed3600cce6a76",
+      "line": 85,
+      "relation": "increases",
+      "source": 12,
+      "target": 37
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Brain Stem": true,
+          "Thalamus": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Experimental studies using transgenic mice further revealed that either SARS-CoV 30 or MERS-COV 11, when given intranasally, could enter the brain, possibly via the olfactory nerves, and there after rapidly spread to some specific brain areas including thalamus and brainstem.",
+      "key": "d9722840826043ef03e3eba73f46d2f8",
+      "line": 111,
+      "relation": "increases",
+      "source": 12,
+      "target": 37
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Most human CoVs, such as hCoV-229E, OC43, NL63, and HKU1, cause mild respiratory diseases, but the worldwide spread of two previously unrecognized coronaviruses, the severe acute respiratory syndrome CoV (SARS-CoV) and Middle East respiratory syndrome CoV (MERS-CoV), has called global attention to the lethal potential of human CoVs 2.",
+      "key": "ef32971e7bf14a5037bfeca5f77b8d7d",
+      "line": 60,
+      "relation": "increases",
+      "source": 7,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Such neuroinvasive propensity of CoVs has been documented almost for all the betacoronaviruses, including SARS-CoV 1, MERS-CoV 11, HCoV-229E 16, HCoV-OC43 12, mouse hepatitis virus (MHV) 17, and porcine hemagglutinating encephalomyelitis coronavirus (HEV) 9-10, 18-19.",
+      "key": "1bf027372f88591b5f05b632d59ee361",
+      "line": 86,
+      "relation": "increases",
+      "source": 7,
+      "target": 37
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Brain Stem": true,
+          "Thalamus": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Experimental studies using transgenic mice further revealed that either SARS-CoV 30 or MERS-COV 11, when given intranasally, could enter the brain, possibly via the olfactory nerves, and there after rapidly spread to some specific brain areas including thalamus and brainstem.",
+      "key": "9e89f4b90050fc59f09138fcff097a59",
+      "line": 112,
+      "relation": "increases",
+      "source": 7,
+      "target": 37
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "This novel CoV has caused a national outbreak of severe pneumonia (COVID-19) in China, and rapidly spreads around the world.",
+      "key": "12ee773d75089137fb94297caa5102df",
+      "line": 63,
+      "relation": "increases",
+      "source": 11,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "SARS-CoV-2 causes acute, highly lethal pneumonia with clinical symptoms similar to those reported for SARS-CoV and MERS-CoV 2, 13.",
+      "key": "c530580078d2be85eeeb735dc22cb84b",
+      "line": 66,
+      "relation": "increases",
+      "source": 11,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "However, different from SARS-CoV, SARS-CoV-2-infected patients rarely showed prominent upper respiratory tract signs and symptoms, indicating that the target cells of SARS-CoV-2 may be located in the lower airway 2.",
+      "key": "1ad6a73bd051c9d162104f38e836d457",
+      "line": 76,
+      "relation": "association",
+      "source": 11,
+      "target": 27
+    },
+    {
+      "key": "9b5e6ebdb508b622c266b4b986bd47ee",
+      "relation": "partOf",
+      "source": 11,
+      "target": 17
+    },
+    {
+      "key": "68c5e235f832dbc736fb39651c35d26d",
+      "relation": "partOf",
+      "source": 11,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "As a matter of fact, it has been reported that some patients infected with SARS-CoV-2 did show neurologic signs such as headache (about 8%), nausea and vomiting (1%).",
+      "key": "0fe14cb1f97eecb8c51cbbe2e7cd2ab4",
+      "line": 134,
+      "relation": "association",
+      "source": 11,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "As a matter of fact, it has been reported that some patients infected with SARS-CoV-2 did show neurologic signs such as headache (about 8%), nausea and vomiting (1%).",
+      "key": "b218c051f1530c5766828e84316d8f82",
+      "line": 135,
+      "relation": "association",
+      "source": 11,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "computed tomography": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Imaging examination revealed that most patients with fever, dry cough, and dyspnoea showed bilateral ground-glass opacities on chest CT scans 14.",
+      "key": "7da6b3735a2d3c99d57a5fd8b4a76281",
+      "line": 70,
+      "relation": "association",
+      "source": 21,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "computed tomography": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Imaging examination revealed that most patients with fever, dry cough, and dyspnoea showed bilateral ground-glass opacities on chest CT scans 14.",
+      "key": "506ce8036c4903e590ae6eddd95686c7",
+      "line": 71,
+      "relation": "association",
+      "source": 21,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "computed tomography": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Imaging examination revealed that most patients with fever, dry cough, and dyspnoea showed bilateral ground-glass opacities on chest CT scans 14.",
+      "key": "3a4b6d6984609ee373e6b117e02bd486",
+      "line": 72,
+      "relation": "association",
+      "source": 21,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "However, the most characteristic symptom of patients is respiratory distress (~55%).",
+      "key": "af9a49c8df1cafafb6dcb762b44daac3",
+      "line": 79,
+      "relation": "association",
+      "source": 21,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "computed tomography": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Imaging examination revealed that most patients with fever, dry cough, and dyspnoea showed bilateral ground-glass opacities on chest CT scans 14.",
+      "key": "e6cd663d33399b40fe55f5c900f183df",
+      "line": 70,
+      "relation": "association",
+      "source": 33,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "computed tomography": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Imaging examination revealed that most patients with fever, dry cough, and dyspnoea showed bilateral ground-glass opacities on chest CT scans 14.",
+      "key": "30937754f9f7b7f13a9af344735b32d3",
+      "line": 71,
+      "relation": "association",
+      "source": 31,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "computed tomography": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Imaging examination revealed that most patients with fever, dry cough, and dyspnoea showed bilateral ground-glass opacities on chest CT scans 14.",
+      "key": "c6ff69aa863725bdfc37000647016f27",
+      "line": 72,
+      "relation": "association",
+      "source": 32,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "However, different from SARS-CoV, SARS-CoV-2-infected patients rarely showed prominent upper respiratory tract signs and symptoms, indicating that the target cells of SARS-CoV-2 may be located in the lower airway 2.",
+      "key": "8453756f3ede627585b795386a6e6c02",
+      "line": 76,
+      "relation": "association",
+      "source": 27,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Different from SARS-CoV, MERS-CoV enters human host cells mainly via dipeptidyl peptidase 4 (DPP4), which is present in the lower respiratory tract, kidney, small intestine, liver, and the cells of the immune system 26-27.",
+      "key": "ece5bd00538b093148a5a5cc7d3c707d",
+      "line": 101,
+      "relation": "association",
+      "source": 27,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "However, the most characteristic symptom of patients is respiratory distress (~55%).",
+      "key": "6ce6107917ebd4b8ffd0b02de9f85ef1",
+      "line": 79,
+      "relation": "association",
+      "source": 26,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Such neuroinvasive propensity of CoVs has been documented almost for all the betacoronaviruses, including SARS-CoV 1, MERS-CoV 11, HCoV-229E 16, HCoV-OC43 12, mouse hepatitis virus (MHV) 17, and porcine hemagglutinating encephalomyelitis coronavirus (HEV) 9-10, 18-19.",
+      "key": "30021c994976eed3862331c501e7a746",
+      "line": 87,
+      "relation": "increases",
+      "source": 10,
+      "target": 37
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Such neuroinvasive propensity of CoVs has been documented almost for all the betacoronaviruses, including SARS-CoV 1, MERS-CoV 11, HCoV-229E 16, HCoV-OC43 12, mouse hepatitis virus (MHV) 17, and porcine hemagglutinating encephalomyelitis coronavirus (HEV) 9-10, 18-19.",
+      "key": "274be86f7ef852a7433423bbd1a9b8b2",
+      "line": 88,
+      "relation": "increases",
+      "source": 8,
+      "target": 37
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "The entry of SARS-CoV into human host cells is mediated mainly by a cellular receptor angiotensin-converting enzyme 2 (ACE2), which is expressed in human airway epithelia, lung parenchyma, vascular endothelia, kidney cells, and small intestine cells 23-25.",
+      "key": "65ca22f7dcadb0c40e8d8c67fb8fa67f",
+      "line": 92,
+      "relation": "increases",
+      "source": 17,
+      "target": 14
+    },
+    {
+      "key": "52cb6d8fcf894bbfe8497cecebc5b0d1",
+      "relation": "partOf",
+      "source": 19,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "The entry of SARS-CoV into human host cells is mediated mainly by a cellular receptor angiotensin-converting enzyme 2 (ACE2), which is expressed in human airway epithelia, lung parenchyma, vascular endothelia, kidney cells, and small intestine cells 23-25.",
+      "key": "19c4cbd2dc942241b2ecb4e5bbfa2dbb",
+      "line": 93,
+      "relation": "association",
+      "source": 19,
+      "target": 28
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "The entry of SARS-CoV into human host cells is mediated mainly by a cellular receptor angiotensin-converting enzyme 2 (ACE2), which is expressed in human airway epithelia, lung parenchyma, vascular endothelia, kidney cells, and small intestine cells 23-25.",
+      "key": "871ba3b2b3bc938e782e0d48572942ee",
+      "line": 94,
+      "relation": "association",
+      "source": 19,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "The entry of SARS-CoV into human host cells is mediated mainly by a cellular receptor angiotensin-converting enzyme 2 (ACE2), which is expressed in human airway epithelia, lung parenchyma, vascular endothelia, kidney cells, and small intestine cells 23-25.",
+      "key": "2691b856ddea0806e42b6856662c6971",
+      "line": 95,
+      "relation": "association",
+      "source": 19,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "The entry of SARS-CoV into human host cells is mediated mainly by a cellular receptor angiotensin-converting enzyme 2 (ACE2), which is expressed in human airway epithelia, lung parenchyma, vascular endothelia, kidney cells, and small intestine cells 23-25.",
+      "key": "339649808d7f3a43f844656abc9e812b",
+      "line": 96,
+      "relation": "association",
+      "source": 19,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "The entry of SARS-CoV into human host cells is mediated mainly by a cellular receptor angiotensin-converting enzyme 2 (ACE2), which is expressed in human airway epithelia, lung parenchyma, vascular endothelia, kidney cells, and small intestine cells 23-25.",
+      "key": "989dad59196d744c4bd647aabe4ed613",
+      "line": 97,
+      "relation": "association",
+      "source": 19,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "The entry of SARS-CoV into human host cells is mediated mainly by a cellular receptor angiotensin-converting enzyme 2 (ACE2), which is expressed in human airway epithelia, lung parenchyma, vascular endothelia, kidney cells, and small intestine cells 23-25.",
+      "key": "3c4bfc6331fa7199c432a2b8054c97e1",
+      "line": 93,
+      "relation": "association",
+      "source": 28,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "The entry of SARS-CoV into human host cells is mediated mainly by a cellular receptor angiotensin-converting enzyme 2 (ACE2), which is expressed in human airway epithelia, lung parenchyma, vascular endothelia, kidney cells, and small intestine cells 23-25.",
+      "key": "674d8bf92db3e39be75dbb90b37df218",
+      "line": 94,
+      "relation": "association",
+      "source": 29,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "The entry of SARS-CoV into human host cells is mediated mainly by a cellular receptor angiotensin-converting enzyme 2 (ACE2), which is expressed in human airway epithelia, lung parenchyma, vascular endothelia, kidney cells, and small intestine cells 23-25.",
+      "key": "3afb5727d02599952f24a9179454ba85",
+      "line": 95,
+      "relation": "association",
+      "source": 1,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "The entry of SARS-CoV into human host cells is mediated mainly by a cellular receptor angiotensin-converting enzyme 2 (ACE2), which is expressed in human airway epithelia, lung parenchyma, vascular endothelia, kidney cells, and small intestine cells 23-25.",
+      "key": "32142945d6d44f0c78046967c107a3ad",
+      "line": 96,
+      "relation": "association",
+      "source": 30,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Different from SARS-CoV, MERS-CoV enters human host cells mainly via dipeptidyl peptidase 4 (DPP4), which is present in the lower respiratory tract, kidney, small intestine, liver, and the cells of the immune system 26-27.",
+      "key": "77cb5732309fcb57ec3e8b2f907da803",
+      "line": 103,
+      "relation": "association",
+      "source": 30,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "The entry of SARS-CoV into human host cells is mediated mainly by a cellular receptor angiotensin-converting enzyme 2 (ACE2), which is expressed in human airway epithelia, lung parenchyma, vascular endothelia, kidney cells, and small intestine cells 23-25.",
+      "key": "8ddb3d2d41a99e8380ed96f0e0a1de3e",
+      "line": 97,
+      "relation": "association",
+      "source": 35,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Different from SARS-CoV, MERS-CoV enters human host cells mainly via dipeptidyl peptidase 4 (DPP4), which is present in the lower respiratory tract, kidney, small intestine, liver, and the cells of the immune system 26-27.",
+      "key": "37857a7a4a54995356b2832c5b5a7aa5",
+      "line": 102,
+      "relation": "association",
+      "source": 35,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Different from SARS-CoV, MERS-CoV enters human host cells mainly via dipeptidyl peptidase 4 (DPP4), which is present in the lower respiratory tract, kidney, small intestine, liver, and the cells of the immune system 26-27.",
+      "key": "cbdac9e5eb2b808e2c0f2c64397858f1",
+      "line": 100,
+      "relation": "increases",
+      "source": 18,
+      "target": 14
+    },
+    {
+      "key": "fbac4536d824d95f99d26a638d4afdc1",
+      "relation": "partOf",
+      "source": 20,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Different from SARS-CoV, MERS-CoV enters human host cells mainly via dipeptidyl peptidase 4 (DPP4), which is present in the lower respiratory tract, kidney, small intestine, liver, and the cells of the immune system 26-27.",
+      "key": "025f3c9624d3b30adbebb737e66ee857",
+      "line": 101,
+      "relation": "association",
+      "source": 20,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Different from SARS-CoV, MERS-CoV enters human host cells mainly via dipeptidyl peptidase 4 (DPP4), which is present in the lower respiratory tract, kidney, small intestine, liver, and the cells of the immune system 26-27.",
+      "key": "c39a1c52bdfe224482c0ad8c1d44668d",
+      "line": 102,
+      "relation": "association",
+      "source": 20,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Different from SARS-CoV, MERS-CoV enters human host cells mainly via dipeptidyl peptidase 4 (DPP4), which is present in the lower respiratory tract, kidney, small intestine, liver, and the cells of the immune system 26-27.",
+      "key": "1ee0074aab38a4d80a0184f2d0b6c446",
+      "line": 103,
+      "relation": "association",
+      "source": 20,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Different from SARS-CoV, MERS-CoV enters human host cells mainly via dipeptidyl peptidase 4 (DPP4), which is present in the lower respiratory tract, kidney, small intestine, liver, and the cells of the immune system 26-27.",
+      "key": "d7e3d4baf2f21f5d3eac39a48a4bfb20",
+      "line": 104,
+      "relation": "association",
+      "source": 20,
+      "target": 36
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Different from SARS-CoV, MERS-CoV enters human host cells mainly via dipeptidyl peptidase 4 (DPP4), which is present in the lower respiratory tract, kidney, small intestine, liver, and the cells of the immune system 26-27.",
+      "key": "36d027d01fbf9e6158d36d41f027190c",
+      "line": 105,
+      "relation": "association",
+      "source": 20,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Different from SARS-CoV, MERS-CoV enters human host cells mainly via dipeptidyl peptidase 4 (DPP4), which is present in the lower respiratory tract, kidney, small intestine, liver, and the cells of the immune system 26-27.",
+      "key": "f5135200f534b80a808fa9964a906115",
+      "line": 104,
+      "relation": "association",
+      "source": 36,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Different from SARS-CoV, MERS-CoV enters human host cells mainly via dipeptidyl peptidase 4 (DPP4), which is present in the lower respiratory tract, kidney, small intestine, liver, and the cells of the immune system 26-27.",
+      "key": "c7cc585c92bc96b72862d54828d5e4d7",
+      "line": 105,
+      "relation": "association",
+      "source": 16,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Custom_Species": {
+          "9823": true
+        },
+        "MeSHAnatomy": {
+          "Brain": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "HEV 67N is the first coronavirus found to invade the porcine brain, and it shares >91% homology with HCoV-OC43 38-39.",
+      "key": "1c3c3e1716b60ed5d4e563cd2aa2e5bb",
+      "line": 118,
+      "relation": "increases",
+      "source": 9,
+      "target": 37
+    },
+    {
+      "annotations": {
+        "Custom_Species": {
+          "9823": true
+        },
+        "MeSHAnatomy": {
+          "Brain": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "The transfer of HEV67N between neurons has been demonstrated by our previous ultrastructural studies to use the clathrin-coating-mediated endo-/exocytotic pathway 10.",
+      "key": "a94cda708d39be89e9d8c4cd55961a4c",
+      "line": 121,
+      "relation": "association",
+      "source": 9,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Species": {
+          "9823": true
+        },
+        "MeSHAnatomy": {
+          "Brain": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "The transfer of HEV67N between neurons has been demonstrated by our previous ultrastructural studies to use the clathrin-coating-mediated endo-/exocytotic pathway 10.",
+      "key": "b8dc7cf2817140dedeb302ab56347d66",
+      "line": 122,
+      "relation": "association",
+      "source": 9,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Species": {
+          "9823": true
+        },
+        "MeSHAnatomy": {
+          "Brain": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "The transfer of HEV67N between neurons has been demonstrated by our previous ultrastructural studies to use the clathrin-coating-mediated endo-/exocytotic pathway 10.",
+      "key": "b1cb0948f9633e5102cf5092d6a0c385",
+      "line": 121,
+      "relation": "association",
+      "source": 13,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Species": {
+          "9823": true
+        },
+        "MeSHAnatomy": {
+          "Brain": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "The transfer of HEV67N between neurons has been demonstrated by our previous ultrastructural studies to use the clathrin-coating-mediated endo-/exocytotic pathway 10.",
+      "key": "b7e635064a08c1747eeb3d1adf67c1e4",
+      "line": 122,
+      "relation": "association",
+      "source": 15,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Intranasal inoculation in mice with avian influenza virus was reported to cause neural infection besides bronchitis or pneumonia 36.",
+      "key": "6d82899ab13d1f139d1dcc3b8037920a",
+      "line": 128,
+      "relation": "increases",
+      "source": 6,
+      "target": 37
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Intranasal inoculation in mice with avian influenza virus was reported to cause neural infection besides bronchitis or pneumonia 36.",
+      "key": "848c0697fd3120cf47e2973591f54f03",
+      "line": 129,
+      "relation": "increases",
+      "source": 6,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Intranasal inoculation in mice with avian influenza virus was reported to cause neural infection besides bronchitis or pneumonia 36.",
+      "key": "d0ee6862ecb905db11b52348bbb2b423",
+      "line": 130,
+      "relation": "increases",
+      "source": 6,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "As a matter of fact, it has been reported that some patients infected with SARS-CoV-2 did show neurologic signs such as headache (about 8%), nausea and vomiting (1%).",
+      "key": "8b693cbdda98d0190cd9916310ecdcde",
+      "line": 134,
+      "relation": "association",
+      "source": 34,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "As a matter of fact, it has been reported that some patients infected with SARS-CoV-2 did show neurologic signs such as headache (about 8%), nausea and vomiting (1%).",
+      "key": "625234e614478b9558e304d06f7bf1a7",
+      "line": 135,
+      "relation": "association",
+      "source": 25,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai WZ",
+          "Hashikawa T",
+          "Li YC"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32104915",
+        "db_name": "Journal of medical virology",
+        "first": "Li YC",
+        "last": "Hashikawa T"
+      },
+      "evidence": "Airway inhalation of antiviral agents will be the first choice at the early stage of infection, which will inhibit the replication SARS-CoV-2 in the respiratory tracts and lung and prevent from its subsequent neuroinvasion.",
+      "key": "320c3e466e37c2e63c07247056b3fe21",
+      "line": 138,
+      "relation": "decreases",
+      "source": 0,
+      "target": 11
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(MESH:\"Antiviral Agents\")",
+      "concept": {
+        "name": "Antiviral Agents",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "583ff9c1822e9ca9f4e6d7306bd6c961"
+    },
+    {
+      "bel": "a(MESH:\"Endothelium, Vascular\")",
+      "concept": {
+        "name": "Endothelium, Vascular",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "aafa9397b7dc77cfa69596ab4e12007a"
+    },
+    {
+      "bel": "a(TAX:\"Human coronavirus 229E\")",
+      "concept": {
+        "name": "Human coronavirus 229E",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "79ffb71f2dda620fb098f4f65e4a6e64"
+    },
+    {
+      "bel": "a(TAX:\"Human coronavirus HKU1\")",
+      "concept": {
+        "name": "Human coronavirus HKU1",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c8cc89fafdcf3e1b4dac71a206a0e1ad"
+    },
+    {
+      "bel": "a(TAX:\"Human coronavirus NL63\")",
+      "concept": {
+        "name": "Human coronavirus NL63",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "b5a5fc44a982eccc138d532ccc7fe4ec"
+    },
+    {
+      "bel": "a(TAX:\"Human coronavirus OC43\")",
+      "concept": {
+        "name": "Human coronavirus OC43",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "27f78f6a35d13ab4ffdc15ef67fcd4c3"
+    },
+    {
+      "bel": "a(TAX:\"Influenza A virus (A/whistling swan/Shimone/499/1983(H5N3))\")",
+      "concept": {
+        "name": "Influenza A virus (A/whistling swan/Shimone/499/1983(H5N3))",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "41c90ead5d13a0a10d8a58451b5605b8"
+    },
+    {
+      "bel": "a(TAX:\"Middle East respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Middle East respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "f954d5cc971a29c7e7089ca32a056914"
+    },
+    {
+      "bel": "a(TAX:\"Murine hepatitis virus\")",
+      "concept": {
+        "name": "Murine hepatitis virus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "3a062fa447deb8d40ed4eb48d0354b62"
+    },
+    {
+      "bel": "a(TAX:\"Porcine hemagglutinating encephalomyelitis virus (strain 67N)\")",
+      "concept": {
+        "name": "Porcine hemagglutinating encephalomyelitis virus (strain 67N)",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "721ebc1b522d72b553cfde896e6aef7a"
+    },
+    {
+      "bel": "a(TAX:\"Porcine hemagglutinating encephalomyelitis virus\")",
+      "concept": {
+        "name": "Porcine hemagglutinating encephalomyelitis virus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "1e797ccbddc076dbe0318700cb122fda"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "a824ba056422b4e42996cd3269ec9a19"
+    },
+    {
+      "bel": "bp(GO:\"clathrin-dependent endocytosis\")",
+      "concept": {
+        "name": "clathrin-dependent endocytosis",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "27f8cb71329fa31a19d34b3b9b3c8b67"
+    },
+    {
+      "bel": "bp(GO:\"viral entry into host cell\")",
+      "concept": {
+        "name": "viral entry into host cell",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "2a6e5ae8582e2cded25095e14c2ee329"
+    },
+    {
+      "bel": "bp(GO:\"viral exocytosis\")",
+      "concept": {
+        "name": "viral exocytosis",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "f0e61cd9694f8324d6c1e20a8bd9fd40"
+    },
+    {
+      "bel": "bp(MESH:\"Immune System\")",
+      "concept": {
+        "name": "Immune System",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "6352d730bda67a2440507b19b738e4ce"
+    },
+    {
+      "bel": "complex(a(TAX:\"Severe acute respiratory syndrome coronavirus 2\"), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "146428e3b0f07633969567cac441971e",
+      "members": [
+        {
+          "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+          "concept": {
+            "name": "Severe acute respiratory syndrome coronavirus 2",
+            "namespace": "TAX"
+          },
+          "function": "Abundance",
+          "id": "c41851da59cc36c21b2e8acf24c1f46d"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(TAX:\"Severe acute respiratory syndrome coronavirus 2\"), p(HGNC:DPP4))",
+      "function": "Complex",
+      "id": "9a9c8cfc21326ed2dd5296e1fa2c80f5",
+      "members": [
+        {
+          "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+          "concept": {
+            "name": "Severe acute respiratory syndrome coronavirus 2",
+            "namespace": "TAX"
+          },
+          "function": "Abundance",
+          "id": "c41851da59cc36c21b2e8acf24c1f46d"
+        },
+        {
+          "bel": "p(HGNC:DPP4)",
+          "concept": {
+            "name": "DPP4",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "ed0b2cb13479d4589d4dac0ecbced25e"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "p(HGNC:DPP4)",
+      "concept": {
+        "name": "DPP4",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "ed0b2cb13479d4589d4dac0ecbced25e"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"respiratory system disease\")",
+      "concept": {
+        "name": "respiratory system disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6bee8d5c208dd80a5ee8d4f4b694e066"
+    },
+    {
+      "bel": "path(DO:bronchitis)",
+      "concept": {
+        "name": "bronchitis",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "cbd6cec5a6d9fda690d0f2983676f923"
+    },
+    {
+      "bel": "path(DO:pneumonia)",
+      "concept": {
+        "name": "pneumonia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "274776fc664e9bfd9c191cca80623b0d"
+    },
+    {
+      "bel": "path(HP:\"Nausea and vomiting\")",
+      "concept": {
+        "name": "Nausea and vomiting",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "20f1a69bd22211b34f4abb46cb4889c1"
+    },
+    {
+      "bel": "path(HP:\"Respiratory distress\")",
+      "concept": {
+        "name": "Respiratory distress",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "14303e8d3b35b658a0a1d1e628a0c581"
+    },
+    {
+      "bel": "path(HP:\"lower respiratory tract\")",
+      "concept": {
+        "name": "lower respiratory tract",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "cc41b44ba4e18363389f4aacf110608d"
+    },
+    {
+      "bel": "path(HP:\"lung parenchyma\")",
+      "concept": {
+        "name": "lung parenchyma",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "d2b093f0f309e5c53507d55b6a040135"
+    },
+    {
+      "bel": "path(HP:\"respiratory epithelial cell\")",
+      "concept": {
+        "name": "respiratory epithelial cell",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "6db2c03e9751a5174fb347fd3151adf2"
+    },
+    {
+      "bel": "path(HP:\"small intestine\")",
+      "concept": {
+        "name": "small intestine",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "0b4a93995cdf35e57590b53806851e8f"
+    },
+    {
+      "bel": "path(HP:Cough)",
+      "concept": {
+        "name": "Cough",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "46175cd35e12952e2b452a4165638120"
+    },
+    {
+      "bel": "path(HP:Dyspnea)",
+      "concept": {
+        "name": "Dyspnea",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "963560b5f8fac4a36096e31cb33a61ea"
+    },
+    {
+      "bel": "path(HP:Fever)",
+      "concept": {
+        "name": "Fever",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "28f3e35789cf742f4f5cc7453350aae5"
+    },
+    {
+      "bel": "path(HP:Headache)",
+      "concept": {
+        "name": "Headache",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "a24ae0bd1e3980c71af01ddc357c55ad"
+    },
+    {
+      "bel": "path(HP:kidney)",
+      "concept": {
+        "name": "kidney",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "4c67510ac2dea13a20b2ccdfb3da998e"
+    },
+    {
+      "bel": "path(HP:liver)",
+      "concept": {
+        "name": "liver",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "aef62b8fad06917949dc505262d2cc27"
+    },
+    {
+      "bel": "path(MESH:\"Central Nervous System Infections\")",
+      "concept": {
+        "name": "Central Nervous System Infections",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "5b83348bbc5f4cba20fc8fbe594079cf"
+    }
+  ]
+}

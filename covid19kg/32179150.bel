@@ -1,0 +1,188 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32179150.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+# DEFINE NAMESPACE CONSO          AS URL "https://raw.githubusercontent.com/pharmacome/conso/3c93a65dc48e6786fe29ae55aa36cf9a902fe8c6/export/conso-names.belns"
+# DEFINE NAMESPACE ECCODE         AS URL "https://raw.githubusercontent.com/pharmacome/conso/c328ad964c08967a0417a887510b97b965a62fa5/external/ec-code.belns"
+DEFINE NAMESPACE EFO            AS URL "https://raw.githubusercontent.com/pharmacome/conso/5d2c2ea6f7112421cc8089a3f021a75ab60bb373/external/efo-names.belns"
+# DEFINE NAMESPACE FB             AS URL "https://raw.githubusercontent.com/pharmacome/conso/c328ad964c08967a0417a887510b97b965a62fa5/external/fb-names.belns"
+# DEFINE NAMESPACE MIRBASE        AS URL "https://raw.githubusercontent.com/pharmacome/conso/c328ad964c08967a0417a887510b97b965a62fa5/external/mirbase-names.belns"
+
+# DEFINE NAMESPACE ADO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/alzheimer-disease-ontology/alzheimer-disease-ontology-1.0.2.belns"
+# DEFINE NAMESPACE BRCO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/brain-region-ontology/brain-region-ontology-1.0.0.belns"
+# DEFINE NAMESPACE NIFT AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/nift/NIFT.belns"
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+# DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+# DEFINE NAMESPACE RGD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/rgd-rat-genes/rgd-rat-genes-20190128.belns"
+# DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+# DEFINE NAMESPACE SCOMP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-named-complexes/selventa-named-complexes-20190128.belns"
+# DEFINE NAMESPACE SFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-protein-families/selventa-protein-families-20190128.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+# DEFINE NAMESPACE DRUGBANK AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns"
+# DEFINE NAMESPACE INTERPRO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/interpro/interpro-names-20181021.belns"
+# DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE GOBP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns"
+DEFINE NAMESPACE GOCC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20190128.belns"
+
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+DEFINE NAMESPACE MESHC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-chemicals/mesh-chemicals-20190128.belns"
+# DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20190128.belns"
+# DEFINE NAMESPACE MESHPP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-processes/mesh-processes-20190128.belns"
+# DEFINE NAMESPACE MESHA AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-anatomy/mesh-anatomy-20190128.belns"
+# DEFINE NAMESPACE MESHCS AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-cellular-structures/mesh-cellular-structures-20190128.belns"
+# DEFINE NAMESPACE NCBITAXON AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+# DEFINE NAMESPACE FPLX           AS URL "https://raw.githubusercontent.com/sorgerlab/famplex/d9ec0526c20795146a9a6aef17496efe1a36cac6/export/famplex.belns"
+
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+# DEFINE NAMESPACE NCBIGENE AS PATTERN ".*"
+# DEFINE NAMESPACE TAXONOMY       AS PATTERN "^\d+$"
+# DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+# DEFINE NAMESPACE dbSNP AS PATTERN "rs[0-9]+"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+# DEFINE ANNOTATION Anatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno"
+# DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+# DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+# DEFINE ANNOTATION Disease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/disease/disease-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+# DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+# DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+# DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+# DEFINE ANNOTATION CellStructure AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-structure/cell-structure-20170511.belanno"
+# DEFINE ANNOTATION Confidence    AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/confidence/confidence-1.0.0.belanno"
+# DEFINE ANNOTATION Gender        AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/gender/gender-1.0.0.belanno"
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Editorial"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","32179150"}
+
+SET PublicationType = "Editorial"
+SET PublicationStatus = "Preprint"
+SET Section = "Full Text"
+
+SET Evidence = "This coronavirus, named SARS-CoV-2 (formerly 2019-nCoV), is responsible for respiratory infections including pneumonia with a mortality rate estimated about 2%-2.5%, increasing with age and the existence of underlying diseases"
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(DO:"COVID-19")
+path(DO:"COVID-19") pos path(DO:"viral pneumonia")
+path(DO:"COVID-19") pos path(HP:"human aged stage")
+
+SET Evidence = "Chloroquine/hydroxychloroquine, a front-line drug used in the treatment and prophylaxis of malaria also used in autoimmune disease had been shown to inhibit the replication of several DNA and RNA viruses, including most of human coronaviruses"
+a(CHEBI:chloroquine) -| path(DO:malaria)
+a(CHEBI:hydroxychloroquine) -| path(DO:malaria)
+a(CHEBI:chloroquine) -| path(MESH:"Autoimmune Diseases")
+a(CHEBI:hydroxychloroquine) -| path(MESH:"Autoimmune Diseases")
+a(CHEBI:chloroquine) -| path(MESH:"Virus Replication")
+a(CHEBI:hydroxychloroquine) -| path(MESH:"Virus Replication")
+
+SET Evidence = "Recently, chloroquine was found to inhibit SARS-CoV-2 in vitro and its hydroxylated form has been proposed as a possible therapy to treat patients infected with SARS-CoV-2 [4,5]."
+a(CHEBI:chloroquine) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+a(CHEBI:hydroxychloroquine) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+
+SET Evidence = "In this contest, other drug showed significant efficacy against SARS-Cov-2 in vitro such as remdesivir, lopinavir, ribavirin or ritonavir (https://drugvirus.info/) [6]."
+a(PUBCHEM:121304016) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+a(CHEBI:lopinavir) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+a(CHEBI:ribavirin) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+a(CHEBI:ritonavir) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+
+SET Evidence = "Teicoplanin, a glycopeptide antibiotic routinely used to treat bacterial infection was found to be active in vitro against SARS-CoV, has joined the list of molecules that could be used as therapeutic arsenal against COVID-19 [7]."
+a(CHEBI:teicoplanin) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+
+SET Evidence = "This antibiotic, currently used in the treatment of Gram-positive bacterial infection, especially in Staphylococcal infections, has already showed efficacy against various viruses such as Ebola, influenza virus, flavivirus, hepatitis C virus, HIV virus and on coronavirus such as MERS-CoV and SARS-CoV [8,9]."
+a(CHEBI:teicoplanin) -| path(MESH:"Staphylococcal Infections")
+a(CHEBI:teicoplanin) -| a(TAX:"Ebola virus")
+a(CHEBI:teicoplanin) -| path(DO:influenza)
+a(CHEBI:teicoplanin) -| a(TAX:Flavivirus)
+a(CHEBI:teicoplanin) -| a(TAX:Hepacivirus)
+a(CHEBI:teicoplanin) -| a(TAX:"Human immunodeficiency virus")
+a(CHEBI:teicoplanin) -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+a(CHEBI:teicoplanin) -| a(TAX:"Middle East respiratory syndrome-related coronavirus")
+
+SET Evidence = "According to Zhou and colleagues, in coronaviruses, teicoplanin acts on the early step of the viral life cycle by inhibiting the low pH cleavage of the viral spike protein by cathepsin L in the late endosomes thereby preventing the release of genomic viral RNA and the continuation of virus replication cycle."
+SET Species = "9606"
+a(CHEBI:teicoplanin) -| act(p(HGNC:CTSL))
+act(p(HGNC:CTSL)) reg a(MESH:"Spike Glycoprotein, Coronavirus")
+a(MESH:"Spike Glycoprotein, Coronavirus") reg bp(GO:"viral entry into host cell")
+a(MESH:"Spike Glycoprotein, Coronavirus") reg bp(GO:"viral life cycle")
+
+SET Evidence = "A recent study by the same authors showed that this activity was conserved on SARSCov- 2 (the target sequence that serve as cleavage site for cathepsin L is conserved among SARS-CoV spike protein) [7]."
+act(p(HGNC:CTSL)) -> p(COVID:S, frag("?"))
+p(COVID:S, frag("?")) -> bp(GO:"viral entry into host cell")
+p(COVID:S, frag("?")) -> bp(GO:"viral life cycle")
+UNSET Species
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+
+##########################################################################
+# SET DOCUMENT Authors = "Yojana Gadiya"
+
+SET Evidence = "Chloroquine/hydroxychloroquine, a front-line drug used in the \
+treatment and prophylaxis of malaria also used in autoimmune disease \
+had been shown to inhibit the replication of several DNA and RNA \
+viruses, including most of human coronaviruses [3]."
+
+a(CHEBI:chloroquine) neg path(DO:malaria)
+a(CHEBI:hydroxychloroquine) neg path(DO:malaria)
+a(CHEBI:chloroquine) neg path(EFO:"autoimmune disease")
+a(CHEBI:hydroxychloroquine) neg path(EFO:"autoimmune disease")
+a(CHEBI:chloroquine) -| bp(GOBP:"viral genome replication")
+a(CHEBI:hydroxychloroquine) -| bp(GOBP:"viral genome replication")
+
+SET Evidence = "Recently, chloroquine was found to inhibit SARS-CoV-2 in vitro and its \
+hydroxylated form has been proposed as a possible therapy to treat \
+patients infected with SARS-CoV-2 [4,5]."
+
+a(CHEBI:chloroquine) -| path(DO:"COVID-19")
+
+SET Evidence = "Teicoplanin, a glycopeptide antibiotic routinely used to treat \
+bacterial infection was found to be active in vitro against SARS-CoV, \
+has joined the list of molecules that could be used as herapeutic \
+arsenal against COVID-19 [7]"
+
+a(CHEBI:teicoplanin) isA a(MESHC:"Anti-Bacterial Agents")
+a(CHEBI:teicoplanin) -| path(DO:"COVID-19")
+
+SET Evidence = "According to Zhou and colleagues, in coronaviruses, teicoplanin acts \
+on the early step of the viral life cycle by inhibiting the low pH \
+cleavage of the viral spike protein by cathepsin L in the late \
+endosomes thereby preventing the release of genomic viral RNA and the \
+continuation of virus replication cycle."
+
+SET MeSHAnatomy = "Endosomes"
+a(CHEBI:teicoplanin) -| bp(GOBP:"viral life cycle")
+bp(GOBP:"response to acidic pH") -> act(p(HGNC:CTSL))
+act(p(HGNC:CTSL)) -> p(MESH:"Spike Glycoprotein, Coronavirus",frag("?"))
+p(MESH:"Spike Glycoprotein, Coronavirus",frag("?")) -> complex(GO:"viral replication complex",loc(GOCC:intracellular))
+complex(GO:"viral replication complex",loc(GOCC:intracellular)) -> bp(GOBP:"viral life cycle")
+UNSET MeSHAnatomy
+

@@ -1,0 +1,97 @@
+
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32220278.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Type_Of_Infection AS LIST {"secondary infection"}
+##################################################################################
+# Statements #
+##################################################################################
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Letter"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+SET Citation = {"PubMed","32220278"}
+SET PublicationType = "Letter"
+SET PublicationStatus = "Published"
+SET Section = "Full Text"
+
+SET Evidence = "Mehta and colleagues postulate that hyperinflammation in coronavirus \
+disease 2019 (COVID-19) could be a driver of severity that is amenable \
+to therapeutic targeting since retro spective data have shown that \
+systemic inflammation is associated with adverse outcome"
+
+path(DO:"COVID-19") -> bp(GO:"inflammatory response")
+
+SET Evidence = "However, correlation does not equal causation, and it is equally \
+plausible that increased virus burden (secondary to failure of the \
+immune response to control infection) drives inflammation and \
+consequent severity (as shown for other viruse) rather than augmented \
+inflammation being an inappropriate host response that requires \
+correction."
+
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") pos bp(GO:"inflammatory response")
+
+SET Evidence = "The authors hypothesise that approaches such as corticosteroids or \
+Janus kinase (JAK) inhibitors could be considered if hyperinflammation \
+is present."
+
+a(CHEBI:corticosteroid) -| bp(GO:"inflammatory response")
+act(p(GFAM:"Jak family tyrosine kinases")) -> bp(GO:"inflammatory response")
+
+SET Evidence = "Accordingly, findings from multiple studies in humans and animals \
+indicate that corticosteroid immunosuppression (both inhaled and \
+systemic) impairs induction of anti-viral type-I interferon responses \
+to a range of respiratory viruses,3,4 effects that are likely to also \
+occur in the context of COVID-19."
+
+a(CHEBI:corticosteroid) -| bp(GO:"immune response")
+bp(GO:"immune response") -> bp(GO:"type I interferon signaling pathway")
+
+SET Evidence = "JAK-STAT signalling is a major component of the type-I interferon \
+pathway."
+
+bp(GO:"type I interferon signaling pathway") -- bp(GO:"JAK-STAT cascade")
+
+SET Evidence = "Tofacitinib has been shown to inhibit interferonα production in vitro. \
+Suppression of interferon or other mediators (eg, interleukin 6) could \
+also promote secondary bacterial infection and further complicate the \
+disease course."
+
+SET BioAssay = "in vitro"
+a(CHEBI:tofacitinib) -| bp(GO:"interferon-alpha secretion")
+UNSET BioAssay
+SET Type_Of_Infection = "secondary infection"
+act(p(PFAM:Interferon)) -| path(DO:"bacterial infectious disease")
+act(p(HGNC:IL6)) -| path(DO:"bacterial infectious disease")
+UNSET Type_Of_Infection
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

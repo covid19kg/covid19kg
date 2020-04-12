@@ -1,0 +1,121 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32219356.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.1.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Cohort_Mean_Age AS LIST {"58.50 years"}
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","32219356"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+
+SET Evidence = "Mortality was markedly higher in patients with elevated plasma TnT levels than in patients with normal TnT levels (31 [59.6%]vs 12 [8.9%]) (Table 1)."
+SET Custom_Disease = "COVID-19"
+SET Species = "9606"
+SET Cohort_Mean_Age = "58.50 years"
+SET MeSHAnatomy = "Plasma"
+p(HGNC:TNNT2) pos a(MESH:Mortality)
+
+SET Evidence = "Patients with elevated TnT levels had significantly higher rates of comorbidities including hypertension (33 [63.5%] vs 28 [20.7%]), coronary heart disease (17 [32.7%] vs4[3.0%]), cardiomyopathy (8[15.4%]vs0), diabetes (16 [30.8%] vs 12 [8.9%]), chronic obstructive pulmonary disease (4 [7.7%] vs 0), and chronic kidney disease (1 [0.7%] vs 5 [9.6%])."
+p(HGNC:TNNT2) pos path(DO:hypertension)
+p(HGNC:TNNT2) pos path(MESH:"Coronary Disease")
+p(HGNC:TNNT2) pos path(DO:cardiomyopathy)
+p(HGNC:TNNT2) pos path(DO:"diabetes mellitus")
+p(HGNC:TNNT2) pos path(DO:"chronic obstructive pulmonary disease")
+p(HGNC:TNNT2) pos path(DO:"chronic kidney disease")
+
+SET Evidence = "Patients with elevated TnT levels presented with significantly higher white blood cell count(median[IQR],4640[6170- 3740] vs 7390 [4890-11 630] /μL [to convert to ×109 per liter, multiply by0.001])and neutrophil counts (median [IQR],3070 [2350-4870] vs 6010 [3540-10 120] /μL [to convert to ×109 per liter, multiply by 0.001]) (P < .001 for both) and lower lymphocyte counts (median [IQR], 840 [630-1130] vs 690 [340- 1010] /μL [toconvert to×109 per liter, multiplyby0.001;P = .01) than those with normal TnT levels (Table 2)."
+p(HGNC:TNNT2) pos a(MESH:Leukocytes)
+p(HGNC:TNNT2) pos a(MESH:Neutrophils)
+p(HGNC:TNNT2) neg bp(MESH:"Lymphocyte Count")
+
+SET Evidence = "Patients with elevated TnT levels also had significantly longer prothrombin time (median [IQR], 12.4 [12.0-13.0] vs 13.3 [12.2-15.3] seconds; P = .005), shorter activated partial thromboplastin time (median [IQR], 31.2 [27.5-33.2] vs 32.7 [31.0-35.8] seconds; P = .003), and a significant higher level of D-dimer (median [IQR], 0.29 [0.17-0.60] vs 3.85 [0.51-25.58] μg/mL[to convert to nanomoles per liter, multiply by 5.476]; P < .001)."
+p(HGNC:TNNT2) -- path(HP:"Prolonged prothrombin time")
+p(HGNC:TNNT2) neg bp(MESH:"Partial Thromboplastin Time")
+p(HGNC:TNNT2) pos p(MESH:"fibrin fragment D")
+
+SET Evidence = "Total, high-density lipoprotein, and low-density lipoprotein cholesterol levels did not differ according to TnT levels, but patients with elevated TnT levels had higher triglyceride levels (median [IQR], 92.04 [69.91-159.29] vs 82.30 [59.29- 115.04]mg/dL [to convert to millimoles per liter, multiply by 0.0259];P=.04)."
+p(HGNC:TNNT2) pos a(CHEBI:triglyceride)
+
+SET Evidence = "The inflammatory biomarkers, including high sensitivity C-reactive protein (median [IQR], 8.55 [4.87- 15.165] vs 3.13 [1.24-5.75]mg/dL [to convert to milligrams per liter, multiply by 10]), procalcitonin (median [IQR], 0.21 [0.11- 0.45] vs 0.05 [0.04-0.11] ng/mL), and globulin (median [IQR],29.7 [27.0-34.6] vs 27.4 [25.6-29.6] grams per liter) were significantly higher in patientswith elevated TnT levels (P < .001 for all)."
+p(HGNC:TNNT2) pos p(HGNC:CRP)
+p(HGNC:TNNT2) pos p(HGNC:CALCA)
+p(HGNC:TNNT2) pos a(MESH:Globulins)
+
+SET Evidence = "Those with elevated TnT levels had significantly higher levels of other biomarkers of cardiac injury, specifically creatine kinase– myocardial band test (median [IQR], 3.34 [2.11-5.80] vs 0.81 [0.54-1.38], ng/mL [to convert to micrograms per liter, multiply
+by 1]) and myoglobin (median [IQR], 128.7 [65.8-206.9] vs 27.2 [21.0-49.8] μg/L [to convert to nanomoles per liter, multiply by 0.05814]) (P < .001, for all) and also had higher levels of N-terminal pro–brain natriuretic peptide (NT-proBNP) (median [IQR], 817.4 (336.0-1944.0] vs 141.4 [39.3-303.6] pg/mL [to convert to nanograms per liter, multiply by 1])."
+p(HGNC:TNNT2) pos p(HGNC:CKM)
+p(HGNC:TNNT2) pos p(HGNC:MB)
+p(HGNC:TNNT2) pos p(HGNC:NPPB, frag("?"))
+
+SET Evidence = "Patients with elevated TnT levels had evidence of more severe respiratory dysfunction, with lower partial pressure of oxygen (PaO2) (median [IQR], 64.0[51.0-93.0] vs 91.0[75.0-121.0]mmHg),HCO3 (median [IQR], 23.3 [20.0-27.1] vs 25.7 [23.8-27.9] mEq/L [to convert to to millimoles per liter, multiply by 1]), and PaO2/ fraction of inspired oxygen (FiO2) (median [IQR], 153.3 [103.3- 323.8] vs 390.5 [285.7-461.9]mmHg), and higher levels of lactic acid (median [IQR], 2.10 [1.40-3.10] vs 1.80 [1.30-2.10]mm Hg) (P < .001,P < .001,P = .004,P = .001, respectively)."
+p(HGNC:TNNT2) pos path(DO:"respiratory failure")
+
+SET Evidence = "Those with elevated TnT levels also had higher levels of creatinine (median [IQR], 0.79 [0.71-1.17] vs 0.63 [0.55-0.79] mg/dL [to convert to micromoles per liter, multiply by 88.4]) and aspartate aminotransferase (median [IQR], 39.5 [27.2-57.8] vs 29.0 [21.0-39.0]U/L [to convert to microkatal per liter, multiply by 0.0167]) (P < .001, both), but alanine aminotransferase did not differ between the 2 groups."
+p(HGNC:TNNT2) pos a(CHEBI:creatinine)
+p(HGNC:TNNT2) pos p(HGNC:GOT1)
+p(HGNC:TNNT2) pos p(HGNC:GOT2)
+
+SET Evidence = "Patients with underlying CVD were more likely to exhibit elevation of TnT levels (36 [54.5%]) compared with patients without CVD (16 [13.2%])."
+p(HGNC:TNNT2) -- path(MESH:"Cardiovascular Diseases")
+
+SET Evidence = "During hospitalization, patients with elevated TnT levels developed more frequent complications (Table 1), including acute respiratory distress syndrome (30 [57.7%] vs 16 [11.9%]), malignant arrhythmias (6 [11.5%] vs 7 [5.2%]) including ventricular tachycardia/ ventricular fibrillation, acute coagulopathy (25 [65.8%] vs 17 [20.0%]), and acute kidney injury (14 [36.8%] vs 4 [4.7%]), compared with those with normal TnT levels."
+p(HGNC:TNNT2) pos path(DO:"severe acute respiratory syndrome")
+p(HGNC:TNNT2) pos path(MESH:"Arrhythmias, Cardiac")
+p(HGNC:TNNT2) pos path(HP:"Ventricular tachycardia")
+p(HGNC:TNNT2) pos path(HP:"Ventricular fibrillation")
+p(HGNC:TNNT2) pos path(MESH:"Blood Coagulation Disorders")
+p(HGNC:TNNT2) pos path(HP:"Acute kidney injury")
+UNSET MeSHAnatomy
+
+SET Evidence = "Antiviral (oseltamivir, 75 mg twice a day; ribavirin, 0.5 g twice a day; umifenovir, 0.2 g 3 times a day), antibacterial (moxifloxacin, 0.4 g every day), glucocorticoid (methylprednisolone, 40-80 mg every day), and respiratory support were the main treatment approaches for the hospitalized patients (Table 1)."
+a(CHEBI:oseltamivir) reg path(DO:"COVID-19")
+a(CHEBI:ribavirin) reg path(DO:"COVID-19")
+a(CHEBI:umifenovir) reg path(DO:"COVID-19")
+a(CHEBI:moxifloxacin) reg path(DO:"COVID-19")
+a(CHEBI:"6-methylprednisolone") reg path(DO:"COVID-19")
+a(MESH:"Ventilators, Mechanical") reg path(DO:"COVID-19")
+
+SET Evidence = "Notably, the use of angiotensin-converting enzyme inhibitors (ACEIs)/angiotensin receptor blockers (ARBs) was higher in patients with elevated TnT levels (11 [21.1%] vs 8 [5.9%]; Table 1), reflecting the higher rates ofCVD."
+p(HGNC:TNNT2) pos a(MESH:"Angiotensin-Converting Enzyme Inhibitors")
+p(HGNC:TNNT2) pos a(MESH:"Angiotensin II Type 1 Receptor Blockers")
+p(HGNC:TNNT2) pos a(MESH:"Angiotensin II Type 2 Receptor Blockers")
+
+SET Evidence = "Both TnT and NT-proBNP levels increased significantly during the course of hospitalization in those who ultimately died, but no such dynamic changes of TnT or NT-proBNP levels were evident in survivors."
+p(HGNC:TNNT2) pos a(MESH:Mortality)
+p(HGNC:NPPB, frag("?")) pos a(MESH:Mortality)
+UNSET Species
+UNSET Custom_Disease
+

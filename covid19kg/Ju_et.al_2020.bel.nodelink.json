@@ -1,0 +1,895 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Preprint"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Geena Mariya Jose",
+      "contact": "geena.mariya.jose@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "Ju_et.al_2020.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "FIXME": ".*",
+      "NCBIGENE": ".*",
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "Ju_et.al_2020.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "key": "7ebae047ab050c7e67058c9bcb1405dc",
+      "relation": "partOf",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "ELISA": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Plasma": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.21.990770"
+      },
+      "evidence": "Samples from P#1, P#2, P#5, and P#16 demonstrated higher binding to both SARS-CoV-2 RBD and NP than the rest (Figure 1A).",
+      "key": "7110d7b657da878e890f92c9685592ba",
+      "line": 58,
+      "relation": "association",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "key": "511e145d0470a5e95607e34d3533d647",
+      "relation": "partOf",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "key": "069b87b0387d39bb99c0312b818408f5",
+      "relation": "partOf",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "key": "8c7daffe9fef35df316289c69266b4af",
+      "relation": "partOf",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "key": "fc1e5209c0f5c87d183194245bd457bf",
+      "relation": "partOf",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "key": "19c0f67de2e680d6e984e1fb1a1a38a6",
+      "relation": "partOf",
+      "source": 21,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "ELISA": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Plasma": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.21.990770"
+      },
+      "evidence": "Samples from P#1, P#2, P#5, and P#16 demonstrated higher binding to both SARS-CoV-2 RBD and NP than the rest (Figure 1A).",
+      "key": "14a0ec8e3b6dff42065063185d7cf377",
+      "line": 60,
+      "relation": "association",
+      "source": 21,
+      "target": 12
+    },
+    {
+      "key": "ae4d2d7701a1081072b72e66066188e9",
+      "relation": "partOf",
+      "source": 21,
+      "target": 4
+    },
+    {
+      "key": "8f9d123ed810506d99774417351e40c2",
+      "relation": "partOf",
+      "source": 21,
+      "target": 10
+    },
+    {
+      "key": "839b39c62e5c8334609d3e7e67a9c718",
+      "relation": "hasVariant",
+      "source": 20,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "ELISA": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Plasma": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.21.990770"
+      },
+      "evidence": "Samples from P#1, P#2, P#5, and P#16 demonstrated higher binding to both SARS-CoV-2 RBD and NP than the rest (Figure 1A).",
+      "key": "1aff6d88bbb8c401478de66d922af242",
+      "line": 58,
+      "relation": "association",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "ELISA": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Plasma": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.21.990770"
+      },
+      "evidence": "Samples from P#1, P#2, P#5, and P#16 demonstrated higher binding to both SARS-CoV-2 RBD and NP than the rest (Figure 1A).",
+      "key": "9fcdd367e45ec6d5243f228de76144a7",
+      "line": 60,
+      "relation": "association",
+      "source": 12,
+      "target": 21
+    },
+    {
+      "key": "ceb6ea63322d87daac123e3170b1a637",
+      "relation": "partOf",
+      "source": 12,
+      "target": 6
+    },
+    {
+      "key": "b42e27d444d3ff8e192d71dd90f2191e",
+      "relation": "partOf",
+      "source": 12,
+      "target": 3
+    },
+    {
+      "key": "62b7fed8f627ae3c7e0cb1b7f43e2149",
+      "relation": "partOf",
+      "source": 11,
+      "target": 5
+    },
+    {
+      "key": "e511bfc5e4c673e3ede5d28daa9ac601",
+      "relation": "partOf",
+      "source": 23,
+      "target": 9
+    },
+    {
+      "key": "59d4dd84b05ba8d778bb8fe73d789294",
+      "relation": "partOf",
+      "source": 22,
+      "target": 8
+    },
+    {
+      "key": "996df09b67bf252f3755eceb62af8d5d",
+      "relation": "partOf",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "key": "eeb622b46ed790a7d943ef25bbaa71a3",
+      "relation": "partOf",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.21.990770"
+      },
+      "evidence": "The most powerful were P2C-1F11 and P2B-2F6, which reduced ACE2 binding about 99.2% and 98.5%, respectively.",
+      "key": "3b1104157aeb41171f5f71d8dda8a38c",
+      "line": 82,
+      "relation": "decreases",
+      "source": 18,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.21.990770"
+      },
+      "evidence": "P2C-1F11 and P2B-2F6 were the most potent, followed by P2C-1A3 and P2C-1C10.",
+      "key": "a35d1446e98b6a5149a48e4307a2ee0a",
+      "line": 90,
+      "relation": "decreases",
+      "source": 18,
+      "target": 12
+    },
+    {
+      "key": "8a4da1f0bb3e5319412a9864d8f6dc93",
+      "relation": "partOf",
+      "source": 19,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.21.990770"
+      },
+      "evidence": "The most powerful were P2C-1F11 and P2B-2F6, which reduced ACE2 binding about 99.2% and 98.5%, respectively.",
+      "key": "45e5d101c006e1353c89c0c1a9b34186",
+      "line": 83,
+      "relation": "decreases",
+      "source": 15,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.21.990770"
+      },
+      "evidence": "P2C-1F11 and P2B-2F6 were the most potent, followed by P2C-1A3 and P2C-1C10.",
+      "key": "06c212f3091b7afa7c5cb9dd8195297d",
+      "line": 91,
+      "relation": "decreases",
+      "source": 15,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.21.990770"
+      },
+      "evidence": "Two of the three representative antibodies from the clonal expanded clusters (P2A-1A10 and P2A-1B3) had slightly over 80% and 90% reduction, respectively.",
+      "key": "9e319294bca8624129860ab7ff509c34",
+      "line": 86,
+      "relation": "decreases",
+      "source": 13,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.21.990770"
+      },
+      "evidence": "Two of the three representative antibodies from the clonal expanded clusters (P2A-1A10 and P2A-1B3) had slightly over 80% and 90% reduction, respectively.",
+      "key": "1774a95b43313c1270b708b08ae07a05",
+      "line": 87,
+      "relation": "decreases",
+      "source": 14,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.21.990770"
+      },
+      "evidence": "P2C-1F11 and P2B-2F6 were the most potent, followed by P2C-1A3 and P2C-1C10.",
+      "key": "f1671057b2e5ca8ec46a114215924fc3",
+      "line": 92,
+      "relation": "decreases",
+      "source": 16,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.21.990770"
+      },
+      "evidence": "P2C-1F11 and P2B-2F6 were the most potent, followed by P2C-1A3 and P2C-1C10.",
+      "key": "5f77a2f2d3a7c5f2da60a22587171647",
+      "line": 93,
+      "relation": "decreases",
+      "source": 17,
+      "target": 12
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(MESH:\"B-Lymphocytes\")",
+      "concept": {
+        "name": "B-Lymphocytes",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "f58463c9771eaea79cce530465284035"
+    },
+    {
+      "bel": "a(MESH:Immunoglobulins)",
+      "concept": {
+        "name": "Immunoglobulins",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "ee83657f1cb91b45697f9647ef2f9149"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "complex(a(MESH:\"B-Lymphocytes\"), p(COVID:S))",
+      "function": "Complex",
+      "id": "b515a7ed19139aa6899f4792767ee37a",
+      "members": [
+        {
+          "bel": "a(MESH:\"B-Lymphocytes\")",
+          "concept": {
+            "name": "B-Lymphocytes",
+            "namespace": "MESH"
+          },
+          "function": "Abundance",
+          "id": "f58463c9771eaea79cce530465284035"
+        },
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(MESH:\"B-Lymphocytes\"), p(NCBIGENE:43740568, frag(\"?\")))",
+      "function": "Complex",
+      "id": "d5cfbd822571831d199586b463a925f1",
+      "members": [
+        {
+          "bel": "a(MESH:\"B-Lymphocytes\")",
+          "concept": {
+            "name": "B-Lymphocytes",
+            "namespace": "MESH"
+          },
+          "function": "Abundance",
+          "id": "f58463c9771eaea79cce530465284035"
+        },
+        {
+          "bel": "p(NCBIGENE:43740568, frag(\"?\"))",
+          "concept": {
+            "name": "43740568",
+            "namespace": "NCBIGENE"
+          },
+          "function": "Protein",
+          "id": "a44554109735293069ffb0f81f400763",
+          "variants": [
+            {
+              "kind": "frag",
+              "missing": "?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(MESH:Immunoglobulins), p(COVID:N))",
+      "function": "Complex",
+      "id": "b6122e889788de9478bd53592d0963b2",
+      "members": [
+        {
+          "bel": "a(MESH:Immunoglobulins)",
+          "concept": {
+            "name": "Immunoglobulins",
+            "namespace": "MESH"
+          },
+          "function": "Abundance",
+          "id": "ee83657f1cb91b45697f9647ef2f9149"
+        },
+        {
+          "bel": "p(COVID:N)",
+          "concept": {
+            "name": "N",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "a1054f8b8ac9a90d2ad484980fa2a350"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(MESH:Immunoglobulins), p(COVID:S))",
+      "function": "Complex",
+      "id": "a4eef66c43b54c7bef51d3f1de28f54c",
+      "members": [
+        {
+          "bel": "a(MESH:Immunoglobulins)",
+          "concept": {
+            "name": "Immunoglobulins",
+            "namespace": "MESH"
+          },
+          "function": "Abundance",
+          "id": "ee83657f1cb91b45697f9647ef2f9149"
+        },
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(MESH:Immunoglobulins), p(NCBIGENE:43740568, frag(\"?\")))",
+      "function": "Complex",
+      "id": "e8ffd74fb4b9662fd944c04d516248cc",
+      "members": [
+        {
+          "bel": "a(MESH:Immunoglobulins)",
+          "concept": {
+            "name": "Immunoglobulins",
+            "namespace": "MESH"
+          },
+          "function": "Abundance",
+          "id": "ee83657f1cb91b45697f9647ef2f9149"
+        },
+        {
+          "bel": "p(NCBIGENE:43740568, frag(\"?\"))",
+          "concept": {
+            "name": "43740568",
+            "namespace": "NCBIGENE"
+          },
+          "function": "Protein",
+          "id": "a44554109735293069ffb0f81f400763",
+          "variants": [
+            {
+              "kind": "frag",
+              "missing": "?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(MESH:Immunoglobulins), p(UNIPROT:A0A140AYZ5))",
+      "function": "Complex",
+      "id": "177aec708d2a6aa7a0ca84a835b82dae",
+      "members": [
+        {
+          "bel": "a(MESH:Immunoglobulins)",
+          "concept": {
+            "name": "Immunoglobulins",
+            "namespace": "MESH"
+          },
+          "function": "Abundance",
+          "id": "ee83657f1cb91b45697f9647ef2f9149"
+        },
+        {
+          "bel": "p(UNIPROT:A0A140AYZ5)",
+          "concept": {
+            "name": "A0A140AYZ5",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "eba20891b3441af1cf6b3d7f68d6d4c0"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(MESH:Immunoglobulins), p(UNIPROT:J9SFL2))",
+      "function": "Complex",
+      "id": "c5565535236a149533facd4be1bb9d48",
+      "members": [
+        {
+          "bel": "a(MESH:Immunoglobulins)",
+          "concept": {
+            "name": "Immunoglobulins",
+            "namespace": "MESH"
+          },
+          "function": "Abundance",
+          "id": "ee83657f1cb91b45697f9647ef2f9149"
+        },
+        {
+          "bel": "p(UNIPROT:J9SFL2)",
+          "concept": {
+            "name": "J9SFL2",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "87d7e47d8c24330d90a56b4d4d4b2ae6"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(HGNC:ACE2), p(NCBIGENE:43740568, frag(\"?\")))",
+      "function": "Complex",
+      "id": "701eb38a847b7b756f3ad56e47bf5eba",
+      "members": [
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        },
+        {
+          "bel": "p(NCBIGENE:43740568, frag(\"?\"))",
+          "concept": {
+            "name": "43740568",
+            "namespace": "NCBIGENE"
+          },
+          "function": "Protein",
+          "id": "a44554109735293069ffb0f81f400763",
+          "variants": [
+            {
+              "kind": "frag",
+              "missing": "?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:N)",
+      "concept": {
+        "name": "N",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "a1054f8b8ac9a90d2ad484980fa2a350"
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(FIXME:\"P2A-1A10\")",
+      "concept": {
+        "name": "P2A-1A10",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "9774857caad741c0c04e2afbdb5836e7"
+    },
+    {
+      "bel": "p(FIXME:\"P2A-1B3\")",
+      "concept": {
+        "name": "P2A-1B3",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "77e284aae6d19b539dedb225173ad54e"
+    },
+    {
+      "bel": "p(FIXME:\"P2B-2F6\")",
+      "concept": {
+        "name": "P2B-2F6",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "368635c22df9af75bea753374b8c3005"
+    },
+    {
+      "bel": "p(FIXME:\"P2C-1A3\")",
+      "concept": {
+        "name": "P2C-1A3",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "2fe1892e7adf1cfa618641b9be4c5146"
+    },
+    {
+      "bel": "p(FIXME:\"P2C-1C10\")",
+      "concept": {
+        "name": "P2C-1C10",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "85b5bb71502e0e364692d53e2fcf1db4"
+    },
+    {
+      "bel": "p(FIXME:\"P2C-1F11\")",
+      "concept": {
+        "name": "P2C-1F11",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "ad1614385939815e52b7943749bf29d3"
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "p(NCBIGENE:43740568)",
+      "concept": {
+        "name": "43740568",
+        "namespace": "NCBIGENE"
+      },
+      "function": "Protein",
+      "id": "7c0c25d9b85462ae1b80a07e4192e4b9"
+    },
+    {
+      "bel": "p(NCBIGENE:43740568, frag(\"?\"))",
+      "concept": {
+        "name": "43740568",
+        "namespace": "NCBIGENE"
+      },
+      "function": "Protein",
+      "id": "a44554109735293069ffb0f81f400763",
+      "variants": [
+        {
+          "kind": "frag",
+          "missing": "?"
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:A0A140AYZ5)",
+      "concept": {
+        "name": "A0A140AYZ5",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "eba20891b3441af1cf6b3d7f68d6d4c0"
+    },
+    {
+      "bel": "p(UNIPROT:J9SFL2)",
+      "concept": {
+        "name": "J9SFL2",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "87d7e47d8c24330d90a56b4d4d4b2ae6"
+    }
+  ]
+}

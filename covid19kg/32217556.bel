@@ -1,0 +1,258 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32217556.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Cohort_Median_Age AS LIST {"62 years","51 years", "68 years"}
+DEFINE ANNOTATION Patient_Condition AS LIST {"deceased", "recovered", "died"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed", "BMJ. 2020 Mar 26;368:m1091. doi: 10.1136/bmj.m1091.", "32217556"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "Hypertension, cardiovascular disease, and cerebrovascular disease were much more frequent among deceased patients (54 (48%), 16 (14%), and 4 (4%)) than among recovered patients (39 (24%), 7 (4%), and 0 (0%))."
+SET Custom_Disease = "COVID-19"
+SET Species = "9606"
+SET Cohort_Median_Age = "62 years"
+SET Patient_Condition = "deceased"
+path(DO:"COVID-19") -- path(DO:hypertension)
+path(DO:"COVID-19") -- path(MESH:"Cardiovascular Diseases")
+path(DO:"COVID-19") -- path(DO:"cerebrovascular disease")
+UNSET Cohort_Median_Age
+UNSET Patient_Condition
+
+SET Evidence = "Fever and cough were the most prevalent symptoms at disease onset in both deceased patients (104 (92%) and 79 (70%)) and recovered patients (145 (90%) and 106 (66%)), and the proportions of patients reporting these symptoms in the two groups were comparable."
+SET Cohort_Median_Age = {"62 years", "51 years"}
+SET Patient_Condition = {"deceased", "recovered"}
+path(DO:"COVID-19") -- path(HP:Fever)
+path(DO:"COVID-19") -- path(HP:Cough)
+UNSET Cohort_Median_Age
+UNSET Patient_Condition
+
+SET Evidence = "Other prevalent symptoms at onset of illness in deceased patients included fatigue, dyspnoea, chest tightness, and sputum production; less common symptoms included anorexia, diarrhoea, and myalgia."
+SET Cohort_Median_Age = "62 years"
+SET Patient_Condition = "deceased"
+path(DO:"COVID-19") -- path(HP:Fatigue)
+path(DO:"COVID-19") -- path(HP:"Respiratory distress")
+path(DO:"COVID-19") -- path(HP:"Chest tightness")
+path(DO:"COVID-19") -- path(MESH:Sputum)
+
+SET Evidence = "Median systolic blood pressure was significantly higher in deceased patients (137.0 mm Hg) than recovered patients (125.0 mm Hg)."
+path(DO:"COVID-19") -- path(HP:"Elevated systolic blood pressure")
+UNSET Cohort_Median_Age
+UNSET Patient_Condition
+
+SET Evidence = "More patients who died than who recovered had arterial pressure of 140 mm Hg or higher (50 (44%) v 33 (20%))"
+SET Cohort_Median_Age = "68 years"
+SET Patient_Condition = "died"
+path(DO:"COVID-19") pos bp(MESH:"Arterial Pressure")
+UNSET Cohort_Median_Age
+UNSET Patient_Condition
+
+SET Evidence = "Heart rates were much higher in deceased patients (101.0 beats per minute) than in recovered patients (91.0 beats per minute)."
+SET Cohort_Median_Age = "62 years"
+SET Patient_Condition = "deceased"
+path(DO:"COVID-19") pos bp(MESH:"Heart Rate")
+
+SET Evidence = "Respiratory rates were significantly higher in deceased patients (24.0 breaths per minute) than in recovered patients (20.0 breaths per minute)."
+path(DO:"COVID-19") pos bp(MESH:"Respiratory Rate")
+
+SET Evidence = "Deceased patients more often developed tachycardia and tachypnoea (respiratory rate ≥24 breaths per minute) (56 (50%) and 66 (58%)) than did recovered patients (48 (30%) and 22 (14%))."
+path(DO:"COVID-19") pos path(HP:Tachycardia)
+path(DO:"COVID-19") pos path(HP:Tachypnea)
+
+SET Evidence = "Fifty six (50%) deceased patients and only six (4%) who recovered developed leukocytosis (white blood cell count ≥10×109/L)."
+SET MeSHAnatomy = "Blood"
+path(DO:"COVID-19") pos path(HP:Leukocytosis)
+
+SET Evidence = "Deceased patients had persistent and more severe lymphopenia than recovered patients; 44 (39%) deceased patients and eight (5%) recovered patients had lymphocyte counts below 0.5×109/L."
+path(DO:"COVID-19") pos path(DO:lymphopenia)
+
+SET Evidence = "Median platelet counts were significantly lower in deceased patients"
+path(DO:"COVID-19") neg bp(MESH:"Platelet Count")
+UNSET MeSHAnatomy
+
+SET Evidence = "Concentrations of alanine aminotransferase, aspartate aminotransferase, total bilirubin, alkaline phosphatase, and γ-glutamyl transpeptidase were markedly higher in deceased patients than in recovered patients"
+SET MeSHAnatomy = "Serum"
+path(DO:"COVID-19") pos p(HGNC:GPT)
+path(DO:"COVID-19") pos p(HGNC:GOT1)
+path(DO:"COVID-19") pos p(HGNC:GOT2)
+path(DO:"COVID-19") pos p(HGNC:ALPL)
+path(DO:"COVID-19") pos a(MESH:Bilirubin)
+path(DO:"COVID-19") pos g(GFAM:"Gamma-glutamyltransferases")
+
+SET Evidence = "Albumin concentrations were significantly lower in deceased patients than in recovered patients."
+path(DO:"COVID-19") neg p(HGNC:ALB)
+
+SET Evidence = "Concentrations of blood urea nitrogen, creatinine, potassium, triglycerides, creatine kinase, and lactate dehydrogenase were significantly higher in deceased patients than in recovered patients."
+path(DO:"COVID-19") -- path(HP:"Increased blood urea nitrogen")
+path(DO:"COVID-19") pos a(CHEBI:creatinine)
+path(DO:"COVID-19") pos a(MESH:Potassium)
+path(DO:"COVID-19") pos a(CHEBI:triglyceride)
+path(DO:"COVID-19") pos p(HGNC:CKM)
+path(DO:"COVID-19") pos p(HGNC:CKB)
+path(DO:"COVID-19") pos p(HGNC:LDHA)
+path(DO:"COVID-19") pos p(HGNC:LDHB)
+path(DO:"COVID-19") pos p(HGNC:LDHC)
+path(DO:"COVID-19") pos p(HGNC:LDHD)
+
+SET Evidence = "Concentrations of hypersensitive cardiac troponin I and N-terminal pro-brain natriuretic peptide were markedly higher in deceased patients (40.8 pg/mL and 800.0 pg/mL) than in recovered patients (3.3 pg/mL and 72.0 pg/mL), with eight deceased patients having cardiac troponin I above 1000 pg/mL and two above 10 000 pg/mL."
+path(DO:"COVID-19") pos p(HGNC:TNNI3)
+path(DO:"COVID-19") pos p(HGNC:NPPB, frag("?"))
+
+SET Evidence = "Median prothrombin time was significantly longer in deceased patients than in recovered patients, whereas activated partial thromboplastin time was comparable between the two groups."
+path(DO:"COVID-19") -- path(HP:"Prolonged prothrombin time")
+UNSET Patient_Condition
+SET Cohort_Median_Age = {"62 years", "51 years"}
+SET Patient_Condition = {"deceased", "recovered"}
+path(DO:"COVID-19") -- bp(MESH:"Partial Thromboplastin Time")
+UNSET Cohort_Median_Age
+UNSET Patient_Condition
+
+SET Evidence = "D-dimer concentrations were markedly greater in deceased patients (4.6 μg/mL) than in recovered patients (0.6 μg/mL)."
+SET Cohort_Median_Age = "62 years"
+SET Patient_Condition = "deceased"
+path(DO:"COVID-19") pos p(MESH:"fibrin fragment D")
+
+SET Evidence = "Concentrations of procalcitonin, high sensitivity C-reactive protein, and ferritin, as well as erythrocyte sedimentation rate, were significantly higher in deceased patients than in recovered patients."
+path(DO:"COVID-19") pos p(HGNC:CALCA)
+path(DO:"COVID-19") pos p(HGNC:CRP)
+path(DO:"COVID-19") pos g(GFAM:"Ferritin subunits")
+path(DO:"COVID-19") -- path(HP:"Elevated erythrocyte sedimentation rate")
+
+SET Evidence = "Thyroid stimulating hormone and free triiodothyronine concentrations were
+significantly lower in deceased patients (0.7 mIU/mL and 2.8 pmol/L) than in recovered patients (1.4 mIU/mL and 4.3 pmol/L)."
+path(DO:"COVID-19") neg a(CHEBI:"thyroid stimulating hormone")
+path(DO:"COVID-19") neg a(CHEBI:"3,3',5'-triiodothyronine")
+
+SET Evidence = "Serum circulating immunoglobulin A, immunoglobulin G, and immunoglobulin M did not differ significantly between the two groups, whereas complement 3 and complement 4 concentrations were markedly lower in deceased patients than in recovered patients"
+path(DO:"COVID-19") neg p(HGNC:C3)
+path(DO:"COVID-19") neg p(HGNC:C4B)
+
+SET Evidence = "Of patients with available data, concentrations of interleukin 2 receptor, interleukin 6, interleukin 8, interleukin 10, and tumour necrosis factor α were significantly higher in deceased patients than in recovered patients."
+path(DO:"COVID-19") pos p(HGNC:IL2RA)
+path(DO:"COVID-19") pos p(HGNC:IL2RB)
+path(DO:"COVID-19") pos p(HGNC:IL6)
+path(DO:"COVID-19") pos p(HGNC:CXCL8)
+path(DO:"COVID-19") pos p(HGNC:IL10)
+path(DO:"COVID-19") pos p(HGNC:TNF)
+UNSET MeSHAnatomy
+UNSET Cohort_Median_Age
+UNSET Patient_Condition
+
+SET Evidence = "Forty two (86%) of 49 deceased patients and 58 (50%) of 117 recovered patients had proteinuria, and 40 (82%) of 49 deceased patients and 44 (38%) of 117 recovered patients showed microscopic haematuria."
+SET Cohort_Median_Age = {"62 years", "51 years"}
+SET Patient_Condition = {"deceased", "recovered"}
+path(DO:"COVID-19") -- path(DO:proteinuria)
+path(DO:"COVID-19") -- path(HP:Hematuria)
+
+SET Evidence = "Moreover, all the deceased patients and 14 (44%) recovered patients had an arterial partial pressure of oxygen to fraction of inspired oxygen ratio of 300, indicating
+that these patients had developed acute respiratory distress syndrome, whereas severe acute respiratory distress syndrome (≤100) developed only in deceased patients (16; 46%)."
+path(DO:"COVID-19") -- path(DO:"adult respiratory distress syndrome")
+UNSET Cohort_Median_Age
+UNSET Patient_Condition
+SET Cohort_Median_Age = "62 years"
+SET Patient_Condition = "deceased"
+path(DO:"COVID-19") -- path(DO:"severe acute respiratory syndrome")
+
+SET Evidence = "Actual bicarbonate and total carbon dioxide concentration were markedly lower in deceased patients than in recovered patients."
+SET MeSHAnatomy = "Blood"
+path(DO:"COVID-19") neg a(MESH:Bicarbonates)
+path(DO:"COVID-19") neg a(CHEBI:"carbon dioxide")
+UNSET MeSHAnatomy
+
+SET Evidence = "Common complications observed in deceased patients included acute respiratory distress syndrome (113; 100%), type I respiratory failure (18/35; 51%), sepsis (113; 100%), acute cardiac injury (72/94; 77%), heart failure (41/83; 49%), shock (46; 41%), alkalosis (14/35; 40%), hyperkalaemia (42; 37%), acute kidney injury (28; 25%), and hypoxic encephalopathy (23; 20%)."
+path(DO:"COVID-19") -- path(DO:"adult respiratory distress syndrome")
+path(DO:"COVID-19") -- path(DO:"respiratory failure")
+path(DO:"COVID-19") -- path(DO:"bacterial sepsis")
+path(DO:"COVID-19") -- path(MESH:"Heart Injuries")
+path(DO:"COVID-19") -- path(MESH:"Heart Failure")
+path(DO:"COVID-19") -- path(HP:Shock)
+path(DO:"COVID-19") -- path(HP:Alkalosis)
+path(DO:"COVID-19") -- path(HP:Hyperkalemia)
+path(DO:"COVID-19") -- path(HP:"Acute kidney injury")
+path(DO:"COVID-19") -- path(MESH:"Hypoxia, Brain")
+UNSET Cohort_Median_Age
+UNSET Patient_Condition
+
+SET Evidence = "One patient who died developed gastrointestinal bleeding."
+SET Cohort_Median_Age = "68 years"
+SET Patient_Condition = "died"
+path(DO:"COVID-19") pos path(HP:"Gastrointestinal hemorrhage")
+UNSET Cohort_Median_Age
+UNSET Patient_Condition
+
+SET Evidence = "Fewer deceased patients (89; 79%) than recovered patients (147; 91%) received monotherapy or combination therapy with antiviral agents (oseltamivir, arbidol, or lopinavir/ritonavir), whereas more deceased patients (99; 88%) than recovered patients (118; 73%) were given glucocorticoid therapy, considering the severe pneumonia and “cytokine storm” observed in patients who died."
+SET Cohort_Median_Age = "51 years"
+SET Patient_Condition = "recovered"
+a(CHEBI:oseltamivir) reg path(DO:"COVID-19")
+a(PUBCHEM:131411) reg path(DO:"COVID-19")
+a(CHEBI:lopinavir) reg path(DO:"COVID-19")
+a(CHEBI:ritonavir) reg path(DO:"COVID-19")
+UNSET Cohort_Median_Age
+UNSET Patient_Condition
+
+SET Evidence = "One hundred and five (93%) deceased patients and 144 (89%) who recovered received empirical antibacterial therapy (moxifloxacin, cefoperazone, or azithromycin)."
+SET Cohort_Median_Age = {"62 years", "51 years"}
+SET Patient_Condition = {"deceased", "recovered"}
+a(CHEBI:moxifloxacin) reg path(DO:"COVID-19")
+a(CHEBI:cefoperazone) reg path(DO:"COVID-19")
+a(CHEBI:azithromycin) reg path(DO:"COVID-19")
+UNSET Cohort_Median_Age
+UNSET Patient_Condition
+
+SET Evidence = "Fewer deceased patients (25; 22%) than recovered patients (64; 40%) received interferon α inhalation treatment."
+SET Cohort_Median_Age =  "51 years"
+SET Patient_Condition =  "recovered"
+path(DO:"COVID-19") neg a(MESH:"Interferon-alpha")
+UNSET Cohort_Median_Age
+UNSET Patient_Condition
+
+SET Evidence = "Invasive mechanical ventilation was needed in 17 (15%) deceased patients, one of
+whom received extracorporeal membrane pulmonary oxygenation as rescue therapy."
+SET Cohort_Median_Age = "62 years"
+SET Patient_Condition = "deceased"
+a(MESH:"Ventilators, Mechanical") reg path(DO:"COVID-19")
+
+SET Evidence = "Three deceased patients received continuous renal replacement therapy."
+a(MESH:"Renal Replacement Therapy") reg path(DO:"COVID-19")
+UNSET Cohort_Median_Age
+UNSET Patient_Condition
+UNSET Species
+UNSET Custom_Disease

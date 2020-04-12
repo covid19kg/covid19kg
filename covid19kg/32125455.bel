@@ -1,0 +1,183 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32125455.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20170511.belanno"
+DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION expression_level AS LIST {"overexpression"}
+DEFINE ANNOTATION protein_abundance AS LIST {"excessive"}
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19", "acid-induced acute lung injury"}
+DEFINE ANNOTATION protein_type AS LIST {"solube"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+SET Citation = {"PubMed","32125455"}
+SET PublicationType = "Review"
+SET PublicationStatus = "Published"
+SET Section = "Full Text"
+
+SET Evidence = "Overexpression of human ACE2 enhanced disease severity in a mouse \
+model of SARS-CoV infection, demonstrating that viral entry into cells \
+is a critical step [11]"
+
+SET MeSHDisease = "Severe Acute Respiratory Syndrome"
+SET Species = "10090"
+SET expression_level = "overexpression"
+act(p(MGI:Ace2)) -> bp(GO:"viral entry into host cell")
+bp(GO:"viral entry into host cell") -> path(DO:"severe acute respiratory syndrome")
+UNSET expression_level
+
+SET Evidence = "injecting SARS-CoV spike into mice worsened lung injury."
+
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -- p(UNIPROT:P59594)
+act(p(UNIPROT:P59594)) -> path(MESH:"Lung Injury")
+#This is UNIPROT ID. not in file
+UNSET MeSHDisease
+
+SET Evidence = "Critically, this injury was attenuated by blocking the renin- \
+angiotensin pathway and depended on ACE2 expression [12]."
+
+bp(MESH:"Renin-Angiotensin System") pos path(MESH:"Lung Injury")
+act(p(MGI:Ace2)) -- path(MESH:"Lung Injury")
+
+UNSET Species
+
+SET Evidence = "Thus, for SARS-CoV pathogenesis, ACE2 is not only the entry receptor \
+of the virus but also protects from lung injury."
+
+SET MeSHDisease = "Severe Acute Respiratory Syndrome"
+act(p(HGNC:ACE2)) -> bp(GO:"viral entry into host cell")
+act(p(HGNC:ACE2)) neg path(MESH:"Lung Injury")
+
+SET Evidence = "We therefore previously suggested that in contrast to most other \
+coronaviruses, SARS-CoV became highly lethal because the virus \
+deregulates a lung protective pathway [10, 12]."
+
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") pos path(MESH:"Lung Injury")
+
+SET Evidence = "In summary, the SARS-CoV-2 spike protein directly binds with the host \
+cell surface ACE2 receptor facilitating virus entry and replication."
+
+SET Custom_Disease = "COVID-19"
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -- p(COVID:S)
+complex(p(COVID:S), p(HGNC:ACE2)) -> bp(GO:"viral entry into host cell")
+complex(p(COVID:S), p(HGNC:ACE2)) -> bp(GO:"viral genome replication")
+
+SET Evidence = "Using normal lung tissue from eight adult donors, Zhao et al. [14] \
+demonstrated that 83% of ACE2-expressing cells were alveolar \
+epithelial type II cells (AECII), suggesting that these cells can \
+serve as a reservoir for viral invasion."
+
+SET MeSHAnatomy = "Lung"
+a(MESH:"Alveolar Epithelial Cells") -- bp(GO:"viral entry into host cell")
+UNSET MeSHAnatomy
+
+SET Evidence = "Hoffman et al. [25] recently demonstrated that initial spike protein \
+priming by transmembrane protease serine 2 (TMPRSS2) is essential for \
+entry and viral spread of SARS-CoV-2 through interaction with the ACE2 \
+receptor [26, 27]."
+
+act(p(HGNC:TMPRSS2)) -> act(p(COVID:S))
+act(p(COVID:S)) -> complex(p(COVID:S), p(HGNC:ACE2))
+#complex(p(COVID:S), p(HGNC:ACE2)) -> bp(GO:"viral entry into host cell")
+#complex(p(COVID:S), p(HGNC:ACE2)) -> bp(GO:"viral genome replication")
+#viral spread - replication
+UNSET Custom_Disease
+SET Evidence = "The serine protease inhibitor camostat mesylate, approved in Japan to \
+treat unrelated diseases, has been shown to block TMPRSS2 activity \
+[28, 29] and is thus an interesting candidate."
+
+a(CHEBI:"camostat methanesulfonate") -| act(p(HGNC:TMPRSS2))
+
+SET Evidence = "Kuba et al. [10] demonstrated in mice that SARS-CoV downregulates ACE2 \
+protein (but not ACE) by binding its spike protein, contributing to \
+severe lung injury."
+
+SET Species = "10090"
+SET MeSHDisease = "Severe Acute Respiratory Syndrome"
+complex(p(UNIPROT:P59594), p(MGI:Ace2)) -| p(MGI:Ace2)
+act(p(MGI:Ace2)) neg path(MESH:"Lung Injury")
+UNSET MeSHDisease
+UNSET Species
+
+SET Evidence = "This suggests that excessive ACE2 may competitively bind with SARS- \
+CoV-2 not only to neutralize the virus but also rescue cellular ACE2 \
+activity which negatively regulates the renin-angiotensin system (RAS) \
+to protect the lung from injury [12, 30]."
+
+SET protein_abundance = "excessive"
+complex(p(HGNC:ACE2), a(TAX:"Severe acute respiratory syndrome coronavirus 2")) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+complex(p(HGNC:ACE2), a(TAX:"Severe acute respiratory syndrome coronavirus 2")) -> act(p(HGNC:ACE2))
+act(p(MGI:Ace2)) neg bp(MESH:"Renin-Angiotensin System")
+bp(MESH:"Renin-Angiotensin System") pos path(MESH:"Lung Injury")
+UNSET protein_abundance
+
+SET Evidence = "Indeed, enhanced ACE activity and decreased ACE2 availability \
+contribute to lung injury during acid- and ventilator-induced lung \
+injury [12, 31, 32]."
+
+SET MeSHDisease = {"Ventilator-Induced Lung Injury"}
+SET Custom_Disease = "acid-induced acute lung injury"
+act(p(HGNC:ACE)) pos path(MESH:"Lung Injury")
+p(HGNC:ACE2) neg path(MESH:"Lung Injury")
+UNSET Custom_Disease
+UNSET MeSHDisease
+
+SET Evidence = "Thus, treatment with a soluble form of ACE2 itself may exert dual \
+functions: (1) slow viral entry into cells and hence viral spread [7, \
+9] and (2) protect the lung from injury [10, 12, 31, 32]"
+
+SET protein_type = "solube"
+SET MeSHAnatomy = "Lung"
+p(HGNC:ACE2) -| bp(GO:"viral entry into host cell")
+bp(GO:"viral entry into host cell") -> bp(GO:"viral genome replication")
+p(HGNC:ACE2) neg path(MESH:"Lung Injury")
+UNSET MeSHAnatomy
+UNSET protein_type
+
+SET Evidence = "Notably, a recombinant human ACE2 (rhACE2; APN01, GSK2586881) has been \
+found to be safe, with no negative hemodynamic effects in healthy \
+volunteers and in a small cohort of patients with ARDS [33–35]."
+
+a(FIXME:"Recombinant Human Angiotensin Converting Enzyme 2 APN01") -| path(DO:"adult respiratory distress syndrome")
+
+SET Evidence = "The administration of APN01 rapidly decreased levels of its \
+proteolytic target peptide angiotensin II, with a trend to lower \
+plasma IL-6 concentrations."
+
+a(FIXME:"Recombinant Human Angiotensin Converting Enzyme 2 APN01") -| a(CHEBI:"angiotensin II")
+a(FIXME:"Recombinant Human Angiotensin Converting Enzyme 2 APN01") -| p(HGNC:IL6)
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

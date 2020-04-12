@@ -1,0 +1,64 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32169481.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20170511.belanno"
+DEFINE ANNOTATION Spike_Region AS LIST {"C480-C488"}
+DEFINE ANNOTATION Analysis AS LIST {"Molecular docking"}
+
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+
+SET Citation = {"PubMed","32169481"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Analysis  = "Molecular docking"
+SET Evidence = "As shown from the docking scores, region IV of the spike is the best \
+docking platform to GRP78, with a score of −143.5 ± 4.4."
+
+SET Spike_Region = "C480-C488"
+#region IV of the spike protein
+complex(p(COVID:S), p(HGNC:HSPA5))
+UNSET Spike_Region
+
+
+SET Evidence = "Fig. 5B shows a hypothetical binding model showing the homotrimer \
+spike (red surface) protein of the COVID-19 bound to a respiratory \
+system cell exposing the GRP78 protein (green surface)."
+
+SET MeSHAnatomy = "Respiratory System"
+complex(p(COVID:S), p(HGNC:HSPA5))
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -- p(COVID:S)
+UNSET MeSHAnatomy
+
+SET Evidence = "This scenario could occur in stressed cells when GRP78 is \
+overexpressed and translocated from the Endoplasmic Reticulum (ER) to \
+the cell membrane (M)."
+
+bp(GO:"cellular response to stress") -> p(HGNC:HSPA5)
+bp(GO:"cellular response to stress") -> tloc(p(HGNC:HSPA5), fromLoc(GO:"endoplasmic reticulum"), toLoc(GO:"plasma membrane"))
+
+UNSET Citation

@@ -1,0 +1,3577 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {},
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+    },
+    "document_metadata": {
+      "authors": "Yojana Gadiya",
+      "contact": "yojana.gadiya@scai.fraunhofer.de",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "The Origin, Transmission and Clinical Therapies on Coronavirus Disease 2019 (COVID-19) Outbreak - An Update on the Status",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "PMID_32169119",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "FIXME": ".*",
+      "NCBIGENE": ".*"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GOBP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "PFAM": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+    },
+    "path": "32169119.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Another recent research suggested [23]that the mutation in NSP2 and NSP3 play a role in infectious capability and differentiation mechanism of SARS-CoV-2.",
+      "key": "e4ab92f421c50b7c6cad2ab76462e0e5",
+      "line": 87,
+      "relation": "association",
+      "source": 18,
+      "target": 47
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Another recent research suggested [23]that the mutation in NSP2 and NSP3 play a role in infectious capability and differentiation mechanism of SARS-CoV-2.",
+      "key": "809976052ce067998dd5cd225b5a1fbc",
+      "line": 88,
+      "relation": "association",
+      "source": 18,
+      "target": 48
+    },
+    {
+      "key": "81591fa7bd10e9ce16291e118a49e61b",
+      "relation": "hasVariant",
+      "source": 17,
+      "target": 18
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Another recent research suggested [23]that the mutation in NSP2 and NSP3 play a role in infectious capability and differentiation mechanism of SARS-CoV-2.",
+      "key": "5667fdaa1f2e5272aa1e15106df85c11",
+      "line": 87,
+      "relation": "association",
+      "source": 47,
+      "target": 18
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Another recent research suggested [23]that the mutation in NSP2 and NSP3 play a role in infectious capability and differentiation mechanism of SARS-CoV-2.",
+      "key": "d11580f58e0693f3d937df9437c8be10",
+      "line": 89,
+      "relation": "association",
+      "source": 47,
+      "target": 20
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "But in the severe patients, the neutrophil count, D-dimer, blood urea, and creatinine levels were higher significantly, and the lymphocyte counts continued to decrease.",
+      "key": "3f8d997a6522d0436954f4c4b699cc80",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 47,
+      "target": 7
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "But in the severe patients, the neutrophil count, D-dimer, blood urea, and creatinine levels were higher significantly, and the lymphocyte counts continued to decrease.",
+      "key": "a122cc77b710b4c4aa49a9742f1ea60b",
+      "line": 100,
+      "relation": "positiveCorrelation",
+      "source": 47,
+      "target": 5
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "But in the severe patients, the neutrophil count, D-dimer, blood urea, and creatinine levels were higher significantly, and the lymphocyte counts continued to decrease.",
+      "key": "9849813ce33533302da29058116e6681",
+      "line": 101,
+      "relation": "positiveCorrelation",
+      "source": 47,
+      "target": 1
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "But in the severe patients, the neutrophil count, D-dimer, blood urea, and creatinine levels were higher significantly, and the lymphocyte counts continued to decrease.",
+      "key": "c5b6d8389d3c047c0fb37095547d20e5",
+      "line": 102,
+      "relation": "negativeCorrelation",
+      "source": 47,
+      "target": 50
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Additionally, inflammatory factors (interleukin (IL)-6, IL-10, tumor necrosis factor-α(TNF-α) increase, indicating the immune status of patients. The data showed that ICU patients had higher plasma levels of IL-2, IL-7, IL-10, granulocyte colony-stimulating factor (GCSF), 10 kD interferon-gamma-induced  protein  (IP-10),  monocyte  chemo-attractant protein-1 (MCP-1), macrophage inflammatory protein 1-α(MIP-1α), and TNF-α[48].",
+      "key": "295808785f224fad5eec2aa616438b53",
+      "line": 106,
+      "relation": "positiveCorrelation",
+      "source": 47,
+      "target": 31
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Additionally, inflammatory factors (interleukin (IL)-6, IL-10, tumor necrosis factor-α(TNF-α) increase, indicating the immune status of patients. The data showed that ICU patients had higher plasma levels of IL-2, IL-7, IL-10, granulocyte colony-stimulating factor (GCSF), 10 kD interferon-gamma-induced  protein  (IP-10),  monocyte  chemo-attractant protein-1 (MCP-1), macrophage inflammatory protein 1-α(MIP-1α), and TNF-α[48].",
+      "key": "192bb4e130b0a09d5528520640479b23",
+      "line": 107,
+      "relation": "positiveCorrelation",
+      "source": 47,
+      "target": 29
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Additionally, inflammatory factors (interleukin (IL)-6, IL-10, tumor necrosis factor-α(TNF-α) increase, indicating the immune status of patients. The data showed that ICU patients had higher plasma levels of IL-2, IL-7, IL-10, granulocyte colony-stimulating factor (GCSF), 10 kD interferon-gamma-induced  protein  (IP-10),  monocyte  chemo-attractant protein-1 (MCP-1), macrophage inflammatory protein 1-α(MIP-1α), and TNF-α[48].",
+      "key": "487b24b6b40d25b230a182b3d5c9cb31",
+      "line": 108,
+      "relation": "positiveCorrelation",
+      "source": 47,
+      "target": 41
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Plasma": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Additionally, inflammatory factors (interleukin (IL)-6, IL-10, tumor necrosis factor-α(TNF-α) increase, indicating the immune status of patients. The data showed that ICU patients had higher plasma levels of IL-2, IL-7, IL-10, granulocyte colony-stimulating factor (GCSF), 10 kD interferon-gamma-induced  protein  (IP-10),  monocyte  chemo-attractant protein-1 (MCP-1), macrophage inflammatory protein 1-α(MIP-1α), and TNF-α[48].",
+      "key": "fc7f90b9c752b83e015038fb96963d35",
+      "line": 110,
+      "relation": "positiveCorrelation",
+      "source": 47,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Plasma": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Additionally, inflammatory factors (interleukin (IL)-6, IL-10, tumor necrosis factor-α(TNF-α) increase, indicating the immune status of patients. The data showed that ICU patients had higher plasma levels of IL-2, IL-7, IL-10, granulocyte colony-stimulating factor (GCSF), 10 kD interferon-gamma-induced  protein  (IP-10),  monocyte  chemo-attractant protein-1 (MCP-1), macrophage inflammatory protein 1-α(MIP-1α), and TNF-α[48].",
+      "key": "11b0f8c060aeeaa3825968d51c82d5c7",
+      "line": 111,
+      "relation": "positiveCorrelation",
+      "source": 47,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Plasma": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Additionally, inflammatory factors (interleukin (IL)-6, IL-10, tumor necrosis factor-α(TNF-α) increase, indicating the immune status of patients. The data showed that ICU patients had higher plasma levels of IL-2, IL-7, IL-10, granulocyte colony-stimulating factor (GCSF), 10 kD interferon-gamma-induced  protein  (IP-10),  monocyte  chemo-attractant protein-1 (MCP-1), macrophage inflammatory protein 1-α(MIP-1α), and TNF-α[48].",
+      "key": "537961c346b7754788c0c4711fead236",
+      "line": 112,
+      "relation": "positiveCorrelation",
+      "source": 47,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Plasma": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Additionally, inflammatory factors (interleukin (IL)-6, IL-10, tumor necrosis factor-α(TNF-α) increase, indicating the immune status of patients. The data showed that ICU patients had higher plasma levels of IL-2, IL-7, IL-10, granulocyte colony-stimulating factor (GCSF), 10 kD interferon-gamma-induced  protein  (IP-10),  monocyte  chemo-attractant protein-1 (MCP-1), macrophage inflammatory protein 1-α(MIP-1α), and TNF-α[48].",
+      "key": "4f9b6942d6b86282a0d98bc6144d8c36",
+      "line": 113,
+      "relation": "positiveCorrelation",
+      "source": 47,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Plasma": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Additionally, inflammatory factors (interleukin (IL)-6, IL-10, tumor necrosis factor-α(TNF-α) increase, indicating the immune status of patients. The data showed that ICU patients had higher plasma levels of IL-2, IL-7, IL-10, granulocyte colony-stimulating factor (GCSF), 10 kD interferon-gamma-induced  protein  (IP-10),  monocyte  chemo-attractant protein-1 (MCP-1), macrophage inflammatory protein 1-α(MIP-1α), and TNF-α[48].",
+      "key": "0bd88f81205e4939e400e4ea1fa6da14",
+      "line": 114,
+      "relation": "positiveCorrelation",
+      "source": 47,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Plasma": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Additionally, inflammatory factors (interleukin (IL)-6, IL-10, tumor necrosis factor-α(TNF-α) increase, indicating the immune status of patients. The data showed that ICU patients had higher plasma levels of IL-2, IL-7, IL-10, granulocyte colony-stimulating factor (GCSF), 10 kD interferon-gamma-induced  protein  (IP-10),  monocyte  chemo-attractant protein-1 (MCP-1), macrophage inflammatory protein 1-α(MIP-1α), and TNF-α[48].",
+      "key": "7c1509cb30c647a35d268c60a4784bfd",
+      "line": 115,
+      "relation": "positiveCorrelation",
+      "source": 47,
+      "target": 22
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Another recent research suggested [23]that the mutation in NSP2 and NSP3 play a role in infectious capability and differentiation mechanism of SARS-CoV-2.",
+      "key": "c166692aa0e4ba45424c7baf3c2af6b8",
+      "line": 88,
+      "relation": "association",
+      "source": 48,
+      "target": 18
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Another recent research suggested [23]that the mutation in NSP2 and NSP3 play a role in infectious capability and differentiation mechanism of SARS-CoV-2.",
+      "key": "053461d201a309ddc4174dd5c24c63e9",
+      "line": 90,
+      "relation": "association",
+      "source": 48,
+      "target": 20
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Another recent research suggested [23]that the mutation in NSP2 and NSP3 play a role in infectious capability and differentiation mechanism of SARS-CoV-2.",
+      "key": "4a600c8bd797941a64c60959dea76f04",
+      "line": 89,
+      "relation": "association",
+      "source": 20,
+      "target": 47
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Another recent research suggested [23]that the mutation in NSP2 and NSP3 play a role in infectious capability and differentiation mechanism of SARS-CoV-2.",
+      "key": "2769a3f46470efaa75606281c92cd90f",
+      "line": 90,
+      "relation": "association",
+      "source": 20,
+      "target": 48
+    },
+    {
+      "key": "ef8ee4b49aca61a93bc1afedf1086e6a",
+      "relation": "hasVariant",
+      "source": 19,
+      "target": 20
+    },
+    {
+      "key": "a1a5d235d1b6668d57313884ea75d905",
+      "relation": "isA",
+      "source": 15,
+      "target": 44
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": " S glycoprotein includes two sub-units, S1 and S2 [30]. S1 determines the virus-host range and cellular tropism with the key function domain−RBD, while S2 mediates virus-cell membrane fusion by two tandem domains, heptad repeats 1 (HR1) [31] and HR2[32].",
+      "key": "c46282d07e36bc8c9df3025491cd1338",
+      "line": 94,
+      "relation": "regulates",
+      "source": 15,
+      "target": 49
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": " S glycoprotein includes two sub-units, S1 and S2 [30]. S1 determines the virus-host range and cellular tropism with the key function domain−RBD, while S2 mediates virus-cell membrane fusion by two tandem domains, heptad repeats 1 (HR1) [31] and HR2[32].",
+      "key": "6533ee3044385e1ec2d13a8ae39e4c19",
+      "line": 95,
+      "relation": "regulates",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "key": "c6a0ba2dc5290b3870ab25e3abfe50d3",
+      "relation": "isA",
+      "source": 16,
+      "target": 44
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": " S glycoprotein includes two sub-units, S1 and S2 [30]. S1 determines the virus-host range and cellular tropism with the key function domain−RBD, while S2 mediates virus-cell membrane fusion by two tandem domains, heptad repeats 1 (HR1) [31] and HR2[32].",
+      "key": "583b07554e7dfc93d130968083052680",
+      "line": 96,
+      "relation": "regulates",
+      "source": 16,
+      "target": 10
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "The other antiviral drugs include nitazoxanide, favipiravir, nafamostat, and so on (See Table 1 for details).",
+      "key": "840ae4f2b1f3e7b1c28d00e566c29f01",
+      "line": 177,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 25
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "The other antiviral drugs include nitazoxanide, favipiravir, nafamostat, and so on (See Table 1 for details).",
+      "key": "67201f2a71d764ce8ec26f504c4bea69",
+      "line": 178,
+      "relation": "negativeCorrelation",
+      "source": 10,
+      "target": 3
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "But in the severe patients, the neutrophil count, D-dimer, blood urea, and creatinine levels were higher significantly, and the lymphocyte counts continued to decrease.",
+      "key": "0404ed93cee0c75bd5c8ef467ec167de",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 47
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "But in the severe patients, the neutrophil count, D-dimer, blood urea, and creatinine levels were higher significantly, and the lymphocyte counts continued to decrease.",
+      "key": "078d5a3c508a48cd0dbf99485b639ec4",
+      "line": 100,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 47
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "But in the severe patients, the neutrophil count, D-dimer, blood urea, and creatinine levels were higher significantly, and the lymphocyte counts continued to decrease.",
+      "key": "7e9dfd90466ad694605c6b2185ff2cf6",
+      "line": 101,
+      "relation": "positiveCorrelation",
+      "source": 1,
+      "target": 47
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "But in the severe patients, the neutrophil count, D-dimer, blood urea, and creatinine levels were higher significantly, and the lymphocyte counts continued to decrease.",
+      "key": "ebaf0663cf45bccac07a49bf40cb2c83",
+      "line": 102,
+      "relation": "negativeCorrelation",
+      "source": 50,
+      "target": 47
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Additionally, inflammatory factors (interleukin (IL)-6, IL-10, tumor necrosis factor-α(TNF-α) increase, indicating the immune status of patients. The data showed that ICU patients had higher plasma levels of IL-2, IL-7, IL-10, granulocyte colony-stimulating factor (GCSF), 10 kD interferon-gamma-induced  protein  (IP-10),  monocyte  chemo-attractant protein-1 (MCP-1), macrophage inflammatory protein 1-α(MIP-1α), and TNF-α[48].",
+      "key": "11dbb41f66b8a5719cdaf52a835001b4",
+      "line": 106,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 47
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Additionally, inflammatory factors (interleukin (IL)-6, IL-10, tumor necrosis factor-α(TNF-α) increase, indicating the immune status of patients. The data showed that ICU patients had higher plasma levels of IL-2, IL-7, IL-10, granulocyte colony-stimulating factor (GCSF), 10 kD interferon-gamma-induced  protein  (IP-10),  monocyte  chemo-attractant protein-1 (MCP-1), macrophage inflammatory protein 1-α(MIP-1α), and TNF-α[48].",
+      "key": "724bab162f5da5073ed8bda0ca8505ee",
+      "line": 107,
+      "relation": "positiveCorrelation",
+      "source": 29,
+      "target": 47
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Additionally, inflammatory factors (interleukin (IL)-6, IL-10, tumor necrosis factor-α(TNF-α) increase, indicating the immune status of patients. The data showed that ICU patients had higher plasma levels of IL-2, IL-7, IL-10, granulocyte colony-stimulating factor (GCSF), 10 kD interferon-gamma-induced  protein  (IP-10),  monocyte  chemo-attractant protein-1 (MCP-1), macrophage inflammatory protein 1-α(MIP-1α), and TNF-α[48].",
+      "key": "7f686e71f609bb42e31e227a7a07371f",
+      "line": 108,
+      "relation": "positiveCorrelation",
+      "source": 41,
+      "target": 47
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Plasma": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Additionally, inflammatory factors (interleukin (IL)-6, IL-10, tumor necrosis factor-α(TNF-α) increase, indicating the immune status of patients. The data showed that ICU patients had higher plasma levels of IL-2, IL-7, IL-10, granulocyte colony-stimulating factor (GCSF), 10 kD interferon-gamma-induced  protein  (IP-10),  monocyte  chemo-attractant protein-1 (MCP-1), macrophage inflammatory protein 1-α(MIP-1α), and TNF-α[48].",
+      "key": "e53771dba02557515f95c76785eb7d1f",
+      "line": 110,
+      "relation": "positiveCorrelation",
+      "source": 30,
+      "target": 47
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Plasma": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Additionally, inflammatory factors (interleukin (IL)-6, IL-10, tumor necrosis factor-α(TNF-α) increase, indicating the immune status of patients. The data showed that ICU patients had higher plasma levels of IL-2, IL-7, IL-10, granulocyte colony-stimulating factor (GCSF), 10 kD interferon-gamma-induced  protein  (IP-10),  monocyte  chemo-attractant protein-1 (MCP-1), macrophage inflammatory protein 1-α(MIP-1α), and TNF-α[48].",
+      "key": "9196f59384aa6c112faa95a909ae0762",
+      "line": 111,
+      "relation": "positiveCorrelation",
+      "source": 32,
+      "target": 47
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Plasma": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Additionally, inflammatory factors (interleukin (IL)-6, IL-10, tumor necrosis factor-α(TNF-α) increase, indicating the immune status of patients. The data showed that ICU patients had higher plasma levels of IL-2, IL-7, IL-10, granulocyte colony-stimulating factor (GCSF), 10 kD interferon-gamma-induced  protein  (IP-10),  monocyte  chemo-attractant protein-1 (MCP-1), macrophage inflammatory protein 1-α(MIP-1α), and TNF-α[48].",
+      "key": "47fbcf0fcaad3e080744acfce490b810",
+      "line": 112,
+      "relation": "positiveCorrelation",
+      "source": 24,
+      "target": 47
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Plasma": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Additionally, inflammatory factors (interleukin (IL)-6, IL-10, tumor necrosis factor-α(TNF-α) increase, indicating the immune status of patients. The data showed that ICU patients had higher plasma levels of IL-2, IL-7, IL-10, granulocyte colony-stimulating factor (GCSF), 10 kD interferon-gamma-induced  protein  (IP-10),  monocyte  chemo-attractant protein-1 (MCP-1), macrophage inflammatory protein 1-α(MIP-1α), and TNF-α[48].",
+      "key": "aa6e1de5cb923ce75114bf70e6dd9727",
+      "line": 113,
+      "relation": "positiveCorrelation",
+      "source": 26,
+      "target": 47
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Plasma": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Additionally, inflammatory factors (interleukin (IL)-6, IL-10, tumor necrosis factor-α(TNF-α) increase, indicating the immune status of patients. The data showed that ICU patients had higher plasma levels of IL-2, IL-7, IL-10, granulocyte colony-stimulating factor (GCSF), 10 kD interferon-gamma-induced  protein  (IP-10),  monocyte  chemo-attractant protein-1 (MCP-1), macrophage inflammatory protein 1-α(MIP-1α), and TNF-α[48].",
+      "key": "481def4fe6218245b405cc5a67528756",
+      "line": 114,
+      "relation": "positiveCorrelation",
+      "source": 21,
+      "target": 47
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Plasma": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Additionally, inflammatory factors (interleukin (IL)-6, IL-10, tumor necrosis factor-α(TNF-α) increase, indicating the immune status of patients. The data showed that ICU patients had higher plasma levels of IL-2, IL-7, IL-10, granulocyte colony-stimulating factor (GCSF), 10 kD interferon-gamma-induced  protein  (IP-10),  monocyte  chemo-attractant protein-1 (MCP-1), macrophage inflammatory protein 1-α(MIP-1α), and TNF-α[48].",
+      "key": "089e1e6a6717de3e7f7e55eeeccfe32d",
+      "line": 115,
+      "relation": "positiveCorrelation",
+      "source": 22,
+      "target": 47
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Usually, Toll-like receptor (TLR) 3, TLR7, TLR8, and TLR9 sense viral RNA and DNA in the endosome [60, 61]. The viral RNA receptor retinoic-acid inducible gene I (RIG-I) [62], cytosolic receptor melanoma differentiation-associated gene 5 (MDA5) and nucleotidyl transferase cyclic GMP-AMP synthase (cGAS) [63] are responsible for the recognition of viral RNA and DNA in the cytoplasm.",
+      "key": "3b220176c07666b9bd33a157f519aa9d",
+      "line": 123,
+      "relation": "positiveCorrelation",
+      "source": 37,
+      "target": 8
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "a0aa63a8e491a05420a34495a79eb8b9",
+      "line": 137,
+      "relation": "increases",
+      "source": 37,
+      "target": 36
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "5d33a54ce08083306ac9d3e7d6dc7bcc",
+      "line": 138,
+      "relation": "increases",
+      "source": 37,
+      "target": 34
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "3d0d588482123d19661b5b9f08bbbe57",
+      "line": 139,
+      "relation": "increases",
+      "source": 37,
+      "target": 43
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Usually, Toll-like receptor (TLR) 3, TLR7, TLR8, and TLR9 sense viral RNA and DNA in the endosome [60, 61]. The viral RNA receptor retinoic-acid inducible gene I (RIG-I) [62], cytosolic receptor melanoma differentiation-associated gene 5 (MDA5) and nucleotidyl transferase cyclic GMP-AMP synthase (cGAS) [63] are responsible for the recognition of viral RNA and DNA in the cytoplasm.",
+      "key": "412def9cda4555dff2c0b7b358f02cca",
+      "line": 123,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 37
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Usually, Toll-like receptor (TLR) 3, TLR7, TLR8, and TLR9 sense viral RNA and DNA in the endosome [60, 61]. The viral RNA receptor retinoic-acid inducible gene I (RIG-I) [62], cytosolic receptor melanoma differentiation-associated gene 5 (MDA5) and nucleotidyl transferase cyclic GMP-AMP synthase (cGAS) [63] are responsible for the recognition of viral RNA and DNA in the cytoplasm.",
+      "key": "40e7bcf815fafb5b9a9c5860cda95b5b",
+      "line": 124,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 38
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Usually, Toll-like receptor (TLR) 3, TLR7, TLR8, and TLR9 sense viral RNA and DNA in the endosome [60, 61]. The viral RNA receptor retinoic-acid inducible gene I (RIG-I) [62], cytosolic receptor melanoma differentiation-associated gene 5 (MDA5) and nucleotidyl transferase cyclic GMP-AMP synthase (cGAS) [63] are responsible for the recognition of viral RNA and DNA in the cytoplasm.",
+      "key": "85f16d42f191b458f9091bcad4287c81",
+      "line": 125,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 39
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Usually, Toll-like receptor (TLR) 3, TLR7, TLR8, and TLR9 sense viral RNA and DNA in the endosome [60, 61]. The viral RNA receptor retinoic-acid inducible gene I (RIG-I) [62], cytosolic receptor melanoma differentiation-associated gene 5 (MDA5) and nucleotidyl transferase cyclic GMP-AMP synthase (cGAS) [63] are responsible for the recognition of viral RNA and DNA in the cytoplasm.",
+      "key": "0efe2998b0748aea48fd4b654821ef9e",
+      "line": 126,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 40
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Cytoplasm": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Usually, Toll-like receptor (TLR) 3, TLR7, TLR8, and TLR9 sense viral RNA and DNA in the endosome [60, 61]. The viral RNA receptor retinoic-acid inducible gene I (RIG-I) [62], cytosolic receptor melanoma differentiation-associated gene 5 (MDA5) and nucleotidyl transferase cyclic GMP-AMP synthase (cGAS) [63] are responsible for the recognition of viral RNA and DNA in the cytoplasm.",
+      "key": "6f7c8987da56a7ac965a9e914dcc247c",
+      "line": 129,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Cytoplasm": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Usually, Toll-like receptor (TLR) 3, TLR7, TLR8, and TLR9 sense viral RNA and DNA in the endosome [60, 61]. The viral RNA receptor retinoic-acid inducible gene I (RIG-I) [62], cytosolic receptor melanoma differentiation-associated gene 5 (MDA5) and nucleotidyl transferase cyclic GMP-AMP synthase (cGAS) [63] are responsible for the recognition of viral RNA and DNA in the cytoplasm.",
+      "key": "ce6c8aca98fd3b9991fb1ae3620e4ef0",
+      "line": 130,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 28
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Cytoplasm": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Usually, Toll-like receptor (TLR) 3, TLR7, TLR8, and TLR9 sense viral RNA and DNA in the endosome [60, 61]. The viral RNA receptor retinoic-acid inducible gene I (RIG-I) [62], cytosolic receptor melanoma differentiation-associated gene 5 (MDA5) and nucleotidyl transferase cyclic GMP-AMP synthase (cGAS) [63] are responsible for the recognition of viral RNA and DNA in the cytoplasm.",
+      "key": "ffebc61bb56aceff64752faa4870c2b6",
+      "line": 131,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Usually, Toll-like receptor (TLR) 3, TLR7, TLR8, and TLR9 sense viral RNA and DNA in the endosome [60, 61]. The viral RNA receptor retinoic-acid inducible gene I (RIG-I) [62], cytosolic receptor melanoma differentiation-associated gene 5 (MDA5) and nucleotidyl transferase cyclic GMP-AMP synthase (cGAS) [63] are responsible for the recognition of viral RNA and DNA in the cytoplasm.",
+      "key": "9fe034a1c2965c365f193b104ca67bd9",
+      "line": 124,
+      "relation": "positiveCorrelation",
+      "source": 38,
+      "target": 8
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "c5522065419f44e6590e949839a0b0e0",
+      "line": 140,
+      "relation": "increases",
+      "source": 38,
+      "target": 36
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "3fbddb7a6db4d21849c88840483997df",
+      "line": 141,
+      "relation": "increases",
+      "source": 38,
+      "target": 34
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "9f869b9969ea0b7a686ea762431b66c5",
+      "line": 142,
+      "relation": "increases",
+      "source": 38,
+      "target": 43
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Usually, Toll-like receptor (TLR) 3, TLR7, TLR8, and TLR9 sense viral RNA and DNA in the endosome [60, 61]. The viral RNA receptor retinoic-acid inducible gene I (RIG-I) [62], cytosolic receptor melanoma differentiation-associated gene 5 (MDA5) and nucleotidyl transferase cyclic GMP-AMP synthase (cGAS) [63] are responsible for the recognition of viral RNA and DNA in the cytoplasm.",
+      "key": "614c3579289d0a3ef5625e1140ac2cce",
+      "line": 125,
+      "relation": "positiveCorrelation",
+      "source": 39,
+      "target": 8
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "c0d27af7b2a9092894748c2e9dc70d4c",
+      "line": 143,
+      "relation": "increases",
+      "source": 39,
+      "target": 36
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "e3b218b618a26870e67003d2345428c0",
+      "line": 144,
+      "relation": "increases",
+      "source": 39,
+      "target": 34
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "682ae84481dc08bdae17bc6af932a89d",
+      "line": 145,
+      "relation": "increases",
+      "source": 39,
+      "target": 43
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Usually, Toll-like receptor (TLR) 3, TLR7, TLR8, and TLR9 sense viral RNA and DNA in the endosome [60, 61]. The viral RNA receptor retinoic-acid inducible gene I (RIG-I) [62], cytosolic receptor melanoma differentiation-associated gene 5 (MDA5) and nucleotidyl transferase cyclic GMP-AMP synthase (cGAS) [63] are responsible for the recognition of viral RNA and DNA in the cytoplasm.",
+      "key": "b5ec19b35371725b33123ee497f29c03",
+      "line": 126,
+      "relation": "positiveCorrelation",
+      "source": 40,
+      "target": 8
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "c2b24fcd89080ea69870401e57b73b7f",
+      "line": 146,
+      "relation": "increases",
+      "source": 40,
+      "target": 36
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "1df6d5d4eb5d53f5ea603690189c0492",
+      "line": 147,
+      "relation": "increases",
+      "source": 40,
+      "target": 34
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "ad602769783caee231a0e6fe9b724adb",
+      "line": 148,
+      "relation": "increases",
+      "source": 40,
+      "target": 43
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Cytoplasm": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Usually, Toll-like receptor (TLR) 3, TLR7, TLR8, and TLR9 sense viral RNA and DNA in the endosome [60, 61]. The viral RNA receptor retinoic-acid inducible gene I (RIG-I) [62], cytosolic receptor melanoma differentiation-associated gene 5 (MDA5) and nucleotidyl transferase cyclic GMP-AMP synthase (cGAS) [63] are responsible for the recognition of viral RNA and DNA in the cytoplasm.",
+      "key": "6e897ca608806dd543355a0425900a8b",
+      "line": 129,
+      "relation": "positiveCorrelation",
+      "source": 27,
+      "target": 8
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "86a8831f55bf3568505775698af6e5fb",
+      "line": 149,
+      "relation": "increases",
+      "source": 27,
+      "target": 36
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "4fe099b582ef1513c40588e40bf1f529",
+      "line": 150,
+      "relation": "increases",
+      "source": 27,
+      "target": 34
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "4c297c9eed4f9afd4cf43f0f9fe8f60f",
+      "line": 151,
+      "relation": "increases",
+      "source": 27,
+      "target": 43
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Cytoplasm": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Usually, Toll-like receptor (TLR) 3, TLR7, TLR8, and TLR9 sense viral RNA and DNA in the endosome [60, 61]. The viral RNA receptor retinoic-acid inducible gene I (RIG-I) [62], cytosolic receptor melanoma differentiation-associated gene 5 (MDA5) and nucleotidyl transferase cyclic GMP-AMP synthase (cGAS) [63] are responsible for the recognition of viral RNA and DNA in the cytoplasm.",
+      "key": "b44f20826ee3e6bb3285227364fbf9d9",
+      "line": 130,
+      "relation": "positiveCorrelation",
+      "source": 28,
+      "target": 8
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "15e44245c8809809da655cb895c7230d",
+      "line": 152,
+      "relation": "increases",
+      "source": 28,
+      "target": 36
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "302ed5576abb0ce1fedb8c6f80593e29",
+      "line": 153,
+      "relation": "increases",
+      "source": 28,
+      "target": 34
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "49497ca97d3ab20d08a917bacd8ab3a1",
+      "line": 154,
+      "relation": "increases",
+      "source": 28,
+      "target": 43
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Cytoplasm": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Usually, Toll-like receptor (TLR) 3, TLR7, TLR8, and TLR9 sense viral RNA and DNA in the endosome [60, 61]. The viral RNA receptor retinoic-acid inducible gene I (RIG-I) [62], cytosolic receptor melanoma differentiation-associated gene 5 (MDA5) and nucleotidyl transferase cyclic GMP-AMP synthase (cGAS) [63] are responsible for the recognition of viral RNA and DNA in the cytoplasm.",
+      "key": "29950ee8423e8f68e5338c2a72041f25",
+      "line": 131,
+      "relation": "positiveCorrelation",
+      "source": 23,
+      "target": 8
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "fe5e67e4ceaf984d255ae680733f3858",
+      "line": 155,
+      "relation": "increases",
+      "source": 23,
+      "target": 36
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "650bcbd3e738280b2770ec66c0ce1974",
+      "line": 156,
+      "relation": "increases",
+      "source": 23,
+      "target": 34
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "491f4de4e9e74ee9fc9ae9dba8fada80",
+      "line": 157,
+      "relation": "increases",
+      "source": 23,
+      "target": 43
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "05b09f27baefae08a0a4ac7994b3cd0a",
+      "line": 158,
+      "relation": "increases",
+      "source": 36,
+      "target": 35
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "a69e114d9f60cc8048d6fc1a9265bebd",
+      "line": 159,
+      "relation": "increases",
+      "source": 34,
+      "target": 35
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "306ba7cdceaaf172fa55712b73114db7",
+      "line": 160,
+      "relation": "increases",
+      "source": 43,
+      "target": 35
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "f1f366d32628a216661bbd5aa5836d14",
+      "line": 161,
+      "object": {
+        "effect": {
+          "name": "tscript",
+          "namespace": "bel"
+        },
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 35,
+      "target": 45
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "ece80ce793528cbc55ea22fdbf1419dd",
+      "line": 162,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 35,
+      "target": 33
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "12328e45be63c875cc005410a49a826a",
+      "line": 163,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 35,
+      "target": 42
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "b3800b86f5cb2fd47495061582a2c0fd",
+      "line": 164,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 35,
+      "target": 6
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "fb2ab74289be85fa095ae9d0a2d6b1fa",
+      "line": 165,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 9
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "These complex signalling recruit adaptors, including TIR-domain-containing adaptor protein including IFN-β (TRIF), mitochondrial antiviral-signalling protein (MAVS) [64] and stimulator of interferon genes protein (STING) [65] to trigger downstream cascades molecules, involving adaptor molecule MyD88 and lead to the activation of the transcription factor nuclear factor-κB (NF-κB) and interferon regulatory factor 3 (IRF3) and the production of type I Interferons (IFN-α /β) and a series of pro-inflammatory cytokines [66].",
+      "key": "0049345e6e2e87e26b65363ead261a44",
+      "line": 165,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Moreover, chloroquine has immunomodulatory effects, suppressing the production/release of TNF-α and IL-6. It also works as a novel class of autophagy inhibitor [81], which may interfere with viral infection and replication.",
+      "key": "4031c7d61e539abb793d327dfae98774",
+      "line": 168,
+      "relation": "decreases",
+      "source": 0,
+      "target": 31
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Moreover, chloroquine has immunomodulatory effects, suppressing the production/release of TNF-α and IL-6. It also works as a novel class of autophagy inhibitor [81], which may interfere with viral infection and replication.",
+      "key": "dff950c07461d485d6fe07c981225d76",
+      "line": 169,
+      "relation": "decreases",
+      "source": 0,
+      "target": 41
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Moreover, chloroquine has immunomodulatory effects, suppressing the production/release of TNF-α and IL-6. It also works as a novel class of autophagy inhibitor [81], which may interfere with viral infection and replication.",
+      "key": "2d5edc2bb1829fae8bd759c2e0945407",
+      "line": 170,
+      "relation": "decreases",
+      "source": 0,
+      "target": 12
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Moreover, chloroquine has immunomodulatory effects, suppressing the production/release of TNF-α and IL-6. It also works as a novel class of autophagy inhibitor [81], which may interfere with viral infection and replication.",
+      "key": "729e3f60c25dc09e34a2569007731702",
+      "line": 171,
+      "relation": "association",
+      "source": 12,
+      "target": 52
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Moreover, chloroquine has immunomodulatory effects, suppressing the production/release of TNF-α and IL-6. It also works as a novel class of autophagy inhibitor [81], which may interfere with viral infection and replication.",
+      "key": "f1fc84d1a2227b9818516f80ee2fbce7",
+      "line": 172,
+      "relation": "association",
+      "source": 12,
+      "target": 51
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Moreover, chloroquine has immunomodulatory effects, suppressing the production/release of TNF-α and IL-6. It also works as a novel class of autophagy inhibitor [81], which may interfere with viral infection and replication.",
+      "key": "ea28c9efcb920e63a1c8bf55f475b88b",
+      "line": 171,
+      "relation": "association",
+      "source": 52,
+      "target": 12
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "Moreover, chloroquine has immunomodulatory effects, suppressing the production/release of TNF-α and IL-6. It also works as a novel class of autophagy inhibitor [81], which may interfere with viral infection and replication.",
+      "key": "7f84bf89a94c056ac81b95448c949651",
+      "line": 172,
+      "relation": "association",
+      "source": 51,
+      "target": 12
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "The other antiviral drugs include nitazoxanide, favipiravir, nafamostat, and so on (See Table 1 for details).",
+      "key": "02a80b048909f92dc21870550d9c1ffa",
+      "line": 176,
+      "relation": "decreases",
+      "source": 3,
+      "target": 25
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "The other antiviral drugs include nitazoxanide, favipiravir, nafamostat, and so on (See Table 1 for details).",
+      "key": "474256c658900686e090bcf70517d4d5",
+      "line": 178,
+      "relation": "negativeCorrelation",
+      "source": 3,
+      "target": 10
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "The other antiviral drugs include nitazoxanide, favipiravir, nafamostat, and so on (See Table 1 for details).",
+      "key": "6f7318cca693765e032ddb5e24676651",
+      "line": 179,
+      "relation": "decreases",
+      "source": 3,
+      "target": 13
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "The other antiviral drugs include nitazoxanide, favipiravir, nafamostat, and so on (See Table 1 for details).",
+      "key": "954ddd3ac3700fb4cb5be7687463375d",
+      "line": 177,
+      "relation": "positiveCorrelation",
+      "source": 25,
+      "target": 10
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "The other antiviral drugs include nitazoxanide, favipiravir, nafamostat, and so on (See Table 1 for details).",
+      "key": "9d868047904d32e671931a2e8c142d74",
+      "line": 180,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "decreases",
+      "source": 4,
+      "target": 46
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "The other antiviral drugs include nitazoxanide, favipiravir, nafamostat, and so on (See Table 1 for details).",
+      "key": "113f09451417435ce9065c64ec46a817",
+      "line": 181,
+      "relation": "decreases",
+      "source": 4,
+      "target": 11
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "The other antiviral drugs include nitazoxanide, favipiravir, nafamostat, and so on (See Table 1 for details).",
+      "key": "98f75fe0e1c932feb73591e9f7444f8e",
+      "line": 182,
+      "relation": "decreases",
+      "source": 4,
+      "target": 52
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "The other antiviral drugs include nitazoxanide, favipiravir, nafamostat, and so on (See Table 1 for details).",
+      "key": "8de1e8d27d55430d78fb42b54f069efd",
+      "line": 183,
+      "relation": "decreases",
+      "source": 4,
+      "target": 51
+    },
+    {
+      "citation": {
+        "authors": [
+          "Cao QD",
+          "Chen SD",
+          "Guo YR",
+          "Hong ZS",
+          "Jin HJ",
+          "Tan KS",
+          "Tan YY",
+          "Wang DY",
+          "Yan Y"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32169119",
+        "db_name": "Military Medical Research",
+        "first": "Guo YR",
+        "last": "Yan Y",
+        "pages": "11",
+        "volume": "7"
+      },
+      "evidence": "The other antiviral drugs include nitazoxanide, favipiravir, nafamostat, and so on (See Table 1 for details).",
+      "key": "0777cd31a8d9eab96c4f711ef2b8f8de",
+      "line": 184,
+      "relation": "decreases",
+      "source": 2,
+      "target": 52
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:chloroquine)",
+      "concept": {
+        "name": "chloroquine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "c368fe204031ce23a04cc402914492f6"
+    },
+    {
+      "bel": "a(CHEBI:creatinine)",
+      "concept": {
+        "name": "creatinine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "848653c33293c5d8f6e5b73d61cee75e"
+    },
+    {
+      "bel": "a(CHEBI:favipiravir)",
+      "concept": {
+        "name": "favipiravir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "3ce0aabad27ceb19780b9fea724eecf1"
+    },
+    {
+      "bel": "a(CHEBI:nafamostat)",
+      "concept": {
+        "name": "nafamostat",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "7ff68d336229dbde689052d3a315d686"
+    },
+    {
+      "bel": "a(CHEBI:oseltamivir)",
+      "concept": {
+        "name": "oseltamivir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "843ea51adf2f81bd54de5e9dbce9a2f2"
+    },
+    {
+      "bel": "a(MESH:\"Blood Urea Nitrogen\")",
+      "concept": {
+        "name": "Blood Urea Nitrogen",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "cf3fe7bb2f157e9484cdc3c855b12cb6"
+    },
+    {
+      "bel": "a(MESH:Cytokines)",
+      "concept": {
+        "name": "Cytokines",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "0d3c01297f25a34285f54b350178a231"
+    },
+    {
+      "bel": "a(MESH:Neutrophils)",
+      "concept": {
+        "name": "Neutrophils",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "994989dde1444ddb73e4c899a00aabc7"
+    },
+    {
+      "bel": "bp(GOBP:\"detection of virus\")",
+      "concept": {
+        "name": "detection of virus",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "7bfea674bdd681db1c2e04ad6121bc1f"
+    },
+    {
+      "bel": "bp(GOBP:\"inflammatory response\")",
+      "concept": {
+        "name": "inflammatory response",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "231ce9f9130365dfdf6765587f4e8343"
+    },
+    {
+      "bel": "bp(GOBP:\"membrane fusion involved in viral entry into host cell\")",
+      "concept": {
+        "name": "membrane fusion involved in viral entry into host cell",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "5752e347522eb4168402c2a0af1f4e68"
+    },
+    {
+      "bel": "bp(GOBP:\"viral release from host cell\")",
+      "concept": {
+        "name": "viral release from host cell",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "9666b89feb9629b8e2d84392ac167740"
+    },
+    {
+      "bel": "bp(GOBP:autophagy)",
+      "concept": {
+        "name": "autophagy",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "cd7f646b27fe66b99ec0a7720a674397"
+    },
+    {
+      "bel": "bp(GOBP:coagulation)",
+      "concept": {
+        "name": "coagulation",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "47e3cff391b13c5a9ef4cb2d30d65578"
+    },
+    {
+      "bel": "bp(GOBP:tropism)",
+      "concept": {
+        "name": "tropism",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "50e4a3797d64deaec1a60daeddd32220"
+    },
+    {
+      "bel": "p(FIXME:s1)",
+      "concept": {
+        "name": "s1",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "549521ebaec5682b56cadb1ae98102d8"
+    },
+    {
+      "bel": "p(FIXME:s2)",
+      "concept": {
+        "name": "s2",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "c2cac4059922d06f0cc18de82008bfb5"
+    },
+    {
+      "bel": "p(FIXME:sarsnsp2)",
+      "concept": {
+        "name": "sarsnsp2",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "832cda872cabbcf6103d3cf479a5a186"
+    },
+    {
+      "bel": "p(FIXME:sarsnsp2, var(\"?\"))",
+      "concept": {
+        "name": "sarsnsp2",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "899b85f895a824e681d67ba40957861f",
+      "variants": [
+        {
+          "hgvs": "?",
+          "kind": "hgvs"
+        }
+      ]
+    },
+    {
+      "bel": "p(FIXME:sarsnsp3)",
+      "concept": {
+        "name": "sarsnsp3",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "468e0796b5b20aca49d4a6bcb2221997"
+    },
+    {
+      "bel": "p(FIXME:sarsnsp3, var(\"?\"))",
+      "concept": {
+        "name": "sarsnsp3",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "86b2b220944b2abb2b4867a31e62d080",
+      "variants": [
+        {
+          "hgvs": "?",
+          "kind": "hgvs"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:CCL2)",
+      "concept": {
+        "name": "CCL2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "2a1fddd8526478c2c7edadaa639bbe85"
+    },
+    {
+      "bel": "p(HGNC:CCL3)",
+      "concept": {
+        "name": "CCL3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "5cf35694ebdc37f754621a1d29763a9c"
+    },
+    {
+      "bel": "p(HGNC:CGAS)",
+      "concept": {
+        "name": "CGAS",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "cbc7bace4c1f76d5d5d5097c4b921a2a"
+    },
+    {
+      "bel": "p(HGNC:CSF3)",
+      "concept": {
+        "name": "CSF3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "3bd5bde1d0d1f11fcd4864283409ebaa"
+    },
+    {
+      "bel": "p(HGNC:CTSB)",
+      "concept": {
+        "name": "CTSB",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bf199cbf00684e853f072a61f878884d"
+    },
+    {
+      "bel": "p(HGNC:CXCL10)",
+      "concept": {
+        "name": "CXCL10",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "fd9a90dd7c73cd8dc9d99b88ac8aab1e"
+    },
+    {
+      "bel": "p(HGNC:DDX58)",
+      "concept": {
+        "name": "DDX58",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "a52e6509ca57f7204e66356bbb4a360b"
+    },
+    {
+      "bel": "p(HGNC:IFIH1)",
+      "concept": {
+        "name": "IFIH1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "5ae2b4f1c1e62e090ee3ed217cacb31e"
+    },
+    {
+      "bel": "p(HGNC:IL10)",
+      "concept": {
+        "name": "IL10",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "e0c41f4b3cb8bef32af4e3217ba8aa12"
+    },
+    {
+      "bel": "p(HGNC:IL2)",
+      "concept": {
+        "name": "IL2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "99fcd5fe54813ead0bd02d8a06f42173"
+    },
+    {
+      "bel": "p(HGNC:IL6)",
+      "concept": {
+        "name": "IL6",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "8a1d3c4828c5416eba867c395cc65caa"
+    },
+    {
+      "bel": "p(HGNC:IL7)",
+      "concept": {
+        "name": "IL7",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "253f0f08d4c20eab61bc9946251a5238"
+    },
+    {
+      "bel": "p(HGNC:IRF3)",
+      "concept": {
+        "name": "IRF3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "897eff5dfdc1e9477decd386f7648733"
+    },
+    {
+      "bel": "p(HGNC:MAVS)",
+      "concept": {
+        "name": "MAVS",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "057d75ee2f4b94b1ce2309b0965b0f2a"
+    },
+    {
+      "bel": "p(HGNC:MYD88)",
+      "concept": {
+        "name": "MYD88",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "f14c331d37210d025523a016597e9de6"
+    },
+    {
+      "bel": "p(HGNC:TICAM1)",
+      "concept": {
+        "name": "TICAM1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "7f339bf2fb1b3874312f15c03ccf7d0f"
+    },
+    {
+      "bel": "p(HGNC:TLR3)",
+      "concept": {
+        "name": "TLR3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "8e283e8a56191737442a695574bbee2b"
+    },
+    {
+      "bel": "p(HGNC:TLR7)",
+      "concept": {
+        "name": "TLR7",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "03cc8d43a716831bcf864664562fa813"
+    },
+    {
+      "bel": "p(HGNC:TLR8)",
+      "concept": {
+        "name": "TLR8",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "c28e61159bfb0e0366477d6bd28a5992"
+    },
+    {
+      "bel": "p(HGNC:TLR9)",
+      "concept": {
+        "name": "TLR9",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "63e22ab9502c41d0972e9941bac852da"
+    },
+    {
+      "bel": "p(HGNC:TNF)",
+      "concept": {
+        "name": "TNF",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "fdc1c1f5a73c3c992b6eb71ce9b6908e"
+    },
+    {
+      "bel": "p(MESH:\"Interferon Type I\")",
+      "concept": {
+        "name": "Interferon Type I",
+        "namespace": "MESH"
+      },
+      "function": "Protein",
+      "id": "4289549d4488ca2c77b703f68328a3d2"
+    },
+    {
+      "bel": "p(NCBIGENE:340061)",
+      "concept": {
+        "name": "340061",
+        "namespace": "NCBIGENE"
+      },
+      "function": "Protein",
+      "id": "44ae8ae8183b8714c7e02f17400a7be6"
+    },
+    {
+      "bel": "p(NCBIGENE:43740568)",
+      "concept": {
+        "name": "43740568",
+        "namespace": "NCBIGENE"
+      },
+      "function": "Protein",
+      "id": "7c0c25d9b85462ae1b80a07e4192e4b9"
+    },
+    {
+      "bel": "p(PFAM:NKAP)",
+      "concept": {
+        "name": "NKAP",
+        "namespace": "PFAM"
+      },
+      "function": "Protein",
+      "id": "0e7566b71806d8cf06016978ae4398a5"
+    },
+    {
+      "bel": "p(PFAM:Neur)",
+      "concept": {
+        "name": "Neur",
+        "namespace": "PFAM"
+      },
+      "function": "Protein",
+      "id": "84dfea13206706d5de11c6c81607f58a"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(FIXME:\"SARS-CoV-2 infection\")",
+      "concept": {
+        "name": "SARS-CoV-2 infection",
+        "namespace": "FIXME"
+      },
+      "function": "Pathology",
+      "id": "9f6e085ba50cb9e3341c4e1ef7cfa823"
+    },
+    {
+      "bel": "path(MESH:\"Host Specificity\")",
+      "concept": {
+        "name": "Host Specificity",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "75a3fb39bcca1f25507d64a76f66469d"
+    },
+    {
+      "bel": "path(MESH:\"Lymphocyte Count\")",
+      "concept": {
+        "name": "Lymphocyte Count",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "8d43351b88d7135f5f1c36b4992a629c"
+    },
+    {
+      "bel": "path(MESH:\"Virus Diseases\")",
+      "concept": {
+        "name": "Virus Diseases",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "b140e260acd534b7a80b4f030d82d965"
+    },
+    {
+      "bel": "path(MESH:\"Virus Replication\")",
+      "concept": {
+        "name": "Virus Replication",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "5e513772ef3f1f2bafe1df69ef149abc"
+    }
+  ]
+}

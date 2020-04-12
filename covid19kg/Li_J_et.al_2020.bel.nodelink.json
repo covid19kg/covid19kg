@@ -1,0 +1,4232 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Preprint"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Full Text"
+      ],
+      "Severity": [
+        "Mild",
+        "Severe"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "Cell": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno",
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Abish K",
+      "contact": "abish@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "Li_J_et.al_2020.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "Li_J_et.al_2020.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "This novel strain of coronavirus has been identified as the causative agent for the epidemic of acute respiratory distress syndrome [also referred to as coronavirus disease 2019 (COVID-19)] in Wuhan, China 1–3 .",
+      "key": "b9313301db909cf91b4a34ec10175fb7",
+      "line": 50,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "This novel strain of coronavirus has been identified as the causative agent for the epidemic of acute respiratory distress syndrome [also referred to as coronavirus disease 2019 (COVID-19)] in Wuhan, China 1–3 .",
+      "key": "856a0c45a9940d8fb782d65e22350534",
+      "line": 50,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The common clinical manifestations of fever and cough in conjunction with laboratory results of progressively increasing neutrophil counts and leukocytopenia in serum samples taken from COVID-19 patients at various stages of the illness indicates uncontrolled neutrophil extravasation and activation 11,12 . ",
+      "key": "b01ba5ce833913962281c4e4deb98290",
+      "line": 54,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 67
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The common clinical manifestations of fever and cough in conjunction with laboratory results of progressively increasing neutrophil counts and leukocytopenia in serum samples taken from COVID-19 patients at various stages of the illness indicates uncontrolled neutrophil extravasation and activation 11,12 . ",
+      "key": "03a4b33045b9a4f8f5be610670c2fedc",
+      "line": 55,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 66
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The common clinical manifestations of fever and cough in conjunction with laboratory results of progressively increasing neutrophil counts and leukocytopenia in serum samples taken from COVID-19 patients at various stages of the illness indicates uncontrolled neutrophil extravasation and activation 11,12 . ",
+      "key": "ab95b1cb04a0032be92e7ab60d830d45",
+      "line": 57,
+      "relation": "increases",
+      "source": 65,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The common clinical manifestations of fever and cough in conjunction with laboratory results of progressively increasing neutrophil counts and leukocytopenia in serum samples taken from COVID-19 patients at various stages of the illness indicates uncontrolled neutrophil extravasation and activation 11,12 . ",
+      "key": "c45c2ad0bde0564b89d72c2ff16b0306",
+      "line": 58,
+      "relation": "decreases",
+      "source": 65,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The common clinical manifestations of fever and cough in conjunction with laboratory results of progressively increasing neutrophil counts and leukocytopenia in serum samples taken from COVID-19 patients at various stages of the illness indicates uncontrolled neutrophil extravasation and activation 11,12 . ",
+      "key": "6ff56e7500daae20e6783a252f1f988f",
+      "line": 60,
+      "relation": "increases",
+      "source": 65,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The common clinical manifestations of fever and cough in conjunction with laboratory results of progressively increasing neutrophil counts and leukocytopenia in serum samples taken from COVID-19 patients at various stages of the illness indicates uncontrolled neutrophil extravasation and activation 11,12 . ",
+      "key": "f65c46ff1a84908451041d034d903a45",
+      "line": 61,
+      "relation": "increases",
+      "source": 65,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Functional analysis by DAVID and Cluster Profiler revealed that these genes were enriched in specific cellular biological processes, including positive regulation of neutrophil chemotaxis, neutrophil activation, type I interferon signaling pathway, inflammatory response, and antigen processing and presentation (Fig.3b and Extended Data Fig.5c-d), suggesting an active innate immune response against SARS-CoV-2 infection.",
+      "key": "9b0924aa1152056424c9944f1ee55c66",
+      "line": 90,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Chemical signals such as Interleukin-8 (IL-8) and IL-6 stimulate neutrophil chemotaxis and recruitment to the site of infection where they congregate and cause the release of more proinflammatory mediators that in turn activate additional inflammatory signals, leading to cytokine storms that may progress to vital organ failure 13 .",
+      "key": "b5c27f17106caa5da2bbae6797abe86d",
+      "line": 65,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 56
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "peripheral blood mononuclear cell": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The elevation of IL-8 and IL-6 but not IL-17 in PMBCs collected from COVID-19 patients indicates possible roles for IL-8/IL-6 in the severe inflammatory response induced by SARS-CoV-2 (Fig.3d-e and Extended Data Fig.5e).",
+      "key": "c9c1a941a77d29ae18ec1264202d2025",
+      "line": 110,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 56
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Chemical signals such as Interleukin-8 (IL-8) and IL-6 stimulate neutrophil chemotaxis and recruitment to the site of infection where they congregate and cause the release of more proinflammatory mediators that in turn activate additional inflammatory signals, leading to cytokine storms that may progress to vital organ failure 13 .",
+      "key": "8ab588fc350f6502f5fd599f4a54fca1",
+      "line": 66,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 46
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "peripheral blood mononuclear cell": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The elevation of IL-8 and IL-6 but not IL-17 in PMBCs collected from COVID-19 patients indicates possible roles for IL-8/IL-6 in the severe inflammatory response induced by SARS-CoV-2 (Fig.3d-e and Extended Data Fig.5e).",
+      "key": "959c4e711265a9f7499a7d5434157ddf",
+      "line": 111,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 46
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Functional analysis by DAVID and Cluster Profiler revealed that these genes were enriched in specific cellular biological processes, including positive regulation of neutrophil chemotaxis, neutrophil activation, type I interferon signaling pathway, inflammatory response, and antigen processing and presentation (Fig.3b and Extended Data Fig.5c-d), suggesting an active innate immune response against SARS-CoV-2 infection.",
+      "key": "3bd413a1fdba4451e41850bb68f67061",
+      "line": 89,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Functional analysis by DAVID and Cluster Profiler revealed that these genes were enriched in specific cellular biological processes, including positive regulation of neutrophil chemotaxis, neutrophil activation, type I interferon signaling pathway, inflammatory response, and antigen processing and presentation (Fig.3b and Extended Data Fig.5c-d), suggesting an active innate immune response against SARS-CoV-2 infection.",
+      "key": "4d5f609255fd53b975d433573b389541",
+      "line": 91,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Functional analysis by DAVID and Cluster Profiler revealed that these genes were enriched in specific cellular biological processes, including positive regulation of neutrophil chemotaxis, neutrophil activation, type I interferon signaling pathway, inflammatory response, and antigen processing and presentation (Fig.3b and Extended Data Fig.5c-d), suggesting an active innate immune response against SARS-CoV-2 infection.",
+      "key": "9c817fe1ee1433f819a5c8fee1790166",
+      "line": 92,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Functional analysis by DAVID and Cluster Profiler revealed that these genes were enriched in specific cellular biological processes, including positive regulation of neutrophil chemotaxis, neutrophil activation, type I interferon signaling pathway, inflammatory response, and antigen processing and presentation (Fig.3b and Extended Data Fig.5c-d), suggesting an active innate immune response against SARS-CoV-2 infection.",
+      "key": "822286c5b77c526c9fc04051101e8520",
+      "line": 93,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Mild": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Analysis of the global proteomic changes reveal significant upregulation of CXCR2, PRG3, LBP, MMP25, CRP, NLRP1 in the COVID-19-MS PBMC cohort (Fig.3c).",
+      "key": "af402a1484b51abbe3cc3e3842400548",
+      "line": 98,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 47
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Mild": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Analysis of the global proteomic changes reveal significant upregulation of CXCR2, PRG3, LBP, MMP25, CRP, NLRP1 in the COVID-19-MS PBMC cohort (Fig.3c).",
+      "key": "47f3a93ff5b6755420973ce8f92fea7f",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 62
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Mild": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Analysis of the global proteomic changes reveal significant upregulation of CXCR2, PRG3, LBP, MMP25, CRP, NLRP1 in the COVID-19-MS PBMC cohort (Fig.3c).",
+      "key": "c08a23e5861686e97222e070b296ae05",
+      "line": 100,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 57
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Mild": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Analysis of the global proteomic changes reveal significant upregulation of CXCR2, PRG3, LBP, MMP25, CRP, NLRP1 in the COVID-19-MS PBMC cohort (Fig.3c).",
+      "key": "0579e445f86e39d4a487d0d45d71ab9a",
+      "line": 101,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 59
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Mild": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Analysis of the global proteomic changes reveal significant upregulation of CXCR2, PRG3, LBP, MMP25, CRP, NLRP1 in the COVID-19-MS PBMC cohort (Fig.3c).",
+      "key": "d7cd8c3441c7b33df9be3540edaba34a",
+      "line": 102,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 45
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Mild": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Analysis of the global proteomic changes reveal significant upregulation of CXCR2, PRG3, LBP, MMP25, CRP, NLRP1 in the COVID-19-MS PBMC cohort (Fig.3c).",
+      "key": "8347a1ca2dccabf99d27588a41da81bd",
+      "line": 103,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 61
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "572a97d415175d83146a49f16f3d72f2",
+      "line": 118,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 40
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "29095a94e20e30a4d0cd91bf16f22e2d",
+      "line": 119,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 41
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "8f5c92f2ec97bfdb5730f2cae7eab595",
+      "line": 120,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 39
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "ada729535b93baaac9b6e00fe1dbabaf",
+      "line": 121,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "b6346f16422d75bd1fd2dac44dc87e7d",
+      "line": 122,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "ab612955af78ae5a84a1a1ab9becbcc3",
+      "line": 123,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 42
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "664a05f6f8465cdc7b95f6e72bba3839",
+      "line": 124,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 43
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "76637228f2e44f533289ed8224ea7220",
+      "line": 125,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 44
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "a0cade3c96bdfd26192d5080e1189e4f",
+      "line": 126,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 38
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "37f1c9596209f657ba1e6040f4ab9700",
+      "line": 127,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "f035543ee2236ce7c108ffeb4d93e442",
+      "line": 128,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "14203f3df8e07de3ac5c3cdc1e7f7036",
+      "line": 129,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "5c094422ad84e8747c1b332b59ed6035",
+      "line": 130,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 36
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "edec386f985b5c85a043126634727fa0",
+      "line": 131,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 64
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "98d6b5e7f68763c8697d06762d719e99",
+      "line": 132,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 58
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "6a567f5329ad5c1f3a939886440faaa0",
+      "line": 133,
+      "relation": "positiveCorrelation",
+      "source": 65,
+      "target": 48
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "4682b723cd6d880e0cec885720cd2dbc",
+      "line": 134,
+      "relation": "negativeCorrelation",
+      "source": 65,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of immunoglobulin subunits (IGHG1, IGHG2, IGHG4, IGLC2, IGLL1, and IGHE) were also significant lower in COVID-19-SS (Fig.3a,h), indicating reduced antibody secretion by B cells.",
+      "key": "c081be2c6f26bb97102e288883bbbe46",
+      "line": 140,
+      "relation": "negativeCorrelation",
+      "source": 65,
+      "target": 51
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of immunoglobulin subunits (IGHG1, IGHG2, IGHG4, IGLC2, IGLL1, and IGHE) were also significant lower in COVID-19-SS (Fig.3a,h), indicating reduced antibody secretion by B cells.",
+      "key": "81b88f8b7fd01e8b722d4c1d60fc652c",
+      "line": 141,
+      "relation": "negativeCorrelation",
+      "source": 65,
+      "target": 52
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of immunoglobulin subunits (IGHG1, IGHG2, IGHG4, IGLC2, IGLL1, and IGHE) were also significant lower in COVID-19-SS (Fig.3a,h), indicating reduced antibody secretion by B cells.",
+      "key": "4466918feed1035c7f2c5b835ba9802d",
+      "line": 142,
+      "relation": "negativeCorrelation",
+      "source": 65,
+      "target": 53
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of immunoglobulin subunits (IGHG1, IGHG2, IGHG4, IGLC2, IGLL1, and IGHE) were also significant lower in COVID-19-SS (Fig.3a,h), indicating reduced antibody secretion by B cells.",
+      "key": "135c506688d79d7cc8db8bf4cc1ce90d",
+      "line": 143,
+      "relation": "negativeCorrelation",
+      "source": 65,
+      "target": 54
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of immunoglobulin subunits (IGHG1, IGHG2, IGHG4, IGLC2, IGLL1, and IGHE) were also significant lower in COVID-19-SS (Fig.3a,h), indicating reduced antibody secretion by B cells.",
+      "key": "65aa7d446fa0dfddcc7a22cc23b384be",
+      "line": 144,
+      "relation": "negativeCorrelation",
+      "source": 65,
+      "target": 55
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of immunoglobulin subunits (IGHG1, IGHG2, IGHG4, IGLC2, IGLL1, and IGHE) were also significant lower in COVID-19-SS (Fig.3a,h), indicating reduced antibody secretion by B cells.",
+      "key": "8ad4bd01cf26ff207790ae2723e215ce",
+      "line": 145,
+      "relation": "negativeCorrelation",
+      "source": 65,
+      "target": 50
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The common clinical manifestations of fever and cough in conjunction with laboratory results of progressively increasing neutrophil counts and leukocytopenia in serum samples taken from COVID-19 patients at various stages of the illness indicates uncontrolled neutrophil extravasation and activation 11,12 . ",
+      "key": "5929f34abe28aeec38ffc9d8b673e998",
+      "line": 54,
+      "relation": "positiveCorrelation",
+      "source": 67,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The common clinical manifestations of fever and cough in conjunction with laboratory results of progressively increasing neutrophil counts and leukocytopenia in serum samples taken from COVID-19 patients at various stages of the illness indicates uncontrolled neutrophil extravasation and activation 11,12 . ",
+      "key": "a5b03d81d3f8f05af42919e0a25b19a5",
+      "line": 55,
+      "relation": "positiveCorrelation",
+      "source": 66,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Functional analysis by DAVID and Cluster Profiler revealed that these genes were enriched in specific cellular biological processes, including positive regulation of neutrophil chemotaxis, neutrophil activation, type I interferon signaling pathway, inflammatory response, and antigen processing and presentation (Fig.3b and Extended Data Fig.5c-d), suggesting an active innate immune response against SARS-CoV-2 infection.",
+      "key": "57f4389021163877ed627a6e16e4ccc1",
+      "line": 90,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Chemical signals such as Interleukin-8 (IL-8) and IL-6 stimulate neutrophil chemotaxis and recruitment to the site of infection where they congregate and cause the release of more proinflammatory mediators that in turn activate additional inflammatory signals, leading to cytokine storms that may progress to vital organ failure 13 .",
+      "key": "3f9e875971a1b5e1d0dc152ca574fec9",
+      "line": 65,
+      "relation": "positiveCorrelation",
+      "source": 56,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "peripheral blood mononuclear cell": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The elevation of IL-8 and IL-6 but not IL-17 in PMBCs collected from COVID-19 patients indicates possible roles for IL-8/IL-6 in the severe inflammatory response induced by SARS-CoV-2 (Fig.3d-e and Extended Data Fig.5e).",
+      "key": "52abba7b9551ca0dc42d5f0c7852bda3",
+      "line": 110,
+      "relation": "positiveCorrelation",
+      "source": 56,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Chemical signals such as Interleukin-8 (IL-8) and IL-6 stimulate neutrophil chemotaxis and recruitment to the site of infection where they congregate and cause the release of more proinflammatory mediators that in turn activate additional inflammatory signals, leading to cytokine storms that may progress to vital organ failure 13 .",
+      "key": "73987505eaf0e47da9e58528fce97553",
+      "line": 67,
+      "relation": "increases",
+      "source": 56,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Chemical signals such as Interleukin-8 (IL-8) and IL-6 stimulate neutrophil chemotaxis and recruitment to the site of infection where they congregate and cause the release of more proinflammatory mediators that in turn activate additional inflammatory signals, leading to cytokine storms that may progress to vital organ failure 13 .",
+      "key": "6367e2b9bc796a1525d36a7d662627eb",
+      "line": 66,
+      "relation": "positiveCorrelation",
+      "source": 46,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "peripheral blood mononuclear cell": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The elevation of IL-8 and IL-6 but not IL-17 in PMBCs collected from COVID-19 patients indicates possible roles for IL-8/IL-6 in the severe inflammatory response induced by SARS-CoV-2 (Fig.3d-e and Extended Data Fig.5e).",
+      "key": "bf280907a011c19565b67e5b6f065d7c",
+      "line": 111,
+      "relation": "positiveCorrelation",
+      "source": 46,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Chemical signals such as Interleukin-8 (IL-8) and IL-6 stimulate neutrophil chemotaxis and recruitment to the site of infection where they congregate and cause the release of more proinflammatory mediators that in turn activate additional inflammatory signals, leading to cytokine storms that may progress to vital organ failure 13 .",
+      "key": "8efa0c94d1025345a0e68ae2a4358ed3",
+      "line": 68,
+      "relation": "increases",
+      "source": 46,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Chemical signals such as Interleukin-8 (IL-8) and IL-6 stimulate neutrophil chemotaxis and recruitment to the site of infection where they congregate and cause the release of more proinflammatory mediators that in turn activate additional inflammatory signals, leading to cytokine storms that may progress to vital organ failure 13 .",
+      "key": "ec6576ed231ccb49835f168f0900e6c5",
+      "line": 69,
+      "relation": "increases",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Functional analysis by DAVID and Cluster Profiler revealed that these genes were enriched in specific cellular biological processes, including positive regulation of neutrophil chemotaxis, neutrophil activation, type I interferon signaling pathway, inflammatory response, and antigen processing and presentation (Fig.3b and Extended Data Fig.5c-d), suggesting an active innate immune response against SARS-CoV-2 infection.",
+      "key": "9b79afdc4e7ded6ea2a851b3c6082eba",
+      "line": 89,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Functional analysis by DAVID and Cluster Profiler revealed that these genes were enriched in specific cellular biological processes, including positive regulation of neutrophil chemotaxis, neutrophil activation, type I interferon signaling pathway, inflammatory response, and antigen processing and presentation (Fig.3b and Extended Data Fig.5c-d), suggesting an active innate immune response against SARS-CoV-2 infection.",
+      "key": "bc166e4f57c6a02868bd5319ea33f586",
+      "line": 92,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Key viral-cellular PPIs that may influence the pathogenesis of SARS-CoV-2 include interaction between NKRF (an endogenous repressor of IL-8/IL-6 synthesis) and nsp9/nsp10/nsp12/nsp13/nsp15 20,21 , C1QBP (involved in complement C1 activation) and nsp9/nsp10 22 , G3BP2 (anti-viral stress granule protein) and N 23 , and RAE1 (an interferon-inducible mRNA nuclear export protein) and ORF6 24 .",
+      "key": "21038d116ba80e475645d573517e6792",
+      "line": 73,
+      "relation": "decreases",
+      "source": 60,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Key viral-cellular PPIs that may influence the pathogenesis of SARS-CoV-2 include interaction between NKRF (an endogenous repressor of IL-8/IL-6 synthesis) and nsp9/nsp10/nsp12/nsp13/nsp15 20,21 , C1QBP (involved in complement C1 activation) and nsp9/nsp10 22 , G3BP2 (anti-viral stress granule protein) and N 23 , and RAE1 (an interferon-inducible mRNA nuclear export protein) and ORF6 24 .",
+      "key": "57c0e26e9a1520815e599db7aa74a6a4",
+      "line": 74,
+      "relation": "decreases",
+      "source": 60,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 8
+    },
+    {
+      "key": "0666051d1688b055eac509398745aed5",
+      "relation": "partOf",
+      "source": 60,
+      "target": 16
+    },
+    {
+      "key": "9ea55170046ea0821c5cec7d14017042",
+      "relation": "partOf",
+      "source": 60,
+      "target": 18
+    },
+    {
+      "key": "55e2eec4f2aadc8b579c539d8b3a0637",
+      "relation": "partOf",
+      "source": 60,
+      "target": 19
+    },
+    {
+      "key": "f21bed11d83365c3bb48fb3fa6ee688f",
+      "relation": "partOf",
+      "source": 60,
+      "target": 20
+    },
+    {
+      "key": "c07bbb8bf21f163284e36b718539ae7c",
+      "relation": "partOf",
+      "source": 60,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Key viral-cellular PPIs that may influence the pathogenesis of SARS-CoV-2 include interaction between NKRF (an endogenous repressor of IL-8/IL-6 synthesis) and nsp9/nsp10/nsp12/nsp13/nsp15 20,21 , C1QBP (involved in complement C1 activation) and nsp9/nsp10 22 , G3BP2 (anti-viral stress granule protein) and N 23 , and RAE1 (an interferon-inducible mRNA nuclear export protein) and ORF6 24 .",
+      "key": "2e8a70e75b066c567e20bd00aea96bbe",
+      "line": 75,
+      "relation": "regulates",
+      "source": 16,
+      "target": 65
+    },
+    {
+      "key": "f63e0523d8a04a6c001979a350e47447",
+      "relation": "partOf",
+      "source": 27,
+      "target": 16
+    },
+    {
+      "key": "ec09e29719e4c43f3be3ad3c866c73c7",
+      "relation": "partOf",
+      "source": 27,
+      "target": 15
+    },
+    {
+      "key": "111b576746409deef1620339b8a75d19",
+      "relation": "hasVariant",
+      "source": 26,
+      "target": 27
+    },
+    {
+      "key": "9885bf925b8002eb834e2a476fe906d1",
+      "relation": "hasVariant",
+      "source": 26,
+      "target": 28
+    },
+    {
+      "key": "45c7b362d25cb0c8c9917948894eafbc",
+      "relation": "hasVariant",
+      "source": 26,
+      "target": 29
+    },
+    {
+      "key": "88b8e281f48e8f5e8ddd1948b2f197f9",
+      "relation": "hasVariant",
+      "source": 26,
+      "target": 30
+    },
+    {
+      "key": "117bd84380894eb176d13318e09ec4d1",
+      "relation": "hasVariant",
+      "source": 26,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Key viral-cellular PPIs that may influence the pathogenesis of SARS-CoV-2 include interaction between NKRF (an endogenous repressor of IL-8/IL-6 synthesis) and nsp9/nsp10/nsp12/nsp13/nsp15 20,21 , C1QBP (involved in complement C1 activation) and nsp9/nsp10 22 , G3BP2 (anti-viral stress granule protein) and N 23 , and RAE1 (an interferon-inducible mRNA nuclear export protein) and ORF6 24 .",
+      "key": "9c70ad760fd01c49246997cb012bfee1",
+      "line": 76,
+      "relation": "regulates",
+      "source": 18,
+      "target": 65
+    },
+    {
+      "key": "d72f27cb2a05ddd786075d2b38dabd73",
+      "relation": "partOf",
+      "source": 28,
+      "target": 18
+    },
+    {
+      "key": "110e338dbae0960760efb470bc6463e2",
+      "relation": "partOf",
+      "source": 28,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Key viral-cellular PPIs that may influence the pathogenesis of SARS-CoV-2 include interaction between NKRF (an endogenous repressor of IL-8/IL-6 synthesis) and nsp9/nsp10/nsp12/nsp13/nsp15 20,21 , C1QBP (involved in complement C1 activation) and nsp9/nsp10 22 , G3BP2 (anti-viral stress granule protein) and N 23 , and RAE1 (an interferon-inducible mRNA nuclear export protein) and ORF6 24 .",
+      "key": "75059ec818fc0cb696872f69c75828b7",
+      "line": 77,
+      "relation": "regulates",
+      "source": 19,
+      "target": 65
+    },
+    {
+      "key": "f5ffce1556758a55a7aa542383f1289a",
+      "relation": "partOf",
+      "source": 29,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Key viral-cellular PPIs that may influence the pathogenesis of SARS-CoV-2 include interaction between NKRF (an endogenous repressor of IL-8/IL-6 synthesis) and nsp9/nsp10/nsp12/nsp13/nsp15 20,21 , C1QBP (involved in complement C1 activation) and nsp9/nsp10 22 , G3BP2 (anti-viral stress granule protein) and N 23 , and RAE1 (an interferon-inducible mRNA nuclear export protein) and ORF6 24 .",
+      "key": "b0a50e3c6e21ef80492760b1fb25d43a",
+      "line": 78,
+      "relation": "regulates",
+      "source": 20,
+      "target": 65
+    },
+    {
+      "key": "81cc6dc054090eae0bdd1ffb99c815d0",
+      "relation": "partOf",
+      "source": 30,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Key viral-cellular PPIs that may influence the pathogenesis of SARS-CoV-2 include interaction between NKRF (an endogenous repressor of IL-8/IL-6 synthesis) and nsp9/nsp10/nsp12/nsp13/nsp15 20,21 , C1QBP (involved in complement C1 activation) and nsp9/nsp10 22 , G3BP2 (anti-viral stress granule protein) and N 23 , and RAE1 (an interferon-inducible mRNA nuclear export protein) and ORF6 24 .",
+      "key": "e5765bcf4121969437fd11f24b60e7cb",
+      "line": 79,
+      "relation": "regulates",
+      "source": 21,
+      "target": 65
+    },
+    {
+      "key": "aee5d2500e66caca17b2200a77be5f17",
+      "relation": "partOf",
+      "source": 31,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Key viral-cellular PPIs that may influence the pathogenesis of SARS-CoV-2 include interaction between NKRF (an endogenous repressor of IL-8/IL-6 synthesis) and nsp9/nsp10/nsp12/nsp13/nsp15 20,21 , C1QBP (involved in complement C1 activation) and nsp9/nsp10 22 , G3BP2 (anti-viral stress granule protein) and N 23 , and RAE1 (an interferon-inducible mRNA nuclear export protein) and ORF6 24 .",
+      "key": "d7f2a6caae116390cfae3969e0b3a60f",
+      "line": 80,
+      "relation": "increases",
+      "source": 37,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 5
+    },
+    {
+      "key": "25b6a7bcad4ca01e1a89115caa9cc23c",
+      "relation": "partOf",
+      "source": 37,
+      "target": 15
+    },
+    {
+      "key": "3cbcb678788bc08a0c62239609f72058",
+      "relation": "partOf",
+      "source": 37,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Key viral-cellular PPIs that may influence the pathogenesis of SARS-CoV-2 include interaction between NKRF (an endogenous repressor of IL-8/IL-6 synthesis) and nsp9/nsp10/nsp12/nsp13/nsp15 20,21 , C1QBP (involved in complement C1 activation) and nsp9/nsp10 22 , G3BP2 (anti-viral stress granule protein) and N 23 , and RAE1 (an interferon-inducible mRNA nuclear export protein) and ORF6 24 .",
+      "key": "7dc5dc889c69fd6997d09f2dae3c08c4",
+      "line": 81,
+      "relation": "regulates",
+      "source": 15,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Key viral-cellular PPIs that may influence the pathogenesis of SARS-CoV-2 include interaction between NKRF (an endogenous repressor of IL-8/IL-6 synthesis) and nsp9/nsp10/nsp12/nsp13/nsp15 20,21 , C1QBP (involved in complement C1 activation) and nsp9/nsp10 22 , G3BP2 (anti-viral stress granule protein) and N 23 , and RAE1 (an interferon-inducible mRNA nuclear export protein) and ORF6 24 .",
+      "key": "3db27f3d229107417cfd5decb4dc682b",
+      "line": 82,
+      "relation": "regulates",
+      "source": 17,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Key viral-cellular PPIs that may influence the pathogenesis of SARS-CoV-2 include interaction between NKRF (an endogenous repressor of IL-8/IL-6 synthesis) and nsp9/nsp10/nsp12/nsp13/nsp15 20,21 , C1QBP (involved in complement C1 activation) and nsp9/nsp10 22 , G3BP2 (anti-viral stress granule protein) and N 23 , and RAE1 (an interferon-inducible mRNA nuclear export protein) and ORF6 24 .",
+      "key": "c03ca0288291100bd6b82884bcc361c4",
+      "line": 83,
+      "relation": "regulates",
+      "source": 14,
+      "target": 65
+    },
+    {
+      "key": "420020a76a372c376e397ef4ffc7ce9b",
+      "relation": "partOf",
+      "source": 25,
+      "target": 14
+    },
+    {
+      "key": "09c77875dfadc3ef2e54b03831e05a33",
+      "relation": "partOf",
+      "source": 49,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Key viral-cellular PPIs that may influence the pathogenesis of SARS-CoV-2 include interaction between NKRF (an endogenous repressor of IL-8/IL-6 synthesis) and nsp9/nsp10/nsp12/nsp13/nsp15 20,21 , C1QBP (involved in complement C1 activation) and nsp9/nsp10 22 , G3BP2 (anti-viral stress granule protein) and N 23 , and RAE1 (an interferon-inducible mRNA nuclear export protein) and ORF6 24 .",
+      "key": "ea6b6dfd94698ea80a4f7ae55dba3e7b",
+      "line": 84,
+      "relation": "regulates",
+      "source": 22,
+      "target": 65
+    },
+    {
+      "key": "64ad02feb3a153e1e78c183dc86fbdbf",
+      "relation": "partOf",
+      "source": 32,
+      "target": 22
+    },
+    {
+      "key": "53df954c50b93a5fef78ba72b6fa99e3",
+      "relation": "partOf",
+      "source": 63,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Key viral-cellular PPIs that may influence the pathogenesis of SARS-CoV-2 include interaction between NKRF (an endogenous repressor of IL-8/IL-6 synthesis) and nsp9/nsp10/nsp12/nsp13/nsp15 20,21 , C1QBP (involved in complement C1 activation) and nsp9/nsp10 22 , G3BP2 (anti-viral stress granule protein) and N 23 , and RAE1 (an interferon-inducible mRNA nuclear export protein) and ORF6 24 .",
+      "key": "22295058bf90ab1fe436a6d9ac62b60d",
+      "line": 85,
+      "relation": "association",
+      "source": 63,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Key viral-cellular PPIs that may influence the pathogenesis of SARS-CoV-2 include interaction between NKRF (an endogenous repressor of IL-8/IL-6 synthesis) and nsp9/nsp10/nsp12/nsp13/nsp15 20,21 , C1QBP (involved in complement C1 activation) and nsp9/nsp10 22 , G3BP2 (anti-viral stress granule protein) and N 23 , and RAE1 (an interferon-inducible mRNA nuclear export protein) and ORF6 24 .",
+      "key": "5c2a4be6f2029f362f4424a369717aac",
+      "line": 85,
+      "relation": "association",
+      "source": 13,
+      "target": 63
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Functional analysis by DAVID and Cluster Profiler revealed that these genes were enriched in specific cellular biological processes, including positive regulation of neutrophil chemotaxis, neutrophil activation, type I interferon signaling pathway, inflammatory response, and antigen processing and presentation (Fig.3b and Extended Data Fig.5c-d), suggesting an active innate immune response against SARS-CoV-2 infection.",
+      "key": "78cba357dfbfaaf67f527417412a34d1",
+      "line": 91,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Functional analysis by DAVID and Cluster Profiler revealed that these genes were enriched in specific cellular biological processes, including positive regulation of neutrophil chemotaxis, neutrophil activation, type I interferon signaling pathway, inflammatory response, and antigen processing and presentation (Fig.3b and Extended Data Fig.5c-d), suggesting an active innate immune response against SARS-CoV-2 infection.",
+      "key": "0f8d56510473bd9a74ea79308a44f65d",
+      "line": 93,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Mild": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Analysis of the global proteomic changes reveal significant upregulation of CXCR2, PRG3, LBP, MMP25, CRP, NLRP1 in the COVID-19-MS PBMC cohort (Fig.3c).",
+      "key": "fbff3c37f774e3efca75fd031ea54717",
+      "line": 98,
+      "relation": "positiveCorrelation",
+      "source": 47,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Mild": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Analysis of the global proteomic changes reveal significant upregulation of CXCR2, PRG3, LBP, MMP25, CRP, NLRP1 in the COVID-19-MS PBMC cohort (Fig.3c).",
+      "key": "f3f214b442c05c6f061dca6bab6fafa0",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 62,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Mild": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Analysis of the global proteomic changes reveal significant upregulation of CXCR2, PRG3, LBP, MMP25, CRP, NLRP1 in the COVID-19-MS PBMC cohort (Fig.3c).",
+      "key": "c488263041ef349f5fe59abad0fc4471",
+      "line": 100,
+      "relation": "positiveCorrelation",
+      "source": 57,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Mild": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Analysis of the global proteomic changes reveal significant upregulation of CXCR2, PRG3, LBP, MMP25, CRP, NLRP1 in the COVID-19-MS PBMC cohort (Fig.3c).",
+      "key": "bc208604cb14ac963ddfa3134720c85f",
+      "line": 101,
+      "relation": "positiveCorrelation",
+      "source": 59,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Mild": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Analysis of the global proteomic changes reveal significant upregulation of CXCR2, PRG3, LBP, MMP25, CRP, NLRP1 in the COVID-19-MS PBMC cohort (Fig.3c).",
+      "key": "8d12c9479995fb8210a7045e4bec9338",
+      "line": 102,
+      "relation": "positiveCorrelation",
+      "source": 45,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Mild": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "Analysis of the global proteomic changes reveal significant upregulation of CXCR2, PRG3, LBP, MMP25, CRP, NLRP1 in the COVID-19-MS PBMC cohort (Fig.3c).",
+      "key": "dad562d6d5d376cb46704fea044d27fa",
+      "line": 103,
+      "relation": "positiveCorrelation",
+      "source": 61,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "7d8b8bbab9aa4968ce5f04a6e1850e68",
+      "line": 118,
+      "relation": "positiveCorrelation",
+      "source": 40,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "ac121ead27982ba222781042f06eef60",
+      "line": 119,
+      "relation": "positiveCorrelation",
+      "source": 41,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "34f1c24fd61651bc611381d3564b1362",
+      "line": 120,
+      "relation": "positiveCorrelation",
+      "source": 39,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "8a655e6b8e292e11124a86b3ed0d0366",
+      "line": 121,
+      "relation": "positiveCorrelation",
+      "source": 23,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "2b3048d10b2ceb92b17b7fb83af87161",
+      "line": 122,
+      "relation": "positiveCorrelation",
+      "source": 24,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "29a8d53246b97cf055ed648fd5b900ce",
+      "line": 123,
+      "relation": "positiveCorrelation",
+      "source": 42,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "6e7861cdc1d7fcaf1090855f63660d77",
+      "line": 124,
+      "relation": "positiveCorrelation",
+      "source": 43,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "2c1acf13c7a47d810503f4ac86d335e1",
+      "line": 125,
+      "relation": "positiveCorrelation",
+      "source": 44,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "fee1edfe041f4c1cb1f85a3aa6c66e7a",
+      "line": 126,
+      "relation": "positiveCorrelation",
+      "source": 38,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "d929a4aaee58cb1bcfb3ff7c44b868c2",
+      "line": 127,
+      "relation": "positiveCorrelation",
+      "source": 33,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "3aa97d26a481eb6ffdd80545b6fdd61f",
+      "line": 128,
+      "relation": "positiveCorrelation",
+      "source": 34,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "4526d662806813a611ae058d9e69a5cb",
+      "line": 129,
+      "relation": "positiveCorrelation",
+      "source": 35,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "ac55fa51fce75df3f69582bba28b2883",
+      "line": 130,
+      "relation": "positiveCorrelation",
+      "source": 36,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "ac03334fcb59e0b2cea9bdd1de54a412",
+      "line": 131,
+      "relation": "positiveCorrelation",
+      "source": 64,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "f66e6afaf56dd4671bc019ac012109ba",
+      "line": 132,
+      "relation": "positiveCorrelation",
+      "source": 58,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "2e4bc125b1a4884966746456000da589",
+      "line": 133,
+      "relation": "positiveCorrelation",
+      "source": 48,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of T cell receptor (TCR) subunits (CD3e, CD3g, CD247, TRAC, and TRBC1), T cell surface molecules (CD4, CD8a, CD8b, and CD2), MHC class II molecules (HLA-DRA, HLA-DRB1, HLA-DRB4, and HLA-DRB5), T cell migration stimulators (DDP4), and TCR signaling kinases (ZAP70, LCK, and FYN) were dramatically diminished in COVID-19-SS as compared to COVID-19-MS (Fig.3a,h), suggesting a failure of T cells activation and function.",
+      "key": "3d682e8f6927a8b6c1828543f3e55905",
+      "line": 134,
+      "relation": "negativeCorrelation",
+      "source": 3,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of immunoglobulin subunits (IGHG1, IGHG2, IGHG4, IGLC2, IGLL1, and IGHE) were also significant lower in COVID-19-SS (Fig.3a,h), indicating reduced antibody secretion by B cells.",
+      "key": "dea1e6f725239053e13cd009a4807a63",
+      "line": 140,
+      "relation": "negativeCorrelation",
+      "source": 51,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of immunoglobulin subunits (IGHG1, IGHG2, IGHG4, IGLC2, IGLL1, and IGHE) were also significant lower in COVID-19-SS (Fig.3a,h), indicating reduced antibody secretion by B cells.",
+      "key": "d9ae67ada4a6fb071016d94b256c7ea8",
+      "line": 141,
+      "relation": "negativeCorrelation",
+      "source": 52,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of immunoglobulin subunits (IGHG1, IGHG2, IGHG4, IGLC2, IGLL1, and IGHE) were also significant lower in COVID-19-SS (Fig.3a,h), indicating reduced antibody secretion by B cells.",
+      "key": "55871fc6288383f62cd8a696d0e90458",
+      "line": 142,
+      "relation": "negativeCorrelation",
+      "source": 53,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of immunoglobulin subunits (IGHG1, IGHG2, IGHG4, IGLC2, IGLL1, and IGHE) were also significant lower in COVID-19-SS (Fig.3a,h), indicating reduced antibody secretion by B cells.",
+      "key": "b6372c5ee3d0befc5999b6b091104d9e",
+      "line": 143,
+      "relation": "negativeCorrelation",
+      "source": 54,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of immunoglobulin subunits (IGHG1, IGHG2, IGHG4, IGLC2, IGLL1, and IGHE) were also significant lower in COVID-19-SS (Fig.3a,h), indicating reduced antibody secretion by B cells.",
+      "key": "10cfe4c9ab9c0f99bb697c26acc33564",
+      "line": 144,
+      "relation": "negativeCorrelation",
+      "source": 55,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.019216"
+      },
+      "evidence": "The expressions of immunoglobulin subunits (IGHG1, IGHG2, IGHG4, IGLC2, IGLL1, and IGHE) were also significant lower in COVID-19-SS (Fig.3a,h), indicating reduced antibody secretion by B cells.",
+      "key": "e883915cf31700f7a13cb42c4d4ea8da",
+      "line": 145,
+      "relation": "negativeCorrelation",
+      "source": 50,
+      "target": 65
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(MESH:Leukocytes)",
+      "concept": {
+        "name": "Leukocytes",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "b215981af8ba668bcfd399aeb27b72fb"
+    },
+    {
+      "bel": "a(MESH:Neutrophils)",
+      "concept": {
+        "name": "Neutrophils",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "994989dde1444ddb73e4c899a00aabc7"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "bp(GO:\"T cell activation\")",
+      "concept": {
+        "name": "T cell activation",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "6475795284a1f1c537342febd590bb31"
+    },
+    {
+      "bel": "bp(GO:\"antigen processing and presentation\")",
+      "concept": {
+        "name": "antigen processing and presentation",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "a4c2678b5dd4ba8b6e579db5715a69d8"
+    },
+    {
+      "bel": "bp(GO:\"complement activation\")",
+      "concept": {
+        "name": "complement activation",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "c81d3c1b4b64cb916f209952fea071e6"
+    },
+    {
+      "bel": "bp(GO:\"inflammatory response\")",
+      "concept": {
+        "name": "inflammatory response",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "abd32f6c5cca606061975532840db260"
+    },
+    {
+      "bel": "bp(GO:\"interleukin-6 biosynthetic process\")",
+      "concept": {
+        "name": "interleukin-6 biosynthetic process",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "d8f2f68c38f1e90b27342b0c5c32d262"
+    },
+    {
+      "bel": "bp(GO:\"interleukin-8 biosynthetic process\")",
+      "concept": {
+        "name": "interleukin-8 biosynthetic process",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "a13ceb444c2dec3dbfe89b9e9874c5af"
+    },
+    {
+      "bel": "bp(GO:\"neutrophil activation\")",
+      "concept": {
+        "name": "neutrophil activation",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "12adb82029111393287bdd011fd91ee0"
+    },
+    {
+      "bel": "bp(GO:\"neutrophil chemotaxis\")",
+      "concept": {
+        "name": "neutrophil chemotaxis",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "1440f9a61385eaa1c0634b319ede29f2"
+    },
+    {
+      "bel": "bp(GO:\"neutrophil extravasation\")",
+      "concept": {
+        "name": "neutrophil extravasation",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "9eb815606d7d1f3475bb3abad8c60e24"
+    },
+    {
+      "bel": "bp(GO:\"type I interferon signaling pathway\")",
+      "concept": {
+        "name": "type I interferon signaling pathway",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "406286e395b45174d29b736d24d28382"
+    },
+    {
+      "bel": "complex(GO:\"RNA nuclear export complex\")",
+      "concept": {
+        "name": "RNA nuclear export complex",
+        "namespace": "GO"
+      },
+      "function": "Complex",
+      "id": "04c32aef83eb4caafb1f114f7af3d0dc"
+    },
+    {
+      "bel": "complex(p(COVID:N), p(HGNC:G3BP2))",
+      "function": "Complex",
+      "id": "a7da9b0fac98675f94eab956cdb5f0f3",
+      "members": [
+        {
+          "bel": "p(COVID:N)",
+          "concept": {
+            "name": "N",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "a1054f8b8ac9a90d2ad484980fa2a350"
+        },
+        {
+          "bel": "p(HGNC:G3BP2)",
+          "concept": {
+            "name": "G3BP2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "a9688a423c6c2793021ae7f33ce2bc97"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:ORF1ab, frag(\"4141_4253\")), p(HGNC:C1QBP))",
+      "function": "Complex",
+      "id": "f5bb55fc0dcff56e80c2afb5daef0b61",
+      "members": [
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"4141_4253\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "16fdc4d5ef57828bb5365fdf1a4a6f42",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 4141,
+              "stop": 4253
+            }
+          ]
+        },
+        {
+          "bel": "p(HGNC:C1QBP)",
+          "concept": {
+            "name": "C1QBP",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "6e84866553e21038c5a515a7aab6cc64"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:ORF1ab, frag(\"4141_4253\")), p(HGNC:NKRF))",
+      "function": "Complex",
+      "id": "6e42b05813d690fb95ebe0ebbd95d29e",
+      "members": [
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"4141_4253\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "16fdc4d5ef57828bb5365fdf1a4a6f42",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 4141,
+              "stop": 4253
+            }
+          ]
+        },
+        {
+          "bel": "p(HGNC:NKRF)",
+          "concept": {
+            "name": "NKRF",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "4e3cdc88e26ddcc63d16bb1ffcf159b4"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:ORF1ab, frag(\"4254_4392\")), p(HGNC:C1QBP))",
+      "function": "Complex",
+      "id": "abc9c90f8ecb22ff18663d8f3eb529ba",
+      "members": [
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"4254_4392\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "c1608a5094e070beb95aff19a38838d6",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 4254,
+              "stop": 4392
+            }
+          ]
+        },
+        {
+          "bel": "p(HGNC:C1QBP)",
+          "concept": {
+            "name": "C1QBP",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "6e84866553e21038c5a515a7aab6cc64"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:ORF1ab, frag(\"4254_4392\")), p(HGNC:NKRF))",
+      "function": "Complex",
+      "id": "fa56d1fbc552f1588aa138b2c02ea92f",
+      "members": [
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"4254_4392\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "c1608a5094e070beb95aff19a38838d6",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 4254,
+              "stop": 4392
+            }
+          ]
+        },
+        {
+          "bel": "p(HGNC:NKRF)",
+          "concept": {
+            "name": "NKRF",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "4e3cdc88e26ddcc63d16bb1ffcf159b4"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:ORF1ab, frag(\"4393_5324\")), p(HGNC:NKRF))",
+      "function": "Complex",
+      "id": "2a39fd444424be44189ff2755401dcef",
+      "members": [
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"4393_5324\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "fd839a98b05d17327ddef0cb687a4b04",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 4393,
+              "stop": 5324
+            }
+          ]
+        },
+        {
+          "bel": "p(HGNC:NKRF)",
+          "concept": {
+            "name": "NKRF",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "4e3cdc88e26ddcc63d16bb1ffcf159b4"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:ORF1ab, frag(\"5325_5925\")), p(HGNC:NKRF))",
+      "function": "Complex",
+      "id": "c14487f2c0b31a0ce0aff61f8d556c22",
+      "members": [
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"5325_5925\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "99748bbd1c3dda5cfe8a62029f894ba9",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 5325,
+              "stop": 5925
+            }
+          ]
+        },
+        {
+          "bel": "p(HGNC:NKRF)",
+          "concept": {
+            "name": "NKRF",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "4e3cdc88e26ddcc63d16bb1ffcf159b4"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:ORF1ab, frag(\"6453_6798\")), p(HGNC:NKRF))",
+      "function": "Complex",
+      "id": "c1d4d8a68ec158abc68eeeb53198c75c",
+      "members": [
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"6453_6798\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "3445b2a9aeea537066ed8b3afe1dfb39",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 6453,
+              "stop": 6798
+            }
+          ]
+        },
+        {
+          "bel": "p(HGNC:NKRF)",
+          "concept": {
+            "name": "NKRF",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "4e3cdc88e26ddcc63d16bb1ffcf159b4"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:ORF6), p(HGNC:RAE1))",
+      "function": "Complex",
+      "id": "e6bd51baf264c2449b9c52194697bd67",
+      "members": [
+        {
+          "bel": "p(COVID:ORF6)",
+          "concept": {
+            "name": "ORF6",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "4afaebfda822880c76d98359abea4989"
+        },
+        {
+          "bel": "p(HGNC:RAE1)",
+          "concept": {
+            "name": "RAE1",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "e92793b68c4db691f4f62c55f780be22"
+        }
+      ]
+    },
+    {
+      "bel": "g(HGNC:TRAC)",
+      "concept": {
+        "name": "TRAC",
+        "namespace": "HGNC"
+      },
+      "function": "Gene",
+      "id": "f56b2062be57904143303b6ed2e4f904"
+    },
+    {
+      "bel": "g(HGNC:TRBC1)",
+      "concept": {
+        "name": "TRBC1",
+        "namespace": "HGNC"
+      },
+      "function": "Gene",
+      "id": "72c09f0bc5867827dedd3517f910e6c2"
+    },
+    {
+      "bel": "p(COVID:N)",
+      "concept": {
+        "name": "N",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "a1054f8b8ac9a90d2ad484980fa2a350"
+    },
+    {
+      "bel": "p(COVID:ORF1ab)",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "3e2ae75f3061012cb65ea6b97f7db096"
+    },
+    {
+      "bel": "p(COVID:ORF1ab, frag(\"4141_4253\"))",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "16fdc4d5ef57828bb5365fdf1a4a6f42",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 4141,
+          "stop": 4253
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:ORF1ab, frag(\"4254_4392\"))",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "c1608a5094e070beb95aff19a38838d6",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 4254,
+          "stop": 4392
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:ORF1ab, frag(\"4393_5324\"))",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "fd839a98b05d17327ddef0cb687a4b04",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 4393,
+          "stop": 5324
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:ORF1ab, frag(\"5325_5925\"))",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "99748bbd1c3dda5cfe8a62029f894ba9",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 5325,
+          "stop": 5925
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:ORF1ab, frag(\"6453_6798\"))",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "3445b2a9aeea537066ed8b3afe1dfb39",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 6453,
+          "stop": 6798
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:ORF6)",
+      "concept": {
+        "name": "ORF6",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "4afaebfda822880c76d98359abea4989"
+    },
+    {
+      "bel": "p(HGNC:\"HLA-DRA\")",
+      "concept": {
+        "name": "HLA-DRA",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "ee9f6f23ca3094bc51cb4698da90816b"
+    },
+    {
+      "bel": "p(HGNC:\"HLA-DRB1\")",
+      "concept": {
+        "name": "HLA-DRB1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "046dd1ead21fe1ececa6f91663d08a7c"
+    },
+    {
+      "bel": "p(HGNC:\"HLA-DRB4\")",
+      "concept": {
+        "name": "HLA-DRB4",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "b2fa0d73aa1941a2c9ea75b539a80101"
+    },
+    {
+      "bel": "p(HGNC:\"HLA-DRB5\")",
+      "concept": {
+        "name": "HLA-DRB5",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "3e143bc13cc99d2673fd8fd3a6920e07"
+    },
+    {
+      "bel": "p(HGNC:C1QBP)",
+      "concept": {
+        "name": "C1QBP",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "6e84866553e21038c5a515a7aab6cc64"
+    },
+    {
+      "bel": "p(HGNC:CD2)",
+      "concept": {
+        "name": "CD2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "5405a138aa4578c6a24014068f9ffd5a"
+    },
+    {
+      "bel": "p(HGNC:CD247)",
+      "concept": {
+        "name": "CD247",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "3aa5919f40111a0c4673efa4c74219bc"
+    },
+    {
+      "bel": "p(HGNC:CD3E)",
+      "concept": {
+        "name": "CD3E",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "d6ff0728d30587b04fc28aba0946976e"
+    },
+    {
+      "bel": "p(HGNC:CD3G)",
+      "concept": {
+        "name": "CD3G",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "fcd48cf832f491d8e26d2240354f4ff1"
+    },
+    {
+      "bel": "p(HGNC:CD4)",
+      "concept": {
+        "name": "CD4",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "d07cb268be52e9669b638513af0d9738"
+    },
+    {
+      "bel": "p(HGNC:CD8A)",
+      "concept": {
+        "name": "CD8A",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "0c1d0b9490a59ce7f64432b43508173b"
+    },
+    {
+      "bel": "p(HGNC:CD8B)",
+      "concept": {
+        "name": "CD8B",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "5ab154553e5675acc5612d618d3c75d4"
+    },
+    {
+      "bel": "p(HGNC:CRP)",
+      "concept": {
+        "name": "CRP",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "b2238c9ec2ce73112c0f44c8375b7acb"
+    },
+    {
+      "bel": "p(HGNC:CXCL8)",
+      "concept": {
+        "name": "CXCL8",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "325a76cdc17ef7ce6a715ed6201f2a09"
+    },
+    {
+      "bel": "p(HGNC:CXCR2)",
+      "concept": {
+        "name": "CXCR2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "ba2e9f718c2dcc56948e4f247be0fca3"
+    },
+    {
+      "bel": "p(HGNC:FYN)",
+      "concept": {
+        "name": "FYN",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "9aaa70667f9bfd5fd59c45422ea4c02c"
+    },
+    {
+      "bel": "p(HGNC:G3BP2)",
+      "concept": {
+        "name": "G3BP2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "a9688a423c6c2793021ae7f33ce2bc97"
+    },
+    {
+      "bel": "p(HGNC:IGHE)",
+      "concept": {
+        "name": "IGHE",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "46089da1fe9999a7871d843f26e8421d"
+    },
+    {
+      "bel": "p(HGNC:IGHG1)",
+      "concept": {
+        "name": "IGHG1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "8464bb7c1759fa973c9dd8ec305bfb4c"
+    },
+    {
+      "bel": "p(HGNC:IGHG2)",
+      "concept": {
+        "name": "IGHG2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "dbc3582dc72651d47627206bdb8a7090"
+    },
+    {
+      "bel": "p(HGNC:IGHG4)",
+      "concept": {
+        "name": "IGHG4",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "a65497d5e8206eca71959974ebaf73bc"
+    },
+    {
+      "bel": "p(HGNC:IGLC2)",
+      "concept": {
+        "name": "IGLC2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "6dfdd7b78528b113803a3d934f9171f4"
+    },
+    {
+      "bel": "p(HGNC:IGLL1)",
+      "concept": {
+        "name": "IGLL1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "fab23162921b20702760245025ca0b43"
+    },
+    {
+      "bel": "p(HGNC:IL6)",
+      "concept": {
+        "name": "IL6",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "8a1d3c4828c5416eba867c395cc65caa"
+    },
+    {
+      "bel": "p(HGNC:LBP)",
+      "concept": {
+        "name": "LBP",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "d5cd538179043d6f06e3c45b27b9deca"
+    },
+    {
+      "bel": "p(HGNC:LCK)",
+      "concept": {
+        "name": "LCK",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "b12ffdabce4924617b183ab3df9c996f"
+    },
+    {
+      "bel": "p(HGNC:MMP25)",
+      "concept": {
+        "name": "MMP25",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "9fb400a2087e6f0c07f79089ab8c00d5"
+    },
+    {
+      "bel": "p(HGNC:NKRF)",
+      "concept": {
+        "name": "NKRF",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "4e3cdc88e26ddcc63d16bb1ffcf159b4"
+    },
+    {
+      "bel": "p(HGNC:NLRP1)",
+      "concept": {
+        "name": "NLRP1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "fd90036fb346842d4a96c4f848e847dc"
+    },
+    {
+      "bel": "p(HGNC:PRG3)",
+      "concept": {
+        "name": "PRG3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "1fdbf558391ea8befdbecab4323ac22d"
+    },
+    {
+      "bel": "p(HGNC:RAE1)",
+      "concept": {
+        "name": "RAE1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "e92793b68c4db691f4f62c55f780be22"
+    },
+    {
+      "bel": "p(HGNC:ZAP70)",
+      "concept": {
+        "name": "ZAP70",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "569c06c92d141011ba04f5ea025a0fb4"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(MESH:Cough)",
+      "concept": {
+        "name": "Cough",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "9fee4f29ebce7356ac1721785693b80c"
+    },
+    {
+      "bel": "path(MESH:Fever)",
+      "concept": {
+        "name": "Fever",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "ffc74da80b64d7057f4eff0e06cdd1b6"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32227760.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Report"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"DOI","10.1056/NEJMsr2005760"}
+
+SET PublicationType = "Report"
+SET PublicationStatus = "Published"
+SET Section = "Full Text"
+
+SET Evidence = "ACE2 is a key counterregulatory enzyme that degrades angiotensin II to \
+angiotensin-(1–7), thereby attenuating its effects on \
+vasoconstriction, sodium retention, and fibrosis. Although angiotensin \
+II is the primary substrate of ACE2, that enzyme also cleaves \
+angiotensin I to angiotensin-(1–9) and participates in the hydrolysis \
+of other peptides.16"
+
+act(p(HGNC:ACE2)) -> rxn(reactants(a(CHEBI:"angiotensin II")), products(a(CHEBI:"Ile(5)-angiotensin II (1-7)")))
+act(p(HGNC:ACE2)) -> rxn(reactants(a(CHEBI:"angiotensin II")), products(a(CHEBI:"Angiotensin (1-9)")))
+a(CHEBI:"angiotensin II") -> bp(GO:vasoconstriction)
+a(CHEBI:"angiotensin II") -> path(MESH:Hypernatremia)
+a(CHEBI:"angiotensin II") -> path(MESH:Fibrosis)
+
+SET Evidence = "Similarly, animal models have had inconsistent findings with respect \
+to the effects of ARBs on ACE2, with some showing that ARBs may \
+increase messenger RNA expression or protein levels of ACE2 in \
+tissue21,26-34 and others showing no effect.23"
+
+a(MESH:"Angiotensin Receptor Antagonists") -> p(HGNC:ACE2)
+a(MESH:"Angiotensin Receptor Antagonists") -> r(HGNC:ACE2)
+
+SET Evidence = "however, with exposure to captopril monotherapy over a period of 6 \
+months, angiotensin-(1–7) levels increased.36"
+
+a(CHEBI:captopril) -> a(CHEBI:"Ile(5)-angiotensin II (1-7)")
+
+SET Evidence = "In a longitudinal cohort study involving Japanese patients with \
+hypertension, urinary ACE2 levels were higher among patients who \
+received long-term treatment with the ARB olmesartan than among \
+untreated control patients, but that association was not observed with \
+the ACE inhibitor enalapril or with other ARBs (losartan, candesartan, \
+valsartan, and telmisartan).41"
+
+SET MeSHDisease = "Hypertension"
+SET MeSHAnatomy = "Urine"
+a(CHEBI:olmesartan) -> p(HGNC:ACE2)
+UNSET  MeSHAnatomy
+UNSET MeSHDisease
+
+SET Evidence = "SARS-CoV-2 appears not only to gain initial entry through ACE2 but \
+also to subsequently down-regulate ACE2 expression such that the \
+enzyme is unable to exert protective effects in organs"
+
+complex(a(TAX:"Severe acute respiratory syndrome coronavirus 2"), p(HGNC:ACE2)) -> bp(GO:"viral entry into host cell")
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -| act(p(HGNC:ACE2))
+
+SET Evidence = "It has been postulated but unproven that unabated angiotensin II \
+activity may be in part responsible for organ injury in Covid-19.43,44"
+
+SET Custom_Disease = "COVID-19"
+a(CHEBI:"angiotensin II") -> path(HP:"cell and tissue damage")
+
+SET Evidence = "After the initial engagement of SARS-CoV-2 spike protein, there is \
+subsequent down-regulation of ACE2 abundance on cell surfaces.45"
+
+act(p(COVID:S)) -| p(HGNC:ACE2)
+UNSET Custom_Disease
+
+SET Evidence = "Indeed, in experimental mouse models, exposure to SARS-CoV-1 spike \
+protein induced acute lung injury, which is limited by RAAS \
+blockade.45"
+
+SET Species = "10090"
+act(p(COVID:S)) -> path(MESH:"Acute Lung Injury")
+path(HP:"Hyperactive renin-angiotensin system") -> path(MESH:"Acute Lung Injury")
+UNSET Species
+
+SET Evidence = "Other mouse models have suggested that dysregulation of ACE2 may \
+mediate acute lung injury that is secondary to virulent strains of \
+influenza48,49 and respiratory syncytial virus.50"
+
+SET Species = "10090"
+act(p(MGI:Ace2)) -| path(MESH:"Acute Lung Injury")
+UNSET Species
+
+SET Evidence = "In a small study, patients with Covid-19 appeared to have elevated \
+levels of plasma angiotensin II, which were in turn correlated with \
+total viral load and degree of lung injury.44"
+
+SET Custom_Disease = "COVID-19"
+SET MeSHAnatomy = "Plasma"
+path(DO:"COVID-19") -> a(CHEBI:"angiotensin II")
+a(CHEBI:"angiotensin II") reg a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+a(CHEBI:"angiotensin II") reg path(MESH:"Lung Injury")
+UNSET MeSHAnatomy
+UNSET Custom_Disease
+
+SET Evidence = "ACE2 has a well-recognized role in myocardial recovery and injury \
+response; in one study, ACE2 knockout in animal models contributed to \
+adverse left ventricular remodeling in response to acute injury driven \
+by angiotensin II.55"
+
+SET Species = "10090"
+a(CHEBI:"angiotensin II") -> path(MESH:"Heart Injuries")
+path(MESH:"Heart Injuries") neg path(MESH:"Ventricular Remodeling")
+act(p(MGI:Ace2)) pos path(MESH:"Ventricular Remodeling")
+UNSET Species
+
+SET Evidence = "In addition, paired trials of losartan as a treatment for Covid-19 are \
+being conducted among patients who have not previously received \
+treatment with a RAAS inhibitor and are either hospitalized \
+(NCT04312009. opens in new tab) or not hospitalized (NCT04311177. \
+opens in new tab)."
+
+a(CHEBI:losartan) -| path(DO:"COVID-19")
+
+SET Evidence = "Among patients with unstable clinical status, myocardial injury \
+associated with Covid-19 may pose even higher early risks after \
+withdrawal of RAAS inhibitors."
+
+path(DO:"myocardial infarction") -- path(DO:"COVID-19")
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

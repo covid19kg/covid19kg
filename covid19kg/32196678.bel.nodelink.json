@@ -1,0 +1,4563 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Complication": [
+        "history of allergic rhinitis",
+        "history of atopic dermatitis",
+        "history of urticaria",
+        "influenza A pneumonia",
+        "secondary bacterial pneumonia"
+      ],
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Preprint"
+      ],
+      "PublicationType": [
+        "Case Study"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Thrishna",
+      "contact": "thrishna@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32196678.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "PUBCHEM": "^\\d+$"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+    },
+    "path": "32196678.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "She experienced only mild symptoms such as a sore throat and fatigue, without any signs of pneumonia such as cough and chest tightness.",
+      "key": "8419a5334e0326fdf5e6ff7346b9fa9f",
+      "line": 50,
+      "relation": "positiveCorrelation",
+      "source": 35,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "A 69-year old woman had persistent fever (> 38 ℃) accompanied by a dry cough, headache, sore throat, myalgia and fatigue for three days.",
+      "key": "78b76ccc7bb34c82efe5c1bc46d36a2c",
+      "line": 139,
+      "relation": "positiveCorrelation",
+      "source": 35,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "She experienced only mild symptoms such as a sore throat and fatigue, without any signs of pneumonia such as cough and chest tightness.",
+      "key": "f0ec7e8b655ca2bd19974fc512d22b97",
+      "line": 50,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "A 69-year old woman had persistent fever (> 38 ℃) accompanied by a dry cough, headache, sore throat, myalgia and fatigue for three days.",
+      "key": "fc07cd4721625bbf101dede7fa6a7815",
+      "line": 139,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "She experienced only mild symptoms such as a sore throat and fatigue, without any signs of pneumonia such as cough and chest tightness.",
+      "key": "9098c907b68e5381980efeef97c64e02",
+      "line": 51,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "A 69-year old woman had persistent fever (> 38 ℃) accompanied by a dry cough, headache, sore throat, myalgia and fatigue for three days.",
+      "key": "8fafb29f9e88a3ba5c7e944f32d9040a",
+      "line": 138,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "She developed chest tightness, shortness of breath, loss of appetite, 62 nausea, and diarrhea",
+      "key": "212db2c4fd372e90e5325583f7ddb6c4",
+      "line": 62,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "She developed chest tightness, shortness of breath, loss of appetite, 62 nausea, and diarrhea",
+      "key": "57000afb960e6f83060240f0d4843d3a",
+      "line": 63,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 28
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "She developed chest tightness, shortness of breath, loss of appetite, 62 nausea, and diarrhea",
+      "key": "dc052103949d30884da3c60940602942",
+      "line": 64,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "She developed chest tightness, shortness of breath, loss of appetite, 62 nausea, and diarrhea",
+      "key": "4334b05d0fa54842fcd7932bce6952c8",
+      "line": 65,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "She developed chest tightness, shortness of breath, loss of appetite, 62 nausea, and diarrhea",
+      "key": "b8887e5c283344785a094ac3aa0fd629",
+      "line": 66,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "On February 6, the third chest CT scan showed bilateral multiple ground-glass opacities indicating viral pneumonia (Figure 1B) and she was admitted to the designated hospital immediately.",
+      "key": "063beed3ef110997d9ade8375cc997ad",
+      "line": 72,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "On January 23, the second chest CT scan revealed bilateral extended ground‐glass opacities with scattered consolidation, indicating rapid progression of the disease (Figure 3B).",
+      "key": "bede811461d2f2d721ea64ad08c4752f",
+      "line": 153,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "lymphocyte count slightly decreased [0.81×109/L, reference range: (1.1~3.2) ×109/L], and the concentration of serum high-sensitivity C-reactive protein (hsCRP) increased [49.9 mg/L, reference range: (0~3) mg/L], with leukocyte count and procalcitonin (PCT) concentration within normal ranges.",
+      "key": "8611ef6934c8601453e56d6edba25a42",
+      "line": 81,
+      "relation": "decreases",
+      "source": 11,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Remarkable abnormalities in the CBC were detected on January 29, including increased neutrophils (10.67×109/L), leukocytes (11.73×109/L), and decreased lymphocytes (0.51×109 /L), and on February 4 decreased erythrocytes (2.40×1012/L) and platelets (73×109 /L).",
+      "key": "059d3785f2edf2774bd0c89c6a8f0481",
+      "line": 163,
+      "relation": "decreases",
+      "source": 11,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "influenza A pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "A CBC showed slightly increased neutrophils (7.53×109/L) and markedly decreased lymphocytes (0.27×109/L).",
+      "key": "acd4e762c94c71f7dca350414711dbf2",
+      "line": 239,
+      "relation": "decreases",
+      "source": 11,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "lymphocyte count slightly decreased [0.81×109/L, reference range: (1.1~3.2) ×109/L], and the concentration of serum high-sensitivity C-reactive protein (hsCRP) increased [49.9 mg/L, reference range: (0~3) mg/L], with leukocyte count and procalcitonin (PCT) concentration within normal ranges.",
+      "key": "a5e6c0df73424824abaeb33152abb39d",
+      "line": 82,
+      "relation": "association",
+      "source": 11,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "The CBC was normal except for the development of eosinopenia (0×109 /L) and an elevated erythrocyte sedimentation rate (ESR) and CRP concentration (39 mm/h and 60.41 mg/L, respectively).",
+      "key": "75c1b41bff42583c5e36ffafbe40092c",
+      "line": 147,
+      "relation": "association",
+      "source": 11,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Unfortunately, during the operation of ECMO she suffered a sudden cardiac arrest and survived by rescue of cardiopulmonary resuscitation (CPR).",
+      "key": "7251e96239ef59e7a48f894cd3dcd999",
+      "line": 174,
+      "relation": "association",
+      "source": 11,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "history of urticaria": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Laboratory tests showed a slight decrease of leukocytes (3.19×109/L) and neutrophils (1.57×109/L) and a mildly elevated CRP concentration (29.2 mg/L), with all other tested parameters within normal ranges.",
+      "key": "2cb81d7be03d31c3591fc1dc44ec7474",
+      "line": 225,
+      "relation": "association",
+      "source": 11,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "influenza A pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Other abnormal results of laboratory parameters included significantly increased CRP 186 concentration (> 160 mg/L) and slightly increased PCT concentration (0.39 ng/ml).",
+      "key": "948e9f23a2ebbbd9e0600593c5846cec",
+      "line": 245,
+      "relation": "association",
+      "source": 11,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Most laboratory tests were within normal ranges, except for mild leukopenia [3.37×109 /L, reference range: (3.5~9.5) ×109 /L] and neutropenia [1.47×109 /L, reference range: (1.8~6.3) ×109 /L].",
+      "key": "0b7af8ac9ff95373c0dc940b1fde4b2c",
+      "line": 88,
+      "relation": "increases",
+      "source": 11,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Most laboratory tests were within normal ranges, except for mild leukopenia [3.37×109 /L, reference range: (3.5~9.5) ×109 /L] and neutropenia [1.47×109 /L, reference range: (1.8~6.3) ×109 /L].",
+      "key": "6d7b4331a0d8e23e2d8a66b1dd2796ba",
+      "line": 89,
+      "relation": "increases",
+      "source": 11,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "On admission, physical examinations and pulmonary auscultation were normal; laboratory tests indicated a reduction in leukocytes (1.92×109/L), neutrophils (1.20×109/L), lymphocytes (0.47×109/L), and eosinophils (0×109 /L) counts, normal CRP and PCT concentrations, and slightly increased concentration of serum amyloid A [SAA, 36.84 mg/L, reference range: (0~10) mg/L]",
+      "key": "aec850d3b17e1d5d35b6da4eb9e3bfd4",
+      "line": 105,
+      "relation": "association",
+      "source": 11,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "The CBC was normal except for the development of eosinopenia (0×109 /L) and an elevated erythrocyte sedimentation rate (ESR) and CRP concentration (39 mm/h and 60.41 mg/L, respectively).",
+      "key": "e7c581f497a493485bf6a884882ee69f",
+      "line": 145,
+      "relation": "association",
+      "source": 11,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "On admission, physical examinations and pulmonary auscultation were normal; laboratory tests indicated a reduction in leukocytes (1.92×109/L), neutrophils (1.20×109/L), lymphocytes (0.47×109/L), and eosinophils (0×109 /L) counts, normal CRP and PCT concentrations, and slightly increased concentration of serum amyloid A [SAA, 36.84 mg/L, reference range: (0~10) mg/L]",
+      "key": "4af1df8a63714accd1c5484538bed5d0",
+      "line": 106,
+      "relation": "increases",
+      "source": 11,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "On admission, physical examinations and pulmonary auscultation were normal; laboratory tests indicated a reduction in leukocytes (1.92×109/L), neutrophils (1.20×109/L), lymphocytes (0.47×109/L), and eosinophils (0×109 /L) counts, normal CRP and PCT concentrations, and slightly increased concentration of serum amyloid A [SAA, 36.84 mg/L, reference range: (0~10) mg/L]",
+      "key": "1c0f23bbf420e6d36ff4201c4f2281ff",
+      "line": 107,
+      "relation": "decreases",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Remarkable abnormalities in the CBC were detected on January 29, including increased neutrophils (10.67×109/L), leukocytes (11.73×109/L), and decreased lymphocytes (0.51×109 /L), and on February 4 decreased erythrocytes (2.40×1012/L) and platelets (73×109 /L).",
+      "key": "1ad09455ee8344f7f2f2343301999749",
+      "line": 161,
+      "relation": "increases",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "history of urticaria": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Laboratory tests showed a slight decrease of leukocytes (3.19×109/L) and neutrophils (1.57×109/L) and a mildly elevated CRP concentration (29.2 mg/L), with all other tested parameters within normal ranges.",
+      "key": "12305176e9a71832aac8ea866438d597",
+      "line": 224,
+      "relation": "decreases",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "influenza A pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "A CBC showed slightly increased neutrophils (7.53×109/L) and markedly decreased lymphocytes (0.27×109/L).",
+      "key": "0dc566621f9553900b4b253a270baf50",
+      "line": 238,
+      "relation": "increases",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "A 69-year old woman had persistent fever (> 38 ℃) accompanied by a dry cough, headache, sore throat, myalgia and fatigue for three days.",
+      "key": "ae4570cc37748d464f7590bfa4d68a8d",
+      "line": 134,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "A 69-year old woman had persistent fever (> 38 ℃) accompanied by a dry cough, headache, sore throat, myalgia and fatigue for three days.",
+      "key": "4ab01191ec8bf49e17c33cf6709da055",
+      "line": 135,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "A 69-year old woman had persistent fever (> 38 ℃) accompanied by a dry cough, headache, sore throat, myalgia and fatigue for three days.",
+      "key": "7a3a0f7de32f74a702fd04a7ef619b38",
+      "line": 136,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "A 69-year old woman had persistent fever (> 38 ℃) accompanied by a dry cough, headache, sore throat, myalgia and fatigue for three days.",
+      "key": "4f58520486838f0e696d3152220ada5e",
+      "line": 137,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "The CBC was normal except for the development of eosinopenia (0×109 /L) and an elevated erythrocyte sedimentation rate (ESR) and CRP concentration (39 mm/h and 60.41 mg/L, respectively).",
+      "key": "727abad90818601114b8d8e0a639ea2f",
+      "line": 146,
+      "relation": "association",
+      "source": 11,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Remarkable abnormalities in the CBC were detected on January 29, including increased neutrophils (10.67×109/L), leukocytes (11.73×109/L), and decreased lymphocytes (0.51×109 /L), and on February 4 decreased erythrocytes (2.40×1012/L) and platelets (73×109 /L).",
+      "key": "04a72a55f40112268fb29fc55bb31d57",
+      "line": 162,
+      "relation": "increases",
+      "source": 11,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "history of urticaria": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Laboratory tests showed a slight decrease of leukocytes (3.19×109/L) and neutrophils (1.57×109/L) and a mildly elevated CRP concentration (29.2 mg/L), with all other tested parameters within normal ranges.",
+      "key": "dca75b4f8c244d385adc39a4d936fab8",
+      "line": 223,
+      "relation": "decreases",
+      "source": 11,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Remarkable abnormalities in the CBC were detected on January 29, including increased neutrophils (10.67×109/L), leukocytes (11.73×109/L), and decreased lymphocytes (0.51×109 /L), and on February 4 decreased erythrocytes (2.40×1012/L) and platelets (73×109 /L).",
+      "key": "846a583dc00268653251e9c08fa97a4f",
+      "line": 164,
+      "relation": "decreases",
+      "source": 11,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Remarkable abnormalities in the CBC were detected on January 29, including increased neutrophils (10.67×109/L), leukocytes (11.73×109/L), and decreased lymphocytes (0.51×109 /L), and on February 4 decreased erythrocytes (2.40×1012/L) and platelets (73×109 /L).",
+      "key": "66365e0eafe05e323f94eb6c26a28d1f",
+      "line": 165,
+      "relation": "decreases",
+      "source": 11,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "In addition, there was a significant increase in inflammatory indicators, such as PCT, CRP and D-dimer.",
+      "key": "f00bb4f912b1755a264c39349c0bf638",
+      "line": 170,
+      "relation": "association",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Unfortunately, during the operation of ECMO she suffered a sudden cardiac arrest and survived by rescue of cardiopulmonary resuscitation (CPR).",
+      "key": "2d8a41e33847a7a38bd77b85813cabf5",
+      "line": 175,
+      "relation": "increases",
+      "source": 11,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Mucous Membrane": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "On February 10, bedside bronchoscopy and bronchial lavage were performed, revealing hyperemia in mucous membranes of the trachea and bronchi with bleeding tendency and a large amount of yellow sticky sputum obstructing the entrance of the bilateral main bronchi and some bronchial lumens, which were aspirated completely.",
+      "key": "7991c4a3ff0d219ecaf8e7d84c5cfc11",
+      "line": 184,
+      "relation": "increases",
+      "source": 11,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "The bedside chest X-ray showed progression of the pneumonia, since the bilateral diffuse opacities, so-called “white lungs”, with air bronchogram occurred on February 15 (Figure 3C, 3D and 3E).",
+      "key": "4dd01eabb8041448ec78799f2c32ddf0",
+      "line": 191,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "history of atopic dermatitis": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "All the laboratory results were within normal ranges, including CBC and biochemical parameters, except for elevated levels of serum IgE (173 IU/mL).",
+      "key": "da2887dba8a0101bf9ac54dc4c8bc324",
+      "line": 208,
+      "relation": "increases",
+      "source": 11,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "She experienced only mild symptoms such as a sore throat and fatigue, without any signs of pneumonia such as cough and chest tightness.",
+      "key": "78880052b0c08154e8d1a1e65f51bba5",
+      "line": 51,
+      "relation": "positiveCorrelation",
+      "source": 29,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "A 69-year old woman had persistent fever (> 38 ℃) accompanied by a dry cough, headache, sore throat, myalgia and fatigue for three days.",
+      "key": "4179c79bf6c599b2f3473bcf7d5c9f37",
+      "line": 138,
+      "relation": "positiveCorrelation",
+      "source": 29,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "The patient recovered after treatment with antiviral 50 therapy (Arbidol) and supportive care.",
+      "key": "09d9838cf2711de93efebb474ee5374c",
+      "line": 56,
+      "relation": "decreases",
+      "source": 3,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "history of urticaria": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Symptoms improved after antiviral treatment (Arbidol) and supportive care",
+      "key": "c6ee32cfdfc9d2080adae07c340d469e",
+      "line": 230,
+      "relation": "decreases",
+      "source": 3,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Fatigue, cough, fever, and diarrhea symptoms gradually improved after treatment with antiviral medication (Arbidol, Kaletra and inhalation of interferon-α) and supportive care.",
+      "key": "253a1b4fb8c7eda057e837c03bd0ad65",
+      "line": 113,
+      "relation": "decreases",
+      "source": 3,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Fatigue, cough, fever, and diarrhea symptoms gradually improved after treatment with antiviral medication (Arbidol, Kaletra and inhalation of interferon-α) and supportive care.",
+      "key": "3f871b80ee0e40437cdcbf728d3b0894",
+      "line": 114,
+      "relation": "decreases",
+      "source": 3,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Fatigue, cough, fever, and diarrhea symptoms gradually improved after treatment with antiviral medication (Arbidol, Kaletra and inhalation of interferon-α) and supportive care.",
+      "key": "1242fdcae3e4236f8818c5383cd38244",
+      "line": 115,
+      "relation": "decreases",
+      "source": 3,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Fatigue, cough, fever, and diarrhea symptoms gradually improved after treatment with antiviral medication (Arbidol, Kaletra and inhalation of interferon-α) and supportive care.",
+      "key": "b7f8d5dace2c9f51f53ad591d0d10150",
+      "line": 116,
+      "relation": "decreases",
+      "source": 3,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "The patient recovered after treatment with antiviral 50 therapy (Arbidol) and supportive care.",
+      "key": "12eb020ae8e758feeebf31f75505d4c6",
+      "line": 57,
+      "relation": "decreases",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "history of allergic rhinitis": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Symptoms were relieved after inhalation of interferon-α and supportive care",
+      "key": "d5615a66a1760eb920307eeee4ffff10",
+      "line": 199,
+      "relation": "decreases",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "history of atopic dermatitis": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "The patient was treated with interferon‐α inhalation and supportive care.",
+      "key": "7a71898344bf83a779eb6f54c777a7d0",
+      "line": 215,
+      "relation": "decreases",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "history of urticaria": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Symptoms improved after antiviral treatment (Arbidol) and supportive care",
+      "key": "78b99ee8adffe6eab7536546a4231e02",
+      "line": 231,
+      "relation": "decreases",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Fatigue, cough, fever, and diarrhea symptoms gradually improved after treatment with antiviral medication (Arbidol, Kaletra and inhalation of interferon-α) and supportive care.",
+      "key": "d660382ecb1c6fe61f711ab116edb247",
+      "line": 125,
+      "relation": "decreases",
+      "source": 6,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Fatigue, cough, fever, and diarrhea symptoms gradually improved after treatment with antiviral medication (Arbidol, Kaletra and inhalation of interferon-α) and supportive care.",
+      "key": "3c1b801582d8b1e0483c91af546eb8b5",
+      "line": 126,
+      "relation": "decreases",
+      "source": 6,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Fatigue, cough, fever, and diarrhea symptoms gradually improved after treatment with antiviral medication (Arbidol, Kaletra and inhalation of interferon-α) and supportive care.",
+      "key": "95ac05fd25c72d3723635c96e92e3514",
+      "line": 127,
+      "relation": "decreases",
+      "source": 6,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "She developed chest tightness, shortness of breath, loss of appetite, 62 nausea, and diarrhea",
+      "key": "45749ac6e5bb219daefb21ccd6bb606b",
+      "line": 62,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "She developed chest tightness, shortness of breath, loss of appetite, 62 nausea, and diarrhea",
+      "key": "d67bd16d1a0ddad2bb97015b804a964c",
+      "line": 63,
+      "relation": "positiveCorrelation",
+      "source": 28,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "She developed chest tightness, shortness of breath, loss of appetite, 62 nausea, and diarrhea",
+      "key": "8f0073277ca17ba8c2c44eb923312d1f",
+      "line": 64,
+      "relation": "positiveCorrelation",
+      "source": 22,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "She developed chest tightness, shortness of breath, loss of appetite, 62 nausea, and diarrhea",
+      "key": "072b086d919d6a4548fb798b50055cca",
+      "line": 65,
+      "relation": "positiveCorrelation",
+      "source": 34,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "She developed chest tightness, shortness of breath, loss of appetite, 62 nausea, and diarrhea",
+      "key": "1271b55d4ab0d299998df386270d53ab",
+      "line": 66,
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "On February 6, the third chest CT scan showed bilateral multiple ground-glass opacities indicating viral pneumonia (Figure 1B) and she was admitted to the designated hospital immediately.",
+      "key": "d4131324ec3f1d223cdb1eac344d57d6",
+      "line": 72,
+      "relation": "positiveCorrelation",
+      "source": 21,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "On January 23, the second chest CT scan revealed bilateral extended ground‐glass opacities with scattered consolidation, indicating rapid progression of the disease (Figure 3B).",
+      "key": "e75db383df926a468b432f65d69e7a54",
+      "line": 153,
+      "relation": "positiveCorrelation",
+      "source": 21,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "On February 6, the third chest CT scan showed bilateral multiple ground-glass opacities indicating viral pneumonia (Figure 1B) and she was admitted to the designated hospital immediately.",
+      "key": "0e4abe05616ed24e81b243cd7471f90b",
+      "line": 73,
+      "relation": "positiveCorrelation",
+      "source": 21,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "On February 6, the third chest CT scan showed bilateral multiple ground-glass opacities indicating viral pneumonia (Figure 1B) and she was admitted to the designated hospital immediately.",
+      "key": "2893a495e77a33f580ad0637bcaa1364",
+      "line": 73,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "lymphocyte count slightly decreased [0.81×109/L, reference range: (1.1~3.2) ×109/L], and the concentration of serum high-sensitivity C-reactive protein (hsCRP) increased [49.9 mg/L, reference range: (0~3) mg/L], with leukocyte count and procalcitonin (PCT) concentration within normal ranges.",
+      "key": "654137d59cf9817638b9a08662228c2c",
+      "line": 82,
+      "relation": "association",
+      "source": 19,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "The CBC was normal except for the development of eosinopenia (0×109 /L) and an elevated erythrocyte sedimentation rate (ESR) and CRP concentration (39 mm/h and 60.41 mg/L, respectively).",
+      "key": "05dfc0a25f893ddab8d65cdbe425bb23",
+      "line": 147,
+      "relation": "association",
+      "source": 19,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Unfortunately, during the operation of ECMO she suffered a sudden cardiac arrest and survived by rescue of cardiopulmonary resuscitation (CPR).",
+      "key": "ae2c4a9baa4240851acfd2f66ba0c1f2",
+      "line": 174,
+      "relation": "association",
+      "source": 19,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "history of urticaria": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Laboratory tests showed a slight decrease of leukocytes (3.19×109/L) and neutrophils (1.57×109/L) and a mildly elevated CRP concentration (29.2 mg/L), with all other tested parameters within normal ranges.",
+      "key": "1f44f18f51264b6085107734209db714",
+      "line": 225,
+      "relation": "association",
+      "source": 19,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "influenza A pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Other abnormal results of laboratory parameters included significantly increased CRP 186 concentration (> 160 mg/L) and slightly increased PCT concentration (0.39 ng/ml).",
+      "key": "e9f16521509374ba411f596cca4ca502",
+      "line": 245,
+      "relation": "association",
+      "source": 19,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "The patient received antiviral drugs including Arbidol and Kaletra (Lopinavir and Ritonavir tablets) and was discharged on February 13 when chest CT images showed that the bilateral lesions were mostly absorbed.",
+      "key": "ac2391f3369f6682704c29daa0c85424",
+      "line": 96,
+      "relation": "decreases",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Fatigue, cough, fever, and diarrhea symptoms gradually improved after treatment with antiviral medication (Arbidol, Kaletra and inhalation of interferon-α) and supportive care.",
+      "key": "2bc1652d58822484dc885476bdd9f2da",
+      "line": 117,
+      "relation": "decreases",
+      "source": 10,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Fatigue, cough, fever, and diarrhea symptoms gradually improved after treatment with antiviral medication (Arbidol, Kaletra and inhalation of interferon-α) and supportive care.",
+      "key": "bf9427ab4381aa647dea3d1f69c6c634",
+      "line": 118,
+      "relation": "decreases",
+      "source": 10,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Fatigue, cough, fever, and diarrhea symptoms gradually improved after treatment with antiviral medication (Arbidol, Kaletra and inhalation of interferon-α) and supportive care.",
+      "key": "d3291173f1e0f23232b57dd1637a87c1",
+      "line": 119,
+      "relation": "decreases",
+      "source": 10,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Fatigue, cough, fever, and diarrhea symptoms gradually improved after treatment with antiviral medication (Arbidol, Kaletra and inhalation of interferon-α) and supportive care.",
+      "key": "e7a3ef4c883fc26d62ade9cfb36915f7",
+      "line": 120,
+      "relation": "decreases",
+      "source": 10,
+      "target": 13
+    },
+    {
+      "key": "f18924ce25341d06b4bb377528fcb9a5",
+      "relation": "partOf",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "key": "6a69b9c011b905760ffd20c4fc045a23",
+      "relation": "partOf",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "On admission, physical examinations and pulmonary auscultation were normal; laboratory tests indicated a reduction in leukocytes (1.92×109/L), neutrophils (1.20×109/L), lymphocytes (0.47×109/L), and eosinophils (0×109 /L) counts, normal CRP and PCT concentrations, and slightly increased concentration of serum amyloid A [SAA, 36.84 mg/L, reference range: (0~10) mg/L]",
+      "key": "8244c5c4d2b1ee2095eee82ef1be9d29",
+      "line": 105,
+      "relation": "association",
+      "source": 18,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "The CBC was normal except for the development of eosinopenia (0×109 /L) and an elevated erythrocyte sedimentation rate (ESR) and CRP concentration (39 mm/h and 60.41 mg/L, respectively).",
+      "key": "454dc728c91efc84f212f8bd2c1bc2c0",
+      "line": 145,
+      "relation": "association",
+      "source": 18,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "A 69-year old woman had persistent fever (> 38 ℃) accompanied by a dry cough, headache, sore throat, myalgia and fatigue for three days.",
+      "key": "41f35fcd2c39fee444c13f86b4a336b6",
+      "line": 135,
+      "relation": "positiveCorrelation",
+      "source": 27,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "A 69-year old woman had persistent fever (> 38 ℃) accompanied by a dry cough, headache, sore throat, myalgia and fatigue for three days.",
+      "key": "79323dccc2eb51b3511f3428f7b972d3",
+      "line": 134,
+      "relation": "positiveCorrelation",
+      "source": 30,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Fatigue, cough, fever, and diarrhea symptoms gradually improved after treatment with antiviral medication (Arbidol, Kaletra and inhalation of interferon-α) and supportive care.",
+      "key": "c1e001f38fe4b1b6399386ce4cd5e6a3",
+      "line": 121,
+      "relation": "decreases",
+      "source": 5,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Fatigue, cough, fever, and diarrhea symptoms gradually improved after treatment with antiviral medication (Arbidol, Kaletra and inhalation of interferon-α) and supportive care.",
+      "key": "4587d392a92a35eab770a4fe29db9274",
+      "line": 122,
+      "relation": "decreases",
+      "source": 5,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Fatigue, cough, fever, and diarrhea symptoms gradually improved after treatment with antiviral medication (Arbidol, Kaletra and inhalation of interferon-α) and supportive care.",
+      "key": "6056ee1b8ea275b8a071dbfa3ee96d6f",
+      "line": 123,
+      "relation": "decreases",
+      "source": 5,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Fatigue, cough, fever, and diarrhea symptoms gradually improved after treatment with antiviral medication (Arbidol, Kaletra and inhalation of interferon-α) and supportive care.",
+      "key": "5eaca58cd3c42c212ecef73d8ac4380b",
+      "line": 124,
+      "relation": "decreases",
+      "source": 5,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "history of allergic rhinitis": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "Symptoms were relieved after inhalation of interferon-α and supportive care",
+      "key": "93b8abcb147b54037c1bc59fc074d9c3",
+      "line": 198,
+      "relation": "decreases",
+      "source": 5,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "history of atopic dermatitis": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "The patient was treated with interferon‐α inhalation and supportive care.",
+      "key": "46aa19abfaf55f228e88d908ba63228f",
+      "line": 214,
+      "relation": "decreases",
+      "source": 5,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "A 69-year old woman had persistent fever (> 38 ℃) accompanied by a dry cough, headache, sore throat, myalgia and fatigue for three days.",
+      "key": "c6b0f2c778508fa9bc559cabc8e75355",
+      "line": 136,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "A 69-year old woman had persistent fever (> 38 ℃) accompanied by a dry cough, headache, sore throat, myalgia and fatigue for three days.",
+      "key": "b74d23fdf45001a5418ad1315a329cb5",
+      "line": 137,
+      "relation": "positiveCorrelation",
+      "source": 33,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "The CBC was normal except for the development of eosinopenia (0×109 /L) and an elevated erythrocyte sedimentation rate (ESR) and CRP concentration (39 mm/h and 60.41 mg/L, respectively).",
+      "key": "26bd4f30da01d4bb3b0aec88f10334b9",
+      "line": 146,
+      "relation": "association",
+      "source": 20,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "In addition, there was a significant increase in inflammatory indicators, such as PCT, CRP and D-dimer.",
+      "key": "9c4cbfcac11baeebe539d800d11b41ce",
+      "line": 170,
+      "relation": "association",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Complication": {
+          "secondary bacterial pneumonia": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Case Study": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akdis CA",
+          "Cao YY",
+          "Dong X",
+          "Du H",
+          "Gao YD",
+          "Lu XX",
+          "Yan YQ",
+          "Zhang JJ"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32196678",
+        "db_name": "Allergy",
+        "first": "Dong X",
+        "last": "Gao YD"
+      },
+      "evidence": "The bedside chest X-ray showed progression of the pneumonia, since the bilateral diffuse opacities, so-called “white lungs”, with air bronchogram occurred on February 15 (Figure 3C, 3D and 3E).",
+      "key": "7b2b064f2e37aed12b3172549ec14274",
+      "line": 191,
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 11
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:\"serum amyloid A\")",
+      "concept": {
+        "name": "serum amyloid A",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "584bd7cb691c0a0ea49478a406814ce0"
+    },
+    {
+      "bel": "a(CHEBI:lopinavir)",
+      "concept": {
+        "name": "lopinavir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "540f0a29f78ff437222f25e1c2e1b0fd"
+    },
+    {
+      "bel": "a(CHEBI:ritonavir)",
+      "concept": {
+        "name": "ritonavir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "07c1651afef7019b0cb107f1ce5fef12"
+    },
+    {
+      "bel": "a(CHEBI:umifenovir)",
+      "concept": {
+        "name": "umifenovir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "4b2285b93eae04cb8e4d522d829c1df1"
+    },
+    {
+      "bel": "a(MESH:\"Immunoglobulin E\")",
+      "concept": {
+        "name": "Immunoglobulin E",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "f213a8b41f7b6e57fdbe75403e39c8d3"
+    },
+    {
+      "bel": "a(MESH:\"Interferon-alpha\")",
+      "concept": {
+        "name": "Interferon-alpha",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "85440345ef356e6212d17e05e9bfc37e"
+    },
+    {
+      "bel": "a(MESH:\"Patient Care\")",
+      "concept": {
+        "name": "Patient Care",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "b62f11f160106b0cd991459813791939"
+    },
+    {
+      "bel": "a(MESH:\"fibrin fragment D\")",
+      "concept": {
+        "name": "fibrin fragment D",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "695b9a75cdb8b199559dcf0c68d35ca3"
+    },
+    {
+      "bel": "a(MESH:Neutrophils)",
+      "concept": {
+        "name": "Neutrophils",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "994989dde1444ddb73e4c899a00aabc7"
+    },
+    {
+      "bel": "a(PUBCHEM:404772262)",
+      "concept": {
+        "name": "404772262",
+        "namespace": "PUBCHEM"
+      },
+      "function": "Abundance",
+      "id": "9bc70615161e06205eb14de5a076376d"
+    },
+    {
+      "bel": "composite(a(CHEBI:lopinavir), a(CHEBI:ritonavir))",
+      "function": "Composite",
+      "id": "604986238aca313adcc37629dfa6e61a",
+      "members": [
+        {
+          "bel": "a(CHEBI:lopinavir)",
+          "concept": {
+            "name": "lopinavir",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "540f0a29f78ff437222f25e1c2e1b0fd"
+        },
+        {
+          "bel": "a(CHEBI:ritonavir)",
+          "concept": {
+            "name": "ritonavir",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "07c1651afef7019b0cb107f1ce5fef12"
+        }
+      ]
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"viral pneumonia\")",
+      "concept": {
+        "name": "viral pneumonia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "d5680e5b767d58870e63b3f606ac54e9"
+    },
+    {
+      "bel": "path(DO:diarrhea)",
+      "concept": {
+        "name": "diarrhea",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "f53fc3580f7450b941e98608ca05fddb"
+    },
+    {
+      "bel": "path(DO:leukopenia)",
+      "concept": {
+        "name": "leukopenia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "e50fa3d966f6bf0696807d3bbb733e08"
+    },
+    {
+      "bel": "path(DO:neutropenia)",
+      "concept": {
+        "name": "neutropenia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "7df8050c51738ab6d1d2cc1fe44003f0"
+    },
+    {
+      "bel": "path(DO:pneumonia)",
+      "concept": {
+        "name": "pneumonia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "274776fc664e9bfd9c191cca80623b0d"
+    },
+    {
+      "bel": "path(HP:\"Chest tightness\")",
+      "concept": {
+        "name": "Chest tightness",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "8d5a5c3bb00cfa864b6b05f95eb31025"
+    },
+    {
+      "bel": "path(HP:\"Decreased eosinophil count\")",
+      "concept": {
+        "name": "Decreased eosinophil count",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "11e85fdda7e09c6b24bb46c787db3d91"
+    },
+    {
+      "bel": "path(HP:\"Elevated C-reactive protein level\")",
+      "concept": {
+        "name": "Elevated C-reactive protein level",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "70f8c2fb3c4050dfcb314ff69ee5522d"
+    },
+    {
+      "bel": "path(HP:\"Elevated erythrocyte sedimentation rate\")",
+      "concept": {
+        "name": "Elevated erythrocyte sedimentation rate",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "b845ae17d2768a51bf580232f0f0d40b"
+    },
+    {
+      "bel": "path(HP:\"Ground-glass opacification on pulmonary HRCT\")",
+      "concept": {
+        "name": "Ground-glass opacification on pulmonary HRCT",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "84ff186012d6eb9a071d53766af91a2e"
+    },
+    {
+      "bel": "path(HP:\"Poor appetite\")",
+      "concept": {
+        "name": "Poor appetite",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "a5a6d7b3b9e1e6c92f5841050277dc4e"
+    },
+    {
+      "bel": "path(MESH:\"Erythrocyte Count\")",
+      "concept": {
+        "name": "Erythrocyte Count",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "abd838c43ca83a1cf0fe73ba4adb9a19"
+    },
+    {
+      "bel": "path(MESH:\"Leukocyte Count\")",
+      "concept": {
+        "name": "Leukocyte Count",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "937e51e6772bf9839ecf880f0147292e"
+    },
+    {
+      "bel": "path(MESH:\"Lymphocyte Count\")",
+      "concept": {
+        "name": "Lymphocyte Count",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "8d43351b88d7135f5f1c36b4992a629c"
+    },
+    {
+      "bel": "path(MESH:\"Platelet Count\")",
+      "concept": {
+        "name": "Platelet Count",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "93d0ba4d1a2d577e14baa829e1f2dd2a"
+    },
+    {
+      "bel": "path(MESH:Cough)",
+      "concept": {
+        "name": "Cough",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "9fee4f29ebce7356ac1721785693b80c"
+    },
+    {
+      "bel": "path(MESH:Dyspnea)",
+      "concept": {
+        "name": "Dyspnea",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "3f78d64501d3d9478ac9ad623a28ec72"
+    },
+    {
+      "bel": "path(MESH:Fatigue)",
+      "concept": {
+        "name": "Fatigue",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "d9f7d216d60384a034383bbc94db85cd"
+    },
+    {
+      "bel": "path(MESH:Fever)",
+      "concept": {
+        "name": "Fever",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "ffc74da80b64d7057f4eff0e06cdd1b6"
+    },
+    {
+      "bel": "path(MESH:Headache)",
+      "concept": {
+        "name": "Headache",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "2a9db847bd9248b92260deeecc169912"
+    },
+    {
+      "bel": "path(MESH:Hyperemia)",
+      "concept": {
+        "name": "Hyperemia",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "df3d607bb3268e2d94bb5d46e19ca1d0"
+    },
+    {
+      "bel": "path(MESH:Myalgia)",
+      "concept": {
+        "name": "Myalgia",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "9e757b6d113fa97d3dadae6749895c25"
+    },
+    {
+      "bel": "path(MESH:Nausea)",
+      "concept": {
+        "name": "Nausea",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "41e2b9e6454d4c63a3654236ce97040f"
+    },
+    {
+      "bel": "path(MESH:Pharyngitis)",
+      "concept": {
+        "name": "Pharyngitis",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "152657d962e4bf1b44f8fbff55a0b0cd"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Liu_X_et.al_2020.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+
+DEFINE ANNOTATION Dose AS LIST {"0.1 µM"}
+DEFINE ANNOTATION Mouse_Infection_Type AS LIST {"Vesicular stomatitis virus"}
+DEFINE ANNOTATION Cohort AS LIST {"control", "dipyridamole treated"}
+DEFINE ANNOTATION Technique AS LIST {"computed tomography"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"DOI","10.1101/2020.02.27.20027557"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+
+SET Evidence = "We virtually screened an FDA approved drug library and found that DIP bound to the HCoV-19 protease Mpro (Figure S1)."
+complex(a(CHEBI:dipyridamole), p(COVID:ORF1ab, frag("3264_3569")))
+
+SET Evidence = "Hydrophobic and hydrogen bond (H-bond) interactions are the main driving forces for the binding between DIP and Mpro."
+bp(MESH:"Hydrophobic and Hydrophilic Interactions") -> complex(a(CHEBI:dipyridamole), p(COVID:ORF1ab, frag("3264_3569")))
+
+SET Evidence = "Remarkably,at 0.1 µM DIP suppressed more than 50% of HCoV-19 replication (Figure 1C)."
+SET CellLine = "VERO C1008 cell"
+SET Dose = "0.1 µM"
+SET BioAssay = "titration method"
+a(CHEBI:dipyridamole) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET CellLine
+UNSET Dose
+UNSET BioAssay
+
+SET Evidence = "Our results demonstrated that DIP (5 μM) treatment significantly increased IFNB, IFIT1, and ISG15 messenger RNA expression and promoted IFN-B secretion (Figure 2A) by increasing TBK1 and IRF3 phosphorylation (Figure 2B)."
+SET CellLine = "A549 cell"
+SET BioAssay = "real-time PCR "
+a(CHEBI:dipyridamole) -> r(HGNC:IFNB1)
+a(CHEBI:dipyridamole) -> r(HGNC:IFIT1)
+a(CHEBI:dipyridamole) -> r(HGNC:ISG15)
+UNSET BioAssay
+SET BioAssay = "western blot"
+a(CHEBI:dipyridamole) -> p(HGNC:TBK1, pmod(Ph))
+a(CHEBI:dipyridamole) -> p(HGNC:IRF3, pmod(Ph))
+UNSET BioAssay
+SET BioAssay = "ELISA"
+p(HGNC:TBK1, pmod(Ph)) -> p(HGNC:IFNB1)
+p(HGNC:IRF3, pmod(Ph)) -> p(HGNC:IFNB1)
+UNSET BioAssay
+
+SET Evidence = "DIP administration significantly prolonged the survival rate of VSV-infected mice (Figure 2C), and substantially alleviated pulmonary pathology (Figure 2D)."
+SET Species = "10090"
+SET Mouse_Infection_Type = "Vesicular stomatitis virus"
+a(CHEBI:dipyridamole) -> bp(MESH:"Survival Rate")
+a(CHEBI:dipyridamole) -> path(MESH:"Lung Diseases")
+UNSET Species
+UNSET Mouse_Infection_Type
+
+SET Evidence = "Decreased platelet counts were observed in 25 (20.2%) patients, prolonged prothrombin time (PT) was observed in 77 (62.1%) patients, fibrinogen (FIB) levels were increased in 27 (21.8%) patients, and D-dimer levels were increased in 26 (21.0%) patients."
+SET Species = "9606"
+SET MeSHAnatomy = "Blood"
+path(DO:"COVID-19") neg bp(MESH:"Platelet Count")
+path(DO:"COVID-19") -- path(HP:"Prolonged prothrombin time")
+path(DO:"COVID-19") pos a(CHEBI:Fibrinogen)
+path(DO:"COVID-19") pos p(MESH:"fibrin fragment D")
+UNSET MeSHAnatomy
+
+SET Evidence = "All patients manifested cough and most of them felt shortness of breath, and 60.0% patients had nausea and vomiting"
+SET Cohort = {"control", "dipyridamole treated"}
+path(DO:"COVID-19") -- path(HP:Cough)
+path(DO:"COVID-19") -- path(HP:Dyspnea)
+
+SET Evidence = "Chest CT scan revealed bilateral pneumonia in all patients"
+SET Technique = "computed tomography"
+path(DO:"COVID-19") -- path(DO:pneumonia)
+UNSET Technique
+
+SET Evidence = "Comorbidities, including diabetes mellitus, cardiovascular and cerebrovascular diseases, were found in 4 and 5 of the patients from the DIP and control group,  respectively."
+path(DO:"COVID-19") -- path(DO:"diabetes mellitus")
+path(DO:"COVID-19") -- path(MESH:"Cardiovascular Diseases")
+path(DO:"COVID-19") -- path(DO:"cerebrovascular disease")
+UNSET Cohort
+
+SET Evidence = "Two weeks after initiation of DIP treatment, 3 of the 6 severe cases (50%) and all 4 of the mild cases (100%) were discharged from the hospital"
+SET Cohort = "dipyridamole treated"
+a(CHEBI:dipyridamole) neg path(DO:"COVID-19")
+
+SET Evidence = "Furthermore, we observed a continuously increased trend in lymphocyte counts and significantly increased platelet numbers in patients receiving DIP treatment in comparison to the control group (Figure 3A)."
+a(CHEBI:dipyridamole) -> bp(MESH:"Lymphocyte Count")
+a(CHEBI:dipyridamole) -> bp(MESH:"Platelet Count")
+
+SET Evidence = "We measured dynamic changes in reference to the respective baseline levels for all patients, and found that the levels of D-dimer continuously rose in the control group, whereas they were decreased and stabilized in the DIP-treated group (Figure 3A, Figure S2)."
+a(CHEBI:dipyridamole) -| p(MESH:"fibrin fragment D")
+UNSET Cohort
+
+SET Evidence = "This reinforces that high levels of D-dimer and low lymphocyte counts are 306 associated with poor prognosis and suggest that that DIP treatment should be initiated before the progression to critical illness (Figure 3B)."
+p(MESH:"fibrin fragment D") neg bp(MESH:Prognosis)
+bp(MESH:"Lymphocyte Count") pos bp(MESH:Prognosis)
+UNSET Species
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

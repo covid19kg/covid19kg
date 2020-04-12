@@ -1,0 +1,2274 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Cohort": [
+        "ICU patients"
+      ],
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "Disease_Stage": [
+        "Symptomatic",
+        "declining stage",
+        "prodromal stage"
+      ],
+      "PublicationStatus": [
+        "Preprint"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ],
+      "Technique": [
+        "fluorescence-activated cell sorting"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Abish K",
+      "contact": "abish@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "Diao_et.al_2020.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+    },
+    "path": "Diao_et.al_2020.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "5.75% (359/499), 75.95% (379/499) and 71.54% (357/499) patients had remarkably low total T cell counts, CD4 + and CD8 + T cell counts, respectively.",
+      "key": "868caf960466a89d280612d2525fbe09",
+      "line": 47,
+      "relation": "decreases",
+      "source": 9,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "The counts of total T cells, CD4 + and CD8 + T cells were significantly lower in ICU patients than Non-ICU cases (Figure 1B).",
+      "key": "2a7d1f947def8a6c5ca8a3abf85471e8",
+      "line": 54,
+      "relation": "decreases",
+      "source": 9,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "declining stage": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, serum levels of IFN-γ, IL-10, IL-6 and TNF-α were significantly decreased in these patients in the decline period as compared with illness period, while counts of total T cells, CD4 + , and CD8 + T cell subsets recovered during the decline period (Figure 2C).",
+      "key": "4fba8fb24e956111134ad915786104ec",
+      "line": 83,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "5.75% (359/499), 75.95% (379/499) and 71.54% (357/499) patients had remarkably low total T cell counts, CD4 + and CD8 + T cell counts, respectively.",
+      "key": "446074e24509161f3d1a646ba7512fda",
+      "line": 48,
+      "relation": "decreases",
+      "source": 9,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "The counts of total T cells, CD4 + and CD8 + T cells were significantly lower in ICU patients than Non-ICU cases (Figure 1B).",
+      "key": "07126dc8151b8e3c32054c46a1270d46",
+      "line": 55,
+      "relation": "decreases",
+      "source": 9,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "declining stage": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, serum levels of IFN-γ, IL-10, IL-6 and TNF-α were significantly decreased in these patients in the decline period as compared with illness period, while counts of total T cells, CD4 + , and CD8 + T cell subsets recovered during the decline period (Figure 2C).",
+      "key": "1c10d691f19aa0660a728511085ba834",
+      "line": 84,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "5.75% (359/499), 75.95% (379/499) and 71.54% (357/499) patients had remarkably low total T cell counts, CD4 + and CD8 + T cell counts, respectively.",
+      "key": "6f8e97dd5da23b5bf04b54d233ca71e6",
+      "line": 49,
+      "relation": "decreases",
+      "source": 9,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "The counts of total T cells, CD4 + and CD8 + T cells were significantly lower in ICU patients than Non-ICU cases (Figure 1B).",
+      "key": "b20f16c6d813faffdb42cc60d66a37ae",
+      "line": 56,
+      "relation": "decreases",
+      "source": 9,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "declining stage": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, serum levels of IFN-γ, IL-10, IL-6 and TNF-α were significantly decreased in these patients in the decline period as compared with illness period, while counts of total T cells, CD4 + , and CD8 + T cell subsets recovered during the decline period (Figure 2C).",
+      "key": "c8e36451a5af1a8d5428c051731f4dfc",
+      "line": 85,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Furthermore, statistical analysis showed that the percentage of PD-1 + CD8 + T cells from ICU patients was significantly higher than from both Non-ICU cases and healthy controls (Figure 3B), indicating that SARS-CoV-2 viruses induce T cell exhaustion in COVID-19 patients, particularly in those requiring ICU care.",
+      "key": "2a5ab4479d311e9120f33d2196e6384d",
+      "line": 99,
+      "relation": "increases",
+      "source": 9,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "We only found the levels of TNF-α, IL-6 and IL-10 were significantly increased in infected patients, and statistical analysis illustrated that their levels in ICU patients are significantly higher than in Non-ICU patients (Figure 2A).",
+      "key": "66fb4cc3f70162f71ea69947f6a75f3a",
+      "line": 62,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "declining stage": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, serum levels of IFN-γ, IL-10, IL-6 and TNF-α were significantly decreased in these patients in the decline period as compared with illness period, while counts of total T cells, CD4 + , and CD8 + T cell subsets recovered during the decline period (Figure 2C).",
+      "key": "cd2a6feaf464aed9330972460acc35de",
+      "line": 82,
+      "relation": "negativeCorrelation",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "We only found the levels of TNF-α, IL-6 and IL-10 were significantly increased in infected patients, and statistical analysis illustrated that their levels in ICU patients are significantly higher than in Non-ICU patients (Figure 2A).",
+      "key": "cfa0e71e1856ba1fe8b7d2305a9abd47",
+      "line": 63,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "declining stage": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, serum levels of IFN-γ, IL-10, IL-6 and TNF-α were significantly decreased in these patients in the decline period as compared with illness period, while counts of total T cells, CD4 + , and CD8 + T cell subsets recovered during the decline period (Figure 2C).",
+      "key": "6366c978d5396692e42d7f722c669f91",
+      "line": 81,
+      "relation": "negativeCorrelation",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "We only found the levels of TNF-α, IL-6 and IL-10 were significantly increased in infected patients, and statistical analysis illustrated that their levels in ICU patients are significantly higher than in Non-ICU patients (Figure 2A).",
+      "key": "7c67ee8099efa251462e5675cb203e02",
+      "line": 64,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "declining stage": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, serum levels of IFN-γ, IL-10, IL-6 and TNF-α were significantly decreased in these patients in the decline period as compared with illness period, while counts of total T cells, CD4 + , and CD8 + T cell subsets recovered during the decline period (Figure 2C).",
+      "key": "4bfd56de991a7cce771f6969858ccb32",
+      "line": 80,
+      "relation": "negativeCorrelation",
+      "source": 9,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "declining stage": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, serum levels of IFN-γ, IL-10, IL-6 and TNF-α were significantly decreased in these patients in the decline period as compared with illness period, while counts of total T cells, CD4 + , and CD8 + T cell subsets recovered during the decline period (Figure 2C).",
+      "key": "3a7eb91d33ff56d43ab49a88921edcf3",
+      "line": 79,
+      "relation": "negativeCorrelation",
+      "source": 9,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "fluorescence-activated cell sorting": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "FACs analysis illustrated that, T cells from COVID-19 patients have markedly higher levels of PD-1 compared to healthy controls (Figure 3A).",
+      "key": "87014615cdd00699c033fd185adc3118",
+      "line": 92,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Furthermore, statistical analysis showed that the percentage of PD-1 + CD8 + T cells from ICU patients was significantly higher than from both Non-ICU cases and healthy controls (Figure 3B), indicating that SARS-CoV-2 viruses induce T cell exhaustion in COVID-19 patients, particularly in those requiring ICU care.",
+      "key": "4664826f62a7b490496220f5ebae3b02",
+      "line": 100,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "prodromal stage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "fluorescence-activated cell sorting": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "FACs showed that these patients have very low level of PD-1 and Tim-3 on CD8 + and CD4 + T cells in the prodromal stage, however, their levels on CD8 + T cells was increased in overtly symptomatic stages, and highest levels were seen in ICU period (Figure 3C, D).",
+      "key": "d536a3dd61ad8ac26516cf6f1c702465",
+      "line": 108,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "negativeCorrelation",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Symptomatic": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "fluorescence-activated cell sorting": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "FACs showed that these patients have very low level of PD-1 and Tim-3 on CD8 + and CD4 + T cells in the prodromal stage, however, their levels on CD8 + T cells was increased in overtly symptomatic stages, and highest levels were seen in ICU period (Figure 3C, D).",
+      "key": "db34a604607b3cf98acd0cd974e0663a",
+      "line": 115,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "prodromal stage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "fluorescence-activated cell sorting": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "FACs showed that these patients have very low level of PD-1 and Tim-3 on CD8 + and CD4 + T cells in the prodromal stage, however, their levels on CD8 + T cells was increased in overtly symptomatic stages, and highest levels were seen in ICU period (Figure 3C, D).",
+      "key": "444dfac54ce46ced15f613b2084bf508",
+      "line": 110,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "negativeCorrelation",
+      "source": 9,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Symptomatic": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Similarly, higher levels of Tim-3 was observed on CD4 + T cells from patients who are in ICU stage, although enhancing the expression of PD-1 on CD4 + T cells was not obviously during disease progress (Figure 3C, D).",
+      "key": "36a5350a35756f5707ece649f581f4a7",
+      "line": 125,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, the concentration of these three cytokines was negatively correlated with total T cell counts, CD4 + counts, and CD8 + counts, respectively (Figure 2B).",
+      "key": "93b7bb0b8f7a68b12fb00d3e1b352e7d",
+      "line": 70,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "declining stage": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, serum levels of IFN-γ, IL-10, IL-6 and TNF-α were significantly decreased in these patients in the decline period as compared with illness period, while counts of total T cells, CD4 + , and CD8 + T cell subsets recovered during the decline period (Figure 2C).",
+      "key": "928e5e20bcc692ebecb985080cf7116f",
+      "line": 83,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "fluorescence-activated cell sorting": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "FACs analysis illustrated that, T cells from COVID-19 patients have markedly higher levels of PD-1 compared to healthy controls (Figure 3A).",
+      "key": "962134d6f1513d91fad5691675a706fa",
+      "line": 93,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "association",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, the concentration of these three cytokines was negatively correlated with total T cell counts, CD4 + counts, and CD8 + counts, respectively (Figure 2B).",
+      "key": "14a7aed7a718391f9c62991163db6f27",
+      "line": 71,
+      "relation": "negativeCorrelation",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "declining stage": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, serum levels of IFN-γ, IL-10, IL-6 and TNF-α were significantly decreased in these patients in the decline period as compared with illness period, while counts of total T cells, CD4 + , and CD8 + T cell subsets recovered during the decline period (Figure 2C).",
+      "key": "29ca606fbfb4dca57bd26377d1856206",
+      "line": 84,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "prodromal stage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "fluorescence-activated cell sorting": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "FACs showed that these patients have very low level of PD-1 and Tim-3 on CD8 + and CD4 + T cells in the prodromal stage, however, their levels on CD8 + T cells was increased in overtly symptomatic stages, and highest levels were seen in ICU period (Figure 3C, D).",
+      "key": "7a16cd13af7bfc7084cf142532d4ec92",
+      "line": 111,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "association",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Symptomatic": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Similarly, higher levels of Tim-3 was observed on CD4 + T cells from patients who are in ICU stage, although enhancing the expression of PD-1 on CD4 + T cells was not obviously during disease progress (Figure 3C, D).",
+      "key": "f1a3ee749319e7dab13250651de83994",
+      "line": 126,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "association",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, the concentration of these three cytokines was negatively correlated with total T cell counts, CD4 + counts, and CD8 + counts, respectively (Figure 2B).",
+      "key": "be569cda576b532394cc679854319a10",
+      "line": 72,
+      "relation": "negativeCorrelation",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "declining stage": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, serum levels of IFN-γ, IL-10, IL-6 and TNF-α were significantly decreased in these patients in the decline period as compared with illness period, while counts of total T cells, CD4 + , and CD8 + T cell subsets recovered during the decline period (Figure 2C).",
+      "key": "436ca910f54c7f3a0eb8835997be50b7",
+      "line": 85,
+      "relation": "positiveCorrelation",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Furthermore, statistical analysis showed that the percentage of PD-1 + CD8 + T cells from ICU patients was significantly higher than from both Non-ICU cases and healthy controls (Figure 3B), indicating that SARS-CoV-2 viruses induce T cell exhaustion in COVID-19 patients, particularly in those requiring ICU care.",
+      "key": "9aaad851434c39861c128db6033fea31",
+      "line": 101,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "association",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "prodromal stage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "fluorescence-activated cell sorting": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "FACs showed that these patients have very low level of PD-1 and Tim-3 on CD8 + and CD4 + T cells in the prodromal stage, however, their levels on CD8 + T cells was increased in overtly symptomatic stages, and highest levels were seen in ICU period (Figure 3C, D).",
+      "key": "2a9c4202f5062753d042473d7804c8f4",
+      "line": 109,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "association",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "We only found the levels of TNF-α, IL-6 and IL-10 were significantly increased in infected patients, and statistical analysis illustrated that their levels in ICU patients are significantly higher than in Non-ICU patients (Figure 2A).",
+      "key": "88d7a32757a923fbf57aa76e687f9d1b",
+      "line": 62,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "declining stage": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, serum levels of IFN-γ, IL-10, IL-6 and TNF-α were significantly decreased in these patients in the decline period as compared with illness period, while counts of total T cells, CD4 + , and CD8 + T cell subsets recovered during the decline period (Figure 2C).",
+      "key": "e25f6a77d6b8c009be746c1192fb222e",
+      "line": 82,
+      "relation": "negativeCorrelation",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, the concentration of these three cytokines was negatively correlated with total T cell counts, CD4 + counts, and CD8 + counts, respectively (Figure 2B).",
+      "key": "6b82d017e0bfc01945ab6ae07c01d86d",
+      "line": 70,
+      "relation": "negativeCorrelation",
+      "source": 8,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "We only found the levels of TNF-α, IL-6 and IL-10 were significantly increased in infected patients, and statistical analysis illustrated that their levels in ICU patients are significantly higher than in Non-ICU patients (Figure 2A).",
+      "key": "1cf9bf3971aa6ea197cf4e2cdf8abc3d",
+      "line": 63,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "declining stage": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, serum levels of IFN-γ, IL-10, IL-6 and TNF-α were significantly decreased in these patients in the decline period as compared with illness period, while counts of total T cells, CD4 + , and CD8 + T cell subsets recovered during the decline period (Figure 2C).",
+      "key": "6f93577212350aaf1f30db4d0af6d754",
+      "line": 81,
+      "relation": "negativeCorrelation",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, the concentration of these three cytokines was negatively correlated with total T cell counts, CD4 + counts, and CD8 + counts, respectively (Figure 2B).",
+      "key": "ed8fb062bc3075e0aa9c4de62ffc0bb7",
+      "line": 71,
+      "relation": "negativeCorrelation",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "We only found the levels of TNF-α, IL-6 and IL-10 were significantly increased in infected patients, and statistical analysis illustrated that their levels in ICU patients are significantly higher than in Non-ICU patients (Figure 2A).",
+      "key": "03281e62549416936aefe75659ccbb97",
+      "line": 64,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "declining stage": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, serum levels of IFN-γ, IL-10, IL-6 and TNF-α were significantly decreased in these patients in the decline period as compared with illness period, while counts of total T cells, CD4 + , and CD8 + T cell subsets recovered during the decline period (Figure 2C).",
+      "key": "928c8914106dee432f9376c44eb2b3d9",
+      "line": 80,
+      "relation": "negativeCorrelation",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, the concentration of these three cytokines was negatively correlated with total T cell counts, CD4 + counts, and CD8 + counts, respectively (Figure 2B).",
+      "key": "0507c341edb93493d99ba4daf998397e",
+      "line": 72,
+      "relation": "negativeCorrelation",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "declining stage": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Interestingly, serum levels of IFN-γ, IL-10, IL-6 and TNF-α were significantly decreased in these patients in the decline period as compared with illness period, while counts of total T cells, CD4 + , and CD8 + T cell subsets recovered during the decline period (Figure 2C).",
+      "key": "996f0eee9ef805d6ef4759dba37a3765",
+      "line": 79,
+      "relation": "negativeCorrelation",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "fluorescence-activated cell sorting": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "FACs analysis illustrated that, T cells from COVID-19 patients have markedly higher levels of PD-1 compared to healthy controls (Figure 3A).",
+      "key": "4e2983ee7897bbc127fdbd3d6e255d2e",
+      "line": 92,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "subject": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Furthermore, statistical analysis showed that the percentage of PD-1 + CD8 + T cells from ICU patients was significantly higher than from both Non-ICU cases and healthy controls (Figure 3B), indicating that SARS-CoV-2 viruses induce T cell exhaustion in COVID-19 patients, particularly in those requiring ICU care.",
+      "key": "8ad53745ae704479b1170639f211aa8a",
+      "line": 100,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "subject": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "prodromal stage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "fluorescence-activated cell sorting": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "FACs showed that these patients have very low level of PD-1 and Tim-3 on CD8 + and CD4 + T cells in the prodromal stage, however, their levels on CD8 + T cells was increased in overtly symptomatic stages, and highest levels were seen in ICU period (Figure 3C, D).",
+      "key": "f7d0efa7c08b0159dd522348b93d94e8",
+      "line": 108,
+      "relation": "negativeCorrelation",
+      "source": 7,
+      "subject": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Symptomatic": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "fluorescence-activated cell sorting": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "FACs showed that these patients have very low level of PD-1 and Tim-3 on CD8 + and CD4 + T cells in the prodromal stage, however, their levels on CD8 + T cells was increased in overtly symptomatic stages, and highest levels were seen in ICU period (Figure 3C, D).",
+      "key": "379d3364e2f041daf260aa5d69ffc2e6",
+      "line": 115,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "subject": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "fluorescence-activated cell sorting": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "FACs analysis illustrated that, T cells from COVID-19 patients have markedly higher levels of PD-1 compared to healthy controls (Figure 3A).",
+      "key": "9ee82012c87c71912bd6669b97a43c81",
+      "line": 93,
+      "relation": "association",
+      "source": 7,
+      "subject": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Furthermore, statistical analysis showed that the percentage of PD-1 + CD8 + T cells from ICU patients was significantly higher than from both Non-ICU cases and healthy controls (Figure 3B), indicating that SARS-CoV-2 viruses induce T cell exhaustion in COVID-19 patients, particularly in those requiring ICU care.",
+      "key": "4860c5bed9b9107b3d816ae8ef5aac57",
+      "line": 101,
+      "relation": "association",
+      "source": 7,
+      "subject": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "prodromal stage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "fluorescence-activated cell sorting": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "FACs showed that these patients have very low level of PD-1 and Tim-3 on CD8 + and CD4 + T cells in the prodromal stage, however, their levels on CD8 + T cells was increased in overtly symptomatic stages, and highest levels were seen in ICU period (Figure 3C, D).",
+      "key": "6154d590d2cdb548386e9bc8615be62f",
+      "line": 109,
+      "relation": "association",
+      "source": 7,
+      "subject": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "prodromal stage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "fluorescence-activated cell sorting": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "FACs showed that these patients have very low level of PD-1 and Tim-3 on CD8 + and CD4 + T cells in the prodromal stage, however, their levels on CD8 + T cells was increased in overtly symptomatic stages, and highest levels were seen in ICU period (Figure 3C, D).",
+      "key": "c9f7e2096d920777535e25c7720619f7",
+      "line": 110,
+      "relation": "negativeCorrelation",
+      "source": 3,
+      "subject": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Symptomatic": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Similarly, higher levels of Tim-3 was observed on CD4 + T cells from patients who are in ICU stage, although enhancing the expression of PD-1 on CD4 + T cells was not obviously during disease progress (Figure 3C, D).",
+      "key": "5b35ee1c23173eb401773e79d93614db",
+      "line": 125,
+      "relation": "positiveCorrelation",
+      "source": 3,
+      "subject": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "prodromal stage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "fluorescence-activated cell sorting": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "FACs showed that these patients have very low level of PD-1 and Tim-3 on CD8 + and CD4 + T cells in the prodromal stage, however, their levels on CD8 + T cells was increased in overtly symptomatic stages, and highest levels were seen in ICU period (Figure 3C, D).",
+      "key": "07811573c7824c5ef371e2da4c82fd6b",
+      "line": 111,
+      "relation": "association",
+      "source": 3,
+      "subject": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "ICU patients": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Symptomatic": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.02.18.20024364"
+      },
+      "evidence": "Similarly, higher levels of Tim-3 was observed on CD4 + T cells from patients who are in ICU stage, although enhancing the expression of PD-1 on CD4 + T cells was not obviously during disease progress (Figure 3C, D).",
+      "key": "b746825812621f8c31ae1c3f1a97ebdf",
+      "line": 126,
+      "relation": "association",
+      "source": 3,
+      "subject": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "target": 0
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(MESH:\"CD4-Positive T-Lymphocytes\")",
+      "concept": {
+        "name": "CD4-Positive T-Lymphocytes",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "d26f55e472a40223e18fc717c6a1b55d"
+    },
+    {
+      "bel": "a(MESH:\"CD8-Positive T-Lymphocytes\")",
+      "concept": {
+        "name": "CD8-Positive T-Lymphocytes",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "59b2f285d4c75c8c59127aa7c441658c"
+    },
+    {
+      "bel": "a(MESH:\"T-Lymphocytes\")",
+      "concept": {
+        "name": "T-Lymphocytes",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "04840e346c8f8e46d6d4e5ed8f1b84c5"
+    },
+    {
+      "bel": "p(HGNC:HAVCR2)",
+      "concept": {
+        "name": "HAVCR2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "12579e68ade85db36da5cc532d396080"
+    },
+    {
+      "bel": "p(HGNC:IFNG)",
+      "concept": {
+        "name": "IFNG",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "20367a6ea54ae1032be4f48276f3c524"
+    },
+    {
+      "bel": "p(HGNC:IL10)",
+      "concept": {
+        "name": "IL10",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "e0c41f4b3cb8bef32af4e3217ba8aa12"
+    },
+    {
+      "bel": "p(HGNC:IL6)",
+      "concept": {
+        "name": "IL6",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "8a1d3c4828c5416eba867c395cc65caa"
+    },
+    {
+      "bel": "p(HGNC:PDCD1)",
+      "concept": {
+        "name": "PDCD1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "7a3b43d03ecdc040322d105d3770a5ed"
+    },
+    {
+      "bel": "p(HGNC:TNF)",
+      "concept": {
+        "name": "TNF",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "fdc1c1f5a73c3c992b6eb71ce9b6908e"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    }
+  ]
+}

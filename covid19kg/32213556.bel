@@ -1,0 +1,109 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32213556.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Severity AS LIST {"Severe"}
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19 with gastrointestinal symptoms","COVID-19 without gastrointestinal symptoms"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","Gut. 2020;gutjnl-2020-320926. doi:10.1136/gutjnl-2020-320926","32213337"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "In detail, of 74 patients with COVID-19 with GI symptoms, 53 patients had only the symptom of diarrhoea, 11 patients had only the symptom of vomiting and 10 patients had only the symptom of nausea."
+
+SET Species = "9606"
+SET Custom_Disease = "COVID-19 with gastrointestinal symptoms"
+path(DO:"COVID-19") -> path(MESH:Diarrhea)
+path(DO:"COVID-19") -> path(MESH:Vomiting)
+path(DO:"COVID-19") -> path(MESH:Nausea)
+UNSET Custom_Disease
+
+SET Evidence = "Intriguingly, the rate of chronic liver disease was 10.81% in patients with COVID-19 with GI symptoms, which was significantly higher than that of 2.95% in those without GI symptoms (p=0.004)."
+
+SET Custom_Disease = "COVID-19 with gastrointestinal symptoms"
+path(DO:"COVID-19") -> path(DO:"liver disease")
+UNSET Custom_Disease
+
+SET Evidence = "Fever, cough and sputum production were the most common symptoms. Of the aforementioned symptoms, 29 (39.19%), 23 (31.08%), 8 (10.81%) and 16 (21.62%) patients with COVID-19 with GI symptoms had >38.5°C fever, fatigue, shortness of breath and headache, respectively, substantially higher than their respective counterparts without GI symptoms."
+
+SET Custom_Disease = "COVID-19 with gastrointestinal symptoms"
+path(DO:"COVID-19") -> path(MESH:Fever)
+path(DO:"COVID-19") -> path(MESH:Cough)
+path(DO:"COVID-19") -> a(MESH:Sputum)
+path(DO:"COVID-19") -> path(MESH:Fatigue)
+path(DO:"COVID-19") -> path(MESH:Dyspnea)
+path(DO:"COVID-19") -> path(MESH:Headache)
+UNSET Custom_Disease
+
+SET Evidence = "Finally, although most radiographic presentations were similar between patients with COVID-19 with and without GI symptoms, the rate of unilateral pneumonia was 12.16% in patients with GI symptoms, much lower than 23.22% in those without GI symptoms (p=0.030)."
+
+SET Custom_Disease = "COVID-19 without gastrointestinal symptoms"
+path(DO:"COVID-19") -> path(DO:pneumonia)
+UNSET Custom_Disease
+
+SET Evidence = "As shown in table 3, 5 (6.76%), 13 (17.57%) and 1 (1.35%) patient with COVID-19 with GI symptoms had complications of ARDS, liver injury and shock, respectively, where the former two were significantly higher than their counterparts of 2.08% and 8.84% in patients with COVID-19 without GI symptoms, respectively (p=0.034; p=0.035)."
+
+SET Custom_Disease = "COVID-19 with gastrointestinal symptoms"
+path(DO:"COVID-19") -> path(DO:"adult respiratory distress syndrome")
+path(DO:"COVID-19") -> path(MESH:"Chemical and Drug Induced Liver Injury")
+UNSET Custom_Disease
+
+SET Evidence = "All 74 patients with COVID-19 with GI symptoms were treated in isolation with supportive and empiric medication, while 66 (89.19%) patients received antiviral treatment, including interferon-α sprays, arbidol hydrochloride capsules (two tablets three times daily), lopinavir and ritonavir two tablets (500 mg) twice daily, via the oral route."
+
+SET Custom_Disease = "COVID-19 with gastrointestinal symptoms"
+a(MESH:"Patient Isolation") -| path(DO:"COVID-19")
+a(MESH:"Hospice Care") -| path(DO:"COVID-19")
+a(CHEBI:"Interferon alfa-2a") -| path(DO:"COVID-19")
+a(PUBCHEM:9958103) -| path(DO:"COVID-19")
+a(CHEBI:lopinavir) -| path(DO:"COVID-19")
+a(CHEBI:ritonavir) -| path(DO:"COVID-19")
+UNSET Custom_Disease
+
+SET Evidence = "When compared with mild and common COVID-19, initial univariate analysis of epidemiological, clinical and laboratory variables identified 11 significantly changed risk factors for severe/critical COVID-19, including increased ORs of age, age ≥50 years, period between illness onset and hospital visit, sputum production, any existing medical condition, multiple lung infection, ALT, lactate dehydrogenase (LDH), glucose and CRP, as well as decreased OR of the infected area (online supplementary table 1)."
+
+SET Custom_Disease = "COVID-19 with gastrointestinal symptoms"
+SET Severity = "Severe"
+a(MESH:"Age of Onset") pos path(DO:"COVID-19")
+a(MESH:Sputum) pos  path(DO:"COVID-19")
+path(MESH:"Iatrogenic Disease") pos path(DO:"COVID-19")
+path(DO:"lung disease") pos path(DO:"COVID-19")
+p(HGNC:GPT) pos path(DO:"COVID-19")
+p(HGNC:LDHA) pos path(DO:"COVID-19")
+a(CHEBI:glucose) pos path(DO:"COVID-19")
+p(HGNC:CRP) pos path(DO:"COVID-19")
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

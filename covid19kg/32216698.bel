@@ -1,0 +1,257 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32216698.bel"
+SET DOCUMENT Authors = "Shounak Baksi"
+SET DOCUMENT ContactInfo = "shounak.baksi@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+# DEFINE NAMESPACE ADO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/alzheimer-disease-ontology/alzheimer-disease-ontology-1.0.2.belns"
+# DEFINE NAMESPACE BRCO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/brain-region-ontology/brain-region-ontology-1.0.0.belns"
+# DEFINE NAMESPACE NIFT AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/nift/NIFT.belns"
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+# DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+# DEFINE NAMESPACE RGD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/rgd-rat-genes/rgd-rat-genes-20190128.belns"
+# DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+# DEFINE NAMESPACE SCOMP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-named-complexes/selventa-named-complexes-20190128.belns"
+# DEFINE NAMESPACE SFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-protein-families/selventa-protein-families-20190128.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+# DEFINE NAMESPACE DRUGBANK AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns"
+# DEFINE NAMESPACE INTERPRO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/interpro/interpro-names-20181021.belns"
+# DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+# DEFINE NAMESPACE GOBP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns"
+# DEFINE NAMESPACE GOCC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20190128.belns"
+DEFINE NAMESPACE EFO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/efo/efo-20171206.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+# DEFINE NAMESPACE MESHC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-chemicals/mesh-chemicals-20190128.belns"
+# DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20190128.belns"
+# DEFINE NAMESPACE MESHPP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-processes/mesh-processes-20190128.belns"
+# DEFINE NAMESPACE MESHA AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-anatomy/mesh-anatomy-20190128.belns"
+# DEFINE NAMESPACE MESHCS AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-cellular-structures/mesh-cellular-structures-20190128.belns"
+# DEFINE NAMESPACE NCBIGENE AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-gene/ncbi-gene-20190224.belns"
+# DEFINE NAMESPACE NCBITAXON AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+# DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+# DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+# DEFINE NAMESPACE dbSNP AS PATTERN "rs[0-9]+"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+# DEFINE ANNOTATION Anatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno"
+# DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+# DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+# DEFINE ANNOTATION Disease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/disease/disease-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+# DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+# DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+# DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Severity AS LIST {"Severe"}
+DEFINE ANNOTATION Disease_Stage AS LIST {"Early", "Late"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review", "Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint", "Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text", "Abstract", "Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","32216698"}
+SET PublicationType = "Review"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+SET Custom_Disease = "COVID-19"
+SET Species = "9606"
+
+SET Evidence = "The existence of significantly increased fibrin-degraded products and \
+reduced platelets in severe COVID-19 patients is consistent with the \
+presence of hyper-fibrinolysis."
+
+SET Severity = "Severe"
+deg(a(CHEBI:Fibrin)) pos path(HP:Hyperfibrinolysis)
+bp(MESH:"Platelet Count") neg path(HP:Hyperfibrinolysis)
+path(HP:Hyperfibrinolysis) pos path(EFO:pathogenicity)
+
+SET Evidence = "This opinion is supported by the presence of hemorrhage in multiple \
+organs and a positive correlation between fibrinolysis and mortality."
+
+path(MESH:Hemorrhage) pos deg(a(CHEBI:Fibrin))
+path(MESH:Hemorrhage) pos path(MESH:Mortality)
+UNSET Severity
+
+SET Evidence = "Plasmin, a key player in fibrinolysis, enhances the virulence and \
+pathogenicity of viruses containing a furin site in their envelope \
+proteins, as is the case with the SARS-CoV-2."
+
+act(p(HGNC:PLG)) -> deg(a(CHEBI:Fibrin))
+deg(a(CHEBI:Fibrin)) -> path(EFO:pathogenicity)
+deg(a(CHEBI:Fibrin)) -> path(MESH:Virulence)
+
+SET Evidence = "The leading causes of deaths are ARDS, septic shock with MOF, \
+hemorrhage/coagulopathy (disseminated intravascular coagulopathy, \
+DIC), acute heart/liver/kidney injury, and secondary bacterial \
+infections (97, 101)"
+
+path(EFO:"acute respiratory distress syndrome") pos path(MESH:Mortality)
+path(MESH:"Disseminated Intravascular Coagulation") pos path(MESH:Mortality)
+path(MESH:"Bacterial Infections") pos path(MESH:Mortality)
+path(MESH:"Acute Kidney Injury") pos path(MESH:Mortality)
+path(MESH:"Brain Injuries") pos path(MESH:Mortality)
+path(HP:"Acute hepatitis") pos path(MESH:Mortality)
+
+SET Evidence = "Elevated fibrin degradation products and D-dimers were detected \
+predominantly in patients with severe disease (11, 24, 31, 43, 91 45, \
+79, 85)"
+
+SET Severity = "Severe"
+deg(a(CHEBI:Fibrin)) pos path(EFO:pathogenicity)
+bp(EFO:"D dimer measurement") pos path(EFO:pathogenicity)
+
+SET Evidence = "Multivariate regression further suggests that age and D-dimer levels \
+(>1 mg/L) are two 92 independent risk factors for mortality (89, 101)."
+
+bp(EFO:"D dimer measurement") pos path(MESH:Mortality)
+a(MESH:"Age of Onset") pos path(MESH:Mortality)
+
+SET Evidence = "In the early stages of infection, puncture lung biopsies reveal the \
+presence of pneumonia, edema, proteinaceous exudate with globules and \
+focal hyperplasia of alveolar epithelial cells associated with patchy \
+inflammatory infiltrates, and multinucleated giant cells (81)."
+
+SET Disease_Stage = "Early"
+SET MeSHAnatomy = "Alveolar Epithelial Cells"
+path(DO:"focal epithelial hyperplasia") pos path(EFO:pathogenicity)
+path(MESH:Inflammation) pos path(EFO:pathogenicity)
+path(MESH:Edema) pos path(EFO:pathogenicity)
+a(MESH:"Giant Cells") pos path(EFO:pathogenicity)
+UNSET MeSHAnatomy
+
+SET Evidence = "At the later stages, diffuse alveolar damage (DAD) is observed in \
+addition to hemorrhage and some areas of interstitial fibrosis (48)."
+
+SET Disease_Stage = "Late"
+path(EFO:pathogenicity) neg a(MESH:"Alveolar Epithelial Cells")
+path(EFO:pathogenicity) pos path(MESH:Hemorrhage)
+path(MESH:"Lung Diseases, Interstitial") pos path(MESH:Hemorrhage)
+UNSET Disease_Stage
+
+SET Evidence = "Consistent with clinical observations, the lungs are the most injured \
+organs, followed by moderate injury in the heart, liver, kidney, and \
+brain."
+
+path(DO:"COVID-19") pos path(MESH:"Lung Injury")
+path(DO:"COVID-19") pos path(MESH:"Heart Injuries")
+path(MESH:"Acute Kidney Injury") pos path(DO:"COVID-19")
+path(MESH:"Brain Injuries") pos path(DO:"COVID-19")
+path(HP:"Acute hepatitis") pos path(DO:"COVID-19")
+
+SET Evidence = "The S protein of SARS-CoV-2 bind to human ACE2 receptors with higher \
+affinity than that of the SARS-CoV virus (88)."
+
+complex(p(HGNC:ACE2), p(COVID:S)) -- path(EFO:pathogenicity)
+
+SET Evidence = "The S protein of coronaviruses may be cleaved by plasmin, trypsin, \
+cathepsins, elastase and TMPRSSs; cleavage of S protein may mediate \
+enhancement of virus entry, into bronchial epithelial cells (37)"
+
+a(CHEBI:Plasmin) -> p(COVID:S, frag("?"))
+a(CHEBI:Trypsin) -> p(COVID:S, frag("?"))
+a(MESH:Cathepsins) -> p(COVID:S, frag("?"))
+deg(a(MESH:proelastase)) -> p(COVID:S, frag("?"))
+a(MESH:"TMPRSS2 protein, human") -> p(COVID:S, frag("?"))
+SET MeSHAnatomy = "Alveolar Epithelial Cells"
+p(COVID:S, frag("?")) -> path(EFO:pathogenicity)
+UNSET MeSHAnatomy
+
+SET Evidence = "Similarly, the S protein of SARS-CoV-2 harbors a furin cleavage site \
+at the S1/S2 boundary. The almost ubiquitous and diverse expression of \
+furin-like proteases could lead to increasing SARS-CoV-2 cell and \
+tissue tropism and transmissibility, and enhance its pathogenicity \
+(84)."
+
+a(MESH:Furin) -> p(COVID:S, frag("?"))
+p(COVID:S, frag("?")) -> path(EFO:pathogenicity)
+
+SET Evidence = "The S proteins bind to ACE2 receptors after being cleaved by furin- \
+like proteases. The RNA-dependent RNA polymerase (RdRp) is responsible \
+for replicating SARS-CoV-2 RNA genome"
+
+a(MESH:Furin) -> p(COVID:S, frag("?"))
+p(COVID:S, frag("?")) -> complex(p(HGNC:ACE2), p(COVID:S, frag("?")))
+p(COVID:ORF1ab) -> bp(GO:"viral genome replication")
+
+SET Evidence = "In comparison with patients with mild COVID-19 (such as those who did \
+not require ICU stays, did not develop ARDS or pneumonia, and who \
+survived), patients with severe COVID-19 have higher comorbidities, \
+including 56% for hypertension, 21% for heart diseases, 18% for \
+diabetes, 12% for cerebrovascular diseases, and 7% for cancer (Table \
+1) (79, 97)."
+
+SET Severity = "Severe"
+path(DO:"COVID-19") -- path(DO:hypertension)
+path(DO:"COVID-19") -- path(DO:"heart disease")
+path(DO:"COVID-19") -- path(DO:"diabetes mellitus")
+path(DO:"COVID-19") -- path(DO:"cardiovascular system disease")
+path(DO:"COVID-19") -- path(DO:"cancer")
+UNSET Severity
+
+SET Evidence = "Multivariate regression further links hypertension with increased \
+incidence and fatality (85, 89, 101)."
+
+path(DO:hypertension) pos path(MESH:Mortality)
+
+
+SET Evidence = "This is accompanied by a prolonged prothrombin time particularly in \
+non-- survivors (31, 79, 97, 101)."
+
+bp(MESH:"Prothrombin Time") pos path(MESH:Mortality)
+
+SET Evidence = "Platelet counts were decreased significantly in severe and dead \
+patients (79, 97, 101)"
+
+SET Severity = "Severe"
+bp(MESH:"Platelet Count") neg path(MESH:Mortality)
+UNSET Severity
+
+SET Evidence = "71.4% of non-survivors meet the criteria of the International Society \
+on Thrombosis and Haemostasis (ISTH) for disseminated intravascular \
+coagulation (DIC), suggesting the coexistence of coagulation \
+activation and hyper-fibrinolysis in patients with severe COVID-19 \
+infection (78, 85)."
+
+path(DO:"disseminated intravascular coagulation") pos path(MESH:Mortality)
+bp(MESH:"Blood Coagulation") pos path(MESH:Mortality)
+
+
+SET Evidence = "Measurements of plasmin(ogen) levels and its enzymatic activity may be \
+important biomarkers of disease severity in addition to resultant \
+D-dimer."
+
+bp(EFO:"D dimer measurement") biomarkerFor path(DO:"COVID-19")
+a(CHEBI:Plasmin) biomarkerFor path(DO:"COVID-19")
+
+SET Evidence = "As demonstrated in vitro, TMPRSS2, a serine protease inhibitor blocks \
+SARS-CoV-2 S protein-driven entry into cells (30)."
+
+a(MESH:"TMPRSS2 protein, human") -| bp(GO:"viral genome replication")
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

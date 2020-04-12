@@ -1,0 +1,112 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32125140.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+#not in template.bel
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+
+DEFINE ANNOTATION concentration AS LIST {"1.56 μM","1 μM","10 μM"}
+DEFINE ANNOTATION Timeline AS LIST {"48 h p.i"}
+DEFINE ANNOTATION EC50 AS LIST {"2.12 μM", "0.77 μM", "1.13 μM", "0.1 μM"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed", "ACS Infect Dis. 2020 Mar 10. doi: 10.1021/acsinfecdis.0c00052.", "32125140"}
+
+SET PublicationType = "Review"
+SET PublicationStatus = "Published"
+SET Section = "Full Text"
+
+SET Species = "9606"
+
+SET Evidence = "Niclosamide is an FDA-approved anthelminthic drug that has been widely used in humans to treat tapeworm infections for several decades and is currently listed on the World Health Organization’s list of essential medicines.1"
+a(CHEBI:Niclosamide) -| path(DO:cysticercosis)
+
+SET Evidence = "Niclosamide exerts its anticestodal effect by inhibiting oxidative phosphorylation and stimulating adenosine triphosphatase activity in the mitochondria.1"
+
+a(CHEBI:Niclosamide) -| bp(GO:"oxidative phosphorylation")
+a(CHEBI:Niclosamide) -> a(GO:"ATPase activity")
+
+SET Evidence = "Infections with human strains HCoV-229E, HCoV-OC43, HCoV-NL63, and HCoV-HKU1 usually cause mild, self-limiting respiratory infections such as the common cold.2,24"
+a(TAX:"Human coronavirus 229E") -> path(DO:"common cold")
+a(TAX:"Human coronavirus OC43") -> path(DO:"common cold")
+a(TAX:"Human coronavirus NL63") -> path(DO:"common cold")
+a(TAX:"Human coronavirus HKU1") -> path(DO:"common cold")
+
+SET Evidence = "Wu et al. found that niclosamide was able to inhibit SARS-CoV replication and totally abolished viral antigen synthesis at a concentration of 1.56 μM after screening a small marketed drug library."
+SET concentration = "1.56 μM"
+a(CHEBI:Niclosamide) -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+UNSET concentration
+
+SET Evidence = "Niclosamide suppressed the cytopathic effect (CPE) of SARS-CoV at a concentration of as low as 1 μM and inhibited SARS-CoV replication with an EC50 value of less than 0.1 μM in Vero E6 cells."
+
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> bp(MESH:"Cytopathogenic Effect, Viral")
+SET CellLine = "VERO C1008 cell"
+SET concentration = "1 μM"
+a(CHEBI:Niclosamide) -| bp(MESH:"Cytopathogenic Effect, Viral")
+UNSET concentration
+UNSET CellLine
+
+SET Evidence = "Gassen et al. revealed that E3 ligase S-phase kinas associated protein 2 (SKP2) executes lysine-48-linked polyubiquitination of Benclin 1 (BECN1), resulting in its proteasomal degradation. SKP2 inhibition increases the BENC1 level, enhances autophagy, and efficiently reduces MERS-CoV replication.3"
+p(HGNC:SKP2) -> p(HGNC:BECN1, pmod(Ub, Lys, 48))
+p(HGNC:SKP2) -| p(HGNC:BECN1)
+p(HGNC:SKP2) -| bp(GO:autophagy)
+p(HGNC:SKP2) -> a(TAX:"Middle East respiratory syndrome-related coronavirus")
+
+SET Evidence = "Niclosamide was reported to inhibit MERS-CoV replication by up to 1000-fold at 48 h p.i. at a concentration of 10 μM, while it enhanced the BENC1 level and ATG14 oligomerization, increased the number of autolysosomes by >2-fold, and affected the autophagic flux in the MERS-CoV-infected cells.3"
+
+SET Timeline = "48 h p.i"
+SET concentration = "10 μM"
+a(CHEBI:Niclosamide) -|  a(TAX:"Middle East respiratory syndrome-related coronavirus")
+a(CHEBI:Niclosamide) -> p(HGNC:BECN1)
+a(CHEBI:Niclosamide) -> p(HGNC:ATG14)
+p(HGNC:ATG14) -> bp(GO:"protein oligomerization")
+UNSET concentration
+UNSET Timeline
+
+SET Evidence = "Very recently, through screening the existing antiviral drugs, three broad antiviral agents (nitazoxanide, remdesivir, and chloroquine) were found to inhibit SARS-CoV-2 at low micromolar concentrations in Vero E6 cells with EC50 values of 2.12, 0.77, and 1.13 μM, respectively."
+SET CellLine = "VERO C1008 cell"
+SET EC50 = {"2.12 μM", "0.77 μM", "1.13 μM"}
+a(PUBCHEM:41684) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+a(PUBCHEM:121304016) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+a(CHEBI:chloroquine) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET EC50
+UNSET CellLine
+
+UNSET Species
+
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

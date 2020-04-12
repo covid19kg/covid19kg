@@ -1,0 +1,6192 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Cohort_Median_Age": [
+        "51 years"
+      ],
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "Patient_Condition": [
+        "died"
+      ],
+      "PublicationStatus": [
+        "Preprint"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "CovidAccession": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/ncbi-covid19/ncbi-accession-covid19-20200326.belanno",
+      "Disease": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/disease/disease-20190128.belanno",
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno",
+      "TextLocation": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+    },
+    "document_metadata": {
+      "authors": "Geena Mariya Jose",
+      "contact": "geena.mariya.jose@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32167524.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+    },
+    "path": "32167524.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "The majority (n = 154 [76.6%]) of patients had fever with cough; 74 (36.8%) had feverwith dyspnea; 66 (32.8%) had feverwith fatigue, myalgia, or headache; and only 13 (6.5%) presentedwith fever alone (eTable 1 in the Supplement).",
+      "key": "a2d3ad41a6b81cf8211874871bd920d8",
+      "line": 58,
+      "relation": "association",
+      "source": 17,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "The majority (n = 154 [76.6%]) of patients had fever with cough; 74 (36.8%) had feverwith dyspnea; 66 (32.8%) had feverwith fatigue, myalgia, or headache; and only 13 (6.5%) presentedwith fever alone (eTable 1 in the Supplement).",
+      "key": "00a0a9649c9a5768d9b341e9b8433fe8",
+      "line": 59,
+      "relation": "association",
+      "source": 17,
+      "target": 28
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "The majority (n = 154 [76.6%]) of patients had fever with cough; 74 (36.8%) had feverwith dyspnea; 66 (32.8%) had feverwith fatigue, myalgia, or headache; and only 13 (6.5%) presentedwith fever alone (eTable 1 in the Supplement).",
+      "key": "3c4402fa704cffd23d072ef945403cb2",
+      "line": 60,
+      "relation": "association",
+      "source": 17,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "The majority (n = 154 [76.6%]) of patients had fever with cough; 74 (36.8%) had feverwith dyspnea; 66 (32.8%) had feverwith fatigue, myalgia, or headache; and only 13 (6.5%) presentedwith fever alone (eTable 1 in the Supplement).",
+      "key": "cb5e2b088d4b30875e9c6dcff7cb45e5",
+      "line": 61,
+      "relation": "association",
+      "source": 17,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "The majority (n = 154 [76.6%]) of patients had fever with cough; 74 (36.8%) had feverwith dyspnea; 66 (32.8%) had feverwith fatigue, myalgia, or headache; and only 13 (6.5%) presentedwith fever alone (eTable 1 in the Supplement).",
+      "key": "14c1ae47a3e8f7c131a02107fa9558ee",
+      "line": 62,
+      "relation": "association",
+      "source": 17,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "The majority (n = 154 [76.6%]) of patients had fever with cough; 74 (36.8%) had feverwith dyspnea; 66 (32.8%) had feverwith fatigue, myalgia, or headache; and only 13 (6.5%) presentedwith fever alone (eTable 1 in the Supplement).",
+      "key": "5836f35a2f0073624164031194488e65",
+      "line": 63,
+      "relation": "association",
+      "source": 17,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Sixty-six (32.8%) patients had comorbidities, including hypertension (n = 39 [19.4%]), diabetes (n = 22 [10.9%]), liver disease (n = 7 [3.5%]), nervous system disease (n = 7 [3.5%]), chronic lung disease (n = 5 [2.5%]), chronic kidney disease (n = 2 [1.0%]), endocrine system diseases not including diabetes (n = 2 [1.0%]), and tumors (n = 1 [0.5%]).",
+      "key": "ed47d968b1d799ec3f7a5893e1745e61",
+      "line": 67,
+      "relation": "association",
+      "source": 17,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Sixty-six (32.8%) patients had comorbidities, including hypertension (n = 39 [19.4%]), diabetes (n = 22 [10.9%]), liver disease (n = 7 [3.5%]), nervous system disease (n = 7 [3.5%]), chronic lung disease (n = 5 [2.5%]), chronic kidney disease (n = 2 [1.0%]), endocrine system diseases not including diabetes (n = 2 [1.0%]), and tumors (n = 1 [0.5%]).",
+      "key": "5608bb6af357ca0c0634e5eb6899ad89",
+      "line": 68,
+      "relation": "association",
+      "source": 17,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Sixty-six (32.8%) patients had comorbidities, including hypertension (n = 39 [19.4%]), diabetes (n = 22 [10.9%]), liver disease (n = 7 [3.5%]), nervous system disease (n = 7 [3.5%]), chronic lung disease (n = 5 [2.5%]), chronic kidney disease (n = 2 [1.0%]), endocrine system diseases not including diabetes (n = 2 [1.0%]), and tumors (n = 1 [0.5%]).",
+      "key": "eb9dc5ff13171219406e2b3d9d78c952",
+      "line": 69,
+      "relation": "association",
+      "source": 17,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Sixty-six (32.8%) patients had comorbidities, including hypertension (n = 39 [19.4%]), diabetes (n = 22 [10.9%]), liver disease (n = 7 [3.5%]), nervous system disease (n = 7 [3.5%]), chronic lung disease (n = 5 [2.5%]), chronic kidney disease (n = 2 [1.0%]), endocrine system diseases not including diabetes (n = 2 [1.0%]), and tumors (n = 1 [0.5%]).",
+      "key": "2b6d7d562807af2c209c610b6f34f061",
+      "line": 70,
+      "relation": "association",
+      "source": 17,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Sixty-six (32.8%) patients had comorbidities, including hypertension (n = 39 [19.4%]), diabetes (n = 22 [10.9%]), liver disease (n = 7 [3.5%]), nervous system disease (n = 7 [3.5%]), chronic lung disease (n = 5 [2.5%]), chronic kidney disease (n = 2 [1.0%]), endocrine system diseases not including diabetes (n = 2 [1.0%]), and tumors (n = 1 [0.5%]).",
+      "key": "5b6196a087d9d891920aa5564e252d86",
+      "line": 71,
+      "relation": "association",
+      "source": 17,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Sixty-six (32.8%) patients had comorbidities, including hypertension (n = 39 [19.4%]), diabetes (n = 22 [10.9%]), liver disease (n = 7 [3.5%]), nervous system disease (n = 7 [3.5%]), chronic lung disease (n = 5 [2.5%]), chronic kidney disease (n = 2 [1.0%]), endocrine system diseases not including diabetes (n = 2 [1.0%]), and tumors (n = 1 [0.5%]).",
+      "key": "ebc5d1fd96f0ac14b22deb3160c47d02",
+      "line": 72,
+      "relation": "association",
+      "source": 17,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Sixty-six (32.8%) patients had comorbidities, including hypertension (n = 39 [19.4%]), diabetes (n = 22 [10.9%]), liver disease (n = 7 [3.5%]), nervous system disease (n = 7 [3.5%]), chronic lung disease (n = 5 [2.5%]), chronic kidney disease (n = 2 [1.0%]), endocrine system diseases not including diabetes (n = 2 [1.0%]), and tumors (n = 1 [0.5%]).",
+      "key": "82c0317a7c570f4c01cf5f83795c0c7a",
+      "line": 73,
+      "relation": "association",
+      "source": 17,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Sixty-six (32.8%) patients had comorbidities, including hypertension (n = 39 [19.4%]), diabetes (n = 22 [10.9%]), liver disease (n = 7 [3.5%]), nervous system disease (n = 7 [3.5%]), chronic lung disease (n = 5 [2.5%]), chronic kidney disease (n = 2 [1.0%]), endocrine system diseases not including diabetes (n = 2 [1.0%]), and tumors (n = 1 [0.5%]).",
+      "key": "518120a69e58366c329043441627a825",
+      "line": 74,
+      "relation": "association",
+      "source": 17,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Of 194 patients,166(85.6%)demonstrated increased high sensitivity C- reactive protein.",
+      "key": "b030aed6a82c19df370ddf7f0a92ee06",
+      "line": 78,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "More than half (126of197[64.0%]) of this cohort had lymphocytopenia.",
+      "key": "85bf28c3590f00c0e52859084772b953",
+      "line": 81,
+      "relation": "negativeCorrelation",
+      "source": 17,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "About one-third (68of 197[34.5%]) of patients had neutrophilia.",
+      "key": "f69270588c9df8e31081a5d279b0db80",
+      "line": 84,
+      "relation": "association",
+      "source": 17,
+      "target": 36
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Approximately one-quarter (46 of 197 [23.4%]) of patients had leukocytosis.",
+      "key": "7d2a168c54df15cbcd7d737cee660fa9",
+      "line": 87,
+      "relation": "association",
+      "source": 17,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Some patients demonstrated liver injury with elevated aspartate aminotransferase(AST;59 of 198[29.8%])and alanine aminotransferase(ALT; 43of198[21.7%])",
+      "key": "1cb65bb0a5592bd27f35f4632d49aec3",
+      "line": 92,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Some patients demonstrated liver injury with elevated aspartate aminotransferase(AST;59 of 198[29.8%])and alanine aminotransferase(ALT; 43of198[21.7%])",
+      "key": "15ee8e515e1fede5eabcd470fe9b11e5",
+      "line": 93,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Some patients demonstrated liver injury with elevated aspartate aminotransferase(AST;59 of 198[29.8%])and alanine aminotransferase(ALT; 43of198[21.7%])",
+      "key": "854b26c07a869f997cc829cccedbee9c",
+      "line": 94,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Most patients presented with an elevated myocardial indices: 194 of 198 (98.0%) had elevated lactate dehydrogenase (LDH),and 9 of 198 (4.5%) had an elevated creatinekinase muscle-brain isoform.",
+      "key": "103cc7cea21941481f167fcd018ffacc",
+      "line": 97,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Most patients presented with an elevated myocardial indices: 194 of 198 (98.0%) had elevated lactate dehydrogenase (LDH),and 9 of 198 (4.5%) had an elevated creatinekinase muscle-brain isoform.",
+      "key": "e0dc56a2dd95e6d0001b0b16e26c126f",
+      "line": 98,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Most patients presented with an elevated myocardial indices: 194 of 198 (98.0%) had elevated lactate dehydrogenase (LDH),and 9 of 198 (4.5%) had an elevated creatinekinase muscle-brain isoform.",
+      "key": "033752a682af12b64f27133e82b97f2d",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Most patients presented with an elevated myocardial indices: 194 of 198 (98.0%) had elevated lactate dehydrogenase (LDH),and 9 of 198 (4.5%) had an elevated creatinekinase muscle-brain isoform.",
+      "key": "b0d7e8e5b8b659769eb6d3642bcf87be",
+      "line": 100,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Most patients presented with an elevated myocardial indices: 194 of 198 (98.0%) had elevated lactate dehydrogenase (LDH),and 9 of 198 (4.5%) had an elevated creatinekinase muscle-brain isoform.",
+      "key": "fe4492a034e73dccb890d9a1d0808119",
+      "line": 101,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Most patients presented with an elevated myocardial indices: 194 of 198 (98.0%) had elevated lactate dehydrogenase (LDH),and 9 of 198 (4.5%) had an elevated creatinekinase muscle-brain isoform.",
+      "key": "96a63f4b168cecdd37c396604282c622",
+      "line": 102,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Few patients had kidney injury indicated by elevated plasma urea (9 of 198 [4.5%]) and serum creatinine (9 of 198 [4.5%]).",
+      "key": "ce31b7a26f65ac70158ee3b39cad4759",
+      "line": 105,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Plasma": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Few patients had kidney injury indicated by elevated plasma urea (9 of 198 [4.5%]) and serum creatinine (9 of 198 [4.5%]).",
+      "key": "fa5dbdfb0c323b3180f3cae95c68982a",
+      "line": 108,
+      "relation": "association",
+      "source": 17,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Of 195 patients, 4 (2.1%) presented with prolonged prothrombin times (PTs).",
+      "key": "38a33c5e091036f52867dbc8d8f4bce6",
+      "line": 112,
+      "relation": "association",
+      "source": 17,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "More patients with ARDS presented with initial symptoms of dyspnea compared with those without ARDS (difference, 33.9%;95%CI, 19.7%-48.1%;P < .001)",
+      "key": "75dd8c272ed8ea8074012f4eb13cba19",
+      "line": 115,
+      "relation": "association",
+      "source": 17,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "The majority (n = 154 [76.6%]) of patients had fever with cough; 74 (36.8%) had feverwith dyspnea; 66 (32.8%) had feverwith fatigue, myalgia, or headache; and only 13 (6.5%) presentedwith fever alone (eTable 1 in the Supplement).",
+      "key": "4681c28d16b31302112c0c2e7cc6ea65",
+      "line": 58,
+      "relation": "association",
+      "source": 31,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "The majority (n = 154 [76.6%]) of patients had fever with cough; 74 (36.8%) had feverwith dyspnea; 66 (32.8%) had feverwith fatigue, myalgia, or headache; and only 13 (6.5%) presentedwith fever alone (eTable 1 in the Supplement).",
+      "key": "be4642714ab1f19b8495d270ee3f3b2d",
+      "line": 59,
+      "relation": "association",
+      "source": 28,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "The majority (n = 154 [76.6%]) of patients had fever with cough; 74 (36.8%) had feverwith dyspnea; 66 (32.8%) had feverwith fatigue, myalgia, or headache; and only 13 (6.5%) presentedwith fever alone (eTable 1 in the Supplement).",
+      "key": "1dbab3f05b9458a4f3f5007572890a5a",
+      "line": 60,
+      "relation": "association",
+      "source": 29,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "More patients with ARDS presented with initial symptoms of dyspnea compared with those without ARDS (difference, 33.9%;95%CI, 19.7%-48.1%;P < .001)",
+      "key": "beac60b851fbc5afe764d540fc5a6dd3",
+      "line": 116,
+      "relation": "association",
+      "source": 29,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "The majority (n = 154 [76.6%]) of patients had fever with cough; 74 (36.8%) had feverwith dyspnea; 66 (32.8%) had feverwith fatigue, myalgia, or headache; and only 13 (6.5%) presentedwith fever alone (eTable 1 in the Supplement).",
+      "key": "3413a6c761f8766a0ae426c70b3f04f0",
+      "line": 61,
+      "relation": "association",
+      "source": 30,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "The majority (n = 154 [76.6%]) of patients had fever with cough; 74 (36.8%) had feverwith dyspnea; 66 (32.8%) had feverwith fatigue, myalgia, or headache; and only 13 (6.5%) presentedwith fever alone (eTable 1 in the Supplement).",
+      "key": "bfa286c39cd8357a2600841feab0f7c8",
+      "line": 62,
+      "relation": "association",
+      "source": 34,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "The majority (n = 154 [76.6%]) of patients had fever with cough; 74 (36.8%) had feverwith dyspnea; 66 (32.8%) had feverwith fatigue, myalgia, or headache; and only 13 (6.5%) presentedwith fever alone (eTable 1 in the Supplement).",
+      "key": "9d46548adc61b0f185c9215bed8cdbfd",
+      "line": 63,
+      "relation": "association",
+      "source": 32,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Sixty-six (32.8%) patients had comorbidities, including hypertension (n = 39 [19.4%]), diabetes (n = 22 [10.9%]), liver disease (n = 7 [3.5%]), nervous system disease (n = 7 [3.5%]), chronic lung disease (n = 5 [2.5%]), chronic kidney disease (n = 2 [1.0%]), endocrine system diseases not including diabetes (n = 2 [1.0%]), and tumors (n = 1 [0.5%]).",
+      "key": "33d790b87a185fdf3d6b30c5076a4f4c",
+      "line": 67,
+      "relation": "association",
+      "source": 24,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Compared with patients without ARDS, patients with ARDS had a higher proportion of comorbidities, including hypertension (difference, 13.7%; 95%CI, 1.3%-26.1%; P = .02) and diabetes (difference, 13.9%; 95% CI, 3.6%-24.2%; P = .002).",
+      "key": "d8977ad48a0044b8ce161fda82d3bc76",
+      "line": 119,
+      "relation": "association",
+      "source": 24,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Sixty-six (32.8%) patients had comorbidities, including hypertension (n = 39 [19.4%]), diabetes (n = 22 [10.9%]), liver disease (n = 7 [3.5%]), nervous system disease (n = 7 [3.5%]), chronic lung disease (n = 5 [2.5%]), chronic kidney disease (n = 2 [1.0%]), endocrine system diseases not including diabetes (n = 2 [1.0%]), and tumors (n = 1 [0.5%]).",
+      "key": "446a989efe4dbebf789bfb9135e2e35d",
+      "line": 68,
+      "relation": "association",
+      "source": 20,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Compared with patients without ARDS, patients with ARDS had a higher proportion of comorbidities, including hypertension (difference, 13.7%; 95%CI, 1.3%-26.1%; P = .02) and diabetes (difference, 13.9%; 95% CI, 3.6%-24.2%; P = .002).",
+      "key": "df63a651890599e8ce0a5ee952197800",
+      "line": 120,
+      "relation": "association",
+      "source": 20,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Sixty-six (32.8%) patients had comorbidities, including hypertension (n = 39 [19.4%]), diabetes (n = 22 [10.9%]), liver disease (n = 7 [3.5%]), nervous system disease (n = 7 [3.5%]), chronic lung disease (n = 5 [2.5%]), chronic kidney disease (n = 2 [1.0%]), endocrine system diseases not including diabetes (n = 2 [1.0%]), and tumors (n = 1 [0.5%]).",
+      "key": "6564578d623bbfa66f818f4ec675633a",
+      "line": 69,
+      "relation": "association",
+      "source": 22,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Sixty-six (32.8%) patients had comorbidities, including hypertension (n = 39 [19.4%]), diabetes (n = 22 [10.9%]), liver disease (n = 7 [3.5%]), nervous system disease (n = 7 [3.5%]), chronic lung disease (n = 5 [2.5%]), chronic kidney disease (n = 2 [1.0%]), endocrine system diseases not including diabetes (n = 2 [1.0%]), and tumors (n = 1 [0.5%]).",
+      "key": "8c29d7ff2b69f60dcb42e18c026fe7a0",
+      "line": 70,
+      "relation": "association",
+      "source": 23,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Sixty-six (32.8%) patients had comorbidities, including hypertension (n = 39 [19.4%]), diabetes (n = 22 [10.9%]), liver disease (n = 7 [3.5%]), nervous system disease (n = 7 [3.5%]), chronic lung disease (n = 5 [2.5%]), chronic kidney disease (n = 2 [1.0%]), endocrine system diseases not including diabetes (n = 2 [1.0%]), and tumors (n = 1 [0.5%]).",
+      "key": "97eeef67c02c2698719fa4c384dc2db2",
+      "line": 71,
+      "relation": "association",
+      "source": 25,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Sixty-six (32.8%) patients had comorbidities, including hypertension (n = 39 [19.4%]), diabetes (n = 22 [10.9%]), liver disease (n = 7 [3.5%]), nervous system disease (n = 7 [3.5%]), chronic lung disease (n = 5 [2.5%]), chronic kidney disease (n = 2 [1.0%]), endocrine system diseases not including diabetes (n = 2 [1.0%]), and tumors (n = 1 [0.5%]).",
+      "key": "4259d3d197f1152c3664c253b0a5e230",
+      "line": 72,
+      "relation": "association",
+      "source": 19,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Sixty-six (32.8%) patients had comorbidities, including hypertension (n = 39 [19.4%]), diabetes (n = 22 [10.9%]), liver disease (n = 7 [3.5%]), nervous system disease (n = 7 [3.5%]), chronic lung disease (n = 5 [2.5%]), chronic kidney disease (n = 2 [1.0%]), endocrine system diseases not including diabetes (n = 2 [1.0%]), and tumors (n = 1 [0.5%]).",
+      "key": "d9b2c4cd034232c0a840ab2ac6af4bfa",
+      "line": 73,
+      "relation": "association",
+      "source": 21,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Sixty-six (32.8%) patients had comorbidities, including hypertension (n = 39 [19.4%]), diabetes (n = 22 [10.9%]), liver disease (n = 7 [3.5%]), nervous system disease (n = 7 [3.5%]), chronic lung disease (n = 5 [2.5%]), chronic kidney disease (n = 2 [1.0%]), endocrine system diseases not including diabetes (n = 2 [1.0%]), and tumors (n = 1 [0.5%]).",
+      "key": "1f9a8275bf817beda3f86f78e31824c9",
+      "line": 74,
+      "relation": "association",
+      "source": 35,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Of 194 patients,166(85.6%)demonstrated increased high sensitivity C- reactive protein.",
+      "key": "c88689dc301172b417ca2021f84dea63",
+      "line": 78,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "More than half (126of197[64.0%]) of this cohort had lymphocytopenia.",
+      "key": "351da62158264fbfd3fd295de956b909",
+      "line": 81,
+      "relation": "negativeCorrelation",
+      "source": 4,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "However, lymphocyte counts (difference,− 0.34×109/mL;95%CI,−0.47 to−0.22×109/mL;P < .001) and CD8 T cells (difference, −66.00 cells/μL; 95%CI, −129.00 to −7.00 cells/μL; P = .03) were significantly decreased.",
+      "key": "534bdb524791eb16fd52b714cc923f3e",
+      "line": 132,
+      "relation": "negativeCorrelation",
+      "source": 4,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "About one-third (68of 197[34.5%]) of patients had neutrophilia.",
+      "key": "70cde76454d65d52dad55124fc7217fe",
+      "line": 84,
+      "relation": "association",
+      "source": 36,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Approximately one-quarter (46 of 197 [23.4%]) of patients had leukocytosis.",
+      "key": "4bff9842d63178f2a09b888346af74e6",
+      "line": 87,
+      "relation": "association",
+      "source": 33,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Some patients demonstrated liver injury with elevated aspartate aminotransferase(AST;59 of 198[29.8%])and alanine aminotransferase(ALT; 43of198[21.7%])",
+      "key": "21134abb9cb0daf7990911001e9766c0",
+      "line": 92,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Some patients demonstrated liver injury with elevated aspartate aminotransferase(AST;59 of 198[29.8%])and alanine aminotransferase(ALT; 43of198[21.7%])",
+      "key": "83b1affc95756dc512323ca37fbca4dd",
+      "line": 93,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Some patients demonstrated liver injury with elevated aspartate aminotransferase(AST;59 of 198[29.8%])and alanine aminotransferase(ALT; 43of198[21.7%])",
+      "key": "4cb9d1e4d5a7b73e170e9872b3e3aa79",
+      "line": 94,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Most patients presented with an elevated myocardial indices: 194 of 198 (98.0%) had elevated lactate dehydrogenase (LDH),and 9 of 198 (4.5%) had an elevated creatinekinase muscle-brain isoform.",
+      "key": "0fac52c1b48baac3a6ea58ef85c1cf9d",
+      "line": 97,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Most patients presented with an elevated myocardial indices: 194 of 198 (98.0%) had elevated lactate dehydrogenase (LDH),and 9 of 198 (4.5%) had an elevated creatinekinase muscle-brain isoform.",
+      "key": "a17ab60b37112e42b04282916118a440",
+      "line": 98,
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Most patients presented with an elevated myocardial indices: 194 of 198 (98.0%) had elevated lactate dehydrogenase (LDH),and 9 of 198 (4.5%) had an elevated creatinekinase muscle-brain isoform.",
+      "key": "ce75b8b3deec48373972585b5cbda176",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 14,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Most patients presented with an elevated myocardial indices: 194 of 198 (98.0%) had elevated lactate dehydrogenase (LDH),and 9 of 198 (4.5%) had an elevated creatinekinase muscle-brain isoform.",
+      "key": "271f5a9f6edd2e9f559c4c73a91949c8",
+      "line": 100,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Most patients presented with an elevated myocardial indices: 194 of 198 (98.0%) had elevated lactate dehydrogenase (LDH),and 9 of 198 (4.5%) had an elevated creatinekinase muscle-brain isoform.",
+      "key": "cff89471196720486a7548a2ddd69e7d",
+      "line": 101,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Most patients presented with an elevated myocardial indices: 194 of 198 (98.0%) had elevated lactate dehydrogenase (LDH),and 9 of 198 (4.5%) had an elevated creatinekinase muscle-brain isoform.",
+      "key": "c4de8c772ba5064bf6bf3be9ada79860",
+      "line": 102,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Few patients had kidney injury indicated by elevated plasma urea (9 of 198 [4.5%]) and serum creatinine (9 of 198 [4.5%]).",
+      "key": "ab8841990e1b4419b9f96d4a4b452280",
+      "line": 105,
+      "relation": "positiveCorrelation",
+      "source": 1,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Plasma": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Few patients had kidney injury indicated by elevated plasma urea (9 of 198 [4.5%]) and serum creatinine (9 of 198 [4.5%]).",
+      "key": "234790ed8d940013c3f77043ef9f5f92",
+      "line": 108,
+      "relation": "association",
+      "source": 26,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Compared with patients without ARDS, for patients with ARDS, the value of liver damage indices (total bilirubin [difference, 1.90mg/dL; 95%CI, 0.60-3.30 mg/dL; P = .004]), renal dysfunction indices (urea [difference, 1.69 mM; 95% CI, 1.10-2.29mM;P < .001]), inflammation-related indices (interleukin- 6 [IL-6] [difference, 0.93 pg/L; 95%CI, 0.07-1.98 pg/L; P = .03]), and coagulation function indices (D-dimer [difference, 0.52 μg/mL; 95% CI, 0.21-0.94 μg/mL; P < .001]) were significantly elevated.",
+      "key": "f9c8922829282b0ba4ba6ce47ba3990a",
+      "line": 125,
+      "relation": "association",
+      "source": 26,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "Patient_Condition": {
+          "died": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "For patients with ARDS who died, the value of liver damage indices (total bilirubin [difference, 2.60 mg/dL; 95% CI, 0.30-5.20mg/dL;P = .03]), renal dysfunction indices (urea [difference, 1.50 mM; 95%CI, 0.50-2.70 mM; P = .004]), inflammation- related indices (IL-6 [difference, 3.88 pg/L; 95% CI, 2.20-6.13pg/L;P < .001]), and coagulation function indices (Ddimer [difference, 2.10 μg/mL; 95% CI, 0.89-5.27 μg/mL; P = .001]) were significantly elevated compared with patients with ARDS who survived.",
+      "key": "cc53080582d0ae0f927f37b7b1be70db",
+      "line": 138,
+      "relation": "association",
+      "source": 26,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Of 195 patients, 4 (2.1%) presented with prolonged prothrombin times (PTs).",
+      "key": "b7289a309edbb6fd60a1f3a5e9ec963f",
+      "line": 112,
+      "relation": "association",
+      "source": 27,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "More patients with ARDS presented with initial symptoms of dyspnea compared with those without ARDS (difference, 33.9%;95%CI, 19.7%-48.1%;P < .001)",
+      "key": "96b01a9b83187034cd0f1846975a0a53",
+      "line": 115,
+      "relation": "association",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "More patients with ARDS presented with initial symptoms of dyspnea compared with those without ARDS (difference, 33.9%;95%CI, 19.7%-48.1%;P < .001)",
+      "key": "96a26d24c974e9e028a6acf9219e635b",
+      "line": 116,
+      "relation": "association",
+      "source": 18,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Compared with patients without ARDS, patients with ARDS had a higher proportion of comorbidities, including hypertension (difference, 13.7%; 95%CI, 1.3%-26.1%; P = .02) and diabetes (difference, 13.9%; 95% CI, 3.6%-24.2%; P = .002).",
+      "key": "52f444a4c282e89a5df4b180077f2223",
+      "line": 119,
+      "relation": "association",
+      "source": 18,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Compared with patients without ARDS, patients with ARDS had a higher proportion of comorbidities, including hypertension (difference, 13.7%; 95%CI, 1.3%-26.1%; P = .02) and diabetes (difference, 13.9%; 95% CI, 3.6%-24.2%; P = .002).",
+      "key": "f870e1232fd764555c7fa1bacd759c87",
+      "line": 120,
+      "relation": "association",
+      "source": 18,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Compared with patients without ARDS, for patients with ARDS, the value of liver damage indices (total bilirubin [difference, 1.90mg/dL; 95%CI, 0.60-3.30 mg/dL; P = .004]), renal dysfunction indices (urea [difference, 1.69 mM; 95% CI, 1.10-2.29mM;P < .001]), inflammation-related indices (interleukin- 6 [IL-6] [difference, 0.93 pg/L; 95%CI, 0.07-1.98 pg/L; P = .03]), and coagulation function indices (D-dimer [difference, 0.52 μg/mL; 95% CI, 0.21-0.94 μg/mL; P < .001]) were significantly elevated.",
+      "key": "606bed940c0d8f40ef8d9aaa27872b8e",
+      "line": 124,
+      "relation": "positiveCorrelation",
+      "source": 18,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "Patient_Condition": {
+          "died": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "For patients with ARDS who died, the value of liver damage indices (total bilirubin [difference, 2.60 mg/dL; 95% CI, 0.30-5.20mg/dL;P = .03]), renal dysfunction indices (urea [difference, 1.50 mM; 95%CI, 0.50-2.70 mM; P = .004]), inflammation- related indices (IL-6 [difference, 3.88 pg/L; 95% CI, 2.20-6.13pg/L;P < .001]), and coagulation function indices (Ddimer [difference, 2.10 μg/mL; 95% CI, 0.89-5.27 μg/mL; P = .001]) were significantly elevated compared with patients with ARDS who survived.",
+      "key": "ada9041123954dc54850351360fd1afe",
+      "line": 137,
+      "relation": "positiveCorrelation",
+      "source": 18,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Compared with patients without ARDS, for patients with ARDS, the value of liver damage indices (total bilirubin [difference, 1.90mg/dL; 95%CI, 0.60-3.30 mg/dL; P = .004]), renal dysfunction indices (urea [difference, 1.69 mM; 95% CI, 1.10-2.29mM;P < .001]), inflammation-related indices (interleukin- 6 [IL-6] [difference, 0.93 pg/L; 95%CI, 0.07-1.98 pg/L; P = .03]), and coagulation function indices (D-dimer [difference, 0.52 μg/mL; 95% CI, 0.21-0.94 μg/mL; P < .001]) were significantly elevated.",
+      "key": "d469f011d7f58f7b9badf0e5fd6488c8",
+      "line": 125,
+      "relation": "association",
+      "source": 18,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "Patient_Condition": {
+          "died": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "For patients with ARDS who died, the value of liver damage indices (total bilirubin [difference, 2.60 mg/dL; 95% CI, 0.30-5.20mg/dL;P = .03]), renal dysfunction indices (urea [difference, 1.50 mM; 95%CI, 0.50-2.70 mM; P = .004]), inflammation- related indices (IL-6 [difference, 3.88 pg/L; 95% CI, 2.20-6.13pg/L;P < .001]), and coagulation function indices (Ddimer [difference, 2.10 μg/mL; 95% CI, 0.89-5.27 μg/mL; P = .001]) were significantly elevated compared with patients with ARDS who survived.",
+      "key": "6c0c8d8930e6f1ac7225279eabcbf8f1",
+      "line": 138,
+      "relation": "association",
+      "source": 18,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Compared with patients without ARDS, for patients with ARDS, the value of liver damage indices (total bilirubin [difference, 1.90mg/dL; 95%CI, 0.60-3.30 mg/dL; P = .004]), renal dysfunction indices (urea [difference, 1.69 mM; 95% CI, 1.10-2.29mM;P < .001]), inflammation-related indices (interleukin- 6 [IL-6] [difference, 0.93 pg/L; 95%CI, 0.07-1.98 pg/L; P = .03]), and coagulation function indices (D-dimer [difference, 0.52 μg/mL; 95% CI, 0.21-0.94 μg/mL; P < .001]) were significantly elevated.",
+      "key": "7d7bf10eb38c1b1c77455a6eb25bc6c2",
+      "line": 126,
+      "relation": "positiveCorrelation",
+      "source": 18,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "Patient_Condition": {
+          "died": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "For patients with ARDS who died, the value of liver damage indices (total bilirubin [difference, 2.60 mg/dL; 95% CI, 0.30-5.20mg/dL;P = .03]), renal dysfunction indices (urea [difference, 1.50 mM; 95%CI, 0.50-2.70 mM; P = .004]), inflammation- related indices (IL-6 [difference, 3.88 pg/L; 95% CI, 2.20-6.13pg/L;P < .001]), and coagulation function indices (Ddimer [difference, 2.10 μg/mL; 95% CI, 0.89-5.27 μg/mL; P = .001]) were significantly elevated compared with patients with ARDS who survived.",
+      "key": "1dea71da170f227a71457757841ff275",
+      "line": 139,
+      "relation": "positiveCorrelation",
+      "source": 18,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Compared with patients without ARDS, for patients with ARDS, the value of liver damage indices (total bilirubin [difference, 1.90mg/dL; 95%CI, 0.60-3.30 mg/dL; P = .004]), renal dysfunction indices (urea [difference, 1.69 mM; 95% CI, 1.10-2.29mM;P < .001]), inflammation-related indices (interleukin- 6 [IL-6] [difference, 0.93 pg/L; 95%CI, 0.07-1.98 pg/L; P = .03]), and coagulation function indices (D-dimer [difference, 0.52 μg/mL; 95% CI, 0.21-0.94 μg/mL; P < .001]) were significantly elevated.",
+      "key": "9f78e6e6cba3f06dffb5a9249bcaf3e6",
+      "line": 127,
+      "relation": "positiveCorrelation",
+      "source": 18,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "Patient_Condition": {
+          "died": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "For patients with ARDS who died, the value of liver damage indices (total bilirubin [difference, 2.60 mg/dL; 95% CI, 0.30-5.20mg/dL;P = .03]), renal dysfunction indices (urea [difference, 1.50 mM; 95%CI, 0.50-2.70 mM; P = .004]), inflammation- related indices (IL-6 [difference, 3.88 pg/L; 95% CI, 2.20-6.13pg/L;P < .001]), and coagulation function indices (Ddimer [difference, 2.10 μg/mL; 95% CI, 0.89-5.27 μg/mL; P = .001]) were significantly elevated compared with patients with ARDS who survived.",
+      "key": "0d6f099aba41b470c31fe65f9c217424",
+      "line": 140,
+      "relation": "positiveCorrelation",
+      "source": 18,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "However, lymphocyte counts (difference,− 0.34×109/mL;95%CI,−0.47 to−0.22×109/mL;P < .001) and CD8 T cells (difference, −66.00 cells/μL; 95%CI, −129.00 to −7.00 cells/μL; P = .03) were significantly decreased.",
+      "key": "c0f86782a9158937e3a063445a206c7b",
+      "line": 132,
+      "relation": "negativeCorrelation",
+      "source": 18,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "However, lymphocyte counts (difference,− 0.34×109/mL;95%CI,−0.47 to−0.22×109/mL;P < .001) and CD8 T cells (difference, −66.00 cells/μL; 95%CI, −129.00 to −7.00 cells/μL; P = .03) were significantly decreased.",
+      "key": "158ce5548b8b8b711d4ce5bbd8b8f3b0",
+      "line": 133,
+      "relation": "negativeCorrelation",
+      "source": 18,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Compared with patients without ARDS, for patients with ARDS, the value of liver damage indices (total bilirubin [difference, 1.90mg/dL; 95%CI, 0.60-3.30 mg/dL; P = .004]), renal dysfunction indices (urea [difference, 1.69 mM; 95% CI, 1.10-2.29mM;P < .001]), inflammation-related indices (interleukin- 6 [IL-6] [difference, 0.93 pg/L; 95%CI, 0.07-1.98 pg/L; P = .03]), and coagulation function indices (D-dimer [difference, 0.52 μg/mL; 95% CI, 0.21-0.94 μg/mL; P < .001]) were significantly elevated.",
+      "key": "022fbfa2dede6f93468d08e391a9a442",
+      "line": 124,
+      "relation": "positiveCorrelation",
+      "source": 3,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "Patient_Condition": {
+          "died": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "For patients with ARDS who died, the value of liver damage indices (total bilirubin [difference, 2.60 mg/dL; 95% CI, 0.30-5.20mg/dL;P = .03]), renal dysfunction indices (urea [difference, 1.50 mM; 95%CI, 0.50-2.70 mM; P = .004]), inflammation- related indices (IL-6 [difference, 3.88 pg/L; 95% CI, 2.20-6.13pg/L;P < .001]), and coagulation function indices (Ddimer [difference, 2.10 μg/mL; 95% CI, 0.89-5.27 μg/mL; P = .001]) were significantly elevated compared with patients with ARDS who survived.",
+      "key": "4ab8d14f9e70eb47d891090e0ca2857f",
+      "line": 137,
+      "relation": "positiveCorrelation",
+      "source": 3,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Compared with patients without ARDS, for patients with ARDS, the value of liver damage indices (total bilirubin [difference, 1.90mg/dL; 95%CI, 0.60-3.30 mg/dL; P = .004]), renal dysfunction indices (urea [difference, 1.69 mM; 95% CI, 1.10-2.29mM;P < .001]), inflammation-related indices (interleukin- 6 [IL-6] [difference, 0.93 pg/L; 95%CI, 0.07-1.98 pg/L; P = .03]), and coagulation function indices (D-dimer [difference, 0.52 μg/mL; 95% CI, 0.21-0.94 μg/mL; P < .001]) were significantly elevated.",
+      "key": "ca50f398e3cf58c4585bfc280437a57e",
+      "line": 126,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "Patient_Condition": {
+          "died": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "For patients with ARDS who died, the value of liver damage indices (total bilirubin [difference, 2.60 mg/dL; 95% CI, 0.30-5.20mg/dL;P = .03]), renal dysfunction indices (urea [difference, 1.50 mM; 95%CI, 0.50-2.70 mM; P = .004]), inflammation- related indices (IL-6 [difference, 3.88 pg/L; 95% CI, 2.20-6.13pg/L;P < .001]), and coagulation function indices (Ddimer [difference, 2.10 μg/mL; 95% CI, 0.89-5.27 μg/mL; P = .001]) were significantly elevated compared with patients with ARDS who survived.",
+      "key": "9973f55f63ae5e128196278c98e00815",
+      "line": 139,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "However, IL-6 was statistically significantly associated with death (Table 4).",
+      "key": "3d2439309c3a0fde90d602b456edfc7a",
+      "line": 145,
+      "relation": "association",
+      "source": 11,
+      "target": 37
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "Compared with patients without ARDS, for patients with ARDS, the value of liver damage indices (total bilirubin [difference, 1.90mg/dL; 95%CI, 0.60-3.30 mg/dL; P = .004]), renal dysfunction indices (urea [difference, 1.69 mM; 95% CI, 1.10-2.29mM;P < .001]), inflammation-related indices (interleukin- 6 [IL-6] [difference, 0.93 pg/L; 95%CI, 0.07-1.98 pg/L; P = .03]), and coagulation function indices (D-dimer [difference, 0.52 μg/mL; 95% CI, 0.21-0.94 μg/mL; P < .001]) were significantly elevated.",
+      "key": "49c283bd46429b7d01ace8722bd9c47d",
+      "line": 127,
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "Patient_Condition": {
+          "died": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "For patients with ARDS who died, the value of liver damage indices (total bilirubin [difference, 2.60 mg/dL; 95% CI, 0.30-5.20mg/dL;P = .03]), renal dysfunction indices (urea [difference, 1.50 mM; 95%CI, 0.50-2.70 mM; P = .004]), inflammation- related indices (IL-6 [difference, 3.88 pg/L; 95% CI, 2.20-6.13pg/L;P < .001]), and coagulation function indices (Ddimer [difference, 2.10 μg/mL; 95% CI, 0.89-5.27 μg/mL; P = .001]) were significantly elevated compared with patients with ARDS who survived.",
+      "key": "84f0c7eaf9a03fc44b9585ac7dbb273d",
+      "line": 140,
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "However, lymphocyte counts (difference,− 0.34×109/mL;95%CI,−0.47 to−0.22×109/mL;P < .001) and CD8 T cells (difference, −66.00 cells/μL; 95%CI, −129.00 to −7.00 cells/μL; P = .03) were significantly decreased.",
+      "key": "57288b8c4ae064d0e5b008f8ffa152a8",
+      "line": 133,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "However, IL-6 was statistically significantly associated with death (Table 4).",
+      "key": "94d157efe6e6a3ecf9f341a82d4b5875",
+      "line": 145,
+      "relation": "association",
+      "source": 37,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease": {
+          "adult respiratory distress syndrome": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "The administration of methylprednisolone appears to have reduced the risk of death in patients with ARDS (HR, 0.38; 95% CI, 0.20-0.72; P = .003) (Figure).",
+      "key": "47ab2f58ce12ed9bd9ae3b812f11620d",
+      "line": 149,
+      "relation": "negativeCorrelation",
+      "source": 37,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Cohort_Median_Age": {
+          "51 years": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease": {
+          "adult respiratory distress syndrome": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bai C",
+          "Cai Y",
+          "Chao Y",
+          "Chen D",
+          "Chen X",
+          "Du C",
+          "Huang H",
+          "Jiang J",
+          "Song J",
+          "Song Y",
+          "Wang S",
+          "Wu C",
+          "Xia J",
+          "Xiong W",
+          "Xu J",
+          "Xu L",
+          "Xu S",
+          "Yang Z",
+          "Zhang L",
+          "Zhang Y",
+          "Zheng J",
+          "Zhou F",
+          "Zhou X"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167524",
+        "db_name": "JAMA internal medicine",
+        "first": "Wu C",
+        "last": "Song Y"
+      },
+      "evidence": "The administration of methylprednisolone appears to have reduced the risk of death in patients with ARDS (HR, 0.38; 95% CI, 0.20-0.72; P = .003) (Figure).",
+      "key": "514664ce701da30ec556209486fc096b",
+      "line": 149,
+      "relation": "negativeCorrelation",
+      "source": 0,
+      "target": 37
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:\"6-methylprednisolone\")",
+      "concept": {
+        "name": "6-methylprednisolone",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "eea92dc6c8da43a2ee0230ca7f58d30b"
+    },
+    {
+      "bel": "a(CHEBI:creatinine)",
+      "concept": {
+        "name": "creatinine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "848653c33293c5d8f6e5b73d61cee75e"
+    },
+    {
+      "bel": "a(MESH:\"CD8-Positive T-Lymphocytes\")",
+      "concept": {
+        "name": "CD8-Positive T-Lymphocytes",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "59b2f285d4c75c8c59127aa7c441658c"
+    },
+    {
+      "bel": "a(MESH:Bilirubin)",
+      "concept": {
+        "name": "Bilirubin",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "06e19a1085ab501bb7c1c07e47efd76a"
+    },
+    {
+      "bel": "bp(MESH:\"Lymphocyte Count\")",
+      "concept": {
+        "name": "Lymphocyte Count",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "1524717e3441737493010574850f1ce7"
+    },
+    {
+      "bel": "p(HGNC:CKB)",
+      "concept": {
+        "name": "CKB",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "59ee114c9af89ea338bc76939e7992ca"
+    },
+    {
+      "bel": "p(HGNC:CKM)",
+      "concept": {
+        "name": "CKM",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "253693ad2d136c16248a6ab2d047038a"
+    },
+    {
+      "bel": "p(HGNC:CRP)",
+      "concept": {
+        "name": "CRP",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "b2238c9ec2ce73112c0f44c8375b7acb"
+    },
+    {
+      "bel": "p(HGNC:GOT1)",
+      "concept": {
+        "name": "GOT1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "6806c176d9bfc798054f31b888c388f8"
+    },
+    {
+      "bel": "p(HGNC:GOT2)",
+      "concept": {
+        "name": "GOT2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "59afa483cee08ca40a6240a5bf760be5"
+    },
+    {
+      "bel": "p(HGNC:GPT)",
+      "concept": {
+        "name": "GPT",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "86617b0271f3cba1d1ebdf66ff44b39a"
+    },
+    {
+      "bel": "p(HGNC:IL6)",
+      "concept": {
+        "name": "IL6",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "8a1d3c4828c5416eba867c395cc65caa"
+    },
+    {
+      "bel": "p(HGNC:LDHA)",
+      "concept": {
+        "name": "LDHA",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "192b81d449af3caef26e890a119b659a"
+    },
+    {
+      "bel": "p(HGNC:LDHB)",
+      "concept": {
+        "name": "LDHB",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "a6651e465b61bc96d95581c2f9c1050e"
+    },
+    {
+      "bel": "p(HGNC:LDHC)",
+      "concept": {
+        "name": "LDHC",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bbd9c6f4f83784f950bfbc04b67325ec"
+    },
+    {
+      "bel": "p(HGNC:LDHD)",
+      "concept": {
+        "name": "LDHD",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "1ea30ceed12188daab0478062ae8cdea"
+    },
+    {
+      "bel": "p(MESH:\"fibrin fragment D\")",
+      "concept": {
+        "name": "fibrin fragment D",
+        "namespace": "MESH"
+      },
+      "function": "Protein",
+      "id": "32c813a594e5f966f9209deeafa7aef9"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"adult respiratory distress syndrome\")",
+      "concept": {
+        "name": "adult respiratory distress syndrome",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "13c578f210684ad9f22dd027aa28b11a"
+    },
+    {
+      "bel": "path(DO:\"chronic kidney disease\")",
+      "concept": {
+        "name": "chronic kidney disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "c41e49c1d2c8f2dacb14ef7c3d7c4aca"
+    },
+    {
+      "bel": "path(DO:\"diabetes mellitus\")",
+      "concept": {
+        "name": "diabetes mellitus",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "a851751c015aaa69ddfba6458d99c945"
+    },
+    {
+      "bel": "path(DO:\"endocrine system disease\")",
+      "concept": {
+        "name": "endocrine system disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "17b7d5b9fa8ce306ababbea7851352e7"
+    },
+    {
+      "bel": "path(DO:\"liver disease\")",
+      "concept": {
+        "name": "liver disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "7ace349650daf4963b90a1b187782472"
+    },
+    {
+      "bel": "path(DO:\"nervous system disease\")",
+      "concept": {
+        "name": "nervous system disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "4f2ee6a714f06d7644b342a19fea1878"
+    },
+    {
+      "bel": "path(DO:hypertension)",
+      "concept": {
+        "name": "hypertension",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "53d5b8bd814074e87b1da1ff6250dcff"
+    },
+    {
+      "bel": "path(HP:\"Chronic lung disease\")",
+      "concept": {
+        "name": "Chronic lung disease",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "b65a28ac639da60cd56f78d7940a5ca0"
+    },
+    {
+      "bel": "path(HP:\"Increased blood urea nitrogen\")",
+      "concept": {
+        "name": "Increased blood urea nitrogen",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "f8e4a303ce92e80661e0160c7c012133"
+    },
+    {
+      "bel": "path(HP:\"Prolonged prothrombin time\")",
+      "concept": {
+        "name": "Prolonged prothrombin time",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "7ae42ee141120b5a6b4b29022bad180d"
+    },
+    {
+      "bel": "path(HP:Cough)",
+      "concept": {
+        "name": "Cough",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "46175cd35e12952e2b452a4165638120"
+    },
+    {
+      "bel": "path(HP:Dyspnea)",
+      "concept": {
+        "name": "Dyspnea",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "963560b5f8fac4a36096e31cb33a61ea"
+    },
+    {
+      "bel": "path(HP:Fatigue)",
+      "concept": {
+        "name": "Fatigue",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "e398c9a963ab9c48ac72f9f35351cc80"
+    },
+    {
+      "bel": "path(HP:Fever)",
+      "concept": {
+        "name": "Fever",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "28f3e35789cf742f4f5cc7453350aae5"
+    },
+    {
+      "bel": "path(HP:Headache)",
+      "concept": {
+        "name": "Headache",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "a24ae0bd1e3980c71af01ddc357c55ad"
+    },
+    {
+      "bel": "path(HP:Leukocytosis)",
+      "concept": {
+        "name": "Leukocytosis",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "9881a273b758b938e12b213534454fc3"
+    },
+    {
+      "bel": "path(HP:Myalgia)",
+      "concept": {
+        "name": "Myalgia",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "884b26839235dd6b9dae0141075296db"
+    },
+    {
+      "bel": "path(HP:Neoplasm)",
+      "concept": {
+        "name": "Neoplasm",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "10cdba950b655c26907b4bedf3a42d46"
+    },
+    {
+      "bel": "path(HP:Neutrophilia)",
+      "concept": {
+        "name": "Neutrophilia",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "80a9c024b583a13929b06c77999a518f"
+    },
+    {
+      "bel": "path(MESH:Death)",
+      "concept": {
+        "name": "Death",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "10a8517e414b47762b224fc2cc999027"
+    }
+  ]
+}

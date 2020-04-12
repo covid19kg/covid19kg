@@ -1,0 +1,1739 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Preprint",
+        "Published"
+      ],
+      "PublicationType": [
+        "Research",
+        "Review"
+      ],
+      "Section": [
+        "Abstract",
+        "Full Text",
+        "Results"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHDisease": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Shounak Baksi",
+      "contact": "shounak.baksi@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32186952.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "FIXME": ".*",
+      "PUBCHEM": "^\\d+$"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "DRUGBANK": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32186952.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "According to WHO guidelines, infected patients will receive supportive care including oxygen therapy, fluid therapy, and antibiotics for treating secondary bacterial infections.",
+      "key": "5269ed3238298481fc714699f845afad",
+      "line": 84,
+      "relation": "decreases",
+      "source": 16,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "According to WHO guidelines, infected patients will receive supportive care including oxygen therapy, fluid therapy, and antibiotics for treating secondary bacterial infections.",
+      "key": "dccbd7642f83aebd52235c2e6b16e4e3",
+      "line": 86,
+      "relation": "association",
+      "source": 30,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "Furthermore, RNA synthesis inhibitors (like 3TC, TDF), remdesivir, neuraminidase inhibitors, peptide (EK1), anti-inflammatory drugs, abidol, Chinese traditional medicine, such as Lianhuaqingwen and ShuFengJieDu Capsules, could be the promising COVID-19 treatments.2",
+      "key": "233341aa076095596cf61d333412c1d3",
+      "line": 132,
+      "relation": "positiveCorrelation",
+      "source": 30,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "According to WHO guidelines, infected patients will receive supportive care including oxygen therapy, fluid therapy, and antibiotics for treating secondary bacterial infections.",
+      "key": "be826bea0f8c15352acbe7df0b0bd226",
+      "line": 85,
+      "relation": "decreases",
+      "source": 15,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "According to WHO guidelines, infected patients will receive supportive care including oxygen therapy, fluid therapy, and antibiotics for treating secondary bacterial infections.",
+      "key": "f44dbf46735a9ed083ca9650e8060e83",
+      "line": 86,
+      "relation": "association",
+      "source": 32,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "According to WHO guidelines, infected patients will receive supportive care including oxygen therapy, fluid therapy, and antibiotics for treating secondary bacterial infections.",
+      "key": "d8d7476b1ce0eb5d6623ce645ba8c0f4",
+      "line": 87,
+      "relation": "decreases",
+      "source": 14,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "The WHO also recommends the isolation of patients suspected or confirmed for COVID-19.16",
+      "key": "940503c919e0eb1dbd274a812867bfd2",
+      "line": 91,
+      "relation": "decreases",
+      "source": 33,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "The major therapeutic drugs that might be effective in managing COVID-19 include remdesivir, lopinavir/ritonavir alone or in combination with interferon-β, convalescent plasma, and mAbs.17 ",
+      "key": "fd46b8862256906d288be9f61817c239",
+      "line": 95,
+      "relation": "decreases",
+      "source": 10,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "Combination therapy with mAbs and the drug remdesivir could be an ideal therapeutic option for COVID-19",
+      "key": "cf804b60bac7bf9dcea13f60097d2203",
+      "line": 119,
+      "relation": "decreases",
+      "source": 10,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "The major therapeutic drugs that might be effective in managing COVID-19 include remdesivir, lopinavir/ritonavir alone or in combination with interferon-β, convalescent plasma, and mAbs.17 ",
+      "key": "cac98cee829d937862fba11a242798b5",
+      "line": 97,
+      "relation": "decreases",
+      "source": 2,
+      "target": 30
+    },
+    {
+      "key": "28398e61a65fc5dd2d2d19b5f0c1bdfc",
+      "relation": "partOf",
+      "source": 2,
+      "target": 23
+    },
+    {
+      "key": "f18924ce25341d06b4bb377528fcb9a5",
+      "relation": "partOf",
+      "source": 2,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "The major therapeutic drugs that might be effective in managing COVID-19 include remdesivir, lopinavir/ritonavir alone or in combination with interferon-β, convalescent plasma, and mAbs.17 ",
+      "key": "33de7bdb16dfc69983d741e6efea8e06",
+      "line": 98,
+      "relation": "decreases",
+      "source": 3,
+      "target": 30
+    },
+    {
+      "key": "b5ebd3ca4c04cc8bef8141da2f35053f",
+      "relation": "partOf",
+      "source": 3,
+      "target": 23
+    },
+    {
+      "key": "6a69b9c011b905760ffd20c4fc045a23",
+      "relation": "partOf",
+      "source": 3,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "The major therapeutic drugs that might be effective in managing COVID-19 include remdesivir, lopinavir/ritonavir alone or in combination with interferon-β, convalescent plasma, and mAbs.17 ",
+      "key": "9b698160c07326b393cc732e300a27ab",
+      "line": 99,
+      "relation": "decreases",
+      "source": 23,
+      "target": 30
+    },
+    {
+      "key": "72c03576b4c0ea78918dcfd822967397",
+      "relation": "partOf",
+      "source": 28,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHDisease": {
+          "Convalescence": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "The major therapeutic drugs that might be effective in managing COVID-19 include remdesivir, lopinavir/ritonavir alone or in combination with interferon-β, convalescent plasma, and mAbs.17 ",
+      "key": "164979efe5fd59b475d5c2753da7bf2e",
+      "line": 101,
+      "relation": "decreases",
+      "source": 22,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "The S1 subunit has an RBD that interacts with its host cell receptor, angiotensin-converting enzyme 2 (ACE2), whereas the S2 subunit mediates fusion between the virus and host cell membranes for releasing viral RNA into the cytoplasm for replication.19 ",
+      "key": "f9b14160a7be014f91c880c18879a5ae",
+      "line": 106,
+      "relation": "increases",
+      "source": 25,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "The S1 subunit has an RBD that interacts with its host cell receptor, angiotensin-converting enzyme 2 (ACE2), whereas the S2 subunit mediates fusion between the virus and host cell membranes for releasing viral RNA into the cytoplasm for replication.19 ",
+      "key": "58e727ee2bb796bdec45657508abdbf2",
+      "line": 107,
+      "relation": "increases",
+      "source": 25,
+      "target": 13
+    },
+    {
+      "key": "2fac24f2b27106d2c0ea816941980bf5",
+      "relation": "hasVariant",
+      "source": 24,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "The S protein has a major role in the induction of protective immunity during infection with SARS-CoV by eliciting neutralizing-antibodies and T-cell responses.19 ",
+      "key": "e87f6dedd576fc4cc63c58c7bc801f88",
+      "line": 111,
+      "relation": "increases",
+      "source": 24,
+      "target": 18
+    },
+    {
+      "key": "14665e6cce9e8cd7bba8b188cdaad5f8",
+      "relation": "partOf",
+      "source": 4,
+      "target": 20
+    },
+    {
+      "key": "c71dbb188f7b0e5a7c8932ac254f5a1a",
+      "relation": "partOf",
+      "source": 4,
+      "target": 19
+    },
+    {
+      "key": "cff99abf5c2e57ced404ca1f88a8cb43",
+      "relation": "partOf",
+      "source": 27,
+      "target": 20
+    },
+    {
+      "key": "52cb6d8fcf894bbfe8497cecebc5b0d1",
+      "relation": "partOf",
+      "source": 27,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "The interactions between these epitopes and their corresponding MHC class I molecules were studied further by using molecular dynamics simulations and found that the CTL epitopes bind with MHC class I peptide-binding grooves via multiple contacts, thus indicating their potential for generating immune responses.30 ",
+      "key": "03c6ffb324f2d2426341908440efd099",
+      "line": 115,
+      "relation": "increases",
+      "source": 19,
+      "target": 18
+    },
+    {
+      "key": "3dbd9a23ad20ffb99d942da0608495bd",
+      "relation": "partOf",
+      "source": 26,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "The binding of COVID-19 and ACE2 affects the balance of renin–angiotensin system (RAS), potentially leading to exacerbation of severe pneumonia. Thus, it is speculated that ACEI and angiotensin type-1 receptor (AT1R) inhibitors might be able to reduce pulmonary inflammatory responses, thereby reducing the mortality.72",
+      "key": "9e6655010847b52bf13fc880440e093e",
+      "line": 123,
+      "relation": "regulates",
+      "source": 21,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "The binding of COVID-19 and ACE2 affects the balance of renin–angiotensin system (RAS), potentially leading to exacerbation of severe pneumonia. Thus, it is speculated that ACEI and angiotensin type-1 receptor (AT1R) inhibitors might be able to reduce pulmonary inflammatory responses, thereby reducing the mortality.72",
+      "key": "3488e9f30f37f466454de7a9ae496fe2",
+      "line": 124,
+      "relation": "increases",
+      "source": 21,
+      "target": 31
+    },
+    {
+      "key": "9b5e6ebdb508b622c266b4b986bd47ee",
+      "relation": "partOf",
+      "source": 12,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "Furthermore, RNA synthesis inhibitors (like 3TC, TDF), remdesivir, neuraminidase inhibitors, peptide (EK1), anti-inflammatory drugs, abidol, Chinese traditional medicine, such as Lianhuaqingwen and ShuFengJieDu Capsules, could be the promising COVID-19 treatments.2",
+      "key": "c2165f54338f28b2fe5fdd4bb3891a38",
+      "line": 128,
+      "relation": "decreases",
+      "source": 1,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "Furthermore, RNA synthesis inhibitors (like 3TC, TDF), remdesivir, neuraminidase inhibitors, peptide (EK1), anti-inflammatory drugs, abidol, Chinese traditional medicine, such as Lianhuaqingwen and ShuFengJieDu Capsules, could be the promising COVID-19 treatments.2",
+      "key": "a1f36f2c47964f47e1b15a946274f45a",
+      "line": 129,
+      "relation": "decreases",
+      "source": 11,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "Furthermore, RNA synthesis inhibitors (like 3TC, TDF), remdesivir, neuraminidase inhibitors, peptide (EK1), anti-inflammatory drugs, abidol, Chinese traditional medicine, such as Lianhuaqingwen and ShuFengJieDu Capsules, could be the promising COVID-19 treatments.2",
+      "key": "df6c410c1868cdffdfeff0a3766fbd28",
+      "line": 132,
+      "relation": "positiveCorrelation",
+      "source": 29,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "Furthermore, RNA synthesis inhibitors (like 3TC, TDF), remdesivir, neuraminidase inhibitors, peptide (EK1), anti-inflammatory drugs, abidol, Chinese traditional medicine, such as Lianhuaqingwen and ShuFengJieDu Capsules, could be the promising COVID-19 treatments.2",
+      "key": "cb735cae1c0acc27b380812da0a2b10a",
+      "line": 133,
+      "relation": "decreases",
+      "source": 6,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "Furthermore, RNA synthesis inhibitors (like 3TC, TDF), remdesivir, neuraminidase inhibitors, peptide (EK1), anti-inflammatory drugs, abidol, Chinese traditional medicine, such as Lianhuaqingwen and ShuFengJieDu Capsules, could be the promising COVID-19 treatments.2",
+      "key": "cac64a5e191cbe02a6268d05628b4b16",
+      "line": 134,
+      "relation": "decreases",
+      "source": 5,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "Furthermore, RNA synthesis inhibitors (like 3TC, TDF), remdesivir, neuraminidase inhibitors, peptide (EK1), anti-inflammatory drugs, abidol, Chinese traditional medicine, such as Lianhuaqingwen and ShuFengJieDu Capsules, could be the promising COVID-19 treatments.2",
+      "key": "4720800d6e13c2727a22c52587070a88",
+      "line": 135,
+      "relation": "decreases",
+      "source": 8,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "Furthermore, RNA synthesis inhibitors (like 3TC, TDF), remdesivir, neuraminidase inhibitors, peptide (EK1), anti-inflammatory drugs, abidol, Chinese traditional medicine, such as Lianhuaqingwen and ShuFengJieDu Capsules, could be the promising COVID-19 treatments.2",
+      "key": "ca7e7ad32acea38d23c89bd312c8d0c5",
+      "line": 136,
+      "relation": "decreases",
+      "source": 9,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "Furthermore, RNA synthesis inhibitors (like 3TC, TDF), remdesivir, neuraminidase inhibitors, peptide (EK1), anti-inflammatory drugs, abidol, Chinese traditional medicine, such as Lianhuaqingwen and ShuFengJieDu Capsules, could be the promising COVID-19 treatments.2",
+      "key": "3fce6660f91dffc6b3bb33fab1e89d71",
+      "line": 137,
+      "relation": "decreases",
+      "source": 7,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chaicumpa W",
+          "Dadar M",
+          "Dhama K",
+          "Malik YS",
+          "Sharun K",
+          "Singh KP",
+          "Tiwari R"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186952",
+        "db_name": "Human vaccines &amp; immunotherapeutics",
+        "first": "Dhama K",
+        "last": "Chaicumpa W",
+        "pages": "1-7"
+      },
+      "evidence": "Recently, the in vitro antiviral efficacy of approved drugs such as ribavirin, penciclovir, nitazoxanide, nafamostat, and chloroquine was compared with that of the two broad-spectrum antiviral drugs remdesivir and favipiravir for COVID-19. Among the evaluated drugs, both remdesivir and chloroquine were found to be highly effective in controlling COVID-19 in vitro.63 ",
+      "key": "0819e0d910842531e877f56fbb4004b5",
+      "line": 141,
+      "relation": "decreases",
+      "source": 0,
+      "target": 30
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:chloroquine)",
+      "concept": {
+        "name": "chloroquine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "c368fe204031ce23a04cc402914492f6"
+    },
+    {
+      "bel": "a(CHEBI:lamivudine)",
+      "concept": {
+        "name": "lamivudine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "eb5f5e5b9cc517467bd8ca915d9e17e4"
+    },
+    {
+      "bel": "a(CHEBI:lopinavir)",
+      "concept": {
+        "name": "lopinavir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "540f0a29f78ff437222f25e1c2e1b0fd"
+    },
+    {
+      "bel": "a(CHEBI:ritonavir)",
+      "concept": {
+        "name": "ritonavir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "07c1651afef7019b0cb107f1ce5fef12"
+    },
+    {
+      "bel": "a(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Abundance",
+      "id": "1cd7910c5ab81f81c9a15621a913c0bd"
+    },
+    {
+      "bel": "a(DRUGBANK:DB13609)",
+      "concept": {
+        "name": "DB13609",
+        "namespace": "DRUGBANK"
+      },
+      "function": "Abundance",
+      "id": "e104a416a00a5773963f2e23ac09cb92"
+    },
+    {
+      "bel": "a(FIXME:\"peptide EK1\")",
+      "concept": {
+        "name": "peptide EK1",
+        "namespace": "FIXME"
+      },
+      "function": "Abundance",
+      "id": "2935ad72de89b37cdc62fa11ad0ade3d"
+    },
+    {
+      "bel": "a(FIXME:ShuFengJieDu)",
+      "concept": {
+        "name": "ShuFengJieDu",
+        "namespace": "FIXME"
+      },
+      "function": "Abundance",
+      "id": "1e62a15100de1bf2a23d7d3cc0620d32"
+    },
+    {
+      "bel": "a(MESH:\"Medicine, Chinese Traditional\")",
+      "concept": {
+        "name": "Medicine, Chinese Traditional",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "b74a1ebaacfeac828bf9a3a0ec89b5de"
+    },
+    {
+      "bel": "a(MESH:lianhuaqingwen)",
+      "concept": {
+        "name": "lianhuaqingwen",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "70d9e52f7f09c3ab92533dcb103ff895"
+    },
+    {
+      "bel": "a(PUBCHEM:121304016)",
+      "concept": {
+        "name": "121304016",
+        "namespace": "PUBCHEM"
+      },
+      "function": "Abundance",
+      "id": "7704f9ea62204912dace9e0cfb704c95"
+    },
+    {
+      "bel": "a(PUBCHEM:64987)",
+      "concept": {
+        "name": "64987",
+        "namespace": "PUBCHEM"
+      },
+      "function": "Abundance",
+      "id": "9697fb63e19113e7dd60c1e627fd72ba"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "bp(GO:\"intracellular transport of virus\")",
+      "concept": {
+        "name": "intracellular transport of virus",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "624c4306cfc1dc32a26861deb0776151"
+    },
+    {
+      "bel": "bp(GO:\"response to antibiotic\")",
+      "concept": {
+        "name": "response to antibiotic",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "51e6f72ad73b47a927cb1941037385c4"
+    },
+    {
+      "bel": "bp(MESH:\"Fluid Therapy\")",
+      "concept": {
+        "name": "Fluid Therapy",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "d3561230ae56efc66dceba883384d8a6"
+    },
+    {
+      "bel": "bp(MESH:\"Oxygen Inhalation Therapy\")",
+      "concept": {
+        "name": "Oxygen Inhalation Therapy",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "385500825a3d4b39ec1414366a099975"
+    },
+    {
+      "bel": "bp(MESH:\"Renin-Angiotensin System\")",
+      "concept": {
+        "name": "Renin-Angiotensin System",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "f80fbf58ffc396be8b673c9ad4850284"
+    },
+    {
+      "bel": "bp(MESH:Immunity)",
+      "concept": {
+        "name": "Immunity",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "9e0bf623f2590a960b619d224ef1381a"
+    },
+    {
+      "bel": "complex(a(COVID:S), p(GO:\"MHC class I protein complex\"))",
+      "function": "Complex",
+      "id": "3506a5268cd9fe938f2f816b002b5af5",
+      "members": [
+        {
+          "bel": "a(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Abundance",
+          "id": "1cd7910c5ab81f81c9a15621a913c0bd"
+        },
+        {
+          "bel": "p(GO:\"MHC class I protein complex\")",
+          "concept": {
+            "name": "MHC class I protein complex",
+            "namespace": "GO"
+          },
+          "function": "Protein",
+          "id": "b2a73521660f4439b0a8c45ba5eb4dc3"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(COVID:S), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "0f4ebebda46021e4bab29748331ab187",
+      "members": [
+        {
+          "bel": "a(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Abundance",
+          "id": "1cd7910c5ab81f81c9a15621a913c0bd"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(TAX:\"Severe acute respiratory syndrome coronavirus 2\"), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "146428e3b0f07633969567cac441971e",
+      "members": [
+        {
+          "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+          "concept": {
+            "name": "Severe acute respiratory syndrome coronavirus 2",
+            "namespace": "TAX"
+          },
+          "function": "Abundance",
+          "id": "c41851da59cc36c21b2e8acf24c1f46d"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "composite(a(CHEBI:lopinavir), a(CHEBI:ritonavir))",
+      "function": "Composite",
+      "id": "604986238aca313adcc37629dfa6e61a",
+      "members": [
+        {
+          "bel": "a(CHEBI:lopinavir)",
+          "concept": {
+            "name": "lopinavir",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "540f0a29f78ff437222f25e1c2e1b0fd"
+        },
+        {
+          "bel": "a(CHEBI:ritonavir)",
+          "concept": {
+            "name": "ritonavir",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "07c1651afef7019b0cb107f1ce5fef12"
+        }
+      ]
+    },
+    {
+      "bel": "composite(a(CHEBI:lopinavir), a(CHEBI:ritonavir), p(HGNC:IFNB1))",
+      "function": "Composite",
+      "id": "10ee6b4f9c3df1fea4db3315ff716b54",
+      "members": [
+        {
+          "bel": "a(CHEBI:lopinavir)",
+          "concept": {
+            "name": "lopinavir",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "540f0a29f78ff437222f25e1c2e1b0fd"
+        },
+        {
+          "bel": "a(CHEBI:ritonavir)",
+          "concept": {
+            "name": "ritonavir",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "07c1651afef7019b0cb107f1ce5fef12"
+        },
+        {
+          "bel": "p(HGNC:IFNB1)",
+          "concept": {
+            "name": "IFNB1",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "187da957c4e0c092e01fc85dd9da5fa4"
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(COVID:S, frag(\"?\"))",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "a4ea879b1d193de79d75f4ce77b539a5",
+      "variants": [
+        {
+          "kind": "frag",
+          "missing": "?"
+        }
+      ]
+    },
+    {
+      "bel": "p(GO:\"MHC class I protein complex\")",
+      "concept": {
+        "name": "MHC class I protein complex",
+        "namespace": "GO"
+      },
+      "function": "Protein",
+      "id": "b2a73521660f4439b0a8c45ba5eb4dc3"
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "p(HGNC:IFNB1)",
+      "concept": {
+        "name": "IFNB1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "187da957c4e0c092e01fc85dd9da5fa4"
+    },
+    {
+      "bel": "p(HGNC:NEU1)",
+      "concept": {
+        "name": "NEU1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "5dde1ecb95d48f27b5a899e1bec813d7"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:pneumonia)",
+      "concept": {
+        "name": "pneumonia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "274776fc664e9bfd9c191cca80623b0d"
+    },
+    {
+      "bel": "path(MESH:\"Bacterial Infections\")",
+      "concept": {
+        "name": "Bacterial Infections",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "99f1b853c8cfad351f262aee74a3716a"
+    },
+    {
+      "bel": "path(MESH:\"Social Isolation\")",
+      "concept": {
+        "name": "Social Isolation",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "6996cbe11809781667ce8f4dba02974e"
+    }
+  ]
+}

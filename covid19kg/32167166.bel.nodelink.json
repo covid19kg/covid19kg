@@ -1,0 +1,953 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Species": [
+        "2697049"
+      ],
+      "PublicationStatus": [
+        "Preprint"
+      ],
+      "PublicationType": [
+        "Short Communication"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Geena Mariya Jose",
+      "contact": "geena.mariya.jose@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32167166.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32167166.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "BioAssay": {
+          "computational phylogenetic analysis": true
+        },
+        "Custom_Species": {
+          "2697049": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Short Communication": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Centeno-Leija S",
+          "Cárdenas-Conejo Y",
+          "García-Rodríguez DA",
+          "Liñan-Rico A",
+          "Serrano-Posada H"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167166",
+        "db_name": "Journal of medical virology",
+        "first": "Cárdenas-Conejo Y",
+        "last": "Serrano-Posada H"
+      },
+      "evidence": "The analysis displayed that most pp1ab proteins have not changed; only six amino acid changes were detected (Table S2).",
+      "key": "34307a8bb766b69295a68b408ece34aa",
+      "line": 50,
+      "relation": "association",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "key": "cdd8216f99869725a05888fb828831c5",
+      "relation": "hasVariant",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "key": "8034fd36b0df47b80f58e341fef46c86",
+      "relation": "hasVariant",
+      "source": 4,
+      "target": 11
+    },
+    {
+      "key": "804dd73ad7e02425b5852804f333dc28",
+      "relation": "hasVariant",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "computational phylogenetic analysis": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Short Communication": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Centeno-Leija S",
+          "Cárdenas-Conejo Y",
+          "García-Rodríguez DA",
+          "Liñan-Rico A",
+          "Serrano-Posada H"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167166",
+        "db_name": "Journal of medical virology",
+        "first": "Cárdenas-Conejo Y",
+        "last": "Serrano-Posada H"
+      },
+      "evidence": "One of these mutations(L3606F), placed in the position 37 of nsp6 protein (L37F), is shared by ten sequences from viruses isolated in China, USA,France, Hong Kong, Italy, and Singapore (Table S2).",
+      "key": "03b298fcb2a628b69a3e888694576937",
+      "line": 57,
+      "relation": "association",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "key": "b7d33677a9029d0ceee889cfe902d83a",
+      "relation": "hasVariant",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "key": "9752f7d7f0749c905fbc36e6b8af3d5b",
+      "relation": "hasVariant",
+      "source": 4,
+      "target": 6
+    },
+    {
+      "key": "36466a740fc7d43be34bd93e47f374cc",
+      "relation": "hasVariant",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "key": "135660f3d3b6f76ae5fe8bfa381b7f8b",
+      "relation": "hasVariant",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "computational phylogenetic analysis": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Short Communication": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Centeno-Leija S",
+          "Cárdenas-Conejo Y",
+          "García-Rodríguez DA",
+          "Liñan-Rico A",
+          "Serrano-Posada H"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167166",
+        "db_name": "Journal of medical virology",
+        "first": "Cárdenas-Conejo Y",
+        "last": "Serrano-Posada H"
+      },
+      "evidence": "Interestingly, a virus isolated from a Japanese male (GISAID:EPI_ISL_407084), with no critical pneumonia (patient status described in GISAID database), has eight deleted amino acids at position 32 to 39 aa of pp1ab (nsp1) (Table S2).",
+      "key": "6a3f122b20775b5048b0d4b9ba1a86a2",
+      "line": 69,
+      "relation": "association",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "computational phylogenetic analysis": true
+        },
+        "Custom_Species": {
+          "2697049": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Short Communication": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Centeno-Leija S",
+          "Cárdenas-Conejo Y",
+          "García-Rodríguez DA",
+          "Liñan-Rico A",
+          "Serrano-Posada H"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167166",
+        "db_name": "Journal of medical virology",
+        "first": "Cárdenas-Conejo Y",
+        "last": "Serrano-Posada H"
+      },
+      "evidence": "The analysis displayed that most pp1ab proteins have not changed; only six amino acid changes were detected (Table S2).",
+      "key": "f4c0214c71ab5a77e1d25c717deaa69c",
+      "line": 50,
+      "relation": "association",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "computational phylogenetic analysis": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Short Communication": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Centeno-Leija S",
+          "Cárdenas-Conejo Y",
+          "García-Rodríguez DA",
+          "Liñan-Rico A",
+          "Serrano-Posada H"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167166",
+        "db_name": "Journal of medical virology",
+        "first": "Cárdenas-Conejo Y",
+        "last": "Serrano-Posada H"
+      },
+      "evidence": "One of these mutations(L3606F), placed in the position 37 of nsp6 protein (L37F), is shared by ten sequences from viruses isolated in China, USA,France, Hong Kong, Italy, and Singapore (Table S2).",
+      "key": "48a7de6d224e83b242d2c1c7edadf667",
+      "line": 56,
+      "relation": "association",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "computational phylogenetic analysis": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Short Communication": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Centeno-Leija S",
+          "Cárdenas-Conejo Y",
+          "García-Rodríguez DA",
+          "Liñan-Rico A",
+          "Serrano-Posada H"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167166",
+        "db_name": "Journal of medical virology",
+        "first": "Cárdenas-Conejo Y",
+        "last": "Serrano-Posada H"
+      },
+      "evidence": "Interestingly, a virus isolated from a Japanese male (GISAID:EPI_ISL_407084), with no critical pneumonia (patient status described in GISAID database), has eight deleted amino acids at position 32 to 39 aa of pp1ab (nsp1) (Table S2).",
+      "key": "84f286dd073df4d3519d535b9b5ed8c3",
+      "line": 68,
+      "relation": "association",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "computational phylogenetic analysis": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Short Communication": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Centeno-Leija S",
+          "Cárdenas-Conejo Y",
+          "García-Rodríguez DA",
+          "Liñan-Rico A",
+          "Serrano-Posada H"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167166",
+        "db_name": "Journal of medical virology",
+        "first": "Cárdenas-Conejo Y",
+        "last": "Serrano-Posada H"
+      },
+      "evidence": "One of these mutations(L3606F), placed in the position 37 of nsp6 protein (L37F), is shared by ten sequences from viruses isolated in China, USA,France, Hong Kong, Italy, and Singapore (Table S2).",
+      "key": "abda0c367625ee3c0e85b29ecbeae3fb",
+      "line": 55,
+      "relation": "increases",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "computational phylogenetic analysis": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Short Communication": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Centeno-Leija S",
+          "Cárdenas-Conejo Y",
+          "García-Rodríguez DA",
+          "Liñan-Rico A",
+          "Serrano-Posada H"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167166",
+        "db_name": "Journal of medical virology",
+        "first": "Cárdenas-Conejo Y",
+        "last": "Serrano-Posada H"
+      },
+      "evidence": "First reports focused on the genetic characterization of SARS-CoV-2 suggested that this virus has a recombinant origin.2",
+      "key": "b6d97c57d013e71f45dbc406be42176d",
+      "line": 76,
+      "relation": "isA",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "computational phylogenetic analysis": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Short Communication": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Centeno-Leija S",
+          "Cárdenas-Conejo Y",
+          "García-Rodríguez DA",
+          "Liñan-Rico A",
+          "Serrano-Posada H"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167166",
+        "db_name": "Journal of medical virology",
+        "first": "Cárdenas-Conejo Y",
+        "last": "Serrano-Posada H"
+      },
+      "evidence": "One of these mutations(L3606F), placed in the position 37 of nsp6 protein (L37F), is shared by ten sequences from viruses isolated in China, USA,France, Hong Kong, Italy, and Singapore (Table S2).",
+      "key": "8414da36a76b09d73ff3e187dacf05c0",
+      "line": 56,
+      "relation": "association",
+      "source": 11,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "computational phylogenetic analysis": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Short Communication": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Centeno-Leija S",
+          "Cárdenas-Conejo Y",
+          "García-Rodríguez DA",
+          "Liñan-Rico A",
+          "Serrano-Posada H"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167166",
+        "db_name": "Journal of medical virology",
+        "first": "Cárdenas-Conejo Y",
+        "last": "Serrano-Posada H"
+      },
+      "evidence": "One of these mutations(L3606F), placed in the position 37 of nsp6 protein (L37F), is shared by ten sequences from viruses isolated in China, USA,France, Hong Kong, Italy, and Singapore (Table S2).",
+      "key": "0bd6fb7389bcfbdc11dba6b3f36d5d1f",
+      "line": 57,
+      "relation": "association",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "computational phylogenetic analysis": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Short Communication": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Centeno-Leija S",
+          "Cárdenas-Conejo Y",
+          "García-Rodríguez DA",
+          "Liñan-Rico A",
+          "Serrano-Posada H"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167166",
+        "db_name": "Journal of medical virology",
+        "first": "Cárdenas-Conejo Y",
+        "last": "Serrano-Posada H"
+      },
+      "evidence": "Coronavirus nsp6 is a transmembrane protein that is associated with nsp3 and nsp4 proteins to form the organelle-like replicative structures(double -membrane vesicles).",
+      "key": "470311c34d74d7220f2ed87c8305627e",
+      "line": 62,
+      "relation": "isA",
+      "source": 7,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "computational phylogenetic analysis": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Short Communication": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Centeno-Leija S",
+          "Cárdenas-Conejo Y",
+          "García-Rodríguez DA",
+          "Liñan-Rico A",
+          "Serrano-Posada H"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167166",
+        "db_name": "Journal of medical virology",
+        "first": "Cárdenas-Conejo Y",
+        "last": "Serrano-Posada H"
+      },
+      "evidence": "Coronavirus nsp6 is a transmembrane protein that is associated with nsp3 and nsp4 proteins to form the organelle-like replicative structures(double -membrane vesicles).",
+      "key": "c8345a6a2069707107ccde94e84d69aa",
+      "line": 63,
+      "relation": "association",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "computational phylogenetic analysis": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Short Communication": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Centeno-Leija S",
+          "Cárdenas-Conejo Y",
+          "García-Rodríguez DA",
+          "Liñan-Rico A",
+          "Serrano-Posada H"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167166",
+        "db_name": "Journal of medical virology",
+        "first": "Cárdenas-Conejo Y",
+        "last": "Serrano-Posada H"
+      },
+      "evidence": "Coronavirus nsp6 is a transmembrane protein that is associated with nsp3 and nsp4 proteins to form the organelle-like replicative structures(double -membrane vesicles).",
+      "key": "6e88b799c9aa9045c16e28bb48f17bc1",
+      "line": 64,
+      "relation": "association",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "computational phylogenetic analysis": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Short Communication": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Centeno-Leija S",
+          "Cárdenas-Conejo Y",
+          "García-Rodríguez DA",
+          "Liñan-Rico A",
+          "Serrano-Posada H"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167166",
+        "db_name": "Journal of medical virology",
+        "first": "Cárdenas-Conejo Y",
+        "last": "Serrano-Posada H"
+      },
+      "evidence": "Coronavirus nsp6 is a transmembrane protein that is associated with nsp3 and nsp4 proteins to form the organelle-like replicative structures(double -membrane vesicles).",
+      "key": "dd4dec451bbd983adef69dc6956f52da",
+      "line": 63,
+      "relation": "association",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "computational phylogenetic analysis": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Short Communication": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Centeno-Leija S",
+          "Cárdenas-Conejo Y",
+          "García-Rodríguez DA",
+          "Liñan-Rico A",
+          "Serrano-Posada H"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167166",
+        "db_name": "Journal of medical virology",
+        "first": "Cárdenas-Conejo Y",
+        "last": "Serrano-Posada H"
+      },
+      "evidence": "Coronavirus nsp6 is a transmembrane protein that is associated with nsp3 and nsp4 proteins to form the organelle-like replicative structures(double -membrane vesicles).",
+      "key": "c21c6ebe760956bea1f13d25b1932d31",
+      "line": 64,
+      "relation": "association",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "computational phylogenetic analysis": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Short Communication": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Centeno-Leija S",
+          "Cárdenas-Conejo Y",
+          "García-Rodríguez DA",
+          "Liñan-Rico A",
+          "Serrano-Posada H"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167166",
+        "db_name": "Journal of medical virology",
+        "first": "Cárdenas-Conejo Y",
+        "last": "Serrano-Posada H"
+      },
+      "evidence": "Interestingly, a virus isolated from a Japanese male (GISAID:EPI_ISL_407084), with no critical pneumonia (patient status described in GISAID database), has eight deleted amino acids at position 32 to 39 aa of pp1ab (nsp1) (Table S2).",
+      "key": "3b19d4dca1f26475046ed3978a7558c5",
+      "line": 68,
+      "relation": "association",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "computational phylogenetic analysis": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Short Communication": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Centeno-Leija S",
+          "Cárdenas-Conejo Y",
+          "García-Rodríguez DA",
+          "Liñan-Rico A",
+          "Serrano-Posada H"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167166",
+        "db_name": "Journal of medical virology",
+        "first": "Cárdenas-Conejo Y",
+        "last": "Serrano-Posada H"
+      },
+      "evidence": "Interestingly, a virus isolated from a Japanese male (GISAID:EPI_ISL_407084), with no critical pneumonia (patient status described in GISAID database), has eight deleted amino acids at position 32 to 39 aa of pp1ab (nsp1) (Table S2).",
+      "key": "c1400eeadccce61c93fc416f4e188864",
+      "line": 69,
+      "relation": "association",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "computational phylogenetic analysis": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Short Communication": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Centeno-Leija S",
+          "Cárdenas-Conejo Y",
+          "García-Rodríguez DA",
+          "Liñan-Rico A",
+          "Serrano-Posada H"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32167166",
+        "db_name": "Journal of medical virology",
+        "first": "Cárdenas-Conejo Y",
+        "last": "Serrano-Posada H"
+      },
+      "evidence": "Since nsp1 is avirulence factor that inhibits host gene expression,10 the implications of this deletion are worth to be addressed.",
+      "key": "6b33911be06f713299c7f814d54821cf",
+      "line": 74,
+      "relation": "increases",
+      "source": 5,
+      "target": 3
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(MESH:\"Membrane Proteins\")",
+      "concept": {
+        "name": "Membrane Proteins",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "8ea9080da3d565ba6d78d31dfd1801af"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "a(TAX:\"recombinant coronavirus\")",
+      "concept": {
+        "name": "recombinant coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "27ba48e807501c86b25acb2e6ddc677d"
+    },
+    {
+      "bel": "bp(GO:\"suppression by virus of host gene expression\")",
+      "concept": {
+        "name": "suppression by virus of host gene expression",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "eded8edc42018e187a60fae808871ab6"
+    },
+    {
+      "bel": "p(COVID:ORF1ab)",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "3e2ae75f3061012cb65ea6b97f7db096"
+    },
+    {
+      "bel": "p(COVID:ORF1ab, frag(\"1_180\"))",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "5649bb044b1b2a7eb7099e9405dea9c7",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 1,
+          "stop": 180
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:ORF1ab, frag(\"2764_3263\"))",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "3c11b8e2168768c2027e047c0b6ff5ef",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 2764,
+          "stop": 3263
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:ORF1ab, frag(\"3570_3859\"))",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "b898f081d3653b5f6c86e80695f3104f",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 3570,
+          "stop": 3859
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:ORF1ab, frag(\"819_2763\"))",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "598b8d5f87bf878c033f8fe9152ffb2b",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 819,
+          "stop": 2763
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:ORF1ab, var(\"?\"))",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "220d1ceeaad60fdac8025de739a418f7",
+      "variants": [
+        {
+          "hgvs": "?",
+          "kind": "hgvs"
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:ORF1ab, var(\"p.32_39del\"))",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "c63e28833101701872554ca603481db0",
+      "variants": [
+        {
+          "hgvs": "p.32_39del",
+          "kind": "hgvs"
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:ORF1ab, var(\"p.Leu3606Phe\"))",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "5714bfb1b60919323d253b66598347ff",
+      "variants": [
+        {
+          "hgvs": "p.Leu3606Phe",
+          "kind": "hgvs"
+        }
+      ]
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    }
+  ]
+}

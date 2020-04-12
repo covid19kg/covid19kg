@@ -1,0 +1,175 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Pizzorno_et.al_2020.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+DEFINE ANNOTATION Timeline AS LIST {"24 hours post infection","48 hours post infection","48-72 hours post infection","96 hours post infection"}
+DEFINE ANNOTATION Sample AS LIST {"basal medium"}
+DEFINE ANNOTATION Custom_CellLine AS LIST {"Vero E6 cell"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"DOI","10.1101/2020.03.31.017889"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Full Text"
+
+SET Evidence = "SARS-CoV-2 viral production at the epithelial apical surface increased sharply at 48 hpi, reaching 5.8 and 6.3 log10 TCID50/mL in nasal and bronchial HAE, respectively. The peak of viral replication was reached earlier in bronchial (48-72 hpi) than in nasal HAE, in which a progressive increase in infectious viral titers was observed until at least 96 hpi (Fig. 1D)."
+
+SET Species = "9606"
+SET Cell = "bronchial epithelial cell"
+SET Timeline = "48-72 hours post infection"
+path(DO:"COVID-19") pos a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Timeline
+UNSET Cell
+SET Cell = "nasopharyngeal epithelial cell"
+SET Timeline = "96 hours post infection"
+path(DO:"COVID-19") pos a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Timeline
+UNSET Cell
+
+SET Evidence = "High viral replication correlated with a reduction in epithelium integrity at 48 hpi, reflected by more than 2.8- and 4-fold decreases in bronchial and nasal HAE TEER values, respectively, followed by a partial recovery in the case of bronchial HAE (Fig. 1E)."
+
+SET Cell = {"bronchial epithelial cell","nasopharyngeal epithelial cell"}
+SET Timeline = "48 hours post infection"
+path(DO:"COVID-19") -| bp(GO:"epithelial structure maintenance")
+UNSET Timeline
+UNSET Cell
+
+SET Evidence = "Interestingly, viral genome was detected in the basal medium from 48 hpi, with the peak observed at 72 hpi (Fig. 1H) coinciding with the highest impact of SARS-CoV-2 infection on epithelium integrity."
+
+SET Sample = "basal medium"
+SET Timeline = "48 hours post infection"
+path(DO:"COVID-19") -> a(GO:"RNA viral genome")
+a(GO:"RNA viral genome") -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Timeline
+UNSET Sample
+
+SET Evidence = "At 48 hpi, both HAE exhibited a well-established infection, with ciliated, goblet and to a lesser extent basal cells showing active production of viral progeny."
+
+SET Cell = {"bronchial epithelial cell","nasopharyngeal epithelial cell"}
+SET Timeline = "48 hours post infection"
+path(DO:"COVID-19") -> path(HP:"ciliated cell")
+path(DO:"COVID-19") -> bp(MESH:"Virus Replication")
+bp(MESH:"Virus Replication") -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Timeline
+UNSET Cell
+
+SET Evidence = "Large electron-dense structures corresponding to the accumulation of viral material in active virus replication zones as well as typical double-membrane spherules containing pieces of membranes interspaced among virions being formed were also observed at 48 hpi (Fig. 2B, D)."
+
+SET Timeline = "48 hours post infection"
+path(DO:"COVID-19") -> bp(MESH:"Virus Replication")
+path(DO:"COVID-19") -> a(GO:"double membrane vesicle viral factory")
+UNSET Timeline
+
+SET Evidence = "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi."
+
+SET Timeline = "24 hours post infection"
+SET Cell = "nasopharyngeal epithelial cell"
+path(DO:"COVID-19") pos r(HGNC:IFNB1)
+path(DO:"COVID-19") pos r(HGNC:IFNL1)
+path(DO:"COVID-19") pos r(HGNC:IFNL2)
+path(DO:"COVID-19") pos r(HGNC:IFNL3)
+path(DO:"COVID-19") pos r(HGNC:IFNL4)
+UNSET Cell
+SET Cell = "bronchial epithelial cell"
+path(DO:"COVID-19") pos r(HGNC:CXCL10)
+path(DO:"COVID-19") pos r(HGNC:CXCL2)
+path(DO:"COVID-19") pos r(HGNC:IL1A)
+path(DO:"COVID-19") pos r(HGNC:IL1B)
+path(DO:"COVID-19") pos r(HGNC:MX1)
+path(DO:"COVID-19") pos r(HGNC:ZBP1)
+UNSET Timeline
+SET Timeline = "96 hours post infection"
+path(DO:"COVID-19") neg r(HGNC:IFNB1)
+path(DO:"COVID-19") neg r(HGNC:IFNL1)
+path(DO:"COVID-19") neg r(HGNC:CCL2)
+path(DO:"COVID-19") neg r(HGNC:IL6)
+UNSET Cell
+UNSET Timeline
+
+SET Evidence = "Moreover, the relative expression of a subset of genes associated with the NF-kB and TNFα pathways (e.g. IL18, IL18R1, NFKB2, NFKBIA, TNFA, and TNFAIP3) is mostly unchanged all throughout the infection in bronchial HAE but it is highly upregulated in nasal HAE at 48 hpi and onwards (Fig. 3C and Data S1)."
+
+SET Cell = "nasopharyngeal epithelial cell"
+SET Timeline = "48 hours post infection"
+path(DO:"COVID-19") pos r(HGNC:IL18)
+path(DO:"COVID-19") pos r(HGNC:IL18R1)
+path(DO:"COVID-19") pos r(HGNC:NFKB2)
+path(DO:"COVID-19") pos r(HGNC:TNF)
+path(DO:"COVID-19") pos r(HGNC:TNFAIP3)
+UNSET Timeline
+UNSET Cell
+
+SET Evidence = "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8)."
+
+a(CHEBI:diltiazem) isA a(CHEBI:"calcium channel blocker")
+a(CHEBI:diltiazem) isA a(CHEBI:"antihypertensive agent")
+a(CHEBI:diltiazem) -| path(MESH:"Angina Pectoris")
+a(CHEBI:diltiazem) -| path(MESH:"Arrhythmias, Cardiac")
+a(CHEBI:diltiazem) -> p(HGNC:IFNB1)
+a(CHEBI:diltiazem) -> p(HGNC:IFNL1)
+a(CHEBI:diltiazem) -> p(HGNC:IFNL2)
+a(CHEBI:diltiazem) -> p(HGNC:IFNL3)
+a(CHEBI:diltiazem) -> p(HGNC:IFNL4)
+p(HGNC:IFNB1) neg path(DO:"COVID-19")
+p(HGNC:IFNL1) neg path(DO:"COVID-19")
+p(HGNC:IFNL2) neg path(DO:"COVID-19")
+p(HGNC:IFNL3) neg path(DO:"COVID-19")
+p(HGNC:IFNL4) neg path(DO:"COVID-19")
+
+SET Evidence = "Figure 4A-C shows a very strong antiviral effect of post-infection treatment with remdesivir in VeroE6 cells, with 50% inhibitory concentration (IC50) values of 0.98 ± 0.07 µM at 180 48 hpi and 0.72 ± 0.03 µM at 72 hpi."
+
+SET Custom_CellLine = "Vero E6 cell"
+a(PUBCHEM:121304016) -| path(DO:"COVID-19")
+UNSET Custom_CellLine
+
+SET Evidence = "Nonetheless, addition of 11.5 µM diltiazem significantly potentiated the antiviral effect of remdesivir (Fig. 4A-C), inducing 68% and 50% reductions in remdesivir IC50 values at 48 and 72 hpi, respectively."
+
+composite(a(CHEBI:diltiazem),a(PUBCHEM:121304016)) -| path(DO:"COVID-19")
+
+SET Evidence = "On top of that, we observed an additional 1.3 log10 reduction in nasal HAE viral titers for the remdesivir-diltiazem combination when compared with remdesivir monotherapy."
+
+SET Cell = "nasopharyngeal epithelial cell"
+composite(a(CHEBI:diltiazem),a(PUBCHEM:121304016)) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Cell
+
+SET Evidence = "In all cases, the antiviral effects induced by remdesivir, diltiazem or the remdesivir-diltiazem combination translated into a protection of the nasal but not the bronchial HAE barrier integrity, preventing the drop on TEER values induced by the infection (Fig. 4D, lower panel). Importantly, remdesivir also showed a strong antiviral effect at 72 hpi (Fig. 4E, upper panel)."
+
+SET Cell = "nasopharyngeal epithelial cell"
+composite(a(CHEBI:diltiazem),a(PUBCHEM:121304016)) -| path(DO:"COVID-19")
+UNSET Cell
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

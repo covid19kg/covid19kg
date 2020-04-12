@@ -1,0 +1,251 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "PMID_32171740"
+SET DOCUMENT Authors = "Yojana Gadiya"
+SET DOCUMENT ContactInfo = "yojana.gadiya@scai.fraunhofer.de"
+SET DOCUMENT Description = "New Insights on the Antiviral Effects of Chloroquine Against \
+Coronavirus: What to Expect for COVID-19?"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+# DEFINE NAMESPACE CONSO          AS URL "https://raw.githubusercontent.com/pharmacome/conso/3c93a65dc48e6786fe29ae55aa36cf9a902fe8c6/export/conso-names.belns"
+# DEFINE NAMESPACE ECCODE         AS URL "https://raw.githubusercontent.com/pharmacome/conso/c328ad964c08967a0417a887510b97b965a62fa5/external/ec-code.belns"
+# DEFINE NAMESPACE EFO            AS URL "https://raw.githubusercontent.com/pharmacome/conso/5d2c2ea6f7112421cc8089a3f021a75ab60bb373/external/efo-names.belns"
+# DEFINE NAMESPACE FB             AS URL "https://raw.githubusercontent.com/pharmacome/conso/c328ad964c08967a0417a887510b97b965a62fa5/external/fb-names.belns"
+# DEFINE NAMESPACE MIRBASE        AS URL "https://raw.githubusercontent.com/pharmacome/conso/c328ad964c08967a0417a887510b97b965a62fa5/external/mirbase-names.belns"
+
+# DEFINE NAMESPACE ADO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/alzheimer-disease-ontology/alzheimer-disease-ontology-1.0.2.belns"
+# DEFINE NAMESPACE BRCO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/brain-region-ontology/brain-region-ontology-1.0.0.belns"
+# DEFINE NAMESPACE NIFT AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/nift/NIFT.belns"
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+# DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+# DEFINE NAMESPACE RGD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/rgd-rat-genes/rgd-rat-genes-20190128.belns"
+DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+# DEFINE NAMESPACE SCOMP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-named-complexes/selventa-named-complexes-20190128.belns"
+# DEFINE NAMESPACE SFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-protein-families/selventa-protein-families-20190128.belns"
+# DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+# DEFINE NAMESPACE DRUGBANK AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns"
+# DEFINE NAMESPACE INTERPRO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/interpro/interpro-names-20181021.belns"
+# DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE GOBP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns"
+DEFINE NAMESPACE GOCC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20190128.belns"
+
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+# DEFINE NAMESPACE MESHC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-chemicals/mesh-chemicals-20190128.belns"
+# DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20190128.belns"
+# DEFINE NAMESPACE MESHPP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-processes/mesh-processes-20190128.belns"
+# DEFINE NAMESPACE MESHA AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-anatomy/mesh-anatomy-20190128.belns"
+# DEFINE NAMESPACE MESHCS AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-cellular-structures/mesh-cellular-structures-20190128.belns"
+# DEFINE NAMESPACE NCBITAXON AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+# DEFINE NAMESPACE FPLX           AS URL "https://raw.githubusercontent.com/sorgerlab/famplex/d9ec0526c20795146a9a6aef17496efe1a36cac6/export/famplex.belns"
+
+DEFINE NAMESPACE NCBIGENE AS PATTERN ".*"
+# DEFINE NAMESPACE TAXONOMY       AS PATTERN "^\d+$"
+# DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+# DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+# DEFINE NAMESPACE dbSNP AS PATTERN "rs[0-9]+"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+# DEFINE ANNOTATION Anatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno"
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+# DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+DEFINE ANNOTATION Disease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/disease/disease-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+# DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+# DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+# DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+# DEFINE ANNOTATION CellStructure AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-structure/cell-structure-20170511.belanno"
+# DEFINE ANNOTATION Confidence    AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/confidence/confidence-1.0.0.belanno"
+# DEFINE ANNOTATION Gender        AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/gender/gender-1.0.0.belanno"
+
+# --------------------------------------------------------------------------------
+
+################################################################################
+#| Annotations
+################################################################################
+
+# Locally Defined Annotations
+# ---------------------------
+
+DEFINE ANNOTATION CellCulture AS LIST {"HCoV-O43", "U937"}
+
+################################################################################
+
+# Statements #
+################################################################################
+
+SET Citation = {"PubMed", "32171740"}
+
+SET Evidence = "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41]."
+act(a(CHEBI:chloroquine)) -| a(MESH:"Rabies virus")
+act(a(CHEBI:chloroquine)) -| a(MESH:Poliovirus)
+act(a(CHEBI:chloroquine)) -| a(MESH:HIV)
+act(a(CHEBI:chloroquine)) -| a(MESH:"Hepatitis A Virus, Human")
+act(a(CHEBI:chloroquine)) -| a(MESH:Hepacivirus)
+act(a(CHEBI:chloroquine)) -| path(MESH:"Influenza, Human")
+act(a(CHEBI:chloroquine)) -| a(MESH:"Influenza B virus")
+act(a(CHEBI:chloroquine)) -| a(MESH:"Influenza A Virus, H5N1 Subtype")
+act(a(CHEBI:chloroquine)) -| a(MESH:"Chikungunya virus")
+act(a(CHEBI:chloroquine)) -| a(MESH:"Dengue Virus")
+act(a(CHEBI:chloroquine)) -| a(MESH:"Zika Virus")
+act(a(CHEBI:chloroquine)) -| a(MESH:"Lassa virus")
+act(a(CHEBI:chloroquine)) -| a(MESH:"Hendra Virus")
+act(a(CHEBI:chloroquine)) -| a(MESH:"Nipah Virus")
+act(a(CHEBI:chloroquine)) -| a(MESH:"Hemorrhagic Fever Virus, Crimean-Congo")
+act(a(CHEBI:chloroquine)) -| a(MESH:Ebolavirus)
+act(a(CHEBI:chloroquine)) -| a(MESH:"Hepatitis B virus")
+act(a(CHEBI:chloroquine)) -| a(MESH:Simplexvirus)
+
+SET Evidence = "Although the long use of this drug in malaria therapy demonstrates the safety of acute chloroquine administration to humans, one cannot ignore the minor risk of macular retinopathy, which depends on the cumulative dose [52], and the existence of some reports on cardiomyopathy as a severe adverse effect caused by chloroquine [53,54]."
+a(CHEBI:chloroquine) -> path(DO:"macular retinal edema")
+a(CHEBI:chloroquine) -> path(DO:cardiomyopathy)
+
+SET Evidence = "Chloroquine can inhibit a pre-entry step of the viral cycle by interfering with viral particles binding to their cellular cell surface receptor."
+a(CHEBI:chloroquine) -| bp(GOBP:"viral entry into host cell")
+
+
+SET Evidence = "Chloroquine was shown to inhibit quinone reductase 2 [56], a structural neighbour of UDP-N-acetylglucosamine 2-epimerases [57] that are involved in the biosynthesis of sialic acids. The sialic acids are acidic monosaccharides found at the extremity of sugar chains present on cell transmembrane proteins and are critical components of ligand recognition. The possible interference of chloroquine with sialic acid biosynthesis could account for the broad antiviral spectrum of that drug since viruses such as the human coronavirus HCoV-O43 and the orthomyxoviruses use sialic acid moieties as receptors [58]."
+SET CellCulture = "HCoV-O43"
+a(CHEBI:chloroquine) -| p(HGNC:NQO2)
+p(HGNC:NQO2) -> a(CHEBI:"sialic acid")
+a(CHEBI:"sialic acid") -- bp(GO:"entry receptor-mediated virion attachment to host cell")
+composite(a(MESH:Orthomyxoviridae),a(CHEBI:"sialic acid")) -> bp(GOBP:"viral entry into host cell")
+UNSET CellCulture
+
+SET Evidence = "The potent anti-SARS-CoV-1 effects of chloroquine in vitro were considered attributable to a deficit in the glycosylation of a virus cell surface receptor, the angiotensin-converting enzyme 2 (ACE2) on Vero cells [59]."
+SET CellLine = "Vero cell"
+a(CHEBI:chloroquine) -| p(HGNC:ACE2,pmod(Glyco))
+p(HGNC:ACE2,pmod(Glyco)) -- bp(GOBP:"viral entry into host cell")
+UNSET CellLine
+
+SET Evidence = "Chloroquine can also impair another early stage of virus replication by interfering with the pH-dependent endosome-mediated viral entry of enveloped viruses such as Dengue virus or Chikungunya virus [60,61]."
+bp(GOBP:"regulation of pH") reg bp(GOBP:"endosome membrane permeabilization involved in viral entry into host cell")
+bp(GOBP:"endosome membrane permeabilization involved in viral entry into host cell") -> bp(GOBP:"viral genome replication")
+a(CHEBI:chloroquine) reg bp(GOBP:"regulation of pH")
+a(CHEBI:chloroquine) reg bp(GOBP:"viral genome replication")
+
+SET Evidence = "Due to the alkalisation of endosomes, chloroquine was an effective in vitro treatment against Chikungunya virus when added to Vero cells prior to virus exposure [30]."
+SET CellLine = "Vero cell"
+SET MeSHAnatomy = "Endosomes"
+a(CHEBI:chloroquine) -> bp(GOBP:"pH elevation")
+bp(GOBP:"pH elevation") -| bp(GOBP:"viral genome replication")
+a(CHEBI:chloroquine) -| a(MESH:"Chikungunya virus")
+UNSET MeSHAnatomy
+UNSET CellLine
+
+SET Evidence = "The mechanism of inhibition likely involved the prevention of endocytosis and/or rapid elevation of the endosomal pH and abrogation of virus–endosome fusion."
+a(CHEBI:chloroquine) -| bp(GOBP:"clathrin-dependent endocytosis of virus by host cell")
+a(CHEBI:chloroquine) -| bp(GOBP:"fusion of virus membrane with host endosome membrane")
+
+SET Evidence = "A pH-dependant mechanism of entry of coronavirus into target cells was also reported for SARS-CoV-1 after binding of the DC-SIGN receptor [62]. The activation step that occurs in endosomes at acidic pH results in fusion of the viral and endosomal membranes leading to the release of the viral SARS-CoV-1 genome into the cytosol [63].In the absence of antiviral drug, the virus is targeted to the lysosomal compartment where the low pH, along with the action of enzymes, disrupts the viral particle, thus liberating the infectious nucleic acid and, in several cases, enzymes necessary for its replication [64]."
+#CD209 - DC-SIGN
+SET MeSHDisease = "Coronavirus Infections"
+SET MeSHAnatomy = "Endosomes"
+composite(a(MESH:"SARS Virus"),p(HGNC:CD209)) -> bp(GOBP:"pH reduction")
+bp(GOBP:"pH reduction") -> bp(GOBP:"endosome membrane permeabilization involved in viral entry into host cell")
+SET MeSHAnatomy = "Cytoplasm"
+bp(GOBP:"endosome membrane permeabilization involved in viral entry into host cell") -> path(MESH:"Genome, Viral")
+bp(GOBP:"lysosomal lumen acidification") -> p(MESH:"Viral Regulatory and Accessory Proteins")
+p(MESH:"Viral Regulatory and Accessory Proteins") -> bp(GOBP:"viral genome replication")
+UNSET MeSHAnatomy
+UNSET MeSHDisease
+
+SET Evidence = "Chloroquine-mediated inhibition of hepatitis A virus was found to be associated with uncoating, thus blocking its entire replication cycle [22]."
+a(CHEBI:chloroquine) -- bp(GOBP:"uncoating of virus")
+
+SET Evidence = "For HIV, the antiretroviral effect of chloroquine is attributable to a post-transcriptional inhibition of glycosylation of the gp120 envelope glycoprotein, and the neosynthesised virus particles are non-infectious [19,65]."
+#155971 - gp120
+SET Disease = "human immunodeficiency virus infectious disease"
+a(CHEBI:chloroquine) -| p(NCBIGENE:155971,pmod(Glyco))
+p(NCBIGENE:155971,pmod(Glyco)) -> a(MESH:Viruses)
+a(MESH:Viruses) -> path(MESH:"Virus Diseases")
+UNSET Disease
+
+SET Evidence = "Chloroquine also inhibits the replication Dengue-2 virus by affecting the normal proteolytic processing of the flavivirus prM protein to M protein [32]."
+SET MeSHDisease = "Dengue"
+a(CHEBI:chloroquine) -| p(MESH:"Viral Matrix Proteins")
+UNSET MeSHDisease
+
+SET Evidence = "In the herpes simplex virus (HSV) model, chloroquine inhibited budding with accumulation of non-infectious HSV-1 particles in the trans-Golgi network [66]."
+SET MeSHDisease = "Herpesviridae Infections"
+a(CHEBI:chloroquine) -| a(MESH:"Herpesvirus 1, Human",loc(GOCC:vesicle))
+a(MESH:"Herpesvirus 1, Human",loc(GOCC:vesicle)) -> a(MESH:"Herpesvirus 1, Human",loc(GOCC:"trans-Golgi network"))
+a(CHEBI:chloroquine) -| a(MESH:"Herpesvirus 1, Human",loc(GOCC:"trans-Golgi network"))
+UNSET MeSHDisease
+
+SET Evidence = "Beside affecting the virus maturation process, pH modulation by chloroquine can impair the proper maturation of viral protein [32] and the recognition of viral antigen by dendritic cells, which occurs through a Toll-like receptor-dependent pathway that requires endosomal acidification [69]."
+bp(GOBP:"regulation of pH") pos bp(GOBP:"virus maturation")
+bp(GOBP:"endosomal lumen acidification") -> act(p(GFAM:"Toll like receptors"))
+act(p(GFAM:"Toll like receptors")) -> act(a(MESH:"Dendritic Cells"))
+act(a(MESH:"Dendritic Cells")) -> bp(GOBP:"detection of virus")
+a(CHEBI:chloroquine) -> bp(GOBP:"detection of virus")
+
+SET Evidence = "On the contrary, other proposed effects of chloroquine on the immune system include increasing the export of soluble antigens into the cytosol of dendritic cells and the enhancement of human cytotoxic CD8+ T-cell responses against viral antigens [70]."
+SET MeSHAnatomy = "Dendritic Cells"
+a(CHEBI:chloroquine) -> a(MESH:Antigens,loc(GOCC:cytosol))
+a(MESH:Antigens,loc(GOCC:cytosol)) -> bp(GOBP:"CD8-positive, alpha-beta T cell activation")
+UNSET MeSHAnatomy
+
+SET Evidence = "In the influenza virus model, it was reported that chloroquine improve the cross-presentation of non-replicating virus antigen by dendritic cells to CD8+ T-cells recruited to lymph nodes draining the site of infection, eliciting a broadly protective immune response [71]."
+SET MeSHDisease = "Influenza, Human"
+a(CHEBI:chloroquine) pos bp(GOBP:"dendritic cell antigen processing and presentation")
+UNSET MeSHDisease
+
+SET Evidence = "Chloroquine is known to inhibit phosphorylation (activation) of the p38 mitogen-activated protein kinase (MAPK) in THP-1 cells as well as caspase-1 [72]. Activation of cells via MAPK signalling is frequently required by viruses to achieve their replication cycle [73]. In the model of HCoV-229 coronavirus, chloroquine-induced virus inhibition occurs through inhibition of p38 MAPK [44]."
+SET CellLine = "THP-1 cell"
+a(CHEBI:chloroquine) -| p(HGNC:MAPK14,pmod(Ph))
+a(CHEBI:chloroquine) -| p(HGNC:CASP1,pmod(Ph))
+p(HGNC:MAPK14,pmod(Ph)) -> bp(GOBP:"MAPK cascade")
+bp(GOBP:"MAPK cascade") -> bp(MESH:"Virus Replication")
+UNSET CellLine
+SET CellCulture = "HCoV-O43"
+a(CHEBI:chloroquine) -| p(HGNC:MAPK14,pmod(Ph))
+UNSET CellCulture
+
+SET Evidence = "Chloroquine inhibits interleukin-1 beta (IL-1β) mRNA expression in THP-1 cells and reduces IL-1β release [72]."
+SET CellLine = "THP-1 cell"
+a(CHEBI:chloroquine) -| r(HGNC:IL1B)
+a(CHEBI:chloroquine) -| p(HGNC:IL1B)
+UNSET CellLine
+
+SET Evidence = "Chloroquine-induced reduction of IL-1 and IL-6 cytokines was also found in monocytes/macrophages [79]."
+SET MeSHAnatomy = "Macrophages"
+a(CHEBI:chloroquine) -| p(HGNC:IL1A)
+a(CHEBI:chloroquine) -| p(HGNC:IL6)
+UNSET MeSHAnatomy
+
+SET Evidence = "Chloroquine-induced inhibition of tumour necrosis factor-alpha (TNFα) production by immune cells was reported to occur either through disruption of cellular iron metabolism [80], blockade of the conversion of pro-TNF into soluble mature TNFα molecules [81] and/or inhibition of TNFα mRNA expression [72,82,83]."
+bp(GOBP:"immune response") -> p(HGNC:TNF)
+a(CHEBI:chloroquine) -| p(HGNC:TNF)
+bp(GOBP:"cellular iron ion homeostasis") reg p(HGNC:TNF)
+a(CHEBI:chloroquine) neg bp(GOBP:"cellular iron ion homeostasis")
+a(CHEBI:chloroquine) -| r(HGNC:TNF)
+
+SET Evidence = "Inhibition of the TNFα receptor was also reported in U937 monocytic cells treated with chloroquine [84]. In the Dengue virus model, chloroquine was found to inhibit interferon-alpha (IFNα), IFNβ, IFNγ, TNFα, IL-6 and IL-12 gene expression in U937 cells infected with Dengue-2 virus [33]."
+SET CellCulture = "U937"
+a(CHEBI:chloroquine) -| p(GFAM:"Tumor necrosis factor receptor superfamily")
+SET MeSHDisease = "Dengue"
+a(CHEBI:chloroquine) -| g(MESH:"Interferon-alpha")
+a(CHEBI:chloroquine) -| g(HGNC:IFNB1)
+a(CHEBI:chloroquine) -| g(HGNC:IFNG)
+a(CHEBI:chloroquine) -| g(HGNC:TNF)
+a(CHEBI:chloroquine) -| g(HGNC:IL6)
+a(CHEBI:chloroquine) -| g(HGNC:IL12B)
+UNSET MeSHDisease
+UNSET CellCulture

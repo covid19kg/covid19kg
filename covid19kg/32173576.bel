@@ -1,0 +1,120 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32173576.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Technique AS LIST {"computed tomography"}
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","Int J Infect Dis. 2020;S1201-9712(20)30132-6. doi:10.1016/j.ijid.2020.03.013","32173576"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "Most patients presented cough and fever (mainly low fever, temperature \
+ranges from 37.3 to 38.0) (Table 1). Four patients had the symptom of \
+productive cough (white phlegm) and sore throat. Three patients \
+reported headache and nausea. One patient only existed chest \
+congestion (patient 7)."
+
+SET Species = "9606"
+SET Custom_Disease = "COVID-19"
+path(DO:"COVID-19") pos path(MESH:Cough)
+path(DO:"COVID-19") pos path(MESH:Fever)
+path(DO:"COVID-19") pos path(HP:phlegm)
+path(DO:"COVID-19") pos path(MESH:Headache)
+path(DO:"COVID-19") pos path(MESH:Nausea)
+
+SET Evidence = "Leukopenia (less than 3.5×10 9 leucocytes per liter) and lymphopenia \
+(less than 1.1×10 9 lymphocytes per liter) were observed in two \
+patients, respectively."
+
+path(DO:"COVID-19") pos path(MESH:Leukopenia)
+path(DO:"COVID-19") pos path(MESH:Lymphopenia)
+
+SET Evidence = "The main abnormalities in chest CT images were air-space shadowing: \
+patchy ground-glass opacities (in patients 2, 3, 6 and 9) (Figure 2A) \
+or patchy hyperdense areas (patients 1, 4, 5, 8 and 10) (Figure 2B) on \
+the initial chest radiograph. The radiographic opacities were mostly \
+in the lower lung zones (patients 1, 2, 3, 4, 5, 6, 8 and 9)."
+
+SET Technique = "computed tomography"
+path(DO:"COVID-19") pos path(HP:"Ground-glass opacification on pulmonary HRCT")
+UNSET Technique
+
+SET Evidence = "Patient 6 presented with pleural effusions."
+
+SET MeSHAnatomy = "Lung"
+path(DO:"COVID-19") pos path(MESH:"Pleural Effusion")
+UNSET MeSHAnatomy
+
+SET Evidence = "The eosinophil values of patients 1, 2 and 3 were all less than the \
+lower bound of normal range before they were transferred to the First \
+Affiliated Hospital of Zhejiang University (Figure 4)."
+
+path(DO:"COVID-19") neg a(MESH:Eosinophils)
+
+SET Evidence = "During the period of lower eosinophil, SARS-CoV-2-RNA presented \
+positive, and after eosinophil increased to normal, SARS-CoV-2- RNA \
+turned to negative within 5 days, except for patient 6 (11 days)."
+
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") neg a(MESH:Eosinophils)
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -- path(DO:"COVID-19")
+
+SET Evidence = "Most values of C-reactive protein (CRP, normal range: 0–10 mg/L) were \
+above the upper bound of normal range, and over half of the fibrinogen \
+levels (FIB, normal range: 1.8–3.5 g/L) were high during the observed \
+period (Figure 3)."
+
+path(DO:"COVID-19") pos p(HGNC:CRP)
+
+SET Evidence = "Patients 1 and 2 had severe digestive adverse effect (diarrhea and \
+emesis) and hypokalemia within four days of treatment (LPV + \
+interferon α2b)."
+
+composite(a(CHEBI:lopinavir),a(MESH:"interferon alfa-2b")) pos path(DO:diarrhea)
+composite(a(CHEBI:lopinavir),a(MESH:"interferon alfa-2b")) pos path(MESH:Vomiting)
+composite(a(CHEBI:lopinavir),a(MESH:"interferon alfa-2b")) pos path(DO:hypokalemia)
+
+SET Evidence = "The opacities on CT images of patients 4, 5, 9 and 10 improved \
+persistently after eight, seven, six and seven days of LPV-combined \
+regimen exposure, respectively."
+
+SET Technique = "computed tomography"
+composite(a(CHEBI:lopinavir),a(MESH:"interferon alfa-2b")) -| path(HP:"Ground-glass opacification on pulmonary HRCT")
+UNSET Technique
+UNSET Custom_Disease
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

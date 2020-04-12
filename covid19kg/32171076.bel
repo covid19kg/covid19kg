@@ -1,0 +1,124 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32171076.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+#example#
+SET Citation = {"PubMed", "Lancet. 2020 Mar 28;395(10229):1054-1062. doi: 10.1016/S0140-6736(20)30566-3.", "32171076"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Species = "9606"
+SET Evidence = "Comorbidities were present in nearly half of patients, with \
+hypertension being the most common comorbidity, followed by diabetes \
+and coronary heart disease (table 1)."
+
+SET Custom_Disease = "COVID-19"
+path(DO:hypertension) -- path(DO:"COVID-19")
+path(DO:"diabetes mellitus") -- path(DO:"COVID-19")
+path(DO:"coronary artery disease") -- path(DO:"COVID-19")
+
+SET Evidence = "The most common symptoms on admission were fever and cough, followed \
+by sputum production and fatigue (table 1)."
+
+path(DO:"COVID-19") -> path(MESH:Fever)
+path(DO:"COVID-19") -> path(MESH:Cough)
+path(DO:"COVID-19") -> path(MESH:Fatigue)
+
+SET Evidence = "Lymphocytopenia occurred in 77 (40%) patients. 181 (95%) patients \
+received antibiotics and 41 (21%) received antivirals \
+(lopinavir/ritonavir; table 2)."
+
+path(DO:"COVID-19") -> path(DO:lymphopenia)
+
+SET Evidence = "Sepsis was the most frequently observed complication, followed by \
+respiratory failure, ARDS, heart failure, and septic shock (table 2)."
+
+path(DO:"COVID-19") -> path(MESH:Sepsis)
+path(MESH:Sepsis) -> path(DO:"adult respiratory distress syndrome")
+path(MESH:Sepsis) -> path(MESH:"Heart Failure")
+path(MESH:Sepsis) -> path(MESH:"Shock, Septic")
+
+SET Evidence = "Half of non-survivors experienced a secondary infection, and \
+ventilator-associated pneumonia occurred in ten (31%) of 32 patients \
+requiring invasive mechanical ventilation."
+
+path(MESH:Coinfection) -> a(MESH:Mortality)
+path(MESH:"Pneumonia, Ventilator-Associated") -> a(MESH:Mortality)
+
+SET Evidence = "In univariable analysis, odds of in-hospital death was higher in \
+patients with diabetes or coronary heart disease (table 3)."
+
+path(DO:"diabetes mellitus") -> a(MESH:Mortality)
+path(DO:"coronary artery disease") -> a(MESH:Mortality)
+
+SET Evidence = "Age, lymphopenia, leucocytosis, and elevated ALT, lactate \
+dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, \
+d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and \
+procalcitonin were also associated with death (table 3)."
+
+path(DO:lymphopenia) pos a(MESH:Mortality)
+bp(GO:aging) pos a(MESH:Mortality)
+path(MESH:Leukocytosis) pos a(MESH:Mortality)
+p(HGNC:GPT) pos a(MESH:Mortality)
+p(HGNC:LDHA) pos a(MESH:Mortality)
+a(CHEBI:"Troponin I") pos a(MESH:Mortality)
+path(HP:"Abnormal levels of creatine kinase in blood") -> a(MESH:Mortality)
+a(MESH:"fibrin fragment D") pos a(MESH:Mortality)
+SET MeSHAnatomy = "Serum"
+p(PFAM:Ferritin) pos a(MESH:Mortality)
+UNSET MeSHAnatomy
+p(HGNC:IL6) pos a(MESH:Mortality)
+path(HP:"Prolonged prothrombin time") -> a(MESH:Mortality)
+
+SET Evidence = "Sepsis developed at a median of 9·0 days (7·0–13·0) after illness \
+onset among all patients, followed by ARDS (12·0 days [8·0–15·0]), \
+acute cardiac injury (15·0 days [10·0–17·0]), acute kidney injury \
+(15·0 days [13·0–19·5]), and secondary infection (17·0 days \
+[13·0–19·0])."
+
+path(MESH:Sepsis) -> path(MESH:"Acute Kidney Injury")
+path(MESH:Sepsis) -> path(MESH:Coinfection)
+
+path(MESH:Sepsis) -> path(MESH:"Heart Injuries")
+
+UNSET Species
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

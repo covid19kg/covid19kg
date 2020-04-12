@@ -1,0 +1,98 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32171193.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.1.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Anatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Editorial"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Abstract"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed", "J Biol Regul Homeost Agents. 2020 Mar 14;34(2). pii: 1. doi: 10.23812/CONTI-E.", "32171193"}
+SET PublicationType = "Editorial"
+SET PublicationStatus = "Preprint"
+SET Section = "Abstract"
+
+SET Evidence = "Coronavirus-19 (COVI-19) involves humans as well as animals and may cause serious damage to the respiratory tract, including the lung: coronavirus disease (COVID-19)."
+SET Custom_Disease = "COVID-19"
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(DO:"COVID-19")
+
+SET Evidence = "When COVI-19 infect the upper and lower respiratory tract it can cause mild or highly acute respiratory syndrome with consequent release of pro-inflammatory cytokines, including interleukin (IL)-1β and IL-6."
+SET Species = "9606"
+SET Anatomy = {"lower respiratory tract", "upper respiratory tract"}
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(DO:"adult respiratory distress syndrome")
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> bp(GO:"cytokine production involved in inflammatory response")
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> p(HGNC:IL1B)
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> p(HGNC:IL6)
+UNSET Anatomy
+
+SET Evidence = "The binding of COVI-19 to the Toll Like Receptor (TLR) causes the release of pro-IL-1β which is cleaved by caspase-1, followed by inflammasome activation and production of active mature IL-1β which is a mediator of lung inflammation, fever and fibrosis."
+complex(a(TAX:"Severe acute respiratory syndrome coronavirus 2"),g(GFAM:"Toll like receptors")) -> sec(p(HGNC:IL1B))
+act(p(HGNC:CASP1)) -> act(p(HGNC:IL1B))
+p(HGNC:CASP1) -- complex(GO:"inflammasome complex")
+act(p(HGNC:IL1B)) -> path(DO:pneumonia)
+act(p(HGNC:IL1B)) -> path(HP:Fever)
+act(p(HGNC:IL1B)) -> path(DO:"pulmonary fibrosis")
+
+SET Evidence = "Cytokine IL-37 has the ability to suppress innate and acquired immune response and also has the capacity to inhibit inflammation by acting on IL-18Rα receptor."
+act(p(HGNC:IL37)) -| path(HP:"innate immune response")
+act(p(HGNC:IL37)) -| path(HP:"adaptive immune response")
+complex(p(HGNC:IL37),p(HGNC:IL18R1)) -| path(HP:inflammation)
+
+SET Evidence = "IL-37 performs its immunosuppressive activity by acting on mTOR and increasing the adenosine monophosphate (AMP) kinase."
+act(p(HGNC:IL37)) -> act(p(HGNC:PRKAA1))
+act(p(HGNC:PRKAA1)) -- bp(GO:"TOR signaling")
+
+SET Evidence = "This cytokine inhibits class II histocompatibility complex (MHC) molecules and inflammation in inflammatory diseases by suppressing MyD88 and subsequently IL-1β, IL-6, TNF and CCL2."
+act(p(HGNC:IL37)) -| a(MESH:"Histocompatibility Antigens Class II")
+act(p(HGNC:IL37)) -| p(HGNC:MYD88)
+act(p(HGNC:IL37)) -| p(HGNC:IL1B)
+act(p(HGNC:IL37)) -| p(HGNC:IL6)
+act(p(HGNC:IL37)) -| p(HGNC:TNF)
+act(p(HGNC:IL37)) -| p(HGNC:CCL2)
+
+SET Evidence = "The suppression of IL-1β by IL-37 in inflammatory state induced by coronavirus-19 can have a new therapeutic effect previously unknown."
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -| p(HGNC:IL1B)
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -| p(HGNC:IL37)
+
+SET Evidence = "IL-38 is also a suppressor cytokine which inhibits IL-1β and other pro-inflammatory IL-family members."
+act(p(HGNC:IL1F10)) -| p(HGNC:IL1B)
+
+SET Evidence = "IL-38 is a potential therapeutic cytokine which inhibits inflammation in viral infections including that caused by coronavirus-19, providing a new relevant strategy."
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(HP:inflammation)
+act(p(HGNC:IL1F10)) -| path(HP:inflammation)
+UNSET Species
+UNSET Custom_Disease
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

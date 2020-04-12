@@ -1,0 +1,252 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32196678.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+# Document Annotations #
+DEFINE ANNOTATION Complication AS LIST {"secondary bacterial pneumonia", "history of allergic rhinitis", "history of atopic dermatitis", "history of urticaria", "influenza A pneumonia"}
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+
+DEFINE ANNOTATION PublicationType AS LIST {"Case Study"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+#example#
+SET Citation = {"PubMed", "Allergy. 2020 Mar 20. doi: 10.1111/all.14289.", "32196678"}
+
+SET PublicationType = "Case Study"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+
+SET Species = "9606"
+SET Custom_Disease = "COVID-19"
+SET Evidence = "She experienced only mild symptoms such as a sore throat and fatigue, \
+without any signs of pneumonia such as cough and chest tightness."
+
+path(MESH:Pharyngitis) pos path(DO:"COVID-19")
+path(MESH:Fatigue) pos path(DO:"COVID-19")
+
+SET Evidence = "The patient recovered after treatment with antiviral 50 therapy \
+(Arbidol) and supportive care."
+
+a(CHEBI:umifenovir) -| path(DO:"COVID-19")
+a(MESH:"Patient Care") -| path(DO:"COVID-19")
+
+SET Evidence = "She developed chest tightness, shortness of breath, loss of appetite, \
+62 nausea, and diarrhea"
+
+path(HP:"Chest tightness") pos path(DO:"COVID-19")
+path(MESH:"Dyspnea") pos path(DO:"COVID-19")
+path(HP:"Poor appetite") pos path(DO:"COVID-19")
+path(MESH:Nausea) pos path(DO:"COVID-19")
+path(DO:diarrhea) pos path(DO:"COVID-19")
+
+SET Evidence = "On February 6, the third chest CT scan showed bilateral multiple \
+ground-glass opacities indicating viral pneumonia (Figure 1B) and she \
+was admitted to the designated hospital immediately."
+
+path(HP:"Ground-glass opacification on pulmonary HRCT") pos path(DO:"COVID-19")
+path(HP:"Ground-glass opacification on pulmonary HRCT") pos path(DO:"viral pneumonia")
+
+SET Evidence = "lymphocyte count slightly decreased [0.81×109/L, reference range: \
+(1.1~3.2) ×109/L], and the concentration of serum high-sensitivity \
+C-reactive protein (hsCRP) increased [49.9 mg/L, reference range: \
+(0~3) mg/L], with leukocyte count and procalcitonin (PCT) \
+concentration within normal ranges."
+
+path(DO:"COVID-19") -| path(MESH:"Lymphocyte Count")
+path(DO:"COVID-19") -- path(HP:"Elevated C-reactive protein level")
+
+SET Evidence = "Most laboratory tests were within normal ranges, except for mild \
+leukopenia [3.37×109 /L, reference range: (3.5~9.5) ×109 /L] and \
+neutropenia [1.47×109 /L, reference range: (1.8~6.3) ×109 /L]."
+
+path(DO:"COVID-19") -> path(DO:leukopenia)
+path(DO:"COVID-19") -> path(DO:neutropenia)
+
+SET Evidence = "The patient received antiviral drugs including Arbidol and Kaletra \
+(Lopinavir and Ritonavir tablets) and was discharged on February 13 \
+when chest CT images showed that the bilateral lesions were mostly \
+absorbed."
+
+composite(a(CHEBI:lopinavir), a(CHEBI:ritonavir)) -| path(DO:"COVID-19")
+
+SET Evidence = "On admission, physical examinations and pulmonary auscultation were \
+normal; laboratory tests indicated a reduction in leukocytes \
+(1.92×109/L), neutrophils (1.20×109/L), lymphocytes (0.47×109/L), and \
+eosinophils (0×109 /L) counts, normal CRP and PCT concentrations, and \
+slightly increased concentration of serum amyloid A [SAA, 36.84 mg/L, \
+reference range: (0~10) mg/L]"
+
+path(HP:"Decreased eosinophil count") -- path(DO:"COVID-19")
+path(DO:"COVID-19") -> a(CHEBI:"serum amyloid A")
+path(DO:"COVID-19") -| a(MESH:Neutrophils)
+
+SET Evidence = "Fatigue, cough, fever, and diarrhea symptoms gradually improved after \
+treatment with antiviral medication (Arbidol, Kaletra and inhalation \
+of interferon-α) and supportive care."
+
+a(CHEBI:umifenovir) -| path(MESH:Fatigue)
+a(CHEBI:umifenovir) -| path(MESH:Cough)
+a(CHEBI:umifenovir) -| path(MESH:Fever)
+a(CHEBI:umifenovir) -| path(DO:diarrhea)
+composite(a(CHEBI:ritonavir), a(CHEBI:lopinavir)) -| path(MESH:Fatigue)
+composite(a(CHEBI:ritonavir), a(CHEBI:lopinavir)) -| path(MESH:Cough)
+composite(a(CHEBI:ritonavir), a(CHEBI:lopinavir)) -| path(MESH:Fever)
+composite(a(CHEBI:ritonavir), a(CHEBI:lopinavir)) -| path(DO:diarrhea)
+a(MESH:"Interferon-alpha") -| path(MESH:Fatigue)
+a(MESH:"Interferon-alpha") -| path(MESH:Cough)
+a(MESH:"Interferon-alpha") -| path(MESH:Fever)
+a(MESH:"Interferon-alpha") -| path(DO:diarrhea)
+a(MESH:"Patient Care") -| path(MESH:Fatigue)
+a(MESH:"Patient Care") -| path(MESH:Cough)
+a(MESH:"Patient Care") -| path(DO:diarrhea)
+a(MESH:"Patient Care") -| path(MESH:Fatigue)
+
+SET Evidence = "A 69-year old woman had persistent fever (> 38 ℃) accompanied by a dry \
+cough, headache, sore throat, myalgia and fatigue for three days."
+
+SET Complication = "secondary bacterial pneumonia"
+path(MESH:Fever) pos path(DO:"COVID-19")
+path(MESH:Cough) pos path(DO:"COVID-19")
+path(MESH:Headache) pos path(DO:"COVID-19")
+path(MESH:Myalgia) pos path(DO:"COVID-19")
+path(MESH:Fatigue) pos path(DO:"COVID-19")
+path(MESH:Pharyngitis) pos path(DO:"COVID-19")
+
+SET Evidence = "The CBC was normal except for the development of eosinopenia (0×109 \
+/L) and an elevated erythrocyte sedimentation rate (ESR) and CRP \
+concentration (39 mm/h and 60.41 mg/L, respectively)."
+
+path(DO:"COVID-19") -- path(HP:"Decreased eosinophil count")
+path(HP:"Elevated erythrocyte sedimentation rate") -- path(DO:"COVID-19")
+path(DO:"COVID-19") -- path(HP:"Elevated C-reactive protein level")
+
+SET Evidence = "On January 23, the second chest CT scan revealed bilateral extended \
+ground‐glass opacities with scattered consolidation, indicating rapid \
+progression of the disease (Figure 3B)."
+
+path(HP:"Ground-glass opacification on pulmonary HRCT") pos path(DO:"COVID-19")
+
+SET Evidence = "Remarkable abnormalities in the CBC were detected on January 29, \
+including increased neutrophils (10.67×109/L), leukocytes \
+(11.73×109/L), and decreased lymphocytes (0.51×109 /L), and on \
+February 4 decreased erythrocytes (2.40×1012/L) and platelets (73×109 \
+/L)."
+
+path(DO:"COVID-19") -> a(MESH:Neutrophils)
+path(DO:"COVID-19") -> path(MESH:"Leukocyte Count")
+path(DO:"COVID-19") -| path(MESH:"Lymphocyte Count")
+path(DO:"COVID-19") -| path(MESH:"Erythrocyte Count")
+path(DO:"COVID-19") -| path(MESH:"Platelet Count")
+
+SET Evidence = "In addition, there was a significant increase in inflammatory \
+indicators, such as PCT, CRP and D-dimer."
+SET MeSHAnatomy = "Blood"
+path(DO:"COVID-19") -- a(PUBCHEM:404772262)
+UNSET MeSHAnatomy
+
+SET Evidence = "Unfortunately, during the operation of ECMO she suffered a sudden cardiac arrest and survived by rescue of cardiopulmonary resuscitation (CPR)."
+path(DO:"COVID-19") -- path(HP:"Elevated C-reactive protein level")
+path(DO:"COVID-19") -> a(MESH:"fibrin fragment D")
+
+SET Evidence = "On February 10, bedside bronchoscopy and bronchial lavage were \
+performed, revealing hyperemia in mucous membranes of the trachea and \
+bronchi with bleeding tendency and a large amount of yellow sticky \
+sputum obstructing the entrance of the bilateral main bronchi and some \
+bronchial lumens, which were aspirated completely."
+
+SET MeSHAnatomy = "Mucous Membrane"
+path(DO:"COVID-19") -> path(MESH:Hyperemia)
+UNSET MeSHAnatomy
+
+SET Evidence = "The bedside chest X-ray showed progression of the pneumonia, since the \
+bilateral diffuse opacities, so-called “white lungs”, with air \
+bronchogram occurred on February 15 (Figure 3C, 3D and 3E)."
+
+path(DO:"COVID-19") pos path(DO:pneumonia)
+UNSET Complication
+
+SET Evidence = "Symptoms were relieved after inhalation of interferon-α and supportive \
+care"
+
+SET Complication = "history of allergic rhinitis"
+a(MESH:"Interferon-alpha") -| path(DO:"COVID-19")
+a(MESH:"Patient Care") -| path(DO:"COVID-19")
+UNSET Complication
+
+SET Evidence = "All the laboratory results were within normal ranges, including CBC \
+and biochemical parameters, except for elevated levels of serum IgE \
+(173 IU/mL)."
+
+SET Complication = "history of atopic dermatitis"
+SET MeSHAnatomy = "Serum"
+path(DO:"COVID-19") -> a(MESH:"Immunoglobulin E")
+UNSET MeSHAnatomy
+
+SET Evidence = "The patient was treated with interferon‐α inhalation and supportive \
+care."
+
+a(MESH:"Interferon-alpha") -| path(DO:"COVID-19")
+a(MESH:"Patient Care") -| path(DO:"COVID-19")
+UNSET Complication
+
+SET Evidence = "Laboratory tests showed a slight decrease of leukocytes (3.19×109/L) \
+and neutrophils (1.57×109/L) and a mildly elevated CRP concentration \
+(29.2 mg/L), with all other tested parameters within normal ranges."
+
+SET Complication = "history of urticaria"
+path(DO:"COVID-19") -| path(MESH:"Leukocyte Count")
+path(DO:"COVID-19") -| a(MESH:Neutrophils)
+path(DO:"COVID-19") -- path(HP:"Elevated C-reactive protein level")
+
+SET Evidence = "Symptoms improved after antiviral treatment (Arbidol) and supportive \
+care"
+
+a(CHEBI:umifenovir) -| path(DO:"COVID-19")
+a(MESH:"Patient Care") -| path(DO:"COVID-19")
+UNSET Complication
+
+SET Evidence = "A CBC showed slightly increased neutrophils (7.53×109/L) and markedly \
+decreased lymphocytes (0.27×109/L)."
+
+SET Complication  = "influenza A pneumonia"
+path(DO:"COVID-19") -> a(MESH:Neutrophils)
+path(DO:"COVID-19") -| path(MESH:"Lymphocyte Count")
+
+SET Evidence = "Other abnormal results of laboratory parameters included significantly \
+increased CRP 186 concentration (> 160 mg/L) and slightly increased \
+PCT concentration (0.39 ng/ml)."
+
+path(DO:"COVID-19") -- path(HP:"Elevated C-reactive protein level")
+UNSET Complication
+UNSET Custom_Disease
+UNSET Species
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

@@ -1,0 +1,1656 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_CellLine": [
+        "17cl1",
+        "HEK293/hACE"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ],
+      "Treatment": [
+        "Trypsin"
+      ],
+      "Virus_type": [
+        "pseudovirion"
+      ],
+      "concentration": [
+        "100 nM",
+        "20 nM"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {},
+    "document_metadata": {
+      "authors": "Priya S",
+      "contact": "priya@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32221306.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "PUBCHEM": "^\\d+$"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "MGI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32221306.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_type": {
+          "pseudovirion": true
+        },
+        "concentration": {
+          "20 nM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "Consistent with previous reports, 20mM NH4Cl and 100 nM bafilomycin A decreased entry of SARS-CoV S and VSV-G pseudovirions by over 99%, compared to no treatment control.",
+      "key": "0330f46e0043d4e430c95bda059abef5",
+      "line": 55,
+      "relation": "negativeCorrelation",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_type": {
+          "pseudovirion": true
+        },
+        "concentration": {
+          "20 nM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "Consistent with previous reports, 20mM NH4Cl and 100 nM bafilomycin A decreased entry of SARS-CoV S and VSV-G pseudovirions by over 99%, compared to no treatment control.",
+      "key": "5d9cbf259dc06bd4a23c7680d3b473a4",
+      "line": 56,
+      "relation": "negativeCorrelation",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_type": {
+          "pseudovirion": true
+        },
+        "concentration": {
+          "20 nM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "Consistent with previous reports, 20mM NH4Cl and 100 nM bafilomycin A decreased entry of SARS-CoV S and VSV-G pseudovirions by over 99%, compared to no treatment control.",
+      "key": "a5060417821af3d05915e0d67c2ce2fb",
+      "line": 55,
+      "relation": "negativeCorrelation",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_type": {
+          "pseudovirion": true
+        },
+        "concentration": {
+          "100 nM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "Consistent with previous reports, 20mM NH4Cl and 100 nM bafilomycin A decreased entry of SARS-CoV S and VSV-G pseudovirions by over 99%, compared to no treatment control.",
+      "key": "dfc2dcdd0f7cec775ab6ebdcf8f2a5f6",
+      "line": 59,
+      "relation": "negativeCorrelation",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_type": {
+          "pseudovirion": true
+        },
+        "concentration": {
+          "20 nM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "Consistent with previous reports, 20mM NH4Cl and 100 nM bafilomycin A decreased entry of SARS-CoV S and VSV-G pseudovirions by over 99%, compared to no treatment control.",
+      "key": "875176d7326d508b4bab01b8db02678d",
+      "line": 56,
+      "relation": "negativeCorrelation",
+      "source": 10,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_type": {
+          "pseudovirion": true
+        },
+        "concentration": {
+          "100 nM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "Consistent with previous reports, 20mM NH4Cl and 100 nM bafilomycin A decreased entry of SARS-CoV S and VSV-G pseudovirions by over 99%, compared to no treatment control.",
+      "key": "55e7d2125562bd88ebc4305c4f9d06da",
+      "line": 60,
+      "relation": "negativeCorrelation",
+      "source": 10,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_type": {
+          "pseudovirion": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "Inhibition of PIKfyve by apilimod significantly reduced entry of SARS- CoV S pseudovirions on 293/hACE2 cells in a dose dependent manner (Fig. 3b), whereas it had no effect on entry of VSV-G pseudovirions, which occurs in early endosomes.",
+      "key": "3bb21cdf6d7d679c5f03aff07cfb4c96",
+      "line": 73,
+      "relation": "negativeCorrelation",
+      "source": 10,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Treatment": {
+          "Trypsin": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "Consistent to our previous report23, addition of trypsin triggered syncytium formation on 293/hACE2 cells by SARS-CoV S protein after 4 h incubation (Fig. 4b, c).",
+      "key": "b7ac08dd24ed058aad439e4c69befa45",
+      "line": 126,
+      "relation": "increases",
+      "source": 10,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "Of note, SARS-CoV-2, but not SARS-CoV, S proteins induced syncytia formation on 293/hACE2 cells even in the absence of trypsin (Fig. 4c), suggesting that SARS-CoV-2 S proteins could be triggered upon the receptor binding without exogenous protease priming or activation.",
+      "key": "ff97cb0aa20671a9e77ad7ccd4a85cdd",
+      "line": 136,
+      "relation": "increases",
+      "source": 10,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_type": {
+          "pseudovirion": true
+        },
+        "concentration": {
+          "100 nM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "Consistent with previous reports, 20mM NH4Cl and 100 nM bafilomycin A decreased entry of SARS-CoV S and VSV-G pseudovirions by over 99%, compared to no treatment control.",
+      "key": "3f976a7bd23cebc28a36cd7a29bba666",
+      "line": 59,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_type": {
+          "pseudovirion": true
+        },
+        "concentration": {
+          "100 nM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "Consistent with previous reports, 20mM NH4Cl and 100 nM bafilomycin A decreased entry of SARS-CoV S and VSV-G pseudovirions by over 99%, compared to no treatment control.",
+      "key": "920a00d8737652e8467c1d6140279684",
+      "line": 60,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "Inhibition of PIKfyve by apilimod significantly reduced entry of SARS- CoV S pseudovirions on 293/hACE2 cells in a dose dependent manner (Fig. 3b), whereas it had no effect on entry of VSV-G pseudovirions, which occurs in early endosomes.",
+      "key": "552c4f923e6cf987ab2da71c51dc5a02",
+      "line": 71,
+      "relation": "negativeCorrelation",
+      "source": 7,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_type": {
+          "pseudovirion": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "Inhibition of PIKfyve by apilimod significantly reduced entry of SARS- CoV S pseudovirions on 293/hACE2 cells in a dose dependent manner (Fig. 3b), whereas it had no effect on entry of VSV-G pseudovirions, which occurs in early endosomes.",
+      "key": "cf279136ce4af390799a113326b48b9b",
+      "line": 73,
+      "relation": "negativeCorrelation",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_type": {
+          "pseudovirion": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "Inhibition of PIKfyve by apilimod significantly reduced entry of SARS- CoV S pseudovirions on 293/hACE2 cells in a dose dependent manner (Fig. 3b), whereas it had no effect on entry of VSV-G pseudovirions, which occurs in early endosomes.",
+      "key": "735eadcdd3a403e41a2c66bf8f668d63",
+      "line": 74,
+      "relation": "causesNoChange",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "17cl1": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "Moreover, infection of live MHV on 17Cl.1 cells was also strongly inhibited by apilimod treatment (Fig. 3c).",
+      "key": "e08e7a7d48fa7b894f2b3b3ddf0d2dbb",
+      "line": 82,
+      "relation": "negativeCorrelation",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "As expected, apilimod treatment inhibited entry of SARS-CoV-2 S pseudovirions in a dose dependent manner (Fig. 3d)",
+      "key": "0c3cfb8cb8e81e659ff95f2cdafb8adb",
+      "line": 88,
+      "relation": "negativeCorrelation",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "Inhibition of PIKfyve by apilimod significantly reduced entry of SARS- CoV S pseudovirions on 293/hACE2 cells in a dose dependent manner (Fig. 3b), whereas it had no effect on entry of VSV-G pseudovirions, which occurs in early endosomes.",
+      "key": "92412c2be305026503f100b35bac3583",
+      "line": 71,
+      "relation": "negativeCorrelation",
+      "source": 12,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "17cl1": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "Moreover, infection of live MHV on 17Cl.1 cells was also strongly inhibited by apilimod treatment (Fig. 3c).",
+      "key": "1ef313e4b1b5c61d661bef39d4d1f3f6",
+      "line": 82,
+      "relation": "negativeCorrelation",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "As expected, apilimod treatment inhibited entry of SARS-CoV-2 S pseudovirions in a dose dependent manner (Fig. 3d)",
+      "key": "e90f8c249303ae870473dd9139e93ca7",
+      "line": 88,
+      "relation": "negativeCorrelation",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_type": {
+          "pseudovirion": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "While blocking TPC2 activity by tetrandrine, an inhibitor for TPC237, decreased entry of SARS-CoV-2 S pseudovirions (Fig. 3f), treatment of cells with 130, a TRPML1 inhibitor, had no effect (Supplementary Fig. 1), indicating that TPC2, not TRPML1, is important for SARS-CoV-2 entry.",
+      "key": "749ba587542f2be160b9c84b160af8aa",
+      "line": 98,
+      "relation": "negativeCorrelation",
+      "source": 9,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "While cathepsin B inhibitor treatment did not show any marked effect on virus entry, cathepsin L inhibition treatment decreased entry of SARS-CoV-2 S pseudovirions into 293/hACE2 by over 76% (Fig. 4a), suggesting that cathepsin L should be essential for priming of SARS- CoV-2 S protein in lysosome for entry into 293/hACE2 cells.",
+      "key": "5dcbe162441c0c8cb2e89b999de5c492",
+      "line": 117,
+      "object": {
+        "location": {
+          "name": "lysosome",
+          "namespace": "GO"
+        }
+      },
+      "relation": "association",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "While blocking TPC2 activity by tetrandrine, an inhibitor for TPC237, decreased entry of SARS-CoV-2 S pseudovirions (Fig. 3f), treatment of cells with 130, a TRPML1 inhibitor, had no effect (Supplementary Fig. 1), indicating that TPC2, not TRPML1, is important for SARS-CoV-2 entry.",
+      "key": "297ef75fe6b9a982534b316a421925b4",
+      "line": 96,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "negativeCorrelation",
+      "source": 0,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_type": {
+          "pseudovirion": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "While blocking TPC2 activity by tetrandrine, an inhibitor for TPC237, decreased entry of SARS-CoV-2 S pseudovirions (Fig. 3f), treatment of cells with 130, a TRPML1 inhibitor, had no effect (Supplementary Fig. 1), indicating that TPC2, not TRPML1, is important for SARS-CoV-2 entry.",
+      "key": "0190a27da6866ef0b8e4dd335a89eeb4",
+      "line": 98,
+      "relation": "negativeCorrelation",
+      "source": 0,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "While blocking TPC2 activity by tetrandrine, an inhibitor for TPC237, decreased entry of SARS-CoV-2 S pseudovirions (Fig. 3f), treatment of cells with 130, a TRPML1 inhibitor, had no effect (Supplementary Fig. 1), indicating that TPC2, not TRPML1, is important for SARS-CoV-2 entry.",
+      "key": "8b4b48660d30aa7c945c09cb5189f701",
+      "line": 96,
+      "relation": "negativeCorrelation",
+      "source": 13,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "E64D treatment of 293/hACE2 cells reduced entry of SARS-CoV-2 S pseudovirions by 92.5%, indicating that at least one of cathepsins or calpain might be required for SARS-CoV-2 entry (Fig. 4a).",
+      "key": "8b5db287c5743bd09b0e4c4690c711db",
+      "line": 106,
+      "relation": "decreases",
+      "source": 3,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "While cathepsin B inhibitor treatment did not show any marked effect on virus entry, cathepsin L inhibition treatment decreased entry of SARS-CoV-2 S pseudovirions into 293/hACE2 by over 76% (Fig. 4a), suggesting that cathepsin L should be essential for priming of SARS- CoV-2 S protein in lysosome for entry into 293/hACE2 cells.",
+      "key": "a9d5580a9bc22d98356749ba0f39c09b",
+      "line": 116,
+      "relation": "decreases",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293/hACE": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen J",
+          "Chen T",
+          "Chen X",
+          "Guo L",
+          "Guo R",
+          "Hu J",
+          "Hu K",
+          "Jin Q",
+          "Lei X",
+          "Li P",
+          "Liu Y",
+          "Mi D",
+          "Mu Z",
+          "Ou X",
+          "Qian Z",
+          "Ren L",
+          "Wang J",
+          "Xiang Z"
+        ],
+        "date": "2020-03-27",
+        "db": "PubMed",
+        "db_id": "32221306",
+        "db_name": "Nature communications",
+        "first": "Ou X",
+        "last": "Qian Z",
+        "pages": "1620",
+        "volume": "11"
+      },
+      "evidence": "While cathepsin B inhibitor treatment did not show any marked effect on virus entry, cathepsin L inhibition treatment decreased entry of SARS-CoV-2 S pseudovirions into 293/hACE2 by over 76% (Fig. 4a), suggesting that cathepsin L should be essential for priming of SARS- CoV-2 S protein in lysosome for entry into 293/hACE2 cells.",
+      "key": "88b9a6b527da36ce97415c04dd590a0e",
+      "line": 117,
+      "relation": "association",
+      "source": 11,
+      "subject": {
+        "location": {
+          "name": "lysosome",
+          "namespace": "GO"
+        }
+      },
+      "target": 9
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:\"(+)-Tetrandrine\")",
+      "concept": {
+        "name": "(+)-Tetrandrine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "2a1a580b715ad3652416fd0b5fdbc107"
+    },
+    {
+      "bel": "a(CHEBI:\"ammonium chloride\")",
+      "concept": {
+        "name": "ammonium chloride",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "b9fde26b81b4dd35afa0592753ffd2a4"
+    },
+    {
+      "bel": "a(CHEBI:\"bafilomycin A1\")",
+      "concept": {
+        "name": "bafilomycin A1",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "ee04b9dd594bed853916605955b1791d"
+    },
+    {
+      "bel": "a(CHEBI:aloxistatin)",
+      "concept": {
+        "name": "aloxistatin",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "8136823e9e6eda3da2aef3af2f9c31fc"
+    },
+    {
+      "bel": "a(MESH:\"G protein, vesicular stomatitis virus\")",
+      "concept": {
+        "name": "G protein, vesicular stomatitis virus",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "7fe0f729c57dfbc2eeaf52bbc069108a"
+    },
+    {
+      "bel": "a(MESH:\"Giant Cells\")",
+      "concept": {
+        "name": "Giant Cells",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "16a79f90aa78f1aa0c3096c4a8b808c6"
+    },
+    {
+      "bel": "a(MESH:\"Murine hepatitis virus\")",
+      "concept": {
+        "name": "Murine hepatitis virus",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "747016c5b68c7da557088797ae44e34a"
+    },
+    {
+      "bel": "a(PUBCHEM:10173277)",
+      "concept": {
+        "name": "10173277",
+        "namespace": "PUBCHEM"
+      },
+      "function": "Abundance",
+      "id": "4a2d0acccff18d7b96f1cfbe25a03976"
+    },
+    {
+      "bel": "a(PUBCHEM:16725315)",
+      "concept": {
+        "name": "16725315",
+        "namespace": "PUBCHEM"
+      },
+      "function": "Abundance",
+      "id": "a931cd0c3a713707e416cb794348ad7c"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(HGNC:CTSL)",
+      "concept": {
+        "name": "CTSL",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "a78366aeaeaa0648757907826646d259"
+    },
+    {
+      "bel": "p(HGNC:PIKFYVE)",
+      "concept": {
+        "name": "PIKFYVE",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "4c882ab747b68fa843442becf66a5292"
+    },
+    {
+      "bel": "p(MGI:Tpcn2)",
+      "concept": {
+        "name": "Tpcn2",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "888414d69762236aa4b5210cadc8eeb5"
+    }
+  ]
+}

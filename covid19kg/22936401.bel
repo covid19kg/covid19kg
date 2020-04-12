@@ -1,0 +1,172 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "22936401.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Custom_CellLine AS LIST {"HL-CZ cell"}
+DEFINE ANNOTATION Sample AS LIST {"culture medium","cell lysate"}
+DEFINE ANNOTATION Assay AS LIST {"Q-TOF mass spectrometry"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","22936401"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "PLpro alone induced mRNA expression of TGF-b1 (greater than four \
+fold), IL-1a (approximately three fold),and RANTES (approximately two \
+fold) (Fig. 2A, D, and E), yet no signifi- cant rise in TNF-a and \
+IFN-a compared to vector controls (Fig. 2B and C)."
+
+SET Species = "9606"
+SET Custom_CellLine = "HL-CZ cell"
+SET BioAssay = "quantitative PCR"
+p(UNIPROT:P0C6X7, frag("819_2740")) -> r(HGNC:TGFB1)
+p(UNIPROT:P0C6X7, frag("819_2740")) -> r(HGNC:IL1A)
+p(UNIPROT:P0C6X7, frag("819_2740")) -> r(HGNC:CCL5)
+p(UNIPROT:P0C6X7) -- a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+#p(UNIPROT:P0C6X7, frag("819_2740")) is ProPL fragment of polyprotein
+
+SET Evidence = "IFN-a treatment stimulated higher transcriptional levels of TNF-a and \
+IFN-b, but not TGF-b1, IL-1a, and RANTES in vector controls than in \
+PLpro-expressing cells (Fig. 2)."
+
+composite(p(UNIPROT:P0C6X7, frag("819_2740")),p(HGNC:IFNA1)) -> r(HGNC:TNF)
+composite(p(UNIPROT:P0C6X7, frag("819_2740")),p(HGNC:IFNA1)) -> r(HGNC:IFNB1)
+UNSET BioAssay
+
+SET Evidence = "TGF-b1 in cultured media and cell lysates of PLpro-expressing cells \
+were twice as high as in vector controls, indicating that PLpro plays \
+a unique role in upregulating TGF-b1 production."
+
+SET Sample = {"culture medium","cell lysate"}
+act(p(UNIPROT:P0C6X7, frag("819_2740"))) -> p(HGNC:TGFB1)
+UNSET Sample
+
+SET Evidence = "MS analysis of HSP27 (Spot ID 1) showed a Mascot score of 161, five \
+matched peptides, and sequence coverage of 37%; vimentin (Spot ID 7) \
+showed a Mascot score of 1420, sequence coverage of 71%, and 14 \
+matched peptides"
+
+SET BioAssay = "mass spectrometry"
+act(p(UNIPROT:P0C6X7, frag("819_2740"))) -> p(HGNC:HSPB1)
+act(p(UNIPROT:P0C6X7, frag("819_2740"))) -> p(HGNC:VIM)
+UNSET BioAssay
+
+SET Evidence = "Peptide peaks from Q-TOF MS analysis from three representative spots \
+of interest, vimentin (Spot ID 7), glial fibrillary acidic protein \
+(Spot ID 17), and HSP27 (Spot ID 1) appear in Supporting Information \
+Fig. S1A–C."
+
+SET Assay = "Q-TOF mass spectrometry"
+act(p(UNIPROT:P0C6X7, frag("819_2740"))) -> p(HGNC:HSPB1)
+act(p(UNIPROT:P0C6X7, frag("819_2740"))) -> p(HGNC:VIM)
+act(p(UNIPROT:P0C6X7, frag("819_2740"))) -> p(HGNC:GFAP)
+UNSET Assay
+
+SET Evidence = "Analyzing cell lysates by Western blot confirms protein profiling \
+induced by PLpro (Fig. 5), i.e. significant rise of vimentin and HSP27 \
+coupled with substantial decline of ERK1 in PLpro- expressing cells \
+compared to vector controls, consistent with 2DE/Q-TOF MS/MS analysis \
+in Fig. 4, Tables 1 and 2."
+
+SET BioAssay = "western blot"
+act(p(UNIPROT:P0C6X7, frag("819_2740"))) -> p(HGNC:HSPB1)
+act(p(UNIPROT:P0C6X7, frag("819_2740"))) -> p(HGNC:VIM)
+act(p(UNIPROT:P0C6X7, frag("819_2740"))) -| p(HGNC:MAPK3)
+UNSET BioAssay
+
+SET Evidence = "Moreover, quantitative real-time PCR indicated mRNA expression of \
+ubiquitin-conjugating enzyme E2–25 kDa (Spot ID 3) and protein \
+disulfide isomerase A3 precursor (Spot ID 11) upregulated two fold in \
+PLpro-expressing cells, but no change in controls (Supporting \
+Information Fig. S2), supporting 2D/MS data (Fig. 4 and Table 1)."
+
+SET BioAssay = "quantitative PCR"
+act(p(UNIPROT:P0C6X7, frag("819_2740"))) -> r(HGNC:UBE2K)
+act(p(UNIPROT:P0C6X7, frag("819_2740"))) -> r(HGNC:PDIA3)
+UNSET BioAssay
+
+SET Evidence = "Quantitative real-time PCR assay indicated MG-132 causing more than a \
+twofold decrease of TGF-?1 and vimentin mRNA in PLpro-expressing \
+versus control cells (Fig. 6A)."
+
+SET BioAssay = "quantitative PCR"
+composite(p(UNIPROT:P0C6X7, frag("819_2740")),a(CHEBI:"N-benzyloxycarbonyl-L-leucyl-L-leucyl-L-leucinal")) -| r(HGNC:TGFB1)
+composite(p(UNIPROT:P0C6X7, frag("819_2740")),a(CHEBI:"N-benzyloxycarbonyl-L-leucyl-L-leucyl-L-leucinal")) -| r(HGNC:VIM)
+UNSET BioAssay
+
+SET Evidence = "ELISA assays indicated MG-132 reducing TGF-?1 protein in lysates of \
+PLpro-expressing cells by twofold and no effect on controls (Fig. 6B), \
+proving ubiquitin–proteasomal system involvement in PLpro-induced \
+expression of TGF-?1 and vimentin."
+
+SET Sample = "cell lysate"
+SET BioAssay = "ELISA"
+composite(p(UNIPROT:P0C6X7, frag("819_2740")),a(CHEBI:"N-benzyloxycarbonyl-L-leucyl-L-leucyl-L-leucinal")) -| p(HGNC:TGFB1)
+UNSET BioAssay
+UNSET Sample
+
+SET Evidence = "ELISA assay showed less PLpro-induced TGF-?1 production by SB203580 \
+(1.5-fold) and U0126 (3.3-fold) (Fig. 7A and B)."
+
+SET BioAssay = "ELISA"
+composite(p(UNIPROT:P0C6X7, frag("819_2740")),a(CHEBI:"SB 203580")) -| p(HGNC:TGFB1)
+composite(p(UNIPROT:P0C6X7, frag("819_2740")),a(CHEBI:U0126)) -| p(HGNC:TGFB1)
+UNSET BioAssay
+a(CHEBI:"SB 203580") -| p(HGNC:MAPK14)
+a(CHEBI:U0126) -| p(HGNC:MAPK1)
+a(CHEBI:U0126) -| p(HGNC:MAPK3)
+
+SET Evidence = "Quantitative real-time PCR assay indicated U0126 raising PLpro-induced \
+mRNA expression of TGF-?1 (sixfold), vimentin (3.3-fold), and type I \
+collagen (8.4-fold) (Fig. 7C)."
+
+SET BioAssay = "quantitative PCR"
+composite(p(UNIPROT:P0C6X7, frag("819_2740")),a(CHEBI:U0126)) -> r(HGNC:TGFB1)
+composite(p(UNIPROT:P0C6X7, frag("819_2740")),a(CHEBI:U0126)) -> r(HGNC:VIM)
+composite(p(UNIPROT:P0C6X7, frag("819_2740")),a(CHEBI:U0126)) -> r(HGNC:COL1A1)
+UNSET BioAssay
+
+SET Evidence = "Results indicated the activation of p38 MAPK- and ERK1/2-mediated \
+signaling linking with induction of TGF-?1 and upregulation of \
+vimentin by PLpro."
+
+bp(GO:"p38MAPK cascade") -- act(p(UNIPROT:P0C6X7, frag("819_2740")))
+bp(GO:"ERK1 and ERK2 cascade") -- act(p(UNIPROT:P0C6X7, frag("819_2740")))
+act(p(UNIPROT:P0C6X7, frag("819_2740"))) -> p(HGNC:TGFB1)
+act(p(UNIPROT:P0C6X7, frag("819_2740"))) -> p(HGNC:VIM)
+UNSET Custom_CellLine
+UNSET Species
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Section
+UNSET Citation

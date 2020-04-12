@@ -1,0 +1,109 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "30310104.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE NCBIGENE AS PATTERN ".*"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Timeline AS LIST {"24 hours", "72 hours"}
+DEFINE ANNOTATION Treatment AS LIST {"Type 1 IFN alpha"}
+DEFINE ANNOTATION Custom_CellLine AS LIST {"RhiLu-ACE2 cell"}
+DEFINE ANNOTATION Custom_Species AS LIST {"42415", "9925", "9940"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","30310104"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "72 h post infection (hpi), rSCV8full, rSCVepi and rSCVdel8–2 gave evidence of replication by real-time RT-PCR, while rSCVdel8–1 RNA increased more slowly, reaching a plateau level only by 96 hpi."
+SET Timeline = "72 hours"
+SET CellLine = "Vero cell"
+g(NCBIGENE:43740577) -> bp(GO:"viral RNA genome replication")
+#ORF8 of recombinant virus
+g(NCBIGENE:43740577) -- a(TAX:"recombinant SARS coronavirus")
+UNSET Timeline
+
+SET Evidence = "Western blot analyses showed that rSCV8full, rSCVepi, as well as rSCVdel8–2 expressed similar amounts of the nucleocapsid protein, while no expression was seen in cells infected with rSCVdel8–1 (Fig. 1b)."
+SET BioAssay = "western blot"
+g(NCBIGENE:43740577) -> a(MESH:"Nucleocapsid Proteins")
+UNSET BioAssay
+
+SET Evidence = "rSCV8full grew significantly more efficiently than both other variants at 24 hpi (p < 0.05 and p < 0.001 comparing to rSCVepi and rSCVdel8, respectively, using t-Test)"
+SET BioAssay = "titration method"
+g(NCBIGENE:43740577) -> path(MESH:"Virus Replication")
+UNSET BioAssay
+
+SET Evidence = "Due to the essential role of the type I IFN system in the restriction of virus infection, it was tested whether the ORF8-dependent replication phenotype might be linked to the type I IFN response."
+path(HP:"type I interferon") -| path(MESH:"Virus Replication")
+
+SET Evidence = "At 24 h p.i., rSCV8full grew to titers 30 times higher than rSCVdel8 (Fig. 2b)"
+SET BioAssay = "titration method"
+SET Timeline = "24 hours"
+SET Treatment = "Type 1 IFN alpha"
+a(TAX:"recombinant SARS coronavirus") -> path(MESH:"Virus Replication")
+UNSET Timeline
+UNSET CellLine
+UNSET Treatment
+
+SET Evidence = "As shown in Fig. 3g, the same hierarchy of viral replication levels as in VeroFM cells was observed (rSCV8full > rSCVepi > rSCVdel8)"
+SET Custom_CellLine = "RhiLu-ACE2 cell"
+g(NCBIGENE:43740577) -> path(MESH:"Virus Replication")
+UNSET Custom_CellLine
+
+SET Evidence = "Again the same hierarchy of viral replication levels, namely rSCV8full > rSCVepi > rSCVdel8, was observed at 24 hpi (Fig. 4b)."
+SET Custom_Species = "42415"
+SET Cell = "bronchial epithelial cell"
+g(NCBIGENE:43740577) -> path(MESH:"Virus Replication")
+UNSET Custom_Species
+UNSET Cell
+SET Custom_Species = {"9925", "9940"}
+SET MeSHAnatomy = "Lung"
+g(NCBIGENE:43740577) -> path(MESH:"Virus Replication")
+UNSET Custom_Species
+UNSET MeSHAnatomy
+
+SET Evidence = "At both time points rSCV8full replicated to significantly higher titers than rSCVepi or rSCVdel8 in HAE (Fig. 4c)."
+SET Species = "9606"
+SET Cell = "bronchial epithelial cell"
+g(NCBIGENE:43740577) -> path(MESH:"Virus Replication")
+UNSET Species
+UNSET Cell
+UNSET BioAssay
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

@@ -1,0 +1,83 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Brielle_et.al_2020.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"DOI","10.1101/2020.03.10.986398"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Full Text"
+
+SET Evidence = "Coronavirus disease 2019 (COVID-19), initially detected in the Wuhan seafood market in the Hubei province of China (1) is caused by SARS-CoV-2 (referred to as the COVID-19 virus for clarity)."
+
+SET Species = "9606"
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") pos path(DO:"COVID-19")
+
+SET Evidence = "The angiotensin-converting enzyme 2 (ACE2) was identified as the critical receptor for mediating SARS-2002 entry into host cells (7, 8)."
+
+SET MeSHDisease = "Severe Acute Respiratory Syndrome"
+complex(p(HGNC:ACE2),p(UNIPROT:P59594)) -> bp(GO:"viral entry into host cell")
+p(UNIPROT:P59594) -- a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+bp(GO:"viral entry into host cell") -> path(DO:"severe acute respiratory syndrome")
+UNSET MeSHDisease
+
+SET Evidence = "Similar to the SARS-2002 virus, the COVID-19 virus enters the host cell by RBD binding to the host cell ACE2 receptor (7, 11, 12)."
+
+SET Custom_Disease = "COVID-19"
+complex(p(HGNC:ACE2),p(COVID:S)) -> bp(GO:"viral entry into host cell")
+bp(GO:"viral entry into host cell") -> path(DO:"COVID-19")
+UNSET Custom_Disease
+
+SET Evidence = "This analysis reveals the critical role of L486F (SARS-des residue F472) for stabilizing the COVID-19—ACE2 interface and a reduction in the number of states of the COVID-19 spike protein bound to an ACE2 receptor."
+
+SET BioAssay = "molecular dynamics simulation"
+p(COVID:S, var("p.Leu486Phe")) -> complex(p(HGNC:ACE2),p(COVID:S))
+UNSET BioAssay
+
+SET Evidence = "Experimental affinity measurements (e.g. surface plasmon resonance, SPR) confirm the high affinity of SARS-2002 RBD—ACE2 binding, with an equilibrium dissociation constant (K D ) of ~15 mM (18-21), similar to the binding affinity of ACE2 and the COVID-19 RBD (22, 23)."
+SET BioAssay = "surface plasmon resonance"
+complex(p(HGNC:ACE2),p(UNIPROT:P59594)) pos path(DO:"severe acute respiratory syndrome")
+UNSET BioAssay
+
+SET Evidence = "Moreover, in the SARS designed variant (SARS-des (11)), the addition of an aromatic residue (L486F substitution) significantly improved the interaction scores and interface stability (Fig. 3, B and D)."
+SET BioAssay = "molecular dynamics simulation"
+p(COVID:S, var("p.Leu486Phe")) -> complex(p(HGNC:ACE2),p(COVID:S))
+UNSET BioAssay
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

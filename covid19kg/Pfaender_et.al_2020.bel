@@ -1,0 +1,99 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Pfaender_et.al_2020.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishnacausalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Infection_Type AS LIST {"Coronavirus 229E", "Coronavirus OC43, Human", "Middle East respiratory syndrome-related coronavirus", "Severe acute respiratory syndrome-related coronavirus", "Severe acute respiratory syndrome coronavirus 2", "Coronavirus 229E, Human"}
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"DOI","10.1101/2020.03.05.979260"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+
+SET Evidence = "The ISG lymphocyte antigen 6 complex, locus E (LY6E) strikingly \
+inhibited HCoV-229E infection (Fig. 1a-b, Extended Data Fig. 1a)."
+
+SET Infection_Type = "Coronavirus 229E, Human"
+act(p(HGNC:LY6E)) -| bp(MESH:Virulence)
+UNSET Infection_Type
+
+SET Evidence = "In addition to HCoV-229E (Fig. 1c), LY6E significantly inhibited \
+infection by HCoV-OC43, MERS-CoV, SARSCoV, and the recently emerged \
+SARS-CoV-2 (Fig. 1d-g)."
+
+SET Infection_Type = {"Coronavirus OC43, Human", "Middle East respiratory syndrome-related coronavirus", "Severe acute respiratory syndrome-related coronavirus", "Severe acute respiratory syndrome coronavirus 2"}
+
+act(p(HGNC:LY6E)) -| bp(MESH:Virulence)
+
+SET Evidence = "Strikingly, LY6E significantly inhibited VSVpp entry mediated by S \
+proteins from HCoV-229E (Fig. 2a), MERS-CoV (Fig. 2b), SARS-CoV (Fig. \
+2c), and SARS-CoV-2 (Fig. 2d)."
+
+SET Infection_Type = {"Coronavirus 229E"}
+act(p(UNIPROT:P15423)) -> bp(GO:"viral entry into host cell")
+act(p(HGNC:LY6E)) -| act(p(UNIPROT:P15423))
+UNSET Infection_Type
+SET Infection_Type = "Middle East respiratory syndrome-related coronavirus"
+act(p(UNIPROT:R9UQ53)) -> bp(GO:"viral entry into host cell")
+act(p(HGNC:LY6E)) -| act(p(UNIPROT:P15423))
+UNSET Infection_Type
+SET Infection_Type = "Severe acute respiratory syndrome-related coronavirus"
+act(p(UNIPROT:P59594)) -> bp(GO:"viral entry into host cell")
+act(p(HGNC:LY6E)) -| act(p(UNIPROT:P15423))
+UNSET Infection_Type
+SET Infection_Type = "Severe acute respiratory syndrome-related coronavirus"
+act(p(COVID:S)) -> bp(GO:"viral entry into host cell")
+act(p(HGNC:LY6E)) -| act(p(UNIPROT:P15423))
+UNSET Infection_Type
+
+SET Evidence = "LY6E potently inhibited CoV S protein-mediated syncytia formation \
+(Fig. 2e-f)."
+
+SET Infection_Type = {"Coronavirus 229E"}
+act(p(UNIPROT:P15423)) -> bp(GO:"syncytium formation")
+act(p(HGNC:LY6E)) -| act(p(UNIPROT:P15423))
+UNSET Infection_Type
+SET Infection_Type = "Middle East respiratory syndrome-related coronavirus"
+act(p(UNIPROT:R9UQ53)) -> bp(GO:"syncytium formation")
+act(p(HGNC:LY6E)) -| act(p(UNIPROT:P15423))
+UNSET Infection_Type
+SET Infection_Type = "Severe acute respiratory syndrome-related coronavirus"
+act(p(UNIPROT:P59594)) -> bp(GO:"syncytium formation")
+act(p(HGNC:LY6E)) -| act(p(UNIPROT:P15423))
+UNSET Infection_Type
+SET Infection_Type = "Severe acute respiratory syndrome-related coronavirus"
+act(p(COVID:S)) -> bp(GO:"syncytium formation")
+act(p(HGNC:LY6E)) -| act(p(UNIPROT:P15423))
+UNSET Infection_Type
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

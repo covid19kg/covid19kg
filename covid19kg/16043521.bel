@@ -1,0 +1,225 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "16043521.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20190128.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Anatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Disease_Stage AS LIST {"prodromal stage","early stage"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","16043521"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "Conventional light microscopy (LM) demonstrated widespread damage of the lung parenchyma, with extensive fibrin exudate, edema, interstitial thickening, and extensive hyaline membrane formation (Fig. 1B)."
+
+SET Species = "9606"
+SET MeSHDisease = "Severe Acute Respiratory Syndrome"
+SET BioAssay = "optical microscopy"
+SET MeSHAnatomy = "Lung"
+path(DO:"severe acute respiratory syndrome") -| a(MESH:"Parenchymal Tissue")
+path(DO:"severe acute respiratory syndrome") -> path(DO:"pulmonary edema")
+path(DO:"severe acute respiratory syndrome") -> bp(GO:"cell wall thickening")
+path(DO:"severe acute respiratory syndrome") -> path(MESH:"Hyaline Membrane Disease")
+
+SET Evidence = "There was extensive alveolar collapse, and the remaining alveoli were filled with fluid and desquamated alveolar and bronchial epithelial cells. Alveolar epithelial hyperplasia was evident."
+
+SET MeSHAnatomy = "Pulmonary Alveoli"
+path(DO:"severe acute respiratory syndrome") -| bp(GO:"lung alveolus development")
+path(DO:"severe acute respiratory syndrome") -> path(DO:"pulmonary edema")
+path(DO:"severe acute respiratory syndrome") -> path(MESH:Hyperplasia)
+UNSET MeSHAnatomy
+SET MeSHAnatomy = {"Pulmonary Alveoli","Bronchi"}
+path(DO:"severe acute respiratory syndrome") -| a(MESH:"Respiratory Mucosa")
+UNSET MeSHAnatomy
+
+SET Evidence = "Large syncytial cells with multiple nuclei were present. Small vessel vasculitis was seen."
+
+SET MeSHAnatomy = "Lung"
+path(DO:"severe acute respiratory syndrome") -> path(DO:"respiratory syncytial virus infectious disease")
+path(DO:"severe acute respiratory syndrome") -> path(HP:"Small vessel vasculitis")
+UNSET MeSHAnatomy
+UNSET BioAssay
+
+SET Evidence = "In situ hybridization demonstrated SARS viral sequences in the cytoplasm of a large number of intact and degenerating epithelial cells of the lungs as well as in the scanty infiltrating lymphocytes and clustered macrophages (Fig. 1, C and D)."
+SET MeSHAnatomy = {"Respiratory Mucosa","Lymphocytes","Macrophages"}
+SET BioAssay = "nucleic acid hybridization-based method"
+path(DO:"severe acute respiratory syndrome") pos  a(GO:"RNA viral genome",loc(GO:cytoplasm))
+a(GO:"RNA viral genome") -- a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+UNSET BioAssay
+UNSET MeSHAnatomy
+
+SET Evidence = "Monocytes and lymphocytes in blood vessels of the lungs also were positive for in situ hybridization (Fig. 1E)."
+
+SET MeSHAnatomy = {"Lung","Blood Vessels"}
+SET BioAssay = "nucleic acid hybridization-based method"
+path(DO:"severe acute respiratory syndrome") pos a(GO:"RNA viral genome", loc(MESH:Monocytes))
+path(DO:"severe acute respiratory syndrome") pos a(GO:"RNA viral genome", loc(MESH:Lymphocytes))
+UNSET BioAssay
+UNSET MeSHAnatomy
+
+SET Evidence = "SARS viral sequences also were detected in the epithelial cells of the trachea, bronchi, and bronchioles by in situ hybridization (Fig. 1 J)."
+
+SET MeSHAnatomy = {"Trachea","Bronchi","Bronchioles"}
+SET BioAssay = "nucleic acid hybridization-based method"
+path(DO:"severe acute respiratory syndrome") pos a(GO:"RNA viral genome", loc(MESH:"Epithelial Cells"))
+UNSET BioAssay
+UNSET MeSHAnatomy
+
+SET Evidence = "Among the 22 SARS blood samples that were obtained from the early stages of the disease, EM detected SARS-like viral particles in monocytes and lymphocytes of six patients. These round viral particles, with diameters of 80–120 nm, were located in the cytoplasm."
+
+SET Disease_Stage = "early stage"
+SET BioAssay = "electron microscopy"
+SET MeSHAnatomy = {"Monocytes","Lymphocytes"}
+path(DO:"severe acute respiratory syndrome") pos a(TAX:"Severe acute respiratory syndrome-related coronavirus", loc(GO:cytoplasm))
+UNSET MeSHAnatomy
+
+SET Evidence = "Most of the infected cells were T cells. Some B cells and NK cells also were infected by the virus. By EM, the viral particles tended to form clusters and were located within or near the endoplasmic reticulum."
+
+SET MeSHAnatomy = {"T-Lymphocytes","B-Lymphocytes","Killer Cells, Natural"}
+path(DO:"severe acute respiratory syndrome") pos a(TAX:"Severe acute respiratory syndrome-related coronavirus", loc(GO:"endoplasmic reticulum"))
+UNSET MeSHAnatomy
+UNSET BioAssay
+UNSET Disease_Stage
+
+SET Evidence = "A large proportion of lymphocytes in the circulation and lymphoid organs contained the virus (Fig. 2, A and B)."
+
+SET MeSHAnatomy = {"Lymphocytes","Lymphoid Tissue"}
+path(DO:"severe acute respiratory syndrome") pos a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+UNSET MeSHAnatomy
+
+SET Evidence = "The spleen and lymph nodes were atrophic (Fig. 2 L)."
+
+SET MeSHAnatomy = {"Spleen","Lymph Nodes"}
+path(DO:"severe acute respiratory syndrome") -> path(MESH:Atrophy)
+UNSET MeSHAnatomy
+
+SET Evidence = "LM with hematoxylin and eosin staining revealed a notable decrease of lymphocytes in these organs (Fig. 2 C)."
+
+SET MeSHAnatomy = {"Spleen","Lymph Nodes"}
+SET BioAssay = "optical microscopy"
+path(DO:"severe acute respiratory syndrome") -| a(MESH:Lymphocytes)
+UNSET BioAssay
+UNSET MeSHAnatomy
+
+SET Evidence = "All immune cell types, including dendritic cells, were decreased significantly (P <0.01), and CD68 positive macrophages, which were decreased in number, were noticeably (P < 0.01) increased in size and gave the impression of macrophage activation (Fig. 2, D and E)."
+
+path(DO:"severe acute respiratory syndrome") -| a(MESH:"Dendritic Cells")
+path(DO:"severe acute respiratory syndrome") neg p(HGNC:CD68)
+surf(p(HGNC:CD68)) -- a(MESH:Macrophages)
+path(DO:"severe acute respiratory syndrome") -> bp(GO:"macrophage activation")
+
+SET Evidence = "In situ hybridization identified the SARS viral sequence in the enlarged macrophages and in the isolated and sometimes clustered T lymphocytes, which were distributed mostly at the periphery of the germinal centers of the splenic white pulp, lymph nodes, and peripheral blood (Fig. 1 E; Fig. 2 G, H, J, and M)."
+
+SET MeSHAnatomy = {"Spleen","Lymph Nodes","Blood"}
+SET BioAssay = "nucleic acid hybridization-based method"
+path(DO:"severe acute respiratory syndrome") pos a(GO:"RNA viral genome", loc(MESH:Macrophages))
+path(DO:"severe acute respiratory syndrome") pos a(GO:"RNA viral genome", loc(MESH:"T-Lymphocytes"))
+UNSET BioAssay
+UNSET MeSHAnatomy
+
+SET Evidence = "The lymphoid follicles (Peyer’s patches) showed markedly decreased lymphocytes (Fig. 3 A), and in severe cases only the depleted stromal framework of the structure remained. EM detected viral particles in the submucosa of the gut (Fig. 3, B and C) and within the residual lymphocytes."
+
+SET MeSHAnatomy = "Peyer's Patches"
+path(DO:"severe acute respiratory syndrome") -| a(MESH:"T-Lymphocytes")
+UNSET MeSHAnatomy
+SET MeSHAnatomy = "Gastrointestinal Tract"
+SET Anatomy = "submucosa of digestive tract"
+SET BioAssay = "electron microscopy"
+path(DO:"severe acute respiratory syndrome") pos a(GO:"RNA viral genome", loc(MESH:"T-Lymphocytes"))
+UNSET BioAssay
+UNSET MeSHAnatomy
+UNSET Anatomy
+
+SET Evidence = "In situ hybridization demonstrated the presence of SARS positivity in the lymphocytes of the mucosa and the submucosa (Fig. 3 D)."
+
+SET Anatomy = {"submucosa of small intestine","mucosa of small intestine"}
+SET BioAssay = "nucleic acid hybridization-based method"
+path(DO:"severe acute respiratory syndrome") pos a(GO:"RNA viral genome", loc(MESH:Lymphocytes))
+UNSET BioAssay
+UNSET Anatomy
+
+SET Evidence = "In addition, the epithelial cells of mucosa of the small and large intestines were found to be infected by the virus by in situ hybridization and EM (Fig. 3G)."
+
+SET Anatomy = {"mucosa of large intestine","mucosa of small intestine"}
+SET BioAssay = "nucleic acid hybridization-based method"
+path(DO:"severe acute respiratory syndrome") pos a(GO:"RNA viral genome", loc(MESH:"Epithelial Cells"))
+UNSET BioAssay
+SET BioAssay = "electron microscopy"
+path(DO:"severe acute respiratory syndrome") pos a(TAX:"Severe acute respiratory syndrome-related coronavirus", loc(MESH:"Epithelial Cells"))
+UNSET BioAssay
+UNSET Anatomy
+
+SET Evidence = "In situ hybridization localized viral sequences to the epithelial cells of the renal distal tubules (Fig. 3 J)."
+
+SET MeSHAnatomy = "Kidney Tubules, Distal"
+SET BioAssay = "nucleic acid hybridization-based method"
+path(DO:"severe acute respiratory syndrome") pos a(GO:"RNA viral genome", loc(MESH:"Epithelial Cells"))
+UNSET BioAssay
+UNSET MeSHAnatomy
+
+SET Evidence = "Clusters of SARS viral particles also were detected in the cytoplasm of the distal tubular epithelium by EM (Fig. 3, M and N)."
+
+SET MeSHAnatomy = "Kidney Tubules, Distal"
+SET BioAssay = "electron microscopy"
+path(DO:"severe acute respiratory syndrome") pos a(TAX:"Severe acute respiratory syndrome-related coronavirus", loc(GO:cytoplasm))
+UNSET BioAssay
+UNSET MeSHAnatomy
+
+SET Evidence = "SARS genome sequences were detected in the brain of all SARS autopsies with LM, EM, and with real-time RT-PCR. The signals were confined to the cytoplasm of numerous neurons in the hypothalamus and cortex (Fig. 3 O)."
+
+SET MeSHAnatomy = {"Hypothalamus","Cerebral Cortex","Neurons"}
+SET BioAssay = {"optical microscopy","electron microscopy","nucleic acid hybridization-based method"}
+path(DO:"severe acute respiratory syndrome") pos a(GO:"RNA viral genome", loc(GO:cytoplasm))
+UNSET MeSHAnatomy
+
+SET Evidence = "In five out of the eight confirmed cases, hepatocytes in the centrilobular zone showed apparent degenerative changes. The testes of the seven male patients displayed focal atrophy."
+
+SET MeSHAnatomy = {"Hepatocytes","Testis"}
+path(DO:"severe acute respiratory syndrome") -> path(MESH:Atrophy)
+UNSET MeSHAnatomy
+
+SET Evidence = "T lymphocytes (CD3+, CD4+, and CD8+ cells) were decreased at the onset of symptoms; this decrease persisted until the recovery phase."
+
+SET Disease_Stage = "prodromal stage"
+path(DO:"severe acute respiratory syndrome") -| a(MESH:"CD4-Positive T-Lymphocytes")
+path(DO:"severe acute respiratory syndrome") -| a(MESH:"CD8-Positive T-Lymphocytes")
+UNSET Disease_Stage
+UNSET MeSHDisease
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

@@ -1,0 +1,80 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32167166.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Custom_Species AS LIST {"2697049"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Short Communication"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed", "J Med Virol. 2020 Mar 13. doi: 10.1002/jmv.25758.", "32167166"}
+
+SET PublicationType = "Short Communication"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+
+SET Evidence = "The analysis displayed that most pp1ab proteins have not changed; only six amino acid changes were detected (Table S2)."
+SET Custom_Species = "2697049"
+SET BioAssay = "computational phylogenetic analysis"
+p(COVID:ORF1ab, var("?")) -- path(DO:"COVID-19")
+UNSET Custom_Species
+
+SET Evidence = "One of these mutations(L3606F), placed in the position 37 of nsp6 protein (L37F), is shared by ten sequences from viruses isolated in China, USA,France, Hong Kong, Italy, and Singapore (Table S2)."
+SET Species = "9606"
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(DO:"COVID-19")
+p(COVID:ORF1ab, var("p.Leu3606Phe")) -- path(DO:"COVID-19")
+p(COVID:ORF1ab, frag("3570_3859")) -- p(COVID:ORF1ab)
+#ORF1ab, frag("3570_3859") is nsp6
+UNSET Species
+
+SET Evidence = "Coronavirus nsp6 is a transmembrane protein that is associated with nsp3 and nsp4 proteins to form the organelle-like replicative structures(double -membrane vesicles)."
+p(COVID:ORF1ab, frag("3570_3859")) isA a (MESH:"Membrane Proteins")
+p(COVID:ORF1ab, frag("3570_3859")) -- p(COVID:ORF1ab, frag("819_2763"))
+p(COVID:ORF1ab, frag("3570_3859")) -- p(COVID:ORF1ab, frag("2764_3263"))
+
+SET Evidence = "Interestingly, a virus isolated from a Japanese male (GISAID:EPI_ISL_407084), with no critical pneumonia (patient status described in GISAID database), has eight deleted amino acids at position 32 to 39 aa of pp1ab (nsp1) (Table S2)."
+SET Species = "9606"
+p(COVID:ORF1ab,  var("p.32_39del")) -- path(DO:"COVID-19")
+p(COVID:ORF1ab, frag("1_180")) -- p(COVID:ORF1ab)
+#nsp1
+UNSET Species
+
+SET Evidence = "Since nsp1 is avirulence factor that inhibits host gene expression,10 the implications of this deletion are worth to be addressed."
+p(COVID:ORF1ab, frag("1_180")) -> bp(GO:"suppression by virus of host gene expression")
+SET Evidence = "First reports focused on the genetic characterization of SARS-CoV-2 suggested that this virus has a recombinant origin.2"
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") isA a(TAX:"recombinant coronavirus")
+UNSET BioAssay
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

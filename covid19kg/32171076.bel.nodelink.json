@@ -1,0 +1,2595 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Thrishna",
+      "contact": "thrishna@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32171076.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "PFAM": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+    },
+    "path": "32171076.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Comorbidities were present in nearly half of patients, with hypertension being the most common comorbidity, followed by diabetes and coronary heart disease (table 1).",
+      "key": "af6dc28490730003bf1d14e6e9c5d28b",
+      "line": 52,
+      "relation": "association",
+      "source": 12,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Comorbidities were present in nearly half of patients, with hypertension being the most common comorbidity, followed by diabetes and coronary heart disease (table 1).",
+      "key": "2c815c154836e899f4be4a99c06aad28",
+      "line": 52,
+      "relation": "association",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Comorbidities were present in nearly half of patients, with hypertension being the most common comorbidity, followed by diabetes and coronary heart disease (table 1).",
+      "key": "462c9645f3e29d1e8fdfcafe18274652",
+      "line": 53,
+      "relation": "association",
+      "source": 8,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Comorbidities were present in nearly half of patients, with hypertension being the most common comorbidity, followed by diabetes and coronary heart disease (table 1).",
+      "key": "d905910846370e4b87c57c324b0e4e54",
+      "line": 54,
+      "relation": "association",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms on admission were fever and cough, followed by sputum production and fatigue (table 1).",
+      "key": "82fb69ed7b8eaac24b866191d7773477",
+      "line": 59,
+      "relation": "increases",
+      "source": 8,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms on admission were fever and cough, followed by sputum production and fatigue (table 1).",
+      "key": "befc9329e2cba9888b0d1570fac14348",
+      "line": 60,
+      "relation": "increases",
+      "source": 8,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms on admission were fever and cough, followed by sputum production and fatigue (table 1).",
+      "key": "d8e893056a52c5b51a37e7d996bde6e9",
+      "line": 61,
+      "relation": "increases",
+      "source": 8,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Lymphocytopenia occurred in 77 (40%) patients. 181 (95%) patients received antibiotics and 41 (21%) received antivirals (lopinavir/ritonavir; table 2).",
+      "key": "84d67f2d0f5bf69c96c1390bc4607340",
+      "line": 67,
+      "relation": "increases",
+      "source": 8,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Sepsis was the most frequently observed complication, followed by respiratory failure, ARDS, heart failure, and septic shock (table 2).",
+      "key": "00c13fc2204fddaeea9636944db1884c",
+      "line": 72,
+      "relation": "increases",
+      "source": 8,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Comorbidities were present in nearly half of patients, with hypertension being the most common comorbidity, followed by diabetes and coronary heart disease (table 1).",
+      "key": "6c9adbe038643e987da170fa939ec096",
+      "line": 53,
+      "relation": "association",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "In univariable analysis, odds of in-hospital death was higher in patients with diabetes or coronary heart disease (table 3).",
+      "key": "bfc53a2dd477b7c4f110e38b07c1f530",
+      "line": 87,
+      "relation": "increases",
+      "source": 11,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Comorbidities were present in nearly half of patients, with hypertension being the most common comorbidity, followed by diabetes and coronary heart disease (table 1).",
+      "key": "5bb2c799a16391315032630f547117ef",
+      "line": 54,
+      "relation": "association",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "In univariable analysis, odds of in-hospital death was higher in patients with diabetes or coronary heart disease (table 3).",
+      "key": "f3c010a9e35254a412d689ee9fb59871",
+      "line": 88,
+      "relation": "increases",
+      "source": 10,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "970c29dfd5f69b162a6d9b547534ecf1",
+      "line": 95,
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Sepsis was the most frequently observed complication, followed by respiratory failure, ARDS, heart failure, and septic shock (table 2).",
+      "key": "93edb1a83672fe6dc839216a586cca83",
+      "line": 73,
+      "relation": "increases",
+      "source": 26,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Sepsis was the most frequently observed complication, followed by respiratory failure, ARDS, heart failure, and septic shock (table 2).",
+      "key": "9085db763c688b88db13b439194e7f10",
+      "line": 74,
+      "relation": "increases",
+      "source": 26,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Sepsis was the most frequently observed complication, followed by respiratory failure, ARDS, heart failure, and septic shock (table 2).",
+      "key": "38d16050b4e5d2ae3b8661d5cf54dd6e",
+      "line": 75,
+      "relation": "increases",
+      "source": 26,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Sepsis developed at a median of 9·0 days (7·0–13·0) after illness onset among all patients, followed by ARDS (12·0 days [8·0–15·0]), acute cardiac injury (15·0 days [10·0–17·0]), acute kidney injury (15·0 days [13·0–19·5]), and secondary infection (17·0 days [13·0–19·0]).",
+      "key": "30ca46f6f54159015d5098f5f136225b",
+      "line": 115,
+      "relation": "increases",
+      "source": 26,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Sepsis developed at a median of 9·0 days (7·0–13·0) after illness onset among all patients, followed by ARDS (12·0 days [8·0–15·0]), acute cardiac injury (15·0 days [10·0–17·0]), acute kidney injury (15·0 days [13·0–19·5]), and secondary infection (17·0 days [13·0–19·0]).",
+      "key": "cd7784b06caf12e31117927db688c975",
+      "line": 116,
+      "relation": "increases",
+      "source": 26,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Sepsis developed at a median of 9·0 days (7·0–13·0) after illness onset among all patients, followed by ARDS (12·0 days [8·0–15·0]), acute cardiac injury (15·0 days [10·0–17·0]), acute kidney injury (15·0 days [13·0–19·5]), and secondary infection (17·0 days [13·0–19·0]).",
+      "key": "07e8ce746dac594fad2b0d26335d1a54",
+      "line": 118,
+      "relation": "increases",
+      "source": 26,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Half of non-survivors experienced a secondary infection, and ventilator-associated pneumonia occurred in ten (31%) of 32 patients requiring invasive mechanical ventilation.",
+      "key": "e6345e111d164282589a813a8b38188e",
+      "line": 81,
+      "relation": "increases",
+      "source": 21,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "f0ddb3f9c759d96f4846dbd43470f8d0",
+      "line": 95,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "70a99aedac95db6dd594c3cac1f0235b",
+      "line": 96,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "5b0969e6f26156a7fdd4804aff752758",
+      "line": 97,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "c9ee8085da220a8c077897ef4b2b97e1",
+      "line": 98,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "5cc80d4b7bbfd580b0e909bc01fc482a",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "600e9ba3a443f54d173bfc9e418d3a44",
+      "line": 100,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "aaf2efdfc3b953759ca743dda30ef96c",
+      "line": 102,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "25bcf6dd74ebbba37050a1b5d3e0da4a",
+      "line": 104,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "986d0f80a58ccaecc55c11aa82407d7e",
+      "line": 106,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Half of non-survivors experienced a secondary infection, and ventilator-associated pneumonia occurred in ten (31%) of 32 patients requiring invasive mechanical ventilation.",
+      "key": "ae53b9d7d54a942f3d9d4e4c94607b19",
+      "line": 82,
+      "relation": "increases",
+      "source": 19,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "1069cbc5bb7a5a917fe085b8689c9473",
+      "line": 96,
+      "relation": "positiveCorrelation",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "1878d4f88bdf0afea1441cbdc75185c4",
+      "line": 97,
+      "relation": "positiveCorrelation",
+      "source": 25,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "3ddb6fbad383519626a96ec7230d65f9",
+      "line": 98,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "a28283b8123d6dd296ea32e469e64c97",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "7dd428ea35dcb378f0d9170572757e57",
+      "line": 100,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "0fa284f1fab7f1454b884db1b32f4595",
+      "line": 101,
+      "relation": "increases",
+      "source": 14,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "fc8699b359ea9954a99919bdbe741e44",
+      "line": 102,
+      "relation": "positiveCorrelation",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "fff24d1254772d7ca0f0465381c72825",
+      "line": 104,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "38e7ea49521d64745090d2eec64f2a1b",
+      "line": 106,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Chen H",
+          "Du R",
+          "Fan G",
+          "Gu X",
+          "Guan L",
+          "Li H",
+          "Liu Y",
+          "Liu Z",
+          "Song B",
+          "Tu S",
+          "Wang Y",
+          "Wei Y",
+          "Wu X",
+          "Xiang J",
+          "Xu J",
+          "Yu T",
+          "Zhang Y",
+          "Zhou F"
+        ],
+        "date": "2020-03-28",
+        "db": "PubMed",
+        "db_id": "32171076",
+        "db_name": "Lancet (London, England)",
+        "first": "Zhou F",
+        "last": "Cao B",
+        "pages": "1054-1062",
+        "volume": "395"
+      },
+      "evidence": "Age, lymphopenia, leucocytosis, and elevated ALT, lactate dehydrogenase, high-sensitivity cardiac troponin I, creatine kinase, d-dimer, serum ferritin, IL-6, prothrombin time, creatinine, and procalcitonin were also associated with death (table 3).",
+      "key": "81eff50f971f2c431115d54bd0b6e67f",
+      "line": 107,
+      "relation": "increases",
+      "source": 15,
+      "target": 2
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:\"Troponin I\")",
+      "concept": {
+        "name": "Troponin I",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "63f046cc2c5a1d58a11a4cd4c31ef77a"
+    },
+    {
+      "bel": "a(MESH:\"fibrin fragment D\")",
+      "concept": {
+        "name": "fibrin fragment D",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "695b9a75cdb8b199559dcf0c68d35ca3"
+    },
+    {
+      "bel": "a(MESH:Mortality)",
+      "concept": {
+        "name": "Mortality",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "cf219a9c8a81a7e372e19173d071eef6"
+    },
+    {
+      "bel": "bp(GO:aging)",
+      "concept": {
+        "name": "aging",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "77570756b71db14efd4d1aefc49bec11"
+    },
+    {
+      "bel": "p(HGNC:GPT)",
+      "concept": {
+        "name": "GPT",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "86617b0271f3cba1d1ebdf66ff44b39a"
+    },
+    {
+      "bel": "p(HGNC:IL6)",
+      "concept": {
+        "name": "IL6",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "8a1d3c4828c5416eba867c395cc65caa"
+    },
+    {
+      "bel": "p(HGNC:LDHA)",
+      "concept": {
+        "name": "LDHA",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "192b81d449af3caef26e890a119b659a"
+    },
+    {
+      "bel": "p(PFAM:Ferritin)",
+      "concept": {
+        "name": "Ferritin",
+        "namespace": "PFAM"
+      },
+      "function": "Protein",
+      "id": "b115fa3d120aa4baf4092dbc345a1973"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"adult respiratory distress syndrome\")",
+      "concept": {
+        "name": "adult respiratory distress syndrome",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "13c578f210684ad9f22dd027aa28b11a"
+    },
+    {
+      "bel": "path(DO:\"coronary artery disease\")",
+      "concept": {
+        "name": "coronary artery disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "053309450d0ef006482ac819c8c3469f"
+    },
+    {
+      "bel": "path(DO:\"diabetes mellitus\")",
+      "concept": {
+        "name": "diabetes mellitus",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "a851751c015aaa69ddfba6458d99c945"
+    },
+    {
+      "bel": "path(DO:hypertension)",
+      "concept": {
+        "name": "hypertension",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "53d5b8bd814074e87b1da1ff6250dcff"
+    },
+    {
+      "bel": "path(DO:lymphopenia)",
+      "concept": {
+        "name": "lymphopenia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "c44581ea27814dd1a201d1fcc1979068"
+    },
+    {
+      "bel": "path(HP:\"Abnormal levels of creatine kinase in blood\")",
+      "concept": {
+        "name": "Abnormal levels of creatine kinase in blood",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "6d927d326c14823cb58c17f0cb8e9f08"
+    },
+    {
+      "bel": "path(HP:\"Prolonged prothrombin time\")",
+      "concept": {
+        "name": "Prolonged prothrombin time",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "7ae42ee141120b5a6b4b29022bad180d"
+    },
+    {
+      "bel": "path(MESH:\"Acute Kidney Injury\")",
+      "concept": {
+        "name": "Acute Kidney Injury",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "c79b5c3cb64cd6a386a6983c7f4dbbdb"
+    },
+    {
+      "bel": "path(MESH:\"Heart Failure\")",
+      "concept": {
+        "name": "Heart Failure",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "cb0270d343c264a55cf2e50111f267e9"
+    },
+    {
+      "bel": "path(MESH:\"Heart Injuries\")",
+      "concept": {
+        "name": "Heart Injuries",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "936781bd0bf245df80710c8255fe2b1a"
+    },
+    {
+      "bel": "path(MESH:\"Pneumonia, Ventilator-Associated\")",
+      "concept": {
+        "name": "Pneumonia, Ventilator-Associated",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "b8e9aa5b9ed8712018c0193afd41b811"
+    },
+    {
+      "bel": "path(MESH:\"Shock, Septic\")",
+      "concept": {
+        "name": "Shock, Septic",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "ec01d7e71bacf422427c41b3a0d38411"
+    },
+    {
+      "bel": "path(MESH:Coinfection)",
+      "concept": {
+        "name": "Coinfection",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "bae46dc8a22cc0d41e827dee67669ff3"
+    },
+    {
+      "bel": "path(MESH:Cough)",
+      "concept": {
+        "name": "Cough",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "9fee4f29ebce7356ac1721785693b80c"
+    },
+    {
+      "bel": "path(MESH:Fatigue)",
+      "concept": {
+        "name": "Fatigue",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "d9f7d216d60384a034383bbc94db85cd"
+    },
+    {
+      "bel": "path(MESH:Fever)",
+      "concept": {
+        "name": "Fever",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "ffc74da80b64d7057f4eff0e06cdd1b6"
+    },
+    {
+      "bel": "path(MESH:Leukocytosis)",
+      "concept": {
+        "name": "Leukocytosis",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "54dfc757174db3732ef0729cd7c273be"
+    },
+    {
+      "bel": "path(MESH:Sepsis)",
+      "concept": {
+        "name": "Sepsis",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "9ba9ef73914fe6af207a26336aafebd2"
+    }
+  ]
+}

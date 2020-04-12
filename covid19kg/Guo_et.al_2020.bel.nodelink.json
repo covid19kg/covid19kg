@@ -1,0 +1,642 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Analysis": [
+        "Pearson correlation analysis"
+      ],
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Preprint"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Geena Mariya Jose",
+      "contact": "geena.mariya.jose@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "GUO_et.al_2020.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+    },
+    "path": "Guo_et.al_2020.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "BioAssay": {
+          "flow cytometry": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Plasma": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.21203/rs.3.rs-19182/v1"
+      },
+      "evidence": "The number of MPs in patients with COVID-19 was significantly higher than that in the control group (P<0.05).",
+      "key": "2c549162bec5a23754d570c71e6cfa06",
+      "line": 52,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "ELISA": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.21203/rs.3.rs-19182/v1"
+      },
+      "evidence": "The expression of IL-6, IL-8 and IL-10 in the serum of patients with COVID-19 increased significantly compared with the control group (P<0.05).",
+      "key": "f73a8182b883d0678e8f2f57feae48b6",
+      "line": 59,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "ELISA": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.21203/rs.3.rs-19182/v1"
+      },
+      "evidence": "The expression of IL-6, IL-8 and IL-10 in the serum of patients with COVID-19 increased significantly compared with the control group (P<0.05).",
+      "key": "ab8443818d0b71f5418f02382949eef2",
+      "line": 60,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "ELISA": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.21203/rs.3.rs-19182/v1"
+      },
+      "evidence": "The expression of IL-6, IL-8 and IL-10 in the serum of patients with COVID-19 increased significantly compared with the control group (P<0.05).",
+      "key": "6ba5950512c57bd5d0e8cce8d552aae5",
+      "line": 61,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "flow cytometry": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Plasma": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.21203/rs.3.rs-19182/v1"
+      },
+      "evidence": "The number of MPs in patients with COVID-19 was significantly higher than that in the control group (P<0.05).",
+      "key": "c609e06958e2edce07ec9275f8fce2be",
+      "line": 52,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Analysis": {
+          "Pearson correlation analysis": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.21203/rs.3.rs-19182/v1"
+      },
+      "evidence": "Pearson correlation analysis results showed a remarkably positive correlation of MP production and the expression of IL-6, IL-8 and IL-10 with the severity of COVID-19 (Table 4).",
+      "key": "de9596a16f4150d8cc66bd10212ae196",
+      "line": 67,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "ELISA": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.21203/rs.3.rs-19182/v1"
+      },
+      "evidence": "The expression of IL-6, IL-8 and IL-10 in the serum of patients with COVID-19 increased significantly compared with the control group (P<0.05).",
+      "key": "da598223b4aacc712a65a57a26af4efd",
+      "line": 59,
+      "relation": "positiveCorrelation",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Analysis": {
+          "Pearson correlation analysis": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.21203/rs.3.rs-19182/v1"
+      },
+      "evidence": "Pearson correlation analysis results showed a remarkably positive correlation of MP production and the expression of IL-6, IL-8 and IL-10 with the severity of COVID-19 (Table 4).",
+      "key": "f4978a914093cc2358bb636ad592b98f",
+      "line": 68,
+      "relation": "positiveCorrelation",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "ELISA": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.21203/rs.3.rs-19182/v1"
+      },
+      "evidence": "The expression of IL-6, IL-8 and IL-10 in the serum of patients with COVID-19 increased significantly compared with the control group (P<0.05).",
+      "key": "3410b6c318f6f0401ae8c275c47db59d",
+      "line": 60,
+      "relation": "positiveCorrelation",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Analysis": {
+          "Pearson correlation analysis": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.21203/rs.3.rs-19182/v1"
+      },
+      "evidence": "Pearson correlation analysis results showed a remarkably positive correlation of MP production and the expression of IL-6, IL-8 and IL-10 with the severity of COVID-19 (Table 4).",
+      "key": "0e7852301447d2db93beded209cc2603",
+      "line": 69,
+      "relation": "positiveCorrelation",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "ELISA": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.21203/rs.3.rs-19182/v1"
+      },
+      "evidence": "The expression of IL-6, IL-8 and IL-10 in the serum of patients with COVID-19 increased significantly compared with the control group (P<0.05).",
+      "key": "667db3bf861eaba3f5014525e9d79e7d",
+      "line": 61,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Analysis": {
+          "Pearson correlation analysis": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.21203/rs.3.rs-19182/v1"
+      },
+      "evidence": "Pearson correlation analysis results showed a remarkably positive correlation of MP production and the expression of IL-6, IL-8 and IL-10 with the severity of COVID-19 (Table 4).",
+      "key": "b76f07740cc7339e9dabb092e6800132",
+      "line": 70,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Analysis": {
+          "Pearson correlation analysis": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.21203/rs.3.rs-19182/v1"
+      },
+      "evidence": "Pearson correlation analysis results showed a remarkably positive correlation of MP production and the expression of IL-6, IL-8 and IL-10 with the severity of COVID-19 (Table 4).",
+      "key": "97b49fffc9dfe13b17ce20c1c8a67131",
+      "line": 67,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Analysis": {
+          "Pearson correlation analysis": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.21203/rs.3.rs-19182/v1"
+      },
+      "evidence": "Pearson correlation analysis results showed a remarkably positive correlation of MP production and the expression of IL-6, IL-8 and IL-10 with the severity of COVID-19 (Table 4).",
+      "key": "9e0c8c2ddedad68bf90a4e01bdf6718f",
+      "line": 68,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Analysis": {
+          "Pearson correlation analysis": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.21203/rs.3.rs-19182/v1"
+      },
+      "evidence": "Pearson correlation analysis results showed a remarkably positive correlation of MP production and the expression of IL-6, IL-8 and IL-10 with the severity of COVID-19 (Table 4).",
+      "key": "daee4f366e0e07a28b80e51d2c2b424c",
+      "line": 69,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Analysis": {
+          "Pearson correlation analysis": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.21203/rs.3.rs-19182/v1"
+      },
+      "evidence": "Pearson correlation analysis results showed a remarkably positive correlation of MP production and the expression of IL-6, IL-8 and IL-10 with the severity of COVID-19 (Table 4).",
+      "key": "f53e526fd379471042fee240e4506426",
+      "line": 70,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 2
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(GO:\"blood microparticle\")",
+      "concept": {
+        "name": "blood microparticle",
+        "namespace": "GO"
+      },
+      "function": "Abundance",
+      "id": "769362a00b17d2c97f89d0f9743e40ce"
+    },
+    {
+      "bel": "p(HGNC:CXCL8)",
+      "concept": {
+        "name": "CXCL8",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "325a76cdc17ef7ce6a715ed6201f2a09"
+    },
+    {
+      "bel": "p(HGNC:IL10)",
+      "concept": {
+        "name": "IL10",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "e0c41f4b3cb8bef32af4e3217ba8aa12"
+    },
+    {
+      "bel": "p(HGNC:IL6)",
+      "concept": {
+        "name": "IL6",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "8a1d3c4828c5416eba867c395cc65caa"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(HP:Severity)",
+      "concept": {
+        "name": "Severity",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "9ebd6da4878186b7e4e1ae6cbd2d524f"
+    }
+  ]
+}

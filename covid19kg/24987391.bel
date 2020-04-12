@@ -1,0 +1,485 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "PMID_24987391"
+SET DOCUMENT Authors = "Yojana Gadiya"
+SET DOCUMENT ContactInfo = "yojana.gadiya@scai.fraunhofer.de"
+SET DOCUMENT Description = "Coronavirus infection, ER stress, apoptosis and innate immunity"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE CONSO          AS URL "https://raw.githubusercontent.com/pharmacome/conso/3c93a65dc48e6786fe29ae55aa36cf9a902fe8c6/export/conso-names.belns"
+DEFINE NAMESPACE ECCODE         AS URL "https://raw.githubusercontent.com/pharmacome/conso/c328ad964c08967a0417a887510b97b965a62fa5/external/ec-code.belns"
+DEFINE NAMESPACE EFO            AS URL "https://raw.githubusercontent.com/pharmacome/conso/5d2c2ea6f7112421cc8089a3f021a75ab60bb373/external/efo-names.belns"
+# DEFINE NAMESPACE FB             AS URL "https://raw.githubusercontent.com/pharmacome/conso/c328ad964c08967a0417a887510b97b965a62fa5/external/fb-names.belns"
+# DEFINE NAMESPACE MIRBASE        AS URL "https://raw.githubusercontent.com/pharmacome/conso/c328ad964c08967a0417a887510b97b965a62fa5/external/mirbase-names.belns"
+
+DEFINE NAMESPACE ADO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/alzheimer-disease-ontology/alzheimer-disease-ontology-1.0.2.belns"
+DEFINE NAMESPACE BRCO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/brain-region-ontology/brain-region-ontology-1.0.0.belns"
+DEFINE NAMESPACE NIFT AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/nift/NIFT.belns"
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+# DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+# DEFINE NAMESPACE RGD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/rgd-rat-genes/rgd-rat-genes-20190128.belns"
+DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+# DEFINE NAMESPACE SCOMP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-named-complexes/selventa-named-complexes-20190128.belns"
+# DEFINE NAMESPACE SFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-protein-families/selventa-protein-families-20190128.belns"
+# DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+# DEFINE NAMESPACE DRUGBANK AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns"
+DEFINE NAMESPACE INTERPRO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/interpro/interpro-names-20181021.belns"
+# DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE GOBP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns"
+DEFINE NAMESPACE GOCC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20190128.belns"
+
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+DEFINE NAMESPACE MESHC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-chemicals/mesh-chemicals-20190128.belns"
+DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20190128.belns"
+DEFINE NAMESPACE MESHPP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-processes/mesh-processes-20190128.belns"
+# DEFINE NAMESPACE MESHA AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-anatomy/mesh-anatomy-20190128.belns"
+# DEFINE NAMESPACE MESHCS AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-cellular-structures/mesh-cellular-structures-20190128.belns"
+# DEFINE NAMESPACE FPLX           AS URL "https://raw.githubusercontent.com/sorgerlab/famplex/d9ec0526c20795146a9a6aef17496efe1a36cac6/export/famplex.belns"
+
+DEFINE NAMESPACE NCBITAXON AS PATTERN ".*"
+DEFINE NAMESPACE NCBIGENE AS PATTERN ".*"
+DEFINE NAMESPACE REFSEQ AS PATTERN ".*"
+# DEFINE NAMESPACE TAXONOMY       AS PATTERN "^\d+$"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+# DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+# DEFINE NAMESPACE dbSNP AS PATTERN "rs[0-9]+"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Anatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno"
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20170511.belanno"
+DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+# DEFINE ANNOTATION Disease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/disease/disease-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+# DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+# DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+# DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+# DEFINE ANNOTATION CellStructure AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-structure/cell-structure-20170511.belanno"
+# DEFINE ANNOTATION Confidence    AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/confidence/confidence-1.0.0.belanno"
+# DEFINE ANNOTATION Gender        AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/gender/gender-1.0.0.belanno"
+
+# --------------------------------------------------------------------------------
+
+##############
+# Statements #
+##############
+SET Citation = {"PubMed", "24987391"}
+
+SET Evidence = "The abundant membrane (M) proteins give the virion its shape,whereas the small envelope(E) proteins play an essential role during assembly (Sturmanetal.,1980; Liu and Inglis, 1991). Inside the envelope,the helical nucleocapsid is formed by binding of the nucleocapsid(N) proteins on the genomicRNA in a beads-on-a-string fashion."
+p(MESH:"Viral Matrix Proteins") -- bp(GOBP:"regulation of cell shape")
+p(MESH:"Viral Envelope Proteins") -- bp(MESHPP:"Virus Assembly")
+
+SET Evidence = "Coronavirus infection starts with receptor binding via the S protein (Figure1)."
+p(MESH:"Spike Glycoprotein, Coronavirus") -- bp(MESHPP:"Virus Attachment")
+
+SET Evidence = "The S proteins of most coronaviruses are cleaved by host protease into two functional subunits: an N-terminal receptor binding domain (S1) and a C-terminal domain(S2) responsible for membrane fusion (Huang et al., 2006;Qiuet al., 2006;Yamada et al., 2009)."
+p(MESH:"Spike Glycoprotein, Coronavirus",frag("1_?")) -- bp(MESHPP:"Virus Attachment")
+p(MESH:"Spike Glycoprotein, Coronavirus",frag("?_*")) -- bp(GOBP:"fusion of virus membrane with host plasma membrane")
+
+SET Evidence = "This close juxtaposition of the viral and cellular membrane enables fusion of the lipid bilayers, and the viral nucleocapsid is thus delivered into the cytoplasm (Masters,2006)."
+bp(MESHPP:"Virus Internalization") -> tloc(p(MESH:"Nucleocapsid Proteins"),fromLoc(GOCC:"extracellular region"),toLoc(GOCC:cytoplasm))
+
+SET Evidence = "After uncoating, the genomic RNA first acts as an mRNA for translation of the replicase polyprotein."
+SET MeSHAnatomy = "Cytoplasm"
+bp(MESHPP:"Virus Uncoating") -> path(MESH:"Genome, Viral")
+path(MESH:"Genome, Viral") -> p(MESH:"RNA Replicase")
+UNSET MeSHAnatomy
+
+SET Evidence = "The replicase gene consists of two open reading frames (ORF1a and ORF1b). Translation of ORF1a produces the polyprotein 1a (pp1a). Meanwhile, a ribosomal frameshifting occurs at the junction of ORF1a and ORF1b,allowing translation to continue onto ORF1b, producing a larger polyprotein 1ab (pp1ab;Brierley et al., 1987)."
+p(NCBIGENE:43740578) -> p(FIXME:"polyprotein 1a")
+p(FIXME:orf1b) -> p(FIXME:"polyprotein 1ab")
+
+SET Evidence = "Replication and transcription of the coronavirus genome involve the formation of the replication/transcription complexes (RTCs), which are anchored to the intracellular membranes via the multi-spanning transmembrane proteins nsp3, nsp4, and nsp6 (Oostra et al., 2007)."
+complex(GO:"viral replication complex") hasMembers list(p(REFSEQ:"YP_009725299.1"),p(REFSEQ:"YP_009725298.1"),p(REFSEQ:"YP_009725302.1"))
+
+SET Evidence = "Transmembrane structural proteins (S, M, and E) are synthesized, inserted, and folded in the endoplasmic reticulum (ER) and transported to the ER–Golgi intermediate compartment (ERGIC)."
+p(MESH:"Spike Glycoprotein, Coronavirus",loc(GOCC:"endoplasmic reticulum")) -> tloc(p(MESH:"Spike Glycoprotein, Coronavirus"),fromLoc(GOCC:"endoplasmic reticulum"),toLoc(GOCC:"endoplasmic reticulum-Golgi intermediate compartment"))
+p(MESH:"Viral Matrix Proteins",loc(GOCC:"endoplasmic reticulum")) -> tloc(p(MESH:"Viral Matrix Proteins"),fromLoc(GOCC:"endoplasmic reticulum"),toLoc(GOCC:"endoplasmic reticulum-Golgi intermediate compartment"))
+p(MESH:"Viral Envelope Proteins",loc(GOCC:"endoplasmic reticulum")) -> tloc(p(MESH:"Viral Envelope Proteins"),fromLoc(GOCC:"endoplasmic reticulum"),toLoc(GOCC:"endoplasmic reticulum-Golgi intermediate compartment"))
+
+SET Evidence = "The N proteins are translated in the cytoplasm and encapsidate the nascent progeny genomic RNA to form the nucleocapsids."
+r(MESH:"Nucleocapsid Proteins",loc(GOCC:cytoplasm)) -> path(MESH:"Genome, Viral")
+path(MESH:"Genome, Viral") -> p(MESH:"Nucleocapsid Proteins")
+
+SET Evidence = "The virions budded into the ERGIC are exported through secretory pathway in smooth-wall vesicles, which ultimately fuse with the plasma membrane and release the mature virus particles (Krijnse-Locker et al., 1994)."
+bp(MESHPP:"Secretory Pathway") -> tloc(a(MESH:Virion),fromLoc(GOCC:"endoplasmic reticulum-Golgi intermediate compartment"),toLoc(GOCC:vesicle))
+a(MESH:Virion,loc(GOCC:vesicle)) -> bp(GOBP:"vesicle fusion to plasma membrane")
+bp(GOBP:"vesicle fusion to plasma membrane") -> bp(GOBP:"viral release from host cell")
+
+SET Evidence = "These S proteins cause fusion of the infected cell with neighboring uninfected cells,resulting in the formation of a large, multinucleated cell known as a syncytium, which enablesthe virus to spread without being released into the extracellular space (Masters, 2006)."
+p(MESH:"Spike Glycoprotein, Coronavirus") -> bp(GOBP:"positive regulation of syncytium formation by virus")
+
+SET Evidence = "Global proteomic and microarray analyses have shown that the expression of several genes related to the ER stress, such as glucose-regulated protein 94 (GRP94) and glucose-regulated protein 78(GRP78, also known as immunoglobulin heavy chain-binding protein, or BiP), is up-regulated in cells infected with SARS-CoV or in cells overexpressing the SARS-CoV S2 subunit (Jiang et al., 2005;Yeung et al., 2008). Using a luciferase reporter system,Chan et al. (2006) found that both GRP94 and GRP78 were induced in SARS-CoV-infected FRhK4 cells."
+path(EFO:"Endoplasmic Reticulum Stress") -> p(HGNC:HSP90B1)
+path(EFO:"Endoplasmic Reticulum Stress") -> p(HGNC:HSPA5)
+path(DO:"COVID-19") pos path(EFO:"Endoplasmic Reticulum Stress")
+SET CellLine = "FRhK-4 cell"
+path(DO:"COVID-19") -> p(HGNC:HSP90B1)
+path(DO:"COVID-19") -> p(HGNC:HSPA5)
+UNSET CellLine
+
+SET Evidence = "Consistently,the mRNA level of homocysteine-inducible, ER stress-inducible, ubiquitin-like domain member 1 (HERPUD1), an ER stress marker, was up-regulated in L cells infected with mouse hepatitis virus (MHV) or SARS-CoV (Versteeg et al., 2007)."
+SET CellLine = "L Cells cell"
+p(HGNC:HERPUD1) -- path(EFO:"Endoplasmic Reticulum Stress")
+a(MESH:"Murine hepatitis virus") -> r(HGNC:HERPUD1)
+path(DO:"COVID-19") -> r(HGNC:HERPUD1)
+UNSET CellLine
+
+SET Evidence = "Indeed, DMVs are induced in HEK293T cells co-expressing the SARS-CoV nsp3, nsp4, and nsp6, which are all multispanning transmembrane non-structural proteins (Angeliniet al., 2013)."
+# DMV - double mebrane vesicles
+SET MeSHDisease = "Coronavirus Infections"
+SET CellLine = "HEK293T"
+p(REFSEQ:"YP_009725299.1") -> complex(GO:"double membrane vesicle viral factory")
+p(REFSEQ:"YP_009725298.1") -> complex(GO:"double membrane vesicle viral factory")
+p(REFSEQ:"YP_009725302.1") -> complex(GO:"double membrane vesicle viral factory")
+UNSET CellLine
+UNSET MeSHDisease
+
+SET Evidence = "The late endosomes, autophagosomes, and the early secretary pathway have all been implicated as the membrane source of DMVs (vander Meer et al., 1999;Prentice et al., 2004;Verheije et al., 2008)."
+complex(GO:"late endosome") -- complex(GO:"double membrane vesicle viral factory")
+complex(GO:autophagosome) -- complex(GO:"double membrane vesicle viral factory")
+bp(MESHPP:"Secretory Pathway") -- complex(GO:"double membrane vesicle viral factory")
+
+SET Evidence = "Also, co-localization has been observed between SARS-CoV non-structural proteins and protein disulfide isomerase (PDI), an ER marker (Snijder et al., 2006)."
+path(DO:"COVID-19") -> composite(p(MESH:"Viral Nonstructural Proteins"),p(INTERPRO:"Protein disulphide isomerase"))
+
+SET Evidence = "The EDEMosomes are COPII-independent vesicles that export from the ER, which are normally used to fine-tune the level of ER degradation enhancer, mannosidase alpha-like 1 (EDEM1), a regulator of ER-associated degradation (ERAD;Calì et al., 2008). It has been demonstrated that MHV infection causes accumulation of EDEM1 and osteosarcoma amplified 9 (OS-9, another EDEMosome cargo),and that both EDEM1 and OS-9 co-localize with the RTCs of MHV (Reggiori et al., 2010)."
+# ERAD tuning vesicles - EDEMosome, RTC - replication/transcription complexes
+p(HGNC:EDEM1) -- deg(complex(GO:"endoplasmic reticulum"))
+a(MESH:"Murine hepatitis virus") -> composite(p(HGNC:EDEM1),complex(GO:"viral replication complex"))
+a(MESH:"Murine hepatitis virus") -> composite(p(HGNC:OS9),complex(GO:"viral replication complex"))
+
+SET Evidence = "The glycosylation of M protein is proposed to play a certain function in alpha interferon (IFN) induction and in vivo tissue tropism (Charley and Laude, 1988;Laude et al.,1992;de Haan et al., 2003)."
+p(MESH:"Viral Matrix Proteins",pmod(Glyco)) pos bp(GOBP:"interferon-alpha production")
+p(MESH:"Viral Matrix Proteins",pmod(Glyco)) pos bp(GOBP:tropism)
+
+SET Evidence = "Moreover, the glycans on SARS-CoV S proteins have been shown to bind C-type lectins DC-SIGN (dendritic cell-specific intercellular adhesion molecule-3-grabbing non-integrin) and L-SIGN (liver lymph node-specific intercellular adhesion molecule-3-grabbing non-integrin), which can serve as alternative receptors for SARS-CoV independent of the major receptor ACE2 (Han et al., 2007)."
+#L-SIGN : CLEC4M, DC-SIGN : CD209
+p(MESH:"Spike Glycoprotein, Coronavirus") -> complex(p(MESH:"Spike Glycoprotein, Coronavirus"),p(HGNC:ACE2))
+p(MESH:"Spike Glycoprotein, Coronavirus") -> complex(p(MESH:"Spike Glycoprotein, Coronavirus"),p(HGNC:CLEC4M))
+p(MESH:"Spike Glycoprotein, Coronavirus") -> complex(p(MESH:"Spike Glycoprotein, Coronavirus"),p(HGNC:CD209))
+
+SET Evidence = "The folding, maturation, and assembly of the gigantic S trimeric glycoprotein rely heavily on the protein chaperons inside the ER, such as calnexin. In fact, the N-terminal part of the S2 domain of SARS-CoV S protein has been found to interact with calnexin, and knock-down of calnexin decreases the infectivity of pseudotyped lentivirus carrying the SARS-CoV S protein (Fukushi et al., 2012)."
+p(HGNC:CANX) reg p(MESH:"Spike Glycoprotein, Coronavirus",pmod(Glyco),loc(GOCC:"endoplasmic reticulum"))
+p(MESH:"Spike Glycoprotein, Coronavirus") -> complex(p(MESH:"Spike Glycoprotein, Coronavirus"),p(HGNC:CANX))
+#p(HGNC:CANX) pos path(MESH:Infections)
+
+SET Evidence = "Also, treatment of α-glucosidase inhibitors, which inhibit the interactions of calnexin with its substrates, dose dependently inhibits the incorporationof S into pseudovirus and suppresses SARS-CoV replication in cell cultures (Fukushi et al., 2012)."
+#3.2.1.20 - α-glucosidase inhibitors
+p(ECCODE:"3.2.1.20") -| complex(p(MESH:"Spike Glycoprotein, Coronavirus"),p(HGNC:CANX))
+p(ECCODE:"3.2.1.20") -| bp(FIXME:"SARs-CoV-2 replication")
+
+SET Evidence = "Taken together, coronavirus infection results in: (1) massive morphological rearrangement of the ER; (2) significant increase ER burden for protein synthesis, folding and modification; and (3) extensive depletion of ER lipid component. These factors together may contribute to the coronavirus-induced ER stress."
+path(MESHD:"Coronavirus Infections") reg bp(GOBP:"ER body organization")
+path(MESHD:"Coronavirus Infections") reg act(complex(GO:"endoplasmic reticulum"))
+SET MeSHAnatomy = "Endoplasmic Reticulum"
+path(MESHD:"Coronavirus Infections") -> deg(a(CHEBI:lipid))
+UNSET MeSHAnatomy
+path(MESHD:"Coronavirus Infections") -> path(EFO:"Endoplasmic Reticulum Stress")
+
+SET Evidence = "Besides PERK, three other kinases are known to phosphorylate eIF2α, namely the protein kinase RNA-activated (PKR), heme-regulated inhibitor kinase (HRI), and general control non-derepressible-2 (GCN2;Ron and Walter, 2007)."
+#EIF2AK3 - PERK, EIF2AK2 - PKR, EIF2AK1 - HRI, EIF2S1 - eIF2α
+p(HGNC:EIF2AK3) -> p(HGNC:EIF2S1,pmod(Ph))
+p(HGNC:EIF2AK2) -> p(HGNC:EIF2S1,pmod(Ph))
+p(HGNC:EIF2AK1) -> p(HGNC:EIF2S1,pmod(Ph))
+
+SET Evidence = "PKR is induced by IFN and activated by the binding of double-stranded RNA (dsRNA) after virus infection (Clemens and Elia, 1997). HRI is activated in red blood cells and hepatocytes by low levels of heme (McEwenet al., 2005). GCN2 senses amino acid deficiency and is activated via binding to uncharged transfer RNAs (Sood et al., 2000)."
+#EIF2AK2 - PKR, EIF2AK1 - HRI, EIF2AK4 - GCN2
+a(MESHC:Interferons) -> p(HGNC:EIF2AK2)
+complex(p(HGNC:EIF2AK2),p(MESH:"RNA, Double-Stranded")) -> act(p(HGNC:EIF2AK2))
+a(CHEBI:heme) reg p(HGNC:EIF2AK3)
+a(CHEBI:"amino acid") reg p(HGNC:EIF2AK4)
+complex(p(HGNC:EIF2AK4),a(MESHC:"RNA, Transfer")) -> act(p(HGNC:EIF2AK4))
+
+SET Evidence = "ATF4 in turn transactivates genes involved in amino acid metabolism, redox reactions, and stress response."
+p(HGNC:ATF4) -- bp(GOBP:"regulation of cellular amino acid metabolic process")
+p(HGNC:ATF4) -- bp(MESHPP:"Oxidation-Reduction")
+p(HGNC:ATF4) -- bp(GOBP:"response to stress")
+
+SET Evidence = "One of ATF4’s target genes is the growth arrest and DNA damage-inducible protein 153 (GADD153, also knownas C/EBP homologous protein, or CHOP). GADD153 induces the growth arrest and DNA damage-inducible protein 34 (GADD34), which recruits protein phosphatase 1 (PP1) to dephosphorylate eIF2α and release the translation block."
+#PPP1R15A - GADD34, DDIT3 - GADD153, EIF2S1 - eIF2α
+p(HGNC:ATF4) -> p(HGNC:DDIT3)
+p(HGNC:DDIT3) -> p(HGNC:PPP1R15A)
+p(HGNC:PPP1R15A) -> p(GFAM:"Protein phosphatase 1 regulatory subunits")
+p(GFAM:"Protein phosphatase 1 regulatory subunits") -| p(HGNC:EIF2S1,pmod(Ph))
+
+SET Evidence = "However, if ER stress persists, GADD153 can induce apoptosis by suppressing the anti-apoptotic protein B-cell lymphoma 2 (Bcl-2) and inducing the pro-apoptotic proteins such as Bcl-2-interacting mediator of cell death (Bim;Puthalakath et al., 2007). GADD153 also activates ER oxidoreductin-1α (ERO1α), which encodes an ER oxidase. The increase protein influx to a hyperoxidizing ER aggravates ER stress and induces apoptosis (Marciniak et al., 2004;Figure 3)."
+#DDIT3 - GADD153, BCL2L11 - Bim
+#in ER Stress
+p(HGNC:DDIT3) -| p(HGNC:BCL2)
+p(HGNC:BCL2) -| bp(GOBP:"apoptotic process")
+p(HGNC:DDIT3) -> p(HGNC:BCL2L11)
+p(HGNC:BCL2L11) -> bp(GOBP:"apoptotic process")
+p(HGNC:DDIT3) -> bp(GOBP:"apoptotic process")
+p(HGNC:DDIT3) -> p(HGNC:ERO1A)
+p(HGNC:ERO1A) -> path(EFO:"Endoplasmic Reticulum Stress")
+p(HGNC:ERO1A) -> bp(GOBP:"apoptotic process")
+
+SET Evidence = "Translation attenuation has been widely observed as a defensive mechanism of the host cells against viral infection. By reducing the translation of viral proteins, virus replication is hampered and the spread of infection is limited, giving enough time for the immune system to initiate effective antiviral responses"
+bp(GOBP:"translational attenuation") -| path(MESHD:"Virus Diseases")
+bp(GOBP:"translational attenuation") neg bp(GOBP:"viral genome replication")
+
+SET Evidence = "For example, the non-structural 5A (NS5A) protein of hepatitis C virus directly interacts with the catalytic site of PKR, whereas the NS1 protein in the influenza A virus binds to dsRNAs and thus blocks PKR activation (Lu et al.,1995b;Gale et al., 1997)."
+#EIF2AK2 - PKR
+SET MeSHDisease = "Hepatitis, Viral, Human"
+complex(p(FIXME:nsp5a),p(HGNC:EIF2AK2)) -| act(p(HGNC:EIF2AK2))
+UNSET MeSHDisease
+#in influenza A
+complex(p(NCBIGENE:956533),p(MESH:"RNA, Double-Stranded")) -| act(p(HGNC:EIF2AK2))
+
+SET Evidence = "However, similar to PKR, viruses have adopted counter measures to inhibit PERK-mediated translation attenuation."
+#EIF2AK3 - PERK
+p(HGNC:EIF2AK3) -> bp(GOBP:"translational attenuation")
+
+SET Evidence = "However, knock-down of PKR using specific morpholino oligomers did not affect SARS-CoV-induced eIF2α phosphorylation but significantly inhibited SARS-CoV-induced apoptosis (Krähling et al., 2009)."
+#EIF2AK2 - PKR
+act(p(HGNC:EIF2AK2),ma(GOBP:"protein homooligomerization")) -| bp(GOBP:"apoptotic process")
+
+SET Evidence = "For example, the nsp16 has been shown to utilize the 2′-O-methyltransferase activity to modify coronavirus mRNAs, so as to evade from the cytosolic RNA sensor melanoma differentiation-associated protein 5 (MDA5) and type I IFN induction (Roth-Cross et al., 2008;Züst et al., 2011)."
+#IFIH1 - MDA5
+SET MeSHDisease = "Coronavirus Infections"
+act(p(FIXME:nsp16),ma(GO:"tRNA 2'-O-methyltransferase activity")) -- bp(GOBP:"RNA modification")
+p(HGNC:IFIH1) -- bp(GOBP:"RNA modification")
+bp(GOBP:"type I interferon secretion") -- bp(GOBP:"RNA modification")
+UNSET MeSHDisease
+
+SET Evidence = "The rapid dephosphorylation of eIF2α is likely due to the accumulation of GADD34, which is a component of the PP1 complex and a downstream target gene induced by GADD153 (Wang et al., 2009)."
+#PPP1R15A - GADD34
+p(HGNC:PPP1R15A) -| p(HGNC:EIF2S1,pmod(Ph))
+
+SET Evidence = "The up-regulation of GADD153 was likely mediated by both PKR and PERK, since knock-down of either PKR or PERK by siRNA reduces IBV-induced GADD153 (Liaoet al., 2013)."
+#DDIT3 - GADD153, EIF2AK3 - PERK, EIF2AK2 - PKR
+p(HGNC:EIF2AK3) -> p(HGNC:DDIT3)
+p(HGNC:EIF2AK2) -> p(HGNC:DDIT3)
+
+SET Evidence = "The up-regulation of GADD153 promotes apoptosis in IBV-infected cells, possibly via inducing the pro-apoptotic protein tribbles-related protein 3 (TRIB3) and suppressing the pro-survival kinase extracellular signal-related kinase (ERK;Liaoet al., 2013)."
+#DDIT3 - GADD153, MAPK1 - ERK
+p(HGNC:DDIT3) -> p(HGNC:TRIB3)
+p(HGNC:TRIB3) -> bp(GOBP:"apoptotic process")
+p(HGNC:DDIT3) -| p(HGNC:MAPK1)
+p(HGNC:MAPK1) -| bp(GOBP:"apoptotic process")
+
+SET Evidence = "Interestingly, GADD34 expression did not significantly affect protein synthesis in DCs, but was shown to be crucial for the production of interferon β (IFN-β) and pro-inflammatory cytokines interleukin-6 (IL-6;Clavarino et al.,2012)."
+#PPP1R15A - GADD34, DC - dendritic cell
+SET Cell = "dendritic cell"
+p(HGNC:PPP1R15A) cnc bp(GOBP:translation)
+UNSET Cell
+p(HGNC:PPP1R15A) -> bp(GOBP:"interferon-beta production")
+p(HGNC:PPP1R15A) -> p(HGNC:IL6)
+
+SET Evidence = "In contrast, GADD34 has also been shown to specify PP1 to dephosphorylate the TGF-β-activated kinase 1 (TAK1), thus negatively regulating the toll-like receptor (TLR) signal-ing and pro-inflammatory cytokines [IL-6 and TNF-α (Tumornecrosis factor alpha)] production in macrophages (Gu et al.,2014)."
+#PPP1R15A - GADD34, MAP3K7 - TAK1
+SET Cell = "macrophage"
+p(HGNC:PPP1R15A) -| p(HGNC:MAP3K7,pmod(Ph))
+p(HGNC:MAP3K7,pmod(Ph)) pos bp(GOBP:"toll-like receptor signaling pathway")
+p(HGNC:PPP1R15A) neg bp(GOBP:"toll-like receptor signaling pathway")
+p(HGNC:MAP3K7,pmod(Ph)) -| p(HGNC:IL6)
+p(HGNC:MAP3K7,pmod(Ph)) -| p(HGNC:TNF)
+p(HGNC:PPP1R15A) -> p(HGNC:TNF)
+p(HGNC:TNF) -> bp(GOBP:"inflammatory response")
+p(HGNC:IL6) -> bp(GOBP:"inflammatory response")
+UNSET Cell
+
+SET Evidence = "It has been well established that NF-κB is required for the induction of pro-inflammatory cytokines (such as IL-6 and IL-8) and the early expression of IFN-β during RNA virus infection (Libermann and Baltimore,1990; Kunsch and Rosen,1993; Wang et al.,2010; Balachandran and Beg,2011; Basagoudanavar et al., 2011)."
+complex(GO:"NF-kappaB complex") -> p(HGNC:IL6)
+complex(GO:"NF-kappaB complex") -> p(HGNC:CXCL8)
+
+SET Evidence = "Interestingly, induction of TNF-α, IL-6, and IL-8 has been detected in cells overexpressing the spike protein of SARS-CoV via the NF-κB pathway(Wang et al., 2007;Dosch et al., 2009)."
+#p(MESH:"Spike Glycoprotein, Coronavirus") -- bp(GOBP:"NIK/NF-kappaB signaling")
+bp(GOBP:"NIK/NF-kappaB signaling") -> p(HGNC:TNF)
+bp(GOBP:"NIK/NF-kappaB signaling") -> p(HGNC:IL6)
+bp(GOBP:"NIK/NF-kappaB signaling") -> p(HGNC:CXCL8)
+
+SET Evidence = " In its inactive form, NF-κB is sequestered in the cytoplasm by inhibitor of NF-κB alpha (IκBα), which masks the nuclear localization signal of NF-κB(Karin and Ben-Neriah, 2000)."
+#NFKBIA - IKBA
+p(HGNC:NFKBIA) -> tloc(complex(GO:"NF-kappaB complex"),fromLoc(GOCC:cytoplasm),toLoc(GOCC:nucleus))
+tloc(complex(GO:"NF-kappaB complex"),fromLoc(GOCC:cytoplasm),toLoc(GOCC:nucleus)) -| act(complex(GO:"NF-kappaB complex"))
+
+SET Evidence = "Under various stress conditions, phosphorylation of eIF2α leads to global translation repression and a net decrease in IκBα protein level (Jiang et al., 2003).This then results in the activation of NF-κB and induction of pro-inflammatory response (Figure 3)."
+#EIF2S1 - eIF2α
+p(HGNC:EIF2S1) -> bp(GOBP:"translational attenuation")
+p(HGNC:EIF2S1) -| p(HGNC:NFKBIA)
+p(HGNC:EIF2S1) -> act(complex(GO:"NF-kappaB complex"))
+p(HGNC:EIF2S1) -> bp(GOBP:"inflammatory response")
+
+SET Evidence = "Previous study done by this group has shown that infection of IBV induced the production of IL-6 and IL-8, which was dependent on the phosphorylation of MAP kinase p38 (Liao et al.,2011)."
+#MAPK14 - MAP kinase P38
+a(MESH:"Infectious bronchitis virus") -> p(HGNC:IL6)
+a(MESH:"Infectious bronchitis virus") -> p(HGNC:CXCL8)
+p(HGNC:MAPK14,pmod(Ph)) -- p(HGNC:IL6)
+p(HGNC:MAPK14,pmod(Ph)) -- p(HGNC:CXCL8)
+
+SET Evidence = "Interestingly, a protein phosphatase called dual-specificity phosphatase 1 (DUSP1) was also up-regulated in IBV-infected cells and dephosphorylated p38 to modulate pro-inflammatory cytokine production (Liao et al., 2011)."
+# IBV - avian infectious bronchitis virus
+a(MESH:"Infectious bronchitis virus") -> p(HGNC:DUSP1)
+a(MESH:"Infectious bronchitis virus") -| p(HGNC:MAPK14,pmod(Ph))
+
+SET Evidence = "Previous studies have shown that the mRNA and protein levels of DUSP1 are modulated by ER stress (Boutros et al., 2008;Li et al., 2011). ER stress-induced DUSP1 up-regulation is likely to be mediated by ATF3 in the PERK pathway, since knock-down of ATF3 significantly reduced DUSP1 induction in cells under ER stress (Gora et al., 2010)."
+path(EFO:"Endoplasmic Reticulum Stress") -> r(HGNC:DUSP1)
+path(EFO:"Endoplasmic Reticulum Stress") -> p(HGNC:DUSP1)
+path(EFO:"Endoplasmic Reticulum Stress") -- p(HGNC:ATF3)
+p(HGNC:ATF3) -> p(HGNC:DUSP1)
+
+SET Evidence = "Besides p38, DUSP1 has also been shown to dephosphorylate c-Jun N-terminal kinase (JNK) and ERK (Sun et al.,1993;Franklin and Kraft, 1997). It has been long proposed that ERK phosphorylation promotes cell survival, whereas prolonged JNK and p38 phosphorylation is linked to the induction of apoptosis (Xia et al., 1995)."
+#MAPK14 - MAP kinase P38, MAPK8 - JNK, MAPK1 - ERK
+p(HGNC:MAPK14) -| p(HGNC:MAPK8,pmod(Ph))
+p(HGNC:MAPK14) -| p(HGNC:MAPK1,pmod(Ph))
+p(HGNC:DUSP1) -| p(HGNC:MAPK8,pmod(Ph))
+p(HGNC:DUSP1) -| p(HGNC:MAPK1,pmod(Ph))
+p(HGNC:MAPK1,pmod(Ph)) pos bp(MESH:"Cell Survival")
+p(HGNC:MAPK8,pmod(Ph)) -> bp(GOBP:"apoptotic process")
+p(HGNC:MAPK1,pmod(Ph)) -> bp(GOBP:"apoptotic process")
+
+SET Evidence = "In response to unfolded proteins, IRE1 undergoes oligomerization (Bertolotti et al., 2000). This results in trans-autophosphorylation of the kinase domain and the activation of IRE1’s RNase domain."
+#ERN1 - IRE1
+bp(GOBP:"response to unfolded protein") -> act(p(HGNC:ERN1),ma(GOBP:"protein homooligomerization"))
+act(p(HGNC:ERN1),ma(GOBP:"protein homooligomerization")) -> p(HGNC:ERN1,pmod(Ph))
+
+SET Evidence = "Whereas the unspliced XBP1 mRNA (XBP1u) encodes an inhibitor of the UPR, XBP1s encode a potent transcriptional activator, which translocates to the nucleus and enhances the expression of many UPR genes, including those encoding molecular chaperones and proteins contributing to ER-associated degradation (Ng et al., 2000;Lee et al., 2003;Figure 4)."
+r(HGNC:XBP1) -| bp(GOBP:"IRE1-mediated unfolded protein response")
+p(HGNC:XBP1,frag("?")) -> tloc(p(HGNC:XBP1,frag("?")),fromLoc(GOCC:cytoplasm),toLoc(GOCC:nucleus))
+tloc(p(HGNC:XBP1,frag("?")),fromLoc(GOCC:cytoplasm),toLoc(GOCC:nucleus)) -> bp(GOBP:"ERAD pathway")
+
+SET Evidence = "Apart from the XBP1 pathway, activated IRE1 has been shown to recruit TNF receptor-associated factor 2 (TRAF2) and induce apoptosis by activating the JNK (Urano et al., 2000). This IRE1-JNK pathway is independent of IRE1’s RNase activity, but it requires IRE1’s kinase domain and involves TRAF2-dependent activation of caspase-12 (Yonedaet al.,2001)."
+#MAPK8 - JNK
+act(p(HGNC:ERN1),ma(kin)) -> p(HGNC:TRAF2)
+p(HGNC:TRAF2) -> act(p(HGNC:CASP12))
+act(p(HGNC:CASP12)) -> act(p(HGNC:MAPK8))
+act(p(HGNC:MAPK8)) -> bp(GOBP:"apoptotic process")
+
+SET Evidence = "It was found that the kinase domain but not the RNase activity of IRE1 was required, and treatment of a JNK inhibitor (SP600125) abolished autophagosome formation after ER stress (Ogata et al.,2006)."
+#anthra[1,9-cd]pyrazol-6(2H)-one - SP600125
+a(CHEBI:"anthra[1,9-cd]pyrazol-6(2H)-one") -| p(HGNC:MAPK8)
+a(CHEBI:"anthra[1,9-cd]pyrazol-6(2H)-one") -| bp(GOBP:"autophagosome assembly")
+path(EFO:"Endoplasmic Reticulum Stress") -> bp(GOBP:"autophagosome assembly")
+
+SET Evidence = "Therefore, the IRE1 branch of UPR is closely associated with the JNK pathway and involved in JNK-mediated apoptosis and autophagy signaling."
+p(HGNC:ERN1) -- bp(GOBP:autophagy)
+
+SET Evidence = "Moreover, UPR downstream genes known to be activated by XBP1s, such as ER DNA J domain-containing protein 4 (ERdj4), EDEM1, and protein kinase inhibitor of 58kDa (p58IPK), are not significantly induced after infection (Bechillet al., 2008)."
+#DNAJC3 - p58IPK
+p(HGNC:XBP1,frag("?")) -> p(HGNC:EDEM1)
+p(HGNC:XBP1,frag("?")) -> p(HGNC:DNAJC3)
+
+SET Evidence = "In IBV-infected Vero cells, significant splicing of XBP1 mRNA was detected starting from 12 to 16 h post-infection till the late stage of infection. The mRNA levels of XBP1 effector genes (EDEM1, ERdj4, and p58IPK) were up-regulated in IBV-infected Vero cells"
+#in vero cells, IBV - avian infectious bronchitis virus
+a(MESH:"Infectious bronchitis virus") -> p(HGNC:XBP1,frag("?"))
+a(MESH:"Infectious bronchitis virus") -> p(HGNC:EDEM1)
+a(MESH:"Infectious bronchitis virus") -> p(HGNC:DNAJC3)
+
+SET Evidence = "Interestingly, an earlier onset and more significant apoptosis induction in IRE1-knockdown IBV-infected cells was observed, which is associated with hyperphosphorylation of pro-apoptotic kinase JNK and hypophosphorylation of pro-survival kinase RAC-alpha serine/threonine-protein kinase (Akt)."
+#MAPK8 - JNK
+p(HGNC:ERN1) neg bp(GOBP:"apoptotic process")
+p(HGNC:ERN1) -> p(HGNC:MAPK8,pmod(CONSO:hyperphosphorylation))
+p(HGNC:ERN1) -| p(HGNC:AKT1,pmod(Ph))
+
+SET Evidence = "Taken together,IRE1 may modulate IBV-induced apoptosis and serve as a survival factor during coronavirus infection."
+path(MESHD:"Coronavirus Infections") pos p(HGNC:ERN1)
+
+SET Evidence = "Using a recombinant SARS-CoV that lacks the E protein (rSARS-CoV-delE), it is found that both XBP1 splicing and induction of UPR genes significantly increase in the absence of E protein."
+#1489671 - E protein
+p(NCBIGENE:1489671) -| p(HGNC:XBP1,frag("?"))
+p(NCBIGENE:1489671) -| bp(GOBP:"response to unfolded protein")
+
+SET Evidence = "Moreover, E protein also suppresses ER stress induced by RSV and drugs (thapsigargin and tunicamycin; DeDiego et al.,2011)."
+#1489671 - E protein
+p(NCBIGENE:1489671) -| bp(MESHPP:"Endoplasmic Reticulum Stress")
+path(MESHD:"Respiratory Syncytial Virus Infections") -> bp(MESHPP:"Endoplasmic Reticulum Stress")
+a(CHEBI:thapsigargin) -> bp(MESHPP:"Endoplasmic Reticulum Stress")
+a(CHEBI:tunicamycin) -> bp(MESHPP:"Endoplasmic Reticulum Stress")
+
+SET Evidence = "During prolonged ER stress induced by infection, non-specific RNase activity of IRE1 may decay the membrane associated viral mRNA."
+path(MESHD:"Virus Diseases") -> bp(MESHPP:"Endoplasmic Reticulum Stress")
+SET MeSHAnatomy = "Membranes"
+act(p(HGNC:ERN1),ma(MESH:Ribonucleases)) -| bp(MESH:"Genome, Viral")
+UNSET MeSHAnatomy
+
+SET Evidence = "Interestingly, the ER stress and TLR activation synergistically activate IRE1 and induce the production of pro-inflammatory cytokines such as IL-1β and IL-6 (Martinon et al., 2010)."
+bp(GOBP:"toll-like receptor signaling pathway") -> act(p(HGNC:ERN1))
+act(p(HGNC:ERN1)) -> p(HGNC:IL1B)
+act(p(HGNC:ERN1)) -> p(HGNC:IL6)
+
+SET Evidence = "On the other hand, the kinase but not the RNAse activity of IRE1 has been associated with ER-stress-induced NF-kB activation (Tam et al., 2012). Under ER stress, IRE1 has been shown to phosphorylate TRAF2, which activates the IκB kinase (IKK) and contributes to its basal activity (Figure 4). IKK inturn phosphorylates IκBα and promotes its proteasomal degradation, releasing NF-κB to activate downstream genes (Tam et al.,2012)."
+#NFKBIA - IkBa
+act(p(HGNC:ERN1),ma(kin)) -> act(complex(GO:"NF-kappaB complex"))
+act(p(HGNC:ERN1),ma(kin)) -> bp(MESHPP:"Endoplasmic Reticulum Stress")
+bp(MESHPP:"Endoplasmic Reticulum Stress") -> act(complex(GO:"NF-kappaB complex"))
+#p(HGNC:TRAF2,pmod(Ph)) -> act(p(GFAM:"IKK complex"))
+#act(p(GFAM:"IKK complex")) -> p(HGNC:NFKBIA,pmod(Ph))
+p(HGNC:NFKBIA,pmod(Ph)) -> deg(p(HGNC:NFKBIA))
+deg(p(HGNC:NFKBIA)) -> complex(GO:"NF-kappaB complex")
+
+SET Evidence = "Under ER stress, ATF6 is translocated from the ER to the Golgi apparatus and cleaved by protease S1P and S2P (Haze et al., 1999)."
+#MBTPS1 - S1P, MBTPS2 - S1P
+bp(MESHPP:"Endoplasmic Reticulum Stress") -> tloc(p(HGNC:ATF6),fromLoc(GOCC:"endoplasmic reticulum"),toLoc(GOCC:"Golgi apparatus"))
+SET MeSHAnatomy = "Golgi Apparatus"
+p(HGNC:MBTPS1) -> p(HGNC:ATF6,frag("?"))
+p(HGNC:MBTPS2) -> p(HGNC:ATF6,frag("?"))
+UNSET MeSHAnatomy
+
+SET Evidence = "The identified target genes of ATF6 include ER chaperones (such as GRP78, GRP94), PDI, and the UPR transcription factors GADD153 and XBP1 (Szegezdi et al., 2006)."
+#HSPA5 - GRP78, GRP94 - HSP90B1, GADD153 - DDIT3
+p(HGNC:ATF6) -- p(HGNC:HSPA5)
+p(HGNC:ATF6) -- p(HGNC:HSP90B1)
+p(HGNC:ATF6) -- p(GFAM:"Protein disulfide isomerases")
+p(HGNC:ATF6) -- p(HGNC:DDIT3)
+p(HGNC:ATF6) -- p(HGNC:XBP1)
+
+SET Evidence = "Previously, it was proposed the ATF6 pathway is mainly pro-survival, as it enhances the ER protein folding capacity to counteract ER stress (Szegezdiet al., 2006)."
+p(HGNC:ATF6) -> bp(GOBP:"protein folding in endoplasmic reticulum")
+p(HGNC:ATF6) -| bp(MESHPP:"Endoplasmic Reticulum Stress")
+
+SET Evidence = "However, recent studies have demonstrated that, under certain circumstances, ATF6-mediated signals may also contribute to ER-stress-induced apoptosis, possibly via activation of CHOP and/or suppression of myeloid cell leukemia sequence 1 (Mcl-1;Gotoh et al., 2002;Nakanishi et al., 2005;Morishima et al.,2011)."
+#CHOP - DDIT3
+p(HGNC:ATF6) -> bp(MESHPP:"Endoplasmic Reticulum Stress")
+p(HGNC:ATF6) -> act(p(HGNC:DDIT3))
+act(p(HGNC:DDIT3)) -> bp(GOBP:"apoptotic process")
+p(HGNC:ATF6) -| p(HGNC:MCL1)
+p(HGNC:MCL1) -> bp(GOBP:"apoptotic process")
+p(HGNC:ATF6) -> bp(GOBP:"apoptotic process")
+
+SET Evidence = "In the case of ASFV, ATF6 activation has been shown to modulate ASFV-induced apoptosis and facilitate viral replication (Galindo et al., 2012)."
+#ASFV- African swine fever virus
+SET MeSHDisease = "African Swine Fever"
+act(p(HGNC:ATF6)) reg bp(GOBP:"apoptotic process")
+act(p(HGNC:ATF6)) reg bp(GOBP:"viral genome replication")
+UNSET MeSHDisease
+
+SET Evidence = "For WNV,it has been shown that ATF6 activation promotes efficient WNV replication by suppressing signal transducer and activator of transcription 1 (STAT1) phosphorylation and late-phase IFN signaling (Ambrose and Mackenzie, 2013)."
+#WNV - West nile virus
+SET MeSHDisease = "West Nile Fever"
+act(p(HGNC:ATF6)) -> bp(GOBP:"viral genome replication")
+act(p(HGNC:ATF6)) -| p(HGNC:STAT1,pmod(Ph))
+p(HGNC:STAT1,pmod(Ph)) -| bp(GOBP:"viral genome replication")
+act(p(HGNC:ATF6)) -| bp(GOBP:"type I interferon signaling pathway")
+bp(GOBP:"type I interferon signaling pathway") -| bp(GOBP:"viral genome replication")
+UNSET MeSHDisease
+
+SET Evidence = "The NS4B protein of HCV has been shown to activate ATF6 signaling in cultured cells (Li et al.,2009)."
+p(NCBIGENE:14254597) -> bp(GOBP:"ATF6-mediated unfolded protein response")
+
+SET Evidence = "The authors thus conclude that global translation shutdown via eIF2α phosphorylation prevents accumulation of ATF6 and activation of ATF6 target genes (Bechill et al., 2008)."
+p(HGNC:EIF2S1,pmod(Ph)) -| p(HGNC:ATF6)
+p(HGNC:EIF2S1,pmod(Ph)) -| act(p(HGNC:ATF6))
+
+SET Evidence = "On the other hand, the accessory protein 8ab of SARS-CoV has been identified to induce ATF6 activation (Sung et al.,2009). ATF6 cleavage and nuclear translocation was observed in cells transfected with SARS-CoV 8ab (Sung et al., 2009)."
+p(FIXME:"accessory protein 8ab") -> act(p(HGNC:ATF6))
+p(FIXME:"accessory protein 8ab") -> p(HGNC:ATF6,frag("?"))
+p(FIXME:"accessory protein 8ab") -> p(HGNC:ATF6,loc(GOCC:nucleus))
+

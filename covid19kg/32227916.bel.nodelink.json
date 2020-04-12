@@ -1,0 +1,451 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "PublicationStatus": [
+        "Preprint"
+      ],
+      "PublicationType": [
+        "Editorial"
+      ],
+      "Section": [
+        "Full Text"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Geena Mariya Jose",
+      "contact": "geena.mariya.jose@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32227916.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32227916.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan WCW"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32227916",
+        "db_name": "ACS nano",
+        "first": "Chan WCW",
+        "last": "Chan WCW"
+      },
+      "evidence": "The coronavirus infectious disease (COVID-19), which started in late 2019, was found to be caused by the SARS-CoV-2 virus.",
+      "key": "50ef517d2cd45d326f578d5f28504e5f",
+      "line": 48,
+      "relation": "increases",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan WCW"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32227916",
+        "db_name": "ACS nano",
+        "first": "Chan WCW",
+        "last": "Chan WCW"
+      },
+      "evidence": "On January 10, 2020, the previously unknown pathogen was identified through next-generation sequencing as an RNA virus.2",
+      "key": "9bfcff76642cd5c7bc6f7afe0326a50a",
+      "line": 51,
+      "relation": "isA",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "key": "9b5e6ebdb508b622c266b4b986bd47ee",
+      "relation": "partOf",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan WCW"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32227916",
+        "db_name": "ACS nano",
+        "first": "Chan WCW",
+        "last": "Chan WCW"
+      },
+      "evidence": "Persons infected with SARS-CoV-2 present with a wide range of symptoms similar to other respiratory infections (e.g., fever, cough, and shortness of breath) or may be silent carriers.",
+      "key": "52f975a5a6dbe66ba5cf388d18b7b1ad",
+      "line": 55,
+      "relation": "association",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan WCW"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32227916",
+        "db_name": "ACS nano",
+        "first": "Chan WCW",
+        "last": "Chan WCW"
+      },
+      "evidence": "Persons infected with SARS-CoV-2 present with a wide range of symptoms similar to other respiratory infections (e.g., fever, cough, and shortness of breath) or may be silent carriers.",
+      "key": "558e88ed5f25711a295ed8ee98199bb0",
+      "line": 56,
+      "relation": "association",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan WCW"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32227916",
+        "db_name": "ACS nano",
+        "first": "Chan WCW",
+        "last": "Chan WCW"
+      },
+      "evidence": "Persons infected with SARS-CoV-2 present with a wide range of symptoms similar to other respiratory infections (e.g., fever, cough, and shortness of breath) or may be silent carriers.",
+      "key": "e480e87eeb764141211ee6a264c7c1d2",
+      "line": 57,
+      "relation": "association",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan WCW"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32227916",
+        "db_name": "ACS nano",
+        "first": "Chan WCW",
+        "last": "Chan WCW"
+      },
+      "evidence": "Persons infected with SARS-CoV-2 present with a wide range of symptoms similar to other respiratory infections (e.g., fever, cough, and shortness of breath) or may be silent carriers.",
+      "key": "5f9420dc20633734333c1656db95ae17",
+      "line": 55,
+      "relation": "association",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan WCW"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32227916",
+        "db_name": "ACS nano",
+        "first": "Chan WCW",
+        "last": "Chan WCW"
+      },
+      "evidence": "Persons infected with SARS-CoV-2 present with a wide range of symptoms similar to other respiratory infections (e.g., fever, cough, and shortness of breath) or may be silent carriers.",
+      "key": "22351a9eb44d6082ec8219c9d15e3e0c",
+      "line": 56,
+      "relation": "association",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan WCW"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32227916",
+        "db_name": "ACS nano",
+        "first": "Chan WCW",
+        "last": "Chan WCW"
+      },
+      "evidence": "Persons infected with SARS-CoV-2 present with a wide range of symptoms similar to other respiratory infections (e.g., fever, cough, and shortness of breath) or may be silent carriers.",
+      "key": "2000dd1e2f17704d9979e0430c637561",
+      "line": 57,
+      "relation": "association",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan WCW"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32227916",
+        "db_name": "ACS nano",
+        "first": "Chan WCW",
+        "last": "Chan WCW"
+      },
+      "evidence": "Basic studies of the nano-bio interactions could be adapted to understand how SARS-CoV-2 infects their cells (e.g., SARS-CoV-2 is 60−140 nm and binds to angiotensin converting enzyme receptor 2, ACE2), which can lead to new therapeutic agents and design.",
+      "key": "d16fa5d8ecea4164c5c1fe286a979db9",
+      "line": 60,
+      "relation": "increases",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "key": "52cb6d8fcf894bbfe8497cecebc5b0d1",
+      "relation": "partOf",
+      "source": 4,
+      "target": 3
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(MESH:\"RNA Viruses\")",
+      "concept": {
+        "name": "RNA Viruses",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "7b369548f02967cebaee82c46a4ea2bd"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "bp(GO:\"viral entry into host cell\")",
+      "concept": {
+        "name": "viral entry into host cell",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "2a6e5ae8582e2cded25095e14c2ee329"
+    },
+    {
+      "bel": "complex(a(TAX:\"Severe acute respiratory syndrome coronavirus 2\"), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "146428e3b0f07633969567cac441971e",
+      "members": [
+        {
+          "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+          "concept": {
+            "name": "Severe acute respiratory syndrome coronavirus 2",
+            "namespace": "TAX"
+          },
+          "function": "Abundance",
+          "id": "c41851da59cc36c21b2e8acf24c1f46d"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(HP:Cough)",
+      "concept": {
+        "name": "Cough",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "46175cd35e12952e2b452a4165638120"
+    },
+    {
+      "bel": "path(HP:Dyspnea)",
+      "concept": {
+        "name": "Dyspnea",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "963560b5f8fac4a36096e31cb33a61ea"
+    },
+    {
+      "bel": "path(HP:Fever)",
+      "concept": {
+        "name": "Fever",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "28f3e35789cf742f4f5cc7453350aae5"
+    }
+  ]
+}

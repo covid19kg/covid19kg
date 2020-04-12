@@ -1,0 +1,780 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {},
+    "annotation_pattern": {},
+    "annotation_url": {},
+    "document_metadata": {
+      "authors": "Yojana Gadiya",
+      "contact": "yojana.gadiya@scai.fraunhofer.de",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "Clinical Features of 69 Cases With Coronavirus Disease 2019 in Wuhan, China",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "PMID_32176772",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "ECCODE": "https://raw.githubusercontent.com/pharmacome/conso/c328ad964c08967a0417a887510b97b965a62fa5/external/ec-code.belns",
+      "GOBP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+    },
+    "path": "32176772.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "The  blood  counts  of  patients  on  admission  showed  decrease  in neutrophils (26  [39%]  of  67 patients), lymphocytes (28 [42%] of 67 patients), and eosinophils (48 [72%] of 67 patients), among which, the number of eosinophils in 31 patients was zero.",
+      "key": "040c9dff86ea16dd6a846009c858dc3a",
+      "line": 85,
+      "relation": "negativeCorrelation",
+      "source": 11,
+      "target": 5
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "The  blood  counts  of  patients  on  admission  showed  decrease  in neutrophils (26  [39%]  of  67 patients), lymphocytes (28 [42%] of 67 patients), and eosinophils (48 [72%] of 67 patients), among which, the number of eosinophils in 31 patients was zero.",
+      "key": "5ae44f6d5438dd1e3c50207171e6a9bd",
+      "line": 86,
+      "relation": "negativeCorrelation",
+      "source": 11,
+      "target": 4
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "The  blood  counts  of  patients  on  admission  showed  decrease  in neutrophils (26  [39%]  of  67 patients), lymphocytes (28 [42%] of 67 patients), and eosinophils (48 [72%] of 67 patients), among which, the number of eosinophils in 31 patients was zero.",
+      "key": "fae2a0ef3a44eb1ac964d0ec5caeb80d",
+      "line": 87,
+      "relation": "negativeCorrelation",
+      "source": 11,
+      "target": 3
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "The enrolled patients showed increase in alanine aminotransferase (23 [33%] of 69 patients) and aspartate aminotransferase (19 [28%] of 69 patients), most of which count less than 100 U/L.",
+      "key": "5796115e99a459a32b109a2bcb2b6d06",
+      "line": 91,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "The enrolled patients showed increase in alanine aminotransferase (23 [33%] of 69 patients) and aspartate aminotransferase (19 [28%] of 69 patients), most of which count less than 100 U/L.",
+      "key": "3185ec4aa68fbe85c34eac6d112e7b4f",
+      "line": 92,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 7
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "In terms of inflammation indicators, patients on  admission showed increase in lactate dehydrogenase (25 [41%] of 61 patients), c reactive protein (42 [67%] of 63 patients), and erythrocyte sedimentation rate (30 [52%] of 58 patients), but not procalcitonin. ",
+      "key": "8e45366359b4dc0cfc2cc3265997d431",
+      "line": 95,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "In terms of inflammation indicators, patients on  admission showed increase in lactate dehydrogenase (25 [41%] of 61 patients), c reactive protein (42 [67%] of 63 patients), and erythrocyte sedimentation rate (30 [52%] of 58 patients), but not procalcitonin. ",
+      "key": "97f214e66a5291edbf3e97bd37120db3",
+      "line": 97,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "In terms of inflammation indicators, patients on  admission showed increase in lactate dehydrogenase (25 [41%] of 61 patients), c reactive protein (42 [67%] of 63 patients), and erythrocyte sedimentation rate (30 [52%] of 58 patients), but not procalcitonin. ",
+      "key": "6cf3574122ea6ecb5996acd115eea39d",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 2
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "It appears that Arbidol treatment could improve the discharging rate and decrease the mortality rate (Table 5).The  efficiency  of antifungal  agent  and corticosteroids were  also  analyzed  in Supplementary Table 1 and Table 2. Antifungal agent did not show influence on the outcome of COVID-19 patients. And use of corticosteroids were associated with a higher risk of death.",
+      "key": "b6636ef76a3cf69a41d4e1d4c9867582",
+      "line": 104,
+      "relation": "negativeCorrelation",
+      "source": 11,
+      "target": 1
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "The  blood  counts  of  patients  on  admission  showed  decrease  in neutrophils (26  [39%]  of  67 patients), lymphocytes (28 [42%] of 67 patients), and eosinophils (48 [72%] of 67 patients), among which, the number of eosinophils in 31 patients was zero.",
+      "key": "73dd7bd48fa6487d569037be004a98ef",
+      "line": 85,
+      "relation": "negativeCorrelation",
+      "source": 5,
+      "target": 11
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "The  blood  counts  of  patients  on  admission  showed  decrease  in neutrophils (26  [39%]  of  67 patients), lymphocytes (28 [42%] of 67 patients), and eosinophils (48 [72%] of 67 patients), among which, the number of eosinophils in 31 patients was zero.",
+      "key": "07472fea7e0f3d94a0c18923b50dace9",
+      "line": 86,
+      "relation": "negativeCorrelation",
+      "source": 4,
+      "target": 11
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "The  blood  counts  of  patients  on  admission  showed  decrease  in neutrophils (26  [39%]  of  67 patients), lymphocytes (28 [42%] of 67 patients), and eosinophils (48 [72%] of 67 patients), among which, the number of eosinophils in 31 patients was zero.",
+      "key": "91b93ea14cfaaa2bfbe718d9e69c38e4",
+      "line": 87,
+      "relation": "negativeCorrelation",
+      "source": 3,
+      "target": 11
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "The enrolled patients showed increase in alanine aminotransferase (23 [33%] of 69 patients) and aspartate aminotransferase (19 [28%] of 69 patients), most of which count less than 100 U/L.",
+      "key": "8368ef5d7134a3c96132694c01e02da9",
+      "line": 91,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 11
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "The enrolled patients showed increase in alanine aminotransferase (23 [33%] of 69 patients) and aspartate aminotransferase (19 [28%] of 69 patients), most of which count less than 100 U/L.",
+      "key": "cbd850a65c2269308a278377fcf665c8",
+      "line": 92,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 11
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "In terms of inflammation indicators, patients on  admission showed increase in lactate dehydrogenase (25 [41%] of 61 patients), c reactive protein (42 [67%] of 63 patients), and erythrocyte sedimentation rate (30 [52%] of 58 patients), but not procalcitonin. ",
+      "key": "866eee897dc5b2a6dd68b9c0d883527d",
+      "line": 95,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "In terms of inflammation indicators, patients on  admission showed increase in lactate dehydrogenase (25 [41%] of 61 patients), c reactive protein (42 [67%] of 63 patients), and erythrocyte sedimentation rate (30 [52%] of 58 patients), but not procalcitonin. ",
+      "key": "ecbf91c19f49badbd3a34d1fb0634c35",
+      "line": 96,
+      "relation": "association",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "In terms of inflammation indicators, patients on  admission showed increase in lactate dehydrogenase (25 [41%] of 61 patients), c reactive protein (42 [67%] of 63 patients), and erythrocyte sedimentation rate (30 [52%] of 58 patients), but not procalcitonin. ",
+      "key": "2057d7b332a7883cd07c18d8a55cb715",
+      "line": 96,
+      "relation": "association",
+      "source": 6,
+      "target": 10
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "In terms of inflammation indicators, patients on  admission showed increase in lactate dehydrogenase (25 [41%] of 61 patients), c reactive protein (42 [67%] of 63 patients), and erythrocyte sedimentation rate (30 [52%] of 58 patients), but not procalcitonin. ",
+      "key": "4a782b6227c13935442708971ad43832",
+      "line": 98,
+      "relation": "association",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "In terms of inflammation indicators, patients on  admission showed increase in lactate dehydrogenase (25 [41%] of 61 patients), c reactive protein (42 [67%] of 63 patients), and erythrocyte sedimentation rate (30 [52%] of 58 patients), but not procalcitonin. ",
+      "key": "c3f7b1d8dcf0d3551b8bf2862c2a5f1a",
+      "line": 100,
+      "relation": "association",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "In terms of inflammation indicators, patients on  admission showed increase in lactate dehydrogenase (25 [41%] of 61 patients), c reactive protein (42 [67%] of 63 patients), and erythrocyte sedimentation rate (30 [52%] of 58 patients), but not procalcitonin. ",
+      "key": "bf812b1d689ed48df1ded0a8e75ebfc0",
+      "line": 97,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "In terms of inflammation indicators, patients on  admission showed increase in lactate dehydrogenase (25 [41%] of 61 patients), c reactive protein (42 [67%] of 63 patients), and erythrocyte sedimentation rate (30 [52%] of 58 patients), but not procalcitonin. ",
+      "key": "daf031485f67423c2edcfde6f04382bd",
+      "line": 98,
+      "relation": "association",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "In terms of inflammation indicators, patients on  admission showed increase in lactate dehydrogenase (25 [41%] of 61 patients), c reactive protein (42 [67%] of 63 patients), and erythrocyte sedimentation rate (30 [52%] of 58 patients), but not procalcitonin. ",
+      "key": "64092c1df9becb7abf294064dcd336f0",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 11
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "In terms of inflammation indicators, patients on  admission showed increase in lactate dehydrogenase (25 [41%] of 61 patients), c reactive protein (42 [67%] of 63 patients), and erythrocyte sedimentation rate (30 [52%] of 58 patients), but not procalcitonin. ",
+      "key": "6eff6f970706f0155d14ff6dfb31488a",
+      "line": 100,
+      "relation": "association",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "It appears that Arbidol treatment could improve the discharging rate and decrease the mortality rate (Table 5).The  efficiency  of antifungal  agent  and corticosteroids were  also  analyzed  in Supplementary Table 1 and Table 2. Antifungal agent did not show influence on the outcome of COVID-19 patients. And use of corticosteroids were associated with a higher risk of death.",
+      "key": "c2f36c8b2b3f99149a61891ff011b220",
+      "line": 104,
+      "relation": "negativeCorrelation",
+      "source": 1,
+      "target": 11
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "It appears that Arbidol treatment could improve the discharging rate and decrease the mortality rate (Table 5).The  efficiency  of antifungal  agent  and corticosteroids were  also  analyzed  in Supplementary Table 1 and Table 2. Antifungal agent did not show influence on the outcome of COVID-19 patients. And use of corticosteroids were associated with a higher risk of death.",
+      "key": "90de87437a8a2a986bdb50c2a9ce3b3e",
+      "line": 105,
+      "relation": "decreases",
+      "source": 1,
+      "target": 13
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "It appears that Arbidol treatment could improve the discharging rate and decrease the mortality rate (Table 5).The  efficiency  of antifungal  agent  and corticosteroids were  also  analyzed  in Supplementary Table 1 and Table 2. Antifungal agent did not show influence on the outcome of COVID-19 patients. And use of corticosteroids were associated with a higher risk of death.",
+      "key": "7dd1becca0d6737242ff0d01663fbbc5",
+      "line": 106,
+      "relation": "association",
+      "source": 0,
+      "target": 12
+    },
+    {
+      "citation": {
+        "authors": [
+          "Li Q",
+          "Wang Z",
+          "Wen L",
+          "Yang B",
+          "Zhang R"
+        ],
+        "date": "2020-03-16",
+        "db": "PubMed",
+        "db_id": "32176772",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Wang Z",
+        "last": "Zhang R"
+      },
+      "evidence": "It appears that Arbidol treatment could improve the discharging rate and decrease the mortality rate (Table 5).The  efficiency  of antifungal  agent  and corticosteroids were  also  analyzed  in Supplementary Table 1 and Table 2. Antifungal agent did not show influence on the outcome of COVID-19 patients. And use of corticosteroids were associated with a higher risk of death.",
+      "key": "af4a33cca33fea403f50d82e580a4b71",
+      "line": 106,
+      "relation": "association",
+      "source": 12,
+      "target": 0
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:corticosteroid)",
+      "concept": {
+        "name": "corticosteroid",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "a468686acdbd9b5763eec60c73e99320"
+    },
+    {
+      "bel": "a(CHEBI:umifenovir)",
+      "concept": {
+        "name": "umifenovir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "4b2285b93eae04cb8e4d522d829c1df1"
+    },
+    {
+      "bel": "a(MESH:\"Blood Sedimentation\")",
+      "concept": {
+        "name": "Blood Sedimentation",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "b5482b8c550e4639f6f779ce9b183bba"
+    },
+    {
+      "bel": "a(MESH:Eosinophils)",
+      "concept": {
+        "name": "Eosinophils",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "346cce1a6d7435f0f8f5fea088da8b61"
+    },
+    {
+      "bel": "a(MESH:Lymphocytes)",
+      "concept": {
+        "name": "Lymphocytes",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "05994a861f52857ee7dd98e839952695"
+    },
+    {
+      "bel": "a(MESH:Neutrophils)",
+      "concept": {
+        "name": "Neutrophils",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "994989dde1444ddb73e4c899a00aabc7"
+    },
+    {
+      "bel": "bp(GOBP:\"inflammatory response\")",
+      "concept": {
+        "name": "inflammatory response",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "231ce9f9130365dfdf6765587f4e8343"
+    },
+    {
+      "bel": "p(ECCODE:\"2.6.1.1\")",
+      "concept": {
+        "name": "2.6.1.1",
+        "namespace": "ECCODE"
+      },
+      "function": "Protein",
+      "id": "cec110460a28c3a0bb58e664b88fd6db"
+    },
+    {
+      "bel": "p(ECCODE:\"2.6.1.2\")",
+      "concept": {
+        "name": "2.6.1.2",
+        "namespace": "ECCODE"
+      },
+      "function": "Protein",
+      "id": "c054ba12e4850fca69c6364cf0417efd"
+    },
+    {
+      "bel": "p(HGNC:CRP)",
+      "concept": {
+        "name": "CRP",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "b2238c9ec2ce73112c0f44c8375b7acb"
+    },
+    {
+      "bel": "p(MESH:\"L-Lactate Dehydrogenase\")",
+      "concept": {
+        "name": "L-Lactate Dehydrogenase",
+        "namespace": "MESH"
+      },
+      "function": "Protein",
+      "id": "34db8cd2abef51c6a2a7f8f1a0d931f5"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(MESH:Death)",
+      "concept": {
+        "name": "Death",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "10a8517e414b47762b224fc2cc999027"
+    },
+    {
+      "bel": "path(MESH:Mortality)",
+      "concept": {
+        "name": "Mortality",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "df8c4e5f3d406d3ef8f732f01595a9a6"
+    }
+  ]
+}

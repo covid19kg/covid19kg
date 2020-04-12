@@ -1,0 +1,98 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "15878679.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Timeline AS LIST {"2-4 weeks","20-30 weeks"}
+DEFINE ANNOTATION Assay AS LIST {"Neutalizing antibody assay"}
+DEFINE ANNOTATION Custom_CellLine AS LIST {"Vero E6 cell"}
+DEFINE ANNOTATION Custom_Species AS LIST {"60711"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","15878679"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "The FI values for proteins S1, S2, S3, S4, S5, 3a, N and 9b to sera from SARS patients were statistically significantly more than those from healthy people (P < 0.01, using SPSS 10.0 software) (Fig. 2), but the FI values for proteins E, M, 3b, 6 and 7a to sera from SARS patients had no significant difference with those from healthy people (P > 0.05)."
+
+SET Species = "9606"
+SET Custom_Disease = "COVID-19"
+SET MeSHAnatomy = "Serum"
+path(DO:"COVID-19") pos p(COVID:S, frag("1_668"))
+path(DO:"COVID-19") pos p(COVID:S, frag("669_1255"))
+path(DO:"COVID-19") pos p(COVID:S, frag("241_591"))
+path(DO:"COVID-19") pos p(COVID:S, frag("419_591"))
+path(DO:"COVID-19") pos p(COVID:S, frag("647_935"))
+path(DO:"COVID-19") pos p(COVID:ORF3a)
+path(DO:"COVID-19") pos p(COVID:N)
+path(DO:"COVID-19") pos p(UNIPROT:P0DTD2)
+UNSET MeSHAnatomy
+
+SET Evidence = "Both anti-N and anti-S3 anti-bodies were positive in all the serum samples, whereas anti-3a and anti-9b antibodies were only positive in part of these samples."
+
+SET MeSHAnatomy = "Serum"
+path(DO:"COVID-19") -> a(MESH:"Immunoglobulin G")
+a(MESH:"Immunoglobulin G") -| p(COVID:N)
+a(MESH:"Immunoglobulin G") -| p(COVID:S, frag("241_591"))
+a(MESH:"Immunoglobulin G") -| p(COVID:ORF3a)
+a(MESH:"Immunoglobulin G") -| p(UNIPROT:P0DTD2)
+UNSET MeSHAnatomy
+
+SET Evidence = "As Fig. 4 shows, anti-N and anti-S3 antibodies persisted until week 30; their levels rapidly increased from weeks 2 to 4, and decreased from weeks 20 to 30."
+
+SET MeSHAnatomy = "Serum"
+SET Timeline = "2-4 weeks"
+path(DO:"COVID-19") -> a(MESH:"Immunoglobulin G")
+a(MESH:"Immunoglobulin G") -| p(COVID:N)
+a(MESH:"Immunoglobulin G") -| p(COVID:S, frag("241_591"))
+UNSET Timeline
+SET Timeline = "20-30 weeks"
+path(DO:"COVID-19") -| a(MESH:"Immunoglobulin G")
+UNSET Timeline
+UNSET MeSHAnatomy
+UNSET Species
+
+SET Evidence = "Anti-S3 serum showed significant neutralizing activity to the SARS-CoV infection, with a neutralizing antibody titer of 708, whereas the other antisera and control serum from non-immunized rabbit lacked neutralizing antibodies (Table 2)."
+
+SET Custom_Species = "60711"
+SET Custom_CellLine = "Vero E6 cell"
+SET Assay = "Neutalizing antibody assay"
+path(DO:"COVID-19") -> a(MESH:"Immunoglobulin G")
+a(MESH:"Immunoglobulin G") -| p(COVID:S, frag("241_591"))
+UNSET Assay
+UNSET Custom_CellLine
+UNSET Custom_Species
+UNSET Custom_Disease
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

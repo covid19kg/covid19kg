@@ -1,0 +1,2089 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_CellLine": [
+        "Vero E6 cell"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ],
+      "Timeline": [
+        "10-14 hours",
+        "12 hours postinfection"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "CellLine": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Abish K",
+      "contact": "abish@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "17397959.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "GFAM": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "MGI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "17397959.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "When the variability between nsp 3 isolates of the SARS epidemic are compared, the results suggest that nsps 1-3 perform cell- and host- specific roles in replication and/or virulence. Additionally, they have demonstrated high capacity for adaptation to new environments and selective pressures.",
+      "key": "38382771ee1af1ae1bcb011d932ae168",
+      "line": 53,
+      "relation": "association",
+      "source": 21,
+      "target": 3
+    },
+    {
+      "key": "caf6cd0a6027ed2903259eb00d4e39f8",
+      "relation": "hasVariant",
+      "source": 21,
+      "target": 23
+    },
+    {
+      "key": "22cb01a4ac96190e6b0f3756a46bfecb",
+      "relation": "hasVariant",
+      "source": 21,
+      "target": 22
+    },
+    {
+      "key": "7eeb558546143eabfe0f739fc20b26d6",
+      "relation": "hasVariant",
+      "source": 21,
+      "target": 30
+    },
+    {
+      "key": "727599802e358f933bde2d880461678e",
+      "relation": "hasVariant",
+      "source": 21,
+      "target": 32
+    },
+    {
+      "key": "531b5d684a5f59a2dbfc41a567bc2fce",
+      "relation": "hasVariant",
+      "source": 21,
+      "target": 24
+    },
+    {
+      "key": "14ed2d873eebca2f90cdcbb95a08652d",
+      "relation": "hasVariant",
+      "source": 21,
+      "target": 26
+    },
+    {
+      "key": "cc64b30e1ab95e09f422442b8c5194da",
+      "relation": "hasVariant",
+      "source": 21,
+      "target": 25
+    },
+    {
+      "key": "e3410b193891d3960988171b7110504d",
+      "relation": "hasVariant",
+      "source": 21,
+      "target": 31
+    },
+    {
+      "key": "24ab89d0f537d9fbec8a1cd32ab0e78d",
+      "relation": "hasVariant",
+      "source": 21,
+      "target": 27
+    },
+    {
+      "key": "e32f5f51254c63d1f809bff5d065416f",
+      "relation": "hasVariant",
+      "source": 21,
+      "target": 28
+    },
+    {
+      "key": "7dea771c6ff66418a079d3f403d93e98",
+      "relation": "hasVariant",
+      "source": 21,
+      "target": 29
+    },
+    {
+      "key": "62c210470c53c31ea9957296fdfac5a1",
+      "relation": "hasVariant",
+      "source": 21,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "When the variability between nsp 3 isolates of the SARS epidemic are compared, the results suggest that nsps 1-3 perform cell- and host- specific roles in replication and/or virulence. Additionally, they have demonstrated high capacity for adaptation to new environments and selective pressures.",
+      "key": "909d4e895d2fe8d06eae6306b0b8b640",
+      "line": 53,
+      "relation": "association",
+      "source": 3,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "HEK293": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "Kamitami et al. observed that SARS-CoV replication in human 293 cells suppresses IFN-β mRNA accumulation (Kamitani et al., 2006). Plasmid- based overexpression of nsp 1 resulted in the inhibition of host gene expression by promoting degradation of host mRNA, and that IFN-β mRNA accumulation was decreased without alteration of IRF-3 phosphorylation, dimerization, or translocation.",
+      "key": "0f6a89265652058b4e51cbac4a9634c9",
+      "line": 70,
+      "relation": "decreases",
+      "source": 3,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "The Appr-1″-p domain of nsp 3 is proposed to have functions in viral RNA synthesis (Snijder et al., 2003).",
+      "key": "1bcdc07c3b58db22ff5d2ff66fe927bd",
+      "line": 122,
+      "relation": "association",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "When the variability between nsp 3 isolates of the SARS epidemic are compared, the results suggest that nsps 1-3 perform cell- and host- specific roles in replication and/or virulence. Additionally, they have demonstrated high capacity for adaptation to new environments and selective pressures.",
+      "key": "bbe94b0b9d22d72e8b931009a1c1acec",
+      "line": 54,
+      "relation": "association",
+      "source": 23,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "HEK293": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "Kamitami et al. observed that SARS-CoV replication in human 293 cells suppresses IFN-β mRNA accumulation (Kamitani et al., 2006). Plasmid- based overexpression of nsp 1 resulted in the inhibition of host gene expression by promoting degradation of host mRNA, and that IFN-β mRNA accumulation was decreased without alteration of IRF-3 phosphorylation, dimerization, or translocation.",
+      "key": "c916bce04e9733322c1ff5db6f12d356",
+      "line": 71,
+      "relation": "decreases",
+      "source": 23,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "Further analysis showed that SARS-CoV nsp 1 suppressed Sendai virus- induced IFN-β mRNA accumulation, and suppressed reporter mRNA accumulation in cells.",
+      "key": "dd74eb387ff9e11083c5a5fbbe7c31e4",
+      "line": 81,
+      "relation": "decreases",
+      "source": 23,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "A549 cell": true,
+          "Hep G2 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "Overexpression of nsp 1 in the lung epithelial cell line A549 increases the production of CCL5, CXCL10 and CCL3 cytokines 30-200-fold compared with mock-transfected cells or cells expressing nsp 5 (Law et al., 2006). Similar results were detected with CCL5 and CXCL10 in HepG2 cells, suggesting that this was not a cell line- specific induction.",
+      "key": "40f6db37acfa27cc7a9498727d1f2226",
+      "line": 93,
+      "relation": "increases",
+      "source": 23,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "A549 cell": true,
+          "Hep G2 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "Overexpression of nsp 1 in the lung epithelial cell line A549 increases the production of CCL5, CXCL10 and CCL3 cytokines 30-200-fold compared with mock-transfected cells or cells expressing nsp 5 (Law et al., 2006). Similar results were detected with CCL5 and CXCL10 in HepG2 cells, suggesting that this was not a cell line- specific induction.",
+      "key": "dee4ef671a700531735bc96d70121c56",
+      "line": 94,
+      "relation": "increases",
+      "source": 23,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "A549 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "Overexpression of nsp 1 in the lung epithelial cell line A549 increases the production of CCL5, CXCL10 and CCL3 cytokines 30-200-fold compared with mock-transfected cells or cells expressing nsp 5 (Law et al., 2006). Similar results were detected with CCL5 and CXCL10 in HepG2 cells, suggesting that this was not a cell line- specific induction.",
+      "key": "ecb74212679470027db2ae94f7e7048c",
+      "line": 97,
+      "relation": "increases",
+      "source": 23,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Hep G2 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "10-14 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "NFκ-B expression increased 10-14 h post-nsp 1 transfection, suggesting that cytokine induction occurred via an NFκ-B-dependent pathway. In support of this hypothesis, expression of CCL5, CCL3 and CXCL10 was reduced up to 60% in nsp 1-expressing cells in the presence of the IKK-β inhibitor, sodium salicylate.",
+      "key": "6c54207ca0cdf755035255393f658c19",
+      "line": 110,
+      "relation": "increases",
+      "source": 23,
+      "target": 17
+    },
+    {
+      "key": "8f2a196e6f96a6ffe461294a2763b53a",
+      "relation": "partOf",
+      "source": 23,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "Vero E6 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "12 hours postinfection": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "At 12 h post-infection (p.i.), wildtype nsps 1 and 2 both displayed bright, punctate perinuclear localization, similar to that observed in MHV infection (Fig. 4A).",
+      "key": "c1ce8182c4304d2b7640151a5b7973ea",
+      "line": 136,
+      "object": {
+        "location": {
+          "name": "nuclear outer membrane",
+          "namespace": "GO"
+        }
+      },
+      "relation": "increases",
+      "source": 23,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "When the variability between nsp 3 isolates of the SARS epidemic are compared, the results suggest that nsps 1-3 perform cell- and host- specific roles in replication and/or virulence. Additionally, they have demonstrated high capacity for adaptation to new environments and selective pressures.",
+      "key": "20c674618a8089fb61290bdf43084149",
+      "line": 54,
+      "relation": "association",
+      "source": 10,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "When the variability between nsp 3 isolates of the SARS epidemic are compared, the results suggest that nsps 1-3 perform cell- and host- specific roles in replication and/or virulence. Additionally, they have demonstrated high capacity for adaptation to new environments and selective pressures.",
+      "key": "eb7b6501a09c5431578c539700484278",
+      "line": 56,
+      "relation": "association",
+      "source": 10,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "When the variability between nsp 3 isolates of the SARS epidemic are compared, the results suggest that nsps 1-3 perform cell- and host- specific roles in replication and/or virulence. Additionally, they have demonstrated high capacity for adaptation to new environments and selective pressures.",
+      "key": "5e5a3f9538da5071c835cb80ce545be3",
+      "line": 58,
+      "relation": "association",
+      "source": 10,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "When the variability between nsp 3 isolates of the SARS epidemic are compared, the results suggest that nsps 1-3 perform cell- and host- specific roles in replication and/or virulence. Additionally, they have demonstrated high capacity for adaptation to new environments and selective pressures.",
+      "key": "c32451487949bae06ea123fc67dd2950",
+      "line": 56,
+      "relation": "association",
+      "source": 22,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "Vero E6 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "12 hours postinfection": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "At 12 h post-infection (p.i.), wildtype nsps 1 and 2 both displayed bright, punctate perinuclear localization, similar to that observed in MHV infection (Fig. 4A).",
+      "key": "ef10a0c4d9c8179bd744bd8d337eee32",
+      "line": 137,
+      "object": {
+        "location": {
+          "name": "nuclear outer membrane",
+          "namespace": "GO"
+        }
+      },
+      "relation": "increases",
+      "source": 22,
+      "target": 1
+    },
+    {
+      "key": "5e172269f7df07b866803d8232ea9649",
+      "relation": "partOf",
+      "source": 22,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "When the variability between nsp 3 isolates of the SARS epidemic are compared, the results suggest that nsps 1-3 perform cell- and host- specific roles in replication and/or virulence. Additionally, they have demonstrated high capacity for adaptation to new environments and selective pressures.",
+      "key": "ba4921b0307e6ae674aa278b0a196f97",
+      "line": 58,
+      "relation": "association",
+      "source": 30,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "The Appr-1″-p domain of nsp 3 is proposed to have functions in viral RNA synthesis (Snijder et al., 2003).",
+      "key": "86dde595affbf4d724e93edd3bef3646",
+      "line": 121,
+      "relation": "increases",
+      "source": 30,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "Two groups subsequently demonstrated that expressed and purified SARS PLP possesses deubiquitinating activity (Barretto et al., 2005; Lindner et al., 2005).",
+      "key": "4e84813d856991d04518a26c81383c6a",
+      "line": 128,
+      "relation": "increases",
+      "source": 30,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 5
+    },
+    {
+      "key": "508c43d23b95cdde62532aa818c82ec2",
+      "relation": "partOf",
+      "source": 30,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "It was discovered that SARS-CoV nsp 4 is cleaved first at its amino terminus by the PLP (PLP2 for MHV) and at its carboxy terminus by 3CLPro (Harcourt et al., 2004;Kanjanahaluethai et al., 2003;Prentice et al., 2004b).",
+      "key": "dba29039d5db27b279542eecc43f23b8",
+      "line": 162,
+      "relation": "increases",
+      "source": 30,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 25
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "Further analysis showed that SARS-CoV nsp 1 suppressed Sendai virus- induced IFN-β mRNA accumulation, and suppressed reporter mRNA accumulation in cells.",
+      "key": "b138e60882d4578cfb85760e91987661",
+      "line": 80,
+      "relation": "increases",
+      "source": 2,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Hep G2 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "10-14 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "NFκ-B expression increased 10-14 h post-nsp 1 transfection, suggesting that cytokine induction occurred via an NFκ-B-dependent pathway. In support of this hypothesis, expression of CCL5, CCL3 and CXCL10 was reduced up to 60% in nsp 1-expressing cells in the presence of the IKK-β inhibitor, sodium salicylate.",
+      "key": "685eeda1b074440b48195784cd3c6a0c",
+      "line": 111,
+      "relation": "decreases",
+      "source": 13,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Hep G2 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "10-14 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "NFκ-B expression increased 10-14 h post-nsp 1 transfection, suggesting that cytokine induction occurred via an NFκ-B-dependent pathway. In support of this hypothesis, expression of CCL5, CCL3 and CXCL10 was reduced up to 60% in nsp 1-expressing cells in the presence of the IKK-β inhibitor, sodium salicylate.",
+      "key": "91c309e1149192eefc9023697a0c10b8",
+      "line": 112,
+      "relation": "decreases",
+      "source": 13,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Hep G2 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "10-14 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "NFκ-B expression increased 10-14 h post-nsp 1 transfection, suggesting that cytokine induction occurred via an NFκ-B-dependent pathway. In support of this hypothesis, expression of CCL5, CCL3 and CXCL10 was reduced up to 60% in nsp 1-expressing cells in the presence of the IKK-β inhibitor, sodium salicylate.",
+      "key": "32183aaddffd22f6fb1952d8b463fb2e",
+      "line": 113,
+      "relation": "decreases",
+      "source": 13,
+      "target": 18
+    },
+    {
+      "key": "f0d9ed4237f03a7a27e1ccfb392f9edc",
+      "relation": "partOf",
+      "source": 0,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "The Appr-1″-p domain of nsp 3 is proposed to have functions in viral RNA synthesis (Snijder et al., 2003).",
+      "key": "fbd723fe19272004476e33bdebfdd200",
+      "line": 122,
+      "relation": "association",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "This data suggests that the deletion of the 226 RGV 228 in the A4 mutant may disrupt a domain of nsp 2 required for proper replication complex interaction, though the formation of the replication complexes is apparently not hindered, as evidenced by the localization of nsps 1 and 8.",
+      "key": "43d6a4fb97833f3710e24fbee9e69f6c",
+      "line": 147,
+      "relation": "decreases",
+      "source": 32,
+      "target": 12
+    },
+    {
+      "key": "145cd09e64ab09becd920331d7ea884f",
+      "relation": "partOf",
+      "source": 11,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "Together, nsps 3, 4, and 6 are predicted to function to nucleate and anchor viral replication complexes on double-membrane vesicles in the cytoplasm (Gosert et al., 2002;Prentice et al., 2004a;van der Meer et al., 1999).",
+      "key": "a8d936ef7b84c6f6d63f99b796ba7d11",
+      "line": 154,
+      "relation": "increases",
+      "source": 14,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "Together, nsps 3, 4, and 6 are predicted to function to nucleate and anchor viral replication complexes on double-membrane vesicles in the cytoplasm (Gosert et al., 2002;Prentice et al., 2004a;van der Meer et al., 1999).",
+      "key": "ae9f74505143021aba8d3214f75cf639",
+      "line": 155,
+      "relation": "increases",
+      "source": 14,
+      "target": 8
+    },
+    {
+      "key": "2fa7a42a80b5bc1e5788ce715ffbc95c",
+      "relation": "partOf",
+      "source": 24,
+      "target": 14
+    },
+    {
+      "key": "33360a658c0418dbe9705b0baf334849",
+      "relation": "partOf",
+      "source": 26,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "It was discovered that SARS-CoV nsp 4 is cleaved first at its amino terminus by the PLP (PLP2 for MHV) and at its carboxy terminus by 3CLPro (Harcourt et al., 2004;Kanjanahaluethai et al., 2003;Prentice et al., 2004b).",
+      "key": "71bc9186eb1797816c185264682d5b22",
+      "line": 163,
+      "relation": "increases",
+      "source": 26,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 31
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "Nsp 14 likely functions coordinately with nsps 15 and 16 in processing and modification of viral or cellular RNAs.",
+      "key": "d4c9e81cc423dc5aa35d9cbdf7a4bc6a",
+      "line": 168,
+      "relation": "increases",
+      "source": 15,
+      "target": 6
+    },
+    {
+      "key": "aefe5e52bd933277b0a6fc6893c6f8a1",
+      "relation": "partOf",
+      "source": 27,
+      "target": 15
+    },
+    {
+      "key": "987425299000bff1b38fb84db991a9aa",
+      "relation": "partOf",
+      "source": 27,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "However, the Y414 virus was virulent in mice, whereas the Y414H mutant was completely attenuated, even in the absence of the mutation in the 2a protein (Sperry et al., 2005).",
+      "key": "d0ae2d474c879ca88f9f546764bd40c9",
+      "line": 176,
+      "relation": "increases",
+      "source": 27,
+      "target": 7
+    },
+    {
+      "key": "21378df9c6d21b83ebffa6db4535e7e8",
+      "relation": "partOf",
+      "source": 28,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "Nsp 14 likely functions coordinately with nsps 15 and 16 in processing and modification of viral or cellular RNAs.",
+      "key": "ece41936cf1d61f5048b51276818bfb5",
+      "line": 169,
+      "relation": "increases",
+      "source": 16,
+      "target": 6
+    },
+    {
+      "key": "fdac94a616c512e5cbd0ddb0c3d02179",
+      "relation": "partOf",
+      "source": 29,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Denison MR",
+          "Eckerle LD",
+          "Graham RL",
+          "Sims AC",
+          "Sparks JS"
+        ],
+        "date": "2008-04-01",
+        "db": "PubMed",
+        "db_id": "17397959",
+        "db_name": "Virus research",
+        "first": "Graham RL",
+        "last": "Denison MR",
+        "pages": "88-100",
+        "volume": "133"
+      },
+      "evidence": "However, the Y414 virus was virulent in mice, whereas the Y414H mutant was completely attenuated, even in the absence of the mutation in the 2a protein (Sperry et al., 2005).",
+      "key": "8850490ae1b584f319bb8cc795c4df16",
+      "line": 177,
+      "relation": "decreases",
+      "source": 33,
+      "target": 7
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:\"Sodium salicylate\")",
+      "concept": {
+        "name": "Sodium salicylate",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "7d634a11db956ec6929e0f655099f945"
+    },
+    {
+      "bel": "a(MESH:Punctures)",
+      "concept": {
+        "name": "Punctures",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "3940b3e6d990e056b805ea3f18906028"
+    },
+    {
+      "bel": "a(TAX:\"Murine respirovirus\")",
+      "concept": {
+        "name": "Murine respirovirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "814f83d2f93bd18a668006b88b0cec8d"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "a824ba056422b4e42996cd3269ec9a19"
+    },
+    {
+      "bel": "bp(GO:\"RNA biosynthetic process\")",
+      "concept": {
+        "name": "RNA biosynthetic process",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "ef3ea41ce68aaa0763cc7d553790bd6b"
+    },
+    {
+      "bel": "bp(GO:\"protein deubiquitination\")",
+      "concept": {
+        "name": "protein deubiquitination",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "9372ab1a96ee37321087bcf1319f8c52"
+    },
+    {
+      "bel": "bp(GO:\"viral RNA genome packaging\")",
+      "concept": {
+        "name": "viral RNA genome packaging",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "e01bb8f2ff916fa27afbbad0e1c97d2b"
+    },
+    {
+      "bel": "bp(GO:\"viral process\")",
+      "concept": {
+        "name": "viral process",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "93ae1ca3bfe907c3576ca4906da5c64f"
+    },
+    {
+      "bel": "bp(GO:\"viral replication complex formation and maintenance\")",
+      "concept": {
+        "name": "viral replication complex formation and maintenance",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "8d98ffb313cf16040ef6324c21b80e87"
+    },
+    {
+      "bel": "bp(GO:enucleation)",
+      "concept": {
+        "name": "enucleation",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "c851fac4ce638b19e6a9e5e9c06b3c79"
+    },
+    {
+      "bel": "bp(MESH:\"Virus Replication\")",
+      "concept": {
+        "name": "Virus Replication",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "f511c0a55a7b8aa880279fba6181fd8c"
+    },
+    {
+      "bel": "complex(GO:\"viral replication complex\")",
+      "concept": {
+        "name": "viral replication complex",
+        "namespace": "GO"
+      },
+      "function": "Complex",
+      "id": "25cd34181ee91e5574f66f6eb0070d3a"
+    },
+    {
+      "bel": "complex(complex(GO:\"viral replication complex\"), p(UNIPROT:P0C6X7, frag(\"181_818\")))",
+      "function": "Complex",
+      "id": "fe510b1ff1123e47649094355df67e93",
+      "members": [
+        {
+          "bel": "complex(GO:\"viral replication complex\")",
+          "concept": {
+            "name": "viral replication complex",
+            "namespace": "GO"
+          },
+          "function": "Complex",
+          "id": "25cd34181ee91e5574f66f6eb0070d3a"
+        },
+        {
+          "bel": "p(UNIPROT:P0C6X7, frag(\"181_818\"))",
+          "concept": {
+            "name": "P0C6X7",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "4ece24c506c8ff5711d8c86b6a334919",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 181,
+              "stop": 818
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "composite(a(CHEBI:\"Sodium salicylate\"), p(UNIPROT:P0C6X7, frag(\"1_180\")))",
+      "function": "Composite",
+      "id": "0440a7dca34fb489b8c1c57606d5bf21",
+      "members": [
+        {
+          "bel": "a(CHEBI:\"Sodium salicylate\")",
+          "concept": {
+            "name": "Sodium salicylate",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "7d634a11db956ec6929e0f655099f945"
+        },
+        {
+          "bel": "p(UNIPROT:P0C6X7, frag(\"1_180\"))",
+          "concept": {
+            "name": "P0C6X7",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "fd99f2e08cfc98930540e23b1d3bb47a",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 1,
+              "stop": 180
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "composite(p(UNIPROT:P0C6X7, frag(\"2741_3240\")), p(UNIPROT:P0C6X7, frag(\"3547_3836\")), p(UNIPROT:P0C6X7, frag(\"819_2740\")))",
+      "function": "Composite",
+      "id": "2ea98848ef2115c2c7ab35c27ea08be6",
+      "members": [
+        {
+          "bel": "p(UNIPROT:P0C6X7, frag(\"2741_3240\"))",
+          "concept": {
+            "name": "P0C6X7",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "3ae546549d3855870b23fb9c7aad8f93",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 2741,
+              "stop": 3240
+            }
+          ]
+        },
+        {
+          "bel": "p(UNIPROT:P0C6X7, frag(\"3547_3836\"))",
+          "concept": {
+            "name": "P0C6X7",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "d326599e0231470c8eeb3d973e02df04",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 3547,
+              "stop": 3836
+            }
+          ]
+        },
+        {
+          "bel": "p(UNIPROT:P0C6X7, frag(\"819_2740\"))",
+          "concept": {
+            "name": "P0C6X7",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "ceaf3f5baedfdce0a000e1544e0c6c53",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 819,
+              "stop": 2740
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "composite(p(UNIPROT:P0C6X7, frag(\"5903_6429\")), p(UNIPROT:P0C6X7, frag(\"6430_6775\")))",
+      "function": "Composite",
+      "id": "d1d6ef3938ef86fd9f00accc3c588a86",
+      "members": [
+        {
+          "bel": "p(UNIPROT:P0C6X7, frag(\"5903_6429\"))",
+          "concept": {
+            "name": "P0C6X7",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "2fc2fb87b4c875dd0777c2294c2f740c",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 5903,
+              "stop": 6429
+            }
+          ]
+        },
+        {
+          "bel": "p(UNIPROT:P0C6X7, frag(\"6430_6775\"))",
+          "concept": {
+            "name": "P0C6X7",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "a3f6a350da51ab8f3645015496cebabc",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 6430,
+              "stop": 6775
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "composite(p(UNIPROT:P0C6X7, frag(\"5903_6429\")), p(UNIPROT:P0C6X7, frag(\"6776_7073\")))",
+      "function": "Composite",
+      "id": "d149a4ea5d55603eb31d11578f21d683",
+      "members": [
+        {
+          "bel": "p(UNIPROT:P0C6X7, frag(\"5903_6429\"))",
+          "concept": {
+            "name": "P0C6X7",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "2fc2fb87b4c875dd0777c2294c2f740c",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 5903,
+              "stop": 6429
+            }
+          ]
+        },
+        {
+          "bel": "p(UNIPROT:P0C6X7, frag(\"6776_7073\"))",
+          "concept": {
+            "name": "P0C6X7",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "7372787f766d0cd45bac0094a7cd3882",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 6776,
+              "stop": 7073
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "p(GFAM:\"NF-kappa B complex subunits\")",
+      "concept": {
+        "name": "NF-kappa B complex subunits",
+        "namespace": "GFAM"
+      },
+      "function": "Protein",
+      "id": "b80c67723c18965267a42193c54bd23b"
+    },
+    {
+      "bel": "p(HGNC:CCL3)",
+      "concept": {
+        "name": "CCL3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "5cf35694ebdc37f754621a1d29763a9c"
+    },
+    {
+      "bel": "p(HGNC:CCL5)",
+      "concept": {
+        "name": "CCL5",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "a0cdee489437dd28b3d23c2f3abe9862"
+    },
+    {
+      "bel": "p(HGNC:CXCL10)",
+      "concept": {
+        "name": "CXCL10",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "fd9a90dd7c73cd8dc9d99b88ac8aab1e"
+    },
+    {
+      "bel": "p(UNIPROT:P0C6X7)",
+      "concept": {
+        "name": "P0C6X7",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "642e0c1bd950ab883768d3f457508c4e"
+    },
+    {
+      "bel": "p(UNIPROT:P0C6X7, frag(\"181_818\"))",
+      "concept": {
+        "name": "P0C6X7",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "4ece24c506c8ff5711d8c86b6a334919",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 181,
+          "stop": 818
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P0C6X7, frag(\"1_180\"))",
+      "concept": {
+        "name": "P0C6X7",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "fd99f2e08cfc98930540e23b1d3bb47a",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 1,
+          "stop": 180
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P0C6X7, frag(\"2741_3240\"))",
+      "concept": {
+        "name": "P0C6X7",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "3ae546549d3855870b23fb9c7aad8f93",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 2741,
+          "stop": 3240
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P0C6X7, frag(\"2741_?\"))",
+      "concept": {
+        "name": "P0C6X7",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "5e766ca9274655ad17a23d385cc2d9a5",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 2741,
+          "stop": "?"
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P0C6X7, frag(\"3547_3836\"))",
+      "concept": {
+        "name": "P0C6X7",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "d326599e0231470c8eeb3d973e02df04",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 3547,
+          "stop": 3836
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P0C6X7, frag(\"5903_6429\"))",
+      "concept": {
+        "name": "P0C6X7",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "2fc2fb87b4c875dd0777c2294c2f740c",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 5903,
+          "stop": 6429
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P0C6X7, frag(\"6430_6775\"))",
+      "concept": {
+        "name": "P0C6X7",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "a3f6a350da51ab8f3645015496cebabc",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 6430,
+          "stop": 6775
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P0C6X7, frag(\"6776_7073\"))",
+      "concept": {
+        "name": "P0C6X7",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "7372787f766d0cd45bac0094a7cd3882",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 6776,
+          "stop": 7073
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P0C6X7, frag(\"819_2740\"))",
+      "concept": {
+        "name": "P0C6X7",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "ceaf3f5baedfdce0a000e1544e0c6c53",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 819,
+          "stop": 2740
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P0C6X7, frag(\"?_3240\"))",
+      "concept": {
+        "name": "P0C6X7",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "6c20c4099dec901edb48c7deec82e043",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": "?",
+          "stop": 3240
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P0C6X7, var(\"p.226_228delRGV\"))",
+      "concept": {
+        "name": "P0C6X7",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "462ebf42dec99b0ff2c1940e3b1d335b",
+      "variants": [
+        {
+          "hgvs": "p.226_228delRGV",
+          "kind": "hgvs"
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P0C6X7, var(\"p.Tyr414His\"))",
+      "concept": {
+        "name": "P0C6X7",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "bba24c12231a0a347f255805c2c3ad88",
+      "variants": [
+        {
+          "hgvs": "p.Tyr414His",
+          "kind": "hgvs"
+        }
+      ]
+    },
+    {
+      "bel": "r(HGNC:IFNB1)",
+      "concept": {
+        "name": "IFNB1",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "0741df84ff6642ebb4c57401b4765a09"
+    },
+    {
+      "bel": "r(MGI:Ifnb1)",
+      "concept": {
+        "name": "Ifnb1",
+        "namespace": "MGI"
+      },
+      "function": "RNA",
+      "id": "04678d8ca5f37e402c6c3539f0099afc"
+    }
+  ]
+}

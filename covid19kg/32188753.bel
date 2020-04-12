@@ -1,0 +1,89 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32188753.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.1.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+#TAX not given in template.bel
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+
+DEFINE ANNOTATION Study AS LIST  {"in vitro"}
+DEFINE ANNOTATION population_type AS LIST {"Chinese"}
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+##################################################################################
+# Statements #
+#################################################################################
+
+SET Citation = {"PubMed", "mSphere. 2020 Mar 18;5(2). pii: 5/2/e00203-20. doi: 10.1128/mSphere.00203-20.", "32188753"}
+
+SET PublicationType = "Review"
+SET PublicationStatus = "Published"
+SET Section = "Full Text"
+
+SET Evidence = "The virus was initially named 2019-nCoV but is now termed SARS-CoV-2 and causes the disease COVID-19 (coronavirus disease 2019)."
+
+SET Species = "9606"
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") pos path(DO:"COVID-19")
+
+SET Evidence = "Early studies on SARS-CoV-2 have shown further similarities with its namesake virus in that the spike protein utilizes ACE2 as its cell surface receptor (3, 4)."
+
+complex(p(COVID:S), p(HGNC:ACE2)) -> a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") pos path(DO:"COVID-19")
+
+SET Evidence = "ACE2 is found on ciliated epithelial cells of the human lungs, and this receptor utilization influences the tropism of these viruses."
+
+SET MeSHAnatomy = {"Lung","Epithelial Cells"}
+complex(p(COVID:S), p(HGNC:ACE2)) -> a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET MeSHAnatomy
+
+SET Evidence = "The most common associated comorbidities are pulmonary disease, diabetes, and old age (10)."
+
+path(DO:"chronic obstructive pulmonary disease") pos a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+path(DO:"diabetes mellitus") pos a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+bp(MESH:Aged) pos a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+
+SET Evidence = "A novel therapeutic being tested is remdesivir (19, 20), which in combination with chloroquine has been found to inhibit SARS-CoV-2 growth in vitro (21)."
+SET Study = "in vitro"
+composite(a(PUBCHEM:121304016),a(CHEBI:chloroquine)) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Study
+
+SET Evidence = "Chloroquine has also been reported to be effective in patients in China (22)."
+
+SET population_type = "Chinese"
+a(CHEBI:chloroquine) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+
+SET Evidence = "A combination of lopinavir and ritonavir is also under investigation in human cases of COVID-19 in China."
+
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") pos path(DO:"COVID-19")
+a(CHEBI:lopinavir) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+a(CHEBI:ritonavir) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET population_type
+UNSET Species
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

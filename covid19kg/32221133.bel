@@ -1,0 +1,84 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32221133.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20170511.belanno"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Disease_Stage AS LIST {"early stage", "middle stage", "late stage"}
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Assay AS LIST {"gold immunochromatographic assay"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+SET Citation = {"PubMed", "Chin Med J (Engl). 2020 Mar 26. doi: 10.1097/CM9.0000000000000820","32221133"}
+
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Full Text"
+
+SET Custom_Disease = {"COVID-19"}
+SET Species = "9606"
+SET Evidence = "The level of serum IgM and IgG antibodies were detected using three \
+different commercial testing kits (CLIA, GICA, and ELISA) developed by \
+the Beier Bioengineering Company (Beijing, China), which targeted the \
+spike (S) and nucleocapsid (N) proteins of 2019-nCoV."
+
+complex(GO:"IgM immunoglobulin complex, circulating") -| p(COVID:S)
+complex(GO:"IgG immunoglobulin complex, circulating") -| p(COVID:N)
+
+SET Evidence = "As shown in Table 1, at the early, middle and late stages of \
+infection, the serum IgM antibody was detected in 6/10, 7/13, and \
+11/14 of cases, respectively (at least one immunoassay was positive). \
+Meanwhile, at the early and middle stages of infection, 5/10 and 10/13 \
+cases demonstrated positive serum IgG results, whereas the serum IgG \
+was detected in all cases (14/14) when it came to the late stage of \
+infection"
+
+SET Disease_Stage =  {"early stage", "middle stage", "late stage"}
+SET MeSHAnatomy = "Serum"
+SET BioAssay = {"chemiluminescence-linked immunosorbent assay", "ELISA"}
+SET Assay = "gold immunochromatographic assay"
+complex(GO:"IgM immunoglobulin complex, circulating") prognosticBiomarkerFor path(DO:"COVID-19")
+UNSET BioAssay
+UNSET Assay
+
+SET Evidence = "GICA possessed a relatively higher positive rate in serum IgM \
+detection (5/10, 5/13, and 9/14 in the early, middle, and late stages, \
+respectively) and ELISA exhibited a comparatively higher positive rate \
+in serum IgG testing (4/10, 8/13, and 12/14 in the early, middle, and \
+late stages, respectively)"
+
+SET Assay = "gold immunochromatographic assay"
+complex(GO:"IgM immunoglobulin complex, circulating") prognosticBiomarkerFor path(DO:"COVID-19")
+UNSET Assay
+SET BioAssay = "ELISA"
+complex(GO:"IgG immunoglobulin complex, circulating") prognosticBiomarkerFor path(DO:"COVID-19")
+UNSET MeSHAnatomy
+UNSET Disease_Stage
+UNSET BioAssay
+UNSET Custom_Disease
+UNSET Species
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

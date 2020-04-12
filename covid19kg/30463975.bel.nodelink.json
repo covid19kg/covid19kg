@@ -1,0 +1,1583 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Assay": [
+        "Pulldown assay"
+      ],
+      "Custom_Species": [
+        "9823"
+      ],
+      "Dose": [
+        "30 µM"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ],
+      "Timeline": [
+        "24 hours",
+        "36 hours",
+        "48 hours"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "CellLine": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno",
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Geena Mariya Jose",
+      "contact": "geena.mariya.jose@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "30463975.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "FIXME": ".*",
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "30463975.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "key": "77aaa1bfd5a1be0ac0f15383c04b8b5d",
+      "relation": "partOf",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "western blot": true
+        },
+        "CellLine": {
+          "MARC 145 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "24 hours": true,
+          "36 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "As shown in Fig. 5A and C, Nsp9 expression was significantly suppressed in the cells treated with TAT-Nb6 at 24 hpi and 36 hpi, and the inhibition was dose dependent, suggesting that the replication of PRRSV in MARC-145 cells could be effectively inhibited by TAT-Nb6.",
+      "key": "a0b398fac72ec90b070cd81d856bd0a7",
+      "line": 60,
+      "relation": "decreases",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "western blot": true
+        },
+        "Custom_Species": {
+          "9823": true
+        },
+        "MeSHAnatomy": {
+          "Macrophages, Alveolar": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "Consistent with the results detected in MARC-145 cells, TAT-Nb6 treatment significantly inhibited the expression of PRRSV Nsp9, synthesis of PRRSV RNA, and production of progeny viruses in a dose-dependent manner (Fig. 6).",
+      "key": "b848cdcc9ba8933a3d6a6661918b54af",
+      "line": 85,
+      "relation": "decreases",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "titration method": true
+        },
+        "CellLine": {
+          "MARC 145 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "Consistent with the Nsp9 expression results, titration of progeny viruses in the cell medium also demonstrated that TAT-Nb6 suppressed the virus replication in a dose-dependent manner",
+      "key": "cca19534cf99d43de4afe0a7842c5f3e",
+      "line": 66,
+      "relation": "decreases",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "titration method": true
+        },
+        "Custom_Species": {
+          "9823": true
+        },
+        "MeSHAnatomy": {
+          "Macrophages, Alveolar": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "Consistent with the results detected in MARC-145 cells, TAT-Nb6 treatment significantly inhibited the expression of PRRSV Nsp9, synthesis of PRRSV RNA, and production of progeny viruses in a dose-dependent manner (Fig. 6).",
+      "key": "c68c7a3d0d745aaefbf716b2726a9433",
+      "line": 92,
+      "relation": "decreases",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "titration method": true
+        },
+        "Custom_Species": {
+          "9823": true
+        },
+        "Dose": {
+          "30 µM": true
+        },
+        "MeSHAnatomy": {
+          "Macrophages, Alveolar": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "24 hours": true,
+          "36 hours": true,
+          "48 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "Titration of the viruses released in the cell culture revealed that TAT-Nb6 treatment suppressed progeny virus production for all strains at 48 hpi (Fig. 7E).",
+      "key": "6b34da2ebd628472ba919203710af789",
+      "line": 107,
+      "relation": "decreases",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative reverse transcription PCR": true
+        },
+        "CellLine": {
+          "MARC 145 cell": true
+        },
+        "Dose": {
+          "30 µM": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "24 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "The results reveal that the relative PRRSV RNA level in the cells treated with 30 µM TAT-Nb6 was significantly reduced compared with that of the controls at 24 hpi (Fig. 5E, left).",
+      "key": "f9436e3087ed7644911fb9e34b85f9ff",
+      "line": 74,
+      "relation": "decreases",
+      "source": 8,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative reverse transcription PCR": true
+        },
+        "Custom_Species": {
+          "9823": true
+        },
+        "MeSHAnatomy": {
+          "Macrophages, Alveolar": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "Consistent with the results detected in MARC-145 cells, TAT-Nb6 treatment significantly inhibited the expression of PRRSV Nsp9, synthesis of PRRSV RNA, and production of progeny viruses in a dose-dependent manner (Fig. 6).",
+      "key": "0569b8579d1aaf427ca81b9361b1b262",
+      "line": 88,
+      "relation": "decreases",
+      "source": 8,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative reverse transcription PCR": true
+        },
+        "Custom_Species": {
+          "9823": true
+        },
+        "Dose": {
+          "30 µM": true
+        },
+        "MeSHAnatomy": {
+          "Macrophages, Alveolar": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "24 hours": true,
+          "36 hours": true,
+          "48 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "After 24 hpi, the RNA synthesis of all strains was predominantly suppressed by TAT-Nb6 (Fig. 7B to D), and the relative RNA levels for strains SD16, GD-HD, and VR2332 were significantly reduced compared to levels for the TAT-Nb53 group and no nanobody group (Fig. 7C and D).",
+      "key": "eb617b2dd7178d873809224bc752160c",
+      "line": 99,
+      "relation": "decreases",
+      "source": 8,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative reverse transcription PCR": true
+        },
+        "CellLine": {
+          "MARC 145 cell": true
+        },
+        "Dose": {
+          "30 µM": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "24 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "The results reveal that the relative PRRSV RNA level in the cells treated with 30 µM TAT-Nb6 was significantly reduced compared with that of the controls at 24 hpi (Fig. 5E, left).",
+      "key": "5e28613d161c30c5373588ce8be1733d",
+      "line": 75,
+      "relation": "decreases",
+      "source": 8,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative reverse transcription PCR": true
+        },
+        "Custom_Species": {
+          "9823": true
+        },
+        "MeSHAnatomy": {
+          "Macrophages, Alveolar": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "Consistent with the results detected in MARC-145 cells, TAT-Nb6 treatment significantly inhibited the expression of PRRSV Nsp9, synthesis of PRRSV RNA, and production of progeny viruses in a dose-dependent manner (Fig. 6).",
+      "key": "5d7d9a68901d8549f2872ea3acc72ff3",
+      "line": 89,
+      "relation": "decreases",
+      "source": 8,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative reverse transcription PCR": true
+        },
+        "Custom_Species": {
+          "9823": true
+        },
+        "Dose": {
+          "30 µM": true
+        },
+        "MeSHAnatomy": {
+          "Macrophages, Alveolar": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "24 hours": true,
+          "36 hours": true,
+          "48 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "After 24 hpi, the RNA synthesis of all strains was predominantly suppressed by TAT-Nb6 (Fig. 7B to D), and the relative RNA levels for strains SD16, GD-HD, and VR2332 were significantly reduced compared to levels for the TAT-Nb53 group and no nanobody group (Fig. 7C and D).",
+      "key": "3f06deefe11deee03933cb317d1ba298",
+      "line": 102,
+      "relation": "decreases",
+      "source": 8,
+      "target": 3
+    },
+    {
+      "key": "50c85cb8450439dbf3f667d83c2cc0c5",
+      "relation": "partOf",
+      "source": 10,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Pulldown assay": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "As expected, Nsp9 was pulled down by TAT-Nb6-His but not by the control nanobody, TAT-Nb53-His (Fig. 4).",
+      "key": "18311c19106d00f43c7af8a4e6491f4a",
+      "line": 52,
+      "relation": "association",
+      "source": 10,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative reverse transcription PCR": true
+        },
+        "Custom_Species": {
+          "9823": true
+        },
+        "Dose": {
+          "30 µM": true
+        },
+        "MeSHAnatomy": {
+          "Macrophages, Alveolar": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "24 hours": true,
+          "36 hours": true,
+          "48 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "After 24 hpi, the RNA synthesis of all strains was predominantly suppressed by TAT-Nb6 (Fig. 7B to D), and the relative RNA levels for strains SD16, GD-HD, and VR2332 were significantly reduced compared to levels for the TAT-Nb53 group and no nanobody group (Fig. 7C and D).",
+      "key": "ff88c72eccfb24b690f76f879ef4fc0a",
+      "line": 100,
+      "relation": "association",
+      "source": 10,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative reverse transcription PCR": true
+        },
+        "Custom_Species": {
+          "9823": true
+        },
+        "Dose": {
+          "30 µM": true
+        },
+        "MeSHAnatomy": {
+          "Macrophages, Alveolar": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "24 hours": true,
+          "36 hours": true,
+          "48 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "After 24 hpi, the RNA synthesis of all strains was predominantly suppressed by TAT-Nb6 (Fig. 7B to D), and the relative RNA levels for strains SD16, GD-HD, and VR2332 were significantly reduced compared to levels for the TAT-Nb53 group and no nanobody group (Fig. 7C and D).",
+      "key": "d43cf07e66878c70182cb6b239a13798",
+      "line": 101,
+      "relation": "association",
+      "source": 10,
+      "target": 1
+    },
+    {
+      "key": "a53a2bc28a88a6cdd9502a047333bab5",
+      "relation": "hasVariant",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "key": "23ac844c26499b6466935f55ea4f796a",
+      "relation": "hasVariant",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Pulldown assay": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "As expected, Nsp9 was pulled down by TAT-Nb6-His but not by the control nanobody, TAT-Nb53-His (Fig. 4).",
+      "key": "928dce46a1fa860c28193b28618419ff",
+      "line": 52,
+      "relation": "association",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "titration method": true
+        },
+        "CellLine": {
+          "MARC 145 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "Consistent with the Nsp9 expression results, titration of progeny viruses in the cell medium also demonstrated that TAT-Nb6 suppressed the virus replication in a dose-dependent manner",
+      "key": "01de4cd3e907909e21ac3b425f5d7420",
+      "line": 67,
+      "relation": "association",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "titration method": true
+        },
+        "CellLine": {
+          "MARC 145 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "Consistent with the Nsp9 expression results, titration of progeny viruses in the cell medium also demonstrated that TAT-Nb6 suppressed the virus replication in a dose-dependent manner",
+      "key": "7a6cb604396aa64ae35becbb6c205456",
+      "line": 67,
+      "relation": "association",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "titration method": true
+        },
+        "Custom_Species": {
+          "9823": true
+        },
+        "Dose": {
+          "30 µM": true
+        },
+        "MeSHAnatomy": {
+          "Macrophages, Alveolar": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "24 hours": true,
+          "36 hours": true,
+          "48 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "Titration of the viruses released in the cell culture revealed that TAT-Nb6 treatment suppressed progeny virus production for all strains at 48 hpi (Fig. 7E).",
+      "key": "c09dd4150350a097f54a98892147361a",
+      "line": 108,
+      "relation": "association",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "titration method": true
+        },
+        "Custom_Species": {
+          "9823": true
+        },
+        "Dose": {
+          "30 µM": true
+        },
+        "MeSHAnatomy": {
+          "Macrophages, Alveolar": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "24 hours": true,
+          "36 hours": true,
+          "48 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "Titration of the viruses released in the cell culture revealed that TAT-Nb6 treatment suppressed progeny virus production for all strains at 48 hpi (Fig. 7E).",
+      "key": "bb7e04e2e8f7d9f66d9cb687af21c623",
+      "line": 109,
+      "relation": "association",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative reverse transcription PCR": true
+        },
+        "Custom_Species": {
+          "9823": true
+        },
+        "Dose": {
+          "30 µM": true
+        },
+        "MeSHAnatomy": {
+          "Macrophages, Alveolar": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "24 hours": true,
+          "36 hours": true,
+          "48 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "After 24 hpi, the RNA synthesis of all strains was predominantly suppressed by TAT-Nb6 (Fig. 7B to D), and the relative RNA levels for strains SD16, GD-HD, and VR2332 were significantly reduced compared to levels for the TAT-Nb53 group and no nanobody group (Fig. 7C and D).",
+      "key": "83f5f5d48ca42ed83a2c528ddd228eeb",
+      "line": 100,
+      "relation": "association",
+      "source": 0,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "titration method": true
+        },
+        "Custom_Species": {
+          "9823": true
+        },
+        "Dose": {
+          "30 µM": true
+        },
+        "MeSHAnatomy": {
+          "Macrophages, Alveolar": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "24 hours": true,
+          "36 hours": true,
+          "48 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "Titration of the viruses released in the cell culture revealed that TAT-Nb6 treatment suppressed progeny virus production for all strains at 48 hpi (Fig. 7E).",
+      "key": "70a639361e491c2f13da0c7128214ee0",
+      "line": 108,
+      "relation": "association",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative reverse transcription PCR": true
+        },
+        "Custom_Species": {
+          "9823": true
+        },
+        "Dose": {
+          "30 µM": true
+        },
+        "MeSHAnatomy": {
+          "Macrophages, Alveolar": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "24 hours": true,
+          "36 hours": true,
+          "48 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "After 24 hpi, the RNA synthesis of all strains was predominantly suppressed by TAT-Nb6 (Fig. 7B to D), and the relative RNA levels for strains SD16, GD-HD, and VR2332 were significantly reduced compared to levels for the TAT-Nb53 group and no nanobody group (Fig. 7C and D).",
+      "key": "53f85f2c864ffcd188b0a806f38c2870",
+      "line": 101,
+      "relation": "association",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "titration method": true
+        },
+        "Custom_Species": {
+          "9823": true
+        },
+        "Dose": {
+          "30 µM": true
+        },
+        "MeSHAnatomy": {
+          "Macrophages, Alveolar": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "24 hours": true,
+          "36 hours": true,
+          "48 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen H",
+          "Du T",
+          "Hou G",
+          "Huang B",
+          "Lan J",
+          "Li K",
+          "Mu Y",
+          "Nan Y",
+          "Wang L",
+          "Wu C",
+          "Zhang L",
+          "Zhao Q",
+          "Zhou EM"
+        ],
+        "date": "2019-02-15",
+        "db": "PubMed",
+        "db_id": "30463975",
+        "db_name": "Journal of virology",
+        "first": "Wang L",
+        "last": "Zhou EM",
+        "volume": "93"
+      },
+      "evidence": "Titration of the viruses released in the cell culture revealed that TAT-Nb6 treatment suppressed progeny virus production for all strains at 48 hpi (Fig. 7E).",
+      "key": "130a70c161cd32c8e92c633b525496bb",
+      "line": 109,
+      "relation": "association",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "key": "f8dc989d407cdd3f9d5e4aadcece7967",
+      "relation": "partOf",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "key": "73f9ea17646b30b531cb8cb28aa224ee",
+      "relation": "partOf",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "key": "29d5520d47b25c60e8cb4a074341653c",
+      "relation": "partOf",
+      "source": 11,
+      "target": 6
+    },
+    {
+      "key": "85a1f075ccd427421dddf730e4077d22",
+      "relation": "partOf",
+      "source": 12,
+      "target": 7
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(TAX:\"Porcine reproductive and respiratory syndrome virus 1\")",
+      "concept": {
+        "name": "Porcine reproductive and respiratory syndrome virus 1",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "12a0a606ddf047a8cb0f7f38160a835b"
+    },
+    {
+      "bel": "a(TAX:\"Porcine reproductive and respiratory syndrome virus 2\")",
+      "concept": {
+        "name": "Porcine reproductive and respiratory syndrome virus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "141b2b7fd9c3779725f100082d8bab0d"
+    },
+    {
+      "bel": "a(TAX:\"Porcine reproductive and respiratory syndrome virus\")",
+      "concept": {
+        "name": "Porcine reproductive and respiratory syndrome virus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "e079e7f488e25b878f450663fc02654d"
+    },
+    {
+      "bel": "bp(GO:\"viral genome replication\")",
+      "concept": {
+        "name": "viral genome replication",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "e08b08a1af1179857efa22393f4badf4"
+    },
+    {
+      "bel": "bp(MESH:\"Virus Replication\")",
+      "concept": {
+        "name": "Virus Replication",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "f511c0a55a7b8aa880279fba6181fd8c"
+    },
+    {
+      "bel": "complex(p(FIXME:\"TAT-Nb6\"), p(UNIPROT:J7HHL4))",
+      "function": "Complex",
+      "id": "9235b559de346979dd81e3f01849e84a",
+      "members": [
+        {
+          "bel": "p(FIXME:\"TAT-Nb6\")",
+          "concept": {
+            "name": "TAT-Nb6",
+            "namespace": "FIXME"
+          },
+          "function": "Protein",
+          "id": "afb685900f0616b8fd66fb7f972d1693"
+        },
+        {
+          "bel": "p(UNIPROT:J7HHL4)",
+          "concept": {
+            "name": "J7HHL4",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "0183c4527ff6521e71c3e2155e42d65b"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(FIXME:Nb6), p(UNIPROT:J7HHL4, frag(\"454_551\")))",
+      "function": "Complex",
+      "id": "d518503959cb86aa315d2741f0982e6e",
+      "members": [
+        {
+          "bel": "p(FIXME:Nb6)",
+          "concept": {
+            "name": "Nb6",
+            "namespace": "FIXME"
+          },
+          "function": "Protein",
+          "id": "568287ab4b6ef78e1ce92b7834cd1ff1"
+        },
+        {
+          "bel": "p(UNIPROT:J7HHL4, frag(\"454_551\"))",
+          "concept": {
+            "name": "J7HHL4",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "09cfdf924c43457a1ee30a67d269caa8",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 454,
+              "stop": 551
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(FIXME:Nb6), p(UNIPROT:J7HHL4, frag(\"599_646\")))",
+      "function": "Complex",
+      "id": "c1269aff8c36e0053a8dfaac15aa6b15",
+      "members": [
+        {
+          "bel": "p(FIXME:Nb6)",
+          "concept": {
+            "name": "Nb6",
+            "namespace": "FIXME"
+          },
+          "function": "Protein",
+          "id": "568287ab4b6ef78e1ce92b7834cd1ff1"
+        },
+        {
+          "bel": "p(UNIPROT:J7HHL4, frag(\"599_646\"))",
+          "concept": {
+            "name": "J7HHL4",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "62811fad78ed62c57da6bf1bb73629c6",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 599,
+              "stop": 646
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "p(FIXME:\"TAT-Nb6\")",
+      "concept": {
+        "name": "TAT-Nb6",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "afb685900f0616b8fd66fb7f972d1693"
+    },
+    {
+      "bel": "p(FIXME:Nb6)",
+      "concept": {
+        "name": "Nb6",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "568287ab4b6ef78e1ce92b7834cd1ff1"
+    },
+    {
+      "bel": "p(UNIPROT:J7HHL4)",
+      "concept": {
+        "name": "J7HHL4",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "0183c4527ff6521e71c3e2155e42d65b"
+    },
+    {
+      "bel": "p(UNIPROT:J7HHL4, frag(\"454_551\"))",
+      "concept": {
+        "name": "J7HHL4",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "09cfdf924c43457a1ee30a67d269caa8",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 454,
+          "stop": 551
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:J7HHL4, frag(\"599_646\"))",
+      "concept": {
+        "name": "J7HHL4",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "62811fad78ed62c57da6bf1bb73629c6",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 599,
+          "stop": 646
+        }
+      ]
+    },
+    {
+      "bel": "r(UNIPROT:J7HHL4)",
+      "concept": {
+        "name": "J7HHL4",
+        "namespace": "UNIPROT"
+      },
+      "function": "RNA",
+      "id": "4761aa68ac2c47beead8f0515a8ba058"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "PMID_32130973"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.1.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+DEFINE NAMESPACE NCBIGENE AS PATTERN ".*"
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed", "32130973"}
+SET Species = "9606"
+
+SET Evidence = "This virus, named “Severe Acute Respiratory Syndrome-related Coronavirus 2” (SARS-CoV-2), can cause a severe and even fatal respiratory disease, called Coronavirus disease-19 (COVID-19), and lead to acute respiratory distress syndrome (ARDS)."
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(DO:"COVID-19")
+path(DO:"COVID-19") -- path(DO:"adult respiratory distress syndrome")
+
+SET Evidence = "The SARS-CoV-2 genome has now been sequenced: its close similarity to SARS suggests that it has emerged from the same reservoir, namely bats (Zhou et al., 2020)."
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -- a(TAX:Chiroptera)
+
+SET Evidence = "The SARS-CoV-2 spike protein (S) is the main molecule present at the surface of the virion."
+p(COVID:S) -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+
+SET Evidence = "The spike protein is a multifunctional protein that contributes to host receptor binding, cell tropism and pathogenesis."
+p(COVID:S) -- bp(GO:"receptor-mediated virion attachment to host cell")
+p(COVID:S) -- bp(MESH:"Viral Tropism")
+p(COVID:S) -- bp(GO:pathogenesis)
+
+SET Evidence = "It acts by binding host receptors on target cells, inducing endocytosis of virion particle, and then catalyzes the fusion between host and viral membranes, allowing penetration of the virus genome into host cytoplasm."
+bp(GO:"receptor-mediated virion attachment to host cell") -> bp(GO:"endocytosis involved in viral entry into host cell")
+bp(GO:"receptor-mediated virion attachment to host cell") -> bp(GO:"fusion of virus membrane with host outer membrane")
+bp(GO:"fusion of virus membrane with host outer membrane") -> bp(GO:"viral genome ejection through host cell envelope")
+
+SET Evidence = "The angiotensin converting enzyme II (ACE2) is a known cell receptor for SARS in human and bats, and is also used by SARS-CoV-2 (Zhou et al., 2020)."
+complex(a(TAX:"Severe acute respiratory syndrome coronavirus 2"),p(HGNC:ACE2))
+
+SET Evidence = "We suggest that SARS-CoV-2 may also use integrins as cell receptors in one or more host species, binding to them through a conserved RGD (403–405: Arg-Gly-Asp) motif that is present in the receptor- binding domain of the spike proteins of all SARS-CoV-2 sequences analyzed to date (Fig. 2)."
+complex(p(NCBIGENE:43740568,frag("403_405")),a(MESH:Integrins))
+p(NCBIGENE:43740568,frag("403_405")) -- p(COVID:S)
+
+SET Evidence = "RGD motif integrin-binding is essential for human metapneumovirus (HMPV) (Chang et al., 2012; Wei et al., 2014), human Adenovirus type 2/5 (Wickham et al., 1994), human cytomegalovirus (HHV-5) (Feire et al., 2004), Kaposi's sarcoma-associated virus (HHV-8) (Hussein et al., 2015), Epstein-Barr virus (HHV-4) (Xiao et al., 2008, p. 2), Rotavirus (RV) (Zárate et al., 2004), and Coxsackievirus A9 (Williams et al., 2004)."
+complex(p(NCBIGENE:43740568,frag("403_405")),a(MESH:Integrins)) -- a(TAX:"Human metapneumovirus")
+complex(p(NCBIGENE:43740568,frag("403_405")),a(MESH:Integrins)) -- a(TAX:"Human adenovirus 2")
+complex(p(NCBIGENE:43740568,frag("403_405")),a(MESH:Integrins)) -- a(TAX:"Human adenovirus 5")
+complex(p(NCBIGENE:43740568,frag("403_405")),a(MESH:Integrins)) -- a(TAX:"Human betaherpesvirus 5")
+complex(p(NCBIGENE:43740568,frag("403_405")),a(MESH:Integrins)) -- a(TAX:"Human herpesvirus 8 strain rKSHV.219")
+complex(p(NCBIGENE:43740568,frag("403_405")),a(MESH:Integrins)) -- a(TAX:"Human gammaherpesvirus 4")
+complex(p(NCBIGENE:43740568,frag("403_405")),a(MESH:Integrins)) -- a(TAX:"Rotavirus")
+complex(p(NCBIGENE:43740568,frag("403_405")),a(MESH:Integrins)) -- a(TAX:"Coxsackievirus A9")
+
+SET Evidence = "Structures of SARSCoV- 2 spike proteins bound to ACE2 receptor motif have been recently made available (Lan et al., 2020, p. 2; Yan et al., 2020)."
+complex(p(COVID:S),p(HGNC:ACE2))
+
+SET Evidence = "Integrins are heterodimeric cell surface receptors that play roles in cell adhesion, cell migration, and cell signaling processes (Hynes, 2002)."
+a(MESH:Integrins) -> bp(GO:"cell adhesion")
+a(MESH:Integrins) -> bp(GO:"cell migration")
+a(MESH:Integrins) -> bp(GO:"cell-cell signaling")
+
+SET Evidence = "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell."
+complex(p(NCBIGENE:43740568,frag("403_405")),complex(GO:"integrin alphav-beta1 complex")) -> bp(GO:"phosphatidylinositol 3-kinase signaling")
+complex(p(NCBIGENE:43740568,frag("403_405")),complex(GO:"integrin alphav-beta3 complex")) -> bp(GO:"phosphatidylinositol 3-kinase signaling")
+complex(p(NCBIGENE:43740568,frag("403_405")),complex(GO:"integrin alphav-beta5 complex")) -> bp(GO:"phosphatidylinositol 3-kinase signaling")
+complex(p(NCBIGENE:43740568,frag("403_405")),complex(GO:"integrin alphav-beta6 complex")) -> bp(GO:"phosphatidylinositol 3-kinase signaling")
+complex(p(NCBIGENE:43740568,frag("403_405")),complex(GO:"integrin alphav-beta8 complex")) -> bp(GO:"phosphatidylinositol 3-kinase signaling")
+complex(p(NCBIGENE:43740568,frag("403_405")),complex(GO:"integrin alpha5-beta1 complex")) -> bp(GO:"phosphatidylinositol 3-kinase signaling")
+complex(p(NCBIGENE:43740568,frag("403_405")),complex(GO:"integrin alpha8-beta1 complex")) -> bp(GO:"phosphatidylinositol 3-kinase signaling")
+complex(p(NCBIGENE:43740568,frag("403_405")),complex(GO:"integrin alphaIIb-beta3 complex")) -> bp(GO:"phosphatidylinositol 3-kinase signaling")
+bp(GO:"phosphatidylinositol 3-kinase signaling") -> bp(GO:"viral entry into host cell")
+
+complex(p(NCBIGENE:43740568,frag("403_405")),complex(GO:"integrin alphav-beta1 complex")) -> bp(GO:"MAPK cascade")
+complex(p(NCBIGENE:43740568,frag("403_405")),complex(GO:"integrin alphav-beta3 complex")) -> bp(GO:"MAPK cascade")
+complex(p(NCBIGENE:43740568,frag("403_405")),complex(GO:"integrin alphav-beta5 complex")) -> bp(GO:"MAPK cascade")
+complex(p(NCBIGENE:43740568,frag("403_405")),complex(GO:"integrin alphav-beta6 complex")) -> bp(GO:"MAPK cascade")
+complex(p(NCBIGENE:43740568,frag("403_405")),complex(GO:"integrin alphav-beta8 complex")) -> bp(GO:"MAPK cascade")
+complex(p(NCBIGENE:43740568,frag("403_405")),complex(GO:"integrin alpha5-beta1 complex")) -> bp(GO:"MAPK cascade")
+complex(p(NCBIGENE:43740568,frag("403_405")),complex(GO:"integrin alpha8-beta1 complex")) -> bp(GO:"MAPK cascade")
+complex(p(NCBIGENE:43740568,frag("403_405")),complex(GO:"integrin alphaIIb-beta3 complex")) -> bp(GO:"MAPK cascade")
+bp(GO:"MAPK cascade") -> bp(GO:"viral entry into host cell")
+
+SET Evidence = "Given these apparent similarities, it is plausible that SARS-CoV-2 acquired integrin-binding to promote virus entry into host cells, but experimental proof of this is required."
+complex(a(TAX:"Severe acute respiratory syndrome coronavirus 2"),a(MESH:Integrins)) -> bp(GO:"viral entry into host cell")
+
+SET Evidence = "Binding to integrin may play a supplemental role to ACE2 binding, like facilitating endocytosis by signaling through the integrin."
+complex(a(TAX:"Severe acute respiratory syndrome coronavirus 2"),a(MESH:Integrins)) -> bp(GO:"endocytosis involved in viral entry into host cell")
+
+SET Evidence = "Known blockers of integrin binding include the antibody natalizumab (a α4β1/β7 integrin antagonist) for the treatment of multiple sclerosis/Crohn's disease, the small molecule tirofiban (an αIIbβ3 inhibitor) for the treatment of acute coronary syndrome, as well as inhibitors of αV RGD-binding integrin (Hatley et al., 2018)."
+a(PUBCHEM:135314782) -| complex(GO:"integrin alpha4-beta1 complex")
+a(PUBCHEM:135314782) -| complex(GO:"integrin alpha4-beta7 complex")
+a(PUBCHEM:135314782) -| path(DO:"multiple sclerosis")
+a(PUBCHEM:135314782) -| path(DO:"Crohn's disease")
+a(CHEBI:tirofiban) -| complex(GO:"integrin alphaIIb-beta3 complex")
+a(CHEBI:tirofiban) -| complex(p(NCBIGENE:43740568,frag("403_405")),p(HGNC:ITGA5))
+a(CHEBI:tirofiban) -| path(MESH:"Acute Coronary Syndrome")
+UNSET Species
+UNSET Citation

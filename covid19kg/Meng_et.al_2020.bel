@@ -1,0 +1,59 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Meng_et.al_2020.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+SET Citation = {"DOI","10.1101/2020.02.08.926006."}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+#Fig. 1 The schematic diagram of the project.
+SET Evidence = "The entry of SARS-CoV into host cells: The spike protein of SARS-CoV \
+binds to ACE2 through its S1 subunit for viral recognition."
+
+complex(p(HGNC:ACE2), p(COVID:S))
+SET Evidence = "Then it is cleaved by TMPRSS2 at the S1/S2 boundary or within S2 \
+subunit, which removes the structural constraint of S1 on S2, and \
+releases the internal fusion peptide combined with the Spike TM domain \
+for the fusion of viral and cellular membranes. Finally, the viral \
+genomes enter into the host cells."
+
+complex(p(HGNC:ACE2), p(COVID:S))  -> act(p(HGNC:TMPRSS2))
+act(p(HGNC:TMPRSS2)) -> p(HGNC:ACE2, frag("?"))
+p(HGNC:ACE2, frag("?")) -> bp(GO:"viral entry into host cell")
+
+SET Evidence = "ACE2 cleaving by TMPRSSs: TMPRSS2 can also cleave ACE2 amino acids 697 \
+to 716, resulting in the shedding of 13kD ACE2 fragment in culture \
+supernatants and augmented viral infectivity."
+
+act(p(HGNC:TMPRSS2)) -> p(HGNC:ACE2, frag("697_716"))
+p(HGNC:ACE2, frag("697_716")) -> bp(MESH:Virulence)
+
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

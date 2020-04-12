@@ -1,0 +1,90 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "2218301.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE NAMESPACE FIXMECHEM AS PATTERN ".*"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+DEFINE ANNOTATION Analysis AS LIST {"Molecular docking"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","32218301"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "Seven compounds displayed activity against one of more human respiratory viruses; i.e., RSV (22 and 25), influenza A virus (6, 8, 16, 17 and 22) or human coronavirus (6, 8, 16, 17 and 24) (Table 1)."
+a(FIXMECHEM:"2-(1-{2-[(2H-Benzo[d][1,2,3]triazol-1-yl)methyl]-1-[3-(N,N-dimethylamino)propyl]-1H-benzo[d]imidazol-5-yl}ethylidene)hydrazine-1-carbothioamide") -| a(TAX:"Human respiratory syncytial virus A strain Long")
+#compound 22
+a(FIXMECHEM:"2-[(Benzotriazol-2-yl)methyl]-1-[2-(N,N-diethylamino)ethyl]-5-(1-hydrazineylideneethyl)-1H-benzo[d]imidazole") -| a(TAX:"Human respiratory syncytial virus A strain Long")
+#compound 25
+
+a(FIXMECHEM:"2-{1-[2-(4-Chlorobenzyl)-1-[2-(N,N-diethylamino)ethyl]-1H-benzo[d]imidazol-5-yl]-ethylidene}hydrazine-1-carbothioamide") -| a(TAX:"Influenza A virus (A/Hong Kong/7/1987(H3N2))")
+a(FIXMECHEM:"2-{1-[2-(4-Chlorobenzyl)-1-[2-(N,N-diethylamino)ethyl]-1H-benzo[d]imidazol-5-yl]-ethylidene}hydrazine-1-carbothioamide") -| a(TAX:"Influenza A virus (H1N1)")
+#compound 6
+a(FIXMECHEM:"2-(1-{2-Benzyl-1-[3-(N,N-diethylamino)propyl]-1H-benzo[d]imidazol-5-yl}ethylidene)-hydrazine-1-carbothioamide") -| a(TAX:"Influenza A virus (A/Hong Kong/7/1987(H3N2))")
+a(FIXMECHEM:"2-(1-{2-Benzyl-1-[3-(N,N-diethylamino)propyl]-1H-benzo[d]imidazol-5-yl}ethylidene)-hydrazine-1-carbothioamide") -| a(TAX:"Influenza A virus (H1N1)")
+#compound 8
+a(FIXMECHEM:"2-(1-{1-[3-(N,N-Diethylamino)propyl]-2-benzyl-1H-benzo[d]imidazol-5-yl}ethylidene)-hydrazine-1-carboxamide") -| a(TAX:"Influenza A virus (A/Hong Kong/7/1987(H3N2))")
+a(FIXMECHEM:"2-(1-{1-[3-(N,N-Diethylamino)propyl]-2-benzyl-1H-benzo[d]imidazol-5-yl}ethylidene)-hydrazine-1-carboxamide") -| a(TAX:"Influenza A virus (H1N1)")
+#compound 16
+a(FIXMECHEM:"2-(1-{1-[3-(N,N-Diethylamino)propyl]-2-(4-methoxybenzyl)-1H-benzo[d]imidazol-5-yl}-ethylidene)hydrazine-1-carboxamide") -| a(TAX:"Influenza A virus (A/Hong Kong/7/1987(H3N2))")
+a(FIXMECHEM:"2-(1-{1-[3-(N,N-Diethylamino)propyl]-2-(4-methoxybenzyl)-1H-benzo[d]imidazol-5-yl}-ethylidene)hydrazine-1-carboxamide") -| a(TAX:"Influenza A virus (H1N1)")
+#compound 17
+a(FIXMECHEM:"2-(1-{2-[(2H-Benzo[d][1,2,3]triazol-1-yl)methyl]-1-[3-(N,N-dimethylamino)propyl]-1H-benzo[d]imidazol-5-yl}ethylidene)hydrazine-1-carbothioamide") -| a(TAX:"Influenza A virus (A/Hong Kong/7/1987(H3N2))")
+a(FIXMECHEM:"2-(1-{2-[(2H-Benzo[d][1,2,3]triazol-1-yl)methyl]-1-[3-(N,N-dimethylamino)propyl]-1H-benzo[d]imidazol-5-yl}ethylidene)hydrazine-1-carbothioamide") -| a(TAX:"Influenza A virus (H1N1)")
+#compound 22
+
+a(FIXMECHEM:"2-{1-[2-(4-Chlorobenzyl)-1-[2-(N,N-diethylamino)ethyl]-1H-benzo[d]imidazol-5-yl]-ethylidene}hydrazine-1-carbothioamide") -| a(TAX:"Human coronavirus 229E")
+#compound 6
+a(FIXMECHEM:"2-(1-{2-Benzyl-1-[3-(N,N-diethylamino)propyl]-1H-benzo[d]imidazol-5-yl}ethylidene)-hydrazine-1-carbothioamide") -| a(TAX:"Human coronavirus 229E")
+#compound 8
+a(FIXMECHEM:"2-(1-{1-[3-(N,N-Diethylamino)propyl]-2-benzyl-1H-benzo[d]imidazol-5-yl}ethylidene)-hydrazine-1-carboxamide") -| a(TAX:"Human coronavirus 229E")
+#compound 16
+a(FIXMECHEM:"2-(1-{1-[3-(N,N-Diethylamino)propyl]-2-(4-methoxybenzyl)-1H-benzo[d]imidazol-5-yl}-ethylidene)hydrazine-1-carboxamide") -| a(TAX:"Human coronavirus 229E")
+#compound 17
+a(FIXMECHEM:"1-[2-(N,N-diethylamino)ethyl]-2-(4-ethoxybenzyl)-5-(1-hydrazineylideneethyl)-1H-benzo[d]imidazole") -| a(TAX:"Human coronavirus 229E")
+#compound 24
+
+SET Evidence = "Two compounds, 17 and 24, produced cytotoxicity in two of the four cell lines."
+SET CellLine = {"Hep-2 cell", "Vero cell"}
+a(FIXMECHEM:"2-(1-{1-[3-(N,N-Diethylamino)propyl]-2-(4-methoxybenzyl)-1H-benzo[d]imidazol-5-yl}-ethylidene)hydrazine-1-carboxamide") -| bp(MESH:"Cell Survival")
+UNSET CellLine
+SET CellLine = {"MDCK cell", "Vero cell"}
+a(FIXMECHEM:"1-[2-(N,N-diethylamino)ethyl]-2-(4-ethoxybenzyl)-5-(1-hydrazineylideneethyl)-1H-benzo[d]imidazole") -| bp(MESH:"Cell Survival")
+UNSET CellLine
+
+SET Evidence = "According to our calculations (Table 3), only compounds 22 and 25 properly bind the exposed surface of the RSV F protein—they are anchored in the hydrophobic pocket by Π-Π stacking and cation-Π interactions with F137, F140 and F488."
+SET Analysis  = "Molecular docking"
+complex(a(FIXMECHEM:"2-(1-{2-[(2H-Benzo[d][1,2,3]triazol-1-yl)methyl]-1-[3-(N,N-dimethylamino)propyl]-1H-benzo[d]imidazol-5-yl}ethylidene)hydrazine-1-carbothioamide"),p(UNIPROT:P12568))
+complex(a(FIXMECHEM:"2-[(Benzotriazol-2-yl)methyl]-1-[2-(N,N-diethylamino)ethyl]-5-(1-hydrazineylideneethyl)-1H-benzo[d]imidazole"),p(UNIPROT:P12568))
+UNSET Analysis
+

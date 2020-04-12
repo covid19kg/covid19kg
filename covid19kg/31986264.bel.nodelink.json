@@ -1,0 +1,3633 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Age": [
+        "14 years",
+        "25-49 years",
+        "50-64 years"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Sample": [
+        "Plasma"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Priya S",
+      "contact": "priya@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "31986264.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "31986264.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Age": {
+          "14 years": true,
+          "25-49 years": true,
+          "50-64 years": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "By Jan 2, 2020, 41 admitted hospital patients were identified as laboratory-confirmed 2019-nCoV infection in Wuhan. 20 [49%]) of the 2019-nCoV-infected patients were aged 25–49 years, and 14 (34%) were aged 50–64 years (figure 1A).",
+      "key": "fce1026c80e9b283719c8cfb08b6b24e",
+      "line": 47,
+      "relation": "increases",
+      "source": 2,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "All patients had pneumonia. Common complications included ARDS (12 [29%] of 41 patients), followed by RNAaemia (six [15%] patients), acute cardiac injury (five [12%] patients), and secondary infection (four [10%] patients; table 3).",
+      "key": "0956850bc3179592b83c75566fe67592",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms at onset of illness were fever (40 [98%] of 41 patients), cough (31 [76%]), and myalgia or fatigue (18 [44%]); less common symptoms were sputum production (11 [28%] of 39), headache (three [8%] of 38), haemoptysis (two [5%] of 39), and diarrhoea (one [3%] of 38; table 1).",
+      "key": "cd59c8409a059c17fa9f7b09b8ebe56a",
+      "line": 52,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms at onset of illness were fever (40 [98%] of 41 patients), cough (31 [76%]), and myalgia or fatigue (18 [44%]); less common symptoms were sputum production (11 [28%] of 39), headache (three [8%] of 38), haemoptysis (two [5%] of 39), and diarrhoea (one [3%] of 38; table 1).",
+      "key": "482f1ea4285987280dfc67b8c171fdab",
+      "line": 53,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 28
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms at onset of illness were fever (40 [98%] of 41 patients), cough (31 [76%]), and myalgia or fatigue (18 [44%]); less common symptoms were sputum production (11 [28%] of 39), headache (three [8%] of 38), haemoptysis (two [5%] of 39), and diarrhoea (one [3%] of 38; table 1).",
+      "key": "585910921a8c2b6adbf089adb3ff81a9",
+      "line": 54,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms at onset of illness were fever (40 [98%] of 41 patients), cough (31 [76%]), and myalgia or fatigue (18 [44%]); less common symptoms were sputum production (11 [28%] of 39), headache (three [8%] of 38), haemoptysis (two [5%] of 39), and diarrhoea (one [3%] of 38; table 1).",
+      "key": "df22e5e223249944a7fd99142596c0a8",
+      "line": 55,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms at onset of illness were fever (40 [98%] of 41 patients), cough (31 [76%]), and myalgia or fatigue (18 [44%]); less common symptoms were sputum production (11 [28%] of 39), headache (three [8%] of 38), haemoptysis (two [5%] of 39), and diarrhoea (one [3%] of 38; table 1).",
+      "key": "5335e26dbfb8b9744614e351daa889b5",
+      "line": 56,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms at onset of illness were fever (40 [98%] of 41 patients), cough (31 [76%]), and myalgia or fatigue (18 [44%]); less common symptoms were sputum production (11 [28%] of 39), headache (three [8%] of 38), haemoptysis (two [5%] of 39), and diarrhoea (one [3%] of 38; table 1).",
+      "key": "2d2d35f95996d9474a6ee05eb6859523",
+      "line": 57,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms at onset of illness were fever (40 [98%] of 41 patients), cough (31 [76%]), and myalgia or fatigue (18 [44%]); less common symptoms were sputum production (11 [28%] of 39), headache (three [8%] of 38), haemoptysis (two [5%] of 39), and diarrhoea (one [3%] of 38; table 1).",
+      "key": "aef46aede7bd9dc00ef84302846ee0fe",
+      "line": 58,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms at onset of illness were fever (40 [98%] of 41 patients), cough (31 [76%]), and myalgia or fatigue (18 [44%]); less common symptoms were sputum production (11 [28%] of 39), headache (three [8%] of 38), haemoptysis (two [5%] of 39), and diarrhoea (one [3%] of 38; table 1).",
+      "key": "ca2bc56fd57c5630f592ae0e14fcb555",
+      "line": 59,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The blood counts of patients on admission showed leucopenia (white blood cell count less than 4 × 10⁹/L;ten [25%] of 40 patients) and lymphopenia (lymphocyte count <1·0 × 10⁹/L; 26 [63%] patients; table 2).",
+      "key": "1a97681f41c418ee2f492bfde431ca58",
+      "line": 63,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The blood counts of patients on admission showed leucopenia (white blood cell count less than 4 × 10⁹/L;ten [25%] of 40 patients) and lymphopenia (lymphocyte count <1·0 × 10⁹/L; 26 [63%] patients; table 2).",
+      "key": "fccce996e96a112f017d6fa9d83859c9",
+      "line": 64,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "Levels of aspartate aminotransferase were increased in 15 (37%) of 41 patients, including eight (62%) of 13 ICU patients and seven (25%) of 28 non-ICU patients.",
+      "key": "8ee9026c2c1390812d2c65a23e1b06c1",
+      "line": 68,
+      "relation": "increases",
+      "source": 20,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "Hypersensitive troponin I (hs-cTnI) was increased substantially in five patients, in whom the diagnosis of virus-related cardiac injury was made.",
+      "key": "e8592c851ccb43dfaa2ffec9e180ccd8",
+      "line": 72,
+      "relation": "increases",
+      "source": 20,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Plasma": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "Initial plasma IL1B, IL1RA, IL7, IL8, IL9, IL10, basic FGF, GCSF, GMCSF, IFNγ, IP10, MCP1, MIP1A, MIP1B, PDGF, TNFα, and VEGF concentrations were higher in both ICU patients and non-ICU patients than in healthy adults (appendix pp 6–7).",
+      "key": "5aec42f36321141989f69934d4c4adba",
+      "line": 77,
+      "relation": "increases",
+      "source": 20,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Plasma": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "Initial plasma IL1B, IL1RA, IL7, IL8, IL9, IL10, basic FGF, GCSF, GMCSF, IFNγ, IP10, MCP1, MIP1A, MIP1B, PDGF, TNFα, and VEGF concentrations were higher in both ICU patients and non-ICU patients than in healthy adults (appendix pp 6–7).",
+      "key": "8ae8334f4c0d78c28707b54d1af65110",
+      "line": 78,
+      "relation": "increases",
+      "source": 20,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Plasma": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "Initial plasma IL1B, IL1RA, IL7, IL8, IL9, IL10, basic FGF, GCSF, GMCSF, IFNγ, IP10, MCP1, MIP1A, MIP1B, PDGF, TNFα, and VEGF concentrations were higher in both ICU patients and non-ICU patients than in healthy adults (appendix pp 6–7).",
+      "key": "5b0c2d5a6e9d396966d3aedaad4d59f5",
+      "line": 79,
+      "relation": "increases",
+      "source": 20,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Plasma": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "Initial plasma IL1B, IL1RA, IL7, IL8, IL9, IL10, basic FGF, GCSF, GMCSF, IFNγ, IP10, MCP1, MIP1A, MIP1B, PDGF, TNFα, and VEGF concentrations were higher in both ICU patients and non-ICU patients than in healthy adults (appendix pp 6–7).",
+      "key": "cd1545ade4013f0366b465db05642ce8",
+      "line": 80,
+      "relation": "increases",
+      "source": 20,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Plasma": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "Initial plasma IL1B, IL1RA, IL7, IL8, IL9, IL10, basic FGF, GCSF, GMCSF, IFNγ, IP10, MCP1, MIP1A, MIP1B, PDGF, TNFα, and VEGF concentrations were higher in both ICU patients and non-ICU patients than in healthy adults (appendix pp 6–7).",
+      "key": "12791759c8f751c7bffb5bbae86ac059",
+      "line": 81,
+      "relation": "increases",
+      "source": 20,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Plasma": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "Initial plasma IL1B, IL1RA, IL7, IL8, IL9, IL10, basic FGF, GCSF, GMCSF, IFNγ, IP10, MCP1, MIP1A, MIP1B, PDGF, TNFα, and VEGF concentrations were higher in both ICU patients and non-ICU patients than in healthy adults (appendix pp 6–7).",
+      "key": "efce04a9eed542297ba35a8a004f1d59",
+      "line": 82,
+      "relation": "increases",
+      "source": 20,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Plasma": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "Initial plasma IL1B, IL1RA, IL7, IL8, IL9, IL10, basic FGF, GCSF, GMCSF, IFNγ, IP10, MCP1, MIP1A, MIP1B, PDGF, TNFα, and VEGF concentrations were higher in both ICU patients and non-ICU patients than in healthy adults (appendix pp 6–7).",
+      "key": "9f55b4e227fc16065896af5c388c1a26",
+      "line": 83,
+      "relation": "increases",
+      "source": 20,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Plasma": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "Initial plasma IL1B, IL1RA, IL7, IL8, IL9, IL10, basic FGF, GCSF, GMCSF, IFNγ, IP10, MCP1, MIP1A, MIP1B, PDGF, TNFα, and VEGF concentrations were higher in both ICU patients and non-ICU patients than in healthy adults (appendix pp 6–7).",
+      "key": "c2782740fd9b1a279a9ae72abc997f8d",
+      "line": 84,
+      "relation": "increases",
+      "source": 20,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Plasma": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "Initial plasma IL1B, IL1RA, IL7, IL8, IL9, IL10, basic FGF, GCSF, GMCSF, IFNγ, IP10, MCP1, MIP1A, MIP1B, PDGF, TNFα, and VEGF concentrations were higher in both ICU patients and non-ICU patients than in healthy adults (appendix pp 6–7).",
+      "key": "16f8551f7738673780c2ac3965dd34d4",
+      "line": 85,
+      "relation": "increases",
+      "source": 20,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Plasma": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "Initial plasma IL1B, IL1RA, IL7, IL8, IL9, IL10, basic FGF, GCSF, GMCSF, IFNγ, IP10, MCP1, MIP1A, MIP1B, PDGF, TNFα, and VEGF concentrations were higher in both ICU patients and non-ICU patients than in healthy adults (appendix pp 6–7).",
+      "key": "dcc841e57c9998b74a43d6816db05179",
+      "line": 86,
+      "relation": "increases",
+      "source": 20,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Plasma": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "Initial plasma IL1B, IL1RA, IL7, IL8, IL9, IL10, basic FGF, GCSF, GMCSF, IFNγ, IP10, MCP1, MIP1A, MIP1B, PDGF, TNFα, and VEGF concentrations were higher in both ICU patients and non-ICU patients than in healthy adults (appendix pp 6–7).",
+      "key": "cfb5ef94d9658b0d5fb257c05b196ebb",
+      "line": 87,
+      "relation": "increases",
+      "source": 20,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Plasma": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "Initial plasma IL1B, IL1RA, IL7, IL8, IL9, IL10, basic FGF, GCSF, GMCSF, IFNγ, IP10, MCP1, MIP1A, MIP1B, PDGF, TNFα, and VEGF concentrations were higher in both ICU patients and non-ICU patients than in healthy adults (appendix pp 6–7).",
+      "key": "5a72183739e177e82b6d4957a76d54f3",
+      "line": 88,
+      "relation": "increases",
+      "source": 20,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Plasma": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "Initial plasma IL1B, IL1RA, IL7, IL8, IL9, IL10, basic FGF, GCSF, GMCSF, IFNγ, IP10, MCP1, MIP1A, MIP1B, PDGF, TNFα, and VEGF concentrations were higher in both ICU patients and non-ICU patients than in healthy adults (appendix pp 6–7).",
+      "key": "c5043f9e3c808aaf0a20b0bac61b984c",
+      "line": 89,
+      "relation": "increases",
+      "source": 20,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Plasma": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "Initial plasma IL1B, IL1RA, IL7, IL8, IL9, IL10, basic FGF, GCSF, GMCSF, IFNγ, IP10, MCP1, MIP1A, MIP1B, PDGF, TNFα, and VEGF concentrations were higher in both ICU patients and non-ICU patients than in healthy adults (appendix pp 6–7).",
+      "key": "910e7a0eb0fe9faffe48449ef43b3995",
+      "line": 90,
+      "relation": "increases",
+      "source": 20,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Plasma": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "Initial plasma IL1B, IL1RA, IL7, IL8, IL9, IL10, basic FGF, GCSF, GMCSF, IFNγ, IP10, MCP1, MIP1A, MIP1B, PDGF, TNFα, and VEGF concentrations were higher in both ICU patients and non-ICU patients than in healthy adults (appendix pp 6–7).",
+      "key": "71afa6ad116d45eec60f83e1243273cc",
+      "line": 91,
+      "relation": "increases",
+      "source": 20,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Plasma": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "Initial plasma IL1B, IL1RA, IL7, IL8, IL9, IL10, basic FGF, GCSF, GMCSF, IFNγ, IP10, MCP1, MIP1A, MIP1B, PDGF, TNFα, and VEGF concentrations were higher in both ICU patients and non-ICU patients than in healthy adults (appendix pp 6–7).",
+      "key": "40995a86f8a6f6fe518953cc81e21523",
+      "line": 92,
+      "relation": "increases",
+      "source": 20,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "All patients had pneumonia. Common complications included ARDS (12 [29%] of 41 patients), followed by RNAaemia (six [15%] patients), acute cardiac injury (five [12%] patients), and secondary infection (four [10%] patients; table 3).",
+      "key": "2f86432f825e54bdcb174a23f0dc4e2e",
+      "line": 97,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "All patients had pneumonia. Common complications included ARDS (12 [29%] of 41 patients), followed by RNAaemia (six [15%] patients), acute cardiac injury (five [12%] patients), and secondary infection (four [10%] patients; table 3).",
+      "key": "f65031ea8c4c77e129912bd193699f47",
+      "line": 98,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "All patients had pneumonia. Common complications included ARDS (12 [29%] of 41 patients), followed by RNAaemia (six [15%] patients), acute cardiac injury (five [12%] patients), and secondary infection (four [10%] patients; table 3).",
+      "key": "6b06138875fab1e7d840ee6486d89831",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "All patients had pneumonia. Common complications included ARDS (12 [29%] of 41 patients), followed by RNAaemia (six [15%] patients), acute cardiac injury (five [12%] patients), and secondary infection (four [10%] patients; table 3).",
+      "key": "7198390499a65db3cbd446a064abfc1b",
+      "line": 101,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "All patients had pneumonia. Common complications included ARDS (12 [29%] of 41 patients), followed by RNAaemia (six [15%] patients), acute cardiac injury (five [12%] patients), and secondary infection (four [10%] patients; table 3).",
+      "key": "1a37a84962eb7bd66902c1d8c5a61b48",
+      "line": 102,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "All patients were administered with empirical antibiotic treatment, and 38 (93%) patients received antiviral therapy (oseltamivir).",
+      "key": "b4ce998d486bb323fe0052d354ba4742",
+      "line": 106,
+      "relation": "negativeCorrelation",
+      "source": 20,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms at onset of illness were fever (40 [98%] of 41 patients), cough (31 [76%]), and myalgia or fatigue (18 [44%]); less common symptoms were sputum production (11 [28%] of 39), headache (three [8%] of 38), haemoptysis (two [5%] of 39), and diarrhoea (one [3%] of 38; table 1).",
+      "key": "0f03ffc4bfebd507ae3b3c7b87aa5907",
+      "line": 52,
+      "relation": "positiveCorrelation",
+      "source": 29,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms at onset of illness were fever (40 [98%] of 41 patients), cough (31 [76%]), and myalgia or fatigue (18 [44%]); less common symptoms were sputum production (11 [28%] of 39), headache (three [8%] of 38), haemoptysis (two [5%] of 39), and diarrhoea (one [3%] of 38; table 1).",
+      "key": "8459ab2f3c0cba9f9fa987a4448ae2b2",
+      "line": 53,
+      "relation": "positiveCorrelation",
+      "source": 28,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms at onset of illness were fever (40 [98%] of 41 patients), cough (31 [76%]), and myalgia or fatigue (18 [44%]); less common symptoms were sputum production (11 [28%] of 39), headache (three [8%] of 38), haemoptysis (two [5%] of 39), and diarrhoea (one [3%] of 38; table 1).",
+      "key": "f874ac472a7dd2f762a381a84c33cccd",
+      "line": 54,
+      "relation": "positiveCorrelation",
+      "source": 33,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms at onset of illness were fever (40 [98%] of 41 patients), cough (31 [76%]), and myalgia or fatigue (18 [44%]); less common symptoms were sputum production (11 [28%] of 39), headache (three [8%] of 38), haemoptysis (two [5%] of 39), and diarrhoea (one [3%] of 38; table 1).",
+      "key": "fcf4000f38228042864876f405af881b",
+      "line": 55,
+      "relation": "positiveCorrelation",
+      "source": 32,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms at onset of illness were fever (40 [98%] of 41 patients), cough (31 [76%]), and myalgia or fatigue (18 [44%]); less common symptoms were sputum production (11 [28%] of 39), headache (three [8%] of 38), haemoptysis (two [5%] of 39), and diarrhoea (one [3%] of 38; table 1).",
+      "key": "878d7bb33cb3ab4e5a36a5dd46f9cb95",
+      "line": 56,
+      "relation": "positiveCorrelation",
+      "source": 34,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms at onset of illness were fever (40 [98%] of 41 patients), cough (31 [76%]), and myalgia or fatigue (18 [44%]); less common symptoms were sputum production (11 [28%] of 39), headache (three [8%] of 38), haemoptysis (two [5%] of 39), and diarrhoea (one [3%] of 38; table 1).",
+      "key": "f9a5ce137de29b990c1abb507cae92e8",
+      "line": 57,
+      "relation": "positiveCorrelation",
+      "source": 30,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms at onset of illness were fever (40 [98%] of 41 patients), cough (31 [76%]), and myalgia or fatigue (18 [44%]); less common symptoms were sputum production (11 [28%] of 39), headache (three [8%] of 38), haemoptysis (two [5%] of 39), and diarrhoea (one [3%] of 38; table 1).",
+      "key": "fd10a108deefc3d0d23463cdeddadd5d",
+      "line": 58,
+      "relation": "positiveCorrelation",
+      "source": 21,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The most common symptoms at onset of illness were fever (40 [98%] of 41 patients), cough (31 [76%]), and myalgia or fatigue (18 [44%]); less common symptoms were sputum production (11 [28%] of 39), headache (three [8%] of 38), haemoptysis (two [5%] of 39), and diarrhoea (one [3%] of 38; table 1).",
+      "key": "b58c02bb1342fc0a8878d428af5e8e9a",
+      "line": 59,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The blood counts of patients on admission showed leucopenia (white blood cell count less than 4 × 10⁹/L;ten [25%] of 40 patients) and lymphopenia (lymphocyte count <1·0 × 10⁹/L; 26 [63%] patients; table 2).",
+      "key": "ea8d63af51143402e9a01d03141a356f",
+      "line": 63,
+      "relation": "positiveCorrelation",
+      "source": 22,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "The blood counts of patients on admission showed leucopenia (white blood cell count less than 4 × 10⁹/L;ten [25%] of 40 patients) and lymphopenia (lymphocyte count <1·0 × 10⁹/L; 26 [63%] patients; table 2).",
+      "key": "9db04db045f8100b37dbf195a942acc2",
+      "line": 64,
+      "relation": "positiveCorrelation",
+      "source": 23,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "All patients had pneumonia. Common complications included ARDS (12 [29%] of 41 patients), followed by RNAaemia (six [15%] patients), acute cardiac injury (five [12%] patients), and secondary infection (four [10%] patients; table 3).",
+      "key": "dc787a7a77e0602997f5ca33c04bd054",
+      "line": 97,
+      "relation": "positiveCorrelation",
+      "source": 24,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "All patients had pneumonia. Common complications included ARDS (12 [29%] of 41 patients), followed by RNAaemia (six [15%] patients), acute cardiac injury (five [12%] patients), and secondary infection (four [10%] patients; table 3).",
+      "key": "85018b57d99ec9b5656a7b5dad375ffa",
+      "line": 98,
+      "relation": "positiveCorrelation",
+      "source": 26,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "All patients had pneumonia. Common complications included ARDS (12 [29%] of 41 patients), followed by RNAaemia (six [15%] patients), acute cardiac injury (five [12%] patients), and secondary infection (four [10%] patients; table 3).",
+      "key": "30ec5f3ba6a8ce9cf86be9a70d1aadee",
+      "line": 101,
+      "relation": "positiveCorrelation",
+      "source": 25,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "All patients had pneumonia. Common complications included ARDS (12 [29%] of 41 patients), followed by RNAaemia (six [15%] patients), acute cardiac injury (five [12%] patients), and secondary infection (four [10%] patients; table 3).",
+      "key": "9224890cc44104f6f467103512567884",
+      "line": 102,
+      "relation": "positiveCorrelation",
+      "source": 27,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cao B",
+          "Cheng Z",
+          "Fan G",
+          "Gao H",
+          "Gao Z",
+          "Gu X",
+          "Guo L",
+          "Hu Y",
+          "Huang C",
+          "Jiang R",
+          "Jin Q",
+          "Li H",
+          "Li X",
+          "Liu M",
+          "Ren L",
+          "Wang G",
+          "Wang J",
+          "Wang Y",
+          "Wei Y",
+          "Wu W",
+          "Xia J",
+          "Xiao Y",
+          "Xie J",
+          "Xie X",
+          "Xu J",
+          "Yin W",
+          "Yu T",
+          "Zhang L",
+          "Zhao J"
+        ],
+        "date": "2020-02-15",
+        "db": "PubMed",
+        "db_id": "31986264",
+        "db_name": "Lancet (London, England)",
+        "first": "Huang C",
+        "last": "Cao B",
+        "pages": "497-506",
+        "volume": "395"
+      },
+      "evidence": "All patients were administered with empirical antibiotic treatment, and 38 (93%) patients received antiviral therapy (oseltamivir).",
+      "key": "d1c81c3c9e66827e66afc6bb7e3de837",
+      "line": 106,
+      "relation": "negativeCorrelation",
+      "source": 0,
+      "target": 20
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:oseltamivir)",
+      "concept": {
+        "name": "oseltamivir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "843ea51adf2f81bd54de5e9dbce9a2f2"
+    },
+    {
+      "bel": "a(MESH:\"Fibroblast Growth Factors\")",
+      "concept": {
+        "name": "Fibroblast Growth Factors",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "0b8c414baeac186df56dbe9d5d699f64"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "p(HGNC:CCL2)",
+      "concept": {
+        "name": "CCL2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "2a1fddd8526478c2c7edadaa639bbe85"
+    },
+    {
+      "bel": "p(HGNC:CCL3)",
+      "concept": {
+        "name": "CCL3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "5cf35694ebdc37f754621a1d29763a9c"
+    },
+    {
+      "bel": "p(HGNC:CSF2)",
+      "concept": {
+        "name": "CSF2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "52b31671947e27619162d0f03e093342"
+    },
+    {
+      "bel": "p(HGNC:CSF3)",
+      "concept": {
+        "name": "CSF3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "3bd5bde1d0d1f11fcd4864283409ebaa"
+    },
+    {
+      "bel": "p(HGNC:CXCL10)",
+      "concept": {
+        "name": "CXCL10",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "fd9a90dd7c73cd8dc9d99b88ac8aab1e"
+    },
+    {
+      "bel": "p(HGNC:CXCL8)",
+      "concept": {
+        "name": "CXCL8",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "325a76cdc17ef7ce6a715ed6201f2a09"
+    },
+    {
+      "bel": "p(HGNC:GOT1)",
+      "concept": {
+        "name": "GOT1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "6806c176d9bfc798054f31b888c388f8"
+    },
+    {
+      "bel": "p(HGNC:IFNG)",
+      "concept": {
+        "name": "IFNG",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "20367a6ea54ae1032be4f48276f3c524"
+    },
+    {
+      "bel": "p(HGNC:IL10)",
+      "concept": {
+        "name": "IL10",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "e0c41f4b3cb8bef32af4e3217ba8aa12"
+    },
+    {
+      "bel": "p(HGNC:IL1B)",
+      "concept": {
+        "name": "IL1B",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "cca08112d9fcf1a31015f1dbfc30b04c"
+    },
+    {
+      "bel": "p(HGNC:IL1RN)",
+      "concept": {
+        "name": "IL1RN",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "b3fe2699ff7059f31ad2995ffcbb9e9a"
+    },
+    {
+      "bel": "p(HGNC:IL7)",
+      "concept": {
+        "name": "IL7",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "253f0f08d4c20eab61bc9946251a5238"
+    },
+    {
+      "bel": "p(HGNC:IL9)",
+      "concept": {
+        "name": "IL9",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "a5cd1d878edae66e0668115a95866ad9"
+    },
+    {
+      "bel": "p(HGNC:PDGFRB)",
+      "concept": {
+        "name": "PDGFRB",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "e3063e7dcf02558d5833c3afa2b59b1b"
+    },
+    {
+      "bel": "p(HGNC:TNF)",
+      "concept": {
+        "name": "TNF",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "fdc1c1f5a73c3c992b6eb71ce9b6908e"
+    },
+    {
+      "bel": "p(HGNC:TNNI3)",
+      "concept": {
+        "name": "TNNI3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "1110ad6d6117f8f6b0f4aceb848e2e90"
+    },
+    {
+      "bel": "p(HGNC:VEGFA)",
+      "concept": {
+        "name": "VEGFA",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "3537912f85b0c685b323cfa4aaff98c1"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:diarrhea)",
+      "concept": {
+        "name": "diarrhea",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "f53fc3580f7450b941e98608ca05fddb"
+    },
+    {
+      "bel": "path(DO:leukopenia)",
+      "concept": {
+        "name": "leukopenia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "e50fa3d966f6bf0696807d3bbb733e08"
+    },
+    {
+      "bel": "path(DO:lymphopenia)",
+      "concept": {
+        "name": "lymphopenia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "c44581ea27814dd1a201d1fcc1979068"
+    },
+    {
+      "bel": "path(DO:pneumonia)",
+      "concept": {
+        "name": "pneumonia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "274776fc664e9bfd9c191cca80623b0d"
+    },
+    {
+      "bel": "path(MESH:\"Heart Injuries\")",
+      "concept": {
+        "name": "Heart Injuries",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "936781bd0bf245df80710c8255fe2b1a"
+    },
+    {
+      "bel": "path(MESH:\"Respiratory Distress Syndrome, Adult\")",
+      "concept": {
+        "name": "Respiratory Distress Syndrome, Adult",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "1600d30a1f5326e7fa51f31f27040878"
+    },
+    {
+      "bel": "path(MESH:Coinfection)",
+      "concept": {
+        "name": "Coinfection",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "bae46dc8a22cc0d41e827dee67669ff3"
+    },
+    {
+      "bel": "path(MESH:Cough)",
+      "concept": {
+        "name": "Cough",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "9fee4f29ebce7356ac1721785693b80c"
+    },
+    {
+      "bel": "path(MESH:Fever)",
+      "concept": {
+        "name": "Fever",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "ffc74da80b64d7057f4eff0e06cdd1b6"
+    },
+    {
+      "bel": "path(MESH:Headache)",
+      "concept": {
+        "name": "Headache",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "2a9db847bd9248b92260deeecc169912"
+    },
+    {
+      "bel": "path(MESH:Hemoptysis)",
+      "concept": {
+        "name": "Hemoptysis",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "b3c7899cfded95d39a88dd2952054b02"
+    },
+    {
+      "bel": "path(MESH:Myalgia)",
+      "concept": {
+        "name": "Myalgia",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "9e757b6d113fa97d3dadae6749895c25"
+    },
+    {
+      "bel": "path(MESH:Nausea)",
+      "concept": {
+        "name": "Nausea",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "41e2b9e6454d4c63a3654236ce97040f"
+    },
+    {
+      "bel": "path(MESH:Sputum)",
+      "concept": {
+        "name": "Sputum",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "2707605c409b5d952f452d1c697554a7"
+    }
+  ]
+}

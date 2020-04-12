@@ -1,0 +1,61 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32094589.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+#Not in template.bel
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Country AS LIST {"China"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed", "Nat Microbiol. 2020 Apr;5(4):562-569. doi: 10.1038/s41564-020-0688-y. Epub 2020 Feb 24.", "32094589"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Species = "9606"
+
+SET Evidence = "Human DPP4—a receptor for the lineage C betacoronaviruses—only mediated entry of MERS-CoV, whereas APN only mediated entry of the alphacoronavirus HCoV-229E (Fig. 2b)."
+
+p(HGNC:DPP4) -> a(TAX:"Middle East respiratory syndrome-related coronavirus")
+p(HGNC:ANPEP) -> a(TAX:"Human coronavirus 229E")
+
+SET Evidence = "While our study was ongoing, a lineage B virus tentatively named SARS-CoV-2 was identified as the cause of a pneumonia outbreak in Hubei, China."
+SET Country = "China"
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(DO:pneumonia)
+UNSET Country
+
+SET Evidence = "The chimeric SARS–SARS-CoV-2 spike protein expressed was incorporated into particles similarly to other clade 1 chimeric spikes and was capable of entering cells expressing human ACE2, but not any of the other receptors tested (Fig. 3c,d and Extended Data Fig. 3)."
+
+complex(p(HGNC:ACE2), p(COVID:S)) -> a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+
+UNSET Species
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

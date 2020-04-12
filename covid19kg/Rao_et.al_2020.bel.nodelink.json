@@ -1,0 +1,1169 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "PublicationStatus": [
+        "Preprint"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Geena Mariya Jose",
+      "contact": "geena.mariya.jose@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "Rao_et.al_2020",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+    },
+    "path": "Rao_et.al_2020.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "We observed totally five diabetes-related traits that showed nominally significant MR results, and they were all positively associated with ACE2 expression.",
+      "key": "84b1676bd7eb43a1627e27b74b648554",
+      "line": 50,
+      "relation": "positiveCorrelation",
+      "source": 14,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "We observed totally five diabetes-related traits that showed nominally significant MR results, and they were all positively associated with ACE2 expression.",
+      "key": "f568d80c54484f7f967f464482ec487e",
+      "line": 50,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "We observed totally five diabetes-related traits that showed nominally significant MR results, and they were all positively associated with ACE2 expression.",
+      "key": "c5b847428680086c0ca515e0fa35a60a",
+      "line": 51,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Several neoplasms, such as breast and lung cancer, may be associated with increased ACE2 expression.",
+      "key": "85602c87f00e7e542cc7e174a1d58c88",
+      "line": 57,
+      "relation": "association",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Several neoplasms, such as breast and lung cancer, may be associated with increased ACE2 expression.",
+      "key": "8904c32bbb519f178a59f2f0c25891f4",
+      "line": 58,
+      "relation": "association",
+      "source": 8,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "We also observed that several autoimmune disorders, especially inflammatory bowel diseases may be casually associated with ACE2 expression.",
+      "key": "3d0e6eda869a97cc045db952f711208e",
+      "line": 61,
+      "relation": "association",
+      "source": 8,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Interestingly, asthma and tobacco use also showed nominal significant associations with higher ACE2 expression.",
+      "key": "d0b0dfc8900d48fe549a0febac272678",
+      "line": 65,
+      "relation": "association",
+      "source": 8,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Interestingly, asthma and tobacco use also showed nominal significant associations with higher ACE2 expression.",
+      "key": "07ca8655fd91ed790c8cfa37232cae7c",
+      "line": 66,
+      "relation": "association",
+      "source": 8,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Other commonly measured blood measures that may lead to altered ACE2 expression also included red cell distribution width (often associated with iron-deficiency, folate or B12 deficiency anemia), basophil percentage (inverse relationship), calcium level, urate level, HDL-cholesterol and LDL cholesterol (inverse relationship).",
+      "key": "36a9eacac881afb93513e58d6194391d",
+      "line": 74,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Other commonly measured blood measures that may lead to altered ACE2 expression also included red cell distribution width (often associated with iron-deficiency, folate or B12 deficiency anemia), basophil percentage (inverse relationship), calcium level, urate level, HDL-cholesterol and LDL cholesterol (inverse relationship).",
+      "key": "2bb5594d724da915adbaa4d682a57231",
+      "line": 76,
+      "relation": "negativeCorrelation",
+      "source": 8,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Other commonly measured blood measures that may lead to altered ACE2 expression also included red cell distribution width (often associated with iron-deficiency, folate or B12 deficiency anemia), basophil percentage (inverse relationship), calcium level, urate level, HDL-cholesterol and LDL cholesterol (inverse relationship).",
+      "key": "df72fb76e3b5e1af3a84f29281e5fb96",
+      "line": 77,
+      "relation": "negativeCorrelation",
+      "source": 8,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Other commonly measured blood measures that may lead to altered ACE2 expression also included red cell distribution width (often associated with iron-deficiency, folate or B12 deficiency anemia), basophil percentage (inverse relationship), calcium level, urate level, HDL-cholesterol and LDL cholesterol (inverse relationship).",
+      "key": "9d78e05e52e46c80bd7538b5ea36443e",
+      "line": 78,
+      "relation": "negativeCorrelation",
+      "source": 8,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Other commonly measured blood measures that may lead to altered ACE2 expression also included red cell distribution width (often associated with iron-deficiency, folate or B12 deficiency anemia), basophil percentage (inverse relationship), calcium level, urate level, HDL-cholesterol and LDL cholesterol (inverse relationship).",
+      "key": "1fa0b3166dd7b34c2535225ceda1be67",
+      "line": 79,
+      "relation": "negativeCorrelation",
+      "source": 8,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Some of top pathways include cytokine and cytokine receptor interaction, VEGFA-VEGF2 signaling pathway, JAS-STAT signaling pathway etc",
+      "key": "904f8bdf2d14356b47138ec81f339ecc",
+      "line": 83,
+      "relation": "association",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Some of top pathways include cytokine and cytokine receptor interaction, VEGFA-VEGF2 signaling pathway, JAS-STAT signaling pathway etc",
+      "key": "c57d91bf728a7bb73a4365a90b639dd4",
+      "line": 84,
+      "relation": "association",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Some of top pathways include cytokine and cytokine receptor interaction, VEGFA-VEGF2 signaling pathway, JAS-STAT signaling pathway etc",
+      "key": "a4e7ab6960f40ff759491aa9ff2c1ea8",
+      "line": 85,
+      "relation": "association",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "We observed totally five diabetes-related traits that showed nominally significant MR results, and they were all positively associated with ACE2 expression.",
+      "key": "0c6dfb98964e098d0f1efc877039caa7",
+      "line": 51,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "We also observed that starting insulin within one year of diagnosis, which was only assessed within diabetic subjects, was casually associated with increased ACE2 expression.",
+      "key": "eadddb8a867b5b934cc59d37aa79955b",
+      "line": 54,
+      "relation": "increases",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Several neoplasms, such as breast and lung cancer, may be associated with increased ACE2 expression.",
+      "key": "72fe8c91f345453521d54190a530ea56",
+      "line": 57,
+      "relation": "association",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Several neoplasms, such as breast and lung cancer, may be associated with increased ACE2 expression.",
+      "key": "410027fc3992b971a35a9ee5a3865d9a",
+      "line": 58,
+      "relation": "association",
+      "source": 13,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "We also observed that several autoimmune disorders, especially inflammatory bowel diseases may be casually associated with ACE2 expression.",
+      "key": "f3a587c915d5a1d49616630da389efb1",
+      "line": 61,
+      "relation": "association",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Interestingly, asthma and tobacco use also showed nominal significant associations with higher ACE2 expression.",
+      "key": "0b04c70bdde9e63a10e94cfa7f25498b",
+      "line": 65,
+      "relation": "association",
+      "source": 16,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Interestingly, asthma and tobacco use also showed nominal significant associations with higher ACE2 expression.",
+      "key": "af200fc8be46dff7eeb0178cb6d2ca87",
+      "line": 66,
+      "relation": "association",
+      "source": 19,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "As for other traits, high alanine aminotransferase (ALT), commonly associated with liver diseases, may be related to elevated ACE2 expression.",
+      "key": "2d45d4e89813ece66ea2476d7fd60bf6",
+      "line": 69,
+      "relation": "increases",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "As for other traits, high alanine aminotransferase (ALT), commonly associated with liver diseases, may be related to elevated ACE2 expression.",
+      "key": "ba2bcf93bfb53585c701af8d79745007",
+      "line": 70,
+      "relation": "association",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "As for other traits, high alanine aminotransferase (ALT), commonly associated with liver diseases, may be related to elevated ACE2 expression.",
+      "key": "b57a7f4d9bd08b507ed23ca6191fdba4",
+      "line": 70,
+      "relation": "association",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Other commonly measured blood measures that may lead to altered ACE2 expression also included red cell distribution width (often associated with iron-deficiency, folate or B12 deficiency anemia), basophil percentage (inverse relationship), calcium level, urate level, HDL-cholesterol and LDL cholesterol (inverse relationship).",
+      "key": "842c0fa4279a5a28b5fff817381108fa",
+      "line": 74,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Other commonly measured blood measures that may lead to altered ACE2 expression also included red cell distribution width (often associated with iron-deficiency, folate or B12 deficiency anemia), basophil percentage (inverse relationship), calcium level, urate level, HDL-cholesterol and LDL cholesterol (inverse relationship).",
+      "key": "72170eac4a155cd2d4f691c9d6643823",
+      "line": 75,
+      "relation": "increases",
+      "source": 18,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Other commonly measured blood measures that may lead to altered ACE2 expression also included red cell distribution width (often associated with iron-deficiency, folate or B12 deficiency anemia), basophil percentage (inverse relationship), calcium level, urate level, HDL-cholesterol and LDL cholesterol (inverse relationship).",
+      "key": "23030ffe924479fbc5b254640e2f4d6f",
+      "line": 76,
+      "relation": "negativeCorrelation",
+      "source": 3,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Other commonly measured blood measures that may lead to altered ACE2 expression also included red cell distribution width (often associated with iron-deficiency, folate or B12 deficiency anemia), basophil percentage (inverse relationship), calcium level, urate level, HDL-cholesterol and LDL cholesterol (inverse relationship).",
+      "key": "6e6bc7df36722c7d887ebb1e2fa08ea5",
+      "line": 77,
+      "relation": "negativeCorrelation",
+      "source": 0,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Other commonly measured blood measures that may lead to altered ACE2 expression also included red cell distribution width (often associated with iron-deficiency, folate or B12 deficiency anemia), basophil percentage (inverse relationship), calcium level, urate level, HDL-cholesterol and LDL cholesterol (inverse relationship).",
+      "key": "88a7486aaf7a4b46a700604fd4de09ca",
+      "line": 78,
+      "relation": "negativeCorrelation",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Other commonly measured blood measures that may lead to altered ACE2 expression also included red cell distribution width (often associated with iron-deficiency, folate or B12 deficiency anemia), basophil percentage (inverse relationship), calcium level, urate level, HDL-cholesterol and LDL cholesterol (inverse relationship).",
+      "key": "16239b0c208c2e42ce7033c06090ac16",
+      "line": 79,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Some of top pathways include cytokine and cytokine receptor interaction, VEGFA-VEGF2 signaling pathway, JAS-STAT signaling pathway etc",
+      "key": "27ab0ed90c73e5a20b75e824d5114283",
+      "line": 83,
+      "relation": "association",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Some of top pathways include cytokine and cytokine receptor interaction, VEGFA-VEGF2 signaling pathway, JAS-STAT signaling pathway etc",
+      "key": "7315041033232474c12f0eafa789b08e",
+      "line": 84,
+      "relation": "association",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.014639"
+      },
+      "evidence": "Some of top pathways include cytokine and cytokine receptor interaction, VEGFA-VEGF2 signaling pathway, JAS-STAT signaling pathway etc",
+      "key": "f6e2a6ca4f0ffa850fae30fecb6d5dd5",
+      "line": 85,
+      "relation": "association",
+      "source": 5,
+      "target": 8
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:\"uric acid\")",
+      "concept": {
+        "name": "uric acid",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "ef3d9494369a31b96298a967ff018db6"
+    },
+    {
+      "bel": "a(MESH:\"Lipoproteins, HDL\")",
+      "concept": {
+        "name": "Lipoproteins, HDL",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "c2f0712469597d3ef23757bf7c249916"
+    },
+    {
+      "bel": "a(MESH:\"Lipoproteins, LDL\")",
+      "concept": {
+        "name": "Lipoproteins, LDL",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "2d66c6e70ecddbea93a342fdf228a9c8"
+    },
+    {
+      "bel": "a(MESH:Calcium)",
+      "concept": {
+        "name": "Calcium",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "b6bb05aa1fbd6547461ef2f28c9d8f97"
+    },
+    {
+      "bel": "a(MESH:Insulin)",
+      "concept": {
+        "name": "Insulin",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "a72888b25d66d9bc884def4abb2eec44"
+    },
+    {
+      "bel": "bp(GO:\"JAK-STAT cascade\")",
+      "concept": {
+        "name": "JAK-STAT cascade",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "67c0e73180af1fa505581ac68e0b88ce"
+    },
+    {
+      "bel": "bp(GO:\"cytokine-mediated signaling pathway\")",
+      "concept": {
+        "name": "cytokine-mediated signaling pathway",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "a7ad178145a5bf868685ef04844fec01"
+    },
+    {
+      "bel": "bp(GO:\"vascular endothelial growth factor receptor signaling pathway\")",
+      "concept": {
+        "name": "vascular endothelial growth factor receptor signaling pathway",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "7b4ea41e9be13e0ddec8773a6793f5f8"
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "p(HGNC:GPT)",
+      "concept": {
+        "name": "GPT",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "86617b0271f3cba1d1ebdf66ff44b39a"
+    },
+    {
+      "bel": "path(DO:\"breast cancer\")",
+      "concept": {
+        "name": "breast cancer",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "5a3b7dbc9741992610b3a87a8528206c"
+    },
+    {
+      "bel": "path(DO:\"inflammatory bowel disease\")",
+      "concept": {
+        "name": "inflammatory bowel disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "5897623e1665824e65f2f9abe92aed17"
+    },
+    {
+      "bel": "path(DO:\"liver disease\")",
+      "concept": {
+        "name": "liver disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "7ace349650daf4963b90a1b187782472"
+    },
+    {
+      "bel": "path(DO:\"lung cancer\")",
+      "concept": {
+        "name": "lung cancer",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "f8e839fd13f52e8103e3e1e826f9c9ac"
+    },
+    {
+      "bel": "path(DO:\"type 1 diabetes mellitus\")",
+      "concept": {
+        "name": "type 1 diabetes mellitus",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "91a3932128bdddadd4fa20a5b93eaa66"
+    },
+    {
+      "bel": "path(DO:\"type 2 diabetes mellitus\")",
+      "concept": {
+        "name": "type 2 diabetes mellitus",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "24189641ea99677ffdea94781a2c19e1"
+    },
+    {
+      "bel": "path(DO:asthma)",
+      "concept": {
+        "name": "asthma",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "b4a89cb2586d171cf77f65ddc97b5af5"
+    },
+    {
+      "bel": "path(HP:\"Abnormal red blood cell count\")",
+      "concept": {
+        "name": "Abnormal red blood cell count",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "bf893d29ce55066d9ff45212f309eb33"
+    },
+    {
+      "bel": "path(HP:\"Decreased basophil count\")",
+      "concept": {
+        "name": "Decreased basophil count",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "546766cfd318e4e4c0b50da9e1ca56d4"
+    },
+    {
+      "bel": "path(MESH:\"Tobacco Use\")",
+      "concept": {
+        "name": "Tobacco Use",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "fbb8398bea10f7fdad2c83bbc2bcef3f"
+    }
+  ]
+}

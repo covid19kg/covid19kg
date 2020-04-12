@@ -1,0 +1,172 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "19906920.bel"
+SET DOCUMENT Authors = "Shounak Baksi"
+SET DOCUMENT ContactInfo = "shounak.baksi@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+# DEFINE NAMESPACE ADO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/alzheimer-disease-ontology/alzheimer-disease-ontology-1.0.2.belns"
+# DEFINE NAMESPACE BRCO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/brain-region-ontology/brain-region-ontology-1.0.0.belns"
+# DEFINE NAMESPACE NIFT AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/nift/NIFT.belns"
+
+# DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+# DEFINE NAMESPACE RGD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/rgd-rat-genes/rgd-rat-genes-20190128.belns"
+# DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+# DEFINE NAMESPACE SCOMP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-named-complexes/selventa-named-complexes-20190128.belns"
+# DEFINE NAMESPACE SFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-protein-families/selventa-protein-families-20190128.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+# DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+# DEFINE NAMESPACE DRUGBANK AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns"
+# DEFINE NAMESPACE INTERPRO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/interpro/interpro-names-20181021.belns"
+# DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20190128.belns"
+# DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+# DEFINE NAMESPACE GOBP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns"
+# DEFINE NAMESPACE GOCC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20190128.belns"
+# DEFINE NAMESPACE EFO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/efo/efo-20171206.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+# DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+# DEFINE NAMESPACE MESHC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-chemicals/mesh-chemicals-20190128.belns"
+# DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20190128.belns"
+# DEFINE NAMESPACE MESHPP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-processes/mesh-processes-20190128.belns"
+# DEFINE NAMESPACE MESHA AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-anatomy/mesh-anatomy-20190128.belns"
+# DEFINE NAMESPACE MESHCS AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-cellular-structures/mesh-cellular-structures-20190128.belns"
+# DEFINE NAMESPACE NCBIGENE AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-gene/ncbi-gene-20190224.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+# DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+# DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+# DEFINE NAMESPACE dbSNP AS PATTERN "rs[0-9]+"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+# DEFINE ANNOTATION Anatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno"
+# DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+# DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+# DEFINE ANNOTATION Disease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/disease/disease-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+# DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review", "Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint", "Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text", "Abstract", "Results"}
+
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","19906920"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Species = "10090"
+SET MeSHDisease = "Severe Acute Respiratory Syndrome"
+SET MeSHAnatomy = "Lung"
+SET Evidence = "First, a modest increase in the levels of IFN-α and IFN-β was detected in the lungs early (on day 3) following SARS-CoV infection, but no statistical difference was found compared to mock-infected control samples (P > 0.05). "
+
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> path(DO:"severe acute respiratory syndrome")
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Ifna11)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Ifnb1)
+
+SET Evidence =  "Second, a marked increase in inflammatory chemokines CCL5/RANTES and CXCL9/MIG, accompanied by an increase of inflammatory cytokines IFN-γ, IL-2, and IL-5, was detected in the lungs predominantly at day 7, the late stage of infection (P < 0.05)."
+
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Ccl5)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Cxcl9)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Ifng)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Il2)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Il5)
+
+SET Evidence = "hird, a biphasic pattern of significantly increased production of proinflammatory cytokines TNF-α and IL-6 and chemokines CCL2/MCP-1, CCL3/MIP-1α, and CXCL10/IP-10 was seen both early and late following infection (P < 0.05)."
+
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Tnf)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Il6)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Ccl2)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Ccl3)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Cxcl10)
+
+SET Evidence = "An increase in mRNA transcripts for CCL2/MCP-1, CCL3/MIP-1α, and CXCL10/IP-10 was detected in the lung early on days 2 and 3 p.i., when peak viral replication occurred. "
+
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> r(MGI:Ccl2)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> r(MGI:Ccl3)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> r(MGI:Cxcl10)
+
+SET Evidence = "In contrast, mRNA transcripts for CCL5/RANTES and CXCL9/MIG increased predominantly late in infection on days 5 and 7, when histopathologic evidence of pneumonitis was seen in the infected lungs."
+
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> r(MGI:Ccl5)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> r(MGI:Cxcl9)
+
+SET Evidence = "An increase in mRNA transcripts for CCR2, CCR5, and CXCR3, which are receptors for the upregulated chemokines (CCR2 for CCL2/MCP-1, CCR5 for CCL3/MIP-1a and CCL5/RANTES, and CXCR3 for CXCL9/MIG and CXCL10/IP-10), was also found in the lungs after infection with SARS-CoV (Fig. 1C)."
+
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> r(MGI:Ccr2)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> r(MGI:Ccr5)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> r(MGI:Cxcr3)
+
+SET Evidence = "We observed a significant increase in the number of CD45+ leukocytes in the lungs of SARS-CoV-infected mice 7 days p.i. (P = 0.0015)."
+
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> a(FIXME:"CD45+ leukocyte")
+
+SET Evidence = "Second, the pulmonary migration of inflammatory cells (such as NK T cells, NK cells, macrophages, and CD4+ T cells) began on day 2, increased rapidly to reach a peak on day 7 and/or 9 (P < 0.01), and declined thereafter."
+
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> a(MESH:"Killer Cells, Natural")
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> a(MESH:Macrophages)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> a(MESH:"CD4-Positive T-Lymphocytes")
+
+SET Evidence = "The number of CD8+ T cells increased sharply on days 7 and 9 (P < 0.05)"
+
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> a(MESH:"CD8-Positive T-Lymphocytes")
+
+SET Evidence = "FACS analysis revealed an increased frequency of CD8+ IFN-γ+ and CD4+ IFN-γ+ cells seen in the lungs of SARS-CoV-infected mice following exogenous stimulation with SARS-CoV S protein and to a lesser extent nucleocapsid (N) proteins and PMA/ionomycin."
+
+SET BioAssay = "flow cytometry"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> a(FIXME:"CD8+ IFN-γ+ cell")
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> a(FIXME:"CD4+ IFN-γ+ cell")
+
+SET Evidence = "The mice depleted of CD8+ T cells cleared the virus from the lungs as well as the isotype control-treated animals did and exhibited a near complete clearance of virus by day 9 p.i. However, depletion of CD4+ T cells resulted in delayed viral clearance from the lungs."
+
+a(MESH:"CD4-Positive T-Lymphocytes") -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+UNSET BioAssay
+
+SET Evidence = "Compared to the isotype-treated controls, levels of cytokines IFN-γ, IL-2, IL-4, and IL-5 and chemokine MIP-2/CXCL2 were lower in mice depleted of CD4+ T cells (P < 0.05 by Student's t test), and IL-2, IL-4, and MIP-2/CXCL2 levels were lower in mice depleted of both CD4+ and CD8+ T cells (P < 0.05 by Student's t test)."
+
+a(MESH:"CD4-Positive T-Lymphocytes") -> p(MGI:Ifng)
+a(MESH:"CD4-Positive T-Lymphocytes") -> p(MGI:Il2)
+a(MESH:"CD4-Positive T-Lymphocytes") -> p(MGI:Il4)
+a(MESH:"CD4-Positive T-Lymphocytes") -> p(MGI:Il5)
+a(MESH:"CD4-Positive T-Lymphocytes") -> p(MGI:Cxcl2)
+
+SET Evidence = "FACS analysis revealed that depletion of CD4+ T cells resulted in decreased number of leukocytes infiltrating into the lungs on day 9 p.i. (Fig. 5B),consistent with the decreased chemokine production."
+
+SET BioAssay = "flow cytometry"
+a(MESH:"CD4-Positive T-Lymphocytes") -> a(MESH:Leukocytes)
+
+SET Evidence = "FACS analysis also revealed that depletion of CD4+ T cells resulted in fewer IFN-γ-producing CD8+ T cells infiltrating into the lungs on day 9 p.i., while depletion of CD8+ T cells did not noticeably affect pulmonary recruitment of virus-specific IFN-γ-producing CD4+ T cells (Fig. 5C)."
+
+a(MESH:"CD4-Positive T-Lymphocytes") -> a(FIXME:"CD8+ IFN-γ+ cell")
+UNSET BioAssay 
+
+SET Evidence = "Depletion of CD4+ T cells results in enhanced interstitial pneumonitis."
+
+a(MESH:"CD4-Positive T-Lymphocytes") -| path(HP:"Interstitial pneumonitis")
+UNSET Species
+UNSET MeSHDisease
+UNSET MeSHAnatomy
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType

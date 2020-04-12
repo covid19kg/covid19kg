@@ -1,0 +1,520 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "PublicationStatus": [
+        "Preprint",
+        "Published"
+      ],
+      "PublicationType": [
+        "Commnent",
+        "Research",
+        "Review"
+      ],
+      "Section": [
+        "Abstract",
+        "Full Text",
+        "Results"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "CellLine": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Shounak Baksi",
+      "contact": "shounak.baksi@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "15194747.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "15194747.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "CellLine": {
+          "Vero cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Fielding BC",
+          "Goh PY",
+          "Hong W",
+          "Lim SG",
+          "Ooi EE",
+          "Shen S",
+          "Tan HC",
+          "Tan TH",
+          "Tan YJ",
+          "Teng E"
+        ],
+        "date": "2004-07-01",
+        "db": "PubMed",
+        "db_id": "15194747",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "6723-34",
+        "volume": "78"
+      },
+      "evidence": "Indirect immunofluorescence showed that U274 is localized to the perinuclear region, as well as to the plasma membrane of transfected and infected cells (see Fig. ​Fig.3,3, where cells have been permeabilized with Triton X-100).",
+      "key": "465e04c5e69428b1d4eb960f9f9fafde",
+      "line": 81,
+      "object": {
+        "location": {
+          "name": "perinuclear region of cytoplasm",
+          "namespace": "GO"
+        }
+      },
+      "relation": "increases",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "HeLa derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Fielding BC",
+          "Goh PY",
+          "Hong W",
+          "Lim SG",
+          "Ooi EE",
+          "Shen S",
+          "Tan HC",
+          "Tan TH",
+          "Tan YJ",
+          "Teng E"
+        ],
+        "date": "2004-07-01",
+        "db": "PubMed",
+        "db_id": "15194747",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "6723-34",
+        "volume": "78"
+      },
+      "evidence": " Again, HeLa cells transfected with myc-U274 were able to internalize anti-myc antibodies (Fig. ​(Fig.5,5, upper panel, lanes 11 and 12) just like endogenous TfR (Fig. ​(Fig.5,5, upper panel, lanes 15 and 16), whereas CD81 did not undergo efficient internalization (Fig. ​(Fig.5,5, upper panel, lanes 13 and 14).",
+      "key": "67a1a583d41884ed47b2cc74188df619",
+      "line": 91,
+      "object": {
+        "location": {
+          "name": "endocytic vesicle",
+          "namespace": "GO"
+        }
+      },
+      "relation": "increases",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "HEK293": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Fielding BC",
+          "Goh PY",
+          "Hong W",
+          "Lim SG",
+          "Ooi EE",
+          "Shen S",
+          "Tan HC",
+          "Tan TH",
+          "Tan YJ",
+          "Teng E"
+        ],
+        "date": "2004-07-01",
+        "db": "PubMed",
+        "db_id": "15194747",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "6723-34",
+        "volume": "78"
+      },
+      "evidence": "Coimmunoprecipitation experiments were performed to determine whether U274 could interact with the SARS-CoV structural proteins M, E, and N. As shown in Fig. ​Fig.6A6A (upper panel), myc-U274 specifically coimmunoprecipitated E-HA (lane 6) and M-HA (lane 8), and neither of these showed any nonspecific binding to myc-GST (lanes 5 and 7).",
+      "key": "76496cd8b8ee7eee0b45ae82477c4a6d",
+      "line": 97,
+      "relation": "increases",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "HEK293": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Fielding BC",
+          "Goh PY",
+          "Hong W",
+          "Lim SG",
+          "Ooi EE",
+          "Shen S",
+          "Tan HC",
+          "Tan TH",
+          "Tan YJ",
+          "Teng E"
+        ],
+        "date": "2004-07-01",
+        "db": "PubMed",
+        "db_id": "15194747",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "6723-34",
+        "volume": "78"
+      },
+      "evidence": "Coimmunoprecipitation experiments were performed to determine whether U274 could interact with the SARS-CoV structural proteins M, E, and N. As shown in Fig. ​Fig.6A6A (upper panel), myc-U274 specifically coimmunoprecipitated E-HA (lane 6) and M-HA (lane 8), and neither of these showed any nonspecific binding to myc-GST (lanes 5 and 7).",
+      "key": "dde014517c35b9885f7be2b948fb1929",
+      "line": 98,
+      "relation": "increases",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "HEK293": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Fielding BC",
+          "Goh PY",
+          "Hong W",
+          "Lim SG",
+          "Ooi EE",
+          "Shen S",
+          "Tan HC",
+          "Tan TH",
+          "Tan YJ",
+          "Teng E"
+        ],
+        "date": "2004-07-01",
+        "db": "PubMed",
+        "db_id": "15194747",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "6723-34",
+        "volume": "78"
+      },
+      "evidence": "As shown in Fig. ​Fig.6B6B (upper panel), the S protein of ∼180-kDa interacts specifically with myc-U274 but not with myc-GST.",
+      "key": "f11b02faea89f4f075ad3e3fb9850c80",
+      "line": 102,
+      "relation": "increases",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "key": "f59543047f25cfd925b3ac004bf057dd",
+      "relation": "hasVariant",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "key": "092334568d44957004900fa46822625e",
+      "relation": "partOf",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "key": "c753c520ca0185f0e1603e239f23780e",
+      "relation": "partOf",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "key": "e2dac59466bdc1f89da25dc020285532",
+      "relation": "partOf",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Vero cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Fielding BC",
+          "Goh PY",
+          "Hong W",
+          "Lim SG",
+          "Ooi EE",
+          "Shen S",
+          "Tan HC",
+          "Tan TH",
+          "Tan YJ",
+          "Teng E"
+        ],
+        "date": "2004-07-01",
+        "db": "PubMed",
+        "db_id": "15194747",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "6723-34",
+        "volume": "78"
+      },
+      "evidence": "In addition, a U274 mutant (U274mut2) that lacks sorting signals in the cytoplasmic domain (see Table ​Table11 and Discussion) was also not transported to the cell surface, suggesting that this domain is essential for the transportation of U274 to the cell surface.",
+      "key": "a5a1c2f6ab9f610a45dca14deb1ff614",
+      "line": 85,
+      "object": {
+        "location": {
+          "name": "host cell membrane",
+          "namespace": "GO"
+        }
+      },
+      "relation": "increases",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "key": "199fc570370bce4803c4bccec0369285",
+      "relation": "partOf",
+      "source": 8,
+      "target": 3
+    },
+    {
+      "key": "956df789f9fdb6cbff38d6d97a779131",
+      "relation": "partOf",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "key": "becd27658c9856fa553cb6c464e71531",
+      "relation": "partOf",
+      "source": 4,
+      "target": 1
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "a824ba056422b4e42996cd3269ec9a19"
+    },
+    {
+      "bel": "complex(p(UNIPROT:P59594), p(UNIPROT:P59632))",
+      "function": "Complex",
+      "id": "aa3b4a2278b00a836b3d6e3df5ec0d78",
+      "members": [
+        {
+          "bel": "p(UNIPROT:P59594)",
+          "concept": {
+            "name": "P59594",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "7543d9372e2f08df7ae62ef5685b391b"
+        },
+        {
+          "bel": "p(UNIPROT:P59632)",
+          "concept": {
+            "name": "P59632",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "3f9bf94203188b4bd8e831d4e61cb9cc"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(UNIPROT:P59596), p(UNIPROT:P59632))",
+      "function": "Complex",
+      "id": "ba0f1c3bf5583ebc79bec6896a133ca5",
+      "members": [
+        {
+          "bel": "p(UNIPROT:P59596)",
+          "concept": {
+            "name": "P59596",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "23f8729d5a9f8c491ff55b621264f877"
+        },
+        {
+          "bel": "p(UNIPROT:P59632)",
+          "concept": {
+            "name": "P59632",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "3f9bf94203188b4bd8e831d4e61cb9cc"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(UNIPROT:P59632), p(UNIPROT:P59637))",
+      "function": "Complex",
+      "id": "8a16944f85db557d092ce92c0ae7c4f1",
+      "members": [
+        {
+          "bel": "p(UNIPROT:P59632)",
+          "concept": {
+            "name": "P59632",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "3f9bf94203188b4bd8e831d4e61cb9cc"
+        },
+        {
+          "bel": "p(UNIPROT:P59637)",
+          "concept": {
+            "name": "P59637",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "f9f66c5791b1d69a3bb7e38568673366"
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P59594)",
+      "concept": {
+        "name": "P59594",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "7543d9372e2f08df7ae62ef5685b391b"
+    },
+    {
+      "bel": "p(UNIPROT:P59596)",
+      "concept": {
+        "name": "P59596",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "23f8729d5a9f8c491ff55b621264f877"
+    },
+    {
+      "bel": "p(UNIPROT:P59632)",
+      "concept": {
+        "name": "P59632",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "3f9bf94203188b4bd8e831d4e61cb9cc"
+    },
+    {
+      "bel": "p(UNIPROT:P59632, frag(\"?\"))",
+      "concept": {
+        "name": "P59632",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "1dfb8ac3518bf7cb44a999c22cd16dde",
+      "variants": [
+        {
+          "kind": "frag",
+          "missing": "?"
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P59637)",
+      "concept": {
+        "name": "P59637",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "f9f66c5791b1d69a3bb7e38568673366"
+    }
+  ]
+}

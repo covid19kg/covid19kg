@@ -1,0 +1,137 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "22253445.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.1.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+#Not in template.bel
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+
+DEFINE ANNOTATION Extract_type AS LIST {"Lipid"}
+DEFINE ANNOTATION Protein_tag AS LIST {"FLAG-Sac1"}
+DEFINE ANNOTATION Dose AS LIST {"80 nM"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+##################################################################################
+# Statements #
+#################################################################################
+
+SET Citation = {"PubMed","22253445"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section =  "Results"
+
+SET Evidence = "We found that LY294002 (PI kinase inhibitor) significantly inhibited the entry of SARS pseudovirions into VeroE6 cells, whereas entry of VSV-G pseudovirus was not affected (Fig. 1A)."
+
+SET CellLine = "VERO C1008 cell"
+a(PUBCHEM:3973) -| p(UNIPROT:P59594)
+# P59594 is spike protein of SARS-Cov
+p(UNIPROT:P59594) -- a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+UNSET CellLine
+
+SET Evidence = "Another PI kinase inhibitor, wortmannin, also inhibited SARS-CoV S-mediated entry into VeroE6 cells with no effect on VSV-G pseudovirus entry (Fig. 1E)."
+
+SET CellLine = "VERO C1008 cell"
+a(CHEBI:wortmannin) -| p(UNIPROT:P59594)
+p(UNIPROT:P59594) -- a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+# P59594 is spike protein of SARS-Cov
+UNSET CellLine
+
+SET Evidence = "We found that entry of SARS pseudovirions into VeroE6 cells was inhibited by wortmannin with an IC50 of 80 nM (Fig. 1F), which was consistent with the results reported for type III PI4Ks (PI4KA and PI4KB) (22, 23)."
+
+SET CellLine = "VERO C1008 cell"
+SET Dose = "80 nM"
+a(CHEBI:wortmannin) -| p(UNIPROT:P59594)
+# P59594 is spike protein of SARS-Cov
+UNSET CellLine
+
+SET Evidence = "From these results, we conclude that LY294002 and wortmannin inhibit SARS pseudovirus entry by targeting PI4KB and that PI4KB is involved in SARS-CoV S-mediated entry into VeroE6 cells."
+
+SET CellLine = "VERO C1008 cell"
+SET Dose = "80 nM"
+p(UNIPROT:B1MTG7) pos p(UNIPROT:P59594)
+#B1MTG7 is PI4KB
+p(UNIPROT:P59594) -- a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+complex(a(PUBCHEM:3973), p(UNIPROT:B1MTG7)) -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+complex(a(CHEBI:wortmannin), p(UNIPROT:B1MTG7)) -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+UNSET Dose
+UNSET CellLine
+
+SET Evidence = "As demonstrated by the virus entry assay (Fig. 3, A and B), SARS-CoV S-mediated entry was reduced by 80% in VeroE6 cells that transiently overexpressed recombinant FLAG-Sac1 compared with control VeroE6 cells, whereas VSV-G pseudovirus entry was not affected by recombinant Sac1 expression."
+
+SET CellLine = "VERO C1008 cell"
+SET Protein_tag = "FLAG-Sac1"
+act(p(UNIPROT:A0A0D9RUU7)) -| p(UNIPROT:P59594)
+#A0A0D9RUU7 is SAC1
+act(p(UNIPROT:A0A0D9RUU7)) -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+UNSET Protein_tag
+UNSET CellLine
+
+SET Evidence = "These results indicate that PI4P is indispensable for SARSCoV S-mediated entry and suggest that PI4KB mediates SARS-CoV S entry by regulating the level of cellular PI4P."
+
+SET CellLine = "VERO C1008 cell"
+act(p(UNIPROT:A0A0D9RUU7), ma(cat)) reg a(CHEBI:"phosphatidylinositol 4-phosphate")
+p(UNIPROT:A0A0D9RUU7) -> p(UNIPROT:P59594)
+UNSET CellLine
+
+SET Evidence = "Immunostaining with an anti-PI4P monoclonal antibody revealed the enrichment of PI4P within the cytoplasm of normal cells (Fig. 4A, left panel). However, most PI4P immunofluorescence was lost after a 30-min treatment with LY294002 (Fig. 4A, right panel)."
+
+SET CellLine = "VERO C1008 cell"
+SET BioAssay = "immunoassay"
+a(PUBCHEM:3973) -| a(CHEBI:"phosphatidylinositol 4-phosphate", loc(GO:cytoplasm))
+UNSET BioAssay
+UNSET CellLine
+
+SET Evidence = "Detection of PI4P from lipid extracts of VeroE6 cells that were transfected with FLAG-Sac1 or a control plasmid revealed that ectopic expression of Sac1 reduced the levels of PI4P in VeroE6 (Fig. 4, F and G). These results demonstrate that Sac1 phosphatase is a key factor in regulating PI4P levels in VeroE6 cells."
+
+SET CellLine = "VERO C1008 cell"
+SET Extract_type = "Lipid"
+SET Protein_tag = "FLAG-Sac1"
+p(UNIPROT:A0A0D9RUU7) reg a(CHEBI:"phosphatidylinositol 4-phosphate")
+UNSET Protein_tag
+UNSET Extract_type
+UNSET CellLine
+
+SET Evidence = "FIGURE 7. Model of the PI kinases and PI4P involved in SARS-CoV S-mediated entry. After SARS-CoV binds to ACE2, PI4P, the catalytic product of PI4KB, creates a lipid microenvironment or PI4P-enriched organelle required for the steps leading to fusion. Pharmacological inhibitors of PI4KB, such as LY294002 or wortmannin, suppress PI4KB activity and thereby inhibit SARSCoV S-mediated entry. Cellular factors, such as PI3Ks or Sac1, that negatively regulate PI4P generation can also inhibit SARS-CoV S-mediated entry."
+
+complex(p(UNIPROT:A0A0D9RQZ0), a(TAX:"Severe acute respiratory syndrome-related coronavirus")) -> a(GO:"organelle-enclosing lipid monolayer")
+complex(p(UNIPROT:B1MTG7), a(TAX:"Severe acute respiratory syndrome-related coronavirus")) -> a(GO:"organelle-enclosing lipid monolayer")
+a(PUBCHEM:3973) -| act(p(UNIPROT:B1MTG7))
+a(CHEBI:wortmannin) -| act(p(UNIPROT:B1MTG7))
+act(p(UNIPROT:B1MTG7)) -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+a(PUBCHEM:3973) -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+a(CHEBI:wortmannin) -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+p(UNIPROT:A0A0D9RUU7) -| a(CHEBI:"phosphatidylinositol 4-phosphate")
+p(UNIPROT:A0A0D9RUU7) -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

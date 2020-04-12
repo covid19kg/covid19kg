@@ -1,0 +1,2004 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Mouse_strain": [
+        "C57BL/6J"
+      ],
+      "Mouse_type": [
+        "CCR1-/-",
+        "CCR2-/-",
+        "CCR5-/-",
+        "MyD88-/-",
+        "RAG-1-/-"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ],
+      "Technique": [
+        "Histopathology"
+      ],
+      "Timeline": [
+        "2 dpi",
+        "4 dpi",
+        "6 dpi"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Priya S",
+      "contact": "priya@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "19079579.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "MGI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "19079579.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Mouse_type": {
+          "MyD88-/-": true,
+          "RAG-1-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "Timeline": {
+          "2 dpi": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Infection of WT, RAG-1-/-, or MyD88-/- mice resulted in weight loss beginning at day 2 post-infection (Fig. 1A).",
+      "key": "6dcefc5f560a269efbac56f439a1ad79",
+      "line": 57,
+      "relation": "increases",
+      "source": 2,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Mouse_type": {
+          "MyD88-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "ii) the genetic absence of MyD88 significantly enhances SARS CoV- induced morbidity and mortality , and iii) MyD88-dependent signaling through a receptor(s) other than IL-1R1 or IL-18R1 is responsible for protection from rMA15.",
+      "key": "7ac9e04a11de1c3f3a1b120590445cd6",
+      "line": 67,
+      "relation": "increases",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Mouse_type": {
+          "MyD88-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "ii) the genetic absence of MyD88 significantly enhances SARS CoV- induced morbidity and mortality , and iii) MyD88-dependent signaling through a receptor(s) other than IL-1R1 or IL-18R1 is responsible for protection from rMA15.",
+      "key": "9b91cb53329283097d956b2c2e576928",
+      "line": 68,
+      "relation": "increases",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative PCR": true
+        },
+        "Mouse_type": {
+          "MyD88-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "Timeline": {
+          "2 dpi": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Interestingly, SARS-CoV infection of either WT or MyD88-/- mice resulted in similar induction of type III IFN over mock-infected mice which peaked at 2 dpi and declined thereafter (Fig 3A).",
+      "key": "8f4e68b218807eeb01ac7b01c87519c9",
+      "line": 79,
+      "relation": "increases",
+      "source": 2,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Mouse_strain": {
+          "C57BL/6J": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Infection of WT mice with rMA15 resulted in a significant induction of proinflammatory chemokines including CCL2 (MCP-1), CCL3 (MIP-1a), and CCL5 (RANTES) as compared to mockinfected control mice (Fig. 3B).",
+      "key": "44d78a25101f9216099a67e0ccf31405",
+      "line": 89,
+      "relation": "increases",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Mouse_type": {
+          "MyD88-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "Timeline": {
+          "2 dpi": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "In contrast to type I and type III IFNs, induction of CCL2 was dramatically reduced in rMA15-infected MyD88-/- mice compared to WT mice at 2 dpi (14 fold difference, P,0.005).",
+      "key": "6a3947240978edb5dba15d3a60374f97",
+      "line": 100,
+      "relation": "decreases",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Mouse_strain": {
+          "C57BL/6J": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Infection of WT mice with rMA15 resulted in a significant induction of proinflammatory chemokines including CCL2 (MCP-1), CCL3 (MIP-1a), and CCL5 (RANTES) as compared to mockinfected control mice (Fig. 3B).",
+      "key": "aba99e86e4a874365af30b88a4e20694",
+      "line": 90,
+      "relation": "increases",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Mouse_type": {
+          "MyD88-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Similarly, the induction of CCL3 (22 fold difference at 2 dpi, P,0.005; 5 fold difference at 4 dpi, p,0.005) and CCL5 (8 fold difference at 2 dpi, P,0.005; 8 fold difference at 4 dpi, P,0.01) were dramatically reduced in infected MyD88-/- compared to infected WT mice (Fig. 3B).",
+      "key": "84e068aa864d7466c17314eb0b5f7d4c",
+      "line": 111,
+      "relation": "decreases",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Mouse_strain": {
+          "C57BL/6J": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Infection of WT mice with rMA15 resulted in a significant induction of proinflammatory chemokines including CCL2 (MCP-1), CCL3 (MIP-1a), and CCL5 (RANTES) as compared to mockinfected control mice (Fig. 3B).",
+      "key": "3b0eedae28b57f60ad58a0f2885d68ad",
+      "line": 91,
+      "relation": "increases",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Mouse_type": {
+          "MyD88-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Similarly, the induction of CCL3 (22 fold difference at 2 dpi, P,0.005; 5 fold difference at 4 dpi, p,0.005) and CCL5 (8 fold difference at 2 dpi, P,0.005; 8 fold difference at 4 dpi, P,0.01) were dramatically reduced in infected MyD88-/- compared to infected WT mice (Fig. 3B).",
+      "key": "ac31ba752e487a3ac9f2c5bf729c404d",
+      "line": 112,
+      "relation": "decreases",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Mouse_type": {
+          "MyD88-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "In addition to proinflammatory chemokines, virus-induced expression of several proinflammatory cytokines, including TNF-a (9 fold difference at 2 dpi, P,0.005; 3 fold difference at 4 dpi, p,0.005), IL-1b (3.8 fold difference at 2 dpi,P,0.01), and IL-6 (11 fold difference at 2 dpi, P,0.005); , was severely impaired in rMA15-infected MyD88-/- mice compared to infected WT mice (Fig. 3C).",
+      "key": "e43837cd50ff1e1c2ed7396c7e82bea5",
+      "line": 123,
+      "relation": "decreases",
+      "source": 2,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Mouse_type": {
+          "MyD88-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "In addition to proinflammatory chemokines, virus-induced expression of several proinflammatory cytokines, including TNF-a (9 fold difference at 2 dpi, P,0.005; 3 fold difference at 4 dpi, p,0.005), IL-1b (3.8 fold difference at 2 dpi,P,0.01), and IL-6 (11 fold difference at 2 dpi, P,0.005); , was severely impaired in rMA15-infected MyD88-/- mice compared to infected WT mice (Fig. 3C).",
+      "key": "b665849bf2fe88f93037d6eb31c3dcd5",
+      "line": 124,
+      "relation": "decreases",
+      "source": 2,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Mouse_type": {
+          "MyD88-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "In addition to proinflammatory chemokines, virus-induced expression of several proinflammatory cytokines, including TNF-a (9 fold difference at 2 dpi, P,0.005; 3 fold difference at 4 dpi, p,0.005), IL-1b (3.8 fold difference at 2 dpi,P,0.01), and IL-6 (11 fold difference at 2 dpi, P,0.005); , was severely impaired in rMA15-infected MyD88-/- mice compared to infected WT mice (Fig. 3C).",
+      "key": "c52d4b41356b12c2ed9b34a07dad98b9",
+      "line": 125,
+      "relation": "decreases",
+      "source": 2,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Mouse_type": {
+          "MyD88-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "Timeline": {
+          "2 dpi": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "At 2 dpi, MyD88-/- mice exhibited a denuding bronchiolitis characterized by an extrusion of airway epithelial cells into the lumen of the airway and epithelial/endothelial atypia (vacuolization and disruption of normal epithelium and endothelium) but did not exhibit any obvious signs of inflammatory cell infiltration including peribronchivascular (PBV) or peri-venular immune cell infiltration (‘‘cuffing’’).",
+      "key": "95e7057e160fa00b33ee8c1f9d4eb329",
+      "line": 138,
+      "relation": "increases",
+      "source": 2,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Mouse_type": {
+          "MyD88-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "Timeline": {
+          "4 dpi": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "At 4 dpi, MyD88-/- mice continued to exhibit a denuding bronchiolitis, epithelial/endothelial atypia, and the added phenotype of PBV edema without immune cell infiltration around the airway though perivascular infiltration of immune cells was observed (Fig. 4).",
+      "key": "f2a081b3ca8d790d66f98e0442133c7c",
+      "line": 160,
+      "relation": "increases",
+      "source": 2,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Mouse_type": {
+          "MyD88-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "Timeline": {
+          "6 dpi": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Interestingly, by 6 dpi, the severity of PBV edema and denuding bronchiolitis in MyD88-/- mice had waned, and signs of lung inflammation were evident, with marked PBV infiltrates and perivascular cuffing even more severe than that seen in WT mice at similar times post infection.",
+      "key": "b78664967e8207261fb1dd04ebfce547",
+      "line": 174,
+      "relation": "decreases",
+      "source": 2,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Mouse_type": {
+          "CCR1-/-": true,
+          "CCR2-/-": true,
+          "CCR5-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Fig 6. In contrast, mice deficient in either CCR1, CCR2, or CCR5 exhibited more prominent airway epithelial cell apoptosis, a severe denuding bronchiolitis with an accumulation of cohesive apoptotic debris within the airway (empty arrowhead) ,and perivenular/periarterial cuffing (filled arrowhead) but there was a distinct lack of cuffing around the affected airways.",
+      "key": "a052c48da2981ef796644171ccff70f1",
+      "line": 217,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Mouse_strain": {
+          "C57BL/6J": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "Timeline": {
+          "2 dpi": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "In contrast, WT mice at 2 dpi exhibited pronounced lung inflammation characterized by perivascular cuffing, endothelial and epithelial atypia, and peribronchivascular immune cell infiltration, without the severe denuding bronchiolitis seen in MyD88-/- mice (Fig. 4).",
+      "key": "fb5be3cccdfef9d6af2d28e78fc40fcf",
+      "line": 149,
+      "relation": "increases",
+      "source": 2,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Mouse_type": {
+          "MyD88-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "Timeline": {
+          "6 dpi": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Interestingly, by 6 dpi, the severity of PBV edema and denuding bronchiolitis in MyD88-/- mice had waned, and signs of lung inflammation were evident, with marked PBV infiltrates and perivascular cuffing even more severe than that seen in WT mice at similar times post infection.",
+      "key": "a7c1a8ca3c3c1ccfcfc0b2f72cf23546",
+      "line": 175,
+      "relation": "increases",
+      "source": 2,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Mouse_type": {
+          "MyD88-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "Timeline": {
+          "4 dpi": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "At 4 dpi, MyD88-/- mice continued to exhibit a denuding bronchiolitis, epithelial/endothelial atypia, and the added phenotype of PBV edema without immune cell infiltration around the airway though perivascular infiltration of immune cells was observed (Fig. 4).",
+      "key": "25cc27e57ef0cc3c2cc8cbc9778d4f97",
+      "line": 161,
+      "relation": "increases",
+      "source": 2,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Mouse_type": {
+          "MyD88-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "Timeline": {
+          "6 dpi": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Interestingly, by 6 dpi, the severity of PBV edema and denuding bronchiolitis in MyD88-/- mice had waned, and signs of lung inflammation were evident, with marked PBV infiltrates and perivascular cuffing even more severe than that seen in WT mice at similar times post infection.",
+      "key": "769f0fc61ec308d53521b9cf3ed3dfd3",
+      "line": 173,
+      "relation": "decreases",
+      "source": 2,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "flow cytometry": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "Technique": {
+          "Histopathology": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "The histological and flow cytometric analyses outlined above suggested that monocytes/macrophages are i) the major cell population increased in the SARS-infected lung at early times post-infection, ii) increased in the lung by a MyD88-dependent mechanism, and iii) critical for protection against severe rMA15-induced disease.",
+      "key": "87167951e7d8b10acd1098b2271f3ed6",
+      "line": 193,
+      "relation": "increases",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "flow cytometry": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "Technique": {
+          "Histopathology": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "The histological and flow cytometric analyses outlined above suggested that monocytes/macrophages are i) the major cell population increased in the SARS-infected lung at early times post-infection, ii) increased in the lung by a MyD88-dependent mechanism, and iii) critical for protection against severe rMA15-induced disease.",
+      "key": "51a6bb93480c2fd8dde9225d545d938f",
+      "line": 194,
+      "relation": "increases",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "Mouse_type": {
+          "CCR1-/-": true,
+          "CCR2-/-": true,
+          "CCR5-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Fig 6. In contrast, mice deficient in either CCR1, CCR2, or CCR5 exhibited more prominent airway epithelial cell apoptosis, a severe denuding bronchiolitis with an accumulation of cohesive apoptotic debris within the airway (empty arrowhead) ,and perivenular/periarterial cuffing (filled arrowhead) but there was a distinct lack of cuffing around the affected airways.",
+      "key": "4e052a1789783cdf165e1ba7c69a7a23",
+      "line": 211,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "Mouse_type": {
+          "CCR1-/-": true,
+          "CCR2-/-": true,
+          "CCR5-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Fig 6. In contrast, mice deficient in either CCR1, CCR2, or CCR5 exhibited more prominent airway epithelial cell apoptosis, a severe denuding bronchiolitis with an accumulation of cohesive apoptotic debris within the airway (empty arrowhead) ,and perivenular/periarterial cuffing (filled arrowhead) but there was a distinct lack of cuffing around the affected airways.",
+      "key": "0984eaa75fc88b55958f3eec40e1a503",
+      "line": 212,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "Mouse_type": {
+          "CCR1-/-": true,
+          "CCR2-/-": true,
+          "CCR5-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Fig 6. In contrast, mice deficient in either CCR1, CCR2, or CCR5 exhibited more prominent airway epithelial cell apoptosis, a severe denuding bronchiolitis with an accumulation of cohesive apoptotic debris within the airway (empty arrowhead) ,and perivenular/periarterial cuffing (filled arrowhead) but there was a distinct lack of cuffing around the affected airways.",
+      "key": "f706dcc2b26a1984572f20b6a8182731",
+      "line": 213,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Epithelial Cells": true
+        },
+        "Mouse_type": {
+          "CCR1-/-": true,
+          "CCR2-/-": true,
+          "CCR5-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Fig 6. In contrast, mice deficient in either CCR1, CCR2, or CCR5 exhibited more prominent airway epithelial cell apoptosis, a severe denuding bronchiolitis with an accumulation of cohesive apoptotic debris within the airway (empty arrowhead) ,and perivenular/periarterial cuffing (filled arrowhead) but there was a distinct lack of cuffing around the affected airways.",
+      "key": "44a35dc03957b343d200439686fccb3b",
+      "line": 215,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Mouse_type": {
+          "MyD88-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "ii) the genetic absence of MyD88 significantly enhances SARS CoV- induced morbidity and mortality , and iii) MyD88-dependent signaling through a receptor(s) other than IL-1R1 or IL-18R1 is responsible for protection from rMA15.",
+      "key": "4681d9a6ba60ba986ebfb37bb2a06d2b",
+      "line": 69,
+      "relation": "decreases",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "flow cytometry": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "Technique": {
+          "Histopathology": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "The histological and flow cytometric analyses outlined above suggested that monocytes/macrophages are i) the major cell population increased in the SARS-infected lung at early times post-infection, ii) increased in the lung by a MyD88-dependent mechanism, and iii) critical for protection against severe rMA15-induced disease.",
+      "key": "44ae2bb3d586bd1ed9e51d013ea792ea",
+      "line": 195,
+      "relation": "increases",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "flow cytometry": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "Technique": {
+          "Histopathology": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "The histological and flow cytometric analyses outlined above suggested that monocytes/macrophages are i) the major cell population increased in the SARS-infected lung at early times post-infection, ii) increased in the lung by a MyD88-dependent mechanism, and iii) critical for protection against severe rMA15-induced disease.",
+      "key": "0dae3ab5e4729c87343c45146f3d38f6",
+      "line": 196,
+      "relation": "increases",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Mouse_type": {
+          "CCR1-/-": true,
+          "CCR2-/-": true,
+          "CCR5-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Fig 6. In contrast, mice deficient in either CCR1, CCR2, or CCR5 exhibited more prominent airway epithelial cell apoptosis, a severe denuding bronchiolitis with an accumulation of cohesive apoptotic debris within the airway (empty arrowhead) ,and perivenular/periarterial cuffing (filled arrowhead) but there was a distinct lack of cuffing around the affected airways.",
+      "key": "2f0d5c7b2f72f9f3d207383cd41bf66c",
+      "line": 217,
+      "relation": "positiveCorrelation",
+      "source": 19,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Mouse_type": {
+          "MyD88-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "Timeline": {
+          "6 dpi": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Interestingly, by 6 dpi, the severity of PBV edema and denuding bronchiolitis in MyD88-/- mice had waned, and signs of lung inflammation were evident, with marked PBV infiltrates and perivascular cuffing even more severe than that seen in WT mice at similar times post infection.",
+      "key": "6aee889e24322269804db7c375237b39",
+      "line": 176,
+      "relation": "increases",
+      "source": 20,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Bronchi": true
+        },
+        "Mouse_type": {
+          "MyD88-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "Timeline": {
+          "6 dpi": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Interestingly, by 6 dpi, the severity of PBV edema and denuding bronchiolitis in MyD88-/- mice had waned, and signs of lung inflammation were evident, with marked PBV infiltrates and perivascular cuffing even more severe than that seen in WT mice at similar times post infection.",
+      "key": "011cdc065e2af913bc84a414270db1a4",
+      "line": 178,
+      "relation": "increases",
+      "source": 20,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "Mouse_type": {
+          "CCR1-/-": true,
+          "CCR2-/-": true,
+          "CCR5-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Fig 6. In contrast, mice deficient in either CCR1, CCR2, or CCR5 exhibited more prominent airway epithelial cell apoptosis, a severe denuding bronchiolitis with an accumulation of cohesive apoptotic debris within the airway (empty arrowhead) ,and perivenular/periarterial cuffing (filled arrowhead) but there was a distinct lack of cuffing around the affected airways.",
+      "key": "1fbba401578e4a2ac4a24e7a5e134aa0",
+      "line": 211,
+      "relation": "negativeCorrelation",
+      "source": 11,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "Mouse_type": {
+          "CCR1-/-": true,
+          "CCR2-/-": true,
+          "CCR5-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Fig 6. In contrast, mice deficient in either CCR1, CCR2, or CCR5 exhibited more prominent airway epithelial cell apoptosis, a severe denuding bronchiolitis with an accumulation of cohesive apoptotic debris within the airway (empty arrowhead) ,and perivenular/periarterial cuffing (filled arrowhead) but there was a distinct lack of cuffing around the affected airways.",
+      "key": "c6526f07a5fd106f1eca6daddac35207",
+      "line": 212,
+      "relation": "negativeCorrelation",
+      "source": 12,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "Mouse_type": {
+          "CCR1-/-": true,
+          "CCR2-/-": true,
+          "CCR5-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Fig 6. In contrast, mice deficient in either CCR1, CCR2, or CCR5 exhibited more prominent airway epithelial cell apoptosis, a severe denuding bronchiolitis with an accumulation of cohesive apoptotic debris within the airway (empty arrowhead) ,and perivenular/periarterial cuffing (filled arrowhead) but there was a distinct lack of cuffing around the affected airways.",
+      "key": "73c7d78c6499f2c40ab69abd8dfa0488",
+      "line": 213,
+      "relation": "negativeCorrelation",
+      "source": 13,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Epithelial Cells": true
+        },
+        "Mouse_type": {
+          "CCR1-/-": true,
+          "CCR2-/-": true,
+          "CCR5-/-": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Baric RS",
+          "Funkhouser W",
+          "Heise MT",
+          "Morrison TE",
+          "Sheahan T",
+          "Uematsu S"
+        ],
+        "date": "2008-12-01",
+        "db": "PubMed",
+        "db_id": "19079579",
+        "db_name": "PLoS pathogens",
+        "first": "Sheahan T",
+        "last": "Heise MT",
+        "pages": "e1000240",
+        "volume": "4"
+      },
+      "evidence": "Fig 6. In contrast, mice deficient in either CCR1, CCR2, or CCR5 exhibited more prominent airway epithelial cell apoptosis, a severe denuding bronchiolitis with an accumulation of cohesive apoptotic debris within the airway (empty arrowhead) ,and perivenular/periarterial cuffing (filled arrowhead) but there was a distinct lack of cuffing around the affected airways.",
+      "key": "56da3473827a8f1dacbe5161337d6298",
+      "line": 215,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 2
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(MESH:Macrophages)",
+      "concept": {
+        "name": "Macrophages",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "311e39dad42597c983d7962f84ee92b6"
+    },
+    {
+      "bel": "a(MESH:Monocytes)",
+      "concept": {
+        "name": "Monocytes",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "cb51e019d107bf85f8e6744f36d4a5bb"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "a824ba056422b4e42996cd3269ec9a19"
+    },
+    {
+      "bel": "bp(GO:\"MyD88-dependent toll-like receptor signaling pathway\")",
+      "concept": {
+        "name": "MyD88-dependent toll-like receptor signaling pathway",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "24f5935b0b2629be4f76b922365f819e"
+    },
+    {
+      "bel": "bp(GO:\"apoptotic process\")",
+      "concept": {
+        "name": "apoptotic process",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "9eb8739869ef0e82697f61a33d3d6afa"
+    },
+    {
+      "bel": "bp(GO:\"cell wall thickening\")",
+      "concept": {
+        "name": "cell wall thickening",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "8f88317a0f20b1171d44f32175540058"
+    },
+    {
+      "bel": "bp(MESH:Morbidity)",
+      "concept": {
+        "name": "Morbidity",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "d87c2b2499f30f355a70424129ac29dd"
+    },
+    {
+      "bel": "bp(MESH:Mortality)",
+      "concept": {
+        "name": "Mortality",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "ad03273e003ff42e1987a418c3483e17"
+    },
+    {
+      "bel": "p(MGI:Ccl2)",
+      "concept": {
+        "name": "Ccl2",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "21140d096b8da36db209e0ae421217c2"
+    },
+    {
+      "bel": "p(MGI:Ccl3)",
+      "concept": {
+        "name": "Ccl3",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "d5e4d4378aa5322c02d921f58f13f208"
+    },
+    {
+      "bel": "p(MGI:Ccl5)",
+      "concept": {
+        "name": "Ccl5",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "90df0ecf7dc759d19c9010000cc67a76"
+    },
+    {
+      "bel": "p(MGI:Ccr1)",
+      "concept": {
+        "name": "Ccr1",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "0242ddddbc90f888a021a3932388caa6"
+    },
+    {
+      "bel": "p(MGI:Ccr2)",
+      "concept": {
+        "name": "Ccr2",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "be70d6b4a6550b031179f1bc6077c800"
+    },
+    {
+      "bel": "p(MGI:Ccr5)",
+      "concept": {
+        "name": "Ccr5",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "cc9c4c22ce01ad668e47b4307e64cf14"
+    },
+    {
+      "bel": "p(MGI:Il1b)",
+      "concept": {
+        "name": "Il1b",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "d3c8a0f2556b008ddf2008821247671a"
+    },
+    {
+      "bel": "p(MGI:Il6)",
+      "concept": {
+        "name": "Il6",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "461076a43183c4f1e4e9b4954be313fe"
+    },
+    {
+      "bel": "p(MGI:Tlr3)",
+      "concept": {
+        "name": "Tlr3",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "dfe120b49e23bc150f86bb7491f2dc28"
+    },
+    {
+      "bel": "p(MGI:Tnf)",
+      "concept": {
+        "name": "Tnf",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "cd5c5c12b7855d35a3e18c5ee16eb074"
+    },
+    {
+      "bel": "path(DO:\"pulmonary edema\")",
+      "concept": {
+        "name": "pulmonary edema",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "e4929e22be444025c7b6bbfbed819a45"
+    },
+    {
+      "bel": "path(DO:bronchiolitis)",
+      "concept": {
+        "name": "bronchiolitis",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "ca97d6c7199af256d364eb08cbb51dcd"
+    },
+    {
+      "bel": "path(DO:pneumonia)",
+      "concept": {
+        "name": "pneumonia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "274776fc664e9bfd9c191cca80623b0d"
+    },
+    {
+      "bel": "path(MESH:\"Weight Loss\")",
+      "concept": {
+        "name": "Weight Loss",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "3cc28e131ac0c00934fa04597d7e31d1"
+    }
+  ]
+}

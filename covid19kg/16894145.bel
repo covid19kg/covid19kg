@@ -1,0 +1,120 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "16894145.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+
+DEFINE ANNOTATION Custom_Species AS LIST {"8353"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","16894145"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "Results show that SARS patients’ sera contain high levels of IgG recognizing 3a protein (Fig. 1A)."
+SET Species = "9606"
+SET BioAssay = "ELISA"
+SET MeSHAnatomy = "Serum"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> path(DO:"severe acute respiratory syndrome")
+p(UNIPROT:P59632) -- path(DO:"severe acute respiratory syndrome")
+UNSET Species
+UNSET BioAssay
+UNSET MeSHAnatomy
+
+SET Evidence = "A 37-kDa protein (3a protein) was recognized by the anti-LH21 Ab in virus-infected cell lysate but not in uninfected cell lysate (Fig. 1B), which indicates an active expression of 3a protein in the virus-infected cells."
+SET CellLine = "FRhK-4 cell"
+SET BioAssay = "western blot"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(UNIPROT:P59632)
+UNSET BioAssay
+
+SET Evidence = "Fig. 1C reveals a high density of the 3a protein at the cell membrane and also in the cytoplasm and the nucleus of the infected cells."
+SET BioAssay = {"confocal microscopy", "immunohistochemistry"}
+p(UNIPROT:P59632) -- a(GO:"plasma membrane")
+p(UNIPROT:P59632) -- a(GO:"cytoplasm")
+p(UNIPROT:P59632) -- a(GO:"nucleus")
+
+SET Evidence = "These findings demonstrate that 3a protein is a transmembrane protein with an extracellular N terminus and an intracellular C terminus (Fig. 2C)."
+p(UNIPROT:P59632) isA a(MESH:"Membrane Proteins")
+UNSET BioAssay
+UNSET CellLine
+
+SET Evidence = "The sizes of 75 kDa and 150 kDa destroyed by DTT strongly suggest that they may correspond to homodimers and homotetramers of 3a protein."
+SET CellLine = "HEK293"
+SET BioAssay = "western blot"
+complex(p(UNIPROT:P59632),p(UNIPROT:P59632))
+
+SET Evidence = "However, mutation M6 on cysteine 133 led to near abrogation of both dimers and tetramers of the protein, suggesting that this cysteine is involved in 3a protein polymerization."
+p(UNIPROT:P59632, var("p.Cys133Ala")) -| complex(p(UNIPROT:P59632),p(UNIPROT:P59632))
+UNSET BioAssay
+UNSET CellLine
+
+SET Evidence = "The 3a protein expression for both wild-type and M6 mutant was revealed on the oocyte cell membranes by anti-LH21 Ab and confocal microscopy (Fig. 4 B and C)."
+SET Custom_Species = "8353"
+SET Cell = "oocyte"
+SET BioAssay = {"confocal microscopy", "immunohistochemistry"}
+p(UNIPROT:P59632) -- a(GO:"plasma membrane")
+p(UNIPROT:P59632, var("p.Cys133Ala")) -- a(GO:"plasma membrane")
+UNSET BioAssay
+
+SET Evidence = "We observed that oocytes expressing 3a protein at their membrane
+surface led to a dramatic increase of membrane current over the entire potential range in 100 mM potassium solution (Fig. 4E)."
+SET BioAssay = "electrophysiological method"
+act(p(UNIPROT:P59632)) -> bp(GO:"potassium ion transmembrane transport")
+
+SET Evidence = "Expression of M6 mutant 3a protein, in contrast to expression of the native 3a protein, did not result in an increase of membrane current when extracellular potassium concentration was kept at 100 mM; the current was similar to that of noninjected oocytes (Fig. 4E)."
+p(UNIPROT:P59632, var("p.Cys133Ala")) -| bp(GO:"potassium ion transmembrane transport")
+
+SET Evidence = "The 3a-mediated potassium-sensitive current could be completely blocked by 10 mM barium in the bath solution (Fig. 4F)."
+p(UNIPROT:P59632) -- bp(GO:"potassium channel activity")
+bp(GO:"potassium channel activity") -> bp(GO:"potassium ion transmembrane transport")
+UNSET BioAssay
+UNSET Custom_Species
+UNSET Cell
+
+SET Evidence = "The results suggest that the viral 3a protein function may contribute to the release of the virus from infected cells."
+SET CellLine = "FRhK-4 cell"
+SET BioAssay = {"titration method", "quantitative reverse transcription PCR"}
+act(p(UNIPROT:P59632)) -> bp(GO:"viral release from host cell")
+UNSET BioAssay
+UNSET CellLine
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

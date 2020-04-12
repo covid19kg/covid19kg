@@ -1,0 +1,763 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Sample": [
+        "Supernatant"
+      ],
+      "Section": [
+        "Full Text"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "CellLine": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+    },
+    "document_metadata": {
+      "authors": "Thrishna",
+      "contact": "thrishna@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "16014971.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+    },
+    "path": "16014971.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "BioAssay": {
+          "reverse transcription PCR": true
+        },
+        "CellLine": {
+          "A549 cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan DZ",
+          "Chou CF",
+          "Fielding BC",
+          "Hong W",
+          "Lim SG",
+          "Shen S",
+          "Tan TH",
+          "Tan YJ",
+          "Tham PY"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16014971",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "10083-7",
+        "volume": "79"
+      },
+      "evidence": "The results showed that all three subunits, Aα, Bβ, and γ, of fibrinogen (Table ​(Table1)1) were strongly up-regulated in the 3a-expressing clones.",
+      "key": "bc7e73ce56790ef79ba2aed65edb5ee7",
+      "line": 44,
+      "relation": "increases",
+      "source": 7,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 8
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "reverse transcription PCR": true
+        },
+        "CellLine": {
+          "A549 cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan DZ",
+          "Chou CF",
+          "Fielding BC",
+          "Hong W",
+          "Lim SG",
+          "Shen S",
+          "Tan TH",
+          "Tan YJ",
+          "Tham PY"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16014971",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "10083-7",
+        "volume": "79"
+      },
+      "evidence": "The results showed that all three subunits, Aα, Bβ, and γ, of fibrinogen (Table ​(Table1)1) were strongly up-regulated in the 3a-expressing clones.",
+      "key": "52a9820c21853048ab9519fd11209437",
+      "line": 45,
+      "relation": "increases",
+      "source": 7,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "reverse transcription PCR": true
+        },
+        "CellLine": {
+          "A549 cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan DZ",
+          "Chou CF",
+          "Fielding BC",
+          "Hong W",
+          "Lim SG",
+          "Shen S",
+          "Tan TH",
+          "Tan YJ",
+          "Tham PY"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16014971",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "10083-7",
+        "volume": "79"
+      },
+      "evidence": "The results showed that all three subunits, Aα, Bβ, and γ, of fibrinogen (Table ​(Table1)1) were strongly up-regulated in the 3a-expressing clones.",
+      "key": "1f0e8b3d646a493781c23b39814854a8",
+      "line": 46,
+      "relation": "increases",
+      "source": 7,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 10
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "reverse transcription PCR": true
+        },
+        "CellLine": {
+          "A549 cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan DZ",
+          "Chou CF",
+          "Fielding BC",
+          "Hong W",
+          "Lim SG",
+          "Shen S",
+          "Tan TH",
+          "Tan YJ",
+          "Tham PY"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16014971",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "10083-7",
+        "volume": "79"
+      },
+      "evidence": "The only other fibrinogen-related gene that showed an increase in the mRNA level in the 3a-expressing clones was Fgl-1 (Table ​(Table1,1, Fig. ​Fig.1B),1B), but the degree of up-regulation was less.",
+      "key": "e8f0e3c47b0d3ea028889b1ffc2d6c00",
+      "line": 52,
+      "relation": "increases",
+      "source": 7,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 12
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "reverse transcription PCR": true
+        },
+        "CellLine": {
+          "A549 cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan DZ",
+          "Chou CF",
+          "Fielding BC",
+          "Hong W",
+          "Lim SG",
+          "Shen S",
+          "Tan TH",
+          "Tan YJ",
+          "Tham PY"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16014971",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "10083-7",
+        "volume": "79"
+      },
+      "evidence": "The only other fibrinogen-related gene that showed an increase in the mRNA level in the 3a-expressing clones was Fgl-1 (Table ​(Table1,1, Fig. ​Fig.1B),1B), but the degree of up-regulation was less.",
+      "key": "a0d26d726c7279e9deb9ed2845f58190",
+      "line": 53,
+      "relation": "increases",
+      "source": 7,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 11
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "reverse transcription PCR": true
+        },
+        "CellLine": {
+          "A549 cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan DZ",
+          "Chou CF",
+          "Fielding BC",
+          "Hong W",
+          "Lim SG",
+          "Shen S",
+          "Tan TH",
+          "Tan YJ",
+          "Tham PY"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16014971",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "10083-7",
+        "volume": "79"
+      },
+      "evidence": "Interestingly, the mRNA level of CSPG2, which is involved in the extracellular matrix assembly (32), was also specifically up- regulated, with four different transcripts giving similar results (Table ​(Table1).1).",
+      "key": "a95358bf35da15eafb23a8c38d471e54",
+      "line": 61,
+      "relation": "increases",
+      "source": 7,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 13
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "western blot": true
+        },
+        "CellLine": {
+          "Huh7 cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan DZ",
+          "Chou CF",
+          "Fielding BC",
+          "Hong W",
+          "Lim SG",
+          "Shen S",
+          "Tan TH",
+          "Tan YJ",
+          "Tham PY"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16014971",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "10083-7",
+        "volume": "79"
+      },
+      "evidence": "Consistent with the increase in the mRNA, the Aα protein levels in the 3a-expressing clones were significantly higher than in the vector control (Fig. ​(Fig.2A,2A, panel b, lanes 4 to 6).",
+      "key": "ffafc77a8ed75a4240131ef488278f26",
+      "line": 71,
+      "relation": "increases",
+      "source": 7,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 2
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "western blot": true
+        },
+        "CellLine": {
+          "Huh7 cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan DZ",
+          "Chou CF",
+          "Fielding BC",
+          "Hong W",
+          "Lim SG",
+          "Shen S",
+          "Tan TH",
+          "Tan YJ",
+          "Tham PY"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16014971",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "10083-7",
+        "volume": "79"
+      },
+      "evidence": "Consistently, the levels of both Bβ and γ proteins in the 3a-expressing clones were also higher than that in the vector control (Fig. ​(Fig.2A,2A, panels c and a, lanes 4 to 6).",
+      "key": "98af392a0479b9c5f85daef17cd545a3",
+      "line": 78,
+      "relation": "increases",
+      "source": 7,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 3
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "western blot": true
+        },
+        "CellLine": {
+          "Huh7 cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan DZ",
+          "Chou CF",
+          "Fielding BC",
+          "Hong W",
+          "Lim SG",
+          "Shen S",
+          "Tan TH",
+          "Tan YJ",
+          "Tham PY"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16014971",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "10083-7",
+        "volume": "79"
+      },
+      "evidence": "Consistently, the levels of both Bβ and γ proteins in the 3a-expressing clones were also higher than that in the vector control (Fig. ​(Fig.2A,2A, panels c and a, lanes 4 to 6).",
+      "key": "43760a1f018d92af843b7d612130f497",
+      "line": 79,
+      "relation": "increases",
+      "source": 7,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 4
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "ELISA": true
+        },
+        "CellLine": {
+          "Huh7 cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan DZ",
+          "Chou CF",
+          "Fielding BC",
+          "Hong W",
+          "Lim SG",
+          "Shen S",
+          "Tan TH",
+          "Tan YJ",
+          "Tham PY"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16014971",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "10083-7",
+        "volume": "79"
+      },
+      "evidence": "As shown in Fig.2B,2B, high levels of fibrinogen (≈30 ng per 106 cells) were secreted from the 3a-expressing clones",
+      "key": "774715bd56ec9a5ff23da5078920f1af",
+      "line": 86,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "extracellular space",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "increases",
+      "source": 7,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 1
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "western blot": true
+        },
+        "CellLine": {
+          "Vero cell": true
+        },
+        "Sample": {
+          "Supernatant": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan DZ",
+          "Chou CF",
+          "Fielding BC",
+          "Hong W",
+          "Lim SG",
+          "Shen S",
+          "Tan TH",
+          "Tan YJ",
+          "Tham PY"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16014971",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "10083-7",
+        "volume": "79"
+      },
+      "evidence": "The level of fibrinogen in the culture supernatant from infected Vero E6 cells was also significantly higher than that from mock-infected cells (Fig. ​(Fig.3B,3B, P < 0.005), but we could not determine the concentration, as the assay was designed for measuring human fibrinogen and no standard from the African green monkeys was available",
+      "key": "4cf954adc1aad73e18f531a383ac517a",
+      "line": 105,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "extracellular space",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "increases",
+      "source": 7,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 1
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "western blot": true
+        },
+        "CellLine": {
+          "Vero cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan DZ",
+          "Chou CF",
+          "Fielding BC",
+          "Hong W",
+          "Lim SG",
+          "Shen S",
+          "Tan TH",
+          "Tan YJ",
+          "Tham PY"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16014971",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "10083-7",
+        "volume": "79"
+      },
+      "evidence": "The expression of fibrinogen γ was higher in infected cells than mock- infected cells (Fig. ​(Fig.3A).3A).",
+      "key": "691296499464fd4bec65f356cbef20a3",
+      "line": 95,
+      "relation": "increases",
+      "source": 7,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 6
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "reverse transcription PCR": true
+        },
+        "CellLine": {
+          "A549 cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan DZ",
+          "Chou CF",
+          "Fielding BC",
+          "Hong W",
+          "Lim SG",
+          "Shen S",
+          "Tan TH",
+          "Tan YJ",
+          "Tham PY"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16014971",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "10083-7",
+        "volume": "79"
+      },
+      "evidence": "Interestingly, the mRNA level of CSPG2, which is involved in the extracellular matrix assembly (32), was also specifically up- regulated, with four different transcripts giving similar results (Table ​(Table1).1).",
+      "key": "23ead5a6a1eaa9acbca7a1689bca92b2",
+      "line": 60,
+      "relation": "association",
+      "source": 5,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "reverse transcription PCR": true
+        },
+        "CellLine": {
+          "A549 cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan DZ",
+          "Chou CF",
+          "Fielding BC",
+          "Hong W",
+          "Lim SG",
+          "Shen S",
+          "Tan TH",
+          "Tan YJ",
+          "Tham PY"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16014971",
+        "db_name": "Journal of virology",
+        "first": "Tan YJ",
+        "last": "Hong W",
+        "pages": "10083-7",
+        "volume": "79"
+      },
+      "evidence": "Interestingly, the mRNA level of CSPG2, which is involved in the extracellular matrix assembly (32), was also specifically up- regulated, with four different transcripts giving similar results (Table ​(Table1).1).",
+      "key": "48e0373faa39054877ae967f7fc756e0",
+      "line": 60,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "association",
+      "source": 0,
+      "target": 5
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "bp(GO:\"extracellular matrix assembly\")",
+      "concept": {
+        "name": "extracellular matrix assembly",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "f5d393b28a2c8e137a58ff75dc3d2a80"
+    },
+    {
+      "bel": "complex(GO:\"fibrinogen complex\")",
+      "concept": {
+        "name": "fibrinogen complex",
+        "namespace": "GO"
+      },
+      "function": "Complex",
+      "id": "697dbe965c64fc34ca900b8c20f182cc"
+    },
+    {
+      "bel": "p(HGNC:FGA)",
+      "concept": {
+        "name": "FGA",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bc8ec123cf4fe3c124d004dd893e6089"
+    },
+    {
+      "bel": "p(HGNC:FGB)",
+      "concept": {
+        "name": "FGB",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "5f1e88a85edc1b8b3a57558f37373dae"
+    },
+    {
+      "bel": "p(HGNC:FGG)",
+      "concept": {
+        "name": "FGG",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "e7efda93556e7349557e860c0ebc1a3a"
+    },
+    {
+      "bel": "p(HGNC:VCAN)",
+      "concept": {
+        "name": "VCAN",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "5a81a19fe8e6e44d309a38ebb3572b57"
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9S1P0)",
+      "concept": {
+        "name": "A0A0D9S1P0",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "5fb9f90123aa80439f0b6e59fd2dcc36"
+    },
+    {
+      "bel": "p(UNIPROT:P59632)",
+      "concept": {
+        "name": "P59632",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "3f9bf94203188b4bd8e831d4e61cb9cc"
+    },
+    {
+      "bel": "r(HGNC:FGA)",
+      "concept": {
+        "name": "FGA",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "215f54b56ae28a81c8af6ded2a0a97d8"
+    },
+    {
+      "bel": "r(HGNC:FGB)",
+      "concept": {
+        "name": "FGB",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "085cc336f8c55e5aa3ed5d1330230b74"
+    },
+    {
+      "bel": "r(HGNC:FGG)",
+      "concept": {
+        "name": "FGG",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "8bce2f79fa37d16491d8ee1bd695a5db"
+    },
+    {
+      "bel": "r(HGNC:FGL1)",
+      "concept": {
+        "name": "FGL1",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "3575299fa3b3047958e0e119733463e2"
+    },
+    {
+      "bel": "r(HGNC:FGL2)",
+      "concept": {
+        "name": "FGL2",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "f647a66ab4be39cb30588aed60d9a689"
+    },
+    {
+      "bel": "r(HGNC:VCAN)",
+      "concept": {
+        "name": "VCAN",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "8fe182770fc1ed962821c65dbf50fb70"
+    }
+  ]
+}

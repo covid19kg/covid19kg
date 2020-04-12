@@ -1,0 +1,2153 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19",
+        "acid-induced acute lung injury"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Review"
+      ],
+      "Section": [
+        "Full Text"
+      ],
+      "expression_level": [
+        "overexpression"
+      ],
+      "protein_abundance": [
+        "excessive"
+      ],
+      "protein_type": [
+        "solube"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20170511.belanno",
+      "MeSHDisease": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Thrishna",
+      "contact": "thrishna@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32125455.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "FIXME": ".*",
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "MGI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32125455.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "expression_level": {
+          "overexpression": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Overexpression of human ACE2 enhanced disease severity in a mouse model of SARS-CoV infection, demonstrating that viral entry into cells is a critical step [11]",
+      "key": "c245cac4aa6df447e60eb4795146fe61",
+      "line": 56,
+      "relation": "increases",
+      "source": 17,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 6
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Critically, this injury was attenuated by blocking the renin- angiotensin pathway and depended on ACE2 expression [12].",
+      "key": "567840629ffb92e2a65d45b0a45ad862",
+      "line": 71,
+      "relation": "association",
+      "source": 17,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 21
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Kuba et al. [10] demonstrated in mice that SARS-CoV downregulates ACE2 protein (but not ACE) by binding its spike protein, contributing to severe lung injury.",
+      "key": "e8395e80a9ff608fae11a03577739456",
+      "line": 129,
+      "relation": "negativeCorrelation",
+      "source": 17,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 21
+    },
+    {
+      "key": "c598f4182a4a36337dc332074fafea76",
+      "relation": "partOf",
+      "source": 17,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "protein_abundance": {
+          "excessive": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "This suggests that excessive ACE2 may competitively bind with SARS- CoV-2 not only to neutralize the virus but also rescue cellular ACE2 activity which negatively regulates the renin-angiotensin system (RAS) to protect the lung from injury [12, 30].",
+      "key": "a3d6e1dfa8a9df4b13adaca5030f3ef6",
+      "line": 141,
+      "relation": "negativeCorrelation",
+      "source": 17,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 8
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "expression_level": {
+          "overexpression": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Overexpression of human ACE2 enhanced disease severity in a mouse model of SARS-CoV infection, demonstrating that viral entry into cells is a critical step [11]",
+      "key": "c3cba761c8e50196c41ef28535fdc9cd",
+      "line": 57,
+      "relation": "increases",
+      "source": 6,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Using normal lung tissue from eight adult donors, Zhao et al. [14] demonstrated that 83% of ACE2-expressing cells were alveolar epithelial type II cells (AECII), suggesting that these cells can serve as a reservoir for viral invasion.",
+      "key": "a120a6af72174fb6b7a517a5215ec390",
+      "line": 102,
+      "relation": "association",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "protein_type": {
+          "solube": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Thus, treatment with a soluble form of ACE2 itself may exert dual functions: (1) slow viral entry into cells and hence viral spread [7, 9] and (2) protect the lung from injury [10, 12, 31, 32]",
+      "key": "48ee800ca66bb11b71d2dd2accaa3aee",
+      "line": 163,
+      "relation": "increases",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "injecting SARS-CoV spike into mice worsened lung injury.",
+      "key": "4c57e0a456fabf26c28fd33e791c1c2c",
+      "line": 62,
+      "relation": "association",
+      "source": 5,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "We therefore previously suggested that in contrast to most other coronaviruses, SARS-CoV became highly lethal because the virus deregulates a lung protective pathway [10, 12].",
+      "key": "258072913593c4f7d17dc0a7fe9dc159",
+      "line": 86,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "injecting SARS-CoV spike into mice worsened lung injury.",
+      "key": "3a15dbc12c66524a340e7002f607bc58",
+      "line": 62,
+      "relation": "association",
+      "source": 18,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "injecting SARS-CoV spike into mice worsened lung injury.",
+      "key": "9c5d037612ee50bbec344602e5027c29",
+      "line": 63,
+      "relation": "increases",
+      "source": 18,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 21
+    },
+    {
+      "key": "edd844d93f41b8a034bb346709bc07c3",
+      "relation": "partOf",
+      "source": 18,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Critically, this injury was attenuated by blocking the renin- angiotensin pathway and depended on ACE2 expression [12].",
+      "key": "22cde8ac69a6742d95d45d1b968cd96b",
+      "line": 70,
+      "relation": "positiveCorrelation",
+      "source": 21,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "protein_abundance": {
+          "excessive": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "This suggests that excessive ACE2 may competitively bind with SARS- CoV-2 not only to neutralize the virus but also rescue cellular ACE2 activity which negatively regulates the renin-angiotensin system (RAS) to protect the lung from injury [12, 30].",
+      "key": "7bf13ddd453f406a4b09224702de5bbf",
+      "line": 142,
+      "relation": "positiveCorrelation",
+      "source": 21,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Critically, this injury was attenuated by blocking the renin- angiotensin pathway and depended on ACE2 expression [12].",
+      "key": "d8421f462f0df63dc5a662170da1bee5",
+      "line": 71,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "association",
+      "source": 21,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Kuba et al. [10] demonstrated in mice that SARS-CoV downregulates ACE2 protein (but not ACE) by binding its spike protein, contributing to severe lung injury.",
+      "key": "a52cbf18a36bc9aa0d57c93ff01e2f13",
+      "line": 129,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "negativeCorrelation",
+      "source": 21,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Thus, for SARS-CoV pathogenesis, ACE2 is not only the entry receptor of the virus but also protects from lung injury.",
+      "key": "99b0a92c9ae6f0b5aa1a26406a024803",
+      "line": 80,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "negativeCorrelation",
+      "source": 21,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "acid-induced acute lung injury": true
+        },
+        "MeSHDisease": {
+          "Ventilator-Induced Lung Injury": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Indeed, enhanced ACE activity and decreased ACE2 availability contribute to lung injury during acid- and ventilator-induced lung injury [12, 31, 32].",
+      "key": "1480d3b902676e1c1194cf37b0ae3c49",
+      "line": 152,
+      "relation": "negativeCorrelation",
+      "source": 21,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "protein_type": {
+          "solube": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Thus, treatment with a soluble form of ACE2 itself may exert dual functions: (1) slow viral entry into cells and hence viral spread [7, 9] and (2) protect the lung from injury [10, 12, 31, 32]",
+      "key": "4913531d65d536f0226ff9073831bd3a",
+      "line": 164,
+      "relation": "negativeCorrelation",
+      "source": 21,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "We therefore previously suggested that in contrast to most other coronaviruses, SARS-CoV became highly lethal because the virus deregulates a lung protective pathway [10, 12].",
+      "key": "fabaf8a16293e7f1b395a98a38fecf34",
+      "line": 86,
+      "relation": "positiveCorrelation",
+      "source": 21,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "acid-induced acute lung injury": true
+        },
+        "MeSHDisease": {
+          "Ventilator-Induced Lung Injury": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Indeed, enhanced ACE activity and decreased ACE2 availability contribute to lung injury during acid- and ventilator-induced lung injury [12, 31, 32].",
+      "key": "b56c8e40d2f554087dcab0afaef8c351",
+      "line": 151,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "positiveCorrelation",
+      "source": 21,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Critically, this injury was attenuated by blocking the renin- angiotensin pathway and depended on ACE2 expression [12].",
+      "key": "0799b64c0e6811b136a88c97256ccd91",
+      "line": 70,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "protein_abundance": {
+          "excessive": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "This suggests that excessive ACE2 may competitively bind with SARS- CoV-2 not only to neutralize the virus but also rescue cellular ACE2 activity which negatively regulates the renin-angiotensin system (RAS) to protect the lung from injury [12, 30].",
+      "key": "dd1d62496bfc6d282b6079c7b555a182",
+      "line": 142,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "protein_abundance": {
+          "excessive": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "This suggests that excessive ACE2 may competitively bind with SARS- CoV-2 not only to neutralize the virus but also rescue cellular ACE2 activity which negatively regulates the renin-angiotensin system (RAS) to protect the lung from injury [12, 30].",
+      "key": "6f4df9e900b7cd169f8016cea6c3ee25",
+      "line": 141,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "negativeCorrelation",
+      "source": 8,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Thus, for SARS-CoV pathogenesis, ACE2 is not only the entry receptor of the virus but also protects from lung injury.",
+      "key": "65ebdad663cd456bf0ffbd48470b4ff8",
+      "line": 79,
+      "relation": "increases",
+      "source": 14,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 6
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "protein_type": {
+          "solube": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Thus, treatment with a soluble form of ACE2 itself may exert dual functions: (1) slow viral entry into cells and hence viral spread [7, 9] and (2) protect the lung from injury [10, 12, 31, 32]",
+      "key": "5a74f0b7b13d2d845aa5d4300e73ad6b",
+      "line": 162,
+      "relation": "decreases",
+      "source": 14,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Thus, for SARS-CoV pathogenesis, ACE2 is not only the entry receptor of the virus but also protects from lung injury.",
+      "key": "2b8a308ed02a86ea4bde987df8767abb",
+      "line": 80,
+      "relation": "negativeCorrelation",
+      "source": 14,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "acid-induced acute lung injury": true
+        },
+        "MeSHDisease": {
+          "Ventilator-Induced Lung Injury": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Indeed, enhanced ACE activity and decreased ACE2 availability contribute to lung injury during acid- and ventilator-induced lung injury [12, 31, 32].",
+      "key": "90cdbaf968d24b208bd2c5fa010e2ada",
+      "line": 152,
+      "relation": "negativeCorrelation",
+      "source": 14,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "protein_type": {
+          "solube": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Thus, treatment with a soluble form of ACE2 itself may exert dual functions: (1) slow viral entry into cells and hence viral spread [7, 9] and (2) protect the lung from injury [10, 12, 31, 32]",
+      "key": "350b6885072e3b14a6481c8643eeccbf",
+      "line": 164,
+      "relation": "negativeCorrelation",
+      "source": 14,
+      "target": 21
+    },
+    {
+      "key": "1db03b2523b3b2cd2b465edf9382bc2a",
+      "relation": "partOf",
+      "source": 14,
+      "target": 10
+    },
+    {
+      "key": "52cb6d8fcf894bbfe8497cecebc5b0d1",
+      "relation": "partOf",
+      "source": 14,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "In summary, the SARS-CoV-2 spike protein directly binds with the host cell surface ACE2 receptor facilitating virus entry and replication.",
+      "key": "2818cbd30d75b754091e98ba16353ab5",
+      "line": 92,
+      "relation": "association",
+      "source": 4,
+      "target": 12
+    },
+    {
+      "key": "9b5e6ebdb508b622c266b4b986bd47ee",
+      "relation": "partOf",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "In summary, the SARS-CoV-2 spike protein directly binds with the host cell surface ACE2 receptor facilitating virus entry and replication.",
+      "key": "69a2eb7451287073877f12d82cd587ac",
+      "line": 92,
+      "relation": "association",
+      "source": 12,
+      "target": 4
+    },
+    {
+      "key": "cc2d182e46a7afcbe8de0b32b4f87ed1",
+      "relation": "partOf",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Hoffman et al. [25] recently demonstrated that initial spike protein priming by transmembrane protease serine 2 (TMPRSS2) is essential for entry and viral spread of SARS-CoV-2 through interaction with the ACE2 receptor [26, 27].",
+      "key": "7257ce474c0f54e70f610ce370d3b8e2",
+      "line": 111,
+      "relation": "increases",
+      "source": 12,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "In summary, the SARS-CoV-2 spike protein directly binds with the host cell surface ACE2 receptor facilitating virus entry and replication.",
+      "key": "7154f7d946c82c62d9db190e850e9f0f",
+      "line": 93,
+      "relation": "increases",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "In summary, the SARS-CoV-2 spike protein directly binds with the host cell surface ACE2 receptor facilitating virus entry and replication.",
+      "key": "b8448bd3a67c834c91cc07414e9450fb",
+      "line": 94,
+      "relation": "increases",
+      "source": 10,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Using normal lung tissue from eight adult donors, Zhao et al. [14] demonstrated that 83% of ACE2-expressing cells were alveolar epithelial type II cells (AECII), suggesting that these cells can serve as a reservoir for viral invasion.",
+      "key": "14af78cdf97d337875838e4756731112",
+      "line": 102,
+      "relation": "association",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Hoffman et al. [25] recently demonstrated that initial spike protein priming by transmembrane protease serine 2 (TMPRSS2) is essential for entry and viral spread of SARS-CoV-2 through interaction with the ACE2 receptor [26, 27].",
+      "key": "b83bc1d4a3d2f1e71581f9bc2fdd9348",
+      "line": 110,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 16,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 12
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "The serine protease inhibitor camostat mesylate, approved in Japan to treat unrelated diseases, has been shown to block TMPRSS2 activity [28, 29] and is thus an interesting candidate.",
+      "key": "ab3784269ab80af1ba28c97e3f747190",
+      "line": 120,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "decreases",
+      "source": 1,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Kuba et al. [10] demonstrated in mice that SARS-CoV downregulates ACE2 protein (but not ACE) by binding its spike protein, contributing to severe lung injury.",
+      "key": "3fdfa64c4285571c7b40b0f9b1e9188f",
+      "line": 128,
+      "relation": "decreases",
+      "source": 11,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "protein_abundance": {
+          "excessive": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "This suggests that excessive ACE2 may competitively bind with SARS- CoV-2 not only to neutralize the virus but also rescue cellular ACE2 activity which negatively regulates the renin-angiotensin system (RAS) to protect the lung from injury [12, 30].",
+      "key": "fe59f31e02acc57ce5a961153bef19f5",
+      "line": 139,
+      "relation": "decreases",
+      "source": 9,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "protein_abundance": {
+          "excessive": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "This suggests that excessive ACE2 may competitively bind with SARS- CoV-2 not only to neutralize the virus but also rescue cellular ACE2 activity which negatively regulates the renin-angiotensin system (RAS) to protect the lung from injury [12, 30].",
+      "key": "5a3da79d6654b8788c67fd3b3ba424f9",
+      "line": 140,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 9,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "acid-induced acute lung injury": true
+        },
+        "MeSHDisease": {
+          "Ventilator-Induced Lung Injury": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Indeed, enhanced ACE activity and decreased ACE2 availability contribute to lung injury during acid- and ventilator-induced lung injury [12, 31, 32].",
+      "key": "e5dd918332ce0170cf640e4b4bbc8918",
+      "line": 151,
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 21
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "Notably, a recombinant human ACE2 (rhACE2; APN01, GSK2586881) has been found to be safe, with no negative hemodynamic effects in healthy volunteers and in a small cohort of patients with ARDS [33–35].",
+      "key": "c0c7db12d4ab0aa986af52441cb40a3e",
+      "line": 172,
+      "relation": "decreases",
+      "source": 2,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "The administration of APN01 rapidly decreased levels of its proteolytic target peptide angiotensin II, with a trend to lower plasma IL-6 concentrations.",
+      "key": "df0b20cd3a05ea827be5e672361cc8ce",
+      "line": 178,
+      "relation": "decreases",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li Y",
+          "Penninger JM",
+          "Slutsky AS",
+          "Zhang H",
+          "Zhong N"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32125455",
+        "db_name": "Intensive care medicine",
+        "first": "Zhang H",
+        "last": "Slutsky AS",
+        "pages": "586-590",
+        "volume": "46"
+      },
+      "evidence": "The administration of APN01 rapidly decreased levels of its proteolytic target peptide angiotensin II, with a trend to lower plasma IL-6 concentrations.",
+      "key": "62fdeee8bf4692b1ce3e73c3f2a314a1",
+      "line": 179,
+      "relation": "decreases",
+      "source": 2,
+      "target": 15
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:\"angiotensin II\")",
+      "concept": {
+        "name": "angiotensin II",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "17c2386466aa664335d7eeca2063bf1f"
+    },
+    {
+      "bel": "a(CHEBI:\"camostat methanesulfonate\")",
+      "concept": {
+        "name": "camostat methanesulfonate",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "68b8bea3d75d55b77d60cfd54a4540e7"
+    },
+    {
+      "bel": "a(FIXME:\"Recombinant Human Angiotensin Converting Enzyme 2 APN01\")",
+      "concept": {
+        "name": "Recombinant Human Angiotensin Converting Enzyme 2 APN01",
+        "namespace": "FIXME"
+      },
+      "function": "Abundance",
+      "id": "c5a932faa69c371d17ee76f509e37e3c"
+    },
+    {
+      "bel": "a(MESH:\"Alveolar Epithelial Cells\")",
+      "concept": {
+        "name": "Alveolar Epithelial Cells",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "c286ed6e2b932ad22464b9557356c5b0"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "a824ba056422b4e42996cd3269ec9a19"
+    },
+    {
+      "bel": "bp(GO:\"viral entry into host cell\")",
+      "concept": {
+        "name": "viral entry into host cell",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "2a6e5ae8582e2cded25095e14c2ee329"
+    },
+    {
+      "bel": "bp(GO:\"viral genome replication\")",
+      "concept": {
+        "name": "viral genome replication",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "e08b08a1af1179857efa22393f4badf4"
+    },
+    {
+      "bel": "bp(MESH:\"Renin-Angiotensin System\")",
+      "concept": {
+        "name": "Renin-Angiotensin System",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "f80fbf58ffc396be8b673c9ad4850284"
+    },
+    {
+      "bel": "complex(a(TAX:\"Severe acute respiratory syndrome coronavirus 2\"), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "146428e3b0f07633969567cac441971e",
+      "members": [
+        {
+          "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+          "concept": {
+            "name": "Severe acute respiratory syndrome coronavirus 2",
+            "namespace": "TAX"
+          },
+          "function": "Abundance",
+          "id": "c41851da59cc36c21b2e8acf24c1f46d"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:S), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "6b8514d35b9a04dcfdf30d01d4a3a0a0",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(MGI:Ace2), p(UNIPROT:P59594))",
+      "function": "Complex",
+      "id": "0cbea16ead797fa82ad67c311d7fb660",
+      "members": [
+        {
+          "bel": "p(MGI:Ace2)",
+          "concept": {
+            "name": "Ace2",
+            "namespace": "MGI"
+          },
+          "function": "Protein",
+          "id": "9cb4733ab4e60addd6378f9f4c97eef9"
+        },
+        {
+          "bel": "p(UNIPROT:P59594)",
+          "concept": {
+            "name": "P59594",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "7543d9372e2f08df7ae62ef5685b391b"
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(HGNC:ACE)",
+      "concept": {
+        "name": "ACE",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "a42fa7a0be4ac760f67482e649ad0441"
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "p(HGNC:IL6)",
+      "concept": {
+        "name": "IL6",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "8a1d3c4828c5416eba867c395cc65caa"
+    },
+    {
+      "bel": "p(HGNC:TMPRSS2)",
+      "concept": {
+        "name": "TMPRSS2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "1ac71e8152c90a7b43c9bc546579050d"
+    },
+    {
+      "bel": "p(MGI:Ace2)",
+      "concept": {
+        "name": "Ace2",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "9cb4733ab4e60addd6378f9f4c97eef9"
+    },
+    {
+      "bel": "p(UNIPROT:P59594)",
+      "concept": {
+        "name": "P59594",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "7543d9372e2f08df7ae62ef5685b391b"
+    },
+    {
+      "bel": "path(DO:\"adult respiratory distress syndrome\")",
+      "concept": {
+        "name": "adult respiratory distress syndrome",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "13c578f210684ad9f22dd027aa28b11a"
+    },
+    {
+      "bel": "path(DO:\"severe acute respiratory syndrome\")",
+      "concept": {
+        "name": "severe acute respiratory syndrome",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "06fc6690e6ddfff254197e953a470c95"
+    },
+    {
+      "bel": "path(MESH:\"Lung Injury\")",
+      "concept": {
+        "name": "Lung Injury",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "0331236e5bff96357737ca4f300a8893"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32216803.bel"
+SET DOCUMENT Authors = "Shounak Baksi"
+SET DOCUMENT ContactInfo = "shounak.baksi@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+#DEFINE NAMESPACE ADO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/alzheimer-disease-ontology/alzheimer-disease-ontology-1.0.2.belns"
+#DEFINE NAMESPACE BRCO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/brain-region-ontology/brain-region-ontology-1.0.0.belns"
+#DEFINE NAMESPACE NIFT AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/nift/NIFT.belns"
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+#DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+#DEFINE NAMESPACE RGD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/rgd-rat-genes/rgd-rat-genes-20190128.belns"
+#DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+#DEFINE NAMESPACE SCOMP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-named-complexes/selventa-named-complexes-20190128.belns"
+#DEFINE NAMESPACE SFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-protein-families/selventa-protein-families-20190128.belns"
+#DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+#DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+#DEFINE NAMESPACE DRUGBANK AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns"
+#DEFINE NAMESPACE INTERPRO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/interpro/interpro-names-20181021.belns"
+#DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+#DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20190128.belns"
+#DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+#DEFINE NAMESPACE GOBP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns"
+#DEFINE NAMESPACE GOCC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20190128.belns"
+DEFINE NAMESPACE EFO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/efo/efo-20171206.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+#DEFINE NAMESPACE MESHC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-chemicals/mesh-chemicals-20190128.belns"
+#DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20190128.belns"
+#DEFINE NAMESPACE MESHPP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-processes/mesh-processes-20190128.belns"
+#DEFINE NAMESPACE MESHA AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-anatomy/mesh-anatomy-20190128.belns"
+#DEFINE NAMESPACE MESHCS AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-cellular-structures/mesh-cellular-structures-20190128.belns"
+#DEFINE NAMESPACE NCBIGENE AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-gene/ncbi-gene-20190224.belns"
+
+#DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+#DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+#DEFINE NAMESPACE dbSNP AS PATTERN "rs[0-9]+"
+#
+#
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+#DEFINE ANNOTATION Anatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno"
+#DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+#DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+#DEFINE ANNOTATION Disease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/disease/disease-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+#DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+#DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+#DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Cohort_Age AS LIST {"below 40", "above 60"}
+DEFINE ANNOTATION Severity AS LIST {"Severe"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review", "Research", "Case Report"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint", "Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text", "Abstract", "Results"}
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed", "Respir Res. 2020 Mar 26;21(1):74. doi: 10.1186/s12931-020-01338-8", "32216803"}
+SET PublicationType = "Case Report"
+SET Section = "Results"
+SET Custom_Disease = "COVID-19"
+SET Species = "9606"
+
+SET Evidence = "As shown by Table 1, <40 years or >60 years group was related to \
+higher risk of reaching the composite endpoint (R2 = 0.203, \
+P4 = 0.049)."
+
+SET Cohort_Age ="below 40"
+a(MESH:"Age of Onset") neg path(MESH:Mortality)
+#Composite endpoint is coded as mortality
+SET Cohort_Age = "above 60"
+a(MESH:"Age of Onset") pos path(MESH:Mortality)
+UNSET Cohort_Age
+
+SET Evidence = "Higher temperature was related to severe 2019 novel coronavirus \
+pneumonia and composite endpoint. (R1 = 0.362, R2 = 0.383, P3<0.001, \
+P4<0.001)."
+
+SET Severity = "Severe"
+bp(MESH:"Body Temperature") pos path(MESH:Mortality)
+
+SET Evidence = "> 10*10^9/L group were strongly related to severe 2019 novel \
+coronavirus pneumonia and composite endpoint. (R1 = 0.604, P3<0.001, \
+R2 = 0.543, P4<0.001)."
+
+SET MeSHAnatomy = "Blood"
+a(MESH:Leukocytes) pos path(MESH:Mortality)
+
+SET Evidence = "Higher neutrophil percentage was strongly related to severe 2019 novel \
+coronavirus pneumonia and composite endpoint. (R1 = 0.641, P3<0.001, \
+R2 = 0.492, P4<0.001)."
+
+a(MESH:Neutrophils) pos path(MESH:Mortality)
+
+SET Evidence = "Lower lymphocyte count was strongly related to severe 2019 novel \
+coronavirus pneumonia and composite endpoint. (R1 = -0.451, P3<0.001, \
+R2 = -0.415, P4<0.001)."
+
+a(MESH:Lymphocytes) neg path(MESH:Mortality)
+
+SET Evidence = "Higher C-reactive protein level was strongly related to severe 2019 \
+novel coronavirus pneumonia and composite endpoint. (R1 = 0.572, \
+P3<0.001, R2 = 0.503, P4<0.001)."
+
+a(MESH:"C-Reactive Protein") pos path(MESH:Mortality)
+
+SET Evidence = "Higher D-dimer level was strongly related to severe 2019 novel \
+coronavirus pneumonia and composite endpoint. (R1 = 0.717, \
+P3<0.001,R2 = 0.737,P4<0.001)."
+
+bp(EFO:"D dimer measurement") pos path(MESH:Mortality)
+
+SET Evidence = "Higher alanine aminotransferase activity was related to severe 2019 \
+novel coronavirus pneumonia and composite endpoint. (R1 = 0.243, \
+P3 = 0.013, R2 = 0.306, P4 = 0.002)."
+
+act(p(HGNC:GPT)) pos path(MESH:Mortality)
+
+SET Evidence = "Higher aspartate aminotransferase activity was related to severe 2019 \
+novel coronavirus pneumonia and composite endpoint. (R1 = 0.202, \
+P3 = 0.042, R2 = 0.325, P4 = 0.001)."
+
+act(p(HGNC:GOT1)) pos path(MESH:Mortality)
+act(p(HGNC:GOT2)) pos path(MESH:Mortality)
+
+SET Evidence = "Higher α - hydroxybutyrate dehydrogenase activity correlated strongly \
+with severe 2019 novel coronavirus pneumonia and composite endpoint. \
+(R1 = 0.449, P3<0.001, R2 = 0.439, P4<0.001)."
+
+act(p(HGNC:BDH1)) pos path(MESH:Mortality)
+
+SET Evidence = "Higher lactate dehydrogenase activity correlated strongly with severe \
+2019 novel coronavirus pneumonia and composite endpoint. (R1 = 0.454, \
+P3<0.001, R2 = 0.453, P4<0.001)."
+
+act(p(HGNC:LDHA)) pos path(MESH:Mortality)
+act(p(HGNC:LDHB)) pos path(MESH:Mortality)
+
+SET Evidence = "Higher creatine kinase activity correlated strongly with severe 2019 \
+novel coronavirus pneumonia and composite endpoint. (R1 = 0.231, \
+P3 = 0.019, R2 = 0.289, P4 = 0.003)."
+
+act(p(HGNC:CKB)) pos path(MESH:Mortality)
+
+SET Evidence = "Lower total protein level correlated with severe 2019 novel \
+coronavirus pneumonia and composite endpoint. (R1 = − 0.340, \
+P3 = 0.001, R2 = − 0.252, P4 = 0.015)."
+
+a(MESH:"Blood Proteins") neg path(MESH:Mortality)
+#a used instead of p , as mentioned in MESH file. 
+UNSET Severity
+UNSET MeSHAnatomy
+UNSET Species
+UNSET Custom_Disease

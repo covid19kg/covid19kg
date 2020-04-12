@@ -1,0 +1,72 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Jazzi_et.al_2020.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION Analysis AS LIST {"Molecular docking"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"DOI","10.20944/preprints202003.0457.v1"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+
+SET Evidence = "The docking score ADP ribose phosphate and losartan in the Molegro Virtual Docker software for for macrodomain was calculated -207 and -197, respectively (table3)."
+SET Analysis  = "Molecular docking"
+complex(a(PUBCHEM:192),p(COVID:ORF1ab, frag("819_2763")))
+complex(a(CHEBI:losartan),p(COVID:ORF1ab, frag("819_2763")))
+
+SET Evidence = "Losartan formed six hydrogen bonds with four amino acids, Phe132, Ser128, Gly180, and Ile131 by the distance between 1.83 and 2.44 Å."
+bp(MESH:"Hydrogen Bonding") -> complex(a(CHEBI:losartan),p(COVID:ORF1ab, frag("819_2763")))
+
+SET Evidence = "Besides, 20 hydrophobic contacts were exhibited with Asp22, Ile23, Phe156, Ala154, Val155, Lue164, Pro136, Pro125, Gly48, Gly51, Gly47, Gly46, Asn40, Ala39, His45, Leu127, Gly133 and Ile131 among the range 3.40-3.90 Å."
+bp(MESH:"Hydrophobic and Hydrophilic Interactions") -> complex(a(CHEBI:losartan),p(COVID:ORF1ab, frag("819_2763")))
+
+SET Evidence = "It was shown that ADP ribose phosphate, and losartan docking scores in the Molegro software were -149 and -157, respectively (table3)."
+complex(a(PUBCHEM:192),p(HGNC:TRPM2))
+complex(a(CHEBI:losartan),p(HGNC:TRPM2))
+
+SET Evidence = "Losartan was exhibited four hydrogen binds with Asn1487, Arg1433 and Ser1382 residues within the range of 1.8 –2.8 Å."
+bp(MESH:"Hydrogen Bonding") -> complex(a(CHEBI:losartan),p(HGNC:TRPM2))
+
+SET Evidence = "A total of 13 hydrophobic bonds were found with Pro1388, Val1377, Leu1379, Ser1382, Ala1386, His1348, and Tyr1349 in the range of 3.1-3.9 Å."
+bp(MESH:"Hydrophobic and Hydrophilic Interactions") -> complex(a(CHEBI:losartan),p(HGNC:TRPM2))
+
+SET Evidence = "In other words, despite of the more stability of the ADPR than Losartan, Losartan can compete to ADPR for creating a complex with macrodomain protein, and in the case of TRPM2, Losartan could be a proper inhibitor for TRPM2."
+a(CHEBI:losartan) -| p(HGNC:TRPM2)
+UNSET Analysis
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

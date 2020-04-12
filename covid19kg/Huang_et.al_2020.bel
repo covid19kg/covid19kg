@@ -1,0 +1,114 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Huang_et.al_2020.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+##################################################################################
+# Statements #
+##################################################################################
+#example#
+SET Citation = {"DOI", "XXX"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+SET BioAssay = "molecular docking"
+SET Evidence = "GS-5734, a well-known RdRp inhibitor,23 shown a moderate dock score of \
+36.24."
+
+a(PUBCHEM:121304016) -| p(COVID:ORF1ab, frag("4393_5324"))
+complex(a(PUBCHEM:121304016), p(COVID:ORF1ab, frag("4393_5324")))
+
+SET Evidence = "Data in Table1 showed that some molecules with top similarity to \
+GS-5734 got high dock scores (Atorvastatin, Dipyridamole, and \
+Adenosine)."
+
+complex(a(CHEBI:atorvastatin), p(COVID:ORF1ab, frag("4393_5324")))
+complex(a(CHEBI:dipyridamole), p(COVID:ORF1ab, frag("4393_5324")))
+complex(a(CHEBI:adenosine), p(COVID:ORF1ab, frag("4393_5324")))
+
+SET Evidence = "Decitabine has the most favorable docking results."
+
+complex(a(CHEBI:"5-aza-2'-deoxycytidine"), p(COVID:ORF1ab, frag("4393_5324")))
+
+SET Evidence = "After docked with library A, finally 12 approved drugs with good \
+docking score were chosen (Table 3), and 3 of them were selected for \
+further binding free energy calculations"
+
+complex(a(CHEBI:fenofibrate), p(COVID:ORF1ab, frag("819_2763")))
+complex(a(CHEBI:cinchocaine), p(COVID:ORF1ab, frag("819_2763")))
+complex(a(CHEBI:tamsulosin), p(COVID:ORF1ab, frag("819_2763")))
+complex(a(CHEBI:pentamidine), p(COVID:ORF1ab, frag("819_2763")))
+complex(a(CHEBI:tolazamide), p(COVID:ORF1ab, frag("819_2763")))
+complex(a(CHEBI:gemeprost), p(COVID:ORF1ab, frag("819_2763")))
+complex(a(CHEBI:"1-phenyl-1-cyclopentanecarboxylic acid 2-[2-(diethylamino)ethoxy]ethyl ester"), p(COVID:ORF1ab, frag("819_2763")))
+complex(a(CHEBI:rilpivirine), p(COVID:ORF1ab, frag("819_2763")))
+complex(a(CHEBI:ampicillin), p(COVID:ORF1ab, frag("819_2763")))
+complex(a(PUBCHEM:9865604), p(COVID:ORF1ab, frag("819_2763")))
+complex(a(CHEBI:methicillin), p(COVID:ORF1ab, frag("819_2763")))
+complex(a(CHEBI:omeprazole), p(COVID:ORF1ab, frag("819_2763")))
+#docing study conduced in PLpro.
+
+SET Evidence = "12 representative drugs were listed in Table 5."
+
+complex(a(CHEBI:icatibant), p(COVID:ORF1ab, frag("3264_3569")))
+complex(a(CHEBI:ritonavir), p(COVID:ORF1ab, frag("3264_3569")))
+complex(a(CHEBI:colistin), p(COVID:ORF1ab, frag("3264_3569")))
+complex(a(CHEBI:atazanavir), p(COVID:ORF1ab, frag("3264_3569")))
+complex(a(CHEBI:valinomycin), p(COVID:ORF1ab, frag("3264_3569")))
+complex(a(CHEBI:tipranavir), p(COVID:ORF1ab, frag("3264_3569")))
+complex(a(CHEBI:lopinavir), p(COVID:ORF1ab, frag("3264_3569")))
+complex(a(CHEBI:indinavir), p(COVID:ORF1ab, frag("3264_3569")))
+complex(a(CHEBI:darunavir), p(COVID:ORF1ab, frag("3264_3569")))
+complex(a(CHEBI:simeprevir), p(COVID:ORF1ab, frag("3264_3569")))
+complex(a(CHEBI:sorafenib), p(COVID:ORF1ab, frag("3264_3569")))
+complex(a(CHEBI:"glycyrrhizinic acid"), p(COVID:ORF1ab, frag("3264_3569")))
+#3CLpro Docking
+
+
+SET Evidence = "The results shown that 13 representative drugs got higher docking \
+scores than intrinsic ligand, which may be potential AKK1 inhibitor."
+
+#(Table 7)
+complex(a(CHEBI:"desferrioxamine B"), p(HGNC:AAK1)) -| act(p(HGNC:AAK1))
+complex(a(CHEBI:erlotinib), p(HGNC:AAK1)) -| act(p(HGNC:AAK1))
+complex(a(CHEBI:ceftolozane), p(HGNC:AAK1)) -| act(p(HGNC:AAK1))
+complex(a(PUBCHEM:4677), p(HGNC:AAK1)) -| act(p(HGNC:AAK1))
+#Pantethine
+complex(a(CHEBI:hesperidin), p(HGNC:AAK1)) -| act(p(HGNC:AAK1))
+complex(a(CHEBI:carfilzomib), p(HGNC:AAK1)) -| act(p(HGNC:AAK1))
+complex(a(CHEBI:saquinavir), p(HGNC:AAK1)) -| act(p(HGNC:AAK1))
+complex(a(CHEBI:penicillamine), p(HGNC:AAK1)) -| act(p(HGNC:AAK1))
+complex(a(CHEBI:ticagrelor), p(HGNC:AAK1)) -| act(p(HGNC:AAK1))
+complex(a(CHEBI:zafirlukast), p(HGNC:AAK1)) -| act(p(HGNC:AAK1))
+complex(a(CHEBI:daclatasvir), p(HGNC:AAK1)) -| act(p(HGNC:AAK1))
+complex(a(CHEBI:sorafenib), p(HGNC:AAK1)) -| act(p(HGNC:AAK1))
+
+#AAK1 docking study
+UNSET BioAssay
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

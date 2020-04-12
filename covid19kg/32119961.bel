@@ -1,0 +1,126 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "https://doi.org/10.1016/j.lfs.2020.117477"
+SET DOCUMENT Authors = "Yojana Gadiya"
+SET DOCUMENT ContactInfo = "yojana.gadiya@scai.fraunhofer.de"
+SET DOCUMENT Description = "Anti-HCV, nucleotide inhibitors, repurposing against COVID-19"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+# DEFINE NAMESPACE CONSO          AS URL "https://raw.githubusercontent.com/pharmacome/conso/3c93a65dc48e6786fe29ae55aa36cf9a902fe8c6/export/conso-names.belns"
+# DEFINE NAMESPACE ECCODE         AS URL "https://raw.githubusercontent.com/pharmacome/conso/c328ad964c08967a0417a887510b97b965a62fa5/external/ec-code.belns"
+# DEFINE NAMESPACE EFO            AS URL "https://raw.githubusercontent.com/pharmacome/conso/5d2c2ea6f7112421cc8089a3f021a75ab60bb373/external/efo-names.belns"
+# DEFINE NAMESPACE FB             AS URL "https://raw.githubusercontent.com/pharmacome/conso/c328ad964c08967a0417a887510b97b965a62fa5/external/fb-names.belns"
+# DEFINE NAMESPACE MIRBASE        AS URL "https://raw.githubusercontent.com/pharmacome/conso/c328ad964c08967a0417a887510b97b965a62fa5/external/mirbase-names.belns"
+
+# DEFINE NAMESPACE ADO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/alzheimer-disease-ontology/alzheimer-disease-ontology-1.0.2.belns"
+# DEFINE NAMESPACE BRCO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/brain-region-ontology/brain-region-ontology-1.0.0.belns"
+# DEFINE NAMESPACE NIFT AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/nift/NIFT.belns"
+
+# DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+# DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+# DEFINE NAMESPACE RGD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/rgd-rat-genes/rgd-rat-genes-20190128.belns"
+# DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+# DEFINE NAMESPACE SCOMP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-named-complexes/selventa-named-complexes-20190128.belns"
+# DEFINE NAMESPACE SFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-protein-families/selventa-protein-families-20190128.belns"
+# DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+# DEFINE NAMESPACE DRUGBANK AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns"
+# DEFINE NAMESPACE INTERPRO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/interpro/interpro-names-20181021.belns"
+# DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+# DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+# DEFINE NAMESPACE GOBP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns"
+# DEFINE NAMESPACE GOCC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20190128.belns"
+
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+# DEFINE NAMESPACE MESHC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-chemicals/mesh-chemicals-20190128.belns"
+# DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20190128.belns"
+# DEFINE NAMESPACE MESHPP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-processes/mesh-processes-20190128.belns"
+# DEFINE NAMESPACE MESHA AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-anatomy/mesh-anatomy-20190128.belns"
+# DEFINE NAMESPACE MESHCS AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-cellular-structures/mesh-cellular-structures-20190128.belns"
+DEFINE NAMESPACE NCBITAXON AS PATTERN ".*"
+# DEFINE NAMESPACE FPLX           AS URL "https://raw.githubusercontent.com/sorgerlab/famplex/d9ec0526c20795146a9a6aef17496efe1a36cac6/export/famplex.belns"
+
+# DEFINE NAMESPACE NCBIGENE AS PATTERN ".*"
+# DEFINE NAMESPACE TAXONOMY       AS PATTERN "^\d+$"
+# DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+# DEFINE NAMESPACE dbSNP AS PATTERN "rs[0-9]+"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+# DEFINE ANNOTATION Anatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno"
+# DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+# DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+# DEFINE ANNOTATION Disease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/disease/disease-20190128.belanno"
+# DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+# DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+# DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+# DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+# DEFINE ANNOTATION CellStructure AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-structure/cell-structure-20170511.belanno"
+# DEFINE ANNOTATION Confidence    AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/confidence/confidence-1.0.0.belanno"
+# DEFINE ANNOTATION Gender        AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/gender/gender-1.0.0.belanno"
+
+DEFINE ANNOTATION Experiment AS LIST {"Molecular docking"}
+
+# --------------------------------------------------------------------------------
+
+##############
+# Statements #
+##############
+SET Citation = {"DOI","https://doi.org/10.1016/j.lfs.2020.117477"}
+
+SET Evidence = "Until today, six different strains of Human coronaviruses (HCoVs) have been reported, in addition to the newly emerged COVID-19 [2,12]. 229E and NL63 strains of HCoVs belong to Alphacoronaviruses while OC43, HKU1, SARS, MERS, and COVID-19 HCoVs belong to Betacoronaviruses [2,11]."
+a(MESH:"Coronavirus 229E, Human") isA a(NCBITAXON:Alphacoronavirus)
+a(MESH:"Coronavirus NL63, Human") isA a(NCBITAXON:Alphacoronavirus)
+a(MESH:"Coronavirus OC43, Human") isA a(NCBITAXON:Betacoronavirus)
+a(NCBITAXON:"Human coronavirus HKU1") isA a(NCBITAXON:Betacoronavirus)
+a(MESH:"SARS Virus") isA a(NCBITAXON:Betacoronavirus)
+a(MESH:"Middle East Respiratory Syndrome Coronavirus") isA a(NCBITAXON:Betacoronavirus)
+path(DO:"COVID-19") isA a(NCBITAXON:Betacoronavirus)
+
+SET Evidence  = "Different directly acting antiviral drugs are approved against other viruses, by the Food and Drugs Administration (FDA), such as Sofosbuvir, Ribavirin against RdRp of Hepatitis C Virus (HCV)."
+SET MeSHDisease = "Hepatitis, Viral, Human"
+a(CHEBI:sofosbuvir) -| p(MESH:"RNA Replicase")
+a(CHEBI:ribavirin) -| p(MESH:"RNA Replicase")
+UNSET MeSHDisease
+
+SET Experiment = "Molecular docking"
+#all considered as inhibitor for covid-19
+
+SET Evidence = "As reflected from the docking scores, the eight compounds, including the physiological GTP and UTP and the four drugs IDX-184, Sofosbuvir, Ribavirin, and Remidisvir can bind to both COVID-19 and SARS HCoV RdRps with good binding energy (−6.5 up to −9.0 kcal/mol)."
+#135565589 - IDX-184, 121304016 - Remidisvir
+complex(a(CHEBI:GTP),p(MESH:"RNA Replicase",frag("255_256"))) -| path(DO:"COVID-19")
+complex(a(PUBCHEM:135565589),p(MESH:"RNA Replicase",frag("255_256"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:sofosbuvir),p(MESH:"RNA Replicase",frag("255_256"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:ribavirin),p(MESH:"RNA Replicase",frag("255_256"))) -| path(DO:"COVID-19")
+complex(a(PUBCHEM:121304016),p(MESH:"RNA Replicase",frag("255_256"))) -| path(DO:"COVID-19")
+
+SET Evidence = "Only one salt bridge (yellow spheres connected by a dashed line) is formed in the case of IDX-184 with D514, which is responsible for the increased stabilization of the formed complex, reflected on the docking score."
+#135565589 - IDX-184
+complex(a(PUBCHEM:135565589),p(MESH:"RNA Replicase",frag("514_514"))) -| path(DO:"COVID-19")
+
+SET Evidence = "On the other hand, IDX-184 and Sofosbuvir both form metal interaction through the Mg+2 with D652 (two interactions) and E702, respectively."
+#135565589 - IDX-184
+complex(a(PUBCHEM:135565589),p(MESH:"RNA Replicase",frag("652_652")),a(CHEBI:"magnesium(2+)")) -| path(DO:"COVID-19")
+complex(a(CHEBI:sofosbuvir),p(MESH:"RNA Replicase",frag("652_652")),a(CHEBI:"magnesium(2+)")) -| path(DO:"COVID-19")
+complex(a(PUBCHEM:135565589),p(MESH:"RNA Replicase",frag("702_702")),a(CHEBI:"magnesium(2+)")) -| path(DO:"COVID-19")
+complex(a(CHEBI:sofosbuvir),p(MESH:"RNA Replicase",frag("702_702")),a(CHEBI:"magnesium(2+)")) -| path(DO:"COVID-19")
+
+SET Evidence = "Additionally, Sofosbuvir formed two hydrophobic interactions with Y510 and D651 of the COVID-19 RdRp."
+complex(a(CHEBI:sofosbuvir),p(MESH:"RNA Replicase",frag("510_510"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:sofosbuvir),p(MESH:"RNA Replicase",frag("651_651"))) -| path(DO:"COVID-19")
+
+UNSET Experiment

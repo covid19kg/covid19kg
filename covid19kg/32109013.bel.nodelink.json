@@ -1,0 +1,2147 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "Disease_Stage": [
+        "severe"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "CellLine": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Priya S",
+      "contact": "priya@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32109013.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32109013.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Fever was present in 43.8% of the patients on admission but developed in 88.7% during hospitalization.",
+      "key": "e877e1737e7cc1821a8d7dd46146e8a1",
+      "line": 50,
+      "relation": "increases",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Fever was present in 43.8% of the patients on admission but developed in 88.7% during hospitalization.",
+      "key": "f9ed7cd570bf295e3920e30b044caf1a",
+      "line": 51,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "The second most common symptom was cough (67.8%); nausea or vomiting (5.0%) and diarrhea (3.8%) were uncommon.",
+      "key": "5f7f99aefa543894a85f3a62580c3222",
+      "line": 55,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "The second most common symptom was cough (67.8%); nausea or vomiting (5.0%) and diarrhea (3.8%) were uncommon.",
+      "key": "3867a649c1aefa8dba24baf22a816f87",
+      "line": 57,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "The second most common symptom was cough (67.8%); nausea or vomiting (5.0%) and diarrhea (3.8%) were uncommon.",
+      "key": "589da753646f87ee4ed869fcc37fc77a",
+      "line": 58,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "The second most common symptom was cough (67.8%); nausea or vomiting (5.0%) and diarrhea (3.8%) were uncommon.",
+      "key": "0dfe50240fbca985e0fbe780757695db",
+      "line": 59,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Among the overall population, 23.7% had at least one coexisting illness (e.g., hypertension and chronic obstructive pulmonary disease).",
+      "key": "e3237356d566147b6b1546a805d13dee",
+      "line": 63,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Among the overall population, 23.7% had at least one coexisting illness (e.g., hypertension and chronic obstructive pulmonary disease).",
+      "key": "2ce65343d2a4e5b39ec62e7704a77115",
+      "line": 64,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "severe": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer. Patients with severe disease had more prominent laboratory abnormalities (including lymphocytopenia and leukopenia) than those with nonsevere disease.",
+      "key": "84ade9e1e4c37885260d98a37fa52992",
+      "line": 69,
+      "relation": "increases",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "severe": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer. Patients with severe disease had more prominent laboratory abnormalities (including lymphocytopenia and leukopenia) than those with nonsevere disease.",
+      "key": "a7deef3930e45061038b4032cc5c95ce",
+      "line": 70,
+      "relation": "increases",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "severe": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer. Patients with severe disease had more prominent laboratory abnormalities (including lymphocytopenia and leukopenia) than those with nonsevere disease.",
+      "key": "7045134f41ccf9081dd4a1dbd4d23d10",
+      "line": 71,
+      "relation": "increases",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "severe": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer. Patients with severe disease had more prominent laboratory abnormalities (including lymphocytopenia and leukopenia) than those with nonsevere disease.",
+      "key": "26e511308a5dae580a11d9041da1e851",
+      "line": 72,
+      "relation": "increases",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "severe": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer. Patients with severe disease had more prominent laboratory abnormalities (including lymphocytopenia and leukopenia) than those with nonsevere disease.",
+      "key": "0ed471657ff021d594d4bb56ac1e7738",
+      "line": 73,
+      "relation": "increases",
+      "source": 7,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "severe": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer. Patients with severe disease had more prominent laboratory abnormalities (including lymphocytopenia and leukopenia) than those with nonsevere disease.",
+      "key": "444752402ae8856617d3ece75ab31cfd",
+      "line": 74,
+      "relation": "increases",
+      "source": 7,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "severe": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer. Patients with severe disease had more prominent laboratory abnormalities (including lymphocytopenia and leukopenia) than those with nonsevere disease.",
+      "key": "cd83ecc0407533910b141f419331f6bf",
+      "line": 75,
+      "relation": "increases",
+      "source": 7,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "severe": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Systemic glucocorticoids were given to 204 patients (18.6%), with a higher percentage among those with severe disease than nonsevere disease (44.5% vs. 13.7%).",
+      "key": "ce11d3a7e8a830225f078ac7e880f709",
+      "line": 81,
+      "relation": "negativeCorrelation",
+      "source": 7,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "severe": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Extracorporeal membrane oxygenation was performed in 5 patients (0.5%) with severe disease.",
+      "key": "b1c31d70008dbbdb2c8fd02ba660ff01",
+      "line": 87,
+      "relation": "negativeCorrelation",
+      "source": 7,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Patients with severe disease had a higher incidence of physician-diagnosed pneumonia than those with nonsevere disease (99.4% vs. 89.5%).",
+      "key": "908def63404649de266d8b117d437c16",
+      "line": 91,
+      "relation": "increases",
+      "source": 7,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Fever was present in 43.8% of the patients on admission but developed in 88.7% during hospitalization.",
+      "key": "fe3f1d806e32fa7803c441eee6701d3d",
+      "line": 51,
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "The second most common symptom was cough (67.8%); nausea or vomiting (5.0%) and diarrhea (3.8%) were uncommon.",
+      "key": "2b5db47db688cce64a656458bd6360b7",
+      "line": 55,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "The second most common symptom was cough (67.8%); nausea or vomiting (5.0%) and diarrhea (3.8%) were uncommon.",
+      "key": "6319ce0c6259dc848da3b788e9ce53d8",
+      "line": 57,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "The second most common symptom was cough (67.8%); nausea or vomiting (5.0%) and diarrhea (3.8%) were uncommon.",
+      "key": "3b6fe9526e735a2e22d06e4bf5085d30",
+      "line": 58,
+      "relation": "positiveCorrelation",
+      "source": 18,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "The second most common symptom was cough (67.8%); nausea or vomiting (5.0%) and diarrhea (3.8%) were uncommon.",
+      "key": "3788f7c58fd189a66caad654e0a4c874",
+      "line": 59,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Among the overall population, 23.7% had at least one coexisting illness (e.g., hypertension and chronic obstructive pulmonary disease).",
+      "key": "8d2956440e312a42334d3ccd3a891415",
+      "line": 63,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Among the overall population, 23.7% had at least one coexisting illness (e.g., hypertension and chronic obstructive pulmonary disease).",
+      "key": "f2906a4d8523676700eb61cbd232c854",
+      "line": 64,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "severe": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Systemic glucocorticoids were given to 204 patients (18.6%), with a higher percentage among those with severe disease than nonsevere disease (44.5% vs. 13.7%).",
+      "key": "248d76e21bbd3d5b8c32fabfb3bd53af",
+      "line": 81,
+      "relation": "negativeCorrelation",
+      "source": 0,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "severe": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen PY",
+          "Chen RC",
+          "Chen Z",
+          "China Medical Treatment Expert Group for Covid-19.",
+          "Du B",
+          "Guan WJ",
+          "He JX",
+          "Hu Y",
+          "Hu YH",
+          "Hui DSC",
+          "Lei CL",
+          "Li G",
+          "Li LJ",
+          "Li SY",
+          "Liang WH",
+          "Liang ZJ",
+          "Liu JY",
+          "Liu L",
+          "Liu Y",
+          "Luo J",
+          "Ni ZY",
+          "Ou CQ",
+          "Peng P",
+          "Peng YX",
+          "Qiu SQ",
+          "Shan H",
+          "Tang CL",
+          "Wang JL",
+          "Wang JM",
+          "Wang T",
+          "Wei L",
+          "Xiang J",
+          "Ye CJ",
+          "Yuen KY",
+          "Zeng G",
+          "Zheng ZJ",
+          "Zhong NS",
+          "Zhu SY"
+        ],
+        "date": "2020-02-28",
+        "db": "PubMed",
+        "db_id": "32109013",
+        "db_name": "The New England journal of medicine",
+        "first": "Guan WJ",
+        "last": "Zhong NS"
+      },
+      "evidence": "Extracorporeal membrane oxygenation was performed in 5 patients (0.5%) with severe disease.",
+      "key": "d4912736e301c09f21945b04e932c272",
+      "line": 87,
+      "relation": "negativeCorrelation",
+      "source": 13,
+      "target": 7
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:glucocorticoid)",
+      "concept": {
+        "name": "glucocorticoid",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "f3b6dc324e4f7abd89c6a718185d8726"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "p(HGNC:CKB)",
+      "concept": {
+        "name": "CKB",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "59ee114c9af89ea338bc76939e7992ca"
+    },
+    {
+      "bel": "p(HGNC:CKM)",
+      "concept": {
+        "name": "CKM",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "253693ad2d136c16248a6ab2d047038a"
+    },
+    {
+      "bel": "p(HGNC:CRP)",
+      "concept": {
+        "name": "CRP",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "b2238c9ec2ce73112c0f44c8375b7acb"
+    },
+    {
+      "bel": "p(HGNC:GOT1)",
+      "concept": {
+        "name": "GOT1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "6806c176d9bfc798054f31b888c388f8"
+    },
+    {
+      "bel": "p(HGNC:GPT)",
+      "concept": {
+        "name": "GPT",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "86617b0271f3cba1d1ebdf66ff44b39a"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"chronic obstructive pulmonary disease\")",
+      "concept": {
+        "name": "chronic obstructive pulmonary disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "52c7695775666e17f73294c1b6376caa"
+    },
+    {
+      "bel": "path(DO:diarrhea)",
+      "concept": {
+        "name": "diarrhea",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "f53fc3580f7450b941e98608ca05fddb"
+    },
+    {
+      "bel": "path(DO:hypertension)",
+      "concept": {
+        "name": "hypertension",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "53d5b8bd814074e87b1da1ff6250dcff"
+    },
+    {
+      "bel": "path(DO:leukopenia)",
+      "concept": {
+        "name": "leukopenia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "e50fa3d966f6bf0696807d3bbb733e08"
+    },
+    {
+      "bel": "path(DO:pneumonia)",
+      "concept": {
+        "name": "pneumonia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "274776fc664e9bfd9c191cca80623b0d"
+    },
+    {
+      "bel": "path(MESH:\"Extracorporeal Membrane Oxygenation\")",
+      "concept": {
+        "name": "Extracorporeal Membrane Oxygenation",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "a55dea264b26c682b6dc0bb702482bd6"
+    },
+    {
+      "bel": "path(MESH:\"T-Lymphocytopenia\")",
+      "concept": {
+        "name": "T-Lymphocytopenia",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "6631d3a143c1dc5548d60e4e7daa0add"
+    },
+    {
+      "bel": "path(MESH:Cough)",
+      "concept": {
+        "name": "Cough",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "9fee4f29ebce7356ac1721785693b80c"
+    },
+    {
+      "bel": "path(MESH:Fever)",
+      "concept": {
+        "name": "Fever",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "ffc74da80b64d7057f4eff0e06cdd1b6"
+    },
+    {
+      "bel": "path(MESH:Nausea)",
+      "concept": {
+        "name": "Nausea",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "41e2b9e6454d4c63a3654236ce97040f"
+    },
+    {
+      "bel": "path(MESH:Vomiting)",
+      "concept": {
+        "name": "Vomiting",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "364ae88ab20bb2e8a9fd696110a8f558"
+    }
+  ]
+}

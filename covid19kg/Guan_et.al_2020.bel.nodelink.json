@@ -1,0 +1,1053 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Preprint",
+        "Published"
+      ],
+      "PublicationType": [
+        "Research",
+        "Review"
+      ],
+      "Section": [
+        "Abstract",
+        "Full Text",
+        "Results"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Shounak Baksi",
+      "contact": "shounak.baksi@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "Guan_et.al_2020.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "EFO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/efo/efo-20171206.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+    },
+    "path": "Guan_et.al_2020.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "On admission, lymphocytopenia was present in 83.2% of the patients, thrombocytopenia in 36.2%, and leukopenia in 33.7%",
+      "key": "bfd84a0c332cf9df214eb39c561d81a2",
+      "line": 83,
+      "relation": "association",
+      "source": 10,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "On admission, lymphocytopenia was present in 83.2% of the patients, thrombocytopenia in 36.2%, and leukopenia in 33.7%",
+      "key": "9986591b368aff53ca1951e6002059a3",
+      "line": 84,
+      "relation": "association",
+      "source": 10,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "On admission, lymphocytopenia was present in 83.2% of the patients, thrombocytopenia in 36.2%, and leukopenia in 33.7%",
+      "key": "b38f498ce8579d28599d8ba7afe954dc",
+      "line": 85,
+      "relation": "association",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer.",
+      "key": "e0a384487b3497b1066ad54f1db9ec3b",
+      "line": 90,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer.",
+      "key": "d3456d42c5474567bbbc681cae2a0a51",
+      "line": 91,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer.",
+      "key": "ccb049185e4f55a050d55c88a6063736",
+      "line": 92,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer.",
+      "key": "a314f19ba03d43cbe5e923947bda601d",
+      "line": 93,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer.",
+      "key": "56c874e70479bd7348e4d97a32e403ab",
+      "line": 94,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer.",
+      "key": "ea61432c912f671e411e3ca36eb8b926",
+      "line": 95,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "During hospital admission, most of the patients received a diagnosis of pneumonia from a physician (91.1%), followed by ARDS (3.4%) and shock (1.1%).",
+      "key": "51d17763caabef1ee77976dcc7f4ec24",
+      "line": 108,
+      "relation": "association",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "During hospital admission, most of the patients received a diagnosis of pneumonia from a physician (91.1%), followed by ARDS (3.4%) and shock (1.1%).",
+      "key": "aaaeeea84f538a0ffd595584772fc8c2",
+      "line": 109,
+      "relation": "association",
+      "source": 10,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "During hospital admission, most of the patients received a diagnosis of pneumonia from a physician (91.1%), followed by ARDS (3.4%) and shock (1.1%).",
+      "key": "9565cca8aa78982973deb1df8458a6ed",
+      "line": 110,
+      "relation": "association",
+      "source": 10,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "On admission, lymphocytopenia was present in 83.2% of the patients, thrombocytopenia in 36.2%, and leukopenia in 33.7%",
+      "key": "10a9ff05a19f6d87c5db66d65a14b6c4",
+      "line": 83,
+      "relation": "association",
+      "source": 15,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "On admission, lymphocytopenia was present in 83.2% of the patients, thrombocytopenia in 36.2%, and leukopenia in 33.7%",
+      "key": "636e95a7cc7d990b87bbdbf41707796c",
+      "line": 84,
+      "relation": "association",
+      "source": 13,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "On admission, lymphocytopenia was present in 83.2% of the patients, thrombocytopenia in 36.2%, and leukopenia in 33.7%",
+      "key": "7a18aca9e68bdad97b9d2b5d7bfe89f1",
+      "line": 85,
+      "relation": "association",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer.",
+      "key": "21b97196cd3e334aededc0f82f0771dc",
+      "line": 90,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer.",
+      "key": "c9c0a1b75c3718f7ae42d8d6ef039f7e",
+      "line": 91,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer.",
+      "key": "d129ad2363630e19e7442bcc013a72c0",
+      "line": 92,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer.",
+      "key": "64b3bac9c9821da3a4a31ae81868a024",
+      "line": 93,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer.",
+      "key": "5a64609d4795a3eaf3167cf14413c9ac",
+      "line": 94,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "Most of the patients had elevated levels of C-reactive protein; less common were elevated levels of alanine aminotransferase, aspartate aminotransferase, creatine kinase, and d-dimer.",
+      "key": "c1fc6d79bb09ea58dc7df001255c15e2",
+      "line": 95,
+      "relation": "positiveCorrelation",
+      "source": 3,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "A majority of the patients (58.0%) received intravenous antibiotic therapy, and 35.8% received oseltamivir therapy; oxygen therapy was administered in 41.3% and mechanical ventilation in 6.1%; higher percentages of patients with severe disease received these therapies (Table 3).",
+      "key": "c8c59a11eb3ad481abc8a40d4618cf35",
+      "line": 100,
+      "relation": "decreases",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "A majority of the patients (58.0%) received intravenous antibiotic therapy, and 35.8% received oseltamivir therapy; oxygen therapy was administered in 41.3% and mechanical ventilation in 6.1%; higher percentages of patients with severe disease received these therapies (Table 3).",
+      "key": "9164dea2d59a493e914a8b2d31cc85bf",
+      "line": 101,
+      "relation": "decreases",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "A majority of the patients (58.0%) received intravenous antibiotic therapy, and 35.8% received oseltamivir therapy; oxygen therapy was administered in 41.3% and mechanical ventilation in 6.1%; higher percentages of patients with severe disease received these therapies (Table 3).",
+      "key": "e090038b7b7dec7188b5218d771e6a01",
+      "line": 102,
+      "relation": "decreases",
+      "source": 5,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "Systemic glucocorticoids were given to 204 patients (18.6%), with a higher percentage among those with severe disease than nonsevere disease (44.5% vs. 13.7%).",
+      "key": "2c087bc2dca81781e8f37dbdba4368ee",
+      "line": 105,
+      "relation": "decreases",
+      "source": 0,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "During hospital admission, most of the patients received a diagnosis of pneumonia from a physician (91.1%), followed by ARDS (3.4%) and shock (1.1%).",
+      "key": "7d023cf373f091fead9ffdc1edac3461",
+      "line": 108,
+      "relation": "association",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "During hospital admission, most of the patients received a diagnosis of pneumonia from a physician (91.1%), followed by ARDS (3.4%) and shock (1.1%).",
+      "key": "4205a359a2c347852f2ab96d8951a88e",
+      "line": 109,
+      "relation": "association",
+      "source": 16,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.06.20020974"
+      },
+      "evidence": "During hospital admission, most of the patients received a diagnosis of pneumonia from a physician (91.1%), followed by ARDS (3.4%) and shock (1.1%).",
+      "key": "4e37c4bdd1a22ea9ba80570c3f3ab990",
+      "line": 110,
+      "relation": "association",
+      "source": 14,
+      "target": 10
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:glucocorticoid)",
+      "concept": {
+        "name": "glucocorticoid",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "f3b6dc324e4f7abd89c6a718185d8726"
+    },
+    {
+      "bel": "a(CHEBI:oseltamivir)",
+      "concept": {
+        "name": "oseltamivir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "843ea51adf2f81bd54de5e9dbce9a2f2"
+    },
+    {
+      "bel": "a(MESH:\"C-Reactive Protein\")",
+      "concept": {
+        "name": "C-Reactive Protein",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "1e1f45b2e019ff5ba76092b7d8017f2f"
+    },
+    {
+      "bel": "bp(EFO:\"D dimer measurement\")",
+      "concept": {
+        "name": "D dimer measurement",
+        "namespace": "EFO"
+      },
+      "function": "BiologicalProcess",
+      "id": "adb2c6aaf5600372075f4348dbf9d820"
+    },
+    {
+      "bel": "bp(MESH:\"Oxygen Inhalation Therapy\")",
+      "concept": {
+        "name": "Oxygen Inhalation Therapy",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "385500825a3d4b39ec1414366a099975"
+    },
+    {
+      "bel": "bp(MESH:Ventilation)",
+      "concept": {
+        "name": "Ventilation",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "2f54edef19579109a9870f0e81ac49c9"
+    },
+    {
+      "bel": "p(HGNC:CKM)",
+      "concept": {
+        "name": "CKM",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "253693ad2d136c16248a6ab2d047038a"
+    },
+    {
+      "bel": "p(HGNC:GOT1)",
+      "concept": {
+        "name": "GOT1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "6806c176d9bfc798054f31b888c388f8"
+    },
+    {
+      "bel": "p(HGNC:GOT2)",
+      "concept": {
+        "name": "GOT2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "59afa483cee08ca40a6240a5bf760be5"
+    },
+    {
+      "bel": "p(HGNC:GPT)",
+      "concept": {
+        "name": "GPT",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "86617b0271f3cba1d1ebdf66ff44b39a"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:leukopenia)",
+      "concept": {
+        "name": "leukopenia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "e50fa3d966f6bf0696807d3bbb733e08"
+    },
+    {
+      "bel": "path(DO:pneumonia)",
+      "concept": {
+        "name": "pneumonia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "274776fc664e9bfd9c191cca80623b0d"
+    },
+    {
+      "bel": "path(DO:thrombocytopenia)",
+      "concept": {
+        "name": "thrombocytopenia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "59b492e4f3d8d1fabbd3e37e5a85b402"
+    },
+    {
+      "bel": "path(EFO:\"acute respiratory distress syndrome\")",
+      "concept": {
+        "name": "acute respiratory distress syndrome",
+        "namespace": "EFO"
+      },
+      "function": "Pathology",
+      "id": "f3314ef28a1a3d7c8c5d89dfe1a7fb75"
+    },
+    {
+      "bel": "path(MESH:\"T-Lymphocytopenia\")",
+      "concept": {
+        "name": "T-Lymphocytopenia",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "6631d3a143c1dc5548d60e4e7daa0add"
+    },
+    {
+      "bel": "path(MESH:Shock)",
+      "concept": {
+        "name": "Shock",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "b41bb196120c6afb3337c7959c2cd21e"
+    }
+  ]
+}

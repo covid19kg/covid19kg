@@ -1,0 +1,1378 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Preprint"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Abish K",
+      "contact": "abish@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "Liu_et.al_2020.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "PUBCHEM": "^\\d+$"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+    },
+    "path": "Liu_et.al_2020.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "It means that binding E2 glycoprotein to the porphyrin is the most stable, the binding of nucleocapsid phosphoprotein to the porphyrin is unstable, and binding envelope protein to the porphyrin is the most unstable.",
+      "key": "2e10272b3a999344673cc208e217c911",
+      "line": 46,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 25
+    },
+    {
+      "key": "b6df2fb692c6267204b8ed349258b6ea",
+      "relation": "partOf",
+      "source": 18,
+      "target": 17
+    },
+    {
+      "key": "2c1b6230fb9e6b30445fb8ddea0f5258",
+      "relation": "partOf",
+      "source": 24,
+      "target": 17
+    },
+    {
+      "key": "1513d4ca7d87c8f886a8bbe777018886",
+      "relation": "partOf",
+      "source": 24,
+      "target": 16
+    },
+    {
+      "key": "e16c47aa4499219e72071599d54de392",
+      "relation": "partOf",
+      "source": 24,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "It means that binding E2 glycoprotein to the porphyrin is the most stable, the binding of nucleocapsid phosphoprotein to the porphyrin is unstable, and binding envelope protein to the porphyrin is the most unstable.",
+      "key": "ba6fcbf873035e842ac3357a56645238",
+      "line": 46,
+      "relation": "positiveCorrelation",
+      "source": 25,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "The docking result is shown in Figure 7.A-1, where is the molecular model of the orf1ab protein binding to the porphyrin. The binding part of the orf1ab protein acts like a clip. It was this clip that grasps the porphyrin without the iron ion.",
+      "key": "e70314140e9ab2d7f747f0bfa80c38bd",
+      "line": 50,
+      "relation": "positiveCorrelation",
+      "source": 25,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "The docking result (Figure 7.B-1) represents the molecular model of ORF8 protein binding to the porphyrin.",
+      "key": "c533a02f1ba3c7c1ba99d90c2cefcc4b",
+      "line": 54,
+      "relation": "positiveCorrelation",
+      "source": 25,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "The ORF7a protein and the porphyrin had the highest binding energy (37,123.79 kcal/mol).",
+      "key": "1f8cede023434d67d63e61923338c5ed",
+      "line": 58,
+      "relation": "positiveCorrelation",
+      "source": 25,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "According to the results of Figure 4.A-2, further analysis showed that some amino acids (for example VALA:952, ALA A:956, ALA B:956, ASN A:955 etc.) of the E2 glycoprotein could bind to not only chloroquine phosphate, but also the porphyrins. In other words, the chloroquine has a one-third chance of inhibiting viral E2 glycoprotein and reducing patient symptoms.",
+      "key": "7ed62eb00dae7b6af167a78bf131bd5f",
+      "line": 62,
+      "relation": "negativeCorrelation",
+      "source": 25,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "The docking result is shown in Figure 7.A-1, where is the molecular model of the orf1ab protein binding to the porphyrin. The binding part of the orf1ab protein acts like a clip. It was this clip that grasps the porphyrin without the iron ion.",
+      "key": "324ed31ab105554fc078ddf127ddfaeb",
+      "line": 50,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 25
+    },
+    {
+      "key": "54bbb5c54e09db0751034dd4ffa7cca2",
+      "relation": "partOf",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "key": "c7bbc20f99a0388b0c69b36cfce7e21b",
+      "relation": "partOf",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "key": "5431a957624b0be7a89f4b9da1f5c82e",
+      "relation": "partOf",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "key": "d6cceb712b93a6047efa99a722214cf1",
+      "relation": "partOf",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "key": "fb0989e28d1af77ea79cbd01ebb1a2e5",
+      "relation": "partOf",
+      "source": 1,
+      "target": 11
+    },
+    {
+      "key": "d0dee466ca9f0d587f0ec9fc402f9089",
+      "relation": "partOf",
+      "source": 1,
+      "target": 6
+    },
+    {
+      "key": "ae6b3075da09b4af838c89f678d6f4db",
+      "relation": "partOf",
+      "source": 21,
+      "target": 8
+    },
+    {
+      "key": "9ebfb4641f19cde23b00fcdb6577d38d",
+      "relation": "partOf",
+      "source": 21,
+      "target": 13
+    },
+    {
+      "key": "8e5fa99edcf568d5f8c3b75366adb4a4",
+      "relation": "partOf",
+      "source": 21,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "The docking result (Figure 7.B-1) represents the molecular model of ORF8 protein binding to the porphyrin.",
+      "key": "cb68227bd1c06a1bc5ef4ee0cd479c6e",
+      "line": 54,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 25
+    },
+    {
+      "key": "692d555829e1860f76c9b24f490fd5c2",
+      "relation": "partOf",
+      "source": 23,
+      "target": 10
+    },
+    {
+      "key": "aa6158282e7f9f99c0e8135f13889b63",
+      "relation": "partOf",
+      "source": 23,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "The ORF7a protein and the porphyrin had the highest binding energy (37,123.79 kcal/mol).",
+      "key": "88a1610098003ade7e6ebfcae2ca1230",
+      "line": 58,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 25
+    },
+    {
+      "key": "cb99271a92133f70bff4dbcd2feb62a0",
+      "relation": "partOf",
+      "source": 22,
+      "target": 9
+    },
+    {
+      "key": "3090c4343d5f600807c728aa094514a7",
+      "relation": "partOf",
+      "source": 22,
+      "target": 14
+    },
+    {
+      "key": "d6a7764a15175936307c244f216e7a90",
+      "relation": "partOf",
+      "source": 22,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "According to the results of Figure 4.A-2, further analysis showed that some amino acids (for example VALA:952, ALA A:956, ALA B:956, ASN A:955 etc.) of the E2 glycoprotein could bind to not only chloroquine phosphate, but also the porphyrins. In other words, the chloroquine has a one-third chance of inhibiting viral E2 glycoprotein and reducing patient symptoms.",
+      "key": "1aacc486184cf6413f69ec9d4db465e0",
+      "line": 62,
+      "relation": "negativeCorrelation",
+      "source": 16,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "According to the results of Figure 4.A-2, further analysis showed that some amino acids (for example VALA:952, ALA A:956, ALA B:956, ASN A:955 etc.) of the E2 glycoprotein could bind to not only chloroquine phosphate, but also the porphyrins. In other words, the chloroquine has a one-third chance of inhibiting viral E2 glycoprotein and reducing patient symptoms.",
+      "key": "c9573dfff4cab9b681676b246bc16540",
+      "line": 63,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "decreases",
+      "source": 16,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "These results marked the chloroquine could inhibit E2 and ORF8 bind to the porphyrin to form a complex respectively to a certain extent. Meanwhile, chloroquine could prevent orf1ab, ORF3a and ORF10 to attack the heme to form the porphyrin.",
+      "key": "f8099cc29ba28cf5dfd49b076ac95d81",
+      "line": 83,
+      "relation": "decreases",
+      "source": 16,
+      "target": 11
+    },
+    {
+      "key": "baabbfaf43bf9c80693fbd1f5f114c1c",
+      "relation": "partOf",
+      "source": 2,
+      "target": 16
+    },
+    {
+      "key": "02f0b987b5b35bdc9400bbb4852eb3cb",
+      "relation": "partOf",
+      "source": 2,
+      "target": 12
+    },
+    {
+      "key": "4dc21c2d7c224ab394bf40b9d5374010",
+      "relation": "partOf",
+      "source": 2,
+      "target": 13
+    },
+    {
+      "key": "f4a6f914686e1d24f2240dde85f53db8",
+      "relation": "partOf",
+      "source": 2,
+      "target": 15
+    },
+    {
+      "key": "e8fffcd20c4da93e8b6304b1ad15908f",
+      "relation": "partOf",
+      "source": 2,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "The binding energy of chloroquine to the nucleocapsid phosphoprotein is 198,815.22 kcal/mol, which is only equivalent to the 1.4% of the binding energy of the nucleocapsid phosphoprotein and the porphyrin.",
+      "key": "c2571b28b1c8bfa0e75336867c823f3e",
+      "line": 67,
+      "relation": "decreases",
+      "source": 12,
+      "target": 7
+    },
+    {
+      "key": "25cd876f48a958c3b22e62cabdd0805b",
+      "relation": "partOf",
+      "source": 20,
+      "target": 12
+    },
+    {
+      "key": "8f26dd9e3becdb26a7ab5ce309384450",
+      "relation": "partOf",
+      "source": 20,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "The binding energy of chloroquine and the orf1ab protein is 4,584,302.64 kcal/mol, which equals 8-fold of the binding energy between the orf1ab and the porphyrin.",
+      "key": "a2317501fb035e5d444a5c072dd560f7",
+      "line": 71,
+      "relation": "decreases",
+      "source": 13,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "The binding energy of chloroquine to the ORF8 protein is 4,707,657.39 kcal/mol, which is only equivalent to 37% of the binding energy of the ORF8 protein to the porphyrin.",
+      "key": "22efb668e4ca5fc7097b702f0392045f",
+      "line": 75,
+      "relation": "decreases",
+      "source": 15,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "These results marked the chloroquine could inhibit E2 and ORF8 bind to the porphyrin to form a complex respectively to a certain extent. Meanwhile, chloroquine could prevent orf1ab, ORF3a and ORF10 to attack the heme to form the porphyrin.",
+      "key": "7dc2c2a027784e8cdd77eab66f6d536d",
+      "line": 84,
+      "relation": "decreases",
+      "source": 15,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "The binding energy of chloroquine to the ORF7a protein is 497,154.45 kcal / mol, which equals 13-fold of the binding energy of the ORF7a protein to the porphyrin.",
+      "key": "32bb1fcabb5b73911bb31313edc1e17f",
+      "line": 79,
+      "relation": "decreases",
+      "source": 14,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "Favipiravir is the latest anti-novel coronavirus drug with specific therapeutic effects.",
+      "key": "61de877db8f4b9bd5803d4861c534024",
+      "line": 88,
+      "relation": "decreases",
+      "source": 0,
+      "target": 25
+    },
+    {
+      "key": "b3d7d6ae43d3f7ca22819c5291778cb6",
+      "relation": "partOf",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "key": "3d24bd8e03f49047b30cfe7f94aaa773",
+      "relation": "partOf",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "key": "235fe4c00d9a65b352ec290388d5403e",
+      "relation": "partOf",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "It is useful to note that the binding energy of Envelope protein and Favipiravir is more than 2700 times the binding energy of porphyrin.",
+      "key": "652ac932244e21ca92647eef121ee7a6",
+      "line": 92,
+      "relation": "decreases",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "key": "bcebb4836b5ec8c538e20791159ab86b",
+      "relation": "partOf",
+      "source": 19,
+      "target": 3
+    },
+    {
+      "key": "bd4b4bb2f12098b6f78f91178098b58e",
+      "relation": "partOf",
+      "source": 19,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "The binding energy of ORF7a to Favisiravir is 450 times higher than that of porphyrin, indicating that it can effectively avoid the non-structural protein of the virus capturing porphyrin.",
+      "key": "df80544ff9f4e7e881e35df85ca44485",
+      "line": 96,
+      "relation": "decreases",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11938173.v5"
+      },
+      "evidence": "The binding energy of orf1ab and Favisiravir is 1.8 times higher than that of porphyrin, which shows that Faifiravir can prevent virus unstructured protein from attacking heme on hemoglobin.",
+      "key": "0b9bb71a10eed9fdc68652d8f152be26",
+      "line": 100,
+      "relation": "decreases",
+      "source": 4,
+      "target": 8
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:favipiravir)",
+      "concept": {
+        "name": "favipiravir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "3ce0aabad27ceb19780b9fea724eecf1"
+    },
+    {
+      "bel": "a(CHEBI:porphyrins)",
+      "concept": {
+        "name": "porphyrins",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "52ec0160b84811816e991cacaa8abe12"
+    },
+    {
+      "bel": "a(PUBCHEM:64927)",
+      "concept": {
+        "name": "64927",
+        "namespace": "PUBCHEM"
+      },
+      "function": "Abundance",
+      "id": "d1d9cd19651e6f35ce814088de31cdd1"
+    },
+    {
+      "bel": "complex(a(CHEBI:favipiravir), p(COVID:E))",
+      "function": "Complex",
+      "id": "f2ac04c64c18922001c61466f65801e8",
+      "members": [
+        {
+          "bel": "a(CHEBI:favipiravir)",
+          "concept": {
+            "name": "favipiravir",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "3ce0aabad27ceb19780b9fea724eecf1"
+        },
+        {
+          "bel": "p(COVID:E)",
+          "concept": {
+            "name": "E",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "77e06efa828f4686d426426464a86741"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:favipiravir), p(COVID:ORF1ab))",
+      "function": "Complex",
+      "id": "f7a60c15565a0eb35ebf6a85d683b7b0",
+      "members": [
+        {
+          "bel": "a(CHEBI:favipiravir)",
+          "concept": {
+            "name": "favipiravir",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "3ce0aabad27ceb19780b9fea724eecf1"
+        },
+        {
+          "bel": "p(COVID:ORF1ab)",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "3e2ae75f3061012cb65ea6b97f7db096"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:favipiravir), p(COVID:ORF7a))",
+      "function": "Complex",
+      "id": "6aabbb958685715978e41a779a237ce4",
+      "members": [
+        {
+          "bel": "a(CHEBI:favipiravir)",
+          "concept": {
+            "name": "favipiravir",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "3ce0aabad27ceb19780b9fea724eecf1"
+        },
+        {
+          "bel": "p(COVID:ORF7a)",
+          "concept": {
+            "name": "ORF7a",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "4c7bb5356287684d6f2d630633ed836a"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:porphyrins), p(COVID:E))",
+      "function": "Complex",
+      "id": "811f90cf7f93640a072bd48b12134e91",
+      "members": [
+        {
+          "bel": "a(CHEBI:porphyrins)",
+          "concept": {
+            "name": "porphyrins",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "52ec0160b84811816e991cacaa8abe12"
+        },
+        {
+          "bel": "p(COVID:E)",
+          "concept": {
+            "name": "E",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "77e06efa828f4686d426426464a86741"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:porphyrins), p(COVID:N))",
+      "function": "Complex",
+      "id": "7458f2e15fb6b39608f0c7ebf62b3cce",
+      "members": [
+        {
+          "bel": "a(CHEBI:porphyrins)",
+          "concept": {
+            "name": "porphyrins",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "52ec0160b84811816e991cacaa8abe12"
+        },
+        {
+          "bel": "p(COVID:N)",
+          "concept": {
+            "name": "N",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "a1054f8b8ac9a90d2ad484980fa2a350"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:porphyrins), p(COVID:ORF1ab))",
+      "function": "Complex",
+      "id": "10f6dcfee5343f3fad2d4572d1092fb7",
+      "members": [
+        {
+          "bel": "a(CHEBI:porphyrins)",
+          "concept": {
+            "name": "porphyrins",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "52ec0160b84811816e991cacaa8abe12"
+        },
+        {
+          "bel": "p(COVID:ORF1ab)",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "3e2ae75f3061012cb65ea6b97f7db096"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:porphyrins), p(COVID:ORF7a))",
+      "function": "Complex",
+      "id": "67912311274473aa8c66cb9c66364e57",
+      "members": [
+        {
+          "bel": "a(CHEBI:porphyrins)",
+          "concept": {
+            "name": "porphyrins",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "52ec0160b84811816e991cacaa8abe12"
+        },
+        {
+          "bel": "p(COVID:ORF7a)",
+          "concept": {
+            "name": "ORF7a",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "4c7bb5356287684d6f2d630633ed836a"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:porphyrins), p(COVID:ORF8))",
+      "function": "Complex",
+      "id": "1c2351374e768405138bd3714da01e72",
+      "members": [
+        {
+          "bel": "a(CHEBI:porphyrins)",
+          "concept": {
+            "name": "porphyrins",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "52ec0160b84811816e991cacaa8abe12"
+        },
+        {
+          "bel": "p(COVID:ORF8)",
+          "concept": {
+            "name": "ORF8",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "e26cdcc8f256cea0707d9c43501ed8e6"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:porphyrins), p(COVID:S))",
+      "function": "Complex",
+      "id": "cb90ee947a037ba1a78b15cdfea0edeb",
+      "members": [
+        {
+          "bel": "a(CHEBI:porphyrins)",
+          "concept": {
+            "name": "porphyrins",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "52ec0160b84811816e991cacaa8abe12"
+        },
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(PUBCHEM:64927), p(COVID:N))",
+      "function": "Complex",
+      "id": "3bf258d8724655d5c44b79aeda8afdaa",
+      "members": [
+        {
+          "bel": "a(PUBCHEM:64927)",
+          "concept": {
+            "name": "64927",
+            "namespace": "PUBCHEM"
+          },
+          "function": "Abundance",
+          "id": "d1d9cd19651e6f35ce814088de31cdd1"
+        },
+        {
+          "bel": "p(COVID:N)",
+          "concept": {
+            "name": "N",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "a1054f8b8ac9a90d2ad484980fa2a350"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(PUBCHEM:64927), p(COVID:ORF1ab))",
+      "function": "Complex",
+      "id": "b86140ca89cd3f3242e2475921869efb",
+      "members": [
+        {
+          "bel": "a(PUBCHEM:64927)",
+          "concept": {
+            "name": "64927",
+            "namespace": "PUBCHEM"
+          },
+          "function": "Abundance",
+          "id": "d1d9cd19651e6f35ce814088de31cdd1"
+        },
+        {
+          "bel": "p(COVID:ORF1ab)",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "3e2ae75f3061012cb65ea6b97f7db096"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(PUBCHEM:64927), p(COVID:ORF7a))",
+      "function": "Complex",
+      "id": "bdd0e45162758d2739b769f7b49950d1",
+      "members": [
+        {
+          "bel": "a(PUBCHEM:64927)",
+          "concept": {
+            "name": "64927",
+            "namespace": "PUBCHEM"
+          },
+          "function": "Abundance",
+          "id": "d1d9cd19651e6f35ce814088de31cdd1"
+        },
+        {
+          "bel": "p(COVID:ORF7a)",
+          "concept": {
+            "name": "ORF7a",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "4c7bb5356287684d6f2d630633ed836a"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(PUBCHEM:64927), p(COVID:ORF8))",
+      "function": "Complex",
+      "id": "add5605310f869720bc5f13c32aa3452",
+      "members": [
+        {
+          "bel": "a(PUBCHEM:64927)",
+          "concept": {
+            "name": "64927",
+            "namespace": "PUBCHEM"
+          },
+          "function": "Abundance",
+          "id": "d1d9cd19651e6f35ce814088de31cdd1"
+        },
+        {
+          "bel": "p(COVID:ORF8)",
+          "concept": {
+            "name": "ORF8",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "e26cdcc8f256cea0707d9c43501ed8e6"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(PUBCHEM:64927), p(COVID:S))",
+      "function": "Complex",
+      "id": "24d05728e4e575c741ec830e0de3fdab",
+      "members": [
+        {
+          "bel": "a(PUBCHEM:64927)",
+          "concept": {
+            "name": "64927",
+            "namespace": "PUBCHEM"
+          },
+          "function": "Abundance",
+          "id": "d1d9cd19651e6f35ce814088de31cdd1"
+        },
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(CHEBI:porphyrins), p(COVID:S))",
+      "function": "Complex",
+      "id": "e10ecb9276be0cf94a4f6cd2d3bf7c37",
+      "members": [
+        {
+          "bel": "p(CHEBI:porphyrins)",
+          "concept": {
+            "name": "porphyrins",
+            "namespace": "CHEBI"
+          },
+          "function": "Protein",
+          "id": "10543f719aecbf253a18d24bf42c13c1"
+        },
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        }
+      ]
+    },
+    {
+      "bel": "p(CHEBI:porphyrins)",
+      "concept": {
+        "name": "porphyrins",
+        "namespace": "CHEBI"
+      },
+      "function": "Protein",
+      "id": "10543f719aecbf253a18d24bf42c13c1"
+    },
+    {
+      "bel": "p(COVID:E)",
+      "concept": {
+        "name": "E",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "77e06efa828f4686d426426464a86741"
+    },
+    {
+      "bel": "p(COVID:N)",
+      "concept": {
+        "name": "N",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "a1054f8b8ac9a90d2ad484980fa2a350"
+    },
+    {
+      "bel": "p(COVID:ORF1ab)",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "3e2ae75f3061012cb65ea6b97f7db096"
+    },
+    {
+      "bel": "p(COVID:ORF7a)",
+      "concept": {
+        "name": "ORF7a",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "4c7bb5356287684d6f2d630633ed836a"
+    },
+    {
+      "bel": "p(COVID:ORF8)",
+      "concept": {
+        "name": "ORF8",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "e26cdcc8f256cea0707d9c43501ed8e6"
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    }
+  ]
+}

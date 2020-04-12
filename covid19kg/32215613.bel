@@ -1,0 +1,208 @@
+
+##################################################################################
+SET DOCUMENT Name = "32215613.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+SET Citation = {"PubMed", "32215613"}
+
+SET PublicationType = "Review"
+SET PublicationStatus = "Published"
+SET Section = "Full Text"
+
+SET Evidence = "In an analysis of 45,000 confirmed cases in China, the crude case \
+fatality rate was 0.9% for patients without any documented \
+comorbidities, whereas the case fatality rate was much higher for \
+patients with CVD (10.5%), diabetes (7.3%), or hypertension (6.3%)"
+
+SET Custom_Disease = "COVID-19"
+path(DO:"cardiovascular system disease") -> a(MESH:Mortality)
+path(DO:"diabetes mellitus") -> a(MESH:Mortality)
+path(DO:hypertension) -> a(MESH:Mortality)
+path(DO:"cardiovascular system disease") -- path(DO:"COVID-19")
+path(DO:"diabetes mellitus") -- path(DO:"COVID-19")
+path(DO:hypertension) -- path(DO:"COVID-19")
+
+path(DO:"cardiovascular system disease") -| a(MESH:Mortality)
+path(DO:"diabetes mellitus") -| a(MESH:Mortality)
+path(DO:hypertension) -| a(MESH:Mortality)
+path(DO:"cardiovascular system disease") -- path(DO:"COVID-19")
+path(DO:"diabetes mellitus") -- path(DO:"COVID-19")
+path(DO:hypertension) -- path(DO:"COVID-19")
+
+
+SET Evidence = "Similar pathogenesis has been identified in SARS-CoV-2, where it was \
+recently confirmed that host-cell entry also depends on ACE2 [11]."
+
+complex(a(TAX:"Severe acute respiratory syndrome coronavirus 2"), p(HGNC:ACE2)) -> bp(GO:"viral entry into host cell")
+
+SET Evidence = "ACE2 in the gastrointestinal tract may underly early gastrointestinal \
+symptoms such as nausea, vomiting, and diarrhea, and ACE2 in the heart \
+may be related to cardiac damage and fulminant myocarditis that have \
+been reported in COVID-19 [14,15]."
+
+SET MeSHAnatomy = "Gastrointestinal Tract"
+act(p(HGNC:ACE2)) -- path(MESH:Nausea)
+act(p(HGNC:ACE2)) -- path(MESH:Vomiting)
+act(p(HGNC:ACE2)) -- path(DO:diarrhea)
+UNSET MeSHAnatomy
+SET MeSHAnatomy = "Heart"
+act(p(HGNC:ACE2)) -- path(MESH:"Heart Injuries")
+act(p(HGNC:ACE2)) -- path(FIXME:"Fulminant myocarditis")
+UNSET MeSHAnatomy
+path(DO:"COVID-19") -> path(MESH:Nausea)
+path(DO:"COVID-19") -> path(MESH:Vomiting)
+path(DO:"COVID-19") -> path(DO:diarrhea)
+path(DO:"COVID-19") -> path(MESH:"Heart Injuries")
+path(DO:"COVID-19") -> path(FIXME:"Fulminant myocarditis")
+UNSET Custom_Disease
+
+SET Evidence = "In the RAS cascade, ACE is responsible for the conversion of \
+Angiotensin (Ang) I to Ang II, and Ang II is the vasoactive peptide \
+principally responsible for systemic vasoconstriction and stimulation \
+of aldosterone release (Figure 1) [16]"
+
+bp(MESH:"Renin-Angiotensin System") -- act(p(HGNC:ACE))
+act(p(HGNC:ACE)) -> rxn(reactants(a(CHEBI:"Angiotensin I")),products(a(CHEBI:"angiotensin II")))
+a(CHEBI:"angiotensin II") -> bp(GO:vasoconstriction)
+a(CHEBI:"angiotensin II") -> bp(GO:"aldosterone secretion")
+
+SET Evidence = "In contrast, ACE2 counteracts the RAS cascade by providing inhibitory \
+control over Ang II. It does this via two primary mechanisms. First, \
+ACE2 directly catalyzes Ang I and Ang II, depleting their levels [17]."
+
+act(p(HGNC:ACE2)) -> deg(a(CHEBI:"Angiotensin I"))
+act(p(HGNC:ACE2)) -> deg(a(CHEBI:"angiotensin II"))
+
+SET Evidence = "The generation of Ang II by ACE is pharmacologically inhibited by \
+angiotensin converting enzyme inhibitors (ACEi), and angiotensin \
+receptor blockers (ARBs) function by blocking the downstream \
+interaction of Ang II with the AT1 receptor [16]."
+
+act(p(HGNC:ACE)) -> a(CHEBI:"angiotensin II")
+a(MESH:"Angiotensin-Converting Enzyme Inhibitors") -| complex(a(CHEBI:"angiotensin II"), p(HGNC:AGTR1))
+a(CHEBI:"angiotensin receptor antagonist") -| complex(a(CHEBI:"angiotensin II"), p(HGNC:AGTR1))
+complex(a(CHEBI:"angiotensin II"), p(HGNC:AGTR1)) -> act(p(HGNC:ACE))
+
+SET Evidence = "Additional medications, including thiazolidinediones or ibuprofen, may \
+also increase ACE2 levels, though data on this are sparse [21]."
+
+a(CHEBI:thiazolidinediones) -> p(HGNC:ACE2)
+a(CHEBI:ibuprofen) -> p(HGNC:ACE2)
+
+SET Evidence = "Indeed, increased ACE2 levels are seen in multiple cardiovascular \
+conditions and related comorbidities such as diabetes and hypertension \
+[8,18,25]."
+
+path(DO:"cardiovascular system disease") pos p(HGNC:ACE2)
+path(DO:"diabetes mellitus") pos p(HGNC:ACE2)
+path(DO:hypertension) pos p(HGNC:ACE2)
+
+SET Evidence = "Paradoxically, pharmacologic RAS blockade has also been associated \
+with increased ACE2 expression in mouse models [20]."
+
+SET Species = "10090"
+bp(MESH:"Renin-Angiotensin System") -| p(MGI:Ace2)
+UNSET Species
+
+SET Evidence = "Lastly, SARS-CoV-2 infection may downregulate ACE2 function, possibly \
+to a greater extent in patients with pre-existing CVD."
+
+SET Custom_Disease = "COVID-19"
+path(DO:"COVID-19") -| act(p(HGNC:ACE2))
+
+SET Evidence = "This could lead to toxic Ang II overaccumulation, and several \
+pathologic sequelae such as ARDS or fulminant myocarditis may follow."
+
+act(p(HGNC:ACE2)) -| a(CHEBI:"angiotensin II")
+a(CHEBI:"angiotensin II") -> path(FIXME:"Fulminant myocarditis")
+a(CHEBI:"angiotensin II") -> path(DO:"adult respiratory distress syndrome")
+UNSET Custom_Disease
+
+SET Evidence = "With SARS-CoV, animal models showed that infection with the virus \
+downregulated ACE2 expression, generating an inflammatory response \
+correlated with acute lung injury and impaired cardiac contractility \
+[26–28]."
+
+SET Species = "10090"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -| r(MGI:Ace2)
+act(p(MGI:Ace2)) -| bp(GO:"inflammatory response")
+bp(GO:"inflammatory response") pos path(MESH:"Acute Kidney Injury")
+bp(GO:"inflammatory response") pos path(HP:"Impaired myocardial contractility")
+UNSET Species
+
+SET Evidence = "RAS activity in patients with CVD or cardiovascular comorbidities \
+could increase the likelihood and severity of SARS-CoV-2 infection in \
+the lung or heart and may explain heterogeneity in the clinical course \
+of COVID-19, but in what direction??"
+
+bp(MESH:"Renin-Angiotensin System") -- path(DO:"cardiovascular system disease")
+bp(MESH:"Renin-Angiotensin System") -> path(DO:"COVID-19")
+
+SET Evidence = "Because most patients who die from COVID-19 appear to develop ARDS as \
+they decompensate, the definition of severe disease should include \
+death, need for intensive care and organ support such as mechanical \
+ventilation, or acute respiratory distress syndrome."
+
+path(DO:"COVID-19") -> path(DO:"adult respiratory distress syndrome")
+
+SET Evidence = "Some centers are anecdotally reporting de novo cardiomyopathy; if this \
+is true, this too should be considered in the definition of severe \
+disease, although the mechanism could differ, and it is unclear if \
+cardiomyopathy associated with COVID-19 occurs in the absence of ARDS."
+
+path(DO:"COVID-19") -> path(DO:cardiomyopathy)
+
+SET Evidence = "Mechanistic evidence suggests two competing hypotheses: 1) RAS \
+blockade decreases proinflammatory activity of Ang II, decreasing the \
+risk of ARDS, myocarditis, or mortality in COVID-19, or 2) RAS \
+blockade increases ACE2 expression, promoting SARS-CoV-2 virulence in \
+the lungs and heart that leads to ARDS, myocarditis, and death."
+
+bp(MESH:"Renin-Angiotensin System") -> bp(GO:"inflammatory response")
+a(CHEBI:"angiotensin II") -> bp(GO:"inflammatory response")
+bp(GO:"inflammatory response") pos path(DO:"adult respiratory distress syndrome")
+bp(GO:"inflammatory response") pos path(DO:myocarditis)
+bp(MESH:"Renin-Angiotensin System") -| p(HGNC:ACE2)
+SET MeSHAnatomy = {"Lung", "Heart"}
+act(p(HGNC:ACE2)) -> a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET MeSHAnatomy
+SET MeSHAnatomy = "Lung"
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(DO:"adult respiratory distress syndrome")
+UNSET MeSHAnatomy
+SET MeSHAnatomy = "Heart"
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(DO:myocarditis)
+UNSET MeSHAnatomy
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation
+

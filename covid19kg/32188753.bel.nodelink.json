@@ -1,0 +1,879 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Review"
+      ],
+      "Section": [
+        "Full Text"
+      ],
+      "Study": [
+        "in vitro"
+      ],
+      "population_type": [
+        "Chinese"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Priya S",
+      "contact": "priya@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32188753.bel",
+      "version": "2.1.0"
+    },
+    "namespace_pattern": {
+      "PUBCHEM": "^\\d+$"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32188753.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Frieman MB",
+          "Weston S"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188753",
+        "db_name": "mSphere",
+        "first": "Weston S",
+        "last": "Frieman MB",
+        "volume": "5"
+      },
+      "evidence": "The virus was initially named 2019-nCoV but is now termed SARS-CoV-2 and causes the disease COVID-19 (coronavirus disease 2019).",
+      "key": "9a6a080a006ad77946cde36af462b572",
+      "line": 50,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Frieman MB",
+          "Weston S"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188753",
+        "db_name": "mSphere",
+        "first": "Weston S",
+        "last": "Frieman MB",
+        "volume": "5"
+      },
+      "evidence": "Early studies on SARS-CoV-2 have shown further similarities with its namesake virus in that the spike protein utilizes ACE2 as its cell surface receptor (3, 4).",
+      "key": "a8ea4e141a0f88b329a7bb16cda71584",
+      "line": 55,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "population_type": {
+          "Chinese": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Frieman MB",
+          "Weston S"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188753",
+        "db_name": "mSphere",
+        "first": "Weston S",
+        "last": "Frieman MB",
+        "volume": "5"
+      },
+      "evidence": "A combination of lopinavir and ritonavir is also under investigation in human cases of COVID-19 in China.",
+      "key": "b72bce26c4a824b7607a7173eb754c30",
+      "line": 81,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Frieman MB",
+          "Weston S"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188753",
+        "db_name": "mSphere",
+        "first": "Weston S",
+        "last": "Frieman MB",
+        "volume": "5"
+      },
+      "evidence": "The most common associated comorbidities are pulmonary disease, diabetes, and old age (10).",
+      "key": "b610a2df97ced1759ee42405e710885a",
+      "line": 65,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Frieman MB",
+          "Weston S"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188753",
+        "db_name": "mSphere",
+        "first": "Weston S",
+        "last": "Frieman MB",
+        "volume": "5"
+      },
+      "evidence": "The most common associated comorbidities are pulmonary disease, diabetes, and old age (10).",
+      "key": "50b176418c934960ebca66255b98f0bb",
+      "line": 66,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Frieman MB",
+          "Weston S"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188753",
+        "db_name": "mSphere",
+        "first": "Weston S",
+        "last": "Frieman MB",
+        "volume": "5"
+      },
+      "evidence": "The most common associated comorbidities are pulmonary disease, diabetes, and old age (10).",
+      "key": "2e8ad741a388ffd3190ad253d4ead4c1",
+      "line": 67,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Frieman MB",
+          "Weston S"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188753",
+        "db_name": "mSphere",
+        "first": "Weston S",
+        "last": "Frieman MB",
+        "volume": "5"
+      },
+      "evidence": "The virus was initially named 2019-nCoV but is now termed SARS-CoV-2 and causes the disease COVID-19 (coronavirus disease 2019).",
+      "key": "22832a03ef9ec8b96119307447a5c980",
+      "line": 50,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Frieman MB",
+          "Weston S"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188753",
+        "db_name": "mSphere",
+        "first": "Weston S",
+        "last": "Frieman MB",
+        "volume": "5"
+      },
+      "evidence": "Early studies on SARS-CoV-2 have shown further similarities with its namesake virus in that the spike protein utilizes ACE2 as its cell surface receptor (3, 4).",
+      "key": "d03b13da431ba763a72d9556df1af2e6",
+      "line": 55,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "population_type": {
+          "Chinese": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Frieman MB",
+          "Weston S"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188753",
+        "db_name": "mSphere",
+        "first": "Weston S",
+        "last": "Frieman MB",
+        "volume": "5"
+      },
+      "evidence": "A combination of lopinavir and ritonavir is also under investigation in human cases of COVID-19 in China.",
+      "key": "12f0d2876414576fff0fc61a590c5faf",
+      "line": 81,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Frieman MB",
+          "Weston S"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188753",
+        "db_name": "mSphere",
+        "first": "Weston S",
+        "last": "Frieman MB",
+        "volume": "5"
+      },
+      "evidence": "Early studies on SARS-CoV-2 have shown further similarities with its namesake virus in that the spike protein utilizes ACE2 as its cell surface receptor (3, 4).",
+      "key": "133be61835ddb3596580fcbba473dc9a",
+      "line": 54,
+      "relation": "increases",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Epithelial Cells": true,
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Frieman MB",
+          "Weston S"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188753",
+        "db_name": "mSphere",
+        "first": "Weston S",
+        "last": "Frieman MB",
+        "volume": "5"
+      },
+      "evidence": "ACE2 is found on ciliated epithelial cells of the human lungs, and this receptor utilization influences the tropism of these viruses.",
+      "key": "9b504e8ee457f864f5f94c7b5389c065",
+      "line": 60,
+      "relation": "increases",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "key": "cc2d182e46a7afcbe8de0b32b4f87ed1",
+      "relation": "partOf",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "key": "1db03b2523b3b2cd2b465edf9382bc2a",
+      "relation": "partOf",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Frieman MB",
+          "Weston S"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188753",
+        "db_name": "mSphere",
+        "first": "Weston S",
+        "last": "Frieman MB",
+        "volume": "5"
+      },
+      "evidence": "The most common associated comorbidities are pulmonary disease, diabetes, and old age (10).",
+      "key": "7137c94c391f1abf0765c41e6a311bef",
+      "line": 65,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Frieman MB",
+          "Weston S"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188753",
+        "db_name": "mSphere",
+        "first": "Weston S",
+        "last": "Frieman MB",
+        "volume": "5"
+      },
+      "evidence": "The most common associated comorbidities are pulmonary disease, diabetes, and old age (10).",
+      "key": "fe8123da9312c6dbabddf279faacab61",
+      "line": 66,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Frieman MB",
+          "Weston S"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188753",
+        "db_name": "mSphere",
+        "first": "Weston S",
+        "last": "Frieman MB",
+        "volume": "5"
+      },
+      "evidence": "The most common associated comorbidities are pulmonary disease, diabetes, and old age (10).",
+      "key": "27ce9bc2cc8fb9291cfad303a5493062",
+      "line": 67,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Study": {
+          "in vitro": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Frieman MB",
+          "Weston S"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188753",
+        "db_name": "mSphere",
+        "first": "Weston S",
+        "last": "Frieman MB",
+        "volume": "5"
+      },
+      "evidence": "A novel therapeutic being tested is remdesivir (19, 20), which in combination with chloroquine has been found to inhibit SARS-CoV-2 growth in vitro (21).",
+      "key": "f78140aaf3318ba56623b7f5d4e5f2b8",
+      "line": 71,
+      "relation": "decreases",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "key": "f1f13929b81c153acaaf4ab22122cc2d",
+      "relation": "partOf",
+      "source": 0,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "population_type": {
+          "Chinese": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Frieman MB",
+          "Weston S"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188753",
+        "db_name": "mSphere",
+        "first": "Weston S",
+        "last": "Frieman MB",
+        "volume": "5"
+      },
+      "evidence": "Chloroquine has also been reported to be effective in patients in China (22).",
+      "key": "819b5c9459863fe9090cbeb4ed2b0448",
+      "line": 77,
+      "relation": "decreases",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "key": "24738fe84bcf19b6e2101a8e24dcb264",
+      "relation": "partOf",
+      "source": 3,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "population_type": {
+          "Chinese": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Frieman MB",
+          "Weston S"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188753",
+        "db_name": "mSphere",
+        "first": "Weston S",
+        "last": "Frieman MB",
+        "volume": "5"
+      },
+      "evidence": "A combination of lopinavir and ritonavir is also under investigation in human cases of COVID-19 in China.",
+      "key": "655eb1f1c17301f1a8955f0f96dbc511",
+      "line": 82,
+      "relation": "decreases",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "population_type": {
+          "Chinese": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Frieman MB",
+          "Weston S"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188753",
+        "db_name": "mSphere",
+        "first": "Weston S",
+        "last": "Frieman MB",
+        "volume": "5"
+      },
+      "evidence": "A combination of lopinavir and ritonavir is also under investigation in human cases of COVID-19 in China.",
+      "key": "59a30a396567cf08e4c471cbeeb71944",
+      "line": 83,
+      "relation": "decreases",
+      "source": 2,
+      "target": 4
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:chloroquine)",
+      "concept": {
+        "name": "chloroquine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "c368fe204031ce23a04cc402914492f6"
+    },
+    {
+      "bel": "a(CHEBI:lopinavir)",
+      "concept": {
+        "name": "lopinavir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "540f0a29f78ff437222f25e1c2e1b0fd"
+    },
+    {
+      "bel": "a(CHEBI:ritonavir)",
+      "concept": {
+        "name": "ritonavir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "07c1651afef7019b0cb107f1ce5fef12"
+    },
+    {
+      "bel": "a(PUBCHEM:121304016)",
+      "concept": {
+        "name": "121304016",
+        "namespace": "PUBCHEM"
+      },
+      "function": "Abundance",
+      "id": "7704f9ea62204912dace9e0cfb704c95"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "bp(MESH:Aged)",
+      "concept": {
+        "name": "Aged",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "cb6a41fd5edd885138416bb27cc231d4"
+    },
+    {
+      "bel": "complex(p(COVID:S), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "6b8514d35b9a04dcfdf30d01d4a3a0a0",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "composite(a(CHEBI:chloroquine), a(PUBCHEM:121304016))",
+      "function": "Composite",
+      "id": "987bc06146f887c5109ada7a00f2d5ed",
+      "members": [
+        {
+          "bel": "a(CHEBI:chloroquine)",
+          "concept": {
+            "name": "chloroquine",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "c368fe204031ce23a04cc402914492f6"
+        },
+        {
+          "bel": "a(PUBCHEM:121304016)",
+          "concept": {
+            "name": "121304016",
+            "namespace": "PUBCHEM"
+          },
+          "function": "Abundance",
+          "id": "7704f9ea62204912dace9e0cfb704c95"
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"chronic obstructive pulmonary disease\")",
+      "concept": {
+        "name": "chronic obstructive pulmonary disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "52c7695775666e17f73294c1b6376caa"
+    },
+    {
+      "bel": "path(DO:\"diabetes mellitus\")",
+      "concept": {
+        "name": "diabetes mellitus",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "a851751c015aaa69ddfba6458d99c945"
+    }
+  ]
+}

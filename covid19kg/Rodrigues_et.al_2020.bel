@@ -1,0 +1,117 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Rodrigues_et.al_2020.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+DEFINE ANNOTATION Assay AS LIST {"zymographic assay"}
+DEFINE ANNOTATION Concentration AS LIST {"1 μM","10 μM"}
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Custom_CellLine AS LIST {"Vero E6 cell"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"DOI","10.1101/2020.04.04.020925v2"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+
+SET Evidence = "The more spontaneous binding of ATV, suggested by its lower energy score, may be related to its projected ability to form hydrogens bonds with the amino acid residues Asn142, His164, and Glu166 in Mpro, whereas the binding of LPV depends on hydrophobic interactions (Figure 2)."
+
+complex(a(CHEBI:atazanavir),p(COVID:ORF1ab, frag("3264_3569"))) -- bp(MESH:"Hydrogen Bonding")
+
+SET Evidence = "In the infected cells, a region of activity was observed between 31 and 38 kDa that was not present in the mock fraction. This zone of molecular weight is consistent with expected size of SARS-CoV-2 Mpro as was the inhibition of activity in this region by exposure of the gels to 10 μM of ATV, which did not affect the cellular cysteine proteinase at 70 kDa (Figure 5, lanes ATV)."
+
+SET Assay = "zymographic assay"
+SET Concentration = "10 μM"
+complex(a(CHEBI:atazanavir),p(COVID:ORF1ab, frag("3264_3569"))) -| act(p(COVID:ORF1ab, frag("3264_3569")))
+UNSET Concentration
+UNSET Assay
+
+SET Evidence = "Further confirmation of the presence and activity of SARS-CoV-2 Mpro in fractions from infected cells was obtained by treatment with RTV, which inhibited activity in the molecular range of 31-38 kDa without a change in the 70 kDa region (Figure 5, lanes RTV)."
+
+SET Assay = "zymographic assay"
+complex(a(CHEBI:ritonavir),p(COVID:ORF1ab, frag("3264_3569"))) -| act(p(COVID:ORF1ab, frag("3264_3569")))
+UNSET Assay
+
+SET Evidence = "ATV alone, or in combination with RTV, inhibited infectious virus production and SARS-CoV RNA levels in Vero cells (Figure 6A and B, respectively)."
+
+SET Custom_CellLine = "Vero E6 cell"
+a(CHEBI:atazanavir) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+composite(a(CHEBI:atazanavir),a(CHEBI:ritonavir)) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+a(CHEBI:ritonavir) -| a(GO:"RNA viral genome")
+composite(a(CHEBI:atazanavir),a(CHEBI:ritonavir)) -| a(GO:"RNA viral genome")
+a(GO:"RNA viral genome") -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Custom_CellLine
+
+SET Evidence = "ATV alone showed a nearly 10-fold increase in potency for inhibiting SARS-CoV-2 replication in A549 (Figure 6C) compared to Vero cells (Figure 6B). ATV/RTV and CQ were similarly potent in inhibiting virus replication in both cell types (Figure 6B and C)."
+
+SET CellLine = "A549 cell"
+a(CHEBI:ritonavir) -| bp(MESH:"Virus Replication")
+SET Custom_CellLine = "Vero E6 cell"
+composite(a(CHEBI:atazanavir),a(CHEBI:ritonavir)) -| bp(MESH:"Virus Replication")
+a(CHEBI:chloroquine) -| bp(MESH:"Virus Replication")
+bp(MESH:"Virus Replication") -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Custom_CellLine
+UNSET CellLine
+
+SET Evidence = "ATV/RTV and CQ were similarly efficient to inhibit viral replication in the human monocytes (Figure 7A)."
+
+SET Species = "9606"
+SET Cell = "monocyte"
+composite(a(CHEBI:atazanavir),a(CHEBI:ritonavir)) -| bp(MESH:"Virus Replication")
+a(CHEBI:chloroquine) -| bp(MESH:"Virus Replication")
+UNSET Cell
+UNSET Species
+
+SET Evidence = "Moreover, we observed that infections by SARS-CoV-2 triggered the expected increase in the IL-6 levels in the culture supernatant, which ranged from 20- to 60-fold depending on the cell donor (Figure 7C, open circles in nil-treated cells). The virus-induced enhancement of IL-6 levels were significantly prevented by treatment with ATV at 10 µM, ATV/RTV at both 1 and 10 µM and CQ at 10 µM (Figure 7C)."
+
+SET Custom_Disease = "COVID-19"
+path(DO:"COVID-19") pos p(HGNC:IL6)
+SET Concentration = "1 μM"
+a(CHEBI:atazanavir) -| p(HGNC:IL6)
+UNSET Concentration
+SET Concentration = "10 μM"
+a(CHEBI:chloroquine) -| p(HGNC:IL6)
+UNSET Concentration
+composite(a(CHEBI:atazanavir),a(CHEBI:ritonavir)) -| p(HGNC:IL6)
+
+SET Evidence = "Another biomarker of uncontrolled pro-inflammatory cytokine response, TNF-α, was up-regulated 40-fold during virus infection (Figure 7D). Only the combination of ATV/RTV could significantly prevent the induction of TNF-α release (Figure 7D)."
+
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") pos path(DO:"COVID-19")
+path(DO:"COVID-19") pos p(HGNC:TNF)
+composite(a(CHEBI:atazanavir),a(CHEBI:ritonavir)) -| p(HGNC:TNF)
+UNSET Custom_Disease
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

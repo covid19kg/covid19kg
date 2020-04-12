@@ -1,0 +1,1020 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Assay": [
+        "Plaque Assay"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ],
+      "Timeline": [
+        "36 hours",
+        "48 hours"
+      ],
+      "Virus_stage": [
+        "late"
+      ],
+      "concentration": [
+        "0.30 μM",
+        "0.4 μM",
+        "0.50 μM",
+        "4 μM",
+        "40 μM"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "CellLine": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+    },
+    "document_metadata": {
+      "authors": "Priya S",
+      "contact": "priya@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32120929.bel",
+      "version": "2.1.0"
+    },
+    "namespace_pattern": {
+      "FIXME": ".*",
+      "PUBCHEM": "^\\d+$",
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$",
+      "dbSNP": "rs[0-9]+"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32120929.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "CellLine": {
+          "immortal rhesus macaque kidney-derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "The S. cusia leaf methanol extract reduced HCoV‐NL63‐induced CPE in LLC‐MK2 cells in a concentration‐dependent manner (Figure 1A).",
+      "key": "54946f89d1ca736102f2d26f57951240",
+      "line": 56,
+      "relation": "positiveCorrelation",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "immortal rhesus macaque kidney-derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "36 hours": true,
+          "48 hours": true
+        },
+        "concentration": {
+          "40 μM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "Among them, tryptanthrin at 40 μM exhibited the strongest antiviral activity with a significant reduction in HCoV‐NL63‐induced CPE in LLC‐MK2 cells 36 and 48 h post‐infection (Figure 3A).",
+      "key": "32b9128942379d5d691d763f60e41d42",
+      "line": 92,
+      "relation": "positiveCorrelation",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "immortal rhesus macaque kidney-derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "36 hours": true,
+          "48 hours": true
+        },
+        "concentration": {
+          "40 μM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "Indigodole B (5aR‐ethyltryptanthrin) at 40 μM concentration was ranked the second highest in terms of anti‐HCoV‐NL63 activity in reducing virus induced CPE 36 and 48 h post‐infection (Figure 3A).",
+      "key": "5a38d73e41bf353f2973ef448f073b0b",
+      "line": 105,
+      "relation": "positiveCorrelation",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Plaque Assay": true
+        },
+        "CellLine": {
+          "immortal rhesus macaque kidney-derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "48 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "The plaque assay indicated that the S. cusia leaf methanol extract exhibited a strong inhibitory effect against the production of progeny HCoV‐NL63 virions released into the cultured media of LLC‐MK2 cells at 37 °C 48 h post‐infection (Figure 1B).",
+      "key": "4faca9e934ab6124af6649e27fc17493",
+      "line": 68,
+      "relation": "negativeCorrelation",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunofluorescent labeling": true
+        },
+        "CellLine": {
+          "immortal rhesus macaque kidney-derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "36 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "Immunofluorescent staining with anti‐HCoV‐NL63‐immunized sera revealed that the S. cusia leaf methanol extract inhibited the HCoV‐NL63‐infected LLC‐MK2 positivity at 37 °C 36 h post‐infection in a concentration‐dependent manner as well (Figure 2A).",
+      "key": "c46f89d6f189e6964b4ae0f1c15b4ae1",
+      "line": 80,
+      "relation": "negativeCorrelation",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "immortal rhesus macaque kidney-derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "The S. cusia leaf methanol extract reduced HCoV‐NL63‐induced CPE in LLC‐MK2 cells in a concentration‐dependent manner (Figure 1A).",
+      "key": "b2c19633407dc75241af66699f83aa21",
+      "line": 56,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "immortal rhesus macaque kidney-derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "36 hours": true,
+          "48 hours": true
+        },
+        "concentration": {
+          "40 μM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "Among them, tryptanthrin at 40 μM exhibited the strongest antiviral activity with a significant reduction in HCoV‐NL63‐induced CPE in LLC‐MK2 cells 36 and 48 h post‐infection (Figure 3A).",
+      "key": "5475ed4cb1f113adbe361aa39b0633ae",
+      "line": 92,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "immortal rhesus macaque kidney-derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "36 hours": true,
+          "48 hours": true
+        },
+        "concentration": {
+          "40 μM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "Indigodole B (5aR‐ethyltryptanthrin) at 40 μM concentration was ranked the second highest in terms of anti‐HCoV‐NL63 activity in reducing virus induced CPE 36 and 48 h post‐infection (Figure 3A).",
+      "key": "6911f63c13b0d3242615e0fdfd98a6f3",
+      "line": 105,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "immortal rhesus macaque kidney-derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "The S. cusia leaf methanol extract reduced HCoV‐NL63‐induced CPE in LLC‐MK2 cells in a concentration‐dependent manner (Figure 1A).",
+      "key": "3262b75e13cd5822c02022c318891f00",
+      "line": 57,
+      "relation": "negativeCorrelation",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "immortal rhesus macaque kidney-derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "36 hours": true,
+          "48 hours": true
+        },
+        "concentration": {
+          "40 μM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "Among them, tryptanthrin at 40 μM exhibited the strongest antiviral activity with a significant reduction in HCoV‐NL63‐induced CPE in LLC‐MK2 cells 36 and 48 h post‐infection (Figure 3A).",
+      "key": "77219ed190c2476edff96ffcefe4f423",
+      "line": 93,
+      "relation": "negativeCorrelation",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "immortal rhesus macaque kidney-derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "The S. cusia leaf methanol extract reduced HCoV‐NL63‐induced CPE in LLC‐MK2 cells in a concentration‐dependent manner (Figure 1A).",
+      "key": "b536e97d99d616f9a6593fa6eed38756",
+      "line": 57,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Plaque Assay": true
+        },
+        "CellLine": {
+          "immortal rhesus macaque kidney-derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "48 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "The plaque assay indicated that the S. cusia leaf methanol extract exhibited a strong inhibitory effect against the production of progeny HCoV‐NL63 virions released into the cultured media of LLC‐MK2 cells at 37 °C 48 h post‐infection (Figure 1B).",
+      "key": "f8fdb1a878b5aac56e21ef97575d0e99",
+      "line": 68,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunofluorescent labeling": true
+        },
+        "CellLine": {
+          "immortal rhesus macaque kidney-derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "36 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "Immunofluorescent staining with anti‐HCoV‐NL63‐immunized sera revealed that the S. cusia leaf methanol extract inhibited the HCoV‐NL63‐infected LLC‐MK2 positivity at 37 °C 36 h post‐infection in a concentration‐dependent manner as well (Figure 2A).",
+      "key": "579d87bb3154763d47414d3cf5766dc4",
+      "line": 80,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "immortal rhesus macaque kidney-derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "36 hours": true,
+          "48 hours": true
+        },
+        "concentration": {
+          "40 μM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "Among them, tryptanthrin at 40 μM exhibited the strongest antiviral activity with a significant reduction in HCoV‐NL63‐induced CPE in LLC‐MK2 cells 36 and 48 h post‐infection (Figure 3A).",
+      "key": "a26c53a6bd2e64cc3ae6524a26fbf748",
+      "line": 93,
+      "relation": "negativeCorrelation",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "immortal rhesus macaque kidney-derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "48 hours": true
+        },
+        "concentration": {
+          "0.4 μM": true,
+          "4 μM": true,
+          "40 μM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "In the CPE reduction assay, tryptanthrin at 0.4, 4, and 40 μM significantly reduced virus‐induced CPE in LLCMK2 cells at 37 °C 48 h post‐infection, whereas the same effect was noted only for 40 μM indigodole B (Figure 4B–C).",
+      "key": "ef18a14354956edd0064556e9ffd65e6",
+      "line": 119,
+      "relation": "decreases",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Plaque Assay": true
+        },
+        "CellLine": {
+          "immortal rhesus macaque kidney-derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "concentration": {
+          "40 μM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "Moreover, the plaque assay revealed that tryptanthrin and indigodole B exerted a potent inhibitory effect on the in vitro progeny production of HCoV‐NL63 (Figure 4D–E), wherein IC50 values for virus yield were 1.52 μM and 2.60 μM for tryptanthrin and indigole B, respectively (Table 1).",
+      "key": "6630eea67ba213f6bcf9af7a422896eb",
+      "line": 134,
+      "relation": "decreases",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunofluorescent labeling": true
+        },
+        "CellLine": {
+          "Calu-3 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "concentration": {
+          "0.30 μM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "Immunofluorescent staining indicated that tryptanthrin significantly reduced the percentage of HCoV‐NL63‐positive cells (Figure 5A, middle and bottom), markedly reducing the HCoV‐NL63 infectivity with an IC50 value of 0.30 μM in human lung epithelial Calu‐3 cells (Figure 5B, Table 1).",
+      "key": "ecda23efb7fb163a1e490fa02c6b5e3d",
+      "line": 147,
+      "relation": "decreases",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Plaque Assay": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_stage": {
+          "late": true
+        },
+        "concentration": {
+          "0.50 μM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "In addition, tryptanthrin exhibited a higher inhibitory activity against the production of extracellular virions in the late stage (IC50 = 0.05 μM) than in the early stage (IC50 = 6.99 μM) (Figure 7A,B, Table 1).",
+      "key": "9fa91024b4413072a717fc67d0cb6f69",
+      "line": 159,
+      "object": {
+        "location": {
+          "name": "extracellular space",
+          "namespace": "GO"
+        }
+      },
+      "relation": "decreases",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "immortal rhesus macaque kidney-derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "36 hours": true,
+          "48 hours": true
+        },
+        "concentration": {
+          "40 μM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "Indigodole B (5aR‐ethyltryptanthrin) at 40 μM concentration was ranked the second highest in terms of anti‐HCoV‐NL63 activity in reducing virus induced CPE 36 and 48 h post‐infection (Figure 3A).",
+      "key": "60f1aa9e59297885d5dd9fade169bd9b",
+      "line": 106,
+      "relation": "decreases",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "immortal rhesus macaque kidney-derived cell line cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "concentration": {
+          "40 μM": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chang YS",
+          "Huang SH",
+          "Lee CL",
+          "Lin CW",
+          "Lin YP",
+          "Tsai YC",
+          "Yen HR"
+        ],
+        "date": "2020-02-27",
+        "db": "PubMed",
+        "db_id": "32120929",
+        "db_name": "Biomolecules",
+        "first": "Tsai YC",
+        "last": "Lin CW",
+        "volume": "10"
+      },
+      "evidence": "In the CPE reduction assay, tryptanthrin at 0.4, 4, and 40 μM significantly reduced virus‐induced CPE in LLCMK2 cells at 37 °C 48 h post‐infection, whereas the same effect was noted only for 40 μM indigodole B (Figure 4B–C).",
+      "key": "ed1589fffa0c4e98e51ac3f6184aa1b2",
+      "line": 123,
+      "relation": "decreases",
+      "source": 1,
+      "target": 4
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:Tryptanthrine)",
+      "concept": {
+        "name": "Tryptanthrine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "7bdbd8921e793830332ff55b0ed3cac4"
+    },
+    {
+      "bel": "a(FIXME:\"Indigodole B\")",
+      "concept": {
+        "name": "Indigodole B",
+        "namespace": "FIXME"
+      },
+      "function": "Abundance",
+      "id": "da0948bfd2cd03253e50dd7389e48cd6"
+    },
+    {
+      "bel": "a(FIXME:\"Strobilanthes cusia leaf methanol extract\")",
+      "concept": {
+        "name": "Strobilanthes cusia leaf methanol extract",
+        "namespace": "FIXME"
+      },
+      "function": "Abundance",
+      "id": "029666db05e3bb5af4211c909003763f"
+    },
+    {
+      "bel": "a(TAX:\"Human coronavirus NL63\")",
+      "concept": {
+        "name": "Human coronavirus NL63",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "b5a5fc44a982eccc138d532ccc7fe4ec"
+    },
+    {
+      "bel": "bp(MESH:\"Cytopathogenic Effect, Viral\")",
+      "concept": {
+        "name": "Cytopathogenic Effect, Viral",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "38f9dc6551c698ad7c354ca581f38189"
+    }
+  ]
+}

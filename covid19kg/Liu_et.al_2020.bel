@@ -1,0 +1,106 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Liu_et.al_2020.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"DOI","10.26434/chemrxiv.11938173.v5"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+
+SET Evidence = "It means that binding E2 glycoprotein to the porphyrin is the most stable, the binding of nucleocapsid phosphoprotein to the porphyrin is unstable, and binding envelope protein to the porphyrin is the most unstable."
+
+SET Species = "9606"
+SET Custom_Disease = "COVID-19"
+SET BioAssay = "molecular docking"
+complex(p(COVID:S),p(CHEBI:porphyrins)) pos path(DO:"COVID-19")
+
+SET Evidence = "The docking result is shown in Figure 7.A-1, where is the molecular model of the orf1ab protein binding to the porphyrin. The binding part of the orf1ab protein acts like a clip. It was this clip that grasps the porphyrin without the iron ion."
+
+complex(p(COVID:ORF1ab),a(CHEBI:porphyrins)) pos path(DO:"COVID-19")
+
+SET Evidence = "The docking result (Figure 7.B-1) represents the molecular model of ORF8 protein binding to the porphyrin."
+
+complex(p(COVID:ORF8),a(CHEBI:porphyrins)) pos path(DO:"COVID-19")
+
+SET Evidence = "The ORF7a protein and the porphyrin had the highest binding energy (37,123.79 kcal/mol)."
+
+complex(p(COVID:ORF7a),a(CHEBI:porphyrins)) pos path(DO:"COVID-19")
+
+SET Evidence = "According to the results of Figure 4.A-2, further analysis showed that some amino acids (for example VALA:952, ALA A:956, ALA B:956, ASN A:955 etc.) of the E2 glycoprotein could bind to not only chloroquine phosphate, but also the porphyrins. In other words, the chloroquine has a one-third chance of inhibiting viral E2 glycoprotein and reducing patient symptoms."
+
+complex(a(PUBCHEM:64927),p(COVID:S)) neg path(DO:"COVID-19")
+complex(a(PUBCHEM:64927),p(COVID:S)) -| act(p(COVID:S))
+
+SET Evidence = "The binding energy of chloroquine to the nucleocapsid phosphoprotein is 198,815.22 kcal/mol, which is only equivalent to the 1.4% of the binding energy of the nucleocapsid phosphoprotein and the porphyrin."
+
+complex(a(PUBCHEM:64927),p(COVID:N)) -| complex(p(COVID:N),a(CHEBI:porphyrins))
+
+SET Evidence = "The binding energy of chloroquine and the orf1ab protein is 4,584,302.64 kcal/mol, which equals 8-fold of the binding energy between the orf1ab and the porphyrin."
+
+complex(a(PUBCHEM:64927),p(COVID:ORF1ab)) -| complex(p(COVID:ORF1ab),a(CHEBI:porphyrins))
+
+SET Evidence = "The binding energy of chloroquine to the ORF8 protein is 4,707,657.39 kcal/mol, which is only equivalent to 37% of the binding energy of the ORF8 protein to the porphyrin."
+
+complex(a(PUBCHEM:64927),p(COVID:ORF8)) -| complex(p(COVID:ORF8),a(CHEBI:porphyrins))
+
+SET Evidence = "The binding energy of chloroquine to the ORF7a protein is 497,154.45 kcal / mol, which equals 13-fold of the binding energy of the ORF7a protein to the porphyrin."
+
+complex(a(PUBCHEM:64927),p(COVID:ORF7a)) -| complex(p(COVID:ORF7a),a(CHEBI:porphyrins))
+
+SET Evidence = "These results marked the chloroquine could inhibit E2 and ORF8 bind to the porphyrin to form a complex respectively to a certain extent. Meanwhile, chloroquine could prevent orf1ab, ORF3a and ORF10 to attack the heme to form the porphyrin."
+
+complex(a(PUBCHEM:64927),p(COVID:S)) -| complex(p(COVID:S),a(CHEBI:porphyrins))
+complex(a(PUBCHEM:64927),p(COVID:ORF8)) -| complex(p(COVID:ORF8),a(CHEBI:porphyrins))
+
+SET Evidence = "Favipiravir is the latest anti-novel coronavirus drug with specific therapeutic effects."
+
+a(CHEBI:favipiravir) -| path(DO:"COVID-19")
+
+SET Evidence = "It is useful to note that the binding energy of Envelope protein and Favipiravir is more than 2700 times the binding energy of porphyrin."
+
+complex(a(CHEBI:favipiravir),p(COVID:E)) -| complex(p(COVID:E),a(CHEBI:porphyrins))
+
+SET Evidence = "The binding energy of ORF7a to Favisiravir is 450 times higher than that of porphyrin, indicating that it can effectively avoid the non-structural protein of the virus capturing porphyrin."
+
+complex(a(CHEBI:favipiravir),p(COVID:ORF7a)) -| complex(p(COVID:ORF7a),a(CHEBI:porphyrins))
+
+SET Evidence = "The binding energy of orf1ab and Favisiravir is 1.8 times higher than that of porphyrin, which shows that Faifiravir can prevent virus unstructured protein from attacking heme on hemoglobin."
+
+complex(a(CHEBI:favipiravir),p(COVID:ORF1ab)) -| complex(p(COVID:ORF1ab),a(CHEBI:porphyrins))
+UNSET BioAssay
+UNSET Custom_Disease
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

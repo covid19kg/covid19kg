@@ -1,0 +1,201 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32217835.bel"
+SET DOCUMENT Authors = "Shounak Baksi"
+SET DOCUMENT ContactInfo = "shounak.baksi@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+#DEFINE NAMESPACE ADO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/alzheimer-disease-ontology/alzheimer-disease-ontology-1.0.2.belns"
+#DEFINE NAMESPACE BRCO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/brain-region-ontology/brain-region-ontology-1.0.0.belns"
+#DEFINE NAMESPACE NIFT AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/nift/NIFT.belns"
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+#DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+#DEFINE NAMESPACE RGD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/rgd-rat-genes/rgd-rat-genes-20190128.belns"
+#DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+#DEFINE NAMESPACE SCOMP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-named-complexes/selventa-named-complexes-20190128.belns"
+#DEFINE NAMESPACE SFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-protein-families/selventa-protein-families-20190128.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+#DEFINE NAMESPACE DRUGBANK AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns"
+#DEFINE NAMESPACE INTERPRO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/interpro/interpro-names-20181021.belns"
+#DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+#DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+#DEFINE NAMESPACE GOBP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns"
+#DEFINE NAMESPACE GOCC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20190128.belns"
+DEFINE NAMESPACE EFO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/efo/efo-20171206.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+#DEFINE NAMESPACE MESHC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-chemicals/mesh-chemicals-20190128.belns"
+#DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20190128.belns"
+#DEFINE NAMESPACE MESHPP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-processes/mesh-processes-20190128.belns"
+#DEFINE NAMESPACE MESHA AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-anatomy/mesh-anatomy-20190128.belns"
+#DEFINE NAMESPACE MESHCS AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-cellular-structures/mesh-cellular-structures-20190128.belns"
+#DEFINE NAMESPACE NCBIGENE AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-gene/ncbi-gene-20190224.belns"
+
+#DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+#DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+#DEFINE NAMESPACE dbSNP AS PATTERN "rs[0-9]+"
+#
+#
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+#DEFINE ANNOTATION Anatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno"
+#DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+#DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+#DEFINE ANNOTATION Disease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/disease/disease-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+#DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+#DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+#DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Severity AS LIST {"Severe", "Mild", "Moderate"}
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review", "Research", "Case Report"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint", "Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text", "Abstract", "Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed", "J Clin Invest. 2020 Mar 27. pii: 137244. doi: 10.1172/JCI137244.", "32217835"}
+SET PublicationType = "Case Report"
+SET PublicationStatus = "Published"
+SET Section = "Results" 
+SET Custom_Disease = "COVID-19"
+SET Species = "9606"
+SET Evidence = "the most common clinical manifestations at onset of illness include fever, cough, fatigue and myalgia"
+
+SET Severity = "Mild"
+path(DO:"COVID-19") pos path(MESH:Fever)
+path(DO:"COVID-19") pos path(MESH:Cough)
+path(DO:"COVID-19") pos path(MESH:Fatigue)
+path(DO:"COVID-19") pos path(MESH:Myalgia)
+
+SET Evidence = "Compared to moderate cases, chest tightness tended to be more common in severe cases. In addition, tachypnea and dyspnea were only developed in severe cases."
+
+SET Severity = "Severe"
+path(DO:"COVID-19") pos path(HP:"Chest tightness")
+path(DO:"COVID-19") pos path(MESH:Tachypnea)
+path(DO:"COVID-19") pos path(MESH:Dyspnea)
+UNSET Severity
+SET Evidence = "Compared with normal range, the whole blood count on admission of three (30%) moderatevcases showed mild leucopenia, while white blood cell (WBC) counts were normal or slightly increased above the upper limit of normal (ULN) in all the severe cases (Table 2)."
+
+SET MeSHAnatomy = "Blood"
+SET Severity = "Moderate"
+path(DO:"COVID-19") neg a(MESH:Leukocytes)
+SET Severity = "Severe"
+path(DO:"COVID-19") pos a(MESH:Leukocytes)
+
+SET Evidence = "Both WBC  and neutrophil counts were significantly higher in severe cases than moderate cases. Whereas lymphocyte counts were significantly lower in severe cases (0.7 × 109/L) than moderate cases (1.1 × 109/L)."
+
+path(DO:"COVID-19") pos a(MESH:Neutrophils)
+path(DO:"COVID-19") neg path(MESH:"Lymphocyte Count")
+
+
+SET Evidence = "Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) levels were significantly higher in severe cases than moderate cases."
+
+path(DO:"COVID-19") pos p(HGNC:GPT)
+path(DO:"COVID-19") pos p(HGNC:GOT1)
+path(DO:"COVID-19") pos p(HGNC:GOT2)
+
+SET Evidence = "Albumin concentrations were significantly lower in severe cases than moderate cases, and hypoalbuminemia (albumin<32g/L) was more frequent in severe cases (Table 2)."
+
+path(DO:"COVID-19") neg p(HGNC:ALB)
+path(DO:"COVID-19") pos path(MESH:Hypoalbuminemia)
+
+SET Evidence = "Levels of lactate dehydrogenase (LDH),  concentrations of serum high-sensitivity C-reactive protein (hsCRP), ferritin and D-dimer levels were markedly higher in severe cases than moderate cases."
+
+path(DO:"COVID-19") pos p(HGNC:LDHA)
+path(DO:"COVID-19") pos p(HGNC:LDHB)
+path(DO:"COVID-19") pos p(HGNC:LDHC)
+path(DO:"COVID-19") pos p(HGNC:CRP)
+path(DO:"COVID-19") pos p(HGNC:FTH1)
+path(DO:"COVID-19") pos bp(EFO:"D dimer measurement")
+
+SET Evidence = "Besides, serum levels of procalcitonin tended to be higher in severe cases than in moderate cases."
+
+path(DO:"COVID-19") pos p(MESH:preprocalcitonin)
+UNSET MeSHAnatomy
+
+SET Evidence = "These results suggest an increased level of systemic inflammation in severe cases."
+path(DO:"COVID-19") pos path(MESH:Inflammation)
+
+SET Evidence = "Interstitial lung abnormalities were observed in chest computed tomography (CT) scans of all patients on admission"
+
+path(DO:"COVID-19") pos path(DO:"interstitial lung disease")
+
+SET Evidence = "Evaluation of serum cytokines on admission revealed that levels of interleukin (IL)- 2R, IL-6, IL-10, and tumor necrosis factor-α (TNF-α) were markedly higher in severe cases than in moderate cases (Figure 2, Supplementary Table 1)."
+
+SET Severity = "Severe"
+SET MeSHAnatomy = "Plasma"
+path(DO:"COVID-19") pos p(HGNC:IL2)
+path(DO:"COVID-19") pos p(HGNC:IL6)
+path(DO:"COVID-19") pos p(HGNC:IL10)
+path(DO:"COVID-19") pos p(HGNC:TNF)
+
+SET Evidence = "Of note, IL-6 levels were increased in both moderate and severe cases."
+
+SET Severity = {"Severe", "Moderate"}
+path(DO:"COVID-19") pos p(HGNC:IL6)
+UNSET Severity
+
+SET Evidence = "Preliminary analysis of circulating immune cells subsets as shown in Table 3 demonstrated that absolute numbers of total T lymphocytes, CD4+T cells and CD8+T cells  were reduced below the lower limit of normal (LLN) in the vast majority of patients with either severe or moderate COVID-19, and they were reduced more profoundly in severe cases (294.0, 177.5 and 89.0 × 106/L) than in moderate cases (640.5, 381.5 and 254.0 × 106/L) (Figure 3A,
+161 3B)."
+
+SET MeSHAnatomy = "Blood"
+SET Severity = "Severe"
+path(DO:"COVID-19") neg a(EFO:"CD4-positive helper T cell")
+path(DO:"COVID-19") neg a(EFO:"T cell")
+path(DO:"COVID-19") neg a(EFO:"CD8-Positive T-Lymphocytes")
+
+SET Evidence = "The proportion of B cells was significantly higher in severe cases (20.2%) than in moderate cases (10.8%)."
+
+path(DO:"COVID-19") pos a(EFO:"B cell")
+
+SET Evidence = "Moreover, the frequencies of regulatory T cells (Tregs) (CD4+CD25+CD127low+) and CD45RA+Tregs were reduced (below LLN) in nearly all the severe and moderate cases, with CD45RA+Tregs proportion was markedly lower in severe cases (0.5%) than in moderate cases (1.1%)."
+
+SET Severity = {"Severe", "Moderate"}
+path(DO:"COVID-19") neg a(EFO:"CD4-positive, CD25-positive, alpha-beta regulatory T cell")
+path(DO:"COVID-19") pos path(DO:"CD45 deficiency")
+
+SET Evidence = "The reduced expressions of interferon-γ (IFN-γ) by CD4+T, CD8+T and NK cells below LLN were observed in some patients with severe (50%, 16.7% and 16.7%) or moderate COVID-19 (14.3%, 0% and 14.3%)."
+
+path(DO:"COVID-19") neg p(HGNC:IFNG)
+path(DO:"COVID-19") neg a(MESH:"Natural Killer T-Cells")
+path(DO:"COVID-19") neg a(EFO:"CD4-positive helper T cell")
+path(DO:"COVID-19") neg a(EFO:"CD8-Positive T-Lymphocytes")
+UNSET MeSHAnatomy
+
+SET Evidence = "All the severe and moderate cases were given empirical antimicrobial treatment (moxifloxacin and/or cephalosporin, etc.)."
+
+a(CHEBI:moxifloxacin) -| path(DO:"COVID-19")
+a(CHEBI:cephalosporin) -| path(DO:"COVID-19")
+
+SET Evidence = "7 (63.6%) severe cases and all moderate cases received antiviral therapy (oseltamivir and/or ganciclovir)."
+
+a(CHEBI:oseltamivir) -| path(DO:"COVID-19")
+a(CHEBI:ganciclovir) -| path(DO:"COVID-19")
+
+SET Evidence = "In Addition, all severe and moderate cases were administered corticosteroids (methylprednisolone) during the course of hospitalization."
+
+a(CHEBI:"6-methylprednisolone") -| path(DO:"COVID-19")
+UNSET Severity
+UNSET Species
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

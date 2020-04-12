@@ -1,0 +1,166 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32120929.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.1.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+DEFINE NAMESPACE dbSNP AS PATTERN "rs[0-9]+"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+
+DEFINE ANNOTATION Assay AS LIST {"Plaque Assay"}
+DEFINE ANNOTATION Timeline AS LIST {"48 hours", "36 hours"}
+DEFINE ANNOTATION Virus_stage AS LIST {"late"}
+DEFINE ANNOTATION concentration AS LIST {"0.4 μM","4 μM","40 μM","0.50 μM","0.30 μM"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+#################################################################################
+
+SET Citation = {"PubMed", "Biomolecules. 2020 Feb 27;10(3). pii: biom10030366. doi: 10.3390/biom10030366.", "32120929"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "The S. cusia leaf methanol extract reduced HCoV‐NL63‐induced CPE in \
+LLC‐MK2 cells in a concentration‐dependent manner (Figure 1A)."
+
+SET CellLine = "immortal rhesus macaque kidney-derived cell line cell"
+a(TAX:"Human coronavirus NL63") pos bp(MESH:"Cytopathogenic Effect, Viral")
+a(FIXME:"Strobilanthes cusia leaf methanol extract") neg bp(MESH:"Cytopathogenic Effect, Viral")
+UNSET CellLine
+
+SET Evidence = "The plaque assay indicated that the S. cusia leaf methanol extract \
+exhibited a strong inhibitory effect against the production of progeny \
+HCoV‐NL63 virions released into the cultured media of LLC‐MK2 cells at \
+37 °C 48 h post‐infection (Figure 1B)."
+
+SET CellLine = "immortal rhesus macaque kidney-derived cell line cell"
+SET Timeline = "48 hours"
+SET Assay = "Plaque Assay"
+a(FIXME:"Strobilanthes cusia leaf methanol extract") neg a(TAX:"Human coronavirus NL63")
+UNSET Assay
+UNSET Timeline
+
+SET Evidence = "Immunofluorescent staining with anti‐HCoV‐NL63‐immunized sera revealed \
+that the S. cusia leaf methanol extract inhibited the \
+HCoV‐NL63‐infected LLC‐MK2 positivity at 37 °C 36 h post‐infection in \
+a concentration‐dependent manner as well (Figure 2A)."
+
+SET CellLine = "immortal rhesus macaque kidney-derived cell line cell"
+SET Timeline = "36 hours"
+SET BioAssay = "immunofluorescent labeling"
+a(FIXME:"Strobilanthes cusia leaf methanol extract") neg a(TAX:"Human coronavirus NL63")
+UNSET BioAssay
+UNSET Timeline
+UNSET CellLine
+
+SET Evidence = "Among them, tryptanthrin at 40 μM exhibited the strongest antiviral \
+activity with a significant reduction in HCoV‐NL63‐induced CPE in \
+LLC‐MK2 cells 36 and 48 h post‐infection (Figure 3A)."
+
+SET CellLine = "immortal rhesus macaque kidney-derived cell line cell"
+SET concentration = "40 μM"
+SET Timeline = {"36 hours", "48 hours"}
+a(TAX:"Human coronavirus NL63") pos bp(MESH:"Cytopathogenic Effect, Viral")
+a(CHEBI:Tryptanthrine)  neg  bp(MESH:"Cytopathogenic Effect, Viral")
+UNSET Timeline
+UNSET concentration
+UNSET CellLine
+
+SET Evidence = "Indigodole B (5aR‐ethyltryptanthrin) at 40 μM concentration was ranked \
+the second highest in terms of anti‐HCoV‐NL63 activity in reducing \
+virus induced CPE 36 and 48 h post‐infection (Figure 3A)."
+
+SET CellLine = "immortal rhesus macaque kidney-derived cell line cell"
+SET concentration = "40 μM"
+SET Timeline = {"36 hours", "48 hours"}
+a(TAX:"Human coronavirus NL63") pos bp(MESH:"Cytopathogenic Effect, Viral")
+a(FIXME:"Indigodole B") -| bp(MESH:"Cytopathogenic Effect, Viral")
+UNSET Timeline
+UNSET concentration
+UNSET CellLine
+
+SET Evidence = "In the CPE reduction assay, tryptanthrin at 0.4, 4, and 40 μM \
+significantly reduced virus‐induced CPE in LLCMK2 cells at 37 °C 48 h \
+post‐infection, whereas the same effect was noted only for 40 μM \
+indigodole B (Figure 4B–C)."
+
+SET CellLine = "immortal rhesus macaque kidney-derived cell line cell"
+SET concentration = {"0.4 μM","4 μM","40 μM"}
+SET Timeline = "48 hours"
+a(CHEBI:Tryptanthrine) -| bp(MESH:"Cytopathogenic Effect, Viral")
+UNSET Timeline
+UNSET concentration
+SET concentration = "40 μM"
+a(FIXME:"Indigodole B") -| bp(MESH:"Cytopathogenic Effect, Viral")
+
+
+SET Evidence = "Moreover, the plaque assay revealed that tryptanthrin and indigodole B \
+exerted a potent inhibitory effect on the in vitro progeny production \
+of HCoV‐NL63 (Figure 4D–E), wherein IC50 values for virus yield were \
+1.52 μM and 2.60 μM for tryptanthrin and indigole B, respectively \
+(Table 1)."
+
+SET CellLine = "immortal rhesus macaque kidney-derived cell line cell"
+SET Assay = "Plaque Assay"
+a(CHEBI:Tryptanthrine) -| a(TAX:"Human coronavirus NL63")
+UNSET Assay
+UNSET CellLine
+
+SET Evidence = "Immunofluorescent staining indicated that tryptanthrin significantly \
+reduced the percentage of HCoV‐NL63‐positive cells (Figure 5A, middle \
+and bottom), markedly reducing the HCoV‐NL63 infectivity with an IC50 \
+value of 0.30 μM in human lung epithelial Calu‐3 cells (Figure 5B, \
+Table 1)."
+
+SET CellLine = "Calu-3 cell"
+SET BioAssay = "immunofluorescent labeling"
+SET concentration = "0.30 μM"
+a(CHEBI:Tryptanthrine) -| a(TAX:"Human coronavirus NL63")
+UNSET BioAssay
+UNSET CellLine
+
+SET Evidence = "In addition, tryptanthrin exhibited a higher inhibitory activity \
+against the production of extracellular virions in the late stage \
+(IC50 = 0.05 μM) than in the early stage (IC50 = 6.99 μM) (Figure \
+7A,B, Table 1)."
+
+SET Assay = "Plaque Assay"
+SET Virus_stage = "late"
+SET concentration = "0.50 μM"
+a(CHEBI:Tryptanthrine) -| a(TAX:"Human coronavirus NL63", loc(GO:"extracellular space"))
+UNSET concentration
+UNSET Virus_stage
+UNSET Assay
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

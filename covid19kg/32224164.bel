@@ -1,0 +1,162 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32224164.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+#Not in template.bel
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+
+DEFINE ANNOTATION age AS LIST {"old"}
+DEFINE ANNOTATION Period AS LIST {"postprandial"}
+DEFINE ANNOTATION Country AS LIST {"Italy"}
+DEFINE ANNOTATION Mouse_Type AS LIST {"DPP4 KO"}
+DEFINE ANNOTATION Diet AS LIST {"Diet, High-Fat"}
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed", "Diabetes Res Clin Pract. 2020 Mar 26:108125. doi: 10.1016/j.diabres.2020.108125.", "32224164"}
+
+SET PublicationType = "Review"
+SET PublicationStatus = "Preprint"
+SET Section = "Full Text"
+
+SET Evidence = "The recent data from the coronavirus disease 2019 (COVID-19) caused by the 2019 novel coronavirus (2019-nCoV), confirm that diabetes, along with advanced age, is a major risk factor for an adverse outcome."
+
+SET Species = "9606"
+SET age = "old"
+path(DO:"type 2 diabetes mellitus") pos path(DO:"COVID-19")
+UNSET age
+UNSET Species
+
+SET Evidence = "More recent data from Italy showed the more than two-thirds of those who died by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) had diabetes [2]."
+
+SET Species = "9606"
+SET Country = "Italy"
+path(DO:"type 2 diabetes mellitus") pos a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Country
+UNSET Species
+
+SET Evidence = "Remarkably, human dipeptidyl peptidase 4 (DPP4 was identified as a functional receptor for the spike protein of the MERS-Co-V [4]. MERS-CoV binds to the receptor-binding domain and interacts with T cells and nuclear factors, such as NF-κB, highly involved in the pathogenesis of inflammatory disorders."
+
+SET Species = "9606"
+complex(p(HGNC:DPP4), p(UNIPROT:A0A140AYZ5)) pos p(GFAM:"NF-kappa B complex subunits")
+p(GFAM:"NF-kappa B complex subunits") pos path(GO:"inflammatory response")
+UNSET Species
+
+SET Evidence = "Although its functions are not fully understood yet, DPP4 plays a major role in glucose and insulin metabolism."
+
+SET Species = "9606"
+p(HGNC:DPP4) reg bp(GO:"glucose metabolic process")
+p(HGNC:DPP4) reg bp(GO:"insulin metabolic process")
+UNSET Species
+
+SET Evidence = "DPP4 degrades incretins such as glucagon like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide, ultimately leading to reduced insulin secretion and abnormal visceral adipose tissue metabolism."
+
+SET Species = "9606"
+p(HGNC:DPP4) pos deg(p(HGNC:GLP1R))
+p(HGNC:DPP4) pos deg(p(HGNC:GIP))
+p(HGNC:DPP4) neg bp(GO:"insulin secretion")
+UNSET Species
+
+SET Evidence = "DPP4 regulates postprandial glucose via degradation of GLP-1."
+
+SET Species = "9606"
+SET Period = "postprandial"
+p(HGNC:DPP4) pos deg(p(HGNC:GLP1R))
+p(HGNC:DPP4) reg a(CHEBI:glucose)
+UNSET Period
+UNSET Species
+
+SET Evidence = "DPP4 plays also an important role in immune regulation by activating T cells and upregulating CD86 expression and NF-κB pathway."
+
+SET Species = "9606"
+p(HGNC:DPP4) pos a(MESH:"T-Lymphocytes")
+p(HGNC:DPP4) pos p(HGNC:CD86)
+p(HGNC:DPP4) pos complex(GO:"NF-kappaB complex")
+SET MeSHDisease = "Diabetes Mellitus, Type 2"
+p(HGNC:DPP4) pos path(MESH:Inflammation)
+UNSET MeSHDisease
+UNSET Species
+
+SET Evidence = "Male DPP4 H/M mice fed a high-fat diet (HFD) for 12 to 17 weeks develop hyperglycemia, and hyperinsulinemia, resembling human type 2 diabetes."
+
+SET Species = "10090"
+SET Mouse_Type = "DPP4 KO"
+SET Diet = "Diet, High-Fat"
+p(MGI:Dpp4) -| path(DO:hyperglycemia)
+p(MGI:Dpp4) -| path(DO:hyperinsulinism)
+UNSET Diet
+UNSET Mouse_Type
+UNSET Species
+
+SET Evidence = "Upon infection with MERS-CoV, diabetic DPP4H/M mice developed weight loss, and had a prolonged phase of severe disease and delayed recovery."
+
+SET Species = "10090"
+SET Mouse_Type = "DPP4 KO"
+a(MESH:"Middle East Respiratory Syndrome Coronavirus") -> path(MESH:"Weight Loss")
+UNSET Mouse_Type
+UNSET Species
+
+SET Evidence = "Interestingly, diabetic mice had fewer inflammatory monocyte/macrophages, CD4+ T cells, and lower expression of TNFα, IL-6 and Arg1 expression."
+
+SET Species = "10090"
+SET Mouse_Type = "DPP4 KO"
+p(MGI:Dpp4) -> a(MESH:Monocytes)
+p(MGI:Dpp4) -> a(MESH:Macrophages)
+p(MGI:Dpp4) -> a(MESH:"T-Lymphocytes, Regulatory")
+p(MGI:Dpp4) -> p(MGI:Tnf)
+p(MGI:Dpp4) -> p(MGI:Il6)
+p(MGI:Dpp4) -> p(MGI:Arg1)
+UNSET Mouse_Type
+UNSET Species
+
+SET Evidence = "Individuals with type 2 diabetes and obesity are commonly prescribed with DPP-4 inhibitors and/or GLP-1 receptor analogs."
+
+SET Species = "9606"
+act(p(HGNC:DPP4)) neg path(DO:"type 2 diabetes mellitus")
+act(p(HGNC:DPP4)) neg path(DO:obesity)
+UNSET Species
+
+SET Evidence = "DPP4 inhibitors target the enzymatic activity of DPP4 and consequently block the breakdown of GLP-1. This increase insulin secretion and decrease blood glucose levels in patients with type 2 diabetes."
+
+SET Species = "9606"
+SET MeSHDisease = "Diabetes Mellitus, Type 2"
+act(p(HGNC:DPP4)) neg deg(p(HGNC:GLP1R))
+act(p(HGNC:DPP4)) pos bp(GO:"insulin secretion")
+act(p(HGNC:DPP4)) neg a(MESH:"Blood Glucose")
+UNSET MeSHDisease
+UNSET Species
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

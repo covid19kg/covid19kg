@@ -1,0 +1,560 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Plasmid_Transfected": [
+        "pCAGGS-3a-HA",
+        "pCAGGS-9b",
+        "pCAGGS-E-pCAGGS-9b"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Sample": [
+        "Cell lysates",
+        "Medium",
+        "Supernatant"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "CellLine": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno",
+      "CovidAccession": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/ncbi-covid19/ncbi-accession-covid19-20200326.belanno"
+    },
+    "document_metadata": {
+      "authors": "Thrishna",
+      "contact": "thrishna@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "19394665.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "PFAM": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "19394665.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "BioAssay": {
+          "western blot": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Dai J",
+          "Dong QX",
+          "Li L",
+          "Li Q",
+          "Lin YP",
+          "Lu W",
+          "Sun B",
+          "Wang F",
+          "Wu JR",
+          "Xu C",
+          "Xu K",
+          "Xue L",
+          "Yang LL",
+          "Yang RF",
+          "Zeng R",
+          "Zheng BJ"
+        ],
+        "date": "2009-06-05",
+        "db": "PubMed",
+        "db_id": "19394665",
+        "db_name": "Virology",
+        "first": "Xu K",
+        "last": "Sun B",
+        "pages": "279-85",
+        "volume": "388"
+      },
+      "evidence": "The expression of 9b protein in SARS-CoV infected cells was confirmed by Western blot analysis with anti-9b monoclonal antibody.",
+      "key": "2e64da00cfb38c41d0fbf6ad5ce43232",
+      "line": 48,
+      "relation": "association",
+      "source": 5,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "western blot": true
+        },
+        "CellLine": {
+          "HEK293": true
+        },
+        "Plasmid_Transfected": {
+          "pCAGGS-9b": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Supernatant": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Dai J",
+          "Dong QX",
+          "Li L",
+          "Li Q",
+          "Lin YP",
+          "Lu W",
+          "Sun B",
+          "Wang F",
+          "Wu JR",
+          "Xu C",
+          "Xu K",
+          "Xue L",
+          "Yang LL",
+          "Yang RF",
+          "Zeng R",
+          "Zheng BJ"
+        ],
+        "date": "2009-06-05",
+        "db": "PubMed",
+        "db_id": "19394665",
+        "db_name": "Virology",
+        "first": "Xu K",
+        "last": "Sun B",
+        "pages": "279-85",
+        "volume": "388"
+      },
+      "evidence": "Western blot analysis of the pellets demonstrated that 9b protein was not released into the culture medium of 9b-expressing cells, while 3a protein was released as previously described (Huang et al., 2006b). The abundant host protein, actin, was not detectable in the supernatants from any group of cells (Fig. 2).",
+      "key": "ad811f1496bf7cc6d5ab5b9ade0a7eac",
+      "line": 74,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "extracellular space",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "decreases",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "western blot": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Dai J",
+          "Dong QX",
+          "Li L",
+          "Li Q",
+          "Lin YP",
+          "Lu W",
+          "Sun B",
+          "Wang F",
+          "Wu JR",
+          "Xu C",
+          "Xu K",
+          "Xue L",
+          "Yang LL",
+          "Yang RF",
+          "Zeng R",
+          "Zheng BJ"
+        ],
+        "date": "2009-06-05",
+        "db": "PubMed",
+        "db_id": "19394665",
+        "db_name": "Virology",
+        "first": "Xu K",
+        "last": "Sun B",
+        "pages": "279-85",
+        "volume": "388"
+      },
+      "evidence": "The expression of 9b protein in SARS-CoV infected cells was confirmed by Western blot analysis with anti-9b monoclonal antibody.",
+      "key": "51221faa2e2643a3233a0ef5704499c3",
+      "line": 48,
+      "relation": "association",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "HEK293": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Dai J",
+          "Dong QX",
+          "Li L",
+          "Li Q",
+          "Lin YP",
+          "Lu W",
+          "Sun B",
+          "Wang F",
+          "Wu JR",
+          "Xu C",
+          "Xu K",
+          "Xue L",
+          "Yang LL",
+          "Yang RF",
+          "Zeng R",
+          "Zheng BJ"
+        ],
+        "date": "2009-06-05",
+        "db": "PubMed",
+        "db_id": "19394665",
+        "db_name": "Virology",
+        "first": "Xu K",
+        "last": "Sun B",
+        "pages": "279-85",
+        "volume": "388"
+      },
+      "evidence": "The results showed that 9b protein was able to be expressed in cells transfected with plasmids containing the N gene coding region (Fig. 1C ORFN), but that the expression level was relatively weaker compared with that of cells transfected with ORF9b alone (Fig. 1C ORF9b).",
+      "key": "08127c724f5305d51d089cbf9a57dfff",
+      "line": 57,
+      "relation": "increases",
+      "source": 2,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 5
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "western blot": true
+        },
+        "CellLine": {
+          "HEK293": true
+        },
+        "Plasmid_Transfected": {
+          "pCAGGS-3a-HA": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Supernatant": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Dai J",
+          "Dong QX",
+          "Li L",
+          "Li Q",
+          "Lin YP",
+          "Lu W",
+          "Sun B",
+          "Wang F",
+          "Wu JR",
+          "Xu C",
+          "Xu K",
+          "Xue L",
+          "Yang LL",
+          "Yang RF",
+          "Zeng R",
+          "Zheng BJ"
+        ],
+        "date": "2009-06-05",
+        "db": "PubMed",
+        "db_id": "19394665",
+        "db_name": "Virology",
+        "first": "Xu K",
+        "last": "Sun B",
+        "pages": "279-85",
+        "volume": "388"
+      },
+      "evidence": "Western blot analysis of the pellets demonstrated that 9b protein was not released into the culture medium of 9b-expressing cells, while 3a protein was released as previously described (Huang et al., 2006b). The abundant host protein, actin, was not detectable in the supernatants from any group of cells (Fig. 2).",
+      "key": "fdc286730dc90afd8089ec852346ec5d",
+      "line": 70,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "extracellular space",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "increases",
+      "source": 3,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 3
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "western blot": true
+        },
+        "CellLine": {
+          "HEK293": true
+        },
+        "Plasmid_Transfected": {
+          "pCAGGS-3a-HA": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Supernatant": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Dai J",
+          "Dong QX",
+          "Li L",
+          "Li Q",
+          "Lin YP",
+          "Lu W",
+          "Sun B",
+          "Wang F",
+          "Wu JR",
+          "Xu C",
+          "Xu K",
+          "Xue L",
+          "Yang LL",
+          "Yang RF",
+          "Zeng R",
+          "Zheng BJ"
+        ],
+        "date": "2009-06-05",
+        "db": "PubMed",
+        "db_id": "19394665",
+        "db_name": "Virology",
+        "first": "Xu K",
+        "last": "Sun B",
+        "pages": "279-85",
+        "volume": "388"
+      },
+      "evidence": "Western blot analysis of the pellets demonstrated that 9b protein was not released into the culture medium of 9b-expressing cells, while 3a protein was released as previously described (Huang et al., 2006b). The abundant host protein, actin, was not detectable in the supernatants from any group of cells (Fig. 2).",
+      "key": "852b90772944b3996b090f100e283b00",
+      "line": 71,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "extracellular space",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "decreases",
+      "source": 3,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "western blot": true
+        },
+        "CellLine": {
+          "HEK293": true
+        },
+        "Plasmid_Transfected": {
+          "pCAGGS-E-pCAGGS-9b": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "Cell lysates": true,
+          "Medium": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Dai J",
+          "Dong QX",
+          "Li L",
+          "Li Q",
+          "Lin YP",
+          "Lu W",
+          "Sun B",
+          "Wang F",
+          "Wu JR",
+          "Xu C",
+          "Xu K",
+          "Xue L",
+          "Yang LL",
+          "Yang RF",
+          "Zeng R",
+          "Zheng BJ"
+        ],
+        "date": "2009-06-05",
+        "db": "PubMed",
+        "db_id": "19394665",
+        "db_name": "Virology",
+        "first": "Xu K",
+        "last": "Sun B",
+        "pages": "279-85",
+        "volume": "388"
+      },
+      "evidence": "As shown in Fig. 5 , in the pellets of the culture medium collected from cells co-transfected with pCAGGS-E and pCAGGS-9b, a low level of 9b protein was detected suggesting that 9b protein is able to be released when only E protein is available.",
+      "key": "b09b1bf0836a14a29ad8a2dc11fe26eb",
+      "line": 89,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "extracellular space",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "increases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 5
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "a824ba056422b4e42996cd3269ec9a19"
+    },
+    {
+      "bel": "p(COVID:E)",
+      "concept": {
+        "name": "E",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "77e06efa828f4686d426426464a86741"
+    },
+    {
+      "bel": "p(COVID:N)",
+      "concept": {
+        "name": "N",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "a1054f8b8ac9a90d2ad484980fa2a350"
+    },
+    {
+      "bel": "p(COVID:ORF3a)",
+      "concept": {
+        "name": "ORF3a",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "2aadd0649f293f087f52e0a977b78994"
+    },
+    {
+      "bel": "p(PFAM:Actin)",
+      "concept": {
+        "name": "Actin",
+        "namespace": "PFAM"
+      },
+      "function": "Protein",
+      "id": "752882bb42781509528296dcfb4cc093"
+    },
+    {
+      "bel": "p(UNIPROT:P59636)",
+      "concept": {
+        "name": "P59636",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "d74322ced5e9cbfed835e115ee690654"
+    }
+  ]
+}

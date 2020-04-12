@@ -1,0 +1,155 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32205856.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Severity AS LIST {"Severe","Mild"}
+DEFINE ANNOTATION Technique AS LIST {"computed tomography"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Editorial"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","Cell Death Differ. 2020;10.1038/s41418-020-0530-3. doi:10.1038/s41418-020-0530-3","32205856"}
+SET PublicationType = "Editorial"
+SET PublicationStatus = "Published"
+SET Section = "Full Text"
+
+SET Evidence = "During the incubation and non-severe stages, a specific adaptive immune response is required to eliminate the virus and to preclude disease progression to severe stages."
+
+SET Species = "9606"
+SET Custom_Disease = "COVID-19"
+SET Severity = "Mild"
+bp(GO:"adaptive immune response") -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Severity
+
+SET Evidence = "However, when a protective immune response is impaired, virus will propagate and massive destruction of the affected tissues will occur, especially in organs that have high ACE2 expression, such as intestine and kidney."
+
+SET MeSHAnatomy = {"Kidney","Intestines"}
+bp(GO:"adaptive immune response") -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(HP:"cell and tissue damage")
+p(HGNC:ACE2) pos a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET MeSHAnatomy
+
+SET Evidence = "The damaged cells induce innate inflammation in the lungs that is largely mediated by pro-inflammatory macrophages and granulocytes. Lung inflammation is the main cause of life-threatening respiratory disorders at the severe stage [4]."
+
+SET MeSHAnatomy = "Lung"
+path(MESH:"Lung Injury") -> a(MESH:Macrophages)
+path(MESH:"Lung Injury") -> a(MESH:Granulocytes)
+a(MESH:Macrophages) -> bp(GO:"innate immune response")
+a(MESH:Granulocytes) -> bp(GO:"innate immune response")
+SET Severity = "Severe"
+bp(GO:"innate immune response") -> path(DO:"respiratory system disease")
+UNSET Severity
+UNSET MeSHAnatomy
+
+SET Evidence = "Since lymphocytopenia is often seen in severe COVID-19 patients, the CRS caused by SARS-CoV-2 virus has to be mediated by leukocytes other than T cells, as in patients receiving CAR-T therapy; a high WBC-count is common, suggesting it, in association with lymphocytopenia, as a differential diagnostic criterion for COVID-19."
+
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(MESH:"T-Lymphocytopenia")
+path(MESH:"T-Lymphocytopenia") neg a(MESH:"T-Lymphocytes")
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(FIXME:"Cytokine Release Syndrome")
+path(MESH:"T-Lymphocytopenia") -- path(DO:"COVID-19")
+
+SET Evidence = "In any case, blocking IL-6 may be effective. Blocking IL-1 and TNF may also benefit patients."
+
+act(p(HGNC:IL6)) neg path(DO:"COVID-19")
+act(p(HGNC:TNF)) neg path(DO:"COVID-19")
+
+SET Evidence = "One caveat is that MSCs need to be activated by IFNγ to exert their anti-inflammatory effects, which may be absent in severely affected patients as T cells are not well activated by SARS-CoV-2 infection."
+
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -| a(MESH:"T-Lymphocytes")
+a(MESH:"T-Lymphocytes") -> p(HGNC:IFNG)
+act(p(HGNC:IFNG)) -> a(MESH:"Mesenchymal Stromal Cells")
+a(MESH:"Mesenchymal Stromal Cells") -| bp(GO:"inflammatory response")
+UNSET Species
+
+SET Evidence = "It is important to mention that various studies have shown that in animal models with bleomycin-induced lung injury, vitamin B3 (niacin or nicotinamide) is highly effective in preventing lung tissue damage [7]."
+SET Species = "10090"
+a(CHEBI:bleomycin) -> path(MESH:"Lung Injury")
+a(CHEBI:nicotinamide) -| path(MESH:"Lung Injury")
+UNSET Species
+
+SET Evidence = "The innate immune response to tissue damage caused by the virus could lead to acute respiratory distress syndrome (ARDS), in which respiratory failure is characterized by the rapid onset of widespread inflammation in the lungs and subsequent fatality [4]."
+
+SET Species = "9606"
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(MESH:"Lung Injury")
+path(MESH:"Lung Injury") -> bp(GO:"inflammatory response")
+bp(GO:"inflammatory response") -> path(DO:"adult respiratory distress syndrome")
+path(DO:"adult respiratory distress syndrome") -> path(MESH:Death)
+
+SET Evidence = "The symptoms of ARDS patients include short/rapid breathing, and cyanosis."
+
+path(DO:"adult respiratory distress syndrome") pos path(MESH:Dyspnea)
+path(DO:"adult respiratory distress syndrome") pos path(MESH:Cyanosis)
+
+SET Evidence = "CT images revealed that there are characteristic white patches called “ground glass”, containing fluid in the lungs [2]."
+SET MeSHAnatomy = "Lung"
+SET Technique = "computed tomography"
+path(DO:"adult respiratory distress syndrome") -> path(HP:"Ground-glass opacification on pulmonary HRCT")
+UNSET Technique
+UNSET MeSHAnatomy
+
+SET Evidence = "Although the nature of the clear jelly has yet to be determined, hyaluronan (HA) is associated with ARDS [12]; moreover, during SARS infection, the production and regulation of hyaluronan is defective."
+
+SET MeSHAnatomy = "Lung"
+a(CHEBI:"hyaluronic acid") -- path(DO:"adult respiratory distress syndrome")
+path(DO:"COVID-19") reg a(CHEBI:"hyaluronic acid")
+UNSET MeSHAnatomy
+
+SET Evidence = "The levels of inflammatory cytokines (IL-1, TNF) are high in the lungs of COVID-19 patients and these cytokines are strong inducers of HA-synthase-2 (HAS2) in CD31 + endothelium, EpCAM + lung alveolar epithelial cells, and fibroblasts [13]."
+SET MeSHAnatomy = "Lung"
+path(DO:"COVID-19") -> p(HGNC:IL1B)
+path(DO:"COVID-19") -> p(HGNC:TNF)
+UNSET MeSHAnatomy
+SET MeSHAnatomy = {"Lung","Endothelium","Pulmonary Alveoli","Fibroblasts"}
+act(p(HGNC:IL1B)) -> p(HGNC:HAS2)
+act(p(HGNC:TNF)) -> p(HGNC:HAS2)
+UNSET MeSHAnatomy
+
+SET Evidence = "Doctors can also use a clinically approved bile therapy drug, Hymecromone (4-Methylumbelliferone, 4-MU), an inhibitor of HAS2 [14]. LPS-induced lung inflammation can be relieved by 4-MU."
+
+SET MeSHAnatomy = "Lung"
+a(CHEBI:"4-methylumbelliferone") -| act(p(HGNC:HAS2))
+a(CHEBI:"4-methylumbelliferone") -| bp(GO:"inflammatory response")
+UNSET MeSHAnatomy
+
+SET Evidence = "Since Vitamin B3 is highly lung protective, it should be used as soon as coughing begins. When breathing difficulty becomes apparent, hyaluronidase can be used intratracheally and at the same time 4-MU can be given to inhibit HAS2."
+
+a(CHEBI:nicotinamide) -| path(MESH:"Lung Injury")
+act(p(HGNC:HYAL1)) -| act(p(HGNC:HAS2))
+a(CHEBI:"4-methylumbelliferone") -| act(p(HGNC:HAS2))
+UNSET Custom_Disease
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

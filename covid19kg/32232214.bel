@@ -1,0 +1,189 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32232214.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Cohort AS LIST {"non-ICU patients","ICU patients"}
+DEFINE ANNOTATION Timeline AS LIST {"3-5 days"}
+DEFINE ANNOTATION mode_of_administration AS LIST {"intravenous injection"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","Arch Acad Emerg Med. 2020;8(1):e29.","32232214"}
+SET PublicationType = "Review"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "Also, according to Jian-ya et al., treatment of 51 COVID-19 patients \
+with traditional Chinese medicine, interferon, Lopinavir, Ritonavir \
+and short-term (3 to 5 days) corticosteroids was successful and \
+resulted in recovery and discharge of 50 patients (3)."
+
+SET Species = "9606"
+SET Custom_Disease = "COVID-19"
+a(MESH:"Medicine, Chinese Traditional") -| path(DO:"COVID-19")
+a(CHEBI:interferon) -| path(DO:"COVID-19")
+a(CHEBI:lopinavir) -| path(DO:"COVID-19")
+a(CHEBI:ritonavir) -| path(DO:"COVID-19")
+SET Timeline = "3-5 days"
+a(CHEBI:corticosteroid) -| path(DO:"COVID-19")
+UNSET Timeline
+
+SET Evidence = "Qin et al. also reported that administration of moxifloxacin, \
+lopinavir, and interferon to non-ICU patients and the addition of \
+methylprednisolone to the above treatment for ICU patients resulted in \
+26 patients being discharged from intensive care unit (ICU) and 16 \
+patients being discharged from hospital (4)."
+
+SET Cohort = "non-ICU patients"
+a(CHEBI:moxifloxacin) -| path(DO:"COVID-19")
+a(CHEBI:lopinavir) -| path(DO:"COVID-19")
+a(CHEBI:interferon) -| path(DO:"COVID-19")
+UNSET Cohort
+SET Cohort = "ICU patients"
+composite(a(CHEBI:"6alpha-methylprednisolone"),a(CHEBI:moxifloxacin)) -| path(DO:"COVID-19")
+composite(a(CHEBI:"6alpha-methylprednisolone"),a(CHEBI:lopinavir)) -| path(DO:"COVID-19")
+composite(a(CHEBI:"6alpha-methylprednisolone"),a(CHEBI:interferon)) -| path(DO:"COVID-19")
+UNSET Cohort
+
+SET Evidence = "Also, Zhou et al. reported that short-term moderate-dose \
+corticosteroid (160 mg/day) plus immunoglobulin (20 g/day) \
+significantly reduced lung injury, normalized lymphocyte counts, body \
+temperature, C-reactive protein levels, and oxygenation index in 10 \
+COVID-19 patients (5)."
+
+composite(a(CHEBI:corticosteroid),a(MESH:Immunoglobulins)) -| path(MESH:"Lung Injury")
+composite(a(CHEBI:corticosteroid),a(MESH:Immunoglobulins)) -| bp(MESH:"Body Temperature")
+composite(a(CHEBI:corticosteroid),a(MESH:Immunoglobulins)) -| p(HGNC:CRP)
+
+SET Evidence = "In the first report Lim et al. described a 54-year-old man with \
+COVID-19 who was treated with Lopinavir/Ritonavir from day 10 of \
+illness, 2 tablets (Lopinavir 200mg / Ritonavir 50mg) every 12 hours. \
+Since first day of administration, β-coronavirus viral load started to \
+decrease, and little or no detectable coronavirus titers have been \
+observed since then (7)."
+
+a(CHEBI:lopinavir) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+a(CHEBI:ritonavir) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+
+SET Evidence = "In the third case report, Chen et al. reported a 45-year-old woman \
+with COVID-19 and stated that after treatment with Thalidomide (100 mg \
+orally once a day) and Methylprednisolone (40 mg intravenously bid for \
+3 days then reduced to once a day for 5 days) the overall patient \
+status was improved, oxygen index was increased, symptoms of nausea \
+and vomiting were alleviated, and cytokine levels were decreased (9)."
+
+SET mode_of_administration = "intravenous injection"
+a(CHEBI:thalidomide) -| path(DO:"COVID-19")
+a(CHEBI:"6alpha-methylprednisolone") -| path(DO:"COVID-19")
+a(CHEBI:thalidomide) -| path(MESH:Nausea)
+a(CHEBI:"6alpha-methylprednisolone") -| path(MESH:Nausea)
+a(CHEBI:thalidomide) -| path(MESH:Vomiting)
+a(CHEBI:"6alpha-methylprednisolone") -| path(MESH:Vomiting)
+a(CHEBI:thalidomide) -| sec(a(MESH:Cytokines))
+a(CHEBI:"6alpha-methylprednisolone") -| sec(a(MESH:Cytokines))
+UNSET mode_of_administration
+
+SET Evidence = "Studies have shown that IL-6 levels significantly correlated with the \
+severity of COVID-19, C-reactive protein (CRP), lactate dehydrogenase \
+(LDH), and D-dimer levels and T cell counts, and it has been suggested \
+that Tocilizumab, with its inhibitory effect on IL-6, may be effective \
+in treatment of COVID-19 (10, 11)."
+
+path(DO:"COVID-19") pos p(HGNC:IL6)
+p(HGNC:IL6) pos p(HGNC:CRP)
+p(HGNC:IL6) pos p(HGNC:LDHA)
+p(HGNC:IL6) pos a(MESH:"T-Lymphocytes")
+a(CHEBI:tocilizumab) -| act(p(HGNC:IL6))
+a(CHEBI:tocilizumab) -| path(DO:"COVID-19")
+
+SET Evidence = "Several articles have suggested medicines, potentially effective for \
+the treatment of COVID-19 (Table 1)."
+
+a(CHEBI:chloroquine) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+a(CHEBI:chloroquine) -| path(DO:"COVID-19")
+a(PUBCHEM:121304016) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+a(PUBCHEM:121304016)-| path(DO:"COVID-19")
+complex(a(CHEBI:nelfinavir),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(CHEBI:colistin),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(CHEBI:valrubicin),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(CHEBI:icatibant),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(CHEBI:bepotastine),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(PUBCHEM:41867),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(PUBCHEM:5282411),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(PUBCHEM:71306),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(CHEBI:aprepitant),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(PUBCHEM:3055406),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(CHEBI:perphenazine),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(PUBCHEM:6440352),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(CHEBI:lopinavir),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(PUBCHEM:121304016),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(CHEBI:ebselen),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(PUBCHEM:49773361),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(CHEBI:saquinavir),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(PUBCHEM:172197),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(CHEBI:pralmorelin),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(CHEBI:indinavir),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(CHEBI:cobicistat),p(COVID:M)) -| path(DO:"COVID-19")
+complex(a(PUBCHEM:172197),p(COVID:ORF1ab, frag("3264_3569"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:pralmorelin),p(COVID:ORF1ab, frag("3264_3569"))) -| path(DO:"COVID-19")
+complex(a(PUBCHEM:160963865),p(COVID:ORF1ab, frag("3264_3569"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:indinavir),p(COVID:ORF1ab, frag("3264_3569"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:lopinavir),p(COVID:ORF1ab, frag("3264_3569"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:atazanavir),p(COVID:ORF1ab, frag("3264_3569"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:thymopentin),p(COVID:ORF1ab, frag("3264_3569"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:carfilzomib),p(COVID:ORF1ab, frag("3264_3569"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:saquinavir),p(COVID:ORF1ab, frag("3264_3569"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:ledipasvir),p(COVID:ORF1ab, frag("3264_3569"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:velpatasvir),p(COVID:ORF1ab, frag("3264_3569"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:ritonavir),p(COVID:ORF1ab, frag("3264_3569"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:efavirenz),p(COVID:ORF1ab, frag("3264_3569"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:dolutegravir),p(COVID:ORF1ab, frag("3264_3569"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:"mycophenolic acid"),p(COVID:ORF1ab, frag("819_2763"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:grazoprevir),p(COVID:ORF1ab, frag("819_2763"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:telaprevir),p(COVID:ORF1ab, frag("819_2763"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:boceprevir),p(COVID:ORF1ab, frag("819_2763"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:formoterol),p(COVID:ORF1ab, frag("819_2763"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:chloroquine),p(COVID:ORF1ab, frag("819_2763"))) -| path(DO:"COVID-19")
+complex(a(CHEBI:"Isoniazid pyruvate"),p(COVID:S),p(HGNC:ACE2)) -| path(DO:"COVID-19")
+complex(a(CHEBI:eriodictyol),p(COVID:S),p(HGNC:ACE2)) -| path(DO:"COVID-19")
+complex(a(CHEBI:nitrofurantoin),p(COVID:S),p(HGNC:ACE2)) -| path(DO:"COVID-19")
+complex(a(CHEBI:cepharanthine),p(COVID:S),p(HGNC:ACE2)) -| path(DO:"COVID-19")
+complex(a(CHEBI:hypericin),p(COVID:S),p(HGNC:ACE2)) -| path(DO:"COVID-19")
+complex(a(CHEBI:hypericin),p(COVID:S),p(HGNC:ACE2)) -| path(DO:"COVID-19")
+complex(a(PUBCHEM:44205240),p(HGNC:AAK1)) neg path(DO:"COVID-19")
+UNSET Custom_Disease
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

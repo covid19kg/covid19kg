@@ -1,0 +1,111 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "31986264.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Age AS LIST {"25-49 years","14 years","50-64 years"}
+DEFINE ANNOTATION Sample AS LIST {"Plasma"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","Lancet. 2020 Feb 15;395(10223):497-506. doi: 10.1016/S0140-6736(20)30183-5. Epub 2020 Jan 24.","31986264"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Species = "9606"
+
+SET Evidence = "By Jan 2, 2020, 41 admitted hospital patients were identified as laboratory-confirmed 2019-nCoV infection in Wuhan. 20 [49%]) of the 2019-nCoV-infected patients were aged 25–49 years, and 14 (34%) were aged 50–64 years (figure 1A)."
+
+SET Age = {"25-49 years","14 years","50-64 years"}
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(DO:"COVID-19")
+UNSET Age
+
+SET Evidence = "The most common symptoms at onset of illness were fever (40 [98%] of 41 patients), cough (31 [76%]), and myalgia or fatigue (18 [44%]); less common symptoms were sputum production (11 [28%] of 39), headache (three [8%] of 38), haemoptysis (two [5%] of 39), and diarrhoea (one [3%] of 38; table 1)."
+
+path(DO:"COVID-19") pos path(MESH:Fever)
+path(DO:"COVID-19") pos path(MESH:Cough)
+path(DO:"COVID-19") pos path(MESH:Nausea)
+path(DO:"COVID-19") pos path(MESH:Myalgia)
+path(DO:"COVID-19") pos path(MESH:Sputum)
+path(DO:"COVID-19") pos path(MESH:Headache)
+path(DO:"COVID-19") pos path(DO:diarrhea)
+path(DO:"COVID-19") pos path(MESH:Hemoptysis)
+
+SET Evidence = "The blood counts of patients on admission showed leucopenia (white blood cell count less than 4 × 10⁹/L;ten [25%] of 40 patients) and lymphopenia (lymphocyte count <1·0 × 10⁹/L; 26 [63%] patients; table 2)."
+
+path(DO:"COVID-19") pos path(DO:leukopenia)
+path(DO:"COVID-19") pos path(DO:lymphopenia)
+
+SET Evidence = "Levels of aspartate aminotransferase were increased in 15 (37%) of 41 patients, including eight (62%) of 13 ICU patients and seven (25%) of 28 non-ICU patients."
+
+path(DO:"COVID-19") -> p(HGNC:GOT1)
+
+SET Evidence = "Hypersensitive troponin I (hs-cTnI) was increased substantially in five patients, in whom the diagnosis of virus-related cardiac injury was made."
+
+path(DO:"COVID-19") -> p(HGNC:TNNI3)
+
+SET Evidence = "Initial plasma IL1B, IL1RA, IL7, IL8, IL9, IL10, basic FGF, GCSF, GMCSF, IFNγ, IP10, MCP1, MIP1A, MIP1B, PDGF, TNFα, and VEGF concentrations were higher in both ICU patients and non-ICU patients than in healthy adults (appendix pp 6–7)."
+
+SET Sample = "Plasma"
+path(DO:"COVID-19") -> p(HGNC:IL1B)
+path(DO:"COVID-19") -> p(HGNC:IL1RN)
+path(DO:"COVID-19") -> p(HGNC:IL7)
+path(DO:"COVID-19") -> p(HGNC:CXCL8)
+path(DO:"COVID-19") -> p(HGNC:IL9)
+path(DO:"COVID-19") -> p(HGNC:IL10)
+path(DO:"COVID-19") -> a(MESH:"Fibroblast Growth Factors")
+path(DO:"COVID-19") -> p(HGNC:CSF3)
+path(DO:"COVID-19") -> p(HGNC:CSF2)
+path(DO:"COVID-19") -> p(HGNC:IFNG)
+path(DO:"COVID-19") -> p(HGNC:CXCL10)
+path(DO:"COVID-19") -> p(HGNC:CCL2)
+path(DO:"COVID-19") -> p(HGNC:CCL3)
+path(DO:"COVID-19") -> p(HGNC:PDGFRB)
+path(DO:"COVID-19") -> p(HGNC:TNF)
+path(DO:"COVID-19") -> p(HGNC:VEGFA)
+UNSET Sample
+
+SET Evidence = "All patients had pneumonia. Common complications included ARDS (12 [29%] of 41 patients), followed by RNAaemia (six [15%] patients), acute cardiac injury (five [12%] patients), and secondary infection (four [10%] patients; table 3)."
+
+path(DO:"COVID-19") pos path(DO:pneumonia)
+path(DO:"COVID-19") pos path(MESH:"Respiratory Distress Syndrome, Adult")
+path(DO:"COVID-19") pos a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+# RNAaemia is viral load
+path(DO:"COVID-19") pos path(MESH:"Heart Injuries")
+path(DO:"COVID-19") pos path(MESH:Coinfection)
+
+SET Evidence = "All patients were administered with empirical antibiotic treatment, and 38 (93%) patients received antiviral therapy (oseltamivir)."
+
+a(CHEBI:oseltamivir) neg path(DO:"COVID-19")
+
+UNSET Species
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
