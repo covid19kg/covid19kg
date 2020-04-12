@@ -21,7 +21,7 @@ The table below contains information of the different releases of the COVID-19 K
 
 | Release | Date       | Articles |
 |---------|------------|----------|
-| 0.0.1   | 12.04.2020 | 145      |
+| 0.0.1   | [12.04.2020](C:\Users\yojan\Desktop\Biocuration\COVID-19\covid19kg\releases\12-04-2020.zip) | 145      |
 
 ## Python Package
 The COVID-19 Knowledge Graph can be programmatically used as a Python package. 
