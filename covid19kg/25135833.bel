@@ -1,0 +1,157 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "25135833.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION cell_culture AS LIST {"culture supernatant"}
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed", "J Immunol. 2014 Sep 15;193(6):3080-9. doi: 10.4049/jimmunol.1303196. Epub 2014 Aug 18.", "25135833"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "Expression of 9b-GFP in HEK 293 cells reduced DRP1 levels by approximately 70% via a mechanism sensitive to proteasome inhibition, but not autophagic degradation inhibition (Fig. 1D)."
+
+SET CellLine = "HEK293"
+p(UNIPROT:P59636) -| p(HGNC:DNM1L)
+UNSET CellLine
+
+SET Evidence = "The sensitivity to proteasome inhibition suggested that DRP1 underwent ubiquitination. Consistent with that possibility the immunoblotting of DRP1 immunoprecipitates revealed the presence of K48-linked ubiquitin (Fig. 1F)."
+
+SET CellLine = "HEK293"
+bp(GO:"protein K48-linked ubiquitination") -> p(HGNC:DNM1L, pmod(Ub))
+UNSET CellLine
+
+SET Evidence = "We also examined DRP1 levels in the permanently transfected THP-1 cells and again found a marked decrease in DRP1 levels (Fig. 1G)."
+
+SET CellLine = "THP-1 cell"
+SET BioAssay = "immunoblot"
+p(UNIPROT:P59636) -| p(HGNC:DNM1L)
+UNSET BioAssay
+UNSET CellLine
+
+SET Evidence = "These data show that ORF-9b localizes to mitochondria and likely causes mitochondrial elongation by triggering DRP1 ubiquitination and its proteasomal destruction."
+
+p(UNIPROT:P59636, loc(GO:mitochondrion)) -> p(HGNC:DNM1L, pmod(Ub))
+p(HGNC:DNM1L, pmod(Ub)) -> bp(GO:"mitochondrial fusion")
+
+SET Evidence = "We expressed 9b-GFP in the presence of either an IFN-β or a NF-κB reporter construct and simulated an intracellular viral infection by cotransfecting Poly(I:C). As expected Poly(I:C) induced both reporter constructs, but the presence of ORF-9b significantly inhibited this response (Fig. 3A)."
+
+SET CellLine = "HEK293"
+SET BioAssay = "luciferase reporter gene assay"
+a(CHEBI:"poly(I:C)") -> p(HGNC:IFNB1)
+a(CHEBI:"poly(I:C)") -> complex(GO:"NF-kappaB complex")
+UNSET BioAssay
+p(UNIPROT:P59636) -| p(HGNC:IFNB1)
+p(UNIPROT:P59636) -| complex(GO:"NF-kappaB complex")
+UNSET CellLine
+
+SET Evidence = "Since MAVS is required for the phosphorylation of IRF3 in the RIG-I mediated anti-viral response, we checked whether 9b-GFP expression reduced IRF3 phosphorylation, which it did (Fig. 3C)."
+
+p(HGNC:MAVS) -> p(HGNC:IRF3, pmod(Ph))
+SET CellLine = "HEK293"
+SET BioAssay = "immunoblot"
+p(UNIPROT:P59636) -| p(HGNC:IRF3, pmod(Ph))
+UNSET BioAssay
+UNSET CellLine
+
+SET Evidence = "As expected the amount of interferon-β decreased in the cell supernatant in the presence of 9b-Flag (Fig. 3D)."
+
+SET CellLine = "THP-1 cell"
+SET BioAssay = "immunoblot"
+SET cell_culture = "culture supernatant"
+p(UNIPROT:P59636) -| p(HGNC:IFNB1)
+UNSET cell_culture
+UNSET BioAssay
+UNSET CellLine
+
+SET Evidence = "Lowered DRP1 levels impaired the MAVS-induced increase IFN-β reporter activity although not nearly as effectively as did the 9b-FLAG construct (Fig. 3I)."
+
+p(HGNC:MAVS) -> p(HGNC:IFNB1, pmod(Ph))
+SET CellLine = "HEK293"
+p(HGNC:DNM1L) -> p(HGNC:IFNB1, pmod(Ph))
+UNSET CellLine
+
+SET Evidence = "The DRP1 shRNA appropriately decreased DRP1 expression, but did not impact endogenous MAVS expression (Fig. 3J). This indicates that the ORF-9b mediated reduction in DRP1 may contributes to the decrease in type I interferon signaling, however other mechanisms must be operant."
+
+SET BioAssay = "immunoblot"
+r(HGNC:DNM1L) -| p(HGNC:DNM1L)
+p(UNIPROT:P59636) -| p(HGNC:DNM1L)
+p(HGNC:DNM1L) -| bp(GO:"type I interferon signaling pathway")
+UNSET BioAssay
+
+SET Evidence = "Indicating that ORF-9b likely triggers K48-linked ubiquitination of MAVS immunoblotting Myc-MAVS immunoprecipitates revealed the presence of K48-linked ubiquitin (Fig. 5C)."
+
+SET BioAssay = "immunoblot"
+p(HGNC:MAVS) -> bp(GO:"protein K48-linked ubiquitination")
+p(UNIPROT:P59636) -> bp(GO:"protein K48-linked ubiquitination")
+UNSET BioAssay
+
+SET Evidence = "Finally, in the THP-1 cells permanently transfected with 9b-GFP we also found a marked reduction in the endogenous level of MAVS (Fig. 5E)."
+
+SET CellLine = "THP-1 cell"
+SET BioAssay = "immunoblot"
+p(UNIPROT:P59636) -> bp(GO:"protein K48-linked ubiquitination")
+bp(GO:"protein K48-linked ubiquitination") -> deg(p(HGNC:MAVS))
+p(UNIPROT:P59636) -> deg(p(HGNC:MAVS))
+UNSET BioAssay
+UNSET CellLine
+
+SET Evidence = "In addition, endogenous PCBP2 could pull-down 9b-GFP and endogenous MAVS suggesting that ORF-9b may form a tri-molecular complex (Fig. 6B)."
+
+SET CellLine = "HEK293"
+complex(p(UNIPROT:P59636), p(HGNC:MAVS), p(HGNC:PCBP2))
+UNSET CellLine
+
+SET Evidence = "Interestingly, 9b-GFP expression potently induced autophagosome formation in A549 cells (Fig. 7A, Video 2)."
+
+SET CellLine = "A549 cell"
+p(UNIPROT:P59636) -> bp(GO:"autophagosome assembly")
+UNSET CellLine
+
+SET Evidence = "Similarly, 9b-Flag triggered autophagy in the same cells (Fig. 7B)."
+
+SET CellLine = "A549 cell"
+p(UNIPROT:P59636) -> bp(GO:autophagy)
+UNSET CellLine
+
+SET Evidence = "The induction of autophagy by ORF-9b depended upon ATG5, an important regulator of autophagosome formation, as reducing its expression decreased 9b-GFP triggered LC3 processing (Fig. 7F)."
+
+SET CellLine = "A549 cell"
+composite(p(UNIPROT:P59636), p(HGNC:ATG5)) -> bp(GO:autophagy)
+p(HGNC:ATG5) reg bp(GO:"autophagosome assembly")
+p(HGNC:ATG5) -> p(UNIPROT:P59636)
+p(UNIPROT:P59636) -| p(HGNC:MAP1LC3A)
+UNSET CellLine
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

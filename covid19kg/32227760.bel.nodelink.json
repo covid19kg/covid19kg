@@ -1,0 +1,1083 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Report"
+      ],
+      "Section": [
+        "Full Text"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "MeSHDisease": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Thrishna",
+      "contact": "thrishna@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32227760.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "MGI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32227760.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "ACE2 is a key counterregulatory enzyme that degrades angiotensin II to angiotensin-(1–7), thereby attenuating its effects on vasoconstriction, sodium retention, and fibrosis. Although angiotensin II is the primary substrate of ACE2, that enzyme also cleaves angiotensin I to angiotensin-(1–9) and participates in the hydrolysis of other peptides.16",
+      "key": "c5dc137f5b3c8ac6336a65763a18bd38",
+      "line": 58,
+      "relation": "increases",
+      "source": 12,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 26
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "ACE2 is a key counterregulatory enzyme that degrades angiotensin II to angiotensin-(1–7), thereby attenuating its effects on vasoconstriction, sodium retention, and fibrosis. Although angiotensin II is the primary substrate of ACE2, that enzyme also cleaves angiotensin I to angiotensin-(1–9) and participates in the hydrolysis of other peptides.16",
+      "key": "c1b1aa1eaf1d81060161906be63d0941",
+      "line": 59,
+      "relation": "increases",
+      "source": 12,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 25
+    },
+    {
+      "key": "52cb6d8fcf894bbfe8497cecebc5b0d1",
+      "relation": "partOf",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "key": "7fe98930a109aef5cde2039840eff021",
+      "relation": "hasReactant",
+      "source": 26,
+      "target": 2
+    },
+    {
+      "key": "209e752d994e2671ea1a733e003197aa",
+      "relation": "hasProduct",
+      "source": 26,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "ACE2 is a key counterregulatory enzyme that degrades angiotensin II to angiotensin-(1–7), thereby attenuating its effects on vasoconstriction, sodium retention, and fibrosis. Although angiotensin II is the primary substrate of ACE2, that enzyme also cleaves angiotensin I to angiotensin-(1–9) and participates in the hydrolysis of other peptides.16",
+      "key": "0fffa72d0107a41c3d9e1c951b022161",
+      "line": 60,
+      "relation": "increases",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "ACE2 is a key counterregulatory enzyme that degrades angiotensin II to angiotensin-(1–7), thereby attenuating its effects on vasoconstriction, sodium retention, and fibrosis. Although angiotensin II is the primary substrate of ACE2, that enzyme also cleaves angiotensin I to angiotensin-(1–9) and participates in the hydrolysis of other peptides.16",
+      "key": "8ef205fc4c8c2c97dc7cba93ebfd2a49",
+      "line": 61,
+      "relation": "increases",
+      "source": 2,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "ACE2 is a key counterregulatory enzyme that degrades angiotensin II to angiotensin-(1–7), thereby attenuating its effects on vasoconstriction, sodium retention, and fibrosis. Although angiotensin II is the primary substrate of ACE2, that enzyme also cleaves angiotensin I to angiotensin-(1–9) and participates in the hydrolysis of other peptides.16",
+      "key": "d031c31b106173b94713f77586eff46a",
+      "line": 62,
+      "relation": "increases",
+      "source": 2,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "It has been postulated but unproven that unabated angiotensin II activity may be in part responsible for organ injury in Covid-19.43,44",
+      "key": "a37a358a2a126895af4d7edf90ce8f59",
+      "line": 101,
+      "relation": "increases",
+      "source": 2,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Plasma": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "In a small study, patients with Covid-19 appeared to have elevated levels of plasma angiotensin II, which were in turn correlated with total viral load and degree of lung injury.44",
+      "key": "e5dd68c2abe1eaaca6fd6a60749debb8",
+      "line": 133,
+      "relation": "regulates",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Plasma": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "In a small study, patients with Covid-19 appeared to have elevated levels of plasma angiotensin II, which were in turn correlated with total viral load and degree of lung injury.44",
+      "key": "449c7191a989d9c6182620b50c042a58",
+      "line": 134,
+      "relation": "regulates",
+      "source": 2,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "ACE2 has a well-recognized role in myocardial recovery and injury response; in one study, ACE2 knockout in animal models contributed to adverse left ventricular remodeling in response to acute injury driven by angiotensin II.55",
+      "key": "277b023116f391f78704dac65501f47a",
+      "line": 144,
+      "relation": "increases",
+      "source": 2,
+      "target": 19
+    },
+    {
+      "key": "0bd2e835746abe0c997c818ce7e5446e",
+      "relation": "hasReactant",
+      "source": 25,
+      "target": 2
+    },
+    {
+      "key": "75d4ff24b2c50c6274e3840709863fb7",
+      "relation": "hasProduct",
+      "source": 25,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "Similarly, animal models have had inconsistent findings with respect to the effects of ARBs on ACE2, with some showing that ARBs may increase messenger RNA expression or protein levels of ACE2 in tissue21,26-34 and others showing no effect.23",
+      "key": "b7ff26dfd32e509f093144c1f38f8627",
+      "line": 69,
+      "relation": "increases",
+      "source": 6,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "Similarly, animal models have had inconsistent findings with respect to the effects of ARBs on ACE2, with some showing that ARBs may increase messenger RNA expression or protein levels of ACE2 in tissue21,26-34 and others showing no effect.23",
+      "key": "fc27edc57e3d0e2a02f561a35af71ae4",
+      "line": 70,
+      "relation": "increases",
+      "source": 6,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "however, with exposure to captopril monotherapy over a period of 6 months, angiotensin-(1–7) levels increased.36",
+      "key": "8e644a4c0c155ba8fdabb0eb7472bf87",
+      "line": 75,
+      "relation": "increases",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Urine": true
+        },
+        "MeSHDisease": {
+          "Hypertension": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "In a longitudinal cohort study involving Japanese patients with hypertension, urinary ACE2 levels were higher among patients who received long-term treatment with the ARB olmesartan than among untreated control patients, but that association was not observed with the ACE inhibitor enalapril or with other ARBs (losartan, candesartan, valsartan, and telmisartan).41",
+      "key": "56d796cfdb39207a557112b09ca8bc23",
+      "line": 86,
+      "relation": "increases",
+      "source": 5,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "SARS-CoV-2 appears not only to gain initial entry through ACE2 but also to subsequently down-regulate ACE2 expression such that the enzyme is unable to exert protective effects in organs",
+      "key": "61769b8e20db11c4cc75948816a5d06e",
+      "line": 94,
+      "relation": "increases",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "key": "9b5e6ebdb508b622c266b4b986bd47ee",
+      "relation": "partOf",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "SARS-CoV-2 appears not only to gain initial entry through ACE2 but also to subsequently down-regulate ACE2 expression such that the enzyme is unable to exert protective effects in organs",
+      "key": "3b0f615b48ff30031d4f3e940b98605f",
+      "line": 95,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "decreases",
+      "source": 7,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "After the initial engagement of SARS-CoV-2 spike protein, there is subsequent down-regulation of ACE2 abundance on cell surfaces.45",
+      "key": "646dbd52031b46ccdc1ec5c9db2ab43d",
+      "line": 106,
+      "relation": "decreases",
+      "source": 11,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "Indeed, in experimental mouse models, exposure to SARS-CoV-1 spike protein induced acute lung injury, which is limited by RAAS blockade.45",
+      "key": "8c7c8146c992cf9c2f2e3fba68038453",
+      "line": 114,
+      "relation": "increases",
+      "source": 11,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 18
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "Indeed, in experimental mouse models, exposure to SARS-CoV-1 spike protein induced acute lung injury, which is limited by RAAS blockade.45",
+      "key": "7021e3b61f1ad6c41f9b4e099233fba6",
+      "line": 115,
+      "relation": "increases",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "Other mouse models have suggested that dysregulation of ACE2 may mediate acute lung injury that is secondary to virulent strains of influenza48,49 and respiratory syncytial virus.50",
+      "key": "968e6ed0facc5b6158bfe9895b4be5d8",
+      "line": 123,
+      "relation": "decreases",
+      "source": 13,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 18
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "ACE2 has a well-recognized role in myocardial recovery and injury response; in one study, ACE2 knockout in animal models contributed to adverse left ventricular remodeling in response to acute injury driven by angiotensin II.55",
+      "key": "827dec0fb674c03a2bd7eb76bded11b9",
+      "line": 146,
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Plasma": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "In a small study, patients with Covid-19 appeared to have elevated levels of plasma angiotensin II, which were in turn correlated with total viral load and degree of lung injury.44",
+      "key": "228a61f86b85b56b67cb4dbe644d942c",
+      "line": 132,
+      "relation": "increases",
+      "source": 14,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "Among patients with unstable clinical status, myocardial injury associated with Covid-19 may pose even higher early risks after withdrawal of RAAS inhibitors.",
+      "key": "36453b23c0ed6a46b28193c71568c7ab",
+      "line": 161,
+      "relation": "association",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "ACE2 has a well-recognized role in myocardial recovery and injury response; in one study, ACE2 knockout in animal models contributed to adverse left ventricular remodeling in response to acute injury driven by angiotensin II.55",
+      "key": "e64b4a5e4d4c5bd7c6c599139aaed709",
+      "line": 145,
+      "relation": "negativeCorrelation",
+      "source": 19,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "ACE2 has a well-recognized role in myocardial recovery and injury response; in one study, ACE2 knockout in animal models contributed to adverse left ventricular remodeling in response to acute injury driven by angiotensin II.55",
+      "key": "6c8f51def50146a7befc133f1bbd684c",
+      "line": 145,
+      "relation": "negativeCorrelation",
+      "source": 21,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "ACE2 has a well-recognized role in myocardial recovery and injury response; in one study, ACE2 knockout in animal models contributed to adverse left ventricular remodeling in response to acute injury driven by angiotensin II.55",
+      "key": "ce88376e459845c55086f2d85e11f7f1",
+      "line": 146,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "positiveCorrelation",
+      "source": 21,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "In addition, paired trials of losartan as a treatment for Covid-19 are being conducted among patients who have not previously received treatment with a RAAS inhibitor and are either hospitalized (NCT04312009. opens in new tab) or not hospitalized (NCT04311177. opens in new tab).",
+      "key": "9fec91bcbcd4b2f866feb8cbcb5d0acf",
+      "line": 155,
+      "relation": "decreases",
+      "source": 4,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1056/NEJMsr2005760"
+      },
+      "evidence": "Among patients with unstable clinical status, myocardial injury associated with Covid-19 may pose even higher early risks after withdrawal of RAAS inhibitors.",
+      "key": "d3541219dcaa03821f650f1b93d28e81",
+      "line": 161,
+      "relation": "association",
+      "source": 15,
+      "target": 14
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:\"Angiotensin (1-9)\")",
+      "concept": {
+        "name": "Angiotensin (1-9)",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "b85bbda28d98416606c88100e9d38da1"
+    },
+    {
+      "bel": "a(CHEBI:\"Ile(5)-angiotensin II (1-7)\")",
+      "concept": {
+        "name": "Ile(5)-angiotensin II (1-7)",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "cc71ac1804e8f852f8f373ca3b75416c"
+    },
+    {
+      "bel": "a(CHEBI:\"angiotensin II\")",
+      "concept": {
+        "name": "angiotensin II",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "17c2386466aa664335d7eeca2063bf1f"
+    },
+    {
+      "bel": "a(CHEBI:captopril)",
+      "concept": {
+        "name": "captopril",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "253c7aa05e4c737df299853480c98d66"
+    },
+    {
+      "bel": "a(CHEBI:losartan)",
+      "concept": {
+        "name": "losartan",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "75acc65a998a7c84833f9eaafc14afa2"
+    },
+    {
+      "bel": "a(CHEBI:olmesartan)",
+      "concept": {
+        "name": "olmesartan",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "65ccf4493ab1b65a6dcce03d8561c46c"
+    },
+    {
+      "bel": "a(MESH:\"Angiotensin Receptor Antagonists\")",
+      "concept": {
+        "name": "Angiotensin Receptor Antagonists",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "7355f7e0f7468f1a05aecc12c3c92e92"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "bp(GO:\"viral entry into host cell\")",
+      "concept": {
+        "name": "viral entry into host cell",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "2a6e5ae8582e2cded25095e14c2ee329"
+    },
+    {
+      "bel": "bp(GO:vasoconstriction)",
+      "concept": {
+        "name": "vasoconstriction",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "407b9c02f282c6a2ac0ba14924d4ebd7"
+    },
+    {
+      "bel": "complex(a(TAX:\"Severe acute respiratory syndrome coronavirus 2\"), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "146428e3b0f07633969567cac441971e",
+      "members": [
+        {
+          "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+          "concept": {
+            "name": "Severe acute respiratory syndrome coronavirus 2",
+            "namespace": "TAX"
+          },
+          "function": "Abundance",
+          "id": "c41851da59cc36c21b2e8acf24c1f46d"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "p(MGI:Ace2)",
+      "concept": {
+        "name": "Ace2",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "9cb4733ab4e60addd6378f9f4c97eef9"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"myocardial infarction\")",
+      "concept": {
+        "name": "myocardial infarction",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6452efc38472d39dbe9799180d20fd41"
+    },
+    {
+      "bel": "path(HP:\"Hyperactive renin-angiotensin system\")",
+      "concept": {
+        "name": "Hyperactive renin-angiotensin system",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "81957b0527a07861d182885039127ae6"
+    },
+    {
+      "bel": "path(HP:\"cell and tissue damage\")",
+      "concept": {
+        "name": "cell and tissue damage",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "782a56cb5087b061681243638c7a4f68"
+    },
+    {
+      "bel": "path(MESH:\"Acute Lung Injury\")",
+      "concept": {
+        "name": "Acute Lung Injury",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "6d1a5ae1c0e1803535cd6c33f4ffe717"
+    },
+    {
+      "bel": "path(MESH:\"Heart Injuries\")",
+      "concept": {
+        "name": "Heart Injuries",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "936781bd0bf245df80710c8255fe2b1a"
+    },
+    {
+      "bel": "path(MESH:\"Lung Injury\")",
+      "concept": {
+        "name": "Lung Injury",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "0331236e5bff96357737ca4f300a8893"
+    },
+    {
+      "bel": "path(MESH:\"Ventricular Remodeling\")",
+      "concept": {
+        "name": "Ventricular Remodeling",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "e7e8612bfd2b5a58a3f6d3a9e9adeb28"
+    },
+    {
+      "bel": "path(MESH:Fibrosis)",
+      "concept": {
+        "name": "Fibrosis",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "dcbee08c082ce3d1f58a75056c14c66f"
+    },
+    {
+      "bel": "path(MESH:Hypernatremia)",
+      "concept": {
+        "name": "Hypernatremia",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "117680935edf4af7b698c926be3dabc6"
+    },
+    {
+      "bel": "r(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "7cff30248f9371fc8cda30aa41c15418"
+    },
+    {
+      "bel": "rxn(reactants(a(CHEBI:\"angiotensin II\")), products(a(CHEBI:\"Angiotensin (1-9)\")))",
+      "function": "Reaction",
+      "id": "0d94841871d4383152f323e25a54303a",
+      "products": [
+        {
+          "bel": "a(CHEBI:\"Angiotensin (1-9)\")",
+          "concept": {
+            "name": "Angiotensin (1-9)",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "b85bbda28d98416606c88100e9d38da1"
+        }
+      ],
+      "reactants": [
+        {
+          "bel": "a(CHEBI:\"angiotensin II\")",
+          "concept": {
+            "name": "angiotensin II",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "17c2386466aa664335d7eeca2063bf1f"
+        }
+      ]
+    },
+    {
+      "bel": "rxn(reactants(a(CHEBI:\"angiotensin II\")), products(a(CHEBI:\"Ile(5)-angiotensin II (1-7)\")))",
+      "function": "Reaction",
+      "id": "1faf1ea504340d0492e367526a4ac315",
+      "products": [
+        {
+          "bel": "a(CHEBI:\"Ile(5)-angiotensin II (1-7)\")",
+          "concept": {
+            "name": "Ile(5)-angiotensin II (1-7)",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "cc71ac1804e8f852f8f373ca3b75416c"
+        }
+      ],
+      "reactants": [
+        {
+          "bel": "a(CHEBI:\"angiotensin II\")",
+          "concept": {
+            "name": "angiotensin II",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "17c2386466aa664335d7eeca2063bf1f"
+        }
+      ]
+    }
+  ]
+}

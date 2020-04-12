@@ -1,0 +1,119 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "30463975.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Timeline AS LIST {"24 hours", "36 hours", "48 hours"}
+DEFINE ANNOTATION Dose AS LIST {"30 µM"}
+DEFINE ANNOTATION Assay AS LIST {"Pulldown assay"}
+DEFINE ANNOTATION Custom_Species AS LIST {"9823"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","30463975"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "As expected, Nsp9 was pulled down by TAT-Nb6-His but not by the control nanobody, TAT-Nb53-His (Fig. 4)."
+SET Assay = "Pulldown assay"
+complex(p(FIXME:"TAT-Nb6"),p(UNIPROT:J7HHL4))
+p(UNIPROT:J7HHL4) -- a(TAX:"Porcine reproductive and respiratory syndrome virus")
+#UNIPROT:J7HHL4 for Nsp9
+UNSET Assay
+
+SET Evidence = "As shown in Fig. 5A and C, Nsp9 expression was significantly suppressed in the cells treated with TAT-Nb6 at 24 hpi and 36 hpi, and the inhibition was dose dependent, suggesting that the replication of PRRSV in MARC-145 cells could be effectively inhibited by TAT-Nb6."
+SET BioAssay = "western blot"
+SET Timeline = {"24 hours", "36 hours"}
+SET CellLine = "MARC 145 cell"
+p(FIXME:"TAT-Nb6") -| p(UNIPROT:J7HHL4)
+UNSET Timeline
+UNSET BioAssay
+
+SET Evidence = "Consistent with the Nsp9 expression results, titration of progeny viruses in the cell medium also demonstrated that TAT-Nb6 suppressed the virus replication in a dose-dependent manner"
+SET BioAssay = "titration method"
+p(FIXME:"TAT-Nb6") -| bp(MESH:"Virus Replication")
+bp(MESH:"Virus Replication") -- a(TAX:"Porcine reproductive and respiratory syndrome virus")
+UNSET BioAssay
+
+SET Evidence = "The results reveal that the relative PRRSV RNA level in the cells treated with 30 µM TAT-Nb6 was significantly reduced compared with that of the controls at 24 hpi (Fig. 5E, left)."
+SET Timeline = "24 hours"
+SET Dose = "30 µM"
+SET BioAssay = "quantitative reverse transcription PCR"
+p(FIXME:"TAT-Nb6") -| r(UNIPROT:J7HHL4)
+p(FIXME:"TAT-Nb6") -| bp(GO:"viral genome replication")
+UNSET CellLine
+UNSET Timeline
+UNSET Dose
+UNSET BioAssay
+
+SET Evidence = "Consistent with the results detected in MARC-145 cells, TAT-Nb6 treatment significantly inhibited the expression of PRRSV Nsp9, synthesis of PRRSV RNA, and production of progeny viruses in a dose-dependent manner (Fig. 6)."
+SET Custom_Species = "9823"
+SET MeSHAnatomy = "Macrophages, Alveolar"
+SET BioAssay = "western blot"
+p(FIXME:"TAT-Nb6") -| p(UNIPROT:J7HHL4)
+UNSET BioAssay
+SET BioAssay = "quantitative reverse transcription PCR"
+p(FIXME:"TAT-Nb6") -| r(UNIPROT:J7HHL4)
+p(FIXME:"TAT-Nb6") -| bp(GO:"viral genome replication")
+UNSET BioAssay
+SET BioAssay = "titration method"
+p(FIXME:"TAT-Nb6") -| bp(MESH:"Virus Replication")
+UNSET BioAssay
+
+SET Evidence = "After 24 hpi, the RNA synthesis of all strains was predominantly suppressed by TAT-Nb6 (Fig. 7B to D), and the relative RNA levels for strains SD16, GD-HD, and VR2332 were significantly reduced compared to levels for the TAT-Nb53 group and no nanobody group (Fig. 7C and D)."
+SET Timeline = {"24 hours","36 hours","48 hours"}
+SET Dose = "30 µM"
+SET BioAssay = "quantitative reverse transcription PCR"
+p(FIXME:"TAT-Nb6") -| r(UNIPROT:J7HHL4)
+p(UNIPROT:J7HHL4) -- a(TAX:"Porcine reproductive and respiratory syndrome virus 1")
+p(UNIPROT:J7HHL4) -- a(TAX:"Porcine reproductive and respiratory syndrome virus 2")
+p(FIXME:"TAT-Nb6") -| bp(GO:"viral genome replication")
+UNSET BioAssay
+
+SET Evidence = "Titration of the viruses released in the cell culture revealed that TAT-Nb6 treatment suppressed progeny virus production for all strains at 48 hpi (Fig. 7E)."
+SET BioAssay = "titration method"
+p(FIXME:"TAT-Nb6") -| bp(MESH:"Virus Replication")
+bp(MESH:"Virus Replication") -- a(TAX:"Porcine reproductive and respiratory syndrome virus 1")
+bp(MESH:"Virus Replication") -- a(TAX:"Porcine reproductive and respiratory syndrome virus 2")
+UNSET BioAssay
+UNSET Timeline
+UNSET Dose
+UNSET Custom_Species
+UNSET MeSHAnatomy
+
+SET Evidence = "These results indicate that Nb6 could recognize two discontinuous regions in the C-terminal end of Nsp9, Nsp9aa454–551 and Nsp9aa599–646."
+complex(p(FIXME:"Nb6"),p(UNIPROT:J7HHL4, frag("454_551")))
+complex(p(FIXME:"Nb6"),p(UNIPROT:J7HHL4, frag("599_646")))
+

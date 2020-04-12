@@ -1,0 +1,109 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32190290.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE INTERPRO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/interpro/interpro-names-20181021.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION disease_stage AS LIST {"asymptomatic"}
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+
+DEFINE ANNOTATION PublicationType AS LIST {"Review"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+
+##################################################################################
+# Statements #
+##################################################################################
+#example#
+SET Citation = {"PubMed","32190290"}
+SET PublicationType = "Review"
+SET PublicationStatus = "Published"
+SET Section = "Full Text"
+
+SET Evidence = "Third, an asymptomatic child was found to have ground-glass opacities \
+in his lung and SARS-CoV-2 RNA in his sputum sample"
+
+SET Custom_Disease = "COVID-19"
+SET disease_stage = "asymptomatic"
+SET MeSHAnatomy = "Lung"
+path(DO:"COVID-19") -> path(HP:"Ground-glass opacification on pulmonary HRCT")
+UNSET MeSHAnatomy
+UNSET disease_stage
+
+SET Evidence = "Finally, the presentation of diarrhea in two young adults from the \
+same family also suggests the possibility for gastrointestinal \
+involvement in SARS-CoV-2 infection and fecal–oral transmission."
+
+path(DO:"COVID-19") -> path(DO:"diarrhea")
+
+
+SET Evidence = "ELISA reagents for detection of SARS-CoV-2 antigens such as S and N \
+are still in urgent need, and would provide another test highly \
+complementary to viral RNA detection."
+
+p(COVID:N) -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+p(COVID:S) -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+
+SET Evidence = "These results provide the basis for a rapid test of the beneficial \
+effects of remdesivir in COVID-19."
+
+a(PUBCHEM:121304016) -| path(DO:"COVID-19")
+SET Evidence = "For example, type I interferons including interferon α2b and \
+interferon β are well known for their antiviral activity."
+
+a(PUBCHEM:71306834) isA a(CHEBI:"antiviral drug")
+a(PUBCHEM:46504458) isA a(CHEBI:"antiviral drug")
+
+SET Evidence = "Notably, steroids have been experimentally used widely in the \
+treatment of SARS and are still preferred by some Chinese physicians \
+in the treatment of COVID-19. It is said to be capable of stopping the \
+cytokine storm and preventing lung fibrosis."
+
+a(CHEBI:steroid) -| path(DO:"severe acute respiratory syndrome")
+a(CHEBI:steroid) -| path(DO:"COVID-19")
+UNSET Custom_Disease
+
+SET Evidence = "Particularly, ORF3 and ORF8 in SARS-CoV-2 are highly divergent from \
+ORF3a and ORF8b in SARS-CoV that are known to induce NLRP3 \
+inflammasome activation."
+
+p(COVID:ORF3) -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+p(COVID:ORF8) -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+p(UNIPROT:J9TEM7) -- a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+p(UNIPROT:Q6S8E2) -- a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+
+SET Evidence = "ORF3 of SARS-CoV-2 is also significantly different from the interferon \
+antagonist ORF3b of SARS-CoV."
+
+p(UNIPROT:P59633) -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

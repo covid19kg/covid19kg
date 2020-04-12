@@ -1,0 +1,853 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Preprint",
+        "Published"
+      ],
+      "PublicationType": [
+        "Research",
+        "Review"
+      ],
+      "Section": [
+        "Abstract",
+        "Full Text",
+        "Results"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Shounak Baksi",
+      "contact": "shounak.baksi@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32201080.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "NCBIGENE": ".*",
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32201080.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Jin X",
+          "Lu Y",
+          "Luan J",
+          "Zhang L"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32201080",
+        "db_name": "Biochemical and biophysical research communications",
+        "first": "Luan J",
+        "last": "Zhang L"
+      },
+      "evidence": "Human ACE2 is the receptor for both SARS-CoV and SARS-CoV-2.",
+      "key": "0dcf41a1413108f90048eedcbf80da82",
+      "line": 83,
+      "relation": "increases",
+      "source": 4,
+      "target": 17
+    },
+    {
+      "key": "99fd5b71af427449b3c299ded846d810",
+      "relation": "partOf",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "key": "44a4b634ca32139aded9fc5a719f4996",
+      "relation": "partOf",
+      "source": 11,
+      "target": 4
+    },
+    {
+      "key": "52cb6d8fcf894bbfe8497cecebc5b0d1",
+      "relation": "partOf",
+      "source": 11,
+      "target": 3
+    },
+    {
+      "key": "1db03b2523b3b2cd2b465edf9382bc2a",
+      "relation": "partOf",
+      "source": 11,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Jin X",
+          "Lu Y",
+          "Luan J",
+          "Zhang L"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32201080",
+        "db_name": "Biochemical and biophysical research communications",
+        "first": "Luan J",
+        "last": "Zhang L"
+      },
+      "evidence": "Human ACE2 is the receptor for both SARS-CoV and SARS-CoV-2.",
+      "key": "7ee5b25cf37903e3c87a3096e5e3bfdc",
+      "line": 85,
+      "relation": "increases",
+      "source": 3,
+      "target": 16
+    },
+    {
+      "key": "9b5e6ebdb508b622c266b4b986bd47ee",
+      "relation": "partOf",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Jin X",
+          "Lu Y",
+          "Luan J",
+          "Zhang L"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32201080",
+        "db_name": "Biochemical and biophysical research communications",
+        "first": "Luan J",
+        "last": "Zhang L"
+      },
+      "evidence": "According to the literature [15], the key amino acids (AAs) in the Sprotein of SARS-CoV interacting with human ACE2 are Y442, L472,N479, D480, T487, Y491 [7,15].",
+      "key": "751683ed3861175442e2c98fd2d6bc56",
+      "line": 92,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "key": "cc2d182e46a7afcbe8de0b32b4f87ed1",
+      "relation": "partOf",
+      "source": 10,
+      "target": 5
+    },
+    {
+      "key": "c33a238682776ec242a1b15892f1d5f9",
+      "relation": "partOf",
+      "source": 10,
+      "target": 8
+    },
+    {
+      "key": "5edf0f42053d1bde00ee72787cdfd941",
+      "relation": "partOf",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "key": "6a5c0ff1faa92f7bb74f9b32070505e6",
+      "relation": "partOf",
+      "source": 10,
+      "target": 7
+    },
+    {
+      "key": "3218e875b242e207b33102bd7dcfd7d7",
+      "relation": "partOf",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Jin X",
+          "Lu Y",
+          "Luan J",
+          "Zhang L"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32201080",
+        "db_name": "Biochemical and biophysical research communications",
+        "first": "Luan J",
+        "last": "Zhang L"
+      },
+      "evidence": "According to the literature [15], the key amino acids (AAs) in the Sprotein of SARS-CoV interacting with human ACE2 are Y442, L472,N479, D480, T487, Y491 [7,15].",
+      "key": "eab2089a86a68198fbd163204610afb7",
+      "line": 92,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Jin X",
+          "Lu Y",
+          "Luan J",
+          "Zhang L"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32201080",
+        "db_name": "Biochemical and biophysical research communications",
+        "first": "Luan J",
+        "last": "Zhang L"
+      },
+      "evidence": "Some Pets including dog(Canis lupus familiaris) and cat (Felis catus) potentially recognize S protein, indicating the importance to monitor the pets for SARS-CoV-2 infection.",
+      "key": "28dba68e0516bfc73458c1fdf703de97",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Jin X",
+          "Lu Y",
+          "Luan J",
+          "Zhang L"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32201080",
+        "db_name": "Biochemical and biophysical research communications",
+        "first": "Luan J",
+        "last": "Zhang L"
+      },
+      "evidence": "Some Pets including dog(Canis lupus familiaris) and cat (Felis catus) potentially recognize S protein, indicating the importance to monitor the pets for SARS-CoV-2 infection.",
+      "key": "be00d022bce061c37a10763fcc6200c5",
+      "line": 101,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Jin X",
+          "Lu Y",
+          "Luan J",
+          "Zhang L"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32201080",
+        "db_name": "Biochemical and biophysical research communications",
+        "first": "Luan J",
+        "last": "Zhang L"
+      },
+      "evidence": "We noticed that ACE2 from dog, cat, pangolin and Chinese hamster potentially associated with S protein (Table 1).",
+      "key": "0abd9b25664e9498aa7f56739b28f968",
+      "line": 107,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Jin X",
+          "Lu Y",
+          "Luan J",
+          "Zhang L"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32201080",
+        "db_name": "Biochemical and biophysical research communications",
+        "first": "Luan J",
+        "last": "Zhang L"
+      },
+      "evidence": "We noticed that ACE2 from dog, cat, pangolin and Chinese hamster potentially associated with S protein (Table 1).",
+      "key": "3196923fb4ab0528a111d6915c54c722",
+      "line": 109,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Jin X",
+          "Lu Y",
+          "Luan J",
+          "Zhang L"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32201080",
+        "db_name": "Biochemical and biophysical research communications",
+        "first": "Luan J",
+        "last": "Zhang L"
+      },
+      "evidence": "Some Pets including dog(Canis lupus familiaris) and cat (Felis catus) potentially recognize S protein, indicating the importance to monitor the pets for SARS-CoV-2 infection.",
+      "key": "81d0b920730b2479abf9915df62ecfc5",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 2
+    },
+    {
+      "key": "ba8ee0d6d8c191032dfd3997e726e6b4",
+      "relation": "partOf",
+      "source": 14,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Jin X",
+          "Lu Y",
+          "Luan J",
+          "Zhang L"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32201080",
+        "db_name": "Biochemical and biophysical research communications",
+        "first": "Luan J",
+        "last": "Zhang L"
+      },
+      "evidence": "Some Pets including dog(Canis lupus familiaris) and cat (Felis catus) potentially recognize S protein, indicating the importance to monitor the pets for SARS-CoV-2 infection.",
+      "key": "6bf83966345fccd255535f092185e21d",
+      "line": 101,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 2
+    },
+    {
+      "key": "ad48dd495bb978b71af930e81fd674ea",
+      "relation": "partOf",
+      "source": 15,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Jin X",
+          "Lu Y",
+          "Luan J",
+          "Zhang L"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32201080",
+        "db_name": "Biochemical and biophysical research communications",
+        "first": "Luan J",
+        "last": "Zhang L"
+      },
+      "evidence": "We noticed that ACE2 from dog, cat, pangolin and Chinese hamster potentially associated with S protein (Table 1).",
+      "key": "01236677b523446ed6dbcbf906009698",
+      "line": 107,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 2
+    },
+    {
+      "key": "0a59bbee7fad32c48b2d9c787b7610bb",
+      "relation": "partOf",
+      "source": 13,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Jin X",
+          "Lu Y",
+          "Luan J",
+          "Zhang L"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32201080",
+        "db_name": "Biochemical and biophysical research communications",
+        "first": "Luan J",
+        "last": "Zhang L"
+      },
+      "evidence": "We noticed that ACE2 from dog, cat, pangolin and Chinese hamster potentially associated with S protein (Table 1).",
+      "key": "37124a1350c5708d0e9aca7905da8b6b",
+      "line": 109,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "key": "b1a00c9de44d268fe6db6b138df67bfd",
+      "relation": "partOf",
+      "source": 12,
+      "target": 6
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "a824ba056422b4e42996cd3269ec9a19"
+    },
+    {
+      "bel": "bp(MESH:Virulence)",
+      "concept": {
+        "name": "Virulence",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "ea34a3ed799169801c871aed04595a45"
+    },
+    {
+      "bel": "complex(a(TAX:\"Severe acute respiratory syndrome coronavirus 2\"), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "146428e3b0f07633969567cac441971e",
+      "members": [
+        {
+          "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+          "concept": {
+            "name": "Severe acute respiratory syndrome coronavirus 2",
+            "namespace": "TAX"
+          },
+          "function": "Abundance",
+          "id": "c41851da59cc36c21b2e8acf24c1f46d"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(TAX:\"Severe acute respiratory syndrome-related coronavirus\"), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "c4918aaf8ae8229143e4b1dab5df7531",
+      "members": [
+        {
+          "bel": "a(TAX:\"Severe acute respiratory syndrome-related coronavirus\")",
+          "concept": {
+            "name": "Severe acute respiratory syndrome-related coronavirus",
+            "namespace": "TAX"
+          },
+          "function": "Abundance",
+          "id": "a824ba056422b4e42996cd3269ec9a19"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:S), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "6b8514d35b9a04dcfdf30d01d4a3a0a0",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:S), p(NCBIGENE:100772552))",
+      "function": "Complex",
+      "id": "d4ba8d8c9648030f737c2f76632491cf",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(NCBIGENE:100772552)",
+          "concept": {
+            "name": "100772552",
+            "namespace": "NCBIGENE"
+          },
+          "function": "Protein",
+          "id": "abdcfd0d2e676fb59291a909081beaa9"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:S), p(NCBIGENE:108390919))",
+      "function": "Complex",
+      "id": "41e664b515b31b9a1bc73e46fa2d1c4f",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(NCBIGENE:108390919)",
+          "concept": {
+            "name": "108390919",
+            "namespace": "NCBIGENE"
+          },
+          "function": "Protein",
+          "id": "4840c90482b2732a48f84ef394d553e6"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:S), p(UNIPROT:J9P7Y2))",
+      "function": "Complex",
+      "id": "c694763cafb27f239de67bede2bf4eec",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(UNIPROT:J9P7Y2)",
+          "concept": {
+            "name": "J9P7Y2",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "b6598aadf06212fd19e05a72f04f7f2b"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:S), p(UNIPROT:Q56H28))",
+      "function": "Complex",
+      "id": "656761da67e73597aa201f1e78ce25a9",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(UNIPROT:Q56H28)",
+          "concept": {
+            "name": "Q56H28",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "106a53eee06c0633897e1085f54f1bad"
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "p(NCBIGENE:100772552)",
+      "concept": {
+        "name": "100772552",
+        "namespace": "NCBIGENE"
+      },
+      "function": "Protein",
+      "id": "abdcfd0d2e676fb59291a909081beaa9"
+    },
+    {
+      "bel": "p(NCBIGENE:108390919)",
+      "concept": {
+        "name": "108390919",
+        "namespace": "NCBIGENE"
+      },
+      "function": "Protein",
+      "id": "4840c90482b2732a48f84ef394d553e6"
+    },
+    {
+      "bel": "p(UNIPROT:J9P7Y2)",
+      "concept": {
+        "name": "J9P7Y2",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "b6598aadf06212fd19e05a72f04f7f2b"
+    },
+    {
+      "bel": "p(UNIPROT:Q56H28)",
+      "concept": {
+        "name": "Q56H28",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "106a53eee06c0633897e1085f54f1bad"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"severe acute respiratory syndrome\")",
+      "concept": {
+        "name": "severe acute respiratory syndrome",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "06fc6690e6ddfff254197e953a470c95"
+    }
+  ]
+}

@@ -1,0 +1,3491 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "PublicationStatus": [
+        "Preprint",
+        "Published"
+      ],
+      "PublicationType": [
+        "Research",
+        "Review"
+      ],
+      "Section": [
+        "Abstract",
+        "Full Text",
+        "Results"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Shounak Baksi",
+      "contact": "shounak.baksi@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32194980.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "PUBCHEM": "^\\d+$",
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "DRUGBANK": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32194980.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": " We identified several hub proteins including JUN, XPO1, NPM1, and HNRNPA1, with the highest number of connections within the 119 proteins.",
+      "key": "e6231788186958811487101e7ee5dd89",
+      "line": 81,
+      "relation": "regulates",
+      "source": 51,
+      "target": 39
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": " We identified several hub proteins including JUN, XPO1, NPM1, and HNRNPA1, with the highest number of connections within the 119 proteins.",
+      "key": "89b54b93186e7cea6d4e8e65bc430c7a",
+      "line": 82,
+      "relation": "regulates",
+      "source": 51,
+      "target": 48
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": " We identified several hub proteins including JUN, XPO1, NPM1, and HNRNPA1, with the highest number of connections within the 119 proteins.",
+      "key": "005aae323f6b9100c6011c327db472bb",
+      "line": 83,
+      "relation": "regulates",
+      "source": 51,
+      "target": 41
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": " We identified several hub proteins including JUN, XPO1, NPM1, and HNRNPA1, with the highest number of connections within the 119 proteins.",
+      "key": "6f8a0c612356a75be485d412ef3aa98a",
+      "line": 84,
+      "relation": "regulates",
+      "source": 51,
+      "target": 37
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "f37175f6936758e524cbc87bc00e3e1b",
+      "line": 88,
+      "relation": "association",
+      "source": 51,
+      "target": 54
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "b86dd44329e976aaf1fc854a10737ff8",
+      "line": 89,
+      "relation": "association",
+      "source": 51,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "c5fb0ba6e66f6c48315179429d2f99ea",
+      "line": 90,
+      "relation": "association",
+      "source": 51,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "87696f5c0e6d0ca59ed94040399ca3d2",
+      "line": 91,
+      "relation": "association",
+      "source": 51,
+      "target": 55
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "2353078888203c0bdfbb54292b20d694",
+      "line": 92,
+      "relation": "association",
+      "source": 51,
+      "target": 53
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "a53834cc723e16f7f013bf1117817178",
+      "line": 93,
+      "relation": "association",
+      "source": 51,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "6ab68dfc321a8485798a20d009b321a1",
+      "line": 94,
+      "relation": "association",
+      "source": 51,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "51a32bc2d7af1b9abf44870159d503d2",
+      "line": 95,
+      "relation": "association",
+      "source": 51,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "9b63631ad57f01a6485a473b5abf5d76",
+      "line": 96,
+      "relation": "association",
+      "source": 51,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "ec806a7736282b424af9a279e8d5f62a",
+      "line": 97,
+      "relation": "association",
+      "source": 51,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "0f23760f7a77384e1109a4c1bc025d0f",
+      "line": 88,
+      "relation": "association",
+      "source": 54,
+      "target": 51
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "79153ce59b8e0dedfca46a3cd24de4ff",
+      "line": 89,
+      "relation": "association",
+      "source": 16,
+      "target": 51
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "84fffaa7f9bf871dc5f509e1353b976a",
+      "line": 90,
+      "relation": "association",
+      "source": 15,
+      "target": 51
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "dff3148e880a9029655901c7478ac703",
+      "line": 91,
+      "relation": "association",
+      "source": 55,
+      "target": 51
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "0f99492041171678250e7ac300837074",
+      "line": 92,
+      "relation": "association",
+      "source": 53,
+      "target": 51
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "5738bd6c3bb2fd9133fbb7cec0bbbb79",
+      "line": 93,
+      "relation": "association",
+      "source": 21,
+      "target": 51
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "cd5628b6c10d0cc52db7ff7f3199c918",
+      "line": 94,
+      "relation": "association",
+      "source": 19,
+      "target": 51
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "6b1e003bcacda8b1c683c51903d58cca",
+      "line": 95,
+      "relation": "association",
+      "source": 18,
+      "target": 51
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "b3e1558ee4a620ce8e3273beee582479",
+      "line": 96,
+      "relation": "association",
+      "source": 22,
+      "target": 51
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c).",
+      "key": "a2a907768b0f7f578d73b82dcf836025",
+      "line": 97,
+      "relation": "association",
+      "source": 24,
+      "target": 51
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Mesalazine (an approved drug for inflammatory bowel disease), sirolimus (an approved immunosuppressive drug), and equilin (an approved agonist of the estrogen receptor for menopausal symptoms) achieved the highest GSEA scores of 3, followed by paroxetine and melatonin with GSEA scores of 2.",
+      "key": "8daa5bba4d3e36abdd2f74d0e1b5dd15",
+      "line": 101,
+      "relation": "decreases",
+      "source": 11,
+      "target": 52
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Mesalazine (an approved drug for inflammatory bowel disease), sirolimus (an approved immunosuppressive drug), and equilin (an approved agonist of the estrogen receptor for menopausal symptoms) achieved the highest GSEA scores of 3, followed by paroxetine and melatonin with GSEA scores of 2.",
+      "key": "44c78626f0f6d9feb98970453056e2cf",
+      "line": 103,
+      "relation": "isA",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Specifically, sirolimus and dactinomycin may inhibit both mTOR signaling and RNA synthesis pathway (including DNA topoisomerase 2-alpha (TOP2A) and DNA topoisomerase 2-beta (TOP2B)) in HCoV-infected cells (Fig. 6b).",
+      "key": "7950e772067c834266fcf9784edfe113",
+      "line": 152,
+      "relation": "decreases",
+      "source": 6,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Specifically, sirolimus and dactinomycin may inhibit both mTOR signaling and RNA synthesis pathway (including DNA topoisomerase 2-alpha (TOP2A) and DNA topoisomerase 2-beta (TOP2B)) in HCoV-infected cells (Fig. 6b).",
+      "key": "a401505c4f430cd8d135b0e3f5c2c9cb",
+      "line": 155,
+      "relation": "decreases",
+      "source": 6,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Specifically, sirolimus and dactinomycin may inhibit both mTOR signaling and RNA synthesis pathway (including DNA topoisomerase 2-alpha (TOP2A) and DNA topoisomerase 2-beta (TOP2B)) in HCoV-infected cells (Fig. 6b).",
+      "key": "0faa58548d6856e58a3661620d0af490",
+      "line": 156,
+      "relation": "decreases",
+      "source": 6,
+      "target": 46
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Specifically, sirolimus and dactinomycin may inhibit both mTOR signaling and RNA synthesis pathway (including DNA topoisomerase 2-alpha (TOP2A) and DNA topoisomerase 2-beta (TOP2B)) in HCoV-infected cells (Fig. 6b).",
+      "key": "5da091e738166b82d7aadd04ea7cd4c1",
+      "line": 158,
+      "relation": "decreases",
+      "source": 6,
+      "target": 47
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Mesalazine (an approved drug for inflammatory bowel disease), sirolimus (an approved immunosuppressive drug), and equilin (an approved agonist of the estrogen receptor for menopausal symptoms) achieved the highest GSEA scores of 3, followed by paroxetine and melatonin with GSEA scores of 2.",
+      "key": "a77a2b9133427ab678796beb5f3b59ff",
+      "line": 104,
+      "relation": "increases",
+      "source": 1,
+      "target": 36
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Mesalazine (an approved drug for inflammatory bowel disease), sirolimus (an approved immunosuppressive drug), and equilin (an approved agonist of the estrogen receptor for menopausal symptoms) achieved the highest GSEA scores of 3, followed by paroxetine and melatonin with GSEA scores of 2.",
+      "key": "88efa234ffc18d5c0202c27c8a72a65e",
+      "line": 105,
+      "relation": "association",
+      "source": 36,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Mesalazine (an approved drug for inflammatory bowel disease), sirolimus (an approved immunosuppressive drug), and equilin (an approved agonist of the estrogen receptor for menopausal symptoms) achieved the highest GSEA scores of 3, followed by paroxetine and melatonin with GSEA scores of 2.",
+      "key": "00a30f5cfc38a64b2c8faf651d1e6644",
+      "line": 105,
+      "relation": "association",
+      "source": 25,
+      "target": 36
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "As shown in Fig. 5b, toremifene potentially affects several key host proteins associated with HCoV, such as RPL19, HNRNPA1, NPM1, EIF3I, EIF3F, and EIF3E40,41",
+      "key": "a83bcb732acfd6f6bb6dc5c64bbd4ffa",
+      "line": 109,
+      "relation": "regulates",
+      "source": 7,
+      "target": 44
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "As shown in Fig. 5b, toremifene potentially affects several key host proteins associated with HCoV, such as RPL19, HNRNPA1, NPM1, EIF3I, EIF3F, and EIF3E40,41",
+      "key": "77bd309b079ea3aa39641515455d4077",
+      "line": 110,
+      "relation": "regulates",
+      "source": 7,
+      "target": 37
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "As shown in Fig. 5b, toremifene potentially affects several key host proteins associated with HCoV, such as RPL19, HNRNPA1, NPM1, EIF3I, EIF3F, and EIF3E40,41",
+      "key": "4129aef948a4e4e87a6957326b31fbe0",
+      "line": 111,
+      "relation": "regulates",
+      "source": 7,
+      "target": 41
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "As shown in Fig. 5b, toremifene potentially affects several key host proteins associated with HCoV, such as RPL19, HNRNPA1, NPM1, EIF3I, EIF3F, and EIF3E40,41",
+      "key": "fd2d3334048d71db427d847505326afb",
+      "line": 112,
+      "relation": "regulates",
+      "source": 7,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "As shown in Fig. 5b, toremifene potentially affects several key host proteins associated with HCoV, such as RPL19, HNRNPA1, NPM1, EIF3I, EIF3F, and EIF3E40,41",
+      "key": "398f1b5ee14ec8ae0b7ded38cdba42f2",
+      "line": 113,
+      "relation": "regulates",
+      "source": 7,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "As shown in Fig. 5b, toremifene potentially affects several key host proteins associated with HCoV, such as RPL19, HNRNPA1, NPM1, EIF3I, EIF3F, and EIF3E40,41",
+      "key": "9c4905a142b3771c45040e9347b67529",
+      "line": 114,
+      "relation": "regulates",
+      "source": 7,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Irbesartan can inhibit NTCP, thus inhibiting viral entry45,46. SLC10A1 interacts with C11orf74, a potential transcriptional repressor that interacts with nsp-10 of SARS-CoV47. There are several other ARBs (such as eletriptan, frovatriptan, and zolmitriptan) in which their targets are potentially associated with HCoV-associated host proteins in the human interactome.",
+      "key": "0cdac945fbfec6cfd7a47d84cd4afc91",
+      "line": 118,
+      "relation": "decreases",
+      "source": 3,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Irbesartan can inhibit NTCP, thus inhibiting viral entry45,46. SLC10A1 interacts with C11orf74, a potential transcriptional repressor that interacts with nsp-10 of SARS-CoV47. There are several other ARBs (such as eletriptan, frovatriptan, and zolmitriptan) in which their targets are potentially associated with HCoV-associated host proteins in the human interactome.",
+      "key": "4f60dc65a52a8878777cae6eb08816fa",
+      "line": 119,
+      "relation": "regulates",
+      "source": 27,
+      "target": 49
+    },
+    {
+      "key": "67d1ba752e8c30e51ba1c406cd9e0745",
+      "relation": "partOf",
+      "source": 32,
+      "target": 27
+    },
+    {
+      "key": "a1b98c10b8c69ef7abc44700f3c0c1f5",
+      "relation": "partOf",
+      "source": 45,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Irbesartan can inhibit NTCP, thus inhibiting viral entry45,46. SLC10A1 interacts with C11orf74, a potential transcriptional repressor that interacts with nsp-10 of SARS-CoV47. There are several other ARBs (such as eletriptan, frovatriptan, and zolmitriptan) in which their targets are potentially associated with HCoV-associated host proteins in the human interactome.",
+      "key": "6298ba15557cba0cf9b95dd572425487",
+      "line": 120,
+      "relation": "association",
+      "source": 49,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Irbesartan can inhibit NTCP, thus inhibiting viral entry45,46. SLC10A1 interacts with C11orf74, a potential transcriptional repressor that interacts with nsp-10 of SARS-CoV47. There are several other ARBs (such as eletriptan, frovatriptan, and zolmitriptan) in which their targets are potentially associated with HCoV-associated host proteins in the human interactome.",
+      "key": "6fa3c3828174fd332f76410e48559d2c",
+      "line": 120,
+      "relation": "association",
+      "source": 14,
+      "target": 49
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Specifically, emdoin inhibited SARS-CoV-associated 3a protein70, and blocked an interaction between the SARS-CoV spike protein and ACE2 (ref. 71).",
+      "key": "a3a3d0d859cf7f38b368752a3b6a47f8",
+      "line": 164,
+      "relation": "association",
+      "source": 14,
+      "target": 50
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Mercaptopurine has been reported as a selective inhibitor of both SARS-CoV and MERS-CoV by targeting papain-like protease which plays key roles in viral maturation and antagonism to interferon stimulation53,5",
+      "key": "37944c6f9cfadd7a8a33c7b88059915e",
+      "line": 124,
+      "relation": "decreases",
+      "source": 5,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Mercaptopurine has been reported as a selective inhibitor of both SARS-CoV and MERS-CoV by targeting papain-like protease which plays key roles in viral maturation and antagonism to interferon stimulation53,5",
+      "key": "4737c994f17622c35001312e2f2ec340",
+      "line": 125,
+      "relation": "decreases",
+      "source": 5,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Mercaptopurine has been reported as a selective inhibitor of both SARS-CoV and MERS-CoV by targeting papain-like protease which plays key roles in viral maturation and antagonism to interferon stimulation53,5",
+      "key": "98009fc19dee70d728e5bd22e99b62eb",
+      "line": 126,
+      "relation": "regulates",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Mechanistically, mercaptopurine potentially target several host proteins in HCoVs, such as JUN, PABPC1, NPM1, and NCL40,55 (Fig. 5d).",
+      "key": "9ea07d53ed3ddf172a420b8eedb3d05a",
+      "line": 130,
+      "relation": "regulates",
+      "source": 5,
+      "target": 39
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Mechanistically, mercaptopurine potentially target several host proteins in HCoVs, such as JUN, PABPC1, NPM1, and NCL40,55 (Fig. 5d).",
+      "key": "2accab25aa9a7df204713c8e6b350f44",
+      "line": 131,
+      "relation": "regulates",
+      "source": 5,
+      "target": 43
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Mechanistically, mercaptopurine potentially target several host proteins in HCoVs, such as JUN, PABPC1, NPM1, and NCL40,55 (Fig. 5d).",
+      "key": "bff5d8b0e5c37dbc2a1da732ecd7e5c5",
+      "line": 132,
+      "relation": "regulates",
+      "source": 5,
+      "target": 41
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Mechanistically, mercaptopurine potentially target several host proteins in HCoVs, such as JUN, PABPC1, NPM1, and NCL40,55 (Fig. 5d).",
+      "key": "226e450cd647ae34306c12a607fd39f3",
+      "line": 133,
+      "relation": "regulates",
+      "source": 5,
+      "target": 40
+    },
+    {
+      "key": "bc7b3c6e621b339768afade8d5f0316e",
+      "relation": "partOf",
+      "source": 5,
+      "target": 28
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "The mTOR signaling plays an essential role for MERS-CoV infection66.",
+      "key": "312b8351eb33ee796c6d3f32e4fa1c37",
+      "line": 148,
+      "relation": "regulates",
+      "source": 12,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "As shown in Fig. 5e, melatonin indirectly targets several HCoV cellular targets, including ACE2, BCL2L1, JUN, and IKBKB.",
+      "key": "a1a0f8700f5d3437c7f7d00a8a3b504f",
+      "line": 135,
+      "relation": "regulates",
+      "source": 4,
+      "target": 39
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "As shown in Fig. 5e, melatonin indirectly targets several HCoV cellular targets, including ACE2, BCL2L1, JUN, and IKBKB.",
+      "key": "fddbaf6bfa5adb2a24f4d14c2b68495f",
+      "line": 136,
+      "relation": "regulates",
+      "source": 4,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "As shown in Fig. 5e, melatonin indirectly targets several HCoV cellular targets, including ACE2, BCL2L1, JUN, and IKBKB.",
+      "key": "995890c5fb7076b670069fc604ff2da3",
+      "line": 137,
+      "relation": "regulates",
+      "source": 4,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "As shown in Fig. 5e, melatonin indirectly targets several HCoV cellular targets, including ACE2, BCL2L1, JUN, and IKBKB.",
+      "key": "f1ab5aa922029c5fdc2ae9cf2b96c059",
+      "line": 138,
+      "relation": "regulates",
+      "source": 4,
+      "target": 38
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Eplerenone (Z = –1.59), an aldosterone receptor antagonist, is reported to have a similar anti-inflammatory effect as melatonin. ",
+      "key": "52825e2eafcdf4fdb1de82d1c41cf85c",
+      "line": 144,
+      "relation": "decreases",
+      "source": 4,
+      "target": 56
+    },
+    {
+      "key": "644262169ae04b0ab2c913222850d9e2",
+      "relation": "partOf",
+      "source": 4,
+      "target": 28
+    },
+    {
+      "key": "1db03b2523b3b2cd2b465edf9382bc2a",
+      "relation": "partOf",
+      "source": 30,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Eplerenone (Z = –1.59), an aldosterone receptor antagonist, is reported to have a similar anti-inflammatory effect as melatonin. ",
+      "key": "92d5f354971498fae98987d67d4b5b29",
+      "line": 142,
+      "relation": "decreases",
+      "source": 0,
+      "target": 42
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Eplerenone (Z = –1.59), an aldosterone receptor antagonist, is reported to have a similar anti-inflammatory effect as melatonin. ",
+      "key": "a1b8781ac4d4963f6ef276d939918c02",
+      "line": 143,
+      "relation": "decreases",
+      "source": 0,
+      "target": 56
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Specifically, sirolimus and dactinomycin may inhibit both mTOR signaling and RNA synthesis pathway (including DNA topoisomerase 2-alpha (TOP2A) and DNA topoisomerase 2-beta (TOP2B)) in HCoV-infected cells (Fig. 6b).",
+      "key": "00d0465f9f0254b093c0854dbd2393f2",
+      "line": 153,
+      "relation": "decreases",
+      "source": 10,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Specifically, sirolimus and dactinomycin may inhibit both mTOR signaling and RNA synthesis pathway (including DNA topoisomerase 2-alpha (TOP2A) and DNA topoisomerase 2-beta (TOP2B)) in HCoV-infected cells (Fig. 6b).",
+      "key": "1210d08694b6f18bb900182fef2d35bb",
+      "line": 154,
+      "relation": "decreases",
+      "source": 10,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Specifically, sirolimus and dactinomycin may inhibit both mTOR signaling and RNA synthesis pathway (including DNA topoisomerase 2-alpha (TOP2A) and DNA topoisomerase 2-beta (TOP2B)) in HCoV-infected cells (Fig. 6b).",
+      "key": "85d7219d80d1c0b697ea8760ddcd6610",
+      "line": 157,
+      "relation": "decreases",
+      "source": 10,
+      "target": 46
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Specifically, sirolimus and dactinomycin may inhibit both mTOR signaling and RNA synthesis pathway (including DNA topoisomerase 2-alpha (TOP2A) and DNA topoisomerase 2-beta (TOP2B)) in HCoV-infected cells (Fig. 6b).",
+      "key": "df3c786f6354c26e91f7d86497bd03e0",
+      "line": 159,
+      "relation": "decreases",
+      "source": 10,
+      "target": 47
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Specifically, emdoin inhibited SARS-CoV-associated 3a protein70, and blocked an interaction between the SARS-CoV spike protein and ACE2 (ref. 71).",
+      "key": "28defcc9025acd708fd72468c4319cbe",
+      "line": 162,
+      "relation": "decreases",
+      "source": 8,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Specifically, emdoin inhibited SARS-CoV-associated 3a protein70, and blocked an interaction between the SARS-CoV spike protein and ACE2 (ref. 71).",
+      "key": "fbb2d6c1705bdc6bbc4e60f9da50a33f",
+      "line": 163,
+      "relation": "decreases",
+      "source": 8,
+      "target": 50
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Specifically, emdoin inhibited SARS-CoV-associated 3a protein70, and blocked an interaction between the SARS-CoV spike protein and ACE2 (ref. 71).",
+      "key": "a9c900c6caadaebac819f71ac80370a4",
+      "line": 165,
+      "relation": "decreases",
+      "source": 8,
+      "target": 14
+    },
+    {
+      "key": "cc2d182e46a7afcbe8de0b32b4f87ed1",
+      "relation": "partOf",
+      "source": 29,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "Specifically, emdoin inhibited SARS-CoV-associated 3a protein70, and blocked an interaction between the SARS-CoV spike protein and ACE2 (ref. 71).",
+      "key": "8a1416427e261e49060ba46748918f2a",
+      "line": 164,
+      "relation": "association",
+      "source": 50,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "In summary, combination of mercaptopurine and melatonin may offer a potential combination therapy for 2019-nCoV/SARS-CoV-2 by synergistically targeting papain-like protease, ACE2, c-Jun signaling, and anti-inflammatory pathways (Fig. 6d).",
+      "key": "070a4bebd61289af663ca5865507840e",
+      "line": 169,
+      "relation": "decreases",
+      "source": 28,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "In summary, combination of mercaptopurine and melatonin may offer a potential combination therapy for 2019-nCoV/SARS-CoV-2 by synergistically targeting papain-like protease, ACE2, c-Jun signaling, and anti-inflammatory pathways (Fig. 6d).",
+      "key": "3d737949a2c6bb9ccd4d0c90685a11c6",
+      "line": 170,
+      "relation": "decreases",
+      "source": 28,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "In summary, combination of mercaptopurine and melatonin may offer a potential combination therapy for 2019-nCoV/SARS-CoV-2 by synergistically targeting papain-like protease, ACE2, c-Jun signaling, and anti-inflammatory pathways (Fig. 6d).",
+      "key": "9bb498724c8ee133056b2c022de881de",
+      "line": 171,
+      "relation": "regulates",
+      "source": 28,
+      "target": 39
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Cheng F",
+          "Hou Y",
+          "Huang Y",
+          "Martin W",
+          "Shen J",
+          "Zhou Y"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32194980",
+        "db_name": "Cell discovery",
+        "first": "Zhou Y",
+        "last": "Cheng F",
+        "pages": "14",
+        "volume": "6"
+      },
+      "evidence": "In summary, combination of mercaptopurine and melatonin may offer a potential combination therapy for 2019-nCoV/SARS-CoV-2 by synergistically targeting papain-like protease, ACE2, c-Jun signaling, and anti-inflammatory pathways (Fig. 6d).",
+      "key": "0f1d5ecd0a705836648942ca7c4a5c78",
+      "line": 172,
+      "relation": "decreases",
+      "source": 28,
+      "target": 56
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:eplerenone)",
+      "concept": {
+        "name": "eplerenone",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "5a96fc2c853ba4ace9dcea268ecd1499"
+    },
+    {
+      "bel": "a(CHEBI:equilin)",
+      "concept": {
+        "name": "equilin",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "26ed7d3fa01744c2ac5370af62b4c695"
+    },
+    {
+      "bel": "a(CHEBI:interferon)",
+      "concept": {
+        "name": "interferon",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "5df10d84c820d3d6ffd20d18aeeb74e6"
+    },
+    {
+      "bel": "a(CHEBI:irbesartan)",
+      "concept": {
+        "name": "irbesartan",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "bfd226c11cd2bb78da67287b52a63889"
+    },
+    {
+      "bel": "a(CHEBI:melatonin)",
+      "concept": {
+        "name": "melatonin",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "f32e6cff6cc77ae00bade70ceea915e5"
+    },
+    {
+      "bel": "a(CHEBI:mercaptopurine)",
+      "concept": {
+        "name": "mercaptopurine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "8acf339c07a30414963bc56334d9c9df"
+    },
+    {
+      "bel": "a(CHEBI:sirolimus)",
+      "concept": {
+        "name": "sirolimus",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "561f7408129243e1ed091f506ef0dded"
+    },
+    {
+      "bel": "a(CHEBI:toremifene)",
+      "concept": {
+        "name": "toremifene",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "81fe9dd091c3109eba5538f31877e834"
+    },
+    {
+      "bel": "a(DRUGBANK:DB07715)",
+      "concept": {
+        "name": "DB07715",
+        "namespace": "DRUGBANK"
+      },
+      "function": "Abundance",
+      "id": "50aaa655d9b0a9f2a05107ade2055226"
+    },
+    {
+      "bel": "a(MESH:\"Immunosuppressive Agents\")",
+      "concept": {
+        "name": "Immunosuppressive Agents",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "25e8314789b5982ec7f1bb715aeb47cf"
+    },
+    {
+      "bel": "a(MESH:Dactinomycin)",
+      "concept": {
+        "name": "Dactinomycin",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "09db9cee8181afee2afb7014b350355f"
+    },
+    {
+      "bel": "a(PUBCHEM:4075)",
+      "concept": {
+        "name": "4075",
+        "namespace": "PUBCHEM"
+      },
+      "function": "Abundance",
+      "id": "0e2c8bb8d829d374184c5fdd766b9dc7"
+    },
+    {
+      "bel": "a(TAX:\"Middle East respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Middle East respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "f954d5cc971a29c7e7089ca32a056914"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "a824ba056422b4e42996cd3269ec9a19"
+    },
+    {
+      "bel": "bp(GO:\"NIK/NF-kappaB signaling\")",
+      "concept": {
+        "name": "NIK/NF-kappaB signaling",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "17366975eb5fd98b20a8228a5e1479bd"
+    },
+    {
+      "bel": "bp(GO:\"RNA transport\")",
+      "concept": {
+        "name": "RNA transport",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "6abd78e8414726b4ad64687e67531f74"
+    },
+    {
+      "bel": "bp(GO:\"TOR signaling\")",
+      "concept": {
+        "name": "TOR signaling",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "9061d8a3d41b8f08c23bb345314a23dc"
+    },
+    {
+      "bel": "bp(GO:\"modulation by virus of host morphology or physiology\")",
+      "concept": {
+        "name": "modulation by virus of host morphology or physiology",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "76ce6280ef661644e71db67cd0315070"
+    },
+    {
+      "bel": "bp(GO:\"transport of virus\")",
+      "concept": {
+        "name": "transport of virus",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "78e2e8bd3c4da5a7e2dbd6d2fe5c005c"
+    },
+    {
+      "bel": "bp(GO:\"viral entry into host cell\")",
+      "concept": {
+        "name": "viral entry into host cell",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "2a6e5ae8582e2cded25095e14c2ee329"
+    },
+    {
+      "bel": "bp(GO:\"viral life cycle\")",
+      "concept": {
+        "name": "viral life cycle",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "f942c2cdc95426b6a30cdccc550a442a"
+    },
+    {
+      "bel": "bp(GO:\"viral process\")",
+      "concept": {
+        "name": "viral process",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "93ae1ca3bfe907c3576ca4906da5c64f"
+    },
+    {
+      "bel": "bp(GO:\"viral transcription\")",
+      "concept": {
+        "name": "viral transcription",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "b49c6817c2eb304cee8c2b3d8cbd98e2"
+    },
+    {
+      "bel": "bp(GO:\"virion attachment to host cell\")",
+      "concept": {
+        "name": "virion attachment to host cell",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "a47835ac49470a47e941658a7b0e7f54"
+    },
+    {
+      "bel": "bp(GO:menopause)",
+      "concept": {
+        "name": "menopause",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "827dc8fdcf71bc902062649d636660a2"
+    },
+    {
+      "bel": "complex(p(COVID:S), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "6b8514d35b9a04dcfdf30d01d4a3a0a0",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(HGNC:C11orf74), p(HGNC:SLC10A1))",
+      "function": "Complex",
+      "id": "4f753d43dd3543474650c427708ec96c",
+      "members": [
+        {
+          "bel": "p(HGNC:C11orf74)",
+          "concept": {
+            "name": "C11orf74",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "8a9e3b35f70840f39ea0856ac4c5a31f"
+        },
+        {
+          "bel": "p(HGNC:SLC10A1)",
+          "concept": {
+            "name": "SLC10A1",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "a027d01014ed7f55da871e210c7832d3"
+        }
+      ]
+    },
+    {
+      "bel": "composite(a(CHEBI:melatonin), a(CHEBI:mercaptopurine))",
+      "function": "Composite",
+      "id": "51cc96f8d0251269548ad6bff4cb868a",
+      "members": [
+        {
+          "bel": "a(CHEBI:melatonin)",
+          "concept": {
+            "name": "melatonin",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "f32e6cff6cc77ae00bade70ceea915e5"
+        },
+        {
+          "bel": "a(CHEBI:mercaptopurine)",
+          "concept": {
+            "name": "mercaptopurine",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "8acf339c07a30414963bc56334d9c9df"
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "p(HGNC:BCL2L1)",
+      "concept": {
+        "name": "BCL2L1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "b94bede953f804ef5bc22e201c5e5fa4"
+    },
+    {
+      "bel": "p(HGNC:C11orf74)",
+      "concept": {
+        "name": "C11orf74",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "8a9e3b35f70840f39ea0856ac4c5a31f"
+    },
+    {
+      "bel": "p(HGNC:EIF3E)",
+      "concept": {
+        "name": "EIF3E",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "75abf95a063956a0c8dd2bcdca1332e1"
+    },
+    {
+      "bel": "p(HGNC:EIF3F)",
+      "concept": {
+        "name": "EIF3F",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "5cd473c0354d16d217250a6e5f709a48"
+    },
+    {
+      "bel": "p(HGNC:EIF3I)",
+      "concept": {
+        "name": "EIF3I",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "35baf5b4a76bcfc16c68c0867e4b58c1"
+    },
+    {
+      "bel": "p(HGNC:ESR1)",
+      "concept": {
+        "name": "ESR1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "30158ec4eafb0c91727802594c6c9228"
+    },
+    {
+      "bel": "p(HGNC:HNRNPA1)",
+      "concept": {
+        "name": "HNRNPA1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "60009566345550adaab6e69c9601a232"
+    },
+    {
+      "bel": "p(HGNC:IKBKB)",
+      "concept": {
+        "name": "IKBKB",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "5dc945f5997da1736276b351fed21de6"
+    },
+    {
+      "bel": "p(HGNC:JUN)",
+      "concept": {
+        "name": "JUN",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "0f80512a01fa9da3da3e442cd3289fc7"
+    },
+    {
+      "bel": "p(HGNC:NCL)",
+      "concept": {
+        "name": "NCL",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "723415a1f4f2850715f6f62702c2457f"
+    },
+    {
+      "bel": "p(HGNC:NPM1)",
+      "concept": {
+        "name": "NPM1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "0d089cc708b9ad47066d4ef325832135"
+    },
+    {
+      "bel": "p(HGNC:NR3C2)",
+      "concept": {
+        "name": "NR3C2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "83322786f25f54ece4c939f41a669c7a"
+    },
+    {
+      "bel": "p(HGNC:PABPC1)",
+      "concept": {
+        "name": "PABPC1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "310e799d1381e4759d74992a3e1dd5b3"
+    },
+    {
+      "bel": "p(HGNC:RPL19)",
+      "concept": {
+        "name": "RPL19",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "71698e7a8f43dd73a1c94655d16b4e4d"
+    },
+    {
+      "bel": "p(HGNC:SLC10A1)",
+      "concept": {
+        "name": "SLC10A1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "a027d01014ed7f55da871e210c7832d3"
+    },
+    {
+      "bel": "p(HGNC:TOP2A)",
+      "concept": {
+        "name": "TOP2A",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "90faefb7096815a367c14760ecb223b3"
+    },
+    {
+      "bel": "p(HGNC:TOP2B)",
+      "concept": {
+        "name": "TOP2B",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "2a79d91c8b15d758e5a4407f25552c45"
+    },
+    {
+      "bel": "p(HGNC:XPO1)",
+      "concept": {
+        "name": "XPO1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "60fc9a874097f8db48b093db9a4e50f2"
+    },
+    {
+      "bel": "p(UNIPROT:P0C6X7)",
+      "concept": {
+        "name": "P0C6X7",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "642e0c1bd950ab883768d3f457508c4e"
+    },
+    {
+      "bel": "p(UNIPROT:P59632)",
+      "concept": {
+        "name": "P59632",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "3f9bf94203188b4bd8e831d4e61cb9cc"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"inflammatory bowel disease\")",
+      "concept": {
+        "name": "inflammatory bowel disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "5897623e1665824e65f2f9abe92aed17"
+    },
+    {
+      "bel": "path(DO:influenza)",
+      "concept": {
+        "name": "influenza",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "ed15bfb63a176a38b4cce77ca70dab7a"
+    },
+    {
+      "bel": "path(DO:measles)",
+      "concept": {
+        "name": "measles",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "23194afc4c51de485f9495d25c382f7d"
+    },
+    {
+      "bel": "path(MESH:\"Epstein-Barr Virus Infections\")",
+      "concept": {
+        "name": "Epstein-Barr Virus Infections",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "152f451c5e17ac13db8d9a8224992412"
+    },
+    {
+      "bel": "path(MESH:Inflammation)",
+      "concept": {
+        "name": "Inflammation",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "10cd96fd4056a5e6c27264e0130e89f9"
+    }
+  ]
+}

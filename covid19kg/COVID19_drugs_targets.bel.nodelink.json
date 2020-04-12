@@ -1,0 +1,2171 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "bio2bel": [
+        "drugbank"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {},
+    "document_metadata": {
+      "authors": "Reagon Karki",
+      "contact": "reagon.karki@scai.fraunhofer.de",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "DrugBank data",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "DrugBank",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "DRUGBANK": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns"
+    },
+    "path": "COVID19_drugs_targets.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huupponen R",
+          "Kallio J",
+          "Pesonen U",
+          "Pyykkö K",
+          "Scheinin M",
+          "Somer M"
+        ],
+        "date": "2000-06-01",
+        "db": "PubMed",
+        "db_id": "10848718",
+        "db_name": "British journal of clinical pharmacology",
+        "first": "Somer M",
+        "last": "Scheinin M",
+        "pages": "549-54",
+        "volume": "49"
+      },
+      "evidence": "From DrugBank",
+      "key": "ce21ba9039e4268a41e93996055924dc",
+      "line": 76,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 2,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chorny A",
+          "Gamberale R",
+          "Geffner J",
+          "Raiden S",
+          "Salamone G",
+          "Schettini J",
+          "Trevani AS",
+          "Vermeulen M"
+        ],
+        "date": "2003-11-01",
+        "db": "PubMed",
+        "db_id": "14579285",
+        "db_name": "European journal of immunology",
+        "first": "Trevani AS",
+        "last": "Geffner J",
+        "pages": "3164-74",
+        "volume": "33"
+      },
+      "evidence": "From DrugBank",
+      "key": "9b2b428721ffd766c94dc269d482ee75",
+      "line": 163,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 2,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Karlsson L",
+          "Rao NL",
+          "Sun S",
+          "Thurmond R",
+          "Venable J"
+        ],
+        "date": "2007-12-01",
+        "db": "PubMed",
+        "db_id": "18220957",
+        "db_name": "Inflammation &amp; allergy drug targets",
+        "first": "Sun S",
+        "last": "Karlsson L",
+        "pages": "223-35",
+        "volume": "6"
+      },
+      "evidence": "From DrugBank",
+      "key": "c2062e58a8010cc4f68a6b1345ee1c5b",
+      "line": 415,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 2,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chorny A",
+          "Gamberale R",
+          "Geffner J",
+          "Raiden S",
+          "Salamone G",
+          "Schettini J",
+          "Trevani AS",
+          "Vermeulen M"
+        ],
+        "date": "2003-11-01",
+        "db": "PubMed",
+        "db_id": "14579285",
+        "db_name": "European journal of immunology",
+        "first": "Trevani AS",
+        "last": "Geffner J",
+        "pages": "3164-74",
+        "volume": "33"
+      },
+      "evidence": "From DrugBank",
+      "key": "af338fd98bc3c982242f23a18e72e297",
+      "line": 166,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 2,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Karlsson L",
+          "Rao NL",
+          "Sun S",
+          "Thurmond R",
+          "Venable J"
+        ],
+        "date": "2007-12-01",
+        "db": "PubMed",
+        "db_id": "18220957",
+        "db_name": "Inflammation &amp; allergy drug targets",
+        "first": "Sun S",
+        "last": "Karlsson L",
+        "pages": "223-35",
+        "volume": "6"
+      },
+      "evidence": "From DrugBank",
+      "key": "a6f35f47dcebcebfd1899d2f7cd82189",
+      "line": 418,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 2,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Batty KT",
+          "Crowe A",
+          "Davis TM",
+          "Ilett KF",
+          "Karunajeewa HA"
+        ],
+        "date": "2006-10-01",
+        "db": "PubMed",
+        "db_id": "16917012",
+        "db_name": "Antimicrobial agents and chemotherapy",
+        "first": "Crowe A",
+        "last": "Davis TM",
+        "pages": "3504-6",
+        "volume": "50"
+      },
+      "evidence": "From DrugBank",
+      "key": "241ddc212e4133290233fde7978ac191",
+      "line": 334,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bae KS",
+          "Cho JY",
+          "Choi JS",
+          "Im JS",
+          "Jang IJ",
+          "Kim TS",
+          "Klein TA",
+          "Lim HS",
+          "Park JW",
+          "Yeom JS"
+        ],
+        "date": "2009-04-01",
+        "db": "PubMed",
+        "db_id": "19188392",
+        "db_name": "Antimicrobial agents and chemotherapy",
+        "first": "Lim HS",
+        "last": "Park JW",
+        "pages": "1468-75",
+        "volume": "53"
+      },
+      "evidence": "From DrugBank",
+      "key": "fdff427bfdf8fba2f20c6d7ec3e067d0",
+      "line": 429,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Collins KP",
+          "Gustafson DL",
+          "Jackson KM"
+        ],
+        "date": "2018-06-01",
+        "db": "PubMed",
+        "db_id": "29438998",
+        "db_name": "The Journal of pharmacology and experimental therapeutics",
+        "first": "Collins KP",
+        "last": "Gustafson DL",
+        "pages": "447-459",
+        "volume": "365"
+      },
+      "evidence": "From DrugBank",
+      "key": "f3c41964d0efcc2e1e08c943a2f06757",
+      "line": 542,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan T",
+          "Gillies MC",
+          "Lu X",
+          "Madigan MC",
+          "Shen W",
+          "Xu C",
+          "Zhou F",
+          "Zhu L"
+        ],
+        "date": "2016-02-01",
+        "db": "PubMed",
+        "db_id": "26429523",
+        "db_name": "Journal of pharmaceutical sciences",
+        "first": "Xu C",
+        "last": "Zhou F",
+        "pages": "884-890",
+        "volume": "105"
+      },
+      "evidence": "From DrugBank",
+      "key": "88c7b083ffa9dd566846b0fd47565149",
+      "line": 520,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 2,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Furst DE"
+        ],
+        "date": "1996-06-01",
+        "db": "PubMed",
+        "db_id": "8803904",
+        "db_name": "Lupus",
+        "first": "Furst DE",
+        "last": "Furst DE",
+        "pages": "S11-5",
+        "volume": "5 Suppl 1"
+      },
+      "evidence": "From DrugBank",
+      "key": "0aedb205481adc37d8a0136979b3001b",
+      "line": 553,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Lennard MS",
+          "Sijumbil G",
+          "Simooya OO",
+          "Tucker GT"
+        ],
+        "date": "1998-03-01",
+        "db": "PubMed",
+        "db_id": "10896408",
+        "db_name": "British journal of clinical pharmacology",
+        "first": "Simooya OO",
+        "last": "Tucker GT",
+        "pages": "315-7",
+        "volume": "45"
+      },
+      "evidence": "From DrugBank",
+      "key": "d48f4430d964ab6057ba706f56d97e72",
+      "line": 87,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baune B",
+          "Beaune P",
+          "Ducharme J",
+          "Farinotti R",
+          "Flinois JP",
+          "Projean D",
+          "Taburet AM"
+        ],
+        "date": "2003-06-01",
+        "db": "PubMed",
+        "db_id": "12756207",
+        "db_name": "Drug metabolism and disposition: the biological fate of chemicals",
+        "first": "Projean D",
+        "last": "Ducharme J",
+        "pages": "748-54",
+        "volume": "31"
+      },
+      "evidence": "From DrugBank",
+      "key": "e3313824fc02550bbefbe86f331f1c41",
+      "line": 112,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Adedoyin A",
+          "Branch RA",
+          "Frye RF",
+          "Mauro K"
+        ],
+        "date": "1998-09-01",
+        "db": "PubMed",
+        "db_id": "9764961",
+        "db_name": "British journal of clinical pharmacology",
+        "first": "Adedoyin A",
+        "last": "Branch RA",
+        "pages": "215-9",
+        "volume": "46"
+      },
+      "evidence": "From DrugBank",
+      "key": "61a955b48faf8122bb5cbd34e2d4dc07",
+      "line": 564,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen X",
+          "Chen YZ",
+          "Ji ZL"
+        ],
+        "date": "2002-01-01",
+        "db": "PubMed",
+        "db_id": "11752352",
+        "db_name": "Nucleic acids research",
+        "first": "Chen X",
+        "last": "Chen YZ",
+        "pages": "412-5",
+        "volume": "30"
+      },
+      "evidence": "From DrugBank",
+      "key": "8bd2aec89d0eff2319c402266a08fdf5",
+      "line": 101,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baune B",
+          "Beaune P",
+          "Ducharme J",
+          "Farinotti R",
+          "Flinois JP",
+          "Projean D",
+          "Taburet AM"
+        ],
+        "date": "2003-06-01",
+        "db": "PubMed",
+        "db_id": "12756207",
+        "db_name": "Drug metabolism and disposition: the biological fate of chemicals",
+        "first": "Projean D",
+        "last": "Ducharme J",
+        "pages": "748-54",
+        "volume": "31"
+      },
+      "evidence": "From DrugBank",
+      "key": "09d4155d7985effcb319a148fe3754bf",
+      "line": 115,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Andersson TB",
+          "Björkman A",
+          "Gustafsson LL",
+          "Li XQ",
+          "Masimirembwa CM"
+        ],
+        "date": "2003-09-01",
+        "db": "PubMed",
+        "db_id": "12920490",
+        "db_name": "European journal of clinical pharmacology",
+        "first": "Li XQ",
+        "last": "Masimirembwa CM",
+        "pages": "429-42",
+        "volume": "59"
+      },
+      "evidence": "From DrugBank",
+      "key": "ad85c53c5535c6c5174c85456eb3a7d1",
+      "line": 132,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kim KA",
+          "Lee JS",
+          "Lim S",
+          "Park JY"
+        ],
+        "date": "2003-08-01",
+        "db": "PubMed",
+        "db_id": "12967198",
+        "db_name": "Archives of pharmacal research",
+        "first": "Kim KA",
+        "last": "Lim S",
+        "pages": "631-7",
+        "volume": "26"
+      },
+      "evidence": "From DrugBank",
+      "key": "3b43d1d59c772f98f2bdc0b85ef78b9e",
+      "line": 146,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baune B",
+          "Beaune P",
+          "Ducharme J",
+          "Farinotti R",
+          "Flinois JP",
+          "Projean D",
+          "Taburet AM"
+        ],
+        "date": "2003-06-01",
+        "db": "PubMed",
+        "db_id": "12756207",
+        "db_name": "Drug metabolism and disposition: the biological fate of chemicals",
+        "first": "Projean D",
+        "last": "Ducharme J",
+        "pages": "748-54",
+        "volume": "31"
+      },
+      "evidence": "From DrugBank",
+      "key": "2ee234a1524632e3e85fc2d90a104181",
+      "line": 118,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baune B",
+          "Beaune P",
+          "Ducharme J",
+          "Farinotti R",
+          "Flinois JP",
+          "Projean D",
+          "Taburet AM"
+        ],
+        "date": "2003-06-01",
+        "db": "PubMed",
+        "db_id": "12756207",
+        "db_name": "Drug metabolism and disposition: the biological fate of chemicals",
+        "first": "Projean D",
+        "last": "Ducharme J",
+        "pages": "748-54",
+        "volume": "31"
+      },
+      "evidence": "From DrugBank",
+      "key": "a0d13b110731ca526f198e727f852127",
+      "line": 121,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Andersson TB",
+          "Björkman A",
+          "Gustafsson LL",
+          "Li XQ",
+          "Masimirembwa CM"
+        ],
+        "date": "2003-09-01",
+        "db": "PubMed",
+        "db_id": "12920490",
+        "db_name": "European journal of clinical pharmacology",
+        "first": "Li XQ",
+        "last": "Masimirembwa CM",
+        "pages": "429-42",
+        "volume": "59"
+      },
+      "evidence": "From DrugBank",
+      "key": "0240718f6267b1b038ebe3c76d6556be",
+      "line": 135,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kim KA",
+          "Lee JS",
+          "Lim S",
+          "Park JY"
+        ],
+        "date": "2003-08-01",
+        "db": "PubMed",
+        "db_id": "12967198",
+        "db_name": "Archives of pharmacal research",
+        "first": "Kim KA",
+        "last": "Lim S",
+        "pages": "631-7",
+        "volume": "26"
+      },
+      "evidence": "From DrugBank",
+      "key": "be31fac468f3ff86321d213c77be7891",
+      "line": 149,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kim KA",
+          "Lee JS",
+          "Lim S",
+          "Park JY"
+        ],
+        "date": "2003-08-01",
+        "db": "PubMed",
+        "db_id": "12967198",
+        "db_name": "Archives of pharmacal research",
+        "first": "Kim KA",
+        "last": "Lim S",
+        "pages": "631-7",
+        "volume": "26"
+      },
+      "evidence": "From DrugBank",
+      "key": "a174c6efeec86b91e0f25451ff257257",
+      "line": 152,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chung YJ",
+          "Han K",
+          "Ju JH",
+          "Jung SH",
+          "Kwok SK",
+          "Lee JY",
+          "Park KS",
+          "Park SH",
+          "Park SW",
+          "Vinayagamoorthy N"
+        ],
+        "date": "2016-01-01",
+        "db": "PubMed",
+        "db_id": "26316040",
+        "db_name": "Arthritis &amp; rheumatology (Hoboken, N.J.)",
+        "first": "Lee JY",
+        "last": "Park SH",
+        "pages": "184-90",
+        "volume": "68"
+      },
+      "evidence": "From DrugBank",
+      "key": "e83876a36e8e2186050b072a91d87488",
+      "line": 509,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chorny A",
+          "Gamberale R",
+          "Geffner J",
+          "Raiden S",
+          "Salamone G",
+          "Schettini J",
+          "Trevani AS",
+          "Vermeulen M"
+        ],
+        "date": "2003-11-01",
+        "db": "PubMed",
+        "db_id": "14579285",
+        "db_name": "European journal of immunology",
+        "first": "Trevani AS",
+        "last": "Geffner J",
+        "pages": "3164-74",
+        "volume": "33"
+      },
+      "evidence": "From DrugBank",
+      "key": "8e7d6356e0ccd9cf271c69fd678e9a8d",
+      "line": 169,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bauer S",
+          "Gellert T",
+          "Lipford GB",
+          "Luppa P",
+          "Metzger J",
+          "Rutz M",
+          "Wagner H"
+        ],
+        "date": "2004-09-01",
+        "db": "PubMed",
+        "db_id": "15307186",
+        "db_name": "European journal of immunology",
+        "first": "Rutz M",
+        "last": "Bauer S",
+        "pages": "2541-50",
+        "volume": "34"
+      },
+      "evidence": "From DrugBank",
+      "key": "876251f990ede51065adbafd3e79ed0c",
+      "line": 180,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Lenert P"
+        ],
+        "date": "2005-04-01",
+        "db": "PubMed",
+        "db_id": "15762869",
+        "db_name": "Clinical and experimental immunology",
+        "first": "Lenert P",
+        "last": "Lenert P",
+        "pages": "1-10",
+        "volume": "140"
+      },
+      "evidence": "From DrugBank",
+      "key": "335271fd853754842adc5f37c35f80b8",
+      "line": 191,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Akira S",
+          "Aliberti J",
+          "Golding B",
+          "Huang LY",
+          "Ishii KJ"
+        ],
+        "date": "2005-09-15",
+        "db": "PubMed",
+        "db_id": "16148144",
+        "db_name": "Journal of immunology (Baltimore, Md. : 1950)",
+        "first": "Huang LY",
+        "last": "Golding B",
+        "pages": "3964-70",
+        "volume": "175"
+      },
+      "evidence": "From DrugBank",
+      "key": "35fef4feaf20665ed10cb48f16d745f9",
+      "line": 213,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen D",
+          "Gehrs B",
+          "Harris KW",
+          "Ilvesaro JM",
+          "Lehtonen N",
+          "Merrell MA",
+          "Rosenthal E",
+          "Selander KS",
+          "Shackley B",
+          "Sorsa T"
+        ],
+        "date": "2006-07-01",
+        "db": "PubMed",
+        "db_id": "16849519",
+        "db_name": "Molecular cancer research : MCR",
+        "first": "Merrell MA",
+        "last": "Selander KS",
+        "pages": "437-47",
+        "volume": "4"
+      },
+      "evidence": "From DrugBank",
+      "key": "950791a2f8bb877129d2ac8c46cc2bfa",
+      "line": 301,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Byun MS",
+          "Choi JH",
+          "Jang CH",
+          "Jue DM"
+        ],
+        "date": "2006-06-01",
+        "db": "PubMed",
+        "db_id": "16418198",
+        "db_name": "Rheumatology (Oxford, England)",
+        "first": "Jang CH",
+        "last": "Jue DM",
+        "pages": "703-10",
+        "volume": "45"
+      },
+      "evidence": "From DrugBank",
+      "key": "33dee162a855f36d52865bfcc9cf99d4",
+      "line": 246,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Karmeli F",
+          "Lee J",
+          "Rachmilewitz D",
+          "Raz E",
+          "Shteingart S",
+          "Takabayashi K"
+        ],
+        "date": "2006-05-01",
+        "db": "PubMed",
+        "db_id": "16670522",
+        "db_name": "Inflammatory bowel diseases",
+        "first": "Rachmilewitz D",
+        "last": "Raz E",
+        "pages": "339-45",
+        "volume": "12"
+      },
+      "evidence": "From DrugBank",
+      "key": "ebbd73bd9426875b256da49c6e6d30e2",
+      "line": 279,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Lesiak A",
+          "McCauliffe DP",
+          "Narbutt J",
+          "Sysa-Jedrzejowska A",
+          "Wozniacka A"
+        ],
+        "date": "2006-01-01",
+        "db": "PubMed",
+        "db_id": "16761500",
+        "db_name": "Lupus",
+        "first": "Wozniacka A",
+        "last": "Sysa-Jedrzejowska A",
+        "pages": "268-75",
+        "volume": "15"
+      },
+      "evidence": "From DrugBank",
+      "key": "52bf711dd3cddf2ac8992aa326100a38",
+      "line": 290,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bae YS",
+          "Baek SH",
+          "Chin BR",
+          "Kim JR",
+          "Lee CH",
+          "Lee JG",
+          "Lee SH",
+          "Lim EJ"
+        ],
+        "date": "2006-08-07",
+        "db": "PubMed",
+        "db_id": "16870179",
+        "db_name": "FEBS letters",
+        "first": "Lim EJ",
+        "last": "Baek SH",
+        "pages": "4533-8",
+        "volume": "580"
+      },
+      "evidence": "From DrugBank",
+      "key": "b4dd6c984481542d4ffeeaa52b9abf3a",
+      "line": 312,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bordon AP",
+          "Calvi SA",
+          "Dias-Melicio LA",
+          "Golim MA",
+          "Peraçoli MT",
+          "Soares AM"
+        ],
+        "date": "2007-06-01",
+        "db": "PubMed",
+        "db_id": "17456179",
+        "db_name": "FEMS immunology and medical microbiology",
+        "first": "Dias-Melicio LA",
+        "last": "Soares AM",
+        "pages": "133-43",
+        "volume": "50"
+      },
+      "evidence": "From DrugBank",
+      "key": "9f5f4015633c5cf06ed04fadcf934971",
+      "line": 393,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Batty KT",
+          "Crowe A",
+          "Davis TM",
+          "Ilett KF",
+          "Karunajeewa HA"
+        ],
+        "date": "2006-10-01",
+        "db": "PubMed",
+        "db_id": "16917012",
+        "db_name": "Antimicrobial agents and chemotherapy",
+        "first": "Crowe A",
+        "last": "Davis TM",
+        "pages": "3504-6",
+        "volume": "50"
+      },
+      "evidence": "From DrugBank",
+      "key": "86fc0876229ace82a6c956d87d639342",
+      "line": 337,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 0,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen X",
+          "Chen YZ",
+          "Ji ZL"
+        ],
+        "date": "2002-01-01",
+        "db": "PubMed",
+        "db_id": "11752352",
+        "db_name": "Nucleic acids research",
+        "first": "Chen X",
+        "last": "Chen YZ",
+        "pages": "412-5",
+        "volume": "30"
+      },
+      "evidence": "From DrugBank",
+      "key": "0a64d42d475ae3750a06ebd219a574b2",
+      "line": 98,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 3,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Alam J",
+          "Cheung RC",
+          "Ette E",
+          "Gordon SC",
+          "McHutchison JG",
+          "McNair L",
+          "Moseley S",
+          "Pottage JC Jr",
+          "Shiffman ML",
+          "Wright TL"
+        ],
+        "date": "2005-01-01",
+        "db": "PubMed",
+        "db_id": "16152757",
+        "db_name": "Antiviral therapy",
+        "first": "McHutchison JG",
+        "last": "Alam J",
+        "pages": "635-43",
+        "volume": "10"
+      },
+      "evidence": "From DrugBank",
+      "key": "238401cb970668df97584e6b41d69f0a",
+      "line": 224,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 3,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gish RG"
+        ],
+        "date": "2006-01-01",
+        "db": "PubMed",
+        "db_id": "16293677",
+        "db_name": "The Journal of antimicrobial chemotherapy",
+        "first": "Gish RG",
+        "last": "Gish RG",
+        "pages": "8-13",
+        "volume": "57"
+      },
+      "evidence": "From DrugBank",
+      "key": "0b74964e51ba35c6f487bdc3b1c5d23e",
+      "line": 235,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 3,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "De Clercq E",
+          "Leyssen P",
+          "Neyts J"
+        ],
+        "date": "2006-04-01",
+        "db": "PubMed",
+        "db_id": "16421290",
+        "db_name": "Molecular pharmacology",
+        "first": "Leyssen P",
+        "last": "Neyts J",
+        "pages": "1461-7",
+        "volume": "69"
+      },
+      "evidence": "From DrugBank",
+      "key": "e7a1ea2500948e6b98eed036fd541d76",
+      "line": 257,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 3,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Hong Z",
+          "Larson G",
+          "Shim JH",
+          "Walker H",
+          "Wu JZ"
+        ],
+        "date": "2005-06-01",
+        "db": "PubMed",
+        "db_id": "15917509",
+        "db_name": "Antimicrobial agents and chemotherapy",
+        "first": "Wu JZ",
+        "last": "Hong Z",
+        "pages": "2164-71",
+        "volume": "49"
+      },
+      "evidence": "From DrugBank",
+      "key": "50b0fa2aa1f5c7de094f56cbfb0a419a",
+      "line": 202,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 3,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Arterburn JB",
+          "Chung K",
+          "Jeselnik M",
+          "Jonsson CB",
+          "Kumarapperuma SC",
+          "Parker WB",
+          "Sun Y"
+        ],
+        "date": "2007-06-01",
+        "db": "PubMed",
+        "db_id": "17379518",
+        "db_name": "Bioorganic &amp; medicinal chemistry letters",
+        "first": "Kumarapperuma SC",
+        "last": "Arterburn JB",
+        "pages": "3203-7",
+        "volume": "17"
+      },
+      "evidence": "From DrugBank",
+      "key": "4fdf25e456200299b539dbb467fb958b",
+      "line": 382,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 3,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Imming P",
+          "Meyer A",
+          "Sinning C"
+        ],
+        "date": "2006-10-01",
+        "db": "PubMed",
+        "db_id": "17016423",
+        "db_name": "Nature reviews. Drug discovery",
+        "first": "Imming P",
+        "last": "Meyer A",
+        "pages": "821-34",
+        "volume": "5"
+      },
+      "evidence": "From DrugBank",
+      "key": "86200dea56ba751ad437fcee39fcd2ed",
+      "line": 348,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 3,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Al-Lazikani B",
+          "Hopkins AL",
+          "Overington JP"
+        ],
+        "date": "2006-12-01",
+        "db": "PubMed",
+        "db_id": "17139284",
+        "db_name": "Nature reviews. Drug discovery",
+        "first": "Overington JP",
+        "last": "Hopkins AL",
+        "pages": "993-6",
+        "volume": "5"
+      },
+      "evidence": "From DrugBank",
+      "key": "3d46babd450d628d3896970992ff4eac",
+      "line": 365,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 3,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Imming P",
+          "Meyer A",
+          "Sinning C"
+        ],
+        "date": "2006-10-01",
+        "db": "PubMed",
+        "db_id": "17016423",
+        "db_name": "Nature reviews. Drug discovery",
+        "first": "Imming P",
+        "last": "Meyer A",
+        "pages": "821-34",
+        "volume": "5"
+      },
+      "evidence": "From DrugBank",
+      "key": "96396cd491250f98b5a5e35065869c46",
+      "line": 351,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 3,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Al-Lazikani B",
+          "Hopkins AL",
+          "Overington JP"
+        ],
+        "date": "2006-12-01",
+        "db": "PubMed",
+        "db_id": "17139284",
+        "db_name": "Nature reviews. Drug discovery",
+        "first": "Overington JP",
+        "last": "Hopkins AL",
+        "pages": "993-6",
+        "volume": "5"
+      },
+      "evidence": "From DrugBank",
+      "key": "5bb5893260181f9b8663fad9249d1162",
+      "line": 368,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 3,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Imming P",
+          "Meyer A",
+          "Sinning C"
+        ],
+        "date": "2006-10-01",
+        "db": "PubMed",
+        "db_id": "17016423",
+        "db_name": "Nature reviews. Drug discovery",
+        "first": "Imming P",
+        "last": "Meyer A",
+        "pages": "821-34",
+        "volume": "5"
+      },
+      "evidence": "From DrugBank",
+      "key": "e6a562ba3de5582183e4dfc505fce49d",
+      "line": 354,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 3,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Al-Lazikani B",
+          "Hopkins AL",
+          "Overington JP"
+        ],
+        "date": "2006-12-01",
+        "db": "PubMed",
+        "db_id": "17139284",
+        "db_name": "Nature reviews. Drug discovery",
+        "first": "Overington JP",
+        "last": "Hopkins AL",
+        "pages": "993-6",
+        "volume": "5"
+      },
+      "evidence": "From DrugBank",
+      "key": "b679ffb7944a3bd104f53f69390000e2",
+      "line": 371,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 3,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kikukawa T",
+          "Miyauchi S",
+          "Nakagaki T",
+          "Sugawara M",
+          "Takagi S",
+          "Tero A",
+          "Yamaguchi M",
+          "Yamamoto T"
+        ],
+        "date": "2010-03-01",
+        "db": "PubMed",
+        "db_id": "20096989",
+        "db_name": "Biophysical chemistry",
+        "first": "Yamamoto T",
+        "last": "Nakagaki T",
+        "pages": "59-65",
+        "volume": "147"
+      },
+      "evidence": "From DrugBank",
+      "key": "3975ce34eb3c5d418a1f347988381e6b",
+      "line": 473,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 3,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kikukawa T",
+          "Miyauchi S",
+          "Nakagaki T",
+          "Sugawara M",
+          "Takagi S",
+          "Tero A",
+          "Yamaguchi M",
+          "Yamamoto T"
+        ],
+        "date": "2010-03-01",
+        "db": "PubMed",
+        "db_id": "20096989",
+        "db_name": "Biophysical chemistry",
+        "first": "Yamamoto T",
+        "last": "Nakagaki T",
+        "pages": "59-65",
+        "volume": "147"
+      },
+      "evidence": "From DrugBank",
+      "key": "b157ec60611f2778cb3ca9ae7ce5399c",
+      "line": 476,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 3,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chiba K",
+          "Fukuchi Y",
+          "Furihata T",
+          "Hashizume M",
+          "Iikura M"
+        ],
+        "date": "2010-04-01",
+        "db": "PubMed",
+        "db_id": "20185188",
+        "db_name": "Journal of hepatology",
+        "first": "Fukuchi Y",
+        "last": "Chiba K",
+        "pages": "486-92",
+        "volume": "52"
+      },
+      "evidence": "From DrugBank",
+      "key": "b8dbfbb99e98a7bf126e9788b4c427bf",
+      "line": 498,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 3,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Balamurugan K",
+          "Said HM"
+        ],
+        "date": "2006-07-01",
+        "db": "PubMed",
+        "db_id": "16495369",
+        "db_name": "American journal of physiology. Cell physiology",
+        "first": "Balamurugan K",
+        "last": "Said HM",
+        "pages": "C189-93",
+        "volume": "291"
+      },
+      "evidence": "From DrugBank",
+      "key": "d3386f30da785c759d9aa3f60992bc1b",
+      "line": 268,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 5,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Maini RN",
+          "Smolen JS"
+        ],
+        "date": "2006-01-01",
+        "db": "PubMed",
+        "db_id": "16899109",
+        "db_name": "Arthritis research &amp; therapy",
+        "first": "Smolen JS",
+        "last": "Maini RN",
+        "pages": "S5",
+        "volume": "8 Suppl 2"
+      },
+      "evidence": "From DrugBank",
+      "key": "fe177f8423e77bbe2e87f4c984ca4c4d",
+      "line": 323,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 4,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Afshari C",
+          "Cosgrove PA",
+          "Dunn RT 2nd",
+          "Griffith LG",
+          "Hamadeh H",
+          "Long TJ",
+          "McBride H",
+          "Stolz DB"
+        ],
+        "date": "2016-12-01",
+        "db": "PubMed",
+        "db_id": "27621203",
+        "db_name": "Drug metabolism and disposition: the biological fate of chemicals",
+        "first": "Long TJ",
+        "last": "Griffith LG",
+        "pages": "1940-1948",
+        "volume": "44"
+      },
+      "evidence": "From DrugBank",
+      "key": "41d895392549ba5bc1cf91fcc3d39ea5",
+      "line": 531,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Busse KH",
+          "Penzak SR"
+        ],
+        "date": "2007-08-01",
+        "db": "PubMed",
+        "db_id": "17646561",
+        "db_name": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+        "first": "Busse KH",
+        "last": "Penzak SR",
+        "pages": "1593-602",
+        "volume": "64"
+      },
+      "evidence": "From DrugBank",
+      "key": "e5092135d2c4886af81eece53c5f5de0",
+      "line": 404,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Tremblay CL"
+        ],
+        "date": "2008-08-01",
+        "db": "PubMed",
+        "db_id": "19209258",
+        "db_name": "Therapeutics and clinical risk management",
+        "first": "Tremblay CL",
+        "last": "Tremblay CL",
+        "pages": "759-66",
+        "volume": "4"
+      },
+      "evidence": "From DrugBank",
+      "key": "e33c4405362f8f8228bd7613991c58c8",
+      "line": 440,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Keam SJ",
+          "McKeage K",
+          "Perry CM"
+        ],
+        "date": "2009-01-01",
+        "db": "PubMed",
+        "db_id": "19323590",
+        "db_name": "Drugs",
+        "first": "McKeage K",
+        "last": "Keam SJ",
+        "pages": "477-503",
+        "volume": "69"
+      },
+      "evidence": "From DrugBank",
+      "key": "1c9d96ee91a9a319d11cd38e28934ae5",
+      "line": 451,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown KC",
+          "Kashuba AD",
+          "Paul S"
+        ],
+        "date": "2009-01-01",
+        "db": "PubMed",
+        "db_id": "19492868",
+        "db_name": "Clinical pharmacokinetics",
+        "first": "Brown KC",
+        "last": "Kashuba AD",
+        "pages": "211-41",
+        "volume": "48"
+      },
+      "evidence": "From DrugBank",
+      "key": "3a2f591347916c885792f70d2f10c392",
+      "line": 462,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "bio2bel": {
+          "drugbank": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Annaert P",
+          "Augustijns P",
+          "Stieger B",
+          "Ye ZW"
+        ],
+        "date": "2010-03-01",
+        "db": "PubMed",
+        "db_id": "20102298",
+        "db_name": "Xenobiotica; the fate of foreign compounds in biological systems",
+        "first": "Annaert P",
+        "last": "Augustijns P",
+        "pages": "163-76",
+        "volume": "40"
+      },
+      "evidence": "From DrugBank",
+      "key": "8922989974384e6b3428fa96b7dc34d4",
+      "line": 487,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "regulates",
+      "source": 1,
+      "target": 27
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:chloroquine)",
+      "concept": {
+        "name": "chloroquine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "c368fe204031ce23a04cc402914492f6"
+    },
+    {
+      "bel": "a(CHEBI:darunavir)",
+      "concept": {
+        "name": "darunavir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "3e5b5fd80ab9fe8d31884863982f53e2"
+    },
+    {
+      "bel": "a(CHEBI:hydroxychloroquine)",
+      "concept": {
+        "name": "hydroxychloroquine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "ab32f892e51f67346bd0d43fae8ab4e9"
+    },
+    {
+      "bel": "a(CHEBI:ribavirin)",
+      "concept": {
+        "name": "ribavirin",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "c126fb0a90c3749d6b1418b349632dcb"
+    },
+    {
+      "bel": "a(CHEBI:tocilizumab)",
+      "concept": {
+        "name": "tocilizumab",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "090a136d01cd46d3c69c7c2bc77613eb"
+    },
+    {
+      "bel": "a(DRUGBANK:DB00507)",
+      "concept": {
+        "name": "DB00507",
+        "namespace": "DRUGBANK"
+      },
+      "function": "Abundance",
+      "id": "32463b722f0eeca628e31b24fcf7acd5"
+    },
+    {
+      "bel": "p(UNIPROT:P01375)",
+      "concept": {
+        "name": "P01375",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "2a79f3f80970ef5e73416c03feb95fab"
+    },
+    {
+      "bel": "p(UNIPROT:P02768)",
+      "concept": {
+        "name": "P02768",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "8d33a59c2274ff9d8096a9605d7cc580"
+    },
+    {
+      "bel": "p(UNIPROT:P04798)",
+      "concept": {
+        "name": "P04798",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "e390c4e37190174827411baff5c5ddb8"
+    },
+    {
+      "bel": "p(UNIPROT:P08183)",
+      "concept": {
+        "name": "P08183",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "358aabc31f370e88979bb31b861361c5"
+    },
+    {
+      "bel": "p(UNIPROT:P08684)",
+      "concept": {
+        "name": "P08684",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "0d1794e5bba84132f4139f22e082e8a0"
+    },
+    {
+      "bel": "p(UNIPROT:P08887)",
+      "concept": {
+        "name": "P08887",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "d75fa25b94bac9cf654c07ff98158bfb"
+    },
+    {
+      "bel": "p(UNIPROT:P09210)",
+      "concept": {
+        "name": "P09210",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "c0ebb2afb077da0f0a13a673cfedcf61"
+    },
+    {
+      "bel": "p(UNIPROT:P10632)",
+      "concept": {
+        "name": "P10632",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "b0a084f6617b25bbd24c504339edd072"
+    },
+    {
+      "bel": "p(UNIPROT:P10635)",
+      "concept": {
+        "name": "P10635",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "32ec49bc7ee17726d44728b24f5f07e5"
+    },
+    {
+      "bel": "p(UNIPROT:P12268)",
+      "concept": {
+        "name": "P12268",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "316d88138f95e0e85a22a99a82fbe024"
+    },
+    {
+      "bel": "p(UNIPROT:P20815)",
+      "concept": {
+        "name": "P20815",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "09523b4a6ebbae9641ae47e3b4f2b0b7"
+    },
+    {
+      "bel": "p(UNIPROT:P20839)",
+      "concept": {
+        "name": "P20839",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "a0036aaab0a2903e393ef667f8823fab"
+    },
+    {
+      "bel": "p(UNIPROT:P22413)",
+      "concept": {
+        "name": "P22413",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "0680b7422feacf00e201542d4968c67e"
+    },
+    {
+      "bel": "p(UNIPROT:P41440)",
+      "concept": {
+        "name": "P41440",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "4dc76704fd675e21bf297573fcffcd71"
+    },
+    {
+      "bel": "p(UNIPROT:P46721)",
+      "concept": {
+        "name": "P46721",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "5cd6d025760412ea673c9f57dd2ee5f7"
+    },
+    {
+      "bel": "p(UNIPROT:P49902)",
+      "concept": {
+        "name": "P49902",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "95b4e5c6dccf23a2e2b701887b205e37"
+    },
+    {
+      "bel": "p(UNIPROT:P55263)",
+      "concept": {
+        "name": "P55263",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "94e6fed73783d53a5f9b67d6f2b6d244"
+    },
+    {
+      "bel": "p(UNIPROT:Q99808)",
+      "concept": {
+        "name": "Q99808",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "2d8ea0178704a77248091cc048f2e4c5"
+    },
+    {
+      "bel": "p(UNIPROT:Q9HAS3)",
+      "concept": {
+        "name": "Q9HAS3",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "82ee233370e708a498d10127b875a2d8"
+    },
+    {
+      "bel": "p(UNIPROT:Q9NR96)",
+      "concept": {
+        "name": "Q9NR96",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "f8d7b3176800fd645866f9bb4d61a6b4"
+    },
+    {
+      "bel": "p(UNIPROT:Q9NYK1)",
+      "concept": {
+        "name": "Q9NYK1",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "c9d6cd6f9fe4c447dfad73ab00fc4ac8"
+    },
+    {
+      "bel": "p(UNIPROT:Q9Y6L6)",
+      "concept": {
+        "name": "Q9Y6L6",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "fee89aa21c06a57ff0025ef7aa9a0e78"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "21356245.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Custom_CellLine AS LIST {"RD cell"}
+DEFINE ANNOTATION Timeline AS LIST {"3 day"}
+DEFINE ANNOTATION concentration AS LIST {"8µM"}
+DEFINE ANNOTATION CellLine_Infection_Type AS LIST {"Human coronavirus OC43"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Discussion", "Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","21356245"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "Three days post infection, the typical cytopathic effect(CPE) was \
+observed under a light microscope; the virus-induced CPE was obviously \
+reduce in the presence of 8M emodin (Fig. 5A)."
+
+SET Custom_CellLine = "RD cell"
+SET Timeline = "3 day"
+SET concentration = "8µM"
+SET CellLine_Infection_Type = "Human coronavirus OC43"
+a(CHEBI:emodin) -| path(MESH:"Cytopathogenic Effect, Viral")
+
+SET Evidence = "In addition, the plaque reduction assay showed that emodin decreased \
+the number and size of plaques in a dose-dependentmanner; plaques were \
+hardly detectable at 8M(Fig. 5B)."
+
+a(CHEBI:emodin) -| a(TAX:"Human coronavirus OC43")
+UNSET CellLine_Infection_Type
+UNSET concentration
+UNSET Timeline
+UNSET Custom_CellLine
+
+SET Section = "Discussion"
+SET Evidence = "Therefore, we suggest that emodin may contribute to reduced virus \
+release from the SARS-CoV-infected cell through inhibition of the \
+current medi-ated by 3a protein."
+
+p(UNIPROT:J9TEM7) -- a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+a(CHEBI:emodin) -| act(p(UNIPROT:J9TEM7))
+act(p(UNIPROT:J9TEM7)) -> bp(GO:"viral release from host cell")
+UNSET Section
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Citation

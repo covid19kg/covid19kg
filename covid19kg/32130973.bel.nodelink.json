@@ -1,0 +1,2800 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {},
+    "annotation_pattern": {},
+    "annotation_url": {
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Geena Mariya Jose",
+      "contact": "geena.mariya.jose@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "PMID_32130973",
+      "version": "2.1.0"
+    },
+    "namespace_pattern": {
+      "NCBIGENE": ".*",
+      "PUBCHEM": "^\\d+$"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32130973.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "This virus, named “Severe Acute Respiratory Syndrome-related Coronavirus 2” (SARS-CoV-2), can cause a severe and even fatal respiratory disease, called Coronavirus disease-19 (COVID-19), and lead to acute respiratory distress syndrome (ARDS).",
+      "key": "48f9775850ac0f801c1a0e1e97c02cc9",
+      "line": 41,
+      "relation": "increases",
+      "source": 10,
+      "target": 53
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "The SARS-CoV-2 genome has now been sequenced: its close similarity to SARS suggests that it has emerged from the same reservoir, namely bats (Zhou et al., 2020).",
+      "key": "1f4da857340c0a120553977793f3b923",
+      "line": 45,
+      "relation": "association",
+      "source": 10,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "The SARS-CoV-2 spike protein (S) is the main molecule present at the surface of the virion.",
+      "key": "2b70222a0daa754e1fc7f1b53fbe891e",
+      "line": 48,
+      "relation": "association",
+      "source": 10,
+      "target": 48
+    },
+    {
+      "key": "9b5e6ebdb508b622c266b4b986bd47ee",
+      "relation": "partOf",
+      "source": 10,
+      "target": 37
+    },
+    {
+      "key": "48f24c815fe340c9e65eb698323b39c5",
+      "relation": "partOf",
+      "source": 10,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "This virus, named “Severe Acute Respiratory Syndrome-related Coronavirus 2” (SARS-CoV-2), can cause a severe and even fatal respiratory disease, called Coronavirus disease-19 (COVID-19), and lead to acute respiratory distress syndrome (ARDS).",
+      "key": "c9001c21baa21da7cbaf0b5db2b69475",
+      "line": 42,
+      "relation": "association",
+      "source": 53,
+      "target": 55
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "This virus, named “Severe Acute Respiratory Syndrome-related Coronavirus 2” (SARS-CoV-2), can cause a severe and even fatal respiratory disease, called Coronavirus disease-19 (COVID-19), and lead to acute respiratory distress syndrome (ARDS).",
+      "key": "e1b04c6dbe031776db6e2cd7a02b1819",
+      "line": 42,
+      "relation": "association",
+      "source": 55,
+      "target": 53
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "The SARS-CoV-2 genome has now been sequenced: its close similarity to SARS suggests that it has emerged from the same reservoir, namely bats (Zhou et al., 2020).",
+      "key": "8d93e489ce5201c2ea8d3d6ecbd042f4",
+      "line": 45,
+      "relation": "association",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "The SARS-CoV-2 spike protein (S) is the main molecule present at the surface of the virion.",
+      "key": "310a8200fafe65209c9a2089e986ea51",
+      "line": 48,
+      "relation": "association",
+      "source": 48,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "The spike protein is a multifunctional protein that contributes to host receptor binding, cell tropism and pathogenesis.",
+      "key": "5c68fd82e83e9926967337d7a6f4f4eb",
+      "line": 51,
+      "relation": "association",
+      "source": 48,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "The spike protein is a multifunctional protein that contributes to host receptor binding, cell tropism and pathogenesis.",
+      "key": "c57c8f649648fe50d092dd6e3530b25b",
+      "line": 52,
+      "relation": "association",
+      "source": 48,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "The spike protein is a multifunctional protein that contributes to host receptor binding, cell tropism and pathogenesis.",
+      "key": "7e0ff5768e5aff53b090cf52f2926da7",
+      "line": 53,
+      "relation": "association",
+      "source": 48,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "We suggest that SARS-CoV-2 may also use integrins as cell receptors in one or more host species, binding to them through a conserved RGD (403–405: Arg-Gly-Asp) motif that is present in the receptor- binding domain of the spike proteins of all SARS-CoV-2 sequences analyzed to date (Fig. 2).",
+      "key": "a44133daf0679c30c283b418ea965130",
+      "line": 65,
+      "relation": "association",
+      "source": 48,
+      "target": 52
+    },
+    {
+      "key": "cc2d182e46a7afcbe8de0b32b4f87ed1",
+      "relation": "partOf",
+      "source": 48,
+      "target": 46
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "The spike protein is a multifunctional protein that contributes to host receptor binding, cell tropism and pathogenesis.",
+      "key": "faf2548dc76e0f750764c4a647caa909",
+      "line": 51,
+      "relation": "association",
+      "source": 20,
+      "target": 48
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "It acts by binding host receptors on target cells, inducing endocytosis of virion particle, and then catalyzes the fusion between host and viral membranes, allowing penetration of the virus genome into host cytoplasm.",
+      "key": "8a282440c03eda85863145a68c5ba6a6",
+      "line": 56,
+      "relation": "increases",
+      "source": 20,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "It acts by binding host receptors on target cells, inducing endocytosis of virion particle, and then catalyzes the fusion between host and viral membranes, allowing penetration of the virus genome into host cytoplasm.",
+      "key": "9a27cb33b16ca215497be07e67db0302",
+      "line": 57,
+      "relation": "increases",
+      "source": 20,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "The spike protein is a multifunctional protein that contributes to host receptor binding, cell tropism and pathogenesis.",
+      "key": "6fea6c4e1b0f6a1fc0e9f3ead187a237",
+      "line": 52,
+      "relation": "association",
+      "source": 24,
+      "target": 48
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "The spike protein is a multifunctional protein that contributes to host receptor binding, cell tropism and pathogenesis.",
+      "key": "d0b666c1a54af56d42cd53dfb013a968",
+      "line": 53,
+      "relation": "association",
+      "source": 23,
+      "target": 48
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "It acts by binding host receptors on target cells, inducing endocytosis of virion particle, and then catalyzes the fusion between host and viral membranes, allowing penetration of the virus genome into host cytoplasm.",
+      "key": "c424bf64fcb157e79d77bc4235b2d95b",
+      "line": 58,
+      "relation": "increases",
+      "source": 18,
+      "target": 22
+    },
+    {
+      "key": "52cb6d8fcf894bbfe8497cecebc5b0d1",
+      "relation": "partOf",
+      "source": 49,
+      "target": 37
+    },
+    {
+      "key": "1db03b2523b3b2cd2b465edf9382bc2a",
+      "relation": "partOf",
+      "source": 49,
+      "target": 46
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "RGD motif integrin-binding is essential for human metapneumovirus (HMPV) (Chang et al., 2012; Wei et al., 2014), human Adenovirus type 2/5 (Wickham et al., 1994), human cytomegalovirus (HHV-5) (Feire et al., 2004), Kaposi's sarcoma-associated virus (HHV-8) (Hussein et al., 2015), Epstein-Barr virus (HHV-4) (Xiao et al., 2008, p. 2), Rotavirus (RV) (Zárate et al., 2004), and Coxsackievirus A9 (Williams et al., 2004).",
+      "key": "b4037689ffa01e630194ee326cc664ea",
+      "line": 68,
+      "relation": "association",
+      "source": 36,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "RGD motif integrin-binding is essential for human metapneumovirus (HMPV) (Chang et al., 2012; Wei et al., 2014), human Adenovirus type 2/5 (Wickham et al., 1994), human cytomegalovirus (HHV-5) (Feire et al., 2004), Kaposi's sarcoma-associated virus (HHV-8) (Hussein et al., 2015), Epstein-Barr virus (HHV-4) (Xiao et al., 2008, p. 2), Rotavirus (RV) (Zárate et al., 2004), and Coxsackievirus A9 (Williams et al., 2004).",
+      "key": "40142f285a5fa8b5a02b4131200c07b1",
+      "line": 69,
+      "relation": "association",
+      "source": 36,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "RGD motif integrin-binding is essential for human metapneumovirus (HMPV) (Chang et al., 2012; Wei et al., 2014), human Adenovirus type 2/5 (Wickham et al., 1994), human cytomegalovirus (HHV-5) (Feire et al., 2004), Kaposi's sarcoma-associated virus (HHV-8) (Hussein et al., 2015), Epstein-Barr virus (HHV-4) (Xiao et al., 2008, p. 2), Rotavirus (RV) (Zárate et al., 2004), and Coxsackievirus A9 (Williams et al., 2004).",
+      "key": "4f64e4ee0372cd87453095853a960445",
+      "line": 70,
+      "relation": "association",
+      "source": 36,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "RGD motif integrin-binding is essential for human metapneumovirus (HMPV) (Chang et al., 2012; Wei et al., 2014), human Adenovirus type 2/5 (Wickham et al., 1994), human cytomegalovirus (HHV-5) (Feire et al., 2004), Kaposi's sarcoma-associated virus (HHV-8) (Hussein et al., 2015), Epstein-Barr virus (HHV-4) (Xiao et al., 2008, p. 2), Rotavirus (RV) (Zárate et al., 2004), and Coxsackievirus A9 (Williams et al., 2004).",
+      "key": "9e95b4bee04213b6712f9d2e5466bc4d",
+      "line": 71,
+      "relation": "association",
+      "source": 36,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "RGD motif integrin-binding is essential for human metapneumovirus (HMPV) (Chang et al., 2012; Wei et al., 2014), human Adenovirus type 2/5 (Wickham et al., 1994), human cytomegalovirus (HHV-5) (Feire et al., 2004), Kaposi's sarcoma-associated virus (HHV-8) (Hussein et al., 2015), Epstein-Barr virus (HHV-4) (Xiao et al., 2008, p. 2), Rotavirus (RV) (Zárate et al., 2004), and Coxsackievirus A9 (Williams et al., 2004).",
+      "key": "22d651770bf01809024f6a50cfb44f2a",
+      "line": 72,
+      "relation": "association",
+      "source": 36,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "RGD motif integrin-binding is essential for human metapneumovirus (HMPV) (Chang et al., 2012; Wei et al., 2014), human Adenovirus type 2/5 (Wickham et al., 1994), human cytomegalovirus (HHV-5) (Feire et al., 2004), Kaposi's sarcoma-associated virus (HHV-8) (Hussein et al., 2015), Epstein-Barr virus (HHV-4) (Xiao et al., 2008, p. 2), Rotavirus (RV) (Zárate et al., 2004), and Coxsackievirus A9 (Williams et al., 2004).",
+      "key": "59ae6e1e41c8af940a40b17e061dd2b5",
+      "line": 73,
+      "relation": "association",
+      "source": 36,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "RGD motif integrin-binding is essential for human metapneumovirus (HMPV) (Chang et al., 2012; Wei et al., 2014), human Adenovirus type 2/5 (Wickham et al., 1994), human cytomegalovirus (HHV-5) (Feire et al., 2004), Kaposi's sarcoma-associated virus (HHV-8) (Hussein et al., 2015), Epstein-Barr virus (HHV-4) (Xiao et al., 2008, p. 2), Rotavirus (RV) (Zárate et al., 2004), and Coxsackievirus A9 (Williams et al., 2004).",
+      "key": "86a5a8aa5ebcfa3735d3ab6814c7855d",
+      "line": 74,
+      "relation": "association",
+      "source": 36,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "RGD motif integrin-binding is essential for human metapneumovirus (HMPV) (Chang et al., 2012; Wei et al., 2014), human Adenovirus type 2/5 (Wickham et al., 1994), human cytomegalovirus (HHV-5) (Feire et al., 2004), Kaposi's sarcoma-associated virus (HHV-8) (Hussein et al., 2015), Epstein-Barr virus (HHV-4) (Xiao et al., 2008, p. 2), Rotavirus (RV) (Zárate et al., 2004), and Coxsackievirus A9 (Williams et al., 2004).",
+      "key": "f2691363b459865d5b7f9581db028db6",
+      "line": 75,
+      "relation": "association",
+      "source": 36,
+      "target": 3
+    },
+    {
+      "key": "6de7c52c72b42d4ab0251a514aedb848",
+      "relation": "partOf",
+      "source": 1,
+      "target": 36
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Integrins are heterodimeric cell surface receptors that play roles in cell adhesion, cell migration, and cell signaling processes (Hynes, 2002).",
+      "key": "0b59e6f1698411fafc5813b39f782764",
+      "line": 81,
+      "relation": "increases",
+      "source": 1,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Integrins are heterodimeric cell surface receptors that play roles in cell adhesion, cell migration, and cell signaling processes (Hynes, 2002).",
+      "key": "c787ebec564ec290f7e002dde972fd45",
+      "line": 82,
+      "relation": "increases",
+      "source": 1,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Integrins are heterodimeric cell surface receptors that play roles in cell adhesion, cell migration, and cell signaling processes (Hynes, 2002).",
+      "key": "32090f45e17b023e5f3a81f654d4b893",
+      "line": 83,
+      "relation": "increases",
+      "source": 1,
+      "target": 16
+    },
+    {
+      "key": "4a184a9e96d7833ce631d99fba2884ea",
+      "relation": "partOf",
+      "source": 1,
+      "target": 35
+    },
+    {
+      "key": "edd8ab67aa06f8d4c4ad60b8bf496504",
+      "relation": "partOf",
+      "source": 52,
+      "target": 36
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "We suggest that SARS-CoV-2 may also use integrins as cell receptors in one or more host species, binding to them through a conserved RGD (403–405: Arg-Gly-Asp) motif that is present in the receptor- binding domain of the spike proteins of all SARS-CoV-2 sequences analyzed to date (Fig. 2).",
+      "key": "55739923052c5dfc262035ecdba6026a",
+      "line": 65,
+      "relation": "association",
+      "source": 52,
+      "target": 48
+    },
+    {
+      "key": "d808f71690db84ea00c5412093a0ab5e",
+      "relation": "partOf",
+      "source": 52,
+      "target": 41
+    },
+    {
+      "key": "99d700736836cb67e983e999a2f6601d",
+      "relation": "partOf",
+      "source": 52,
+      "target": 42
+    },
+    {
+      "key": "89107a468310cd5c006c2b9c7b2f1ceb",
+      "relation": "partOf",
+      "source": 52,
+      "target": 43
+    },
+    {
+      "key": "efcf1d9f6f16f431b029a805c9c8805d",
+      "relation": "partOf",
+      "source": 52,
+      "target": 44
+    },
+    {
+      "key": "ea1110f0d8e887ece51a2d74fc672431",
+      "relation": "partOf",
+      "source": 52,
+      "target": 45
+    },
+    {
+      "key": "5a736d51280dbba0278221eace9dc317",
+      "relation": "partOf",
+      "source": 52,
+      "target": 38
+    },
+    {
+      "key": "edb84e9dcb58da41c025f0a856491101",
+      "relation": "partOf",
+      "source": 52,
+      "target": 39
+    },
+    {
+      "key": "66cb90bbbd096f2bd3c673ee453db06a",
+      "relation": "partOf",
+      "source": 52,
+      "target": 40
+    },
+    {
+      "key": "be139dd1f9bdc63c4be8b3fbd339aed7",
+      "relation": "partOf",
+      "source": 52,
+      "target": 47
+    },
+    {
+      "key": "2f938d93ecb6d0805d9ae2281198ce30",
+      "relation": "hasVariant",
+      "source": 51,
+      "target": 52
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "RGD motif integrin-binding is essential for human metapneumovirus (HMPV) (Chang et al., 2012; Wei et al., 2014), human Adenovirus type 2/5 (Wickham et al., 1994), human cytomegalovirus (HHV-5) (Feire et al., 2004), Kaposi's sarcoma-associated virus (HHV-8) (Hussein et al., 2015), Epstein-Barr virus (HHV-4) (Xiao et al., 2008, p. 2), Rotavirus (RV) (Zárate et al., 2004), and Coxsackievirus A9 (Williams et al., 2004).",
+      "key": "6305996b37bc5e72c36a37127d41b86d",
+      "line": 68,
+      "relation": "association",
+      "source": 9,
+      "target": 36
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "RGD motif integrin-binding is essential for human metapneumovirus (HMPV) (Chang et al., 2012; Wei et al., 2014), human Adenovirus type 2/5 (Wickham et al., 1994), human cytomegalovirus (HHV-5) (Feire et al., 2004), Kaposi's sarcoma-associated virus (HHV-8) (Hussein et al., 2015), Epstein-Barr virus (HHV-4) (Xiao et al., 2008, p. 2), Rotavirus (RV) (Zárate et al., 2004), and Coxsackievirus A9 (Williams et al., 2004).",
+      "key": "d153ca51207c74edef9938bbc286cf6d",
+      "line": 69,
+      "relation": "association",
+      "source": 4,
+      "target": 36
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "RGD motif integrin-binding is essential for human metapneumovirus (HMPV) (Chang et al., 2012; Wei et al., 2014), human Adenovirus type 2/5 (Wickham et al., 1994), human cytomegalovirus (HHV-5) (Feire et al., 2004), Kaposi's sarcoma-associated virus (HHV-8) (Hussein et al., 2015), Epstein-Barr virus (HHV-4) (Xiao et al., 2008, p. 2), Rotavirus (RV) (Zárate et al., 2004), and Coxsackievirus A9 (Williams et al., 2004).",
+      "key": "c2ae5f2b052e6f0ba0761ef151ddf297",
+      "line": 70,
+      "relation": "association",
+      "source": 5,
+      "target": 36
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "RGD motif integrin-binding is essential for human metapneumovirus (HMPV) (Chang et al., 2012; Wei et al., 2014), human Adenovirus type 2/5 (Wickham et al., 1994), human cytomegalovirus (HHV-5) (Feire et al., 2004), Kaposi's sarcoma-associated virus (HHV-8) (Hussein et al., 2015), Epstein-Barr virus (HHV-4) (Xiao et al., 2008, p. 2), Rotavirus (RV) (Zárate et al., 2004), and Coxsackievirus A9 (Williams et al., 2004).",
+      "key": "4b5612fb9a6d05c793d3531560c1e246",
+      "line": 71,
+      "relation": "association",
+      "source": 6,
+      "target": 36
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "RGD motif integrin-binding is essential for human metapneumovirus (HMPV) (Chang et al., 2012; Wei et al., 2014), human Adenovirus type 2/5 (Wickham et al., 1994), human cytomegalovirus (HHV-5) (Feire et al., 2004), Kaposi's sarcoma-associated virus (HHV-8) (Hussein et al., 2015), Epstein-Barr virus (HHV-4) (Xiao et al., 2008, p. 2), Rotavirus (RV) (Zárate et al., 2004), and Coxsackievirus A9 (Williams et al., 2004).",
+      "key": "da4aae4056e0dd8e2a320aa1bb225e9c",
+      "line": 72,
+      "relation": "association",
+      "source": 8,
+      "target": 36
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "RGD motif integrin-binding is essential for human metapneumovirus (HMPV) (Chang et al., 2012; Wei et al., 2014), human Adenovirus type 2/5 (Wickham et al., 1994), human cytomegalovirus (HHV-5) (Feire et al., 2004), Kaposi's sarcoma-associated virus (HHV-8) (Hussein et al., 2015), Epstein-Barr virus (HHV-4) (Xiao et al., 2008, p. 2), Rotavirus (RV) (Zárate et al., 2004), and Coxsackievirus A9 (Williams et al., 2004).",
+      "key": "44a94864ca1f13de17432f6887b8c7a6",
+      "line": 73,
+      "relation": "association",
+      "source": 7,
+      "target": 36
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "RGD motif integrin-binding is essential for human metapneumovirus (HMPV) (Chang et al., 2012; Wei et al., 2014), human Adenovirus type 2/5 (Wickham et al., 1994), human cytomegalovirus (HHV-5) (Feire et al., 2004), Kaposi's sarcoma-associated virus (HHV-8) (Hussein et al., 2015), Epstein-Barr virus (HHV-4) (Xiao et al., 2008, p. 2), Rotavirus (RV) (Zárate et al., 2004), and Coxsackievirus A9 (Williams et al., 2004).",
+      "key": "c0d085f311c9b350cde82ae3f8b28f53",
+      "line": 74,
+      "relation": "association",
+      "source": 12,
+      "target": 36
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "RGD motif integrin-binding is essential for human metapneumovirus (HMPV) (Chang et al., 2012; Wei et al., 2014), human Adenovirus type 2/5 (Wickham et al., 1994), human cytomegalovirus (HHV-5) (Feire et al., 2004), Kaposi's sarcoma-associated virus (HHV-8) (Hussein et al., 2015), Epstein-Barr virus (HHV-4) (Xiao et al., 2008, p. 2), Rotavirus (RV) (Zárate et al., 2004), and Coxsackievirus A9 (Williams et al., 2004).",
+      "key": "e50030d8c4817bc4678e72a4a2258461",
+      "line": 75,
+      "relation": "association",
+      "source": 3,
+      "target": 36
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell.",
+      "key": "0986a663e3a637dede383658fa8c39c3",
+      "line": 86,
+      "relation": "increases",
+      "source": 41,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell.",
+      "key": "4e5b5d91e57c4c9c7b1f552c82caae91",
+      "line": 96,
+      "relation": "increases",
+      "source": 41,
+      "target": 13
+    },
+    {
+      "key": "8d4e2f56930d714bea698c156b0fa4ae",
+      "relation": "partOf",
+      "source": 30,
+      "target": 41
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell.",
+      "key": "b988d7a6eac582976c3ad3e3e1fa4a54",
+      "line": 94,
+      "relation": "increases",
+      "source": 19,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell.",
+      "key": "7ee19a628874badf3c305ffac590a552",
+      "line": 87,
+      "relation": "increases",
+      "source": 42,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell.",
+      "key": "a53af9af4289738be315b2ec7a32fb53",
+      "line": 97,
+      "relation": "increases",
+      "source": 42,
+      "target": 13
+    },
+    {
+      "key": "7e942c1115fa5d9430158d04f2227ce2",
+      "relation": "partOf",
+      "source": 31,
+      "target": 42
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell.",
+      "key": "92b3be0dfb298405127b4722dd477cf9",
+      "line": 88,
+      "relation": "increases",
+      "source": 43,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell.",
+      "key": "e9894cb45130705ee2c63f3bd70896be",
+      "line": 98,
+      "relation": "increases",
+      "source": 43,
+      "target": 13
+    },
+    {
+      "key": "e62f9be01a7870efa15f0103a1f2ad81",
+      "relation": "partOf",
+      "source": 32,
+      "target": 43
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell.",
+      "key": "804624f3572cf4bf23f95105cbeaaf37",
+      "line": 89,
+      "relation": "increases",
+      "source": 44,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell.",
+      "key": "90a44e4d9da8179a43b7dea086e2fd1c",
+      "line": 99,
+      "relation": "increases",
+      "source": 44,
+      "target": 13
+    },
+    {
+      "key": "c9e3fa1d43ce1dee1ed31738885ffa63",
+      "relation": "partOf",
+      "source": 33,
+      "target": 44
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell.",
+      "key": "a7cf95935e6201031a310ad4cf6e4ab6",
+      "line": 90,
+      "relation": "increases",
+      "source": 45,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell.",
+      "key": "34e8ec910788f32f445f71cadbdce63d",
+      "line": 100,
+      "relation": "increases",
+      "source": 45,
+      "target": 13
+    },
+    {
+      "key": "f55a01ad8ceeeb77bf74e7c1e4ef3ad9",
+      "relation": "partOf",
+      "source": 34,
+      "target": 45
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell.",
+      "key": "c51fe1889d50705b173f843a42a3c160",
+      "line": 91,
+      "relation": "increases",
+      "source": 38,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell.",
+      "key": "2f1f8e69eea3a6f1ffa0b2a6f2791176",
+      "line": 101,
+      "relation": "increases",
+      "source": 38,
+      "target": 13
+    },
+    {
+      "key": "6bdbfb3f3b6d20fda9365a764f14924e",
+      "relation": "partOf",
+      "source": 27,
+      "target": 38
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell.",
+      "key": "a2b72a54964eac4b9647eca0ddf0b0b7",
+      "line": 92,
+      "relation": "increases",
+      "source": 39,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell.",
+      "key": "e11828817afcf2a0af9f8f7ad83376f7",
+      "line": 102,
+      "relation": "increases",
+      "source": 39,
+      "target": 13
+    },
+    {
+      "key": "63efe3d69014e4558d09baf92eac993c",
+      "relation": "partOf",
+      "source": 28,
+      "target": 39
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell.",
+      "key": "c1d1df4ad88f098bb2e44262e4b853ea",
+      "line": 93,
+      "relation": "increases",
+      "source": 40,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell.",
+      "key": "8f0826569d41eef977690ddab1bd4441",
+      "line": 103,
+      "relation": "increases",
+      "source": 40,
+      "target": 13
+    },
+    {
+      "key": "6df0a2d442c330cd9cd94002b6818b49",
+      "relation": "partOf",
+      "source": 29,
+      "target": 40
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Viral proteins with RGD motifs promote infection by binding integrin heterodimers such as αVβ1, αVβ3, αVβ5, αVβ6, αVβ8, α5β1, α8β1 and αIIbβ3 (Hussein et al., 2015), activating transducing pathways involving phosphatidylinositol-3 kinase (PI–3K) or mitogen-activate protein kinase (MAPK), which promote virus entry and infection of the host cell.",
+      "key": "989a8f93905c403558e5a29ffae374c1",
+      "line": 104,
+      "relation": "increases",
+      "source": 13,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Given these apparent similarities, it is plausible that SARS-CoV-2 acquired integrin-binding to promote virus entry into host cells, but experimental proof of this is required.",
+      "key": "35e2e014355b27706b1af082f321dc85",
+      "line": 107,
+      "relation": "increases",
+      "source": 35,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Binding to integrin may play a supplemental role to ACE2 binding, like facilitating endocytosis by signaling through the integrin.",
+      "key": "5140c7ce02d7d8e40d310ace6e805daf",
+      "line": 110,
+      "relation": "increases",
+      "source": 35,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Known blockers of integrin binding include the antibody natalizumab (a α4β1/β7 integrin antagonist) for the treatment of multiple sclerosis/Crohn's disease, the small molecule tirofiban (an αIIbβ3 inhibitor) for the treatment of acute coronary syndrome, as well as inhibitors of αV RGD-binding integrin (Hatley et al., 2018).",
+      "key": "89004c03e8fa074dfcec416823544b33",
+      "line": 113,
+      "relation": "decreases",
+      "source": 2,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Known blockers of integrin binding include the antibody natalizumab (a α4β1/β7 integrin antagonist) for the treatment of multiple sclerosis/Crohn's disease, the small molecule tirofiban (an αIIbβ3 inhibitor) for the treatment of acute coronary syndrome, as well as inhibitors of αV RGD-binding integrin (Hatley et al., 2018).",
+      "key": "7beb75079d728d2d732ab6c2d03762bc",
+      "line": 114,
+      "relation": "decreases",
+      "source": 2,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Known blockers of integrin binding include the antibody natalizumab (a α4β1/β7 integrin antagonist) for the treatment of multiple sclerosis/Crohn's disease, the small molecule tirofiban (an αIIbβ3 inhibitor) for the treatment of acute coronary syndrome, as well as inhibitors of αV RGD-binding integrin (Hatley et al., 2018).",
+      "key": "8080699c22bb93eb2ac6ebdb6dc63902",
+      "line": 115,
+      "relation": "decreases",
+      "source": 2,
+      "target": 56
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Known blockers of integrin binding include the antibody natalizumab (a α4β1/β7 integrin antagonist) for the treatment of multiple sclerosis/Crohn's disease, the small molecule tirofiban (an αIIbβ3 inhibitor) for the treatment of acute coronary syndrome, as well as inhibitors of αV RGD-binding integrin (Hatley et al., 2018).",
+      "key": "089abe7791faf7b2692c63c0394565ae",
+      "line": 116,
+      "relation": "decreases",
+      "source": 2,
+      "target": 54
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Known blockers of integrin binding include the antibody natalizumab (a α4β1/β7 integrin antagonist) for the treatment of multiple sclerosis/Crohn's disease, the small molecule tirofiban (an αIIbβ3 inhibitor) for the treatment of acute coronary syndrome, as well as inhibitors of αV RGD-binding integrin (Hatley et al., 2018).",
+      "key": "ceb6e9c894ddad61e019e8426dad67e6",
+      "line": 117,
+      "relation": "decreases",
+      "source": 0,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Known blockers of integrin binding include the antibody natalizumab (a α4β1/β7 integrin antagonist) for the treatment of multiple sclerosis/Crohn's disease, the small molecule tirofiban (an αIIbβ3 inhibitor) for the treatment of acute coronary syndrome, as well as inhibitors of αV RGD-binding integrin (Hatley et al., 2018).",
+      "key": "b3529b46c8406b2a3246d1f69321ede8",
+      "line": 118,
+      "relation": "decreases",
+      "source": 0,
+      "target": 47
+    },
+    {
+      "annotations": {
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bridge A",
+          "Le Mercier P",
+          "Sigrist CJ"
+        ],
+        "date": "2020-03-01",
+        "db": "PubMed",
+        "db_id": "32130973",
+        "db_name": "Antiviral research",
+        "first": "Sigrist CJ",
+        "last": "Le Mercier P",
+        "pages": "104759",
+        "volume": "177"
+      },
+      "evidence": "Known blockers of integrin binding include the antibody natalizumab (a α4β1/β7 integrin antagonist) for the treatment of multiple sclerosis/Crohn's disease, the small molecule tirofiban (an αIIbβ3 inhibitor) for the treatment of acute coronary syndrome, as well as inhibitors of αV RGD-binding integrin (Hatley et al., 2018).",
+      "key": "69343004757e3d6cf7075c3bb5a6b693",
+      "line": 119,
+      "relation": "decreases",
+      "source": 0,
+      "target": 57
+    },
+    {
+      "key": "a5b68bd95aa3a10ab31adfce90b1a591",
+      "relation": "partOf",
+      "source": 50,
+      "target": 47
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:tirofiban)",
+      "concept": {
+        "name": "tirofiban",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "1e77b3e8792bcac6da5c6e34b2923d35"
+    },
+    {
+      "bel": "a(MESH:Integrins)",
+      "concept": {
+        "name": "Integrins",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "e7cf7fbe17796a1907da2a3b59d94542"
+    },
+    {
+      "bel": "a(PUBCHEM:135314782)",
+      "concept": {
+        "name": "135314782",
+        "namespace": "PUBCHEM"
+      },
+      "function": "Abundance",
+      "id": "e6cb2faf400c0ee34f5d8166513bf9de"
+    },
+    {
+      "bel": "a(TAX:\"Coxsackievirus A9\")",
+      "concept": {
+        "name": "Coxsackievirus A9",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "609ecba73939d8b11b5478a19dd65c55"
+    },
+    {
+      "bel": "a(TAX:\"Human adenovirus 2\")",
+      "concept": {
+        "name": "Human adenovirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "a75214086170d24b4c0ec132ec89bf09"
+    },
+    {
+      "bel": "a(TAX:\"Human adenovirus 5\")",
+      "concept": {
+        "name": "Human adenovirus 5",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "7e299e8887e6641a7079cf7d74bf9940"
+    },
+    {
+      "bel": "a(TAX:\"Human betaherpesvirus 5\")",
+      "concept": {
+        "name": "Human betaherpesvirus 5",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "66b0dc3483ae6653ed0c4f98abcd20ce"
+    },
+    {
+      "bel": "a(TAX:\"Human gammaherpesvirus 4\")",
+      "concept": {
+        "name": "Human gammaherpesvirus 4",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "8b67715b08e3ac073a4f19bbef05f250"
+    },
+    {
+      "bel": "a(TAX:\"Human herpesvirus 8 strain rKSHV.219\")",
+      "concept": {
+        "name": "Human herpesvirus 8 strain rKSHV.219",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "b1686e22dfc218805e344badbebeb603"
+    },
+    {
+      "bel": "a(TAX:\"Human metapneumovirus\")",
+      "concept": {
+        "name": "Human metapneumovirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "fa0413d4468ba83a3c7120f635e2a770"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "a(TAX:Chiroptera)",
+      "concept": {
+        "name": "Chiroptera",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "fd4ba2a916b61eef15ea0b741bee393f"
+    },
+    {
+      "bel": "a(TAX:Rotavirus)",
+      "concept": {
+        "name": "Rotavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "73f48d732d227b0d7337a5d634d359ef"
+    },
+    {
+      "bel": "bp(GO:\"MAPK cascade\")",
+      "concept": {
+        "name": "MAPK cascade",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "9e09b35ef96c17663f90e4cf6660c167"
+    },
+    {
+      "bel": "bp(GO:\"cell adhesion\")",
+      "concept": {
+        "name": "cell adhesion",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "7050160a6d266de8f08277aff897540e"
+    },
+    {
+      "bel": "bp(GO:\"cell migration\")",
+      "concept": {
+        "name": "cell migration",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "26a5af4491116059185aaf203742481a"
+    },
+    {
+      "bel": "bp(GO:\"cell-cell signaling\")",
+      "concept": {
+        "name": "cell-cell signaling",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "25dce5143616ca283a66da3348e60b9b"
+    },
+    {
+      "bel": "bp(GO:\"endocytosis involved in viral entry into host cell\")",
+      "concept": {
+        "name": "endocytosis involved in viral entry into host cell",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "0b4d3cc249737f760ca61810a0503974"
+    },
+    {
+      "bel": "bp(GO:\"fusion of virus membrane with host outer membrane\")",
+      "concept": {
+        "name": "fusion of virus membrane with host outer membrane",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "9eb05d236f9a02f669c746b0a5a2e758"
+    },
+    {
+      "bel": "bp(GO:\"phosphatidylinositol 3-kinase signaling\")",
+      "concept": {
+        "name": "phosphatidylinositol 3-kinase signaling",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "661f0e9ccd515304a220a0b576d0b9fb"
+    },
+    {
+      "bel": "bp(GO:\"receptor-mediated virion attachment to host cell\")",
+      "concept": {
+        "name": "receptor-mediated virion attachment to host cell",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "c22b1dd2a523a60d7f61f4c933c1b15f"
+    },
+    {
+      "bel": "bp(GO:\"viral entry into host cell\")",
+      "concept": {
+        "name": "viral entry into host cell",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "2a6e5ae8582e2cded25095e14c2ee329"
+    },
+    {
+      "bel": "bp(GO:\"viral genome ejection through host cell envelope\")",
+      "concept": {
+        "name": "viral genome ejection through host cell envelope",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "1370c945433b4177e038b22f90e4c78b"
+    },
+    {
+      "bel": "bp(GO:pathogenesis)",
+      "concept": {
+        "name": "pathogenesis",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "13fffc1eff1da79aaf1a185b529f9c1b"
+    },
+    {
+      "bel": "bp(MESH:\"Viral Tropism\")",
+      "concept": {
+        "name": "Viral Tropism",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "ce386cba557b68c37f50cf0fd85ddf6b"
+    },
+    {
+      "bel": "complex(GO:\"integrin alpha4-beta1 complex\")",
+      "concept": {
+        "name": "integrin alpha4-beta1 complex",
+        "namespace": "GO"
+      },
+      "function": "Complex",
+      "id": "e9a1aa44be9a5fd7604b449368729c57"
+    },
+    {
+      "bel": "complex(GO:\"integrin alpha4-beta7 complex\")",
+      "concept": {
+        "name": "integrin alpha4-beta7 complex",
+        "namespace": "GO"
+      },
+      "function": "Complex",
+      "id": "8fb110205caa8044dbddd71c507a28f9"
+    },
+    {
+      "bel": "complex(GO:\"integrin alpha5-beta1 complex\")",
+      "concept": {
+        "name": "integrin alpha5-beta1 complex",
+        "namespace": "GO"
+      },
+      "function": "Complex",
+      "id": "3297a0a1255facd15a223cd0037829ae"
+    },
+    {
+      "bel": "complex(GO:\"integrin alpha8-beta1 complex\")",
+      "concept": {
+        "name": "integrin alpha8-beta1 complex",
+        "namespace": "GO"
+      },
+      "function": "Complex",
+      "id": "d8e6eca70d60518b0b73648eee7d7aa6"
+    },
+    {
+      "bel": "complex(GO:\"integrin alphaIIb-beta3 complex\")",
+      "concept": {
+        "name": "integrin alphaIIb-beta3 complex",
+        "namespace": "GO"
+      },
+      "function": "Complex",
+      "id": "1f598c157a0d24dd83e1b5549c10996d"
+    },
+    {
+      "bel": "complex(GO:\"integrin alphav-beta1 complex\")",
+      "concept": {
+        "name": "integrin alphav-beta1 complex",
+        "namespace": "GO"
+      },
+      "function": "Complex",
+      "id": "00bff8d84f23c3eb6e56ada4710404c2"
+    },
+    {
+      "bel": "complex(GO:\"integrin alphav-beta3 complex\")",
+      "concept": {
+        "name": "integrin alphav-beta3 complex",
+        "namespace": "GO"
+      },
+      "function": "Complex",
+      "id": "2765ba097274e02d6dbd929111ab39b9"
+    },
+    {
+      "bel": "complex(GO:\"integrin alphav-beta5 complex\")",
+      "concept": {
+        "name": "integrin alphav-beta5 complex",
+        "namespace": "GO"
+      },
+      "function": "Complex",
+      "id": "1bb437ae49168e317f58f85997fe8898"
+    },
+    {
+      "bel": "complex(GO:\"integrin alphav-beta6 complex\")",
+      "concept": {
+        "name": "integrin alphav-beta6 complex",
+        "namespace": "GO"
+      },
+      "function": "Complex",
+      "id": "df13eb7e2d4a301bb486810791cb3395"
+    },
+    {
+      "bel": "complex(GO:\"integrin alphav-beta8 complex\")",
+      "concept": {
+        "name": "integrin alphav-beta8 complex",
+        "namespace": "GO"
+      },
+      "function": "Complex",
+      "id": "4b22bd2f4d3d4a558626eb3cb2f88ef4"
+    },
+    {
+      "bel": "complex(a(MESH:Integrins), a(TAX:\"Severe acute respiratory syndrome coronavirus 2\"))",
+      "function": "Complex",
+      "id": "1ac5d25b2dbacd944620b0e7da57017b",
+      "members": [
+        {
+          "bel": "a(MESH:Integrins)",
+          "concept": {
+            "name": "Integrins",
+            "namespace": "MESH"
+          },
+          "function": "Abundance",
+          "id": "e7cf7fbe17796a1907da2a3b59d94542"
+        },
+        {
+          "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+          "concept": {
+            "name": "Severe acute respiratory syndrome coronavirus 2",
+            "namespace": "TAX"
+          },
+          "function": "Abundance",
+          "id": "c41851da59cc36c21b2e8acf24c1f46d"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(MESH:Integrins), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "function": "Complex",
+      "id": "9e189f86dc3f56693263c0eea802d23b",
+      "members": [
+        {
+          "bel": "a(MESH:Integrins)",
+          "concept": {
+            "name": "Integrins",
+            "namespace": "MESH"
+          },
+          "function": "Abundance",
+          "id": "e7cf7fbe17796a1907da2a3b59d94542"
+        },
+        {
+          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "concept": {
+            "name": "43740568",
+            "namespace": "NCBIGENE"
+          },
+          "function": "Protein",
+          "id": "38cf91888883ad98191a2721004b90b5",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 403,
+              "stop": 405
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(TAX:\"Severe acute respiratory syndrome coronavirus 2\"), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "146428e3b0f07633969567cac441971e",
+      "members": [
+        {
+          "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+          "concept": {
+            "name": "Severe acute respiratory syndrome coronavirus 2",
+            "namespace": "TAX"
+          },
+          "function": "Abundance",
+          "id": "c41851da59cc36c21b2e8acf24c1f46d"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "complex(complex(GO:\"integrin alpha5-beta1 complex\"), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "function": "Complex",
+      "id": "5cae30502ccb8cd2dace9d87da96df27",
+      "members": [
+        {
+          "bel": "complex(GO:\"integrin alpha5-beta1 complex\")",
+          "concept": {
+            "name": "integrin alpha5-beta1 complex",
+            "namespace": "GO"
+          },
+          "function": "Complex",
+          "id": "3297a0a1255facd15a223cd0037829ae"
+        },
+        {
+          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "concept": {
+            "name": "43740568",
+            "namespace": "NCBIGENE"
+          },
+          "function": "Protein",
+          "id": "38cf91888883ad98191a2721004b90b5",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 403,
+              "stop": 405
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(complex(GO:\"integrin alpha8-beta1 complex\"), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "function": "Complex",
+      "id": "c7b17242d49b439f4af0656adef999d6",
+      "members": [
+        {
+          "bel": "complex(GO:\"integrin alpha8-beta1 complex\")",
+          "concept": {
+            "name": "integrin alpha8-beta1 complex",
+            "namespace": "GO"
+          },
+          "function": "Complex",
+          "id": "d8e6eca70d60518b0b73648eee7d7aa6"
+        },
+        {
+          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "concept": {
+            "name": "43740568",
+            "namespace": "NCBIGENE"
+          },
+          "function": "Protein",
+          "id": "38cf91888883ad98191a2721004b90b5",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 403,
+              "stop": 405
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(complex(GO:\"integrin alphaIIb-beta3 complex\"), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "function": "Complex",
+      "id": "e36ac59bbc8eaf1d18ecfc7a1affc815",
+      "members": [
+        {
+          "bel": "complex(GO:\"integrin alphaIIb-beta3 complex\")",
+          "concept": {
+            "name": "integrin alphaIIb-beta3 complex",
+            "namespace": "GO"
+          },
+          "function": "Complex",
+          "id": "1f598c157a0d24dd83e1b5549c10996d"
+        },
+        {
+          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "concept": {
+            "name": "43740568",
+            "namespace": "NCBIGENE"
+          },
+          "function": "Protein",
+          "id": "38cf91888883ad98191a2721004b90b5",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 403,
+              "stop": 405
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(complex(GO:\"integrin alphav-beta1 complex\"), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "function": "Complex",
+      "id": "d046d2adfa422fa024d0fb5ad79b96a0",
+      "members": [
+        {
+          "bel": "complex(GO:\"integrin alphav-beta1 complex\")",
+          "concept": {
+            "name": "integrin alphav-beta1 complex",
+            "namespace": "GO"
+          },
+          "function": "Complex",
+          "id": "00bff8d84f23c3eb6e56ada4710404c2"
+        },
+        {
+          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "concept": {
+            "name": "43740568",
+            "namespace": "NCBIGENE"
+          },
+          "function": "Protein",
+          "id": "38cf91888883ad98191a2721004b90b5",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 403,
+              "stop": 405
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(complex(GO:\"integrin alphav-beta3 complex\"), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "function": "Complex",
+      "id": "84464fd953da7695096c51690e33882b",
+      "members": [
+        {
+          "bel": "complex(GO:\"integrin alphav-beta3 complex\")",
+          "concept": {
+            "name": "integrin alphav-beta3 complex",
+            "namespace": "GO"
+          },
+          "function": "Complex",
+          "id": "2765ba097274e02d6dbd929111ab39b9"
+        },
+        {
+          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "concept": {
+            "name": "43740568",
+            "namespace": "NCBIGENE"
+          },
+          "function": "Protein",
+          "id": "38cf91888883ad98191a2721004b90b5",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 403,
+              "stop": 405
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(complex(GO:\"integrin alphav-beta5 complex\"), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "function": "Complex",
+      "id": "445eb6ea90c7fa1cb41dc38f9c09fa8d",
+      "members": [
+        {
+          "bel": "complex(GO:\"integrin alphav-beta5 complex\")",
+          "concept": {
+            "name": "integrin alphav-beta5 complex",
+            "namespace": "GO"
+          },
+          "function": "Complex",
+          "id": "1bb437ae49168e317f58f85997fe8898"
+        },
+        {
+          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "concept": {
+            "name": "43740568",
+            "namespace": "NCBIGENE"
+          },
+          "function": "Protein",
+          "id": "38cf91888883ad98191a2721004b90b5",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 403,
+              "stop": 405
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(complex(GO:\"integrin alphav-beta6 complex\"), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "function": "Complex",
+      "id": "d58b04e5bba158fddf6ce5c0cdc51e46",
+      "members": [
+        {
+          "bel": "complex(GO:\"integrin alphav-beta6 complex\")",
+          "concept": {
+            "name": "integrin alphav-beta6 complex",
+            "namespace": "GO"
+          },
+          "function": "Complex",
+          "id": "df13eb7e2d4a301bb486810791cb3395"
+        },
+        {
+          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "concept": {
+            "name": "43740568",
+            "namespace": "NCBIGENE"
+          },
+          "function": "Protein",
+          "id": "38cf91888883ad98191a2721004b90b5",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 403,
+              "stop": 405
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(complex(GO:\"integrin alphav-beta8 complex\"), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "function": "Complex",
+      "id": "6ac32a67261333849329196477d19ca7",
+      "members": [
+        {
+          "bel": "complex(GO:\"integrin alphav-beta8 complex\")",
+          "concept": {
+            "name": "integrin alphav-beta8 complex",
+            "namespace": "GO"
+          },
+          "function": "Complex",
+          "id": "4b22bd2f4d3d4a558626eb3cb2f88ef4"
+        },
+        {
+          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "concept": {
+            "name": "43740568",
+            "namespace": "NCBIGENE"
+          },
+          "function": "Protein",
+          "id": "38cf91888883ad98191a2721004b90b5",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 403,
+              "stop": 405
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:S), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "6b8514d35b9a04dcfdf30d01d4a3a0a0",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(HGNC:ITGA5), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "function": "Complex",
+      "id": "069e92d10ce921ead67a9815606c1f87",
+      "members": [
+        {
+          "bel": "p(HGNC:ITGA5)",
+          "concept": {
+            "name": "ITGA5",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "800209a9e5d63ef9a0a7d0e178e6b1a3"
+        },
+        {
+          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "concept": {
+            "name": "43740568",
+            "namespace": "NCBIGENE"
+          },
+          "function": "Protein",
+          "id": "38cf91888883ad98191a2721004b90b5",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 403,
+              "stop": 405
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "p(HGNC:ITGA5)",
+      "concept": {
+        "name": "ITGA5",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "800209a9e5d63ef9a0a7d0e178e6b1a3"
+    },
+    {
+      "bel": "p(NCBIGENE:43740568)",
+      "concept": {
+        "name": "43740568",
+        "namespace": "NCBIGENE"
+      },
+      "function": "Protein",
+      "id": "7c0c25d9b85462ae1b80a07e4192e4b9"
+    },
+    {
+      "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+      "concept": {
+        "name": "43740568",
+        "namespace": "NCBIGENE"
+      },
+      "function": "Protein",
+      "id": "38cf91888883ad98191a2721004b90b5",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 403,
+          "stop": 405
+        }
+      ]
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"Crohn's disease\")",
+      "concept": {
+        "name": "Crohn's disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "2b17dfb292b3fb79c093fc0d5b15a48b"
+    },
+    {
+      "bel": "path(DO:\"adult respiratory distress syndrome\")",
+      "concept": {
+        "name": "adult respiratory distress syndrome",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "13c578f210684ad9f22dd027aa28b11a"
+    },
+    {
+      "bel": "path(DO:\"multiple sclerosis\")",
+      "concept": {
+        "name": "multiple sclerosis",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "e34f9ef047fc04be93cd8b77dfa31bf0"
+    },
+    {
+      "bel": "path(MESH:\"Acute Coronary Syndrome\")",
+      "concept": {
+        "name": "Acute Coronary Syndrome",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "9d800d043e5e59b75c6f801a7805c96a"
+    }
+  ]
+}

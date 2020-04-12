@@ -1,0 +1,1129 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Assay": [
+        "Luciferase assay"
+      ],
+      "CellLine_Infection_Type": [
+        "HIV-luc/2019-nCoV-S",
+        "HIV-luc/SARS-CoV-S",
+        "Severe acute respiratory syndrome coronavirus 2"
+      ],
+      "Custom_CellLine": [
+        "HEK293T"
+      ],
+      "PublicationStatus": [
+        "Preprint"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "CellLine": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20170511.belanno",
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Geena Mariya Jose",
+      "contact": "geena.mariya.jose@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "Zhang_et.al_2020.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "NCBIGENE": "^\\d+$"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "GOBP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns",
+      "GOCC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20190128.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "Zhang_et.al_2020.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "After alignment, we found that the cleavage site of cathepsin L is well conserved between the SARS-CoV and 2019-nCoV S protein (Figure 1A), suggesting that cathepsin L could participant in the 2019-nCoV entry and fusion26,31,32.",
+      "key": "9f5bef8594f902fa6a75db98a2a978c4",
+      "line": 98,
+      "relation": "increases",
+      "source": 14,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Luciferase assay": true
+        },
+        "CellLine_Infection_Type": {
+          "HIV-luc/2019-nCoV-S": true,
+          "HIV-luc/SARS-CoV-S": true
+        },
+        "Custom_CellLine": {
+          "HEK293T": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "Accordingly, we infected the cells with SARS-CoV-, or 2019- nCoV -S- pseudotyped HIV-1 viruses after siRNA-mediated knockdown of the expression of cathepsin L and TMPRSS2 and found that both cathepsin L and TMPRSS2 depletion impaired the cell entry of pseudoviruses (Figure 1C), indicating that both cathepsin L and TMPRSS2 are required for 2019- nCoV cell entry.",
+      "key": "e4750e77f36c427f9f841671872a0e90",
+      "line": 106,
+      "relation": "increases",
+      "source": 14,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 4
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "The infection of SARS virus is initiated by the attachment of S protein to the receptor ACE2 [19], followed by cleavage with host cell protease TMPRSS2 [20-22]. The viruses are then transported through the early and late endosomes, subsequently endo/lysosomes, during which host protein extracellular proteases including cathepsin L mediates the further cleavage of S protein in endocytic vesicles [23-26]. The activated S protein will then activate the fusion between viral and cell membranes and release the genome of SARS-CoV into cytoplasm.",
+      "key": "023d3fb8c7178b4e76ef6c8998f53347",
+      "line": 161,
+      "relation": "increases",
+      "source": 14,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 17
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "Accordingly, we infected the cells with SARS-CoV-, or 2019-nCoV-S-pseudotyped HIV-1 viruses after siRNA-mediated knockdown of the expression of cathepsin L and TMPRSS2 and found that both cathepsin L and TMPRSS2 depletion impaired the cell entry of pseudoviruses (Figure 1C), indicating that both cathepsin L and TMPRSS2 are required for 2019-nCoV cell entry.",
+      "key": "9751ce881be575bc3449d68c5c79c630",
+      "line": 169,
+      "relation": "positiveCorrelation",
+      "source": 14,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "After alignment, we found that the cleavage site of cathepsin L is well conserved between the SARS-CoV and 2019-nCoV S protein (Figure 1A), suggesting that cathepsin L could participant in the 2019-nCoV entry and fusion26,31,32.",
+      "key": "f3d4f76aaec18686b63d2f15b61315e9",
+      "line": 99,
+      "relation": "increases",
+      "source": 12,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "After alignment, we found that the cleavage site of cathepsin L is well conserved between the SARS-CoV and 2019-nCoV S protein (Figure 1A), suggesting that cathepsin L could participant in the 2019-nCoV entry and fusion26,31,32.",
+      "key": "7c9e2b9fab8253eb4ddf019a8ff54e65",
+      "line": 100,
+      "relation": "increases",
+      "source": 12,
+      "target": 3
+    },
+    {
+      "key": "2fac24f2b27106d2c0ea816941980bf5",
+      "relation": "hasVariant",
+      "source": 11,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Luciferase assay": true
+        },
+        "CellLine": {
+          "A549 cell": true
+        },
+        "CellLine_Infection_Type": {
+          "HIV-luc/2019-nCoV-S": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "Here, we identified that teicoplanin acted specifically as a 2019-nCoV entry inhibitor in a dose-dependent manner (Figure 2B).",
+      "key": "66a6dc18515f1b5a4a7df31702502ae9",
+      "line": 115,
+      "relation": "association",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Luciferase assay": true
+        },
+        "CellLine": {
+          "Huh7 cell": true
+        },
+        "CellLine_Infection_Type": {
+          "Severe acute respiratory syndrome coronavirus 2": true
+        },
+        "Custom_CellLine": {
+          "HEK293T": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "The data showed that teicoplanin also effectively repressed virus entrance into HEK293T cells (Figure. 3A), and Huh7 cells (Figure 3B).",
+      "key": "123da6464656b606fe38cfd56030ddef",
+      "line": 124,
+      "relation": "association",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Luciferase assay": true
+        },
+        "CellLine_Infection_Type": {
+          "HIV-luc/2019-nCoV-S": true,
+          "HIV-luc/SARS-CoV-S": true
+        },
+        "Custom_CellLine": {
+          "HEK293T": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "Accordingly, we infected the cells with SARS-CoV-, or 2019- nCoV -S- pseudotyped HIV-1 viruses after siRNA-mediated knockdown of the expression of cathepsin L and TMPRSS2 and found that both cathepsin L and TMPRSS2 depletion impaired the cell entry of pseudoviruses (Figure 1C), indicating that both cathepsin L and TMPRSS2 are required for 2019- nCoV cell entry.",
+      "key": "c7ad16bbdb65ae50f2b1861f57d4acb3",
+      "line": 107,
+      "relation": "increases",
+      "source": 15,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 4
+    },
+    {
+      "key": "157d50ff91928274434b00f95b5f4d7a",
+      "relation": "partOf",
+      "source": 15,
+      "target": 10
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "Accordingly, we infected the cells with SARS-CoV-, or 2019-nCoV-S-pseudotyped HIV-1 viruses after siRNA-mediated knockdown of the expression of cathepsin L and TMPRSS2 and found that both cathepsin L and TMPRSS2 depletion impaired the cell entry of pseudoviruses (Figure 1C), indicating that both cathepsin L and TMPRSS2 are required for 2019-nCoV cell entry.",
+      "key": "76bc21360a03f21f1e4858f126631285",
+      "line": 170,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Luciferase assay": true
+        },
+        "CellLine": {
+          "A549 cell": true
+        },
+        "CellLine_Infection_Type": {
+          "HIV-luc/2019-nCoV-S": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "Here, we identified that teicoplanin acted specifically as a 2019-nCoV entry inhibitor in a dose-dependent manner (Figure 2B).",
+      "key": "6894b1b0b19437adb4bc1a4b9532bdaf",
+      "line": 114,
+      "relation": "decreases",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Luciferase assay": true
+        },
+        "CellLine": {
+          "Huh7 cell": true
+        },
+        "CellLine_Infection_Type": {
+          "Severe acute respiratory syndrome coronavirus 2": true
+        },
+        "Custom_CellLine": {
+          "HEK293T": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "The data showed that teicoplanin also effectively repressed virus entrance into HEK293T cells (Figure. 3A), and Huh7 cells (Figure 3B).",
+      "key": "130abbb93d656f6454f28c5e330a49af",
+      "line": 123,
+      "relation": "decreases",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Luciferase assay": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "As we have previously demonstrated that several glycopeptide antibiotics, including teicoplanin and dalbavancin, exhibited specific inhibitory effects on cathepsin L, we therefore hypothesized that teicoplanin and its homologs could also inhibit the entry of 2019-nCoV.",
+      "key": "565bcab21dbf4d1cec27be5248b35094",
+      "line": 132,
+      "relation": "decreases",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Luciferase assay": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "As we have previously demonstrated that several glycopeptide antibiotics, including teicoplanin and dalbavancin, exhibited specific inhibitory effects on cathepsin L, we therefore hypothesized that teicoplanin and its homologs could also inhibit the entry of 2019-nCoV.",
+      "key": "91af489209a091ffb274d518c4eecca3",
+      "line": 130,
+      "relation": "decreases",
+      "source": 1,
+      "target": 14
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "Here, we identified that teicoplanin acted specifically as a 2019-nCoV entry inhibitor in a dose-dependent manner (Figure 2B).",
+      "key": "fd7d5fc3cec9490a3d90645f6ab493eb",
+      "line": 173,
+      "relation": "decreases",
+      "source": 1,
+      "target": 14
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "Here, we identified that teicoplanin acted specifically as a 2019-nCoV entry inhibitor in a dose-dependent manner (Figure 2B).",
+      "key": "0e966974113320639d111417722a5a8e",
+      "line": 174,
+      "relation": "decreases",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "HEK293T": true,
+          "Huh7 cell": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "The data showed that teicoplanin also effectively repressed virus entrance into HEK293T cells (Figure. 3A), and Huh7 cells (Figure 3B).",
+      "key": "4e82f421a7845f09bb31e1669140f5b5",
+      "line": 178,
+      "relation": "decreases",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Luciferase assay": true
+        },
+        "CellLine": {
+          "A549 cell": true
+        },
+        "CellLine_Infection_Type": {
+          "HIV-luc/2019-nCoV-S": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "Here, we identified that teicoplanin acted specifically as a 2019-nCoV entry inhibitor in a dose-dependent manner (Figure 2B).",
+      "key": "11d35b54d1072f40f576a68a7c0f1091",
+      "line": 115,
+      "relation": "association",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Luciferase assay": true
+        },
+        "CellLine": {
+          "Huh7 cell": true
+        },
+        "CellLine_Infection_Type": {
+          "Severe acute respiratory syndrome coronavirus 2": true
+        },
+        "Custom_CellLine": {
+          "HEK293T": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "The data showed that teicoplanin also effectively repressed virus entrance into HEK293T cells (Figure. 3A), and Huh7 cells (Figure 3B).",
+      "key": "110f61b56898d4e1671ed87021e1144c",
+      "line": 124,
+      "relation": "association",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Luciferase assay": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "As we have previously demonstrated that several glycopeptide antibiotics, including teicoplanin and dalbavancin, exhibited specific inhibitory effects on cathepsin L, we therefore hypothesized that teicoplanin and its homologs could also inhibit the entry of 2019-nCoV.",
+      "key": "8215d047054790ef367efb0c4b51fed7",
+      "line": 131,
+      "relation": "decreases",
+      "source": 0,
+      "target": 14
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "The data illustrated that the dalbavancin also repressed the entry of 2019-nCoV in a dose-dependent manner (Figure 3C).",
+      "key": "527a8e2a2b8372e4f9450dd88ae9f977",
+      "line": 182,
+      "relation": "decreases",
+      "source": 0,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Luciferase assay": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "As we have previously demonstrated that several glycopeptide antibiotics, including teicoplanin and dalbavancin, exhibited specific inhibitory effects on cathepsin L, we therefore hypothesized that teicoplanin and its homologs could also inhibit the entry of 2019-nCoV.",
+      "key": "3e279486ebd0b1e20154800d922a4195",
+      "line": 133,
+      "relation": "decreases",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Luciferase assay": true
+        },
+        "CellLine": {
+          "A549 cell": true
+        },
+        "CellLine_Infection_Type": {
+          "Severe acute respiratory syndrome coronavirus 2": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "The data illustrated that the dalbavancin also repressed the entry of 2019-nCoV in a dose-dependent manner (Figure 3C).",
+      "key": "3250fa0d335dec9edf010bafe8c3f7fc",
+      "line": 138,
+      "relation": "decreases",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "The data illustrated that the dalbavancin also repressed the entry of 2019-nCoV in a dose-dependent manner (Figure 3C).",
+      "key": "27c298d2fcce7f67b55f51eacbf43613",
+      "line": 183,
+      "relation": "decreases",
+      "source": 0,
+      "target": 8
+    },
+    {
+      "key": "b6aa833666dc9ba7fbc5c73977298f88",
+      "relation": "partOf",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "The infection of SARS virus is initiated by the attachment of S protein to the receptor ACE2 [19], followed by cleavage with host cell protease TMPRSS2 [20-22]. The viruses are then transported through the early and late endosomes, subsequently endo/lysosomes, during which host protein extracellular proteases including cathepsin L mediates the further cleavage of S protein in endocytic vesicles [23-26]. The activated S protein will then activate the fusion between viral and cell membranes and release the genome of SARS-CoV into cytoplasm.",
+      "key": "9c69e22044b3df313622df872f14791e",
+      "line": 152,
+      "relation": "increases",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "key": "0583d83cba1fb64d83964705a762f8f0",
+      "relation": "partOf",
+      "source": 13,
+      "target": 9
+    },
+    {
+      "key": "55249777ca61c606abf2df7e77d3a87e",
+      "relation": "partOf",
+      "source": 16,
+      "target": 9
+    },
+    {
+      "key": "839b39c62e5c8334609d3e7e67a9c718",
+      "relation": "hasVariant",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "The infection of SARS virus is initiated by the attachment of S protein to the receptor ACE2 [19], followed by cleavage with host cell protease TMPRSS2 [20-22]. The viruses are then transported through the early and late endosomes, subsequently endo/lysosomes, during which host protein extracellular proteases including cathepsin L mediates the further cleavage of S protein in endocytic vesicles [23-26]. The activated S protein will then activate the fusion between viral and cell membranes and release the genome of SARS-CoV into cytoplasm.",
+      "key": "0fb4c2001c31bf436f18148ad0ec73f5",
+      "line": 163,
+      "relation": "increases",
+      "source": 16,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 7
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "The infection of SARS virus is initiated by the attachment of S protein to the receptor ACE2 [19], followed by cleavage with host cell protease TMPRSS2 [20-22]. The viruses are then transported through the early and late endosomes, subsequently endo/lysosomes, during which host protein extracellular proteases including cathepsin L mediates the further cleavage of S protein in endocytic vesicles [23-26]. The activated S protein will then activate the fusion between viral and cell membranes and release the genome of SARS-CoV into cytoplasm.",
+      "key": "a0c228f50feaa8b387de3b1fd64b9e80",
+      "line": 153,
+      "relation": "increases",
+      "source": 10,
+      "target": 17
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "The infection of SARS virus is initiated by the attachment of S protein to the receptor ACE2 [19], followed by cleavage with host cell protease TMPRSS2 [20-22]. The viruses are then transported through the early and late endosomes, subsequently endo/lysosomes, during which host protein extracellular proteases including cathepsin L mediates the further cleavage of S protein in endocytic vesicles [23-26]. The activated S protein will then activate the fusion between viral and cell membranes and release the genome of SARS-CoV into cytoplasm.",
+      "key": "36f9b199dd1cc615c90239682d5d78c0",
+      "line": 154,
+      "relation": "increases",
+      "source": 17,
+      "target": 6
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "The infection of SARS virus is initiated by the attachment of S protein to the receptor ACE2 [19], followed by cleavage with host cell protease TMPRSS2 [20-22]. The viruses are then transported through the early and late endosomes, subsequently endo/lysosomes, during which host protein extracellular proteases including cathepsin L mediates the further cleavage of S protein in endocytic vesicles [23-26]. The activated S protein will then activate the fusion between viral and cell membranes and release the genome of SARS-CoV into cytoplasm.",
+      "key": "386ef4e84015d130449d3827ea41b1d2",
+      "line": 162,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 17,
+      "target": 16
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "The infection of SARS virus is initiated by the attachment of S protein to the receptor ACE2 [19], followed by cleavage with host cell protease TMPRSS2 [20-22]. The viruses are then transported through the early and late endosomes, subsequently endo/lysosomes, during which host protein extracellular proteases including cathepsin L mediates the further cleavage of S protein in endocytic vesicles [23-26]. The activated S protein will then activate the fusion between viral and cell membranes and release the genome of SARS-CoV into cytoplasm.",
+      "key": "222cc17b47fba3b35f8cc2e939f8846b",
+      "line": 155,
+      "relation": "increases",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lysosomes": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "The infection of SARS virus is initiated by the attachment of S protein to the receptor ACE2 [19], followed by cleavage with host cell protease TMPRSS2 [20-22]. The viruses are then transported through the early and late endosomes, subsequently endo/lysosomes, during which host protein extracellular proteases including cathepsin L mediates the further cleavage of S protein in endocytic vesicles [23-26]. The activated S protein will then activate the fusion between viral and cell membranes and release the genome of SARS-CoV into cytoplasm.",
+      "key": "f3649ed74325a1a3f919d8de2feed4b5",
+      "line": 157,
+      "relation": "increases",
+      "source": 5,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lysosomes": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "The infection of SARS virus is initiated by the attachment of S protein to the receptor ACE2 [19], followed by cleavage with host cell protease TMPRSS2 [20-22]. The viruses are then transported through the early and late endosomes, subsequently endo/lysosomes, during which host protein extracellular proteases including cathepsin L mediates the further cleavage of S protein in endocytic vesicles [23-26]. The activated S protein will then activate the fusion between viral and cell membranes and release the genome of SARS-CoV into cytoplasm.",
+      "key": "8c208ddd50ee27cc4472dc57734c6936",
+      "line": 158,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 18,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Cytoplasm": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "The infection of SARS virus is initiated by the attachment of S protein to the receptor ACE2 [19], followed by cleavage with host cell protease TMPRSS2 [20-22]. The viruses are then transported through the early and late endosomes, subsequently endo/lysosomes, during which host protein extracellular proteases including cathepsin L mediates the further cleavage of S protein in endocytic vesicles [23-26]. The activated S protein will then activate the fusion between viral and cell membranes and release the genome of SARS-CoV into cytoplasm.",
+      "key": "27632ca41feae133f0b04f55a2c1dc46",
+      "line": 165,
+      "relation": "increases",
+      "source": 7,
+      "target": 19
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "Accordingly, we infected the cells with SARS-CoV-, or 2019-nCoV-S-pseudotyped HIV-1 viruses after siRNA-mediated knockdown of the expression of cathepsin L and TMPRSS2 and found that both cathepsin L and TMPRSS2 depletion impaired the cell entry of pseudoviruses (Figure 1C), indicating that both cathepsin L and TMPRSS2 are required for 2019-nCoV cell entry.",
+      "key": "24d6d74d5e44f3688e9d045f2ddd51fa",
+      "line": 169,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 14
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.02.05.935387 "
+      },
+      "evidence": "Accordingly, we infected the cells with SARS-CoV-, or 2019-nCoV-S-pseudotyped HIV-1 viruses after siRNA-mediated knockdown of the expression of cathepsin L and TMPRSS2 and found that both cathepsin L and TMPRSS2 depletion impaired the cell entry of pseudoviruses (Figure 1C), indicating that both cathepsin L and TMPRSS2 are required for 2019-nCoV cell entry.",
+      "key": "54b607ca9b5233832b338cdf0597b511",
+      "line": 170,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 15
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:dalbavancin)",
+      "concept": {
+        "name": "dalbavancin",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "31ebc5789562aefad088862838b8309b"
+    },
+    {
+      "bel": "a(CHEBI:teicoplanin)",
+      "concept": {
+        "name": "teicoplanin",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "3d395f1e448a85095f70c998c6a4fd01"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "bp(GO:\"fusion of virus membrane with host outer membrane\")",
+      "concept": {
+        "name": "fusion of virus membrane with host outer membrane",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "9eb05d236f9a02f669c746b0a5a2e758"
+    },
+    {
+      "bel": "bp(GO:\"viral entry into host cell\")",
+      "concept": {
+        "name": "viral entry into host cell",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "2a6e5ae8582e2cded25095e14c2ee329"
+    },
+    {
+      "bel": "bp(GOBP:\"endosome lysis involved in viral entry into host cell\")",
+      "concept": {
+        "name": "endosome lysis involved in viral entry into host cell",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "2b4b71b7285dd7d5950abf7320128cd5"
+    },
+    {
+      "bel": "bp(GOBP:\"endosome membrane permeabilization involved in viral entry into host cell\")",
+      "concept": {
+        "name": "endosome membrane permeabilization involved in viral entry into host cell",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "278c8b77c3f0637957892b7940b03eaa"
+    },
+    {
+      "bel": "bp(GOBP:\"membrane fusion involved in viral entry into host cell\")",
+      "concept": {
+        "name": "membrane fusion involved in viral entry into host cell",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "5752e347522eb4168402c2a0af1f4e68"
+    },
+    {
+      "bel": "bp(GOBP:\"viral entry into host cell\")",
+      "concept": {
+        "name": "viral entry into host cell",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "60bbae25b4e0ac32c4c03901c2b4960c"
+    },
+    {
+      "bel": "complex(p(HGNC:ACE2), p(NCBIGENE:43740568))",
+      "function": "Complex",
+      "id": "383613253f5ec67244a3aa1ec645a0fb",
+      "members": [
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        },
+        {
+          "bel": "p(NCBIGENE:43740568)",
+          "concept": {
+            "name": "43740568",
+            "namespace": "NCBIGENE"
+          },
+          "function": "Protein",
+          "id": "7c0c25d9b85462ae1b80a07e4192e4b9"
+        }
+      ]
+    },
+    {
+      "bel": "composite(complex(p(HGNC:ACE2), p(NCBIGENE:43740568)), p(HGNC:TMPRSS2))",
+      "function": "Composite",
+      "id": "6ea928ed742e841e1a9c608debd7333f",
+      "members": [
+        {
+          "bel": "complex(p(HGNC:ACE2), p(NCBIGENE:43740568))",
+          "function": "Complex",
+          "id": "383613253f5ec67244a3aa1ec645a0fb",
+          "members": [
+            {
+              "bel": "p(HGNC:ACE2)",
+              "concept": {
+                "name": "ACE2",
+                "namespace": "HGNC"
+              },
+              "function": "Protein",
+              "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+            },
+            {
+              "bel": "p(NCBIGENE:43740568)",
+              "concept": {
+                "name": "43740568",
+                "namespace": "NCBIGENE"
+              },
+              "function": "Protein",
+              "id": "7c0c25d9b85462ae1b80a07e4192e4b9"
+            }
+          ]
+        },
+        {
+          "bel": "p(HGNC:TMPRSS2)",
+          "concept": {
+            "name": "TMPRSS2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "1ac71e8152c90a7b43c9bc546579050d"
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(COVID:S, frag(\"?\"))",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "a4ea879b1d193de79d75f4ce77b539a5",
+      "variants": [
+        {
+          "kind": "frag",
+          "missing": "?"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "p(HGNC:CTSL)",
+      "concept": {
+        "name": "CTSL",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "a78366aeaeaa0648757907826646d259"
+    },
+    {
+      "bel": "p(HGNC:TMPRSS2)",
+      "concept": {
+        "name": "TMPRSS2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "1ac71e8152c90a7b43c9bc546579050d"
+    },
+    {
+      "bel": "p(NCBIGENE:43740568)",
+      "concept": {
+        "name": "43740568",
+        "namespace": "NCBIGENE"
+      },
+      "function": "Protein",
+      "id": "7c0c25d9b85462ae1b80a07e4192e4b9"
+    },
+    {
+      "bel": "p(NCBIGENE:43740568, frag(\"?\"))",
+      "concept": {
+        "name": "43740568",
+        "namespace": "NCBIGENE"
+      },
+      "function": "Protein",
+      "id": "a44554109735293069ffb0f81f400763",
+      "variants": [
+        {
+          "kind": "frag",
+          "missing": "?"
+        }
+      ]
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(MESH:\"Genome, Viral\")",
+      "concept": {
+        "name": "Genome, Viral",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "7ca5005b8f6b0af9404259161f412c2b"
+    }
+  ]
+}

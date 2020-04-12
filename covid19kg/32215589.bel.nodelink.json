@@ -1,0 +1,230 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Cohort": [
+        "Newborn"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Letter to the Editor"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Abish K",
+      "contact": "abish@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID_Knowledge_Curation_project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32215589.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+    },
+    "path": "32215589.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Cohort": {
+          "Newborn": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Deng Q",
+          "Fan J",
+          "Long X",
+          "Tang Y",
+          "Xu C",
+          "Zeng H",
+          "Zhang W"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215589",
+        "db_name": "JAMA",
+        "first": "Zeng H",
+        "last": "Long X"
+      },
+      "evidence": "All 6 infants had antibodies detected in their serum.",
+      "key": "7a8d86d714db6e95befe4accd61eecd7",
+      "line": 45,
+      "relation": "increases",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "Newborn": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Deng Q",
+          "Fan J",
+          "Long X",
+          "Tang Y",
+          "Xu C",
+          "Zeng H",
+          "Zhang W"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215589",
+        "db_name": "JAMA",
+        "first": "Zeng H",
+        "last": "Long X"
+      },
+      "evidence": "All 6 infants had antibodies detected in their serum.",
+      "key": "4a9fe338c6bd38d6dae252a3ef80f73d",
+      "line": 46,
+      "relation": "increases",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "Newborn": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Deng Q",
+          "Fan J",
+          "Long X",
+          "Tang Y",
+          "Xu C",
+          "Zeng H",
+          "Zhang W"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215589",
+        "db_name": "JAMA",
+        "first": "Zeng H",
+        "last": "Long X"
+      },
+      "evidence": "Inflammatory cytokine IL-6 was significantly increased in all infants.",
+      "key": "9a02a4e98d7ada97e0aeb457b8d346be",
+      "line": 52,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "extracellular space",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "increases",
+      "source": 3,
+      "target": 2
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(MESH:\"Immunoglobulin G\")",
+      "concept": {
+        "name": "Immunoglobulin G",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "ed6b199fc0a3b814d8ce805fa9964dca"
+    },
+    {
+      "bel": "a(MESH:\"Immunoglobulin M\")",
+      "concept": {
+        "name": "Immunoglobulin M",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "3cbf8b95fef3a7e7a668264a25b1dec7"
+    },
+    {
+      "bel": "p(HGNC:IL6)",
+      "concept": {
+        "name": "IL6",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "8a1d3c4828c5416eba867c395cc65caa"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    }
+  ]
+}

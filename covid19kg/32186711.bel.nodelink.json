@@ -1,0 +1,1460 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Letter to the Editor"
+      ],
+      "Section": [
+        "Full Text"
+      ],
+      "mode_of_administration": [
+        "intravenous injection"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Abish K",
+      "contact": "abish@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32186711.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "MGI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32186711.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Angiotensin-converting enzyme inhibitors (ACEIs) and angiotensin receptor blockers (ARBs) are highly recommended medications for patients with cardiovascular diseases, such as refractory hypertension, coronary artery disease, heart failure, and post-myocardial infarction status. 1, 2",
+      "key": "3626b6b4bc226ee4e704e8713cf73017",
+      "line": 47,
+      "relation": "decreases",
+      "source": 1,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Angiotensin-converting enzyme inhibitors (ACEIs) and angiotensin receptor blockers (ARBs) are highly recommended medications for patients with cardiovascular diseases, such as refractory hypertension, coronary artery disease, heart failure, and post-myocardial infarction status. 1, 2",
+      "key": "dd133d229f46ebe8aaabfec2adb8d96b",
+      "line": 48,
+      "relation": "decreases",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Angiotensin-converting enzyme inhibitors (ACEIs) and angiotensin receptor blockers (ARBs) are highly recommended medications for patients with cardiovascular diseases, such as refractory hypertension, coronary artery disease, heart failure, and post-myocardial infarction status. 1, 2",
+      "key": "a355b8b050f7ee59242f2683115eed4d",
+      "line": 49,
+      "relation": "decreases",
+      "source": 1,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Angiotensin-converting enzyme inhibitors (ACEIs) and angiotensin receptor blockers (ARBs) are highly recommended medications for patients with cardiovascular diseases, such as refractory hypertension, coronary artery disease, heart failure, and post-myocardial infarction status. 1, 2",
+      "key": "5e167939b9c718431082bfd380c44608",
+      "line": 50,
+      "relation": "decreases",
+      "source": 1,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Blood": true,
+          "Heart": true,
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "mode_of_administration": {
+          "intravenous injection": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Intravenous infusions of ACEIs and ARBs in experimental animals increase the numbers of angiotensin converting enzyme 2 (ACE2) receptors in the cardiopulmonary circulation. 4",
+      "key": "c551b667ed4697a78699f8e41eee7151",
+      "line": 61,
+      "relation": "increases",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Blood": true,
+          "Heart": true,
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Patients taking ACEIs or ARBs chronically for cardiovascular diseases are assumed to have increased numbers of ACE2 receptors throughout their cardiopulmonary circulations as observed in experimental animal models.",
+      "key": "2928f3e5bdee2e70d20825c1fdefcc5b",
+      "line": 71,
+      "relation": "increases",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Since patients treated with ACEIs and ARBS will have increased numbers of ACE2 receptors in their lungs for coronavirus S proteins to bind to, they may be at increased risk of severe disease outcomes due to SARS-CoV-2 infections.",
+      "key": "d687f86305b60a81f434f95ba4e64ad5",
+      "line": 92,
+      "relation": "increases",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "In this study, Guan et al reported more severe disease outcomes in patients with hypertension, coronary artery disease, diabetes, and chronic renal disease (Table 1). 6",
+      "key": "8fb0929904786f5db0462b330b0149b2",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 18,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "In this study, Guan et al reported more severe disease outcomes in patients with hypertension, coronary artery disease, diabetes, and chronic renal disease (Table 1). 6",
+      "key": "4b72964742d0ee56c70451649af71555",
+      "line": 100,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Angiotensin-converting enzyme inhibitors (ACEIs) and angiotensin receptor blockers (ARBs) are highly recommended medications for patients with cardiovascular diseases, such as refractory hypertension, coronary artery disease, heart failure, and post-myocardial infarction status. 1, 2",
+      "key": "66471e791d6daf5267a3536d20049c87",
+      "line": 51,
+      "relation": "decreases",
+      "source": 0,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Angiotensin-converting enzyme inhibitors (ACEIs) and angiotensin receptor blockers (ARBs) are highly recommended medications for patients with cardiovascular diseases, such as refractory hypertension, coronary artery disease, heart failure, and post-myocardial infarction status. 1, 2",
+      "key": "cd6f7119bafa820cc83709dfd55004b5",
+      "line": 52,
+      "relation": "decreases",
+      "source": 0,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Angiotensin-converting enzyme inhibitors (ACEIs) and angiotensin receptor blockers (ARBs) are highly recommended medications for patients with cardiovascular diseases, such as refractory hypertension, coronary artery disease, heart failure, and post-myocardial infarction status. 1, 2",
+      "key": "b897d5c1da71172cf13fd6f8585cee0a",
+      "line": 53,
+      "relation": "decreases",
+      "source": 0,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Angiotensin-converting enzyme inhibitors (ACEIs) and angiotensin receptor blockers (ARBs) are highly recommended medications for patients with cardiovascular diseases, such as refractory hypertension, coronary artery disease, heart failure, and post-myocardial infarction status. 1, 2",
+      "key": "bef35238ae721e9b069c632ace66fecf",
+      "line": 54,
+      "relation": "decreases",
+      "source": 0,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Blood": true,
+          "Heart": true,
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        },
+        "mode_of_administration": {
+          "intravenous injection": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Intravenous infusions of ACEIs and ARBs in experimental animals increase the numbers of angiotensin converting enzyme 2 (ACE2) receptors in the cardiopulmonary circulation. 4",
+      "key": "28490637e627eb304a09ce3b4f9f5d49",
+      "line": 62,
+      "relation": "increases",
+      "source": 0,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Blood": true,
+          "Heart": true,
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Patients taking ACEIs or ARBs chronically for cardiovascular diseases are assumed to have increased numbers of ACE2 receptors throughout their cardiopulmonary circulations as observed in experimental animal models.",
+      "key": "14776ec34a29c57e8ed237fe472ba40b",
+      "line": 72,
+      "relation": "increases",
+      "source": 0,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Since patients treated with ACEIs and ARBS will have increased numbers of ACE2 receptors in their lungs for coronavirus S proteins to bind to, they may be at increased risk of severe disease outcomes due to SARS-CoV-2 infections.",
+      "key": "6c41ae44fc40ed3d17fdd0c3736f8fcf",
+      "line": 93,
+      "relation": "increases",
+      "source": 0,
+      "target": 7
+    },
+    {
+      "key": "1db03b2523b3b2cd2b465edf9382bc2a",
+      "relation": "partOf",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Since patients treated with ACEIs and ARBS will have increased numbers of ACE2 receptors in their lungs for coronavirus S proteins to bind to, they may be at increased risk of severe disease outcomes due to SARS-CoV-2 infections.",
+      "key": "9e72cff290f3361f734f8bc97c87bd5d",
+      "line": 94,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Two mechanisms may protect children from COVID-19 infections: (1) cross-protective antibodies from multiple upper respiratory tract infections caused by the common cold-causing alpha coronaviruses, and (2) fewer ACE2 receptors in their lower respiratory tracts to attract the binding S proteins of the beta coronaviruses.",
+      "key": "4ac9e028e382e5547c42a81e0f415b83",
+      "line": 109,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "The phylogenetically related beta coronavirus, SARS-Cov-2, causes the novel coronavirus disease (nCoV-2019) or COVID-19. 5 S proteins anchor both beta coronaviruses to ACE2 receptors in the lower respiratory tract of infected patients in order to gain entry into the lungs.",
+      "key": "eded39a2575239da7718b066d11cfd5a",
+      "line": 78,
+      "relation": "increases",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Since patients treated with ACEIs and ARBS will have increased numbers of ACE2 receptors in their lungs for coronavirus S proteins to bind to, they may be at increased risk of severe disease outcomes due to SARS-CoV-2 infections.",
+      "key": "5c8717f52ff3cf893c53edf8af872bcd",
+      "line": 95,
+      "relation": "increases",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Since patients treated with ACEIs and ARBS will have increased numbers of ACE2 receptors in their lungs for coronavirus S proteins to bind to, they may be at increased risk of severe disease outcomes due to SARS-CoV-2 infections.",
+      "key": "05e53c47ab1330c332b15c846880d7a4",
+      "line": 94,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Two mechanisms may protect children from COVID-19 infections: (1) cross-protective antibodies from multiple upper respiratory tract infections caused by the common cold-causing alpha coronaviruses, and (2) fewer ACE2 receptors in their lower respiratory tracts to attract the binding S proteins of the beta coronaviruses.",
+      "key": "f978493afc12645fc7ac0d054f24a8c5",
+      "line": 109,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "key": "cc2d182e46a7afcbe8de0b32b4f87ed1",
+      "relation": "partOf",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "The phylogenetically related beta coronavirus, SARS-Cov-2, causes the novel coronavirus disease (nCoV-2019) or COVID-19. 5 S proteins anchor both beta coronaviruses to ACE2 receptors in the lower respiratory tract of infected patients in order to gain entry into the lungs.",
+      "key": "6ef8bd2e3f8ffe6c5ea5a5e0ca45d4f3",
+      "line": 79,
+      "relation": "association",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Viral pneumonia and potentially fatal respiratory failure may result in susceptible persons after 10-14 days. 5",
+      "key": "fe8857babd8f93b1c9f3eb65a1ec6218",
+      "line": 85,
+      "relation": "increases",
+      "source": 9,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Viral pneumonia and potentially fatal respiratory failure may result in susceptible persons after 10-14 days. 5",
+      "key": "66cfbad4e8f7a3c3513b406008616bce",
+      "line": 86,
+      "relation": "increases",
+      "source": 9,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "In this study, Guan et al reported more severe disease outcomes in patients with hypertension, coronary artery disease, diabetes, and chronic renal disease (Table 1). 6",
+      "key": "3b26972d6ebb8fdfc8216c8431f6ee49",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "In this study, Guan et al reported more severe disease outcomes in patients with hypertension, coronary artery disease, diabetes, and chronic renal disease (Table 1). 6",
+      "key": "003cd0764f0f7196cc464e444c31aa5a",
+      "line": 100,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "In this study, Guan et al reported more severe disease outcomes in patients with hypertension, coronary artery disease, diabetes, and chronic renal disease (Table 1). 6",
+      "key": "f0300734b0dd42f713e75ff8a54f55eb",
+      "line": 101,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "In this study, Guan et al reported more severe disease outcomes in patients with hypertension, coronary artery disease, diabetes, and chronic renal disease (Table 1). 6",
+      "key": "e507f4c46c64e18273b54fcbf7422a5b",
+      "line": 102,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "The phylogenetically related beta coronavirus, SARS-Cov-2, causes the novel coronavirus disease (nCoV-2019) or COVID-19. 5 S proteins anchor both beta coronaviruses to ACE2 receptors in the lower respiratory tract of infected patients in order to gain entry into the lungs.",
+      "key": "0a528b4f55403b4db5935aaeaa5cbcd0",
+      "line": 79,
+      "relation": "association",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "In this study, Guan et al reported more severe disease outcomes in patients with hypertension, coronary artery disease, diabetes, and chronic renal disease (Table 1). 6",
+      "key": "e9694a708d6dfa570084ebcfce5a1d7b",
+      "line": 101,
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "In this study, Guan et al reported more severe disease outcomes in patients with hypertension, coronary artery disease, diabetes, and chronic renal disease (Table 1). 6",
+      "key": "0246ddfed371a4939d4c222da04c3292",
+      "line": 102,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Two mechanisms may protect children from COVID-19 infections: (1) cross-protective antibodies from multiple upper respiratory tract infections caused by the common cold-causing alpha coronaviruses, and (2) fewer ACE2 receptors in their lower respiratory tracts to attract the binding S proteins of the beta coronaviruses.",
+      "key": "89ab314091daeedabd87f33e9ab8b57b",
+      "line": 106,
+      "relation": "increases",
+      "source": 4,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Two mechanisms may protect children from COVID-19 infections: (1) cross-protective antibodies from multiple upper respiratory tract infections caused by the common cold-causing alpha coronaviruses, and (2) fewer ACE2 receptors in their lower respiratory tracts to attract the binding S proteins of the beta coronaviruses.",
+      "key": "d05aff5963d50fb02b6204dfc38b1af0",
+      "line": 107,
+      "relation": "increases",
+      "source": 16,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to the Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Diaz JH"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32186711",
+        "db_name": "Journal of travel medicine",
+        "first": "Diaz JH",
+        "last": "Diaz JH"
+      },
+      "evidence": "Two mechanisms may protect children from COVID-19 infections: (1) cross-protective antibodies from multiple upper respiratory tract infections caused by the common cold-causing alpha coronaviruses, and (2) fewer ACE2 receptors in their lower respiratory tracts to attract the binding S proteins of the beta coronaviruses.",
+      "key": "b87c56640d38a3c583d03d7ac1a69186",
+      "line": 108,
+      "relation": "decreases",
+      "source": 2,
+      "target": 9
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:\"angiotensin receptor antagonist\")",
+      "concept": {
+        "name": "angiotensin receptor antagonist",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "804e9c51456ff53ac97de8fdb426e46e"
+    },
+    {
+      "bel": "a(MESH:\"Angiotensin-Converting Enzyme Inhibitors\")",
+      "concept": {
+        "name": "Angiotensin-Converting Enzyme Inhibitors",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "1421e0d945d1b17a03ff2445854ed2d2"
+    },
+    {
+      "bel": "a(MESH:\"Antibodies, Viral\")",
+      "concept": {
+        "name": "Antibodies, Viral",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "8a122c80f6b48a193f1f635ab811f71e"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "a(TAX:Alphacoronavirus)",
+      "concept": {
+        "name": "Alphacoronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "56b516fd7a9ba2437703a836541e092d"
+    },
+    {
+      "bel": "complex(p(COVID:S), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "6b8514d35b9a04dcfdf30d01d4a3a0a0",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "p(MGI:Ace2)",
+      "concept": {
+        "name": "Ace2",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "9cb4733ab4e60addd6378f9f4c97eef9"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"chronic kidney disease\")",
+      "concept": {
+        "name": "chronic kidney disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "c41e49c1d2c8f2dacb14ef7c3d7c4aca"
+    },
+    {
+      "bel": "path(DO:\"congestive heart failure\")",
+      "concept": {
+        "name": "congestive heart failure",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "f7be3204e32f0fe982c2db056dff8b4b"
+    },
+    {
+      "bel": "path(DO:\"coronary artery disease\")",
+      "concept": {
+        "name": "coronary artery disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "053309450d0ef006482ac819c8c3469f"
+    },
+    {
+      "bel": "path(DO:\"diabetes mellitus\")",
+      "concept": {
+        "name": "diabetes mellitus",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "a851751c015aaa69ddfba6458d99c945"
+    },
+    {
+      "bel": "path(DO:\"myocardial infarction\")",
+      "concept": {
+        "name": "myocardial infarction",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6452efc38472d39dbe9799180d20fd41"
+    },
+    {
+      "bel": "path(DO:\"respiratory failure\")",
+      "concept": {
+        "name": "respiratory failure",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "d8af133a6da228e78521eeec3d16b82f"
+    },
+    {
+      "bel": "path(DO:\"upper respiratory tract disease\")",
+      "concept": {
+        "name": "upper respiratory tract disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "465df68f1a59806f1c1d804929d1e366"
+    },
+    {
+      "bel": "path(DO:\"viral pneumonia\")",
+      "concept": {
+        "name": "viral pneumonia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "d5680e5b767d58870e63b3f606ac54e9"
+    },
+    {
+      "bel": "path(DO:hypertension)",
+      "concept": {
+        "name": "hypertension",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "53d5b8bd814074e87b1da1ff6250dcff"
+    }
+  ]
+}

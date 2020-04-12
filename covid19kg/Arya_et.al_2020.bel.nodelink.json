@@ -1,0 +1,1338 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {},
+    "document_metadata": {
+      "authors": "Thrishna",
+      "contact": "thrishna@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "Arya_et.al_2020.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "PUBCHEM": "^\\d+$"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+    },
+    "path": "Arya_et.al_2020.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11860011"
+      },
+      "evidence": "These promising inhibitors of SARS-CoV-2 PLpro are listed in Table 1, and their docked poses are shown in Figure 2.",
+      "key": "6e9b046a362111c1ea75aa31624e3bd5",
+      "line": 44,
+      "relation": "decreases",
+      "source": 31,
+      "target": 33
+    },
+    {
+      "key": "2981796eba786d824816fa255e351652",
+      "relation": "partOf",
+      "source": 15,
+      "target": 31
+    },
+    {
+      "key": "3a223da02a8e9cb74388375d896faacd",
+      "relation": "partOf",
+      "source": 33,
+      "target": 31
+    },
+    {
+      "key": "eae1ca5e795d93c8b7d4e02d9c9b3fc5",
+      "relation": "partOf",
+      "source": 33,
+      "target": 21
+    },
+    {
+      "key": "436b4b972d8c1fd7dd25d8bf75946686",
+      "relation": "partOf",
+      "source": 33,
+      "target": 20
+    },
+    {
+      "key": "0ad39edc3e6f664181bbd4e1e82a7038",
+      "relation": "partOf",
+      "source": 33,
+      "target": 24
+    },
+    {
+      "key": "90e7f35638ab0170d2a5e593c9a3f57e",
+      "relation": "partOf",
+      "source": 33,
+      "target": 19
+    },
+    {
+      "key": "55f18e5aa80f1062185d30b053a26f2c",
+      "relation": "partOf",
+      "source": 33,
+      "target": 17
+    },
+    {
+      "key": "8b9c3bb926b9d2270a9d428def1f6e22",
+      "relation": "partOf",
+      "source": 33,
+      "target": 18
+    },
+    {
+      "key": "9e4aa57546d59fce850a9538e0263be5",
+      "relation": "partOf",
+      "source": 33,
+      "target": 26
+    },
+    {
+      "key": "d52ea6eb2ff6bf90d496e1e01d90919a",
+      "relation": "partOf",
+      "source": 33,
+      "target": 23
+    },
+    {
+      "key": "bf2773748238c189f80bf7b2642b2745",
+      "relation": "partOf",
+      "source": 33,
+      "target": 30
+    },
+    {
+      "key": "9a939baa46741c1815c315ac511a3cd7",
+      "relation": "partOf",
+      "source": 33,
+      "target": 29
+    },
+    {
+      "key": "c35c7d9e69665b27bcfd3c437240592a",
+      "relation": "partOf",
+      "source": 33,
+      "target": 25
+    },
+    {
+      "key": "db1e900f1466329112647fc96f989480",
+      "relation": "partOf",
+      "source": 33,
+      "target": 16
+    },
+    {
+      "key": "c37b253a559288f304d572f15f88ee90",
+      "relation": "partOf",
+      "source": 33,
+      "target": 28
+    },
+    {
+      "key": "2667cfb5f17d459992314de5f0803f5a",
+      "relation": "partOf",
+      "source": 33,
+      "target": 27
+    },
+    {
+      "key": "c0a21fce657fe2167257beb0a1e8df9e",
+      "relation": "partOf",
+      "source": 33,
+      "target": 22
+    },
+    {
+      "key": "b7d33677a9029d0ceee889cfe902d83a",
+      "relation": "hasVariant",
+      "source": 32,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11860011"
+      },
+      "evidence": "These promising inhibitors of SARS-CoV-2 PLpro are listed in Table 1, and their docked poses are shown in Figure 2.",
+      "key": "c9a764d7b342d2985899bb3007a3fe0f",
+      "line": 45,
+      "relation": "decreases",
+      "source": 21,
+      "target": 33
+    },
+    {
+      "key": "dd8a6708baef0de7d5bce4f746e5206e",
+      "relation": "partOf",
+      "source": 5,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11860011"
+      },
+      "evidence": "These promising inhibitors of SARS-CoV-2 PLpro are listed in Table 1, and their docked poses are shown in Figure 2.",
+      "key": "dc58595efd6ca6a76b3f815e717b94ed",
+      "line": 46,
+      "relation": "decreases",
+      "source": 20,
+      "target": 33
+    },
+    {
+      "key": "181d2a05b35c3c7dc8ec423c14711aed",
+      "relation": "partOf",
+      "source": 4,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11860011"
+      },
+      "evidence": "These promising inhibitors of SARS-CoV-2 PLpro are listed in Table 1, and their docked poses are shown in Figure 2.",
+      "key": "a25bc77c884e179f31b291ffe5d5d8a3",
+      "line": 47,
+      "relation": "decreases",
+      "source": 24,
+      "target": 33
+    },
+    {
+      "key": "1436a9b70292bc07ca080cde0a50a143",
+      "relation": "partOf",
+      "source": 8,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11860011"
+      },
+      "evidence": "These promising inhibitors of SARS-CoV-2 PLpro are listed in Table 1, and their docked poses are shown in Figure 2.",
+      "key": "b9de8265193085a8426053e7e0c7e627",
+      "line": 48,
+      "relation": "decreases",
+      "source": 19,
+      "target": 33
+    },
+    {
+      "key": "15d34b1577c65fdf0a21564c10f55304",
+      "relation": "partOf",
+      "source": 3,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11860011"
+      },
+      "evidence": "These promising inhibitors of SARS-CoV-2 PLpro are listed in Table 1, and their docked poses are shown in Figure 2.",
+      "key": "993d571630c39ae4e4f096ffac32cc09",
+      "line": 49,
+      "relation": "decreases",
+      "source": 17,
+      "target": 33
+    },
+    {
+      "key": "a7d32ec72d8ce62953e3929b9b8479d5",
+      "relation": "partOf",
+      "source": 1,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11860011"
+      },
+      "evidence": "These promising inhibitors of SARS-CoV-2 PLpro are listed in Table 1, and their docked poses are shown in Figure 2.",
+      "key": "3f55c50838b8121f87d8fe0101c17b20",
+      "line": 50,
+      "relation": "decreases",
+      "source": 18,
+      "target": 33
+    },
+    {
+      "key": "ac0010281e6e4c9a0abd83901a6e7514",
+      "relation": "partOf",
+      "source": 2,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11860011"
+      },
+      "evidence": "These promising inhibitors of SARS-CoV-2 PLpro are listed in Table 1, and their docked poses are shown in Figure 2.",
+      "key": "bb18ccacaa88bbc4098c2238210dfa53",
+      "line": 51,
+      "relation": "decreases",
+      "source": 26,
+      "target": 33
+    },
+    {
+      "key": "a8739070f074094a687759be5b7d8b07",
+      "relation": "partOf",
+      "source": 10,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11860011"
+      },
+      "evidence": "These promising inhibitors of SARS-CoV-2 PLpro are listed in Table 1, and their docked poses are shown in Figure 2.",
+      "key": "a81f89916b810c40854cc9f9f57c3d1b",
+      "line": 52,
+      "relation": "decreases",
+      "source": 23,
+      "target": 33
+    },
+    {
+      "key": "b3a58a640291e75ebbb0085153ff88c7",
+      "relation": "partOf",
+      "source": 7,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11860011"
+      },
+      "evidence": "These promising inhibitors of SARS-CoV-2 PLpro are listed in Table 1, and their docked poses are shown in Figure 2.",
+      "key": "75810484b23db3886452410ed5bac86c",
+      "line": 53,
+      "relation": "decreases",
+      "source": 30,
+      "target": 33
+    },
+    {
+      "key": "53e33e039d7d0e9cf055787ae082c631",
+      "relation": "partOf",
+      "source": 14,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11860011"
+      },
+      "evidence": "These promising inhibitors of SARS-CoV-2 PLpro are listed in Table 1, and their docked poses are shown in Figure 2.",
+      "key": "0e38068f522cc4ac4c17a84696b1a7aa",
+      "line": 54,
+      "relation": "decreases",
+      "source": 29,
+      "target": 33
+    },
+    {
+      "key": "8b692d3e011dd2abb1fc469d07f161af",
+      "relation": "partOf",
+      "source": 13,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11860011"
+      },
+      "evidence": "These promising inhibitors of SARS-CoV-2 PLpro are listed in Table 1, and their docked poses are shown in Figure 2.",
+      "key": "8041dde34aa48d86d52ee412eda45f9e",
+      "line": 55,
+      "relation": "decreases",
+      "source": 25,
+      "target": 33
+    },
+    {
+      "key": "da1046ec361e271367e77ec653976f9d",
+      "relation": "partOf",
+      "source": 9,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11860011"
+      },
+      "evidence": "These promising inhibitors of SARS-CoV-2 PLpro are listed in Table 1, and their docked poses are shown in Figure 2.",
+      "key": "005c1346bc06c450b43f401c9b6565d6",
+      "line": 56,
+      "relation": "decreases",
+      "source": 16,
+      "target": 33
+    },
+    {
+      "key": "76c4c47332d908f563d2c5b6924f8d57",
+      "relation": "partOf",
+      "source": 0,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11860011"
+      },
+      "evidence": "These promising inhibitors of SARS-CoV-2 PLpro are listed in Table 1, and their docked poses are shown in Figure 2.",
+      "key": "9d13c0558e991e2602946e6464908b7b",
+      "line": 57,
+      "relation": "decreases",
+      "source": 28,
+      "target": 33
+    },
+    {
+      "key": "36460a288e0710c45dd5c52d1ffc45e9",
+      "relation": "partOf",
+      "source": 12,
+      "target": 28
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11860011"
+      },
+      "evidence": "These promising inhibitors of SARS-CoV-2 PLpro are listed in Table 1, and their docked poses are shown in Figure 2.",
+      "key": "39e16ea5d28b7d7bc9206f07d018dc23",
+      "line": 58,
+      "relation": "decreases",
+      "source": 27,
+      "target": 33
+    },
+    {
+      "key": "bff5cd8a1bcad2f899e7ce891234a41f",
+      "relation": "partOf",
+      "source": 11,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "molecular docking": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.26434/chemrxiv.11860011"
+      },
+      "evidence": "These promising inhibitors of SARS-CoV-2 PLpro are listed in Table 1, and their docked poses are shown in Figure 2.",
+      "key": "ec55eb5edab54db9d31515ff799983be",
+      "line": 59,
+      "relation": "decreases",
+      "source": 22,
+      "target": 33
+    },
+    {
+      "key": "e0b0406e690817341f9fd7f0e45ffcb9",
+      "relation": "partOf",
+      "source": 6,
+      "target": 22
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:Meperidine)",
+      "concept": {
+        "name": "Meperidine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "999313847007637e848e1fd68505710e"
+    },
+    {
+      "bel": "a(CHEBI:Naphazoline)",
+      "concept": {
+        "name": "Naphazoline",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "53f9ff0c74182cb4126a0ecf23b4520d"
+    },
+    {
+      "bel": "a(CHEBI:amitriptyline)",
+      "concept": {
+        "name": "amitriptyline",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "79d7b2c37924513f12c7322a4cf24c02"
+    },
+    {
+      "bel": "a(CHEBI:benzylpenicillin)",
+      "concept": {
+        "name": "benzylpenicillin",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "82bde0d7a50491e7f746657071302f4e"
+    },
+    {
+      "bel": "a(CHEBI:chloroquine)",
+      "concept": {
+        "name": "chloroquine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "c368fe204031ce23a04cc402914492f6"
+    },
+    {
+      "bel": "a(CHEBI:chlorothiazide)",
+      "concept": {
+        "name": "chlorothiazide",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "30cce1eb86c88ef751f9177168bd95de"
+    },
+    {
+      "bel": "a(CHEBI:cinacalcet)",
+      "concept": {
+        "name": "cinacalcet",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "3af0366746b9d202094f92e847f77045"
+    },
+    {
+      "bel": "a(CHEBI:ethoheptazine)",
+      "concept": {
+        "name": "ethoheptazine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "3f22f07ce2481c22e98e1f3b50cd09de"
+    },
+    {
+      "bel": "a(CHEBI:formoterol)",
+      "concept": {
+        "name": "formoterol",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "d5a7791e69c7f343c160ea0c794fe614"
+    },
+    {
+      "bel": "a(CHEBI:labetalol)",
+      "concept": {
+        "name": "labetalol",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "df3eb63fad768315a1d2e3634098998c"
+    },
+    {
+      "bel": "a(CHEBI:levamisole)",
+      "concept": {
+        "name": "levamisole",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "2042b2eb8135e26980c93c3e02b04c32"
+    },
+    {
+      "bel": "a(CHEBI:procainamide)",
+      "concept": {
+        "name": "procainamide",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "8359710644c9950e4b5ab58a2f889236"
+    },
+    {
+      "bel": "a(CHEBI:terbinafine)",
+      "concept": {
+        "name": "terbinafine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "04c21379f5c5af9a8c04772ab24df098"
+    },
+    {
+      "bel": "a(CHEBI:tetryzoline)",
+      "concept": {
+        "name": "tetryzoline",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "3e9cc23d50d50502d300e83d6eec06e4"
+    },
+    {
+      "bel": "a(CHEBI:ticlopidine)",
+      "concept": {
+        "name": "ticlopidine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "76b0f60924eadc8937121f7bc8f985b1"
+    },
+    {
+      "bel": "a(PUBCHEM:4891)",
+      "concept": {
+        "name": "4891",
+        "namespace": "PUBCHEM"
+      },
+      "function": "Abundance",
+      "id": "991f40da986db162374e2db3a6445c7a"
+    },
+    {
+      "bel": "complex(a(CHEBI:Meperidine), p(COVID:ORF1ab, frag(\"819_2763\")))",
+      "function": "Complex",
+      "id": "187d2689a52332d6b26dc0517384bbd5",
+      "members": [
+        {
+          "bel": "a(CHEBI:Meperidine)",
+          "concept": {
+            "name": "Meperidine",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "999313847007637e848e1fd68505710e"
+        },
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"819_2763\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "598b8d5f87bf878c033f8fe9152ffb2b",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 819,
+              "stop": 2763
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:Naphazoline), p(COVID:ORF1ab, frag(\"819_2763\")))",
+      "function": "Complex",
+      "id": "4d02e3174556063ea7280c265aad8811",
+      "members": [
+        {
+          "bel": "a(CHEBI:Naphazoline)",
+          "concept": {
+            "name": "Naphazoline",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "53f9ff0c74182cb4126a0ecf23b4520d"
+        },
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"819_2763\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "598b8d5f87bf878c033f8fe9152ffb2b",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 819,
+              "stop": 2763
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:amitriptyline), p(COVID:ORF1ab, frag(\"819_2763\")))",
+      "function": "Complex",
+      "id": "5c940172f7e7cd919da5795c2ae2f557",
+      "members": [
+        {
+          "bel": "a(CHEBI:amitriptyline)",
+          "concept": {
+            "name": "amitriptyline",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "79d7b2c37924513f12c7322a4cf24c02"
+        },
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"819_2763\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "598b8d5f87bf878c033f8fe9152ffb2b",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 819,
+              "stop": 2763
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:benzylpenicillin), p(COVID:ORF1ab, frag(\"819_2763\")))",
+      "function": "Complex",
+      "id": "d3b924030718e26de2405763b2369ef3",
+      "members": [
+        {
+          "bel": "a(CHEBI:benzylpenicillin)",
+          "concept": {
+            "name": "benzylpenicillin",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "82bde0d7a50491e7f746657071302f4e"
+        },
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"819_2763\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "598b8d5f87bf878c033f8fe9152ffb2b",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 819,
+              "stop": 2763
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:chloroquine), p(COVID:ORF1ab, frag(\"819_2763\")))",
+      "function": "Complex",
+      "id": "cc9cd7fbd8b1c1bb1e65ca262efdceab",
+      "members": [
+        {
+          "bel": "a(CHEBI:chloroquine)",
+          "concept": {
+            "name": "chloroquine",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "c368fe204031ce23a04cc402914492f6"
+        },
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"819_2763\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "598b8d5f87bf878c033f8fe9152ffb2b",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 819,
+              "stop": 2763
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:chlorothiazide), p(COVID:ORF1ab, frag(\"819_2763\")))",
+      "function": "Complex",
+      "id": "5b48bb4e10a82b10ba86b3f02cb03355",
+      "members": [
+        {
+          "bel": "a(CHEBI:chlorothiazide)",
+          "concept": {
+            "name": "chlorothiazide",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "30cce1eb86c88ef751f9177168bd95de"
+        },
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"819_2763\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "598b8d5f87bf878c033f8fe9152ffb2b",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 819,
+              "stop": 2763
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:cinacalcet), p(COVID:ORF1ab, frag(\"819_2763\")))",
+      "function": "Complex",
+      "id": "cb76dbbf805c27f7c2d3e285b4840196",
+      "members": [
+        {
+          "bel": "a(CHEBI:cinacalcet)",
+          "concept": {
+            "name": "cinacalcet",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "3af0366746b9d202094f92e847f77045"
+        },
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"819_2763\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "598b8d5f87bf878c033f8fe9152ffb2b",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 819,
+              "stop": 2763
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:ethoheptazine), p(COVID:ORF1ab, frag(\"819_2763\")))",
+      "function": "Complex",
+      "id": "797e9b126a0d95a7864e6b9b3ea0e190",
+      "members": [
+        {
+          "bel": "a(CHEBI:ethoheptazine)",
+          "concept": {
+            "name": "ethoheptazine",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "3f22f07ce2481c22e98e1f3b50cd09de"
+        },
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"819_2763\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "598b8d5f87bf878c033f8fe9152ffb2b",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 819,
+              "stop": 2763
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:formoterol), p(COVID:ORF1ab, frag(\"819_2763\")))",
+      "function": "Complex",
+      "id": "3044cde62c0c8a4f2454330d280ab1d8",
+      "members": [
+        {
+          "bel": "a(CHEBI:formoterol)",
+          "concept": {
+            "name": "formoterol",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "d5a7791e69c7f343c160ea0c794fe614"
+        },
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"819_2763\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "598b8d5f87bf878c033f8fe9152ffb2b",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 819,
+              "stop": 2763
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:labetalol), p(COVID:ORF1ab, frag(\"819_2763\")))",
+      "function": "Complex",
+      "id": "23458260f871318c6af02a3d29209cb2",
+      "members": [
+        {
+          "bel": "a(CHEBI:labetalol)",
+          "concept": {
+            "name": "labetalol",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "df3eb63fad768315a1d2e3634098998c"
+        },
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"819_2763\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "598b8d5f87bf878c033f8fe9152ffb2b",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 819,
+              "stop": 2763
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:levamisole), p(COVID:ORF1ab, frag(\"819_2763\")))",
+      "function": "Complex",
+      "id": "0d4dd761384b5351b00889ca06a3cb50",
+      "members": [
+        {
+          "bel": "a(CHEBI:levamisole)",
+          "concept": {
+            "name": "levamisole",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "2042b2eb8135e26980c93c3e02b04c32"
+        },
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"819_2763\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "598b8d5f87bf878c033f8fe9152ffb2b",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 819,
+              "stop": 2763
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:procainamide), p(COVID:ORF1ab, frag(\"819_2763\")))",
+      "function": "Complex",
+      "id": "a75bb6b3d5f6f1526f7eede087359f1f",
+      "members": [
+        {
+          "bel": "a(CHEBI:procainamide)",
+          "concept": {
+            "name": "procainamide",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "8359710644c9950e4b5ab58a2f889236"
+        },
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"819_2763\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "598b8d5f87bf878c033f8fe9152ffb2b",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 819,
+              "stop": 2763
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:terbinafine), p(COVID:ORF1ab, frag(\"819_2763\")))",
+      "function": "Complex",
+      "id": "08bfd6f8987836070ea8a8e68e59ebfc",
+      "members": [
+        {
+          "bel": "a(CHEBI:terbinafine)",
+          "concept": {
+            "name": "terbinafine",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "04c21379f5c5af9a8c04772ab24df098"
+        },
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"819_2763\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "598b8d5f87bf878c033f8fe9152ffb2b",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 819,
+              "stop": 2763
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:tetryzoline), p(COVID:ORF1ab, frag(\"819_2763\")))",
+      "function": "Complex",
+      "id": "a8e1641d1cdc5bc5e1a5e32eb0c3b221",
+      "members": [
+        {
+          "bel": "a(CHEBI:tetryzoline)",
+          "concept": {
+            "name": "tetryzoline",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "3e9cc23d50d50502d300e83d6eec06e4"
+        },
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"819_2763\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "598b8d5f87bf878c033f8fe9152ffb2b",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 819,
+              "stop": 2763
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(CHEBI:ticlopidine), p(COVID:ORF1ab, frag(\"819_2763\")))",
+      "function": "Complex",
+      "id": "978e5beeb464ad3f1dfafb42b4d06232",
+      "members": [
+        {
+          "bel": "a(CHEBI:ticlopidine)",
+          "concept": {
+            "name": "ticlopidine",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "76b0f60924eadc8937121f7bc8f985b1"
+        },
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"819_2763\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "598b8d5f87bf878c033f8fe9152ffb2b",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 819,
+              "stop": 2763
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(PUBCHEM:4891), p(COVID:ORF1ab, frag(\"819_2763\")))",
+      "function": "Complex",
+      "id": "c9adc543bd8912d6013d335f89bdb187",
+      "members": [
+        {
+          "bel": "a(PUBCHEM:4891)",
+          "concept": {
+            "name": "4891",
+            "namespace": "PUBCHEM"
+          },
+          "function": "Abundance",
+          "id": "991f40da986db162374e2db3a6445c7a"
+        },
+        {
+          "bel": "p(COVID:ORF1ab, frag(\"819_2763\"))",
+          "concept": {
+            "name": "ORF1ab",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "598b8d5f87bf878c033f8fe9152ffb2b",
+          "variants": [
+            {
+              "kind": "frag",
+              "start": 819,
+              "stop": 2763
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:ORF1ab)",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "3e2ae75f3061012cb65ea6b97f7db096"
+    },
+    {
+      "bel": "p(COVID:ORF1ab, frag(\"819_2763\"))",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "598b8d5f87bf878c033f8fe9152ffb2b",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 819,
+          "stop": 2763
+        }
+      ]
+    }
+  ]
+}

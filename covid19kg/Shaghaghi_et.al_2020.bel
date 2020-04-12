@@ -1,0 +1,66 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Shaghaghi_et.al_2020.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+#Not in template.bel
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"DOI","10.26434/chemrxiv.11935722"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET BioAssay = "molecular docking"
+SET Evidence = "The results of this study indicate the strong interactions of terpenoids in the two enzymatically protected flap regions. Connecting to the above mentioned areas is highly desirable. The results for the binding of these compounds are summarized in Tables 2,3 and 4."
+
+complex(a(PUBCHEM:10281), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+#10281 -Thymoquinone
+#ORF1ab - main protease (MPro/3C-like proteinase), PDB6LU
+complex(a(PUBCHEM:1285630), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+#	1285630 - Salvinorin A
+complex(a(PUBCHEM:73581), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+#73581 - Bilobalide
+complex(a(PUBCHEM:638011), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+#638011 - Citral
+complex(a(PUBCHEM:1254), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+#	1254 Menthol
+complex(a(PUBCHEM:441293), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+#441293 - Ginkgolide A
+complex(a(PUBCHEM:275196), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+#275196 -Noscapine
+complex(a(PUBCHEM:47936), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+#47936 - Forscolin
+complex(a(PUBCHEM:442393), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+#442393 - beta-Selinene
+
+UNSET BioAssay
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

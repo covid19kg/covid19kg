@@ -1,0 +1,64 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32187463.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Editorial"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed", "N Engl J Med. 2020 Mar 18. doi: 10.1056/NEJMe2005477.", "32187463"}
+
+SET PublicationType = "Editorial"
+SET PublicationStatus = "Preprint"
+SET Section = "Full Text"
+
+SET Evidence = "One antiviral-drug candidate is a combination of the HIV protease \
+inhibitors lopinavir and ritonavir."
+
+composite(a(CHEBI:lopinavir), a(CHEBI:ritonavir)) isA a(CHEBI:"antiviral drug")
+a(CHEBI:lopinavir) isA a(CHEBI:"HIV protease inhibitor")
+a(CHEBI:ritonavir) isA a(CHEBI:"HIV protease inhibitor")
+
+SET Evidence = "Lopinavir, which acts against the viral 3CL protease, has modest \
+antiviral activity against SARS-CoV-2.1"
+
+a(CHEBI:lopinavir) -| p(PFAM:"Peptidase_C30")
+a(CHEBI:lopinavir) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+
+SET Evidence = "The number of deaths was somewhat lower in the group that received \
+lopinavir–ritonavir."
+
+SET Custom_Disease = "COVID-19"
+composite(a(CHEBI:lopinavir), a(CHEBI:ritonavir)) -| a(MESH:Mortality)
+UNSET Custom_Disease
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

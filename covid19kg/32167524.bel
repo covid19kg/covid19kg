@@ -1,0 +1,158 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32167524.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION Disease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/disease/disease-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+
+DEFINE ANNOTATION CovidAccession AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/ncbi-covid19/ncbi-accession-covid19-20200326.belanno"
+
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Cohort_Median_Age AS LIST {"51 years"}
+DEFINE ANNOTATION Patient_Condition AS LIST {"died"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed", "JAMA Intern Med. 2020 Mar 13. doi: 10.1001/jamainternmed.2020.0994.", "32167524"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+
+SET Evidence = "The majority (n = 154 [76.6%]) of patients had fever with cough; 74 (36.8%) had feverwith dyspnea; 66 (32.8%) had feverwith fatigue, myalgia, or headache; and only 13 (6.5%) presentedwith fever alone (eTable 1 in the Supplement)."
+SET Custom_Disease = "COVID-19"
+SET Species = "9606"
+SET Cohort_Median_Age = "51 years"
+path(DO:"COVID-19") -- path(HP:Fever)
+path(DO:"COVID-19") -- path(HP:Cough)
+path(DO:"COVID-19") -- path(HP:Dyspnea)
+path(DO:"COVID-19") -- path(HP:Fatigue)
+path(DO:"COVID-19") -- path(HP:Myalgia)
+path(DO:"COVID-19") -- path(HP:Headache)
+
+
+SET Evidence = "Sixty-six (32.8%) patients had comorbidities, including hypertension (n = 39 [19.4%]), diabetes (n = 22 [10.9%]), liver disease (n = 7 [3.5%]), nervous system disease (n = 7 [3.5%]), chronic lung disease (n = 5 [2.5%]), chronic kidney disease (n = 2 [1.0%]), endocrine system diseases not including diabetes (n = 2 [1.0%]), and tumors (n = 1 [0.5%])."
+path(DO:"COVID-19") -- path(DO:hypertension)
+path(DO:"COVID-19") -- path(DO:"diabetes mellitus")
+path(DO:"COVID-19") -- path(DO:"liver disease")
+path(DO:"COVID-19") -- path(DO:"nervous system disease")
+path(DO:"COVID-19") -- path(HP:"Chronic lung disease")
+path(DO:"COVID-19") -- path(DO:"chronic kidney disease")
+path(DO:"COVID-19") -- path(DO:"endocrine system disease")
+path(DO:"COVID-19") -- path(HP:Neoplasm)
+
+SET Evidence = "Of 194 patients,166(85.6%)demonstrated increased high sensitivity C- reactive protein."
+SET MeSHAnatomy = "Blood"
+path(DO:"COVID-19") pos p(HGNC:CRP)
+
+SET Evidence = "More than half (126of197[64.0%]) of this cohort had lymphocytopenia."
+path(DO:"COVID-19") neg bp(MESH:"Lymphocyte Count")
+
+SET Evidence = "About one-third (68of 197[34.5%]) of patients had neutrophilia."
+path(DO:"COVID-19") -- path(HP:Neutrophilia)
+
+SET Evidence = "Approximately one-quarter (46 of 197 [23.4%]) of patients had leukocytosis."
+path(DO:"COVID-19") -- path(HP:Leukocytosis)
+UNSET MeSHAnatomy
+
+SET Evidence = "Some patients demonstrated liver injury with elevated aspartate aminotransferase(AST;59 of 198[29.8%])and alanine aminotransferase(ALT; 43of198[21.7%])"
+SET MeSHAnatomy = "Serum"
+path(DO:"COVID-19") pos p(HGNC:GPT)
+path(DO:"COVID-19") pos p(HGNC:GOT1)
+path(DO:"COVID-19") pos p(HGNC:GOT2)
+
+SET Evidence = "Most patients presented with an elevated myocardial indices: 194 of 198 (98.0%) had elevated lactate dehydrogenase (LDH),and 9 of 198 (4.5%) had an elevated creatinekinase muscle-brain isoform."
+path(DO:"COVID-19") pos p(HGNC:LDHA)
+path(DO:"COVID-19") pos p(HGNC:LDHB)
+path(DO:"COVID-19") pos p(HGNC:LDHC)
+path(DO:"COVID-19") pos p(HGNC:LDHD)
+path(DO:"COVID-19") pos p(HGNC:CKM)
+path(DO:"COVID-19") pos p(HGNC:CKB)
+
+SET Evidence = "Few patients had kidney injury indicated by elevated plasma urea (9 of 198 [4.5%]) and serum creatinine (9 of 198 [4.5%])."
+path(DO:"COVID-19") pos a(CHEBI:creatinine)
+UNSET MeSHAnatomy
+SET MeSHAnatomy = "Plasma"
+path(DO:"COVID-19") -- path(HP:"Increased blood urea nitrogen")
+UNSET MeSHAnatomy
+
+SET Evidence = "Of 195 patients, 4 (2.1%) presented with prolonged prothrombin times (PTs)."
+path(DO:"COVID-19") -- path(HP:"Prolonged prothrombin time")
+
+SET Evidence = "More patients with ARDS presented with initial symptoms of dyspnea compared with those without ARDS (difference, 33.9%;95%CI, 19.7%-48.1%;P < .001)"
+path(DO:"COVID-19") -- path(DO:"adult respiratory distress syndrome")
+path(DO:"adult respiratory distress syndrome") -- path(HP:Dyspnea)
+
+SET Evidence = "Compared with patients without ARDS, patients with ARDS had a higher proportion of comorbidities, including hypertension (difference, 13.7%; 95%CI, 1.3%-26.1%; P = .02) and diabetes (difference, 13.9%; 95% CI, 3.6%-24.2%; P = .002)."
+path(DO:"adult respiratory distress syndrome") -- path(DO:hypertension)
+path(DO:"adult respiratory distress syndrome") -- path(DO:"diabetes mellitus")
+
+SET Evidence = "Compared with patients without ARDS, for patients with ARDS, the value of liver damage indices (total bilirubin [difference, 1.90mg/dL; 95%CI, 0.60-3.30 mg/dL; P = .004]), renal dysfunction indices (urea [difference, 1.69 mM; 95% CI, 1.10-2.29mM;P < .001]), inflammation-related indices (interleukin- 6 [IL-6] [difference, 0.93 pg/L; 95%CI, 0.07-1.98 pg/L; P = .03]), and coagulation function indices (D-dimer [difference, 0.52 μg/mL; 95% CI, 0.21-0.94 μg/mL; P < .001]) were significantly elevated."
+SET MeSHAnatomy = "Serum"
+path(DO:"adult respiratory distress syndrome") pos a(MESH:Bilirubin)
+path(DO:"adult respiratory distress syndrome") -- path(HP:"Increased blood urea nitrogen")
+path(DO:"adult respiratory distress syndrome") pos p(HGNC:IL6)
+path(DO:"adult respiratory distress syndrome") pos p(MESH:"fibrin fragment D")
+UNSET MeSHAnatomy
+
+SET Evidence = "However, lymphocyte counts (difference,− 0.34×109/mL;95%CI,−0.47 to−0.22×109/mL;P < .001) and CD8 T cells (difference, −66.00 cells/μL; 95%CI, −129.00 to −7.00 cells/μL; P = .03) were significantly decreased."
+SET MeSHAnatomy = "Blood"
+path(DO:"adult respiratory distress syndrome") neg bp(MESH:"Lymphocyte Count")
+path(DO:"adult respiratory distress syndrome") neg a(MESH:"CD8-Positive T-Lymphocytes")
+
+SET Evidence = "For patients with ARDS who died, the value of liver damage indices (total bilirubin [difference, 2.60 mg/dL; 95% CI, 0.30-5.20mg/dL;P = .03]), renal dysfunction indices (urea [difference, 1.50 mM; 95%CI, 0.50-2.70 mM; P = .004]), inflammation- related indices (IL-6 [difference, 3.88 pg/L; 95% CI, 2.20-6.13pg/L;P < .001]), and coagulation function indices (Ddimer [difference, 2.10 μg/mL; 95% CI, 0.89-5.27 μg/mL; P = .001]) were significantly elevated compared with patients with ARDS who survived."
+SET Patient_Condition = "died"
+path(DO:"adult respiratory distress syndrome") pos a(MESH:Bilirubin)
+path(DO:"adult respiratory distress syndrome") -- path(HP:"Increased blood urea nitrogen")
+path(DO:"adult respiratory distress syndrome") pos p(HGNC:IL6)
+path(DO:"adult respiratory distress syndrome") pos p(MESH:"fibrin fragment D")
+UNSET Patient_Condition
+UNSET MeSHAnatomy
+
+SET Evidence = "However, IL-6 was statistically significantly associated with death (Table 4)."
+p(HGNC:IL6) -- path(MESH:Death)
+
+SET Evidence = "The administration of methylprednisolone appears to have reduced the risk of death in patients with ARDS (HR, 0.38; 95% CI, 0.20-0.72; P = .003) (Figure)."
+SET Disease = "adult respiratory distress syndrome"
+a(CHEBI:"6-methylprednisolone") neg path(MESH:Death)
+
+UNSET Disease
+UNSET Cohort_Median_Age
+UNSET Species
+UNSET Custom_Disease
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

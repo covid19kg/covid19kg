@@ -1,0 +1,1011 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Review"
+      ],
+      "Section": [
+        "Full Text"
+      ],
+      "disease_stage": [
+        "asymptomatic"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+    },
+    "document_metadata": {
+      "authors": "Thrishna",
+      "contact": "thrishna@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32190290.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "PUBCHEM": "^\\d+$",
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "INTERPRO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/interpro/interpro-names-20181021.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32190290.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "disease_stage": {
+          "asymptomatic": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "Third, an asymptomatic child was found to have ground-glass opacities in his lung and SARS-CoV-2 RNA in his sputum sample",
+      "key": "779bef76585b10d9237cf8702dfc962f",
+      "line": 55,
+      "relation": "increases",
+      "source": 14,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "Finally, the presentation of diarrhea in two young adults from the same family also suggests the possibility for gastrointestinal involvement in SARS-CoV-2 infection and fecal–oral transmission.",
+      "key": "38a76c2c126d2ff7c83208610a63351c",
+      "line": 63,
+      "relation": "increases",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "ELISA reagents for detection of SARS-CoV-2 antigens such as S and N are still in urgent need, and would provide another test highly complementary to viral RNA detection.",
+      "key": "914fcc76f6d0dbed98457fba97f5b69d",
+      "line": 70,
+      "relation": "association",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "ELISA reagents for detection of SARS-CoV-2 antigens such as S and N are still in urgent need, and would provide another test highly complementary to viral RNA detection.",
+      "key": "9d63610f55325a8b1324805e8ac7c9c8",
+      "line": 70,
+      "relation": "association",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "ELISA reagents for detection of SARS-CoV-2 antigens such as S and N are still in urgent need, and would provide another test highly complementary to viral RNA detection.",
+      "key": "0f18cad75ae91a18e13ecb9fbc0704d2",
+      "line": 71,
+      "relation": "association",
+      "source": 5,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "Particularly, ORF3 and ORF8 in SARS-CoV-2 are highly divergent from ORF3a and ORF8b in SARS-CoV that are known to induce NLRP3 inflammasome activation.",
+      "key": "b3cc319222b5f1498785c6360992707b",
+      "line": 96,
+      "relation": "association",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "Particularly, ORF3 and ORF8 in SARS-CoV-2 are highly divergent from ORF3a and ORF8b in SARS-CoV that are known to induce NLRP3 inflammasome activation.",
+      "key": "eaec0782c5c361735c7418597bec9e09",
+      "line": 97,
+      "relation": "association",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "ORF3 of SARS-CoV-2 is also significantly different from the interferon antagonist ORF3b of SARS-CoV.",
+      "key": "cb0bd767436d817215176cef97cc6339",
+      "line": 104,
+      "relation": "association",
+      "source": 5,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "ELISA reagents for detection of SARS-CoV-2 antigens such as S and N are still in urgent need, and would provide another test highly complementary to viral RNA detection.",
+      "key": "60cb48b75c331bb63a0f48cfa52ea913",
+      "line": 71,
+      "relation": "association",
+      "source": 10,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "These results provide the basis for a rapid test of the beneficial effects of remdesivir in COVID-19.",
+      "key": "5c50403b92f04e88346e7721fab2d177",
+      "line": 76,
+      "relation": "decreases",
+      "source": 2,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "For example, type I interferons including interferon α2b and interferon β are well known for their antiviral activity.",
+      "key": "a0703e8fed75a6d85fb7eb5999e2c8c4",
+      "line": 80,
+      "relation": "isA",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "For example, type I interferons including interferon α2b and interferon β are well known for their antiviral activity.",
+      "key": "ba575b6f4231460f4326506db7f89d92",
+      "line": 81,
+      "relation": "isA",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "Notably, steroids have been experimentally used widely in the treatment of SARS and are still preferred by some Chinese physicians in the treatment of COVID-19. It is said to be capable of stopping the cytokine storm and preventing lung fibrosis.",
+      "key": "a96d3ec510666eef7135fd034b6d1a4b",
+      "line": 88,
+      "relation": "decreases",
+      "source": 1,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "Notably, steroids have been experimentally used widely in the treatment of SARS and are still preferred by some Chinese physicians in the treatment of COVID-19. It is said to be capable of stopping the cytokine storm and preventing lung fibrosis.",
+      "key": "5a45cf727bf48e084747694c8479a475",
+      "line": 89,
+      "relation": "decreases",
+      "source": 1,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "Particularly, ORF3 and ORF8 in SARS-CoV-2 are highly divergent from ORF3a and ORF8b in SARS-CoV that are known to induce NLRP3 inflammasome activation.",
+      "key": "51eb20dfb49b1e7bc3b6648fe327aa5a",
+      "line": 96,
+      "relation": "association",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "Particularly, ORF3 and ORF8 in SARS-CoV-2 are highly divergent from ORF3a and ORF8b in SARS-CoV that are known to induce NLRP3 inflammasome activation.",
+      "key": "d3174518b6e10189be82878d9728bd28",
+      "line": 97,
+      "relation": "association",
+      "source": 9,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "Particularly, ORF3 and ORF8 in SARS-CoV-2 are highly divergent from ORF3a and ORF8b in SARS-CoV that are known to induce NLRP3 inflammasome activation.",
+      "key": "7922e9c086fcac5ebaf2c93bf35ba59a",
+      "line": 98,
+      "relation": "association",
+      "source": 11,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "Particularly, ORF3 and ORF8 in SARS-CoV-2 are highly divergent from ORF3a and ORF8b in SARS-CoV that are known to induce NLRP3 inflammasome activation.",
+      "key": "cc03c7cfcc9142bd772ebadd880b642f",
+      "line": 98,
+      "relation": "association",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "Particularly, ORF3 and ORF8 in SARS-CoV-2 are highly divergent from ORF3a and ORF8b in SARS-CoV that are known to induce NLRP3 inflammasome activation.",
+      "key": "28139a0590a05358d36e46d3180d301c",
+      "line": 99,
+      "relation": "association",
+      "source": 6,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "Particularly, ORF3 and ORF8 in SARS-CoV-2 are highly divergent from ORF3a and ORF8b in SARS-CoV that are known to induce NLRP3 inflammasome activation.",
+      "key": "8eea3d1ec0ec94cbd3ab4d6290f213c3",
+      "line": 99,
+      "relation": "association",
+      "source": 13,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CP",
+          "Fung SY",
+          "Jin DY",
+          "Ye ZW",
+          "Yuen KS"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32190290",
+        "db_name": "Cell &amp; bioscience",
+        "first": "Yuen KS",
+        "last": "Jin DY",
+        "pages": "40",
+        "volume": "10"
+      },
+      "evidence": "ORF3 of SARS-CoV-2 is also significantly different from the interferon antagonist ORF3b of SARS-CoV.",
+      "key": "b681511832f0dc45de882bf14286acf2",
+      "line": 104,
+      "relation": "association",
+      "source": 12,
+      "target": 5
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:\"antiviral drug\")",
+      "concept": {
+        "name": "antiviral drug",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "7d8331630891e7c2734e1db99c564d9f"
+    },
+    {
+      "bel": "a(CHEBI:steroid)",
+      "concept": {
+        "name": "steroid",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "5efab5fc1af093bd03489f015b9e29c4"
+    },
+    {
+      "bel": "a(PUBCHEM:121304016)",
+      "concept": {
+        "name": "121304016",
+        "namespace": "PUBCHEM"
+      },
+      "function": "Abundance",
+      "id": "7704f9ea62204912dace9e0cfb704c95"
+    },
+    {
+      "bel": "a(PUBCHEM:46504458)",
+      "concept": {
+        "name": "46504458",
+        "namespace": "PUBCHEM"
+      },
+      "function": "Abundance",
+      "id": "4ad30cafa2a2245bf4a5d19f7539cf64"
+    },
+    {
+      "bel": "a(PUBCHEM:71306834)",
+      "concept": {
+        "name": "71306834",
+        "namespace": "PUBCHEM"
+      },
+      "function": "Abundance",
+      "id": "a2f82738d24181e9361feec4e3c12b61"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "a824ba056422b4e42996cd3269ec9a19"
+    },
+    {
+      "bel": "p(COVID:N)",
+      "concept": {
+        "name": "N",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "a1054f8b8ac9a90d2ad484980fa2a350"
+    },
+    {
+      "bel": "p(COVID:ORF3)",
+      "concept": {
+        "name": "ORF3",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "32153b8750e1f0789016aa560e78f6de"
+    },
+    {
+      "bel": "p(COVID:ORF8)",
+      "concept": {
+        "name": "ORF8",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "e26cdcc8f256cea0707d9c43501ed8e6"
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(UNIPROT:J9TEM7)",
+      "concept": {
+        "name": "J9TEM7",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "7d39facb9979054e18c756b501a2f46a"
+    },
+    {
+      "bel": "p(UNIPROT:P59633)",
+      "concept": {
+        "name": "P59633",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "fea0c834323c69c1cff4895387e3fec4"
+    },
+    {
+      "bel": "p(UNIPROT:Q6S8E2)",
+      "concept": {
+        "name": "Q6S8E2",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "84de7ea3ee68f26128e688fde5d3455a"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"severe acute respiratory syndrome\")",
+      "concept": {
+        "name": "severe acute respiratory syndrome",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "06fc6690e6ddfff254197e953a470c95"
+    },
+    {
+      "bel": "path(DO:diarrhea)",
+      "concept": {
+        "name": "diarrhea",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "f53fc3580f7450b941e98608ca05fddb"
+    },
+    {
+      "bel": "path(HP:\"Ground-glass opacification on pulmonary HRCT\")",
+      "concept": {
+        "name": "Ground-glass opacification on pulmonary HRCT",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "84ff186012d6eb9a071d53766af91a2e"
+    }
+  ]
+}

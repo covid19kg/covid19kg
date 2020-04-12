@@ -1,0 +1,3120 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Species": [
+        "60711"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "CellLine": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno",
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Geena Mariya Jose",
+      "contact": "geena.mariya.jose@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "19398035.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+    },
+    "path": "19398035.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "We found that wild type 3a (3a-WT) protein localized to the plasma membrane (Fig. 1B and F), and also displayed a punctate cytoplasmic staining pattern (Fig. 1B and F).",
+      "key": "1bcd0989f41b885371ec835f64aba8de",
+      "line": 49,
+      "relation": "association",
+      "source": 15,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "We found that wild type 3a (3a-WT) protein localized to the plasma membrane (Fig. 1B and F), and also displayed a punctate cytoplasmic staining pattern (Fig. 1B and F).",
+      "key": "d28c0651ed1fecf25e56ae0e99c61739",
+      "line": 50,
+      "relation": "association",
+      "source": 15,
+      "target": 2
+    },
+    {
+      "key": "b0dcfcc8884d050f72ed215b7a33ca2f",
+      "relation": "hasVariant",
+      "source": 15,
+      "target": 18
+    },
+    {
+      "key": "f7fbf0504cd3407f5feba54e35c42a1c",
+      "relation": "hasVariant",
+      "source": 15,
+      "target": 20
+    },
+    {
+      "key": "c3f9d5ebf6da459748cce33c94a15b25",
+      "relation": "hasVariant",
+      "source": 15,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Consistent with previous findings (Lawet al., 2005),we showed that up to 60% of 3a-WT-expressing Vero E6 cells displayed nuclear condensation (Fig. 2A).",
+      "key": "2d7cce5f18b7579e10ef1ebe0bd1b75e",
+      "line": 61,
+      "relation": "increases",
+      "source": 15,
+      "target": 6
+    },
+    {
+      "key": "93de9ce0997254e2e675e5807857d5fc",
+      "relation": "hasVariant",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Here, we found that both caspase-8- and -9-specific inhibitors significantly suppressed nuclear condensation induced by 3a-WT in Vero E6 cells (Fig. 2C).",
+      "key": "3e79a468321234d0f70b4a4d442b6806",
+      "line": 74,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 15,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Here, we found that both caspase-8- and -9-specific inhibitors significantly suppressed nuclear condensation induced by 3a-WT in Vero E6 cells (Fig. 2C).",
+      "key": "2038e4c914c9b6592f64a9da470114e0",
+      "line": 75,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "This indicates 3a triggers apoptosis through both the death receptor- and mitochondria-mediated pathways.",
+      "key": "47e5d8cd81757b4bfd8d91eee8496e66",
+      "line": 79,
+      "relation": "increases",
+      "source": 15,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "This indicates 3a triggers apoptosis through both the death receptor- and mitochondria-mediated pathways.",
+      "key": "de0352a0dbb7ff57db2f0a1ca097810a",
+      "line": 80,
+      "relation": "increases",
+      "source": 15,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "When we treated 3a-WT-expressing Vero E6 cells with a broad-spectrum caspase inhibitor z-VAD-fmk (Van Noorden, 2001) which blocks caspase-dependent apoptosis in general, a similar level of inhibition was again observed (Fig. 2D).",
+      "key": "843df520da052621be8c508a3931aa91",
+      "line": 83,
+      "relation": "increases",
+      "source": 15,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Eye": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "7227": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "As previously reported (Wong et al., 2005), 3a-WT-expressing transgenic animals displayed an increased number of AO-positive cells (Fig. 5B) when compared to the gmr-GAL4 driver control (Fig. 5A).",
+      "key": "54f53635dc4f7bfa659531cabe224c85",
+      "line": 117,
+      "relation": "increases",
+      "source": 15,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "western blot": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Here, we show that 3a-WT protein induced Bid cleavage (Fig. 3A) and mitochondrial cytochrome c release (Fig. 3B).",
+      "key": "1951595063a384ba4a1b73fa67b9addc",
+      "line": 96,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "western blot": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Here, we show that 3a-WT protein induced Bid cleavage (Fig. 3A) and mitochondrial cytochrome c release (Fig. 3B).",
+      "key": "2f6245a6c78102ddec5a444ccc4d3934",
+      "line": 97,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 15,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Eye": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "7227": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "We previously reported that overexpression of 3a- WT protein caused a rough-eye phenotype, and the eye size was also reduced due to excessive cell death (Wong et al., 2005; Fig. 4B).",
+      "key": "95eb3d5c08e8ac2a1912bf30e7100221",
+      "line": 105,
+      "relation": "increases",
+      "source": 15,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "scanning electron microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Eye": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "7227": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Nevertheless, we found that both 3a-WT (Fig. 4G) and 3a mutants (Fig. 4H–J) caused disruption of external eye morphology by scanning electron microscopy.",
+      "key": "deafc1e4ebc2f2cdcddd1f9c37ae5575",
+      "line": 110,
+      "relation": "increases",
+      "source": 15,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Eye": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "7227": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "We previously reported that overexpression of 3a- WT protein caused a rough-eye phenotype, and the eye size was also reduced due to excessive cell death (Wong et al., 2005; Fig. 4B).",
+      "key": "15440082b926ab15e449a690ad911a0c",
+      "line": 106,
+      "relation": "increases",
+      "source": 15,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electrophysiological method": true
+        },
+        "CellLine": {
+          "HEK293": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Cells expressing 3a-WT-EGFP displayed a larger membrane current over the potential range (Fig. 6B) when compared to the mock transfected cells (Fig. 6A).",
+      "key": "49259a78720f52d6dd98fa5511489295",
+      "line": 129,
+      "relation": "increases",
+      "source": 15,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "To intervene the ion channel function we treated 3a-WT-transfected Vero E6 cells with ion channel blockers, 4-aminopyridine (AP) or Ba, and found that both inhibitors were able to suppress 3a-WT-induced nuclear condensation (Fig. 6F).",
+      "key": "2eb868941f5fd0730b94e335da0f35af",
+      "line": 149,
+      "relation": "increases",
+      "source": 15,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Eye": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "7227": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "We found that the number of AO positive cells was largely reduced in 3a-WT-expressing larvae that were treated with Ba (Fig. 7C) when compared to the untreated control (Fig. 7B).",
+      "key": "17b00f088059355694ef842bccdbf099",
+      "line": 160,
+      "relation": "increases",
+      "source": 15,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electrophysiological method": true
+        },
+        "CellLine": {
+          "HEK293": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Cells expressing 3a-WT-EGFP displayed a larger membrane current over the potential range (Fig. 6B) when compared to the mock transfected cells (Fig. 6A).",
+      "key": "1b7d6e5de8aebb90df19e838c49e78ef",
+      "line": 130,
+      "relation": "increases",
+      "source": 15,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "To intervene the ion channel function we treated 3a-WT-transfected Vero E6 cells with ion channel blockers, 4-aminopyridine (AP) or Ba, and found that both inhibitors were able to suppress 3a-WT-induced nuclear condensation (Fig. 6F).",
+      "key": "08b713799c585fea5201b55f0540f2bc",
+      "line": 150,
+      "relation": "increases",
+      "source": 15,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Eye": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "7227": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "We found that the number of AO positive cells was largely reduced in 3a-WT-expressing larvae that were treated with Ba (Fig. 7C) when compared to the untreated control (Fig. 7B).",
+      "key": "cc444c45d89be5e10154f1c80caf795e",
+      "line": 161,
+      "relation": "increases",
+      "source": 15,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electrophysiological method": true
+        },
+        "CellLine": {
+          "HEK293": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "We further found that addition of ion channel blocker barium chloride (Ba) altered the cell membrane current mediated by 3a-WT-EGFP, 3a-YA-EGFP and 3a-DE-EGFP proteins (Fig. 6B–D).",
+      "key": "0f740ac014c898aa78ccad9fc7598d3b",
+      "line": 141,
+      "relation": "isA",
+      "source": 15,
+      "target": 3
+    },
+    {
+      "key": "99189c256f85fac979aed07fa195ca0b",
+      "relation": "hasVariant",
+      "source": 15,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "We found that wild type 3a (3a-WT) protein localized to the plasma membrane (Fig. 1B and F), and also displayed a punctate cytoplasmic staining pattern (Fig. 1B and F).",
+      "key": "e0704e70175ea00a0512914a775deddd",
+      "line": 49,
+      "relation": "association",
+      "source": 1,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "We found that wild type 3a (3a-WT) protein localized to the plasma membrane (Fig. 1B and F), and also displayed a punctate cytoplasmic staining pattern (Fig. 1B and F).",
+      "key": "fca3c490db03e56b620e8d353a0e0fc2",
+      "line": 50,
+      "relation": "association",
+      "source": 2,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "In contrast to 3a-WT, the 3a-CS mutant protein lost the plasma membrane localization and became more concentrated in the cytoplasm and the perinuclear region (Fig. 1C and F).",
+      "key": "5600c43cad5cb624808dec2ec26a9499",
+      "line": 53,
+      "relation": "association",
+      "source": 2,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Similarly, the plasma membrane localization of 3a-YA (Fig. 1D and F) and 3a-DE (Fig. 1E and F) mutants was partially reduced with a concomitant increase in cytoplasmic signals.",
+      "key": "695ad8aed2155e0555e390af13152d4f",
+      "line": 57,
+      "relation": "association",
+      "source": 2,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Similarly, the plasma membrane localization of 3a-YA (Fig. 1D and F) and 3a-DE (Fig. 1E and F) mutants was partially reduced with a concomitant increase in cytoplasmic signals.",
+      "key": "d5dcb509f6213e010af1a1dc58235d3f",
+      "line": 58,
+      "relation": "association",
+      "source": 2,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "In contrast to 3a-WT, the 3a-CS mutant protein lost the plasma membrane localization and became more concentrated in the cytoplasm and the perinuclear region (Fig. 1C and F).",
+      "key": "7d39378b0bf78200731cfb62b3d56785",
+      "line": 53,
+      "relation": "association",
+      "source": 18,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "In contrast to 3a-WT, the 3a-CS mutant protein lost the plasma membrane localization and became more concentrated in the cytoplasm and the perinuclear region (Fig. 1C and F).",
+      "key": "56620c57a8d4d6cfaa83cb6b32678975",
+      "line": 54,
+      "relation": "association",
+      "source": 18,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Unlike 3a-CS-YA-DE triple mutant, cells expressing single mutant proteins (3a-CS, 3a-DE and 3a-YA) displayed more prominent nuclear condensation (Fig. 2C).",
+      "key": "ec2b32a29ebf9b7d20c33aacce196c8e",
+      "line": 68,
+      "relation": "increases",
+      "source": 18,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Consistent with the caspase inhibition results,we further showed that the activities of caspase-8 and -9 were significantly reduced in all 3a mutant expressing cells (Fig. 2E and F).",
+      "key": "3fc7ed7b992c4aea4915a51c78245519",
+      "line": 87,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "decreases",
+      "source": 18,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Consistent with the caspase inhibition results,we further showed that the activities of caspase-8 and -9 were significantly reduced in all 3a mutant expressing cells (Fig. 2E and F).",
+      "key": "7fc4bf777a0ba6ad12279410306f2f13",
+      "line": 90,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "decreases",
+      "source": 18,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "scanning electron microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Eye": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "7227": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Nevertheless, we found that both 3a-WT (Fig. 4G) and 3a mutants (Fig. 4H–J) caused disruption of external eye morphology by scanning electron microscopy.",
+      "key": "a4d1f5f9f978228fe44390402c87230f",
+      "line": 111,
+      "relation": "increases",
+      "source": 18,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Eye": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "7227": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "In contrast to 3a-WT, relatively few number of AO-positive cells were detected in 3a-CS, 3a-YA and 3a-DE mutant animals (Fig. 5C–E).",
+      "key": "cd1a5b6a45cedc6b520de534734fb669",
+      "line": 120,
+      "relation": "decreases",
+      "source": 18,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electrophysiological method": true
+        },
+        "CellLine": {
+          "HEK293": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Notably, 3a-CS-EGFP-expressing cells displayed whole cell currents that were similar to that of mock transfected cells (Fig. 6E), indicating the 3a-CS mutant protein lacks ion channel activity.",
+      "key": "f58dc6b7fcffe27ce89b09c0370bde1b",
+      "line": 137,
+      "relation": "decreases",
+      "source": 18,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electrophysiological method": true
+        },
+        "CellLine": {
+          "HEK293": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Notably, 3a-CS-EGFP-expressing cells displayed whole cell currents that were similar to that of mock transfected cells (Fig. 6E), indicating the 3a-CS mutant protein lacks ion channel activity.",
+      "key": "4dce161be474651a7cc77cee64dd8ecc",
+      "line": 138,
+      "relation": "decreases",
+      "source": 18,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "In contrast to 3a-WT, the 3a-CS mutant protein lost the plasma membrane localization and became more concentrated in the cytoplasm and the perinuclear region (Fig. 1C and F).",
+      "key": "ad4406e60659a46e2fd1540a506adba7",
+      "line": 54,
+      "relation": "association",
+      "source": 0,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Similarly, the plasma membrane localization of 3a-YA (Fig. 1D and F) and 3a-DE (Fig. 1E and F) mutants was partially reduced with a concomitant increase in cytoplasmic signals.",
+      "key": "7b698f25ce1b13902035ae623fec43ae",
+      "line": 57,
+      "relation": "association",
+      "source": 20,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Unlike 3a-CS-YA-DE triple mutant, cells expressing single mutant proteins (3a-CS, 3a-DE and 3a-YA) displayed more prominent nuclear condensation (Fig. 2C).",
+      "key": "18f9798e73521bd5f297ed750df1f67b",
+      "line": 69,
+      "relation": "increases",
+      "source": 20,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Consistent with the caspase inhibition results,we further showed that the activities of caspase-8 and -9 were significantly reduced in all 3a mutant expressing cells (Fig. 2E and F).",
+      "key": "03ae0c89c90f5a32a5c7ff6e03d9e92c",
+      "line": 88,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "decreases",
+      "source": 20,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Consistent with the caspase inhibition results,we further showed that the activities of caspase-8 and -9 were significantly reduced in all 3a mutant expressing cells (Fig. 2E and F).",
+      "key": "1f9c5206c9b81203efa2a211e9175f2a",
+      "line": 91,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "decreases",
+      "source": 20,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "scanning electron microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Eye": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "7227": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Nevertheless, we found that both 3a-WT (Fig. 4G) and 3a mutants (Fig. 4H–J) caused disruption of external eye morphology by scanning electron microscopy.",
+      "key": "a5046f86b96f503e7405c0f5a3a10401",
+      "line": 112,
+      "relation": "increases",
+      "source": 20,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Eye": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "7227": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "In contrast to 3a-WT, relatively few number of AO-positive cells were detected in 3a-CS, 3a-YA and 3a-DE mutant animals (Fig. 5C–E).",
+      "key": "2254182a92ad564777c4fbb3d011f6ed",
+      "line": 121,
+      "relation": "decreases",
+      "source": 20,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electrophysiological method": true
+        },
+        "CellLine": {
+          "HEK293": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "We also detected channel activities in 3a-YA-EGFP and 3a-DE-EGFP- expressing cells (Fig. 6C and D), however, the activities were found to be different from that observed in 3a- WT-EGFP-expressing cells.",
+      "key": "d54a4902e967c8be70e7b38aa82f581d",
+      "line": 133,
+      "relation": "increases",
+      "source": 20,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electrophysiological method": true
+        },
+        "CellLine": {
+          "HEK293": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "We further found that addition of ion channel blocker barium chloride (Ba) altered the cell membrane current mediated by 3a-WT-EGFP, 3a-YA-EGFP and 3a-DE-EGFP proteins (Fig. 6B–D).",
+      "key": "1d9b399eb01eeab9559b38555bba0e71",
+      "line": 142,
+      "relation": "isA",
+      "source": 20,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Similarly, the plasma membrane localization of 3a-YA (Fig. 1D and F) and 3a-DE (Fig. 1E and F) mutants was partially reduced with a concomitant increase in cytoplasmic signals.",
+      "key": "b4a3b5b8267e64dca779dea5cf0d5733",
+      "line": 58,
+      "relation": "association",
+      "source": 17,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Unlike 3a-CS-YA-DE triple mutant, cells expressing single mutant proteins (3a-CS, 3a-DE and 3a-YA) displayed more prominent nuclear condensation (Fig. 2C).",
+      "key": "97629ee0d57852937e8a40a5dcbd4f9a",
+      "line": 70,
+      "relation": "increases",
+      "source": 17,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Consistent with the caspase inhibition results,we further showed that the activities of caspase-8 and -9 were significantly reduced in all 3a mutant expressing cells (Fig. 2E and F).",
+      "key": "fb777c8ecfcf9aac19c87c7c69686919",
+      "line": 89,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "decreases",
+      "source": 17,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Consistent with the caspase inhibition results,we further showed that the activities of caspase-8 and -9 were significantly reduced in all 3a mutant expressing cells (Fig. 2E and F).",
+      "key": "eb7c3642e247086bbcacd109a3dea5c3",
+      "line": 92,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "decreases",
+      "source": 17,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "scanning electron microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Eye": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "7227": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Nevertheless, we found that both 3a-WT (Fig. 4G) and 3a mutants (Fig. 4H–J) caused disruption of external eye morphology by scanning electron microscopy.",
+      "key": "6e217710d018ab368842eab3e1d09885",
+      "line": 113,
+      "relation": "increases",
+      "source": 17,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Eye": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "7227": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "In contrast to 3a-WT, relatively few number of AO-positive cells were detected in 3a-CS, 3a-YA and 3a-DE mutant animals (Fig. 5C–E).",
+      "key": "72fbfdad2dfc2a14d6b8aef5c5cdaedd",
+      "line": 122,
+      "relation": "decreases",
+      "source": 17,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electrophysiological method": true
+        },
+        "CellLine": {
+          "HEK293": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "We also detected channel activities in 3a-YA-EGFP and 3a-DE-EGFP- expressing cells (Fig. 6C and D), however, the activities were found to be different from that observed in 3a- WT-EGFP-expressing cells.",
+      "key": "6d574b3729d34d35c1b69eccbc1b9d0d",
+      "line": 134,
+      "relation": "increases",
+      "source": 17,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electrophysiological method": true
+        },
+        "CellLine": {
+          "HEK293": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "We further found that addition of ion channel blocker barium chloride (Ba) altered the cell membrane current mediated by 3a-WT-EGFP, 3a-YA-EGFP and 3a-DE-EGFP proteins (Fig. 6B–D).",
+      "key": "1d64ffd351204f1aec74f309ca644d1a",
+      "line": 143,
+      "relation": "isA",
+      "source": 17,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "When compared with 3a-WT,we observed a∼5-fold reduction of the number of condensed nuclei in cell population expressing the 3a-CS-YA-DE triple mutant protein (Fig. 2B).",
+      "key": "969b28a6214d6fa99bbc4206350629b1",
+      "line": 64,
+      "relation": "decreases",
+      "source": 16,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Here, we found that both caspase-8- and -9-specific inhibitors significantly suppressed nuclear condensation induced by 3a-WT in Vero E6 cells (Fig. 2C).",
+      "key": "8f923dd85a22d28431b85c6f29e78705",
+      "line": 76,
+      "relation": "increases",
+      "source": 11,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 6
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunocytochemistry": true
+        },
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Custom_Species": {
+          "60711": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "Here, we found that both caspase-8- and -9-specific inhibitors significantly suppressed nuclear condensation induced by 3a-WT in Vero E6 cells (Fig. 2C).",
+      "key": "a9ed79d29a888a6a1c9f830ac55fb57c",
+      "line": 77,
+      "relation": "increases",
+      "source": 13,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 6
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "To intervene the ion channel function we treated 3a-WT-transfected Vero E6 cells with ion channel blockers, 4-aminopyridine (AP) or Ba, and found that both inhibitors were able to suppress 3a-WT-induced nuclear condensation (Fig. 6F).",
+      "key": "eec7bed94d917f6b3e0e4649bbaacc76",
+      "line": 151,
+      "relation": "increases",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Eye": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "7227": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "We found that the number of AO positive cells was largely reduced in 3a-WT-expressing larvae that were treated with Ba (Fig. 7C) when compared to the untreated control (Fig. 7B).",
+      "key": "356ca7c4f4078e4dc65a2ca77c6eb1a4",
+      "line": 162,
+      "relation": "increases",
+      "source": 9,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chan CM",
+          "Chan HY",
+          "Chan WM",
+          "Chan WY",
+          "Tsoi H",
+          "Tsui SK",
+          "Wong CO",
+          "Yao X",
+          "Zhai S"
+        ],
+        "date": "2009-11-01",
+        "db": "PubMed",
+        "db_id": "19398035",
+        "db_name": "The international journal of biochemistry &amp; cell biology",
+        "first": "Chan CM",
+        "last": "Chan HY",
+        "pages": "2232-9",
+        "volume": "41"
+      },
+      "evidence": "It has previously been shown that the C133S point mutation (Lu et al., 2006) compromised 3a’s ion channel activity.",
+      "key": "6635f278dd471b56681c39a2c032c816",
+      "line": 155,
+      "relation": "decreases",
+      "source": 19,
+      "target": 9
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(GO:\"perinuclear region of cytoplasm\")",
+      "concept": {
+        "name": "perinuclear region of cytoplasm",
+        "namespace": "GO"
+      },
+      "function": "Abundance",
+      "id": "af1b1526a29eca7b33f179dfd9ebc4df"
+    },
+    {
+      "bel": "a(GO:\"plasma membrane\")",
+      "concept": {
+        "name": "plasma membrane",
+        "namespace": "GO"
+      },
+      "function": "Abundance",
+      "id": "3e074a90d5bf024e09f9247724f474cd"
+    },
+    {
+      "bel": "a(GO:cytoplasm)",
+      "concept": {
+        "name": "cytoplasm",
+        "namespace": "GO"
+      },
+      "function": "Abundance",
+      "id": "2eefe0aae5d452b20fac5e2d05420302"
+    },
+    {
+      "bel": "a(MESH:\"Ion Channels\")",
+      "concept": {
+        "name": "Ion Channels",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "b5a933459f5a001ac24d5ab4e36e4ee7"
+    },
+    {
+      "bel": "bp(GO:\"apoptotic process\")",
+      "concept": {
+        "name": "apoptotic process",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "9eb8739869ef0e82697f61a33d3d6afa"
+    },
+    {
+      "bel": "bp(GO:\"cell death\")",
+      "concept": {
+        "name": "cell death",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "07a2f2734c3682bcb47105485c15b346"
+    },
+    {
+      "bel": "bp(GO:\"chromosome condensation\")",
+      "concept": {
+        "name": "chromosome condensation",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "1d93a32b6bdcf6627c56c8afdf49974d"
+    },
+    {
+      "bel": "bp(GO:\"extrinsic apoptotic signaling pathway via death domain receptors\")",
+      "concept": {
+        "name": "extrinsic apoptotic signaling pathway via death domain receptors",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "fe1c145b97b8f2ab06f627982b5ea90e"
+    },
+    {
+      "bel": "bp(GO:\"intrinsic apoptotic signaling pathway\")",
+      "concept": {
+        "name": "intrinsic apoptotic signaling pathway",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "9a00911e35d7cf83c6bdd47ce3f504e2"
+    },
+    {
+      "bel": "bp(GO:\"ion channel activity\")",
+      "concept": {
+        "name": "ion channel activity",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "6bc08d22488046bc0999017cf13eb5a5"
+    },
+    {
+      "bel": "bp(GO:\"ion transport\")",
+      "concept": {
+        "name": "ion transport",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "927fa0ec3d557bb00831252adb581c04"
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9REG4)",
+      "concept": {
+        "name": "A0A0D9REG4",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "1b9952ca7f7b9bdd3e2f2701cedacc8f"
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9RP74)",
+      "concept": {
+        "name": "A0A0D9RP74",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "c555c05e10d23896e919e411a2cfbbd8"
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9S8I4)",
+      "concept": {
+        "name": "A0A0D9S8I4",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "2759a16dca204942f2e592b75a232c44"
+    },
+    {
+      "bel": "p(UNIPROT:G4XXN2)",
+      "concept": {
+        "name": "G4XXN2",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "3f94535e68f1952ea86ad550d563b4c6"
+    },
+    {
+      "bel": "p(UNIPROT:P59632)",
+      "concept": {
+        "name": "P59632",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "3f9bf94203188b4bd8e831d4e61cb9cc"
+    },
+    {
+      "bel": "p(UNIPROT:P59632, var(\"p.Asp173Ala\"), var(\"p.Cys127Ser\"), var(\"p.Cys130Ser\"), var(\"p.Cys133Ser\"), var(\"p.Glu171Ala\"), var(\"p.Tyr160Ala\"))",
+      "concept": {
+        "name": "P59632",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "b9224805f21990493ea73c759cf5ac6a",
+      "variants": [
+        {
+          "hgvs": "p.Asp173Ala",
+          "kind": "hgvs"
+        },
+        {
+          "hgvs": "p.Cys127Ser",
+          "kind": "hgvs"
+        },
+        {
+          "hgvs": "p.Cys130Ser",
+          "kind": "hgvs"
+        },
+        {
+          "hgvs": "p.Cys133Ser",
+          "kind": "hgvs"
+        },
+        {
+          "hgvs": "p.Glu171Ala",
+          "kind": "hgvs"
+        },
+        {
+          "hgvs": "p.Tyr160Ala",
+          "kind": "hgvs"
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P59632, var(\"p.Asp173Ala\"), var(\"p.Glu171Ala\"))",
+      "concept": {
+        "name": "P59632",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "65fc59bfa3cf5a42ba4671232969b73c",
+      "variants": [
+        {
+          "hgvs": "p.Asp173Ala",
+          "kind": "hgvs"
+        },
+        {
+          "hgvs": "p.Glu171Ala",
+          "kind": "hgvs"
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P59632, var(\"p.Cys127Ser\"), var(\"p.Cys130Ser\"), var(\"p.Cys133Ser\"))",
+      "concept": {
+        "name": "P59632",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "01c748c0f97de46a13a9fdea39158046",
+      "variants": [
+        {
+          "hgvs": "p.Cys127Ser",
+          "kind": "hgvs"
+        },
+        {
+          "hgvs": "p.Cys130Ser",
+          "kind": "hgvs"
+        },
+        {
+          "hgvs": "p.Cys133Ser",
+          "kind": "hgvs"
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P59632, var(\"p.Cys133Ser\"))",
+      "concept": {
+        "name": "P59632",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "efe57a7958590cecb2ac61eacf67e32e",
+      "variants": [
+        {
+          "hgvs": "p.Cys133Ser",
+          "kind": "hgvs"
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P59632, var(\"p.Tyr160Ala\"))",
+      "concept": {
+        "name": "P59632",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "91a5751bf11f2bb0d9cc621bcce3d55e",
+      "variants": [
+        {
+          "hgvs": "p.Tyr160Ala",
+          "kind": "hgvs"
+        }
+      ]
+    },
+    {
+      "bel": "path(HP:\"Abnormal eye morphology\")",
+      "concept": {
+        "name": "Abnormal eye morphology",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "6b384fc6ea10ed47c75608e2cc5b86de"
+    }
+  ]
+}

@@ -1,0 +1,1341 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_CellLine": [
+        "Vero E6 cell"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Report"
+      ],
+      "Sample": [
+        "culture supernatant"
+      ],
+      "Section": [
+        "Full Text"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Abish K",
+      "contact": "abish@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32165541.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GFAM": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32165541.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "Previous studies (5, 6) have shown that the phylogenetically related SARS-CoV is proteolytically activated by TMPRSS2 in vitro and in vivo.",
+      "key": "8e6ff4796ae595a7ab623c2751e1a88d",
+      "line": 48,
+      "relation": "increases",
+      "source": 10,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 3
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative PCR": true
+        },
+        "Custom_CellLine": {
+          "Vero E6 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Sample": {
+          "culture supernatant": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "However, the viral RNA copies in the VeroE6/TMPRSS2 cell culture supernatants were >100 times greater than those from VeroE6 cells (Fig. 1 D and E).",
+      "key": "fc995285b9ef51f2f1a146faddb5f87b",
+      "line": 63,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "Vero E6 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "The results showed that VeroE6/TMPRSS2 displayed ∼10-fold greater number of SARS-CoV-2–infected cells than the parental VeroE6 cells. These data suggest that, in common with SARS-CoV, TMPRSS2 may also play an important role in SARS-CoV-2 cell entry.",
+      "key": "6360859987487b6ac10cf55293554d6a",
+      "line": 72,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 2
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "SARS-CoV and Middle East respiratory syndrome (MERS)-CoV can enter cells via endocytosis and use cathepsin in endosomes for activation (12–14). However, TMPRSS2 expression greatly promotes replication and syncytium formation in these viruses in vitro and in vivo (5, 6, 11, 12, 15).",
+      "key": "8007bd726626d71698557a8cdb896f9d",
+      "line": 85,
+      "relation": "increases",
+      "source": 10,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 4
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "Our findings suggest that TMPRSS2 is also likely to be a key protease for SARS-CoV-2 replication.",
+      "key": "eb1473eaef223b596bdfbae534f4c997",
+      "line": 90,
+      "relation": "increases",
+      "source": 10,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 4
+    },
+    {
+      "key": "a0b86dd6e793234be841daccde448f77",
+      "relation": "partOf",
+      "source": 3,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "SARS-CoV and Middle East respiratory syndrome (MERS)-CoV can enter cells via endocytosis and use cathepsin in endosomes for activation (12–14). However, TMPRSS2 expression greatly promotes replication and syncytium formation in these viruses in vitro and in vivo (5, 6, 11, 12, 15).",
+      "key": "bfd0e8e8c34a330f22359b6dcb361581",
+      "line": 82,
+      "relation": "association",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "Vero E6 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "SARS-CoV-2 uses the same receptor, ACE2, as SARS-CoV (2), and ACE2 expression is very high in VeroE6 cells (7).",
+      "key": "d957886a0886870f3078f5f24ca3181a",
+      "line": 54,
+      "relation": "increases",
+      "source": 8,
+      "target": 13
+    },
+    {
+      "key": "af79c896d7bc50ee51f44fdae49f7934",
+      "relation": "partOf",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "key": "d09b15d1e167cb52fa62f88669377ebd",
+      "relation": "partOf",
+      "source": 11,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "Vero E6 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "SARS-CoV-2 uses the same receptor, ACE2, as SARS-CoV (2), and ACE2 expression is very high in VeroE6 cells (7).",
+      "key": "b447c6e1bc1227b1be429fcbec21a640",
+      "line": 55,
+      "relation": "increases",
+      "source": 7,
+      "target": 12
+    },
+    {
+      "key": "321e70a9b1de7a54bbf6ecc6d8175b38",
+      "relation": "partOf",
+      "source": 2,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative PCR": true
+        },
+        "Custom_CellLine": {
+          "Vero E6 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Sample": {
+          "culture supernatant": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "However, the viral RNA copies in the VeroE6/TMPRSS2 cell culture supernatants were >100 times greater than those from VeroE6 cells (Fig. 1 D and E).",
+      "key": "598536c3e7c44cc641e904d1838e2668",
+      "line": 64,
+      "relation": "association",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "Vero E6 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "The results showed that VeroE6/TMPRSS2 displayed ∼10-fold greater number of SARS-CoV-2–infected cells than the parental VeroE6 cells. These data suggest that, in common with SARS-CoV, TMPRSS2 may also play an important role in SARS-CoV-2 cell entry.",
+      "key": "a3ae2938e42ca86debb9652982ef4fb0",
+      "line": 72,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "Our findings suggest that TMPRSS2 is also likely to be a key protease for SARS-CoV-2 replication.",
+      "key": "df85ee032cee45623d9b91bec7c4e892",
+      "line": 91,
+      "relation": "association",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative PCR": true
+        },
+        "Custom_CellLine": {
+          "Vero E6 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Sample": {
+          "culture supernatant": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "However, the viral RNA copies in the VeroE6/TMPRSS2 cell culture supernatants were >100 times greater than those from VeroE6 cells (Fig. 1 D and E).",
+      "key": "bfae48a65de3d10ae2d0506b2f98cf83",
+      "line": 63,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative PCR": true
+        },
+        "Custom_CellLine": {
+          "Vero E6 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Sample": {
+          "culture supernatant": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "However, the viral RNA copies in the VeroE6/TMPRSS2 cell culture supernatants were >100 times greater than those from VeroE6 cells (Fig. 1 D and E).",
+      "key": "0b30b768bfa223313ff8ff775527b58c",
+      "line": 64,
+      "relation": "association",
+      "source": 0,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "SARS-CoV and Middle East respiratory syndrome (MERS)-CoV can enter cells via endocytosis and use cathepsin in endosomes for activation (12–14). However, TMPRSS2 expression greatly promotes replication and syncytium formation in these viruses in vitro and in vivo (5, 6, 11, 12, 15).",
+      "key": "8f6213a5b44993b5a1bd423a68398136",
+      "line": 78,
+      "object": {
+        "location": {
+          "name": "endosome",
+          "namespace": "GO"
+        }
+      },
+      "relation": "increases",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "SARS-CoV and Middle East respiratory syndrome (MERS)-CoV can enter cells via endocytosis and use cathepsin in endosomes for activation (12–14). However, TMPRSS2 expression greatly promotes replication and syncytium formation in these viruses in vitro and in vivo (5, 6, 11, 12, 15).",
+      "key": "0dc18c1233e8300d55150e0193f1e40f",
+      "line": 79,
+      "object": {
+        "location": {
+          "name": "endosome",
+          "namespace": "GO"
+        }
+      },
+      "relation": "increases",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "SARS-CoV and Middle East respiratory syndrome (MERS)-CoV can enter cells via endocytosis and use cathepsin in endosomes for activation (12–14). However, TMPRSS2 expression greatly promotes replication and syncytium formation in these viruses in vitro and in vivo (5, 6, 11, 12, 15).",
+      "key": "19838022cfde6ed35c97a5fbac59bc25",
+      "line": 83,
+      "relation": "association",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "SARS-CoV and Middle East respiratory syndrome (MERS)-CoV can enter cells via endocytosis and use cathepsin in endosomes for activation (12–14). However, TMPRSS2 expression greatly promotes replication and syncytium formation in these viruses in vitro and in vivo (5, 6, 11, 12, 15).",
+      "key": "e3c0f4d31f4246d7d3378d00ebf518eb",
+      "line": 81,
+      "relation": "increases",
+      "source": 9,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "SARS-CoV and Middle East respiratory syndrome (MERS)-CoV can enter cells via endocytosis and use cathepsin in endosomes for activation (12–14). However, TMPRSS2 expression greatly promotes replication and syncytium formation in these viruses in vitro and in vivo (5, 6, 11, 12, 15).",
+      "key": "b93009e29baef6d0fd5bb40ba7969257",
+      "line": 82,
+      "relation": "association",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "SARS-CoV and Middle East respiratory syndrome (MERS)-CoV can enter cells via endocytosis and use cathepsin in endosomes for activation (12–14). However, TMPRSS2 expression greatly promotes replication and syncytium formation in these viruses in vitro and in vivo (5, 6, 11, 12, 15).",
+      "key": "2f4b8c7ed19796f45c9baac0c6adf773",
+      "line": 83,
+      "relation": "association",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Kageyama T",
+          "Kato F",
+          "Katoh H",
+          "Kawase M",
+          "Kuroda M",
+          "Kutsuna S",
+          "Matsuyama S",
+          "Nagata N",
+          "Nao N",
+          "Ohmagari N",
+          "Saito S",
+          "Sakata M",
+          "Sekizuka T",
+          "Shirato K",
+          "Suzuki T",
+          "Tahara M",
+          "Takayama I",
+          "Takeda M"
+        ],
+        "date": "2020-03-31",
+        "db": "PubMed",
+        "db_id": "32165541",
+        "db_name": "Proceedings of the National Academy of Sciences of the United States of America",
+        "first": "Matsuyama S",
+        "last": "Takeda M",
+        "pages": "7001-7003",
+        "volume": "117"
+      },
+      "evidence": "Our findings suggest that TMPRSS2 is also likely to be a key protease for SARS-CoV-2 replication.",
+      "key": "396271beb0f03edf28cbc07f90fd6c9d",
+      "line": 91,
+      "relation": "association",
+      "source": 4,
+      "target": 2
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(MESH:\"RNA, Viral\")",
+      "concept": {
+        "name": "RNA, Viral",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "ee3639abaecc7757e3d353fd9090a7e2"
+    },
+    {
+      "bel": "a(TAX:\"Middle East respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Middle East respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "f954d5cc971a29c7e7089ca32a056914"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "a824ba056422b4e42996cd3269ec9a19"
+    },
+    {
+      "bel": "bp(GO:\"viral genome replication\")",
+      "concept": {
+        "name": "viral genome replication",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "e08b08a1af1179857efa22393f4badf4"
+    },
+    {
+      "bel": "bp(GO:\"viral process\")",
+      "concept": {
+        "name": "viral process",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "93ae1ca3bfe907c3576ca4906da5c64f"
+    },
+    {
+      "bel": "bp(GO:endocytosis)",
+      "concept": {
+        "name": "endocytosis",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "4dfe1bc8ad46020348f422e95ecbfb54"
+    },
+    {
+      "bel": "complex(a(TAX:\"Severe acute respiratory syndrome coronavirus 2\"), p(UNIPROT:A0A0D9RQZ0))",
+      "function": "Complex",
+      "id": "21507f0c5555ea884e5410c058ff5d68",
+      "members": [
+        {
+          "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+          "concept": {
+            "name": "Severe acute respiratory syndrome coronavirus 2",
+            "namespace": "TAX"
+          },
+          "function": "Abundance",
+          "id": "c41851da59cc36c21b2e8acf24c1f46d"
+        },
+        {
+          "bel": "p(UNIPROT:A0A0D9RQZ0)",
+          "concept": {
+            "name": "A0A0D9RQZ0",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "739508b2289934835fb174b9da81b196"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(TAX:\"Severe acute respiratory syndrome-related coronavirus\"), p(UNIPROT:A0A0D9RQZ0))",
+      "function": "Complex",
+      "id": "862442cb17e18b25c66e2b904bb61ead",
+      "members": [
+        {
+          "bel": "a(TAX:\"Severe acute respiratory syndrome-related coronavirus\")",
+          "concept": {
+            "name": "Severe acute respiratory syndrome-related coronavirus",
+            "namespace": "TAX"
+          },
+          "function": "Abundance",
+          "id": "a824ba056422b4e42996cd3269ec9a19"
+        },
+        {
+          "bel": "p(UNIPROT:A0A0D9RQZ0)",
+          "concept": {
+            "name": "A0A0D9RQZ0",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "739508b2289934835fb174b9da81b196"
+        }
+      ]
+    },
+    {
+      "bel": "p(GFAM:Cathepsins)",
+      "concept": {
+        "name": "Cathepsins",
+        "namespace": "GFAM"
+      },
+      "function": "Protein",
+      "id": "c72944061010313dc2028736fe347d11"
+    },
+    {
+      "bel": "p(HGNC:TMPRSS2)",
+      "concept": {
+        "name": "TMPRSS2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "1ac71e8152c90a7b43c9bc546579050d"
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9RQZ0)",
+      "concept": {
+        "name": "A0A0D9RQZ0",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "739508b2289934835fb174b9da81b196"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"severe acute respiratory syndrome\")",
+      "concept": {
+        "name": "severe acute respiratory syndrome",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "06fc6690e6ddfff254197e953a470c95"
+    }
+  ]
+}

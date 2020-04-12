@@ -1,0 +1,58 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Omotuyi_et.al_2020.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+# Document Annotations #
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results","Conclusion"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"DOI","10.20944/preprints202003.0466.v1"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+
+SET Evidence =  "When ACE-2 and RBD were tested for UBR binding separately, a nearly similar result (Fig. 2B, i&ii) was obtained strongly indicating that
+UBR binding is predominantly driven by ACE-2. The estimated energy of binding supports this conclusion as RBD/UBR, ACE-2/UBR and RBD/ACE-2/UBR binding energies were estimated as -45.93 ± 2.89, -50.19 ± 4.32 and -72.16 ± 4.09 kcal/mol (Table 1.0). By implication, UBR has the highest affinity for RBD/ACE-2 complex but can also bind to unoccupied receptor."
+
+SET BioAssay = "molecular docking"
+a(PUBCHEM:68748835) -| p(COVID:S, frag("319_541"))
+a(PUBCHEM:68748835) -| p(HGNC:ACE2)
+a(PUBCHEM:68748835) -| complex(p(COVID:S, frag("319_541")), p(HGNC:ACE2))
+UNSET BioAssay
+UNSET Section
+
+SET Section = "Conclusion"
+SET Evidence = "The ability of ubrogepant to rupture the interaction at the RBD/ACE-2 interface residues of SARS-CoV-2 RBD/ACE-2 complex may result in loss of protein function with direct implication on oligomerization formation in RBD and loss of function in ACE-2 thus, making binding, cellular receptor recognition impossible."
+
+a(PUBCHEM:68748835) -| complex(p(COVID:S, frag("319_541")), p(HGNC:ACE2))
+p(COVID:S, frag("319_541")) -> bp(GO:"protein oligomerization")
+a(PUBCHEM:68748835) -| bp(GO:"protein oligomerization")
+a(PUBCHEM:68748835) -| p(HGNC:ACE2)
+UNSET Section
+UNSET PublicationType
+UNSET PublicationStatus

@@ -1,0 +1,1002 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Preprint",
+        "Published"
+      ],
+      "PublicationType": [
+        "Research",
+        "Review"
+      ],
+      "Section": [
+        "Abstract",
+        "Full Text",
+        "Results"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "CellLine": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Shounak Baksi",
+      "contact": "shounak.baksi@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32231345.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "FIXME": ".*"
+    },
+    "namespace_url": {
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "EFO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/efo/efo-20171206.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32231345.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bao L",
+          "Du L",
+          "Feng S",
+          "Jiang S",
+          "Lan Q",
+          "Liu M",
+          "Liu S",
+          "Lu L",
+          "Qi F",
+          "Qin C",
+          "Shi Z",
+          "Sun F",
+          "Wang C",
+          "Xia S",
+          "Xu W",
+          "Zhu Y"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32231345",
+        "db_name": "Cell research",
+        "first": "Xia S",
+        "last": "Lu L",
+        "pages": "343-355",
+        "volume": "30"
+      },
+      "evidence": "S1 subunit is located within the N-terminal 14–685 amino acids of S protein, containing N-terminal domain (NTD), receptor binding domain (RBD), and receptor binding motif (RBM). S2 subunit contains fusion peptide (FP), heptad repeat 1 (HR1), heptad repeat 2 (HR2), transmembrane domain (TM) and cytoplasmic domain (CP) (Fig. 1b).",
+      "key": "d193d8a9ffb05060277f1c5902406961",
+      "line": 85,
+      "relation": "increases",
+      "source": 8,
+      "target": 3
+    },
+    {
+      "key": "2f6730b11f0c06aed0a88f81e2534b86",
+      "relation": "hasVariant",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "key": "cc2d182e46a7afcbe8de0b32b4f87ed1",
+      "relation": "partOf",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "HEK293-T-REx cell": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bao L",
+          "Du L",
+          "Feng S",
+          "Jiang S",
+          "Lan Q",
+          "Liu M",
+          "Liu S",
+          "Lu L",
+          "Qi F",
+          "Qin C",
+          "Shi Z",
+          "Sun F",
+          "Wang C",
+          "Xia S",
+          "Xu W",
+          "Zhu Y"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32231345",
+        "db_name": "Cell research",
+        "first": "Xia S",
+        "last": "Lu L",
+        "pages": "343-355",
+        "volume": "30"
+      },
+      "evidence": "Here, we further systematically evaluated the broad-spectrum surface-fusion inhibitory activity of EK1C4 on cell–cell fusion mediated by S proteins of divergent coronaviruses, including SARS-CoV, MERS-CoV, HCoV-OC43, HCoV-NL63 and HCoV-229E.Among them, SARS-CoV has the closest relative to SARS-CoV-2, and its S protein-mediated cell–cell fusion could be effectively inhibited by EK1C4 with IC50 of 4.3 nM, which is about 94-fold more active than that of EK1 (IC50 = 409.3 nM) (Fig. 5a).",
+      "key": "22e8235f4c6972644578b79a97dec591",
+      "line": 109,
+      "relation": "increases",
+      "source": 7,
+      "target": 2
+    },
+    {
+      "key": "2fac24f2b27106d2c0ea816941980bf5",
+      "relation": "hasVariant",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bao L",
+          "Du L",
+          "Feng S",
+          "Jiang S",
+          "Lan Q",
+          "Liu M",
+          "Liu S",
+          "Lu L",
+          "Qi F",
+          "Qin C",
+          "Shi Z",
+          "Sun F",
+          "Wang C",
+          "Xia S",
+          "Xu W",
+          "Zhu Y"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32231345",
+        "db_name": "Cell research",
+        "first": "Xia S",
+        "last": "Lu L",
+        "pages": "343-355",
+        "volume": "30"
+      },
+      "evidence": "Recent biophysical and structural evidence showed that SARS-CoV-2 S protein binds hACE2 with 10-fold to 20-fold higher affinity than SARS-CoV S protein, suggesting the higher infectivity of the new virus.12",
+      "key": "2d4cba8c71edff6f7f901fcdeb6e47a2",
+      "line": 89,
+      "relation": "increases",
+      "source": 5,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "HEK293-T-REx cell": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bao L",
+          "Du L",
+          "Feng S",
+          "Jiang S",
+          "Lan Q",
+          "Liu M",
+          "Liu S",
+          "Lu L",
+          "Qi F",
+          "Qin C",
+          "Shi Z",
+          "Sun F",
+          "Wang C",
+          "Xia S",
+          "Xu W",
+          "Zhu Y"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32231345",
+        "db_name": "Cell research",
+        "first": "Xia S",
+        "last": "Lu L",
+        "pages": "343-355",
+        "volume": "30"
+      },
+      "evidence": "After effector cells and target cells were cocultured at 37 °C for 2 h, the fused cells showed at least 2-fold larger size than normal cells and multiple nuclei, and these cells were observed in the SARS-CoV-2 group, but not the SARS-CoV group.",
+      "key": "daee143a15a6f8a8260e337f9a846711",
+      "line": 100,
+      "relation": "increases",
+      "source": 5,
+      "target": 4
+    },
+    {
+      "key": "1db03b2523b3b2cd2b465edf9382bc2a",
+      "relation": "partOf",
+      "source": 13,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Huh7 cell": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bao L",
+          "Du L",
+          "Feng S",
+          "Jiang S",
+          "Lan Q",
+          "Liu M",
+          "Liu S",
+          "Lu L",
+          "Qi F",
+          "Qin C",
+          "Shi Z",
+          "Sun F",
+          "Wang C",
+          "Xia S",
+          "Xu W",
+          "Zhu Y"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32231345",
+        "db_name": "Cell research",
+        "first": "Xia S",
+        "last": "Lu L",
+        "pages": "343-355",
+        "volume": "30"
+      },
+      "evidence": "Indeed, in live SARS-CoV-2 infection, we found a typical syncytium phenomenon naturally formed by infected cells, which is rarely reported in SARS-CoV infection (Fig. 1c). ",
+      "key": "61fbbfe147208a1adad434071f61bc89",
+      "line": 94,
+      "relation": "increases",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "HEK293-T-REx cell": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bao L",
+          "Du L",
+          "Feng S",
+          "Jiang S",
+          "Lan Q",
+          "Liu M",
+          "Liu S",
+          "Lu L",
+          "Qi F",
+          "Qin C",
+          "Shi Z",
+          "Sun F",
+          "Wang C",
+          "Xia S",
+          "Xu W",
+          "Zhu Y"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32231345",
+        "db_name": "Cell research",
+        "first": "Xia S",
+        "last": "Lu L",
+        "pages": "343-355",
+        "volume": "30"
+      },
+      "evidence": "Both of them could completely inhibit SARS-CoV-2 mediated cell–cell fusion at the concentration of 2.5 μM (Fig. 4b).",
+      "key": "fec58fbe7d1a26049736f160aac7571e",
+      "line": 104,
+      "relation": "decreases",
+      "source": 10,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "HEK293-T-REx cell": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bao L",
+          "Du L",
+          "Feng S",
+          "Jiang S",
+          "Lan Q",
+          "Liu M",
+          "Liu S",
+          "Lu L",
+          "Qi F",
+          "Qin C",
+          "Shi Z",
+          "Sun F",
+          "Wang C",
+          "Xia S",
+          "Xu W",
+          "Zhu Y"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32231345",
+        "db_name": "Cell research",
+        "first": "Xia S",
+        "last": "Lu L",
+        "pages": "343-355",
+        "volume": "30"
+      },
+      "evidence": "Both of them could completely inhibit SARS-CoV-2 mediated cell–cell fusion at the concentration of 2.5 μM (Fig. 4b).",
+      "key": "91be0a19f9f81ae0fa8b084e8596c12e",
+      "line": 105,
+      "relation": "decreases",
+      "source": 12,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "HEK293-T-REx cell": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bao L",
+          "Du L",
+          "Feng S",
+          "Jiang S",
+          "Lan Q",
+          "Liu M",
+          "Liu S",
+          "Lu L",
+          "Qi F",
+          "Qin C",
+          "Shi Z",
+          "Sun F",
+          "Wang C",
+          "Xia S",
+          "Xu W",
+          "Zhu Y"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32231345",
+        "db_name": "Cell research",
+        "first": "Xia S",
+        "last": "Lu L",
+        "pages": "343-355",
+        "volume": "30"
+      },
+      "evidence": "Here, we further systematically evaluated the broad-spectrum surface-fusion inhibitory activity of EK1C4 on cell–cell fusion mediated by S proteins of divergent coronaviruses, including SARS-CoV, MERS-CoV, HCoV-OC43, HCoV-NL63 and HCoV-229E.Among them, SARS-CoV has the closest relative to SARS-CoV-2, and its S protein-mediated cell–cell fusion could be effectively inhibited by EK1C4 with IC50 of 4.3 nM, which is about 94-fold more active than that of EK1 (IC50 = 409.3 nM) (Fig. 5a).",
+      "key": "e4d7ed1c81619318f3285c8399743ff7",
+      "line": 110,
+      "relation": "increases",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "HEK293-T-REx cell": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bao L",
+          "Du L",
+          "Feng S",
+          "Jiang S",
+          "Lan Q",
+          "Liu M",
+          "Liu S",
+          "Lu L",
+          "Qi F",
+          "Qin C",
+          "Shi Z",
+          "Sun F",
+          "Wang C",
+          "Xia S",
+          "Xu W",
+          "Zhu Y"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32231345",
+        "db_name": "Cell research",
+        "first": "Xia S",
+        "last": "Lu L",
+        "pages": "343-355",
+        "volume": "30"
+      },
+      "evidence": "Here, we further systematically evaluated the broad-spectrum surface-fusion inhibitory activity of EK1C4 on cell–cell fusion mediated by S proteins of divergent coronaviruses, including SARS-CoV, MERS-CoV, HCoV-OC43, HCoV-NL63 and HCoV-229E.Among them, SARS-CoV has the closest relative to SARS-CoV-2, and its S protein-mediated cell–cell fusion could be effectively inhibited by EK1C4 with IC50 of 4.3 nM, which is about 94-fold more active than that of EK1 (IC50 = 409.3 nM) (Fig. 5a).",
+      "key": "0958e62b5a5f226ef0644e9f4f82ee8f",
+      "line": 111,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "decreases",
+      "source": 11,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "HEK293-T-REx cell": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bao L",
+          "Du L",
+          "Feng S",
+          "Jiang S",
+          "Lan Q",
+          "Liu M",
+          "Liu S",
+          "Lu L",
+          "Qi F",
+          "Qin C",
+          "Shi Z",
+          "Sun F",
+          "Wang C",
+          "Xia S",
+          "Xu W",
+          "Zhu Y"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32231345",
+        "db_name": "Cell research",
+        "first": "Xia S",
+        "last": "Lu L",
+        "pages": "343-355",
+        "volume": "30"
+      },
+      "evidence": "Importantly, EK1C4 effectively blocked SARS-CoV-2 infection at the cellular level in a dose-dependent manner with IC50 of 36.5 nM, being 67-fold more active than that of EK1 (IC50 = 2,468 nM) (Fig. 6a), which is consistent to the results of cell–cell fusion assay and PsV infection assay mediated by SARS-CoV-2 S protein.",
+      "key": "30d705529d5dee87ca94a61c8e880f1a",
+      "line": 115,
+      "relation": "decreases",
+      "source": 11,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "HEK293-T-REx cell": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bao L",
+          "Du L",
+          "Feng S",
+          "Jiang S",
+          "Lan Q",
+          "Liu M",
+          "Liu S",
+          "Lu L",
+          "Qi F",
+          "Qin C",
+          "Shi Z",
+          "Sun F",
+          "Wang C",
+          "Xia S",
+          "Xu W",
+          "Zhu Y"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32231345",
+        "db_name": "Cell research",
+        "first": "Xia S",
+        "last": "Lu L",
+        "pages": "343-355",
+        "volume": "30"
+      },
+      "evidence": "Therefore, the selectivity index (SI = CC50/IC50) of EK1C4 is >136, suggesting that EK1C4 is a promising SARS-CoV-2 fusion inhibitor with little, or even no, toxic effect in vitro.",
+      "key": "e72bc6db0ee74e51417335c7d5dc2d0b",
+      "line": 119,
+      "relation": "decreases",
+      "source": 11,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "HEK293-T-REx cell": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bao L",
+          "Du L",
+          "Feng S",
+          "Jiang S",
+          "Lan Q",
+          "Liu M",
+          "Liu S",
+          "Lu L",
+          "Qi F",
+          "Qin C",
+          "Shi Z",
+          "Sun F",
+          "Wang C",
+          "Xia S",
+          "Xu W",
+          "Zhu Y"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32231345",
+        "db_name": "Cell research",
+        "first": "Xia S",
+        "last": "Lu L",
+        "pages": "343-355",
+        "volume": "30"
+      },
+      "evidence": "Therefore, the selectivity index (SI = CC50/IC50) of EK1C4 is >136, suggesting that EK1C4 is a promising SARS-CoV-2 fusion inhibitor with little, or even no, toxic effect in vitro.",
+      "key": "89fa7f51fddf8eabaac179b62f693083",
+      "line": 120,
+      "relation": "causesNoChange",
+      "source": 11,
+      "target": 1
+    },
+    {
+      "key": "305050e7eaa1e6e8281f8eb16777bb66",
+      "relation": "partOf",
+      "source": 11,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "HEK293-T-REx cell": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Bao L",
+          "Du L",
+          "Feng S",
+          "Jiang S",
+          "Lan Q",
+          "Liu M",
+          "Liu S",
+          "Lu L",
+          "Qi F",
+          "Qin C",
+          "Shi Z",
+          "Sun F",
+          "Wang C",
+          "Xia S",
+          "Xu W",
+          "Zhu Y"
+        ],
+        "date": "2020-04-01",
+        "db": "PubMed",
+        "db_id": "32231345",
+        "db_name": "Cell research",
+        "first": "Xia S",
+        "last": "Lu L",
+        "pages": "343-355",
+        "volume": "30"
+      },
+      "evidence": "These results suggested that increased antiviral activity of EK1C4 should be related to its increased binding affinity with HR1, but their detailed interactions require further studies.",
+      "key": "77637a35d70e916cb1397535740a2652",
+      "line": 124,
+      "relation": "decreases",
+      "source": 6,
+      "target": 14
+    },
+    {
+      "key": "433e1f2ffb76fd821308be407aeec8e3",
+      "relation": "partOf",
+      "source": 9,
+      "target": 6
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "bp(EFO:\"cytotoxicity measurement\")",
+      "concept": {
+        "name": "cytotoxicity measurement",
+        "namespace": "EFO"
+      },
+      "function": "BiologicalProcess",
+      "id": "56687d503c248581344534689bf25dfd"
+    },
+    {
+      "bel": "bp(GO:\"induction by virus of host cell-cell fusion\")",
+      "concept": {
+        "name": "induction by virus of host cell-cell fusion",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "34b00dd25a47022d7a060c268965e055"
+    },
+    {
+      "bel": "bp(GO:\"receptor binding\")",
+      "concept": {
+        "name": "receptor binding",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "f886f01ed8e32344959268e472ea6cf5"
+    },
+    {
+      "bel": "bp(GO:\"syncytium formation\")",
+      "concept": {
+        "name": "syncytium formation",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "b7b66b34f981f3db649959e04d17e38b"
+    },
+    {
+      "bel": "complex(p(COVID:S), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "6b8514d35b9a04dcfdf30d01d4a3a0a0",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:S, frag(\"?\")), p(FIXME:EK1C4))",
+      "function": "Complex",
+      "id": "0093b81332a2e3c87992a2a8f3cf1aea",
+      "members": [
+        {
+          "bel": "p(COVID:S, frag(\"?\"))",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "a4ea879b1d193de79d75f4ce77b539a5",
+          "variants": [
+            {
+              "kind": "frag",
+              "missing": "?"
+            }
+          ]
+        },
+        {
+          "bel": "p(FIXME:EK1C4)",
+          "concept": {
+            "name": "EK1C4",
+            "namespace": "FIXME"
+          },
+          "function": "Protein",
+          "id": "57d62c40d066bab9028a50278cf4a810"
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(COVID:S, frag(\"14_685\"))",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "765b9a69bb256023e1db74d0bb0911f5",
+      "variants": [
+        {
+          "kind": "frag",
+          "start": 14,
+          "stop": 685
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:S, frag(\"?\"))",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "a4ea879b1d193de79d75f4ce77b539a5",
+      "variants": [
+        {
+          "kind": "frag",
+          "missing": "?"
+        }
+      ]
+    },
+    {
+      "bel": "p(FIXME:EK1C)",
+      "concept": {
+        "name": "EK1C",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "c8ff01f865e843113d164671232c2647"
+    },
+    {
+      "bel": "p(FIXME:EK1C4)",
+      "concept": {
+        "name": "EK1C4",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "57d62c40d066bab9028a50278cf4a810"
+    },
+    {
+      "bel": "p(FIXME:EK1P)",
+      "concept": {
+        "name": "EK1P",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "0600e1e5a8f6840dee397567c4e5e0ff"
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "path(MESH:Virulence)",
+      "concept": {
+        "name": "Virulence",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "cd22afe1d9d585df2f0e1a10fc161447"
+    }
+  ]
+}

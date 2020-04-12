@@ -1,0 +1,263 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "30301856.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20190128.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Mouse_Strain AS LIST {"C57BL/6J"}
+DEFINE ANNOTATION Mouse_Type AS LIST {"C3 -/-"}
+DEFINE ANNOTATION Timeline AS LIST {"1 day post infection","2 days post infection","3 days post infection","4 days post infection"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","30301856"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+SET Evidence = "C4b, CfB, and C3 all had significantly higher abundances in the lungs of mice infected with a lethal dose of SARS-CoV MA15 than in those of mice infected with a sublethal dose (Fig. 1A)."
+
+SET Species = "10090"
+SET MeSHDisease = "Severe Acute Respiratory Syndrome"
+SET Mouse_Strain = "C57BL/6J"
+SET MeSHAnatomy = "Lung"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:C4b)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Cfb)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:C3)
+UNSET MeSHAnatomy
+UNSET Mouse_Strain
+
+SET Evidence = "C3 activation products (C3 fragments C3a, C3b, iC3b, C3dg, and C3c) were detected by Western blotting in lung tissue of SARS-CoV MA15-infected mice, but not in control mice, as early as 1 day postinfection (dpi) (Fig. 1B), confirming that SARS-CoV MA15 infection activates the complement pathway."
+
+SET Mouse_Strain = "C57BL/6J"
+SET MeSHAnatomy = "Lung"
+SET Timeline = "1 day post infection"
+SET BioAssay = "western blot"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> a(MESH:"Complement C3a")
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> a(MESH:"Complement C3b")
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> a(MESH:"Complement C3c")
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MESH:"complement C3d,g")
+UNSET BioAssay
+UNSET Timeline
+a(MESH:"Complement C3a") -- bp(GO:"complement activation")
+a(MESH:"Complement C3b") -- bp(GO:"complement activation")
+a(MESH:"Complement C3c") -- bp(GO:"complement activation")
+p(MESH:"complement C3d,g") -- bp(GO:"complement activation")
+UNSET MeSHAnatomy
+UNSET Mouse_Strain
+
+SET Evidence = "Control mice exhibited approximately 15% transient weight loss, with peak weight loss at day 3 postinfection (Fig. 2A). In contrast, the C3 –/– mice were significantly protected from infection, with no significant weight loss evident at any time point."
+
+SET Mouse_Strain = "C57BL/6J"
+SET Timeline = "3 days post infection"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> path(MESH:"Weight Loss")
+UNSET Timeline
+UNSET Mouse_Strain
+
+SET Evidence = "All three metrics have been shown to change significantly following SARS-CoV MA15 infection, with Penh and EF50 increasing following infection and RPEF decreasing. Combined, these measurements show that SARS-CoV MA15-infected animals have altered exhalation patterns in their breathing."
+
+SET Mouse_Strain = "C57BL/6J"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> bp(MESH:"Airway Resistance")
+#Penh is measure of airway resistance
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> bp(MESH:"Forced Expiratory Flow Rates")
+#EF50 is measure of force of exhalation
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -| path(HP:Wheezing)
+#RPEF is measure of wheezing
+UNSET Mouse_Strain
+
+SET Evidence = "C3 –/– mice exhibit a decreased change in Penh and EF50 levels following SARS-CoV MA15 infection relative to those of infected C57BL/6J control mice; however, RPEF values were similar between infection conditions (Fig. 2C to E)."
+
+SET Mouse_Type = "C3 -/-"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> bp(MESH:"Airway Resistance")
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> bp(MESH:"Forced Expiratory Flow Rates")
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -| path(HP:Wheezing)
+UNSET Mouse_Type
+
+SET Evidence = "C3 –/– mice exhibited more airspace inflammation, including eosinophils, at 2 dpi than their wild-type controls, although this relationship was reversed later in infection."
+
+SET Mouse_Type = "C3 -/-"
+SET MeSHAnatomy = "Lung"
+SET Timeline = "2 days post infection"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> bp(GO:"inflammatory response")
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> path(DO:"pulmonary eosinophilia")
+UNSET Timeline
+UNSET MeSHAnatomy
+UNSET Mouse_Type
+
+SET Evidence = "At 4 dpi, C57BL/6J mice displayed pronounced lung pathology, including inflammatory cells in the large airway and parenchyma, perivascular cuffing, thickening of the interstitial membrane, and low levels of intra-alveolar edema."
+
+SET Mouse_Strain = "C57BL/6J"
+SET Timeline = "4 days post infection"
+SET MeSHAnatomy = {"Lung","Parenchymal Tissue"}
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> bp(GO:"inflammatory response")
+UNSET MeSHAnatomy
+SET MeSHAnatomy = "Bronchi"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> bp(GO:"cell wall thickening")
+UNSET MeSHAnatomy
+SET MeSHAnatomy = "Pulmonary Alveoli"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> path(DO:"pulmonary edema")
+UNSET MeSHAnatomy
+UNSET Timeline
+UNSET Mouse_Strain
+
+SET Evidence = "At both 2 and 4 dpi, we observed scattered positive staining for complement in the lungs of SARS-CoV MA15-infected mice, suggesting that local tissue damage might contribute to SARS-CoV pathogenesis (Fig. 4)"
+
+SET Mouse_Strain = "C57BL/6J"
+SET Timeline = "4 days post infection"
+SET MeSHAnatomy = "Lung"
+SET BioAssay = "immunohistochemistry"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> bp(GO:"complement activation")
+UNSET BioAssay
+UNSET MeSHAnatomy
+UNSET Timeline
+UNSET Mouse_Strain
+
+SET Evidence = "In parallel with humans exhibiting lung pathology, C3 –/– mice exhibited significant pulmonary infiltration following SARS-CoV MA15 infection, but this inflammation was reduced relative to that observed in wild-type mice."
+
+SET Mouse_Strain = "C57BL/6J"
+SET Mouse_Type = "C3 -/-"
+SET MeSHAnatomy = "Lung"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> path(DO:"pulmonary eosinophilia")
+UNSET MeSHAnatomy
+UNSET Mouse_Type
+UNSET Mouse_Strain
+
+SET Evidence = "Consistently with what was observed in human SARS-CoV patients (25), lymphopenia was observed in the lungs of both SARS-CoV MA15-infected C57BL/6J and C3 –/– mice with reduced percentages of B cells (Fig. 5A) and CD4 T cells relative to those in mock-infected mice following infection."
+
+SET Mouse_Strain = "C57BL/6J"
+SET Mouse_Type = "C3 -/-"
+SET MeSHAnatomy = "Lung"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> path(DO:lymphopenia)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -| a(MESH:"B-Lymphocytes")
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -| a(MESH:"CD4-Positive T-Lymphocytes")
+UNSET MeSHAnatomy
+UNSET Mouse_Type
+UNSET Mouse_Strain
+
+SET Evidence = "Despite similar overall lymphocyte levels, small but significant differences were observed in levels of T cell activation between infected C57BL/6J and C3 –/– mice; both CD4 and CD8 T cells in C3 –/– mice expressed more Ki-67 (Fig. 5C and D), an intracellular marker of proliferation, than those in C57BL/6J controls."
+
+SET Mouse_Type = "C3 -/-"
+SET MeSHAnatomy = {"Lung","CD4-Positive T-Lymphocytes","CD4-Positive T-Lymphocytes"}
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Mki67)
+UNSET MeSHAnatomy
+UNSET Mouse_Type
+
+SET Evidence = "Analysis of myeloid cells in the lung showed that infected C56BL/6J mice had significantly higher levels of neutrophils, particularly nonactivated neutrophils, in the lung than infected C3 –/– mice (Fig. 5B and E)."
+
+SET Mouse_Strain = "C57BL/6J"
+SET MeSHAnatomy = "Lung"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> a(MESH:Neutrophils)
+UNSET MeSHAnatomy
+UNSET Mouse_Strain
+
+SET Evidence = "Furthermore, inflammatory monocytes, which have previously been associated with increased SARS-CoV MA15 pathogenesis (26), were significantly increased in the lungs of wild-type mice but not C3 –/– mice (Fig. 5B)."
+
+SET Mouse_Strain = "C57BL/6J"
+SET MeSHAnatomy = "Lung"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> a(MESH:Monocytes)
+UNSET MeSHAnatomy
+UNSET Mouse_Strain
+
+SET Evidence = "Finally, we observed significantly more dendritic cells and alveolar macrophages in the lungs of SARS-CoV MA15-infected C3 –/– mice than in the lungs of infected C57BL/6J mice."
+
+SET Mouse_Type = "C3 -/-"
+SET MeSHAnatomy = "Lung"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> a(MESH:"Dendritic Cells")
+UNSET MeSHAnatomy
+SET MeSHAnatomy = "Pulmonary Alveoli"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> a(MESH:Macrophages)
+UNSET MeSHAnatomy
+UNSET Mouse_Type
+
+SET Evidence = "MIP1a, MIP1b, and MCP1 are all highly expressed in the lung following SARS-CoV MA15 infection of both C57BL/6J and C3 –/– mice (Fig. 6A), indicating that some inflammatory signaling remains intact in the absence of C3."
+
+SET Mouse_Strain = "C57BL/6J"
+SET Mouse_Type = "C3 -/-"
+SET MeSHAnatomy = "Lung"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Ccl3)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Ccl4)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Ccl2)
+UNSET MeSHAnatomy
+UNSET Mouse_Type
+UNSET Mouse_Strain
+
+SET Evidence = "Granulocyte colony-stimulating factor (G-CSF), interleukin 6 (IL-6), tumor necrosis factor alpha (TNF-a), and IL-1a comprised a group of cytokines and chemokines that were more highly produced in the lungs of C57BL/6J mice than in C3 –/– mice (Fig. 6B), all peaking at 2 days postinfection."
+
+SET Mouse_Strain = "C57BL/6J"
+SET MeSHAnatomy = "Lung"
+SET Timeline = "2 days post infection"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Csf3)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Il6)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Tnf)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Il1a)
+UNSET Timeline
+UNSET MeSHAnatomy
+UNSET Mouse_Strain
+
+SET Evidence = "Western blot analysis showed increased levels of C3a-derived fragments in the serum, indicating systemic complement activation in SARS-CoV MA15-infected mice at 2 dpi (Fig. 7A)."
+
+SET Mouse_Strain = "C57BL/6J"
+SET MeSHAnatomy = "Serum"
+SET Timeline = "2 days post infection"
+SET BioAssay = "western blot"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> a(MESH:"Complement C3a")
+a(MESH:"Complement C3a") -> bp(GO:"complement activation")
+UNSET BioAssay
+UNSET Timeline
+UNSET MeSHAnatomy
+UNSET Mouse_Strain
+
+SET Evidence = "Both MCP-1 and RANTES levels were elevated in the serum following infection, regardless of mouse genetic background (Fig. 7B)."
+
+SET Mouse_Strain = "C57BL/6J"
+SET Mouse_Type = "C3 -/-"
+SET MeSHAnatomy = "Lung"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Ccl2)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Ccl5)
+UNSET MeSHAnatomy
+UNSET Mouse_Type
+UNSET Mouse_Strain
+
+SET Evidence = "However, numerous cytokines and chemokines, such as IL-5, G-CSF, and KC (keratinocyte chemoattractant or CXCL1) were present in significantly higher abundance in the lungs of C57BL/6J mice than in those of C3 knockout mice (Fig. 7C)."
+
+SET Mouse_Strain = "C57BL/6J"
+SET MeSHAnatomy = "Lung"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Il5)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Csf3)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Cxcl1)
+UNSET MeSHAnatomy
+UNSET Mouse_Strain
+UNSET MeSHDisease
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

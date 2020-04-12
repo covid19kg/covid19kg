@@ -1,0 +1,85 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32173110.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20190128.belns"
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION EC90 AS LIST {"6.90 μM"}
+DEFINE ANNOTATION Severity AS LIST {"Severe", "Moderate", "Mild"}
+DEFINE ANNOTATION Concentration AS LIST {"500 mg/day"}
+DEFINE ANNOTATION Timeline AS LIST {"10 day"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Discussion"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed", "J Crit Care. 2020 Mar 10. pii: S0883-9441(20)30390-7. doi:10.1016/j.jcrc.2020.03.005.", "32173110"}
+
+SET PublicationType = "Review"
+SET PublicationStatus = "Published"
+SET Section = "Discussion"
+
+SET Evidence = "The study demonstrated that chloroquine was highly effective in \
+reducing viral replication, with an Effective Concentration (EC)90 of \
+6.90 μM that can be easily achievable with standard dosing, due to its \
+favourable penetration in tissues, including in the lung [6]."
+
+SET Custom_Disease = "COVID-19"
+SET EC90 = "6.90 μM"
+a(CHEBI:"chloroquine") -| bp(GO:"viral genome replication")
+UNSET EC90
+
+SET Evidence = "A narrative letter by Chinese authors reported that a news briefing \
+from the State Council of China had indicated that “Chloroquine \
+phosphate… had demonstrated marked efficacy and acceptable safety in \
+treating COVID-19 associated pneumonia in multicentre clinical trials \
+conducted in China” [5]"
+
+a(PUBCHEM:64927) -| path(DO:pneumonia)
+
+SET Evidence = "Based on in vitro evidence and still unpublished clinical experience, \
+the panel recommended chloroquine phosphate tablet, at a dose of 500 \
+mg twice per day for 10 days, for patients diagnosed as mild, moderate \
+and severe cases of SARS-CoV-2 pneumonia, provided that there were no \
+contraindications to the drug."
+
+SET Severity = {"Severe", "Moderate", "Mild"}
+SET Concentration = "500 mg/day"
+SET Timeline = "10 day"
+a(PUBCHEM:64927) -| path(DO:pneumonia)
+UNSET Timeline
+UNSET Concentration
+UNSET Severity
+
+SET Evidence = "Finally, chloroquine remains a pivotal drug in the treatment of \
+Malaria in many places in the world."
+
+a(CHEBI:"chloroquine") -| path(DO:malaria)
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

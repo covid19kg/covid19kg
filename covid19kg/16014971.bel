@@ -1,0 +1,108 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "16014971.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Sample AS LIST {"Supernatant"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","16014971"}
+
+SET Evidence = "The results showed that all three subunits, Aα, Bβ, and γ, of \
+fibrinogen (Table ​(Table1)1) were strongly up-regulated in the \
+3a-expressing clones."
+
+SET BioAssay = "reverse transcription PCR"
+SET CellLine = "A549 cell"
+act(p(UNIPROT:P59632)) -> r(HGNC:FGA)
+act(p(UNIPROT:P59632)) -> r(HGNC:FGB)
+act(p(UNIPROT:P59632)) -> r(HGNC:FGG)
+
+SET Evidence = "The only other fibrinogen-related gene that showed an increase in the \
+mRNA level in the 3a-expressing clones was Fgl-1 (Table ​(Table1,1, \
+Fig. ​Fig.1B),1B), but the degree of up-regulation was less."
+
+act(p(UNIPROT:P59632)) -> r(HGNC:FGL2)
+act(p(UNIPROT:P59632)) -> r(HGNC:FGL1)
+
+SET Evidence = "Interestingly, the mRNA level of CSPG2, which is involved in the \
+extracellular matrix assembly (32), was also specifically up- \
+regulated, with four different transcripts giving similar results \
+(Table ​(Table1).1)."
+
+act(p(HGNC:VCAN)) -- bp(GO:"extracellular matrix assembly")
+act(p(UNIPROT:P59632)) -> r(HGNC:VCAN)
+UNSET CellLine
+UNSET BioAssay
+
+SET Evidence = "Consistent with the increase in the mRNA, the Aα protein levels in the \
+3a-expressing clones were significantly higher than in the vector \
+control (Fig. ​(Fig.2A,2A, panel b, lanes 4 to 6)."
+
+SET CellLine = "Huh7 cell"
+SET BioAssay = "western blot"
+act(p(UNIPROT:P59632)) -> p(HGNC:FGA)
+
+
+SET Evidence = "Consistently, the levels of both Bβ and γ proteins in the \
+3a-expressing clones were also higher than that in the vector control \
+(Fig. ​(Fig.2A,2A, panels c and a, lanes 4 to 6)."
+
+act(p(UNIPROT:P59632)) -> p(HGNC:FGB)
+act(p(UNIPROT:P59632)) -> p(HGNC:FGG)
+UNSET BioAssay
+
+SET Evidence = "As shown in Fig.2B,2B, high levels of fibrinogen (≈30 ng per 106 \
+cells) were secreted from the 3a-expressing clones"
+
+SET BioAssay = "ELISA"
+act(p(UNIPROT:P59632)) -> sec(complex(GO:"fibrinogen complex"))
+UNSET CellLine
+UNSET BioAssay
+
+SET Evidence = "The expression of fibrinogen γ was higher in infected cells than mock- \
+infected cells (Fig. ​(Fig.3A).3A)."
+
+SET BioAssay = "western blot"
+SET CellLine = "Vero cell"
+act(p(UNIPROT:P59632)) -> p(UNIPROT:A0A0D9S1P0)
+
+SET Evidence = "The level of fibrinogen in the culture supernatant from infected Vero \
+E6 cells was also significantly higher than that from mock-infected \
+cells (Fig. ​(Fig.3B,3B, P < 0.005), but we could not determine the \
+concentration, as the assay was designed for measuring human \
+fibrinogen and no standard from the African green monkeys was \
+available"
+
+SET Sample = "Supernatant"
+act(p(UNIPROT:P59632)) -> sec(complex(GO:"fibrinogen complex"))
+UNSET Sample
+UNSET CellLine
+UNSET BioAssay

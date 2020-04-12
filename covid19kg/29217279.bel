@@ -1,0 +1,104 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "29217279.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+#Not in template.bel
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+
+DEFINE ANNOTATION Dose AS LIST {"100 μM", "10 μM"}
+DEFINE ANNOTATION Custom_CellLine AS LIST {"HBTE-ALI"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","29217279"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "Infection of HCoV-OC43, VR-1558, was inhibited only by EST and not by camostat (Fig. 2b). This indicates that VR-1558 enters cells via the late endosome pathway using cysteine proteases and it does not use TMRPSS2 for cell entry in HBTE-ALI culture."
+
+SET Custom_CellLine = "HBTE-ALI"
+a(PUBCHEM:3189) -| a(TAX:"Human coronavirus OC43")
+a(PUBCHEM:3189) -| a(TAX:"Betacoronavirus 1")
+bp(GO:"late endosome to lysosome transport") -> a(TAX:"Betacoronavirus 1")
+a(MESH:"Cysteine Proteases") -> a(TAX:"Betacoronavirus 1")
+UNSET Custom_CellLine
+
+SET Evidence = "In contrast, clinical isolates of HCoV-OC43 were inhibited by camostat but were either not inhibited or were only partially inhibited by EST (Fig. 2c–f)."
+
+SET Custom_CellLine = "HBTE-ALI"
+a(CHEBI:camostat) -| a(FIXME:"SGH-36/2014")
+a(CHEBI:camostat) -| a(FIXME:"SGH-61/2014")
+a(CHEBI:camostat) -| a(FIXME:"SGH-06/2015")
+a(CHEBI:camostat) -| a(FIXME:"SGH-65/2016")
+#these are the isolates of HCoV-OC43
+a(FIXME:"SGH-36/2014") -- a(TAX:"Human coronavirus OC43")
+a(FIXME:"SGH-61/2014") -- a(TAX:"Human coronavirus OC43")
+a(FIXME:"SGH-06/2015") -- a(TAX:"Human coronavirus OC43")
+a(FIXME:"SGH-65/2016") -- a(TAX:"Human coronavirus OC43")
+UNSET Custom_CellLine
+
+SET Evidence = "For clinical isolates of HCoV-HKU1 (similar to HCoV-OC43), entry was inhibited only by camostat and EST tended to increase entry (Fig. 2g and h)."
+
+SET Custom_CellLine = "HBTE-ALI"
+a(CHEBI:camostat) -| a(TAX:"Human coronavirus HKU1")
+a(PUBCHEM:3189) -> a(TAX:"Human coronavirus HKU1")
+UNSET Custom_CellLine
+
+SET Evidence = "That cathepsins use HCoV-OC43 for entry into HCT-8 cells was confirmed by an entry inhibition assay similar to that in HBTE-ALI cultures (Fig. 3b and c)."
+
+SET CellLine = "HCT-8 cell"
+complex(p(GFAM:Cathepsins), a(TAX:"Human coronavirus OC43")) -> a(TAX:"Human coronavirus OC43")
+UNSET CellLine
+
+SET Evidence = "The entry of VR-1558 in HCT-8 was inhibited only by EST treatment at both 10 and 100 μM (Fig. 3b)."
+
+SET CellLine = "HCT-8 cell"
+SET Dose = {"100 μM", "10 μM"}
+a(PUBCHEM:3189) -| a(TAX:"Betacoronavirus 1")
+UNSET CellLine
+
+SET Evidence = "In SGH-36/2014 infection, a high concentration (100 μM) of EST inhibited entry (Fig. 3c)."
+
+SET CellLine = "HCT-8 cell"
+SET Dose = "100 μM"
+a(PUBCHEM:3189) -| a(FIXME:"SGH-36/2014")
+a(FIXME:"SGH-36/2014") -- a(TAX:"Human coronavirus OC43")
+UNSET CellLine
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

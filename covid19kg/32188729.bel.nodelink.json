@@ -1,0 +1,2351 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Assay": [
+        "Cytometric Bead Array"
+      ],
+      "PublicationStatus": [
+        "Preprint"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "Cell": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Geena Mariya Jose",
+      "contact": "geena.mariya.jose@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32188729.bel",
+      "version": "2.1.0"
+    },
+    "namespace_pattern": {
+      "FIXME": ".*"
+    },
+    "namespace_url": {
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "MGI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32188729.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Using this method of plotting the read counts over time, we detected statistically significant transcriptional upregulation of IFN gene expression in the DUBmut-infected cells.",
+      "key": "2df9e5d60d1075caa45ce52751470534",
+      "line": 48,
+      "relation": "association",
+      "source": 4,
+      "target": 0
+    },
+    {
+      "key": "45e976967a655455b6246fcd36a88ca2",
+      "relation": "hasVariant",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Using this method of plotting the read counts over time, we detected statistically significant transcriptional upregulation of IFN gene expression in the DUBmut-infected cells.",
+      "key": "f03f9d352f98af4cddad4f533e9c1b5f",
+      "line": 48,
+      "relation": "association",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "EndoUmut-infected macrophages exhibited markedly elevated levels of IFN transcripts as early as 9 hpi",
+      "key": "b8a75704b4bb56e293b950d5f48ca565",
+      "line": 57,
+      "relation": "association",
+      "source": 0,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Based on our analyses of differential gene expression, we report significant transcriptional upregulation of multiple genes associated with activation of ER sensors IRE1, ATF6, and PERK, such as Edem1, Hspa5 (encoding BiP protein), and Ddit3 (encoding CHOP), in response to virus replication, with the most robust response detected in cells infected with the wild-type or DUBmut virus infection (Fig. 5B, C, and D).",
+      "key": "ad896b9cb53c46c68ddbf31c464ed271",
+      "line": 99,
+      "relation": "increases",
+      "source": 0,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Based on our analyses of differential gene expression, we report significant transcriptional upregulation of multiple genes associated with activation of ER sensors IRE1, ATF6, and PERK, such as Edem1, Hspa5 (encoding BiP protein), and Ddit3 (encoding CHOP), in response to virus replication, with the most robust response detected in cells infected with the wild-type or DUBmut virus infection (Fig. 5B, C, and D).",
+      "key": "94535e31c05ddcdcd5d3194b3524aa2f",
+      "line": 100,
+      "relation": "increases",
+      "source": 0,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Based on our analyses of differential gene expression, we report significant transcriptional upregulation of multiple genes associated with activation of ER sensors IRE1, ATF6, and PERK, such as Edem1, Hspa5 (encoding BiP protein), and Ddit3 (encoding CHOP), in response to virus replication, with the most robust response detected in cells infected with the wild-type or DUBmut virus infection (Fig. 5B, C, and D).",
+      "key": "d3c32343a133edabc19aed8d7ac8a197",
+      "line": 101,
+      "relation": "increases",
+      "source": 0,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "polymerase chain reaction": true
+        },
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "We found that the WT- and DUBmut-viruses exhibit higher proportions of spliced XBP-1 mRNA at 9 hpi and 12 hpi compared to EndoUmut infected cells (Fig. 5E), consistent with activation of the IRE-1 arm of the unfolded protein response.",
+      "key": "2cb350c3805867e37d2f32125451b0bd",
+      "line": 109,
+      "relation": "increases",
+      "source": 0,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Using this method of plotting the read counts over time, we detected statistically significant transcriptional upregulation of IFN gene expression in the DUBmut-infected cells.",
+      "key": "04dc279cad443d0c2d3e7e17ef24cb58",
+      "line": 50,
+      "relation": "increases",
+      "source": 5,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Using this method of plotting the read counts over time, we detected statistically significant transcriptional upregulation of IFN gene expression in the DUBmut-infected cells.",
+      "key": "5c479330294a016e1296ff8ebf443066",
+      "line": 51,
+      "relation": "increases",
+      "source": 5,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Using this method of plotting the read counts over time, we detected statistically significant transcriptional upregulation of IFN gene expression in the DUBmut-infected cells.",
+      "key": "ff6b7f807905e5e6f5a0c91429b81ca9",
+      "line": 52,
+      "relation": "increases",
+      "source": 5,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Using this method of plotting the read counts over time, we detected statistically significant transcriptional upregulation of IFN gene expression in the DUBmut-infected cells.",
+      "key": "fc1dc5b6699c94774e76067d017d744b",
+      "line": 53,
+      "relation": "increases",
+      "source": 5,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Interestingly, wild-type infected cells exhibited the highest levels of expression for most of these cytokines, while DUBmut-infected cells were characterized by decreased expression of Csf2, Il1β, and IL1α",
+      "key": "e6c815afebafb60cb95813ee63cb713d",
+      "line": 67,
+      "relation": "decreases",
+      "source": 5,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Interestingly, wild-type infected cells exhibited the highest levels of expression for most of these cytokines, while DUBmut-infected cells were characterized by decreased expression of Csf2, Il1β, and IL1α",
+      "key": "72e9adf30d70b0d432e54e980235ab5f",
+      "line": 68,
+      "relation": "decreases",
+      "source": 5,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Interestingly, wild-type infected cells exhibited the highest levels of expression for most of these cytokines, while DUBmut-infected cells were characterized by decreased expression of Csf2, Il1β, and IL1α",
+      "key": "7534422807c3624c8f336e7d1e42f1f3",
+      "line": 69,
+      "relation": "decreases",
+      "source": 5,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "DUBmut virus-infection induced upregulation of Cxcl9, but downregulation of Ccl22, Cx3cl1,and Cxcl3 compared to WT-infected cells.",
+      "key": "9e31fe9529bcf937057e44c7788e83ca",
+      "line": 72,
+      "relation": "increases",
+      "source": 5,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "DUBmut virus-infection induced upregulation of Cxcl9, but downregulation of Ccl22, Cx3cl1,and Cxcl3 compared to WT-infected cells.",
+      "key": "29adc617f6010c698682edfce5912a6f",
+      "line": 73,
+      "relation": "decreases",
+      "source": 5,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "DUBmut virus-infection induced upregulation of Cxcl9, but downregulation of Ccl22, Cx3cl1,and Cxcl3 compared to WT-infected cells.",
+      "key": "f611795342cf062512f49cb2881bbd5c",
+      "line": 74,
+      "relation": "decreases",
+      "source": 5,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "DUBmut virus-infection induced upregulation of Cxcl9, but downregulation of Ccl22, Cx3cl1,and Cxcl3 compared to WT-infected cells.",
+      "key": "c5ddc2ac8f268077ef95cf7c13aaddee",
+      "line": 75,
+      "relation": "decreases",
+      "source": 5,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Cytometric Bead Array": true
+        },
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "We report that DUBmut- and EndoUmut-infected cells have reduced levels of inflammatory cytokines TNFα, IL-6, and MIP-1α relative to wild-type-infected cells (Fig. 4A).",
+      "key": "18cbeddf4c8e6e0f720f46bf809ed674",
+      "line": 79,
+      "relation": "decreases",
+      "source": 5,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Cytometric Bead Array": true
+        },
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "We report that DUBmut- and EndoUmut-infected cells have reduced levels of inflammatory cytokines TNFα, IL-6, and MIP-1α relative to wild-type-infected cells (Fig. 4A).",
+      "key": "41af0543c5f46d2d2640968d7c9fa822",
+      "line": 81,
+      "relation": "decreases",
+      "source": 5,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Cytometric Bead Array": true
+        },
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "We report that DUBmut- and EndoUmut-infected cells have reduced levels of inflammatory cytokines TNFα, IL-6, and MIP-1α relative to wild-type-infected cells (Fig. 4A).",
+      "key": "cd269cdbf661de3ba4de8089178a5202",
+      "line": 83,
+      "relation": "decreases",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Based on our analyses of differential gene expression, we report significant transcriptional upregulation of multiple genes associated with activation of ER sensors IRE1, ATF6, and PERK, such as Edem1, Hspa5 (encoding BiP protein), and Ddit3 (encoding CHOP), in response to virus replication, with the most robust response detected in cells infected with the wild-type or DUBmut virus infection (Fig. 5B, C, and D).",
+      "key": "5ac5a714d31f7fea938665722eca59b7",
+      "line": 93,
+      "relation": "increases",
+      "source": 5,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Based on our analyses of differential gene expression, we report significant transcriptional upregulation of multiple genes associated with activation of ER sensors IRE1, ATF6, and PERK, such as Edem1, Hspa5 (encoding BiP protein), and Ddit3 (encoding CHOP), in response to virus replication, with the most robust response detected in cells infected with the wild-type or DUBmut virus infection (Fig. 5B, C, and D).",
+      "key": "bc4eebdf0e8e67e7bac76f6d30d6b513",
+      "line": 95,
+      "relation": "increases",
+      "source": 5,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Based on our analyses of differential gene expression, we report significant transcriptional upregulation of multiple genes associated with activation of ER sensors IRE1, ATF6, and PERK, such as Edem1, Hspa5 (encoding BiP protein), and Ddit3 (encoding CHOP), in response to virus replication, with the most robust response detected in cells infected with the wild-type or DUBmut virus infection (Fig. 5B, C, and D).",
+      "key": "af038492096c1548bd262cfe14c95bec",
+      "line": 97,
+      "relation": "increases",
+      "source": 5,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "polymerase chain reaction": true
+        },
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "We found that the WT- and DUBmut-viruses exhibit higher proportions of spliced XBP-1 mRNA at 9 hpi and 12 hpi compared to EndoUmut infected cells (Fig. 5E), consistent with activation of the IRE-1 arm of the unfolded protein response.",
+      "key": "6c17c972f41b1197ce59463bd9956bae",
+      "line": 108,
+      "relation": "increases",
+      "source": 5,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "EndoUmut-infected macrophages exhibited markedly elevated levels of IFN transcripts as early as 9 hpi",
+      "key": "704db3d5e4ca48e883511b9a6fbbb759",
+      "line": 57,
+      "relation": "association",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "key": "bfe0323b9c163ee72f3c00fa6c5d8aa9",
+      "relation": "hasVariant",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "EndoUmut-infected macrophages exhibited markedly elevated levels of IFN transcripts as early as 9 hpi",
+      "key": "b9886f362e8f672d9884eaaddae31422",
+      "line": 59,
+      "relation": "increases",
+      "source": 7,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "EndoUmut-infected macrophages exhibited markedly elevated levels of IFN transcripts as early as 9 hpi",
+      "key": "07f943b4ab801c8748c6b679c3c16802",
+      "line": 60,
+      "relation": "increases",
+      "source": 7,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "EndoUmut-infected macrophages exhibited markedly elevated levels of IFN transcripts as early as 9 hpi",
+      "key": "7aa4cd8971271168b7eecb6bca985f01",
+      "line": 61,
+      "relation": "increases",
+      "source": 7,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "EndoUmut-infected macrophages exhibited markedly elevated levels of IFN transcripts as early as 9 hpi",
+      "key": "24e7692e9111c8f8aaa11ff0b44fe4bb",
+      "line": 62,
+      "relation": "increases",
+      "source": 7,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "EndoUmut-infected macrophages exhibited markedly elevated levels of IFN transcripts as early as 9 hpi",
+      "key": "5f03614cf02d02b2cdef51d6d9882808",
+      "line": 63,
+      "relation": "increases",
+      "source": 7,
+      "target": 28
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Cytometric Bead Array": true
+        },
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "We report that DUBmut- and EndoUmut-infected cells have reduced levels of inflammatory cytokines TNFα, IL-6, and MIP-1α relative to wild-type-infected cells (Fig. 4A).",
+      "key": "972b50e4d574f5d16fe6f77d1eee13f1",
+      "line": 80,
+      "relation": "decreases",
+      "source": 7,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Cytometric Bead Array": true
+        },
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "We report that DUBmut- and EndoUmut-infected cells have reduced levels of inflammatory cytokines TNFα, IL-6, and MIP-1α relative to wild-type-infected cells (Fig. 4A).",
+      "key": "85e50ff797bc86494d3a71ce9b34ec7b",
+      "line": 82,
+      "relation": "decreases",
+      "source": 7,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Cytometric Bead Array": true
+        },
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "We report that DUBmut- and EndoUmut-infected cells have reduced levels of inflammatory cytokines TNFα, IL-6, and MIP-1α relative to wild-type-infected cells (Fig. 4A).",
+      "key": "b66f86baf322d6e4c36629d76b092454",
+      "line": 84,
+      "relation": "decreases",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Cytometric Bead Array": true
+        },
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "We also found that EndoUmut- infected cells exhibit lower levels of KC, IL-10, and MIP-1β proteins relative to WT- and DUBmut-infected cells (Fig. 4B).",
+      "key": "17e8ff1b3d4e7d755a3e07a04cbe8b5d",
+      "line": 87,
+      "relation": "decreases",
+      "source": 7,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Cytometric Bead Array": true
+        },
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "We also found that EndoUmut- infected cells exhibit lower levels of KC, IL-10, and MIP-1β proteins relative to WT- and DUBmut-infected cells (Fig. 4B).",
+      "key": "ec17a03373a4572c1df2fd7da7a7359e",
+      "line": 88,
+      "relation": "decreases",
+      "source": 7,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Cytometric Bead Array": true
+        },
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "We also found that EndoUmut- infected cells exhibit lower levels of KC, IL-10, and MIP-1β proteins relative to WT- and DUBmut-infected cells (Fig. 4B).",
+      "key": "2eb60b80898c3d690cbadabf218d500d",
+      "line": 89,
+      "relation": "decreases",
+      "source": 7,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Based on our analyses of differential gene expression, we report significant transcriptional upregulation of multiple genes associated with activation of ER sensors IRE1, ATF6, and PERK, such as Edem1, Hspa5 (encoding BiP protein), and Ddit3 (encoding CHOP), in response to virus replication, with the most robust response detected in cells infected with the wild-type or DUBmut virus infection (Fig. 5B, C, and D).",
+      "key": "67b431a934847600b72238f0f29ccebf",
+      "line": 94,
+      "relation": "increases",
+      "source": 7,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Based on our analyses of differential gene expression, we report significant transcriptional upregulation of multiple genes associated with activation of ER sensors IRE1, ATF6, and PERK, such as Edem1, Hspa5 (encoding BiP protein), and Ddit3 (encoding CHOP), in response to virus replication, with the most robust response detected in cells infected with the wild-type or DUBmut virus infection (Fig. 5B, C, and D).",
+      "key": "093fd85a4e238d6d8a350af2d70d04c4",
+      "line": 96,
+      "relation": "increases",
+      "source": 7,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Based on our analyses of differential gene expression, we report significant transcriptional upregulation of multiple genes associated with activation of ER sensors IRE1, ATF6, and PERK, such as Edem1, Hspa5 (encoding BiP protein), and Ddit3 (encoding CHOP), in response to virus replication, with the most robust response detected in cells infected with the wild-type or DUBmut virus infection (Fig. 5B, C, and D).",
+      "key": "46249180a6562ef18cc1d843caa5a739",
+      "line": 98,
+      "relation": "increases",
+      "source": 7,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Based on our analyses of differential gene expression, we report significant transcriptional upregulation of multiple genes associated with activation of ER sensors IRE1, ATF6, and PERK, such as Edem1, Hspa5 (encoding BiP protein), and Ddit3 (encoding CHOP), in response to virus replication, with the most robust response detected in cells infected with the wild-type or DUBmut virus infection (Fig. 5B, C, and D).",
+      "key": "e27fc8d625eb3eb1a3be706f46f243f3",
+      "line": 102,
+      "relation": "association",
+      "source": 20,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Based on our analyses of differential gene expression, we report significant transcriptional upregulation of multiple genes associated with activation of ER sensors IRE1, ATF6, and PERK, such as Edem1, Hspa5 (encoding BiP protein), and Ddit3 (encoding CHOP), in response to virus replication, with the most robust response detected in cells infected with the wild-type or DUBmut virus infection (Fig. 5B, C, and D).",
+      "key": "6d3440dd594a30cacbb2a6b69a9f8471",
+      "line": 103,
+      "relation": "association",
+      "source": 21,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Based on our analyses of differential gene expression, we report significant transcriptional upregulation of multiple genes associated with activation of ER sensors IRE1, ATF6, and PERK, such as Edem1, Hspa5 (encoding BiP protein), and Ddit3 (encoding CHOP), in response to virus replication, with the most robust response detected in cells infected with the wild-type or DUBmut virus infection (Fig. 5B, C, and D).",
+      "key": "1ecf87f3d9f6f4435c7b1217ed4fad73",
+      "line": 104,
+      "relation": "association",
+      "source": 19,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Based on our analyses of differential gene expression, we report significant transcriptional upregulation of multiple genes associated with activation of ER sensors IRE1, ATF6, and PERK, such as Edem1, Hspa5 (encoding BiP protein), and Ddit3 (encoding CHOP), in response to virus replication, with the most robust response detected in cells infected with the wild-type or DUBmut virus infection (Fig. 5B, C, and D).",
+      "key": "eefcca248d877a658c1168c837a807f7",
+      "line": 102,
+      "relation": "association",
+      "source": 2,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "polymerase chain reaction": true
+        },
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "We found that the WT- and DUBmut-viruses exhibit higher proportions of spliced XBP-1 mRNA at 9 hpi and 12 hpi compared to EndoUmut infected cells (Fig. 5E), consistent with activation of the IRE-1 arm of the unfolded protein response.",
+      "key": "a6179ea5c5380ac52698504f8b36c7c1",
+      "line": 110,
+      "relation": "association",
+      "source": 2,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Based on our analyses of differential gene expression, we report significant transcriptional upregulation of multiple genes associated with activation of ER sensors IRE1, ATF6, and PERK, such as Edem1, Hspa5 (encoding BiP protein), and Ddit3 (encoding CHOP), in response to virus replication, with the most robust response detected in cells infected with the wild-type or DUBmut virus infection (Fig. 5B, C, and D).",
+      "key": "4804678ae94225235825ed244e5af244",
+      "line": 103,
+      "relation": "association",
+      "source": 1,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "Based on our analyses of differential gene expression, we report significant transcriptional upregulation of multiple genes associated with activation of ER sensors IRE1, ATF6, and PERK, such as Edem1, Hspa5 (encoding BiP protein), and Ddit3 (encoding CHOP), in response to virus replication, with the most robust response detected in cells infected with the wild-type or DUBmut virus infection (Fig. 5B, C, and D).",
+      "key": "7d13cb1c05ab5472c6aaa6a51d80f7d9",
+      "line": 104,
+      "relation": "association",
+      "source": 3,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "polymerase chain reaction": true
+        },
+        "Cell": {
+          "bone marrow macrophage": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baker SC",
+          "Cruz-Pulido Y",
+          "Deng X",
+          "Hackbart M",
+          "O'Brien A",
+          "Volk A"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32188729",
+        "db_name": "Journal of virology",
+        "first": "Volk A",
+        "last": "Baker SC"
+      },
+      "evidence": "We found that the WT- and DUBmut-viruses exhibit higher proportions of spliced XBP-1 mRNA at 9 hpi and 12 hpi compared to EndoUmut infected cells (Fig. 5E), consistent with activation of the IRE-1 arm of the unfolded protein response.",
+      "key": "b2b502d7cda094d60893521803c6ea9e",
+      "line": 110,
+      "relation": "association",
+      "source": 29,
+      "target": 2
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(TAX:\"Murine hepatitis virus strain A59\")",
+      "concept": {
+        "name": "Murine hepatitis virus strain A59",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "f7d55ece9abe33a9756d04c104399579"
+    },
+    {
+      "bel": "bp(GO:\"ATF6-mediated unfolded protein response\")",
+      "concept": {
+        "name": "ATF6-mediated unfolded protein response",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "670e92c71ec26f6365d0304aa14a2364"
+    },
+    {
+      "bel": "bp(GO:\"IRE1-mediated unfolded protein response\")",
+      "concept": {
+        "name": "IRE1-mediated unfolded protein response",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "2cb50664e70299ca183e4379719ef3de"
+    },
+    {
+      "bel": "bp(GO:\"PERK-mediated unfolded protein response\")",
+      "concept": {
+        "name": "PERK-mediated unfolded protein response",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "9fd0641dc965b1943b2c81caaa92df4b"
+    },
+    {
+      "bel": "p(FIXME:DUB)",
+      "concept": {
+        "name": "DUB",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "dd59ff9961e0dd38b7fa9c8b680b652c"
+    },
+    {
+      "bel": "p(FIXME:DUB, var(\"p.Asp1772Ala\"))",
+      "concept": {
+        "name": "DUB",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "d64589abb2ee786d3d3b38c631f88dc4",
+      "variants": [
+        {
+          "hgvs": "p.Asp1772Ala",
+          "kind": "hgvs"
+        }
+      ]
+    },
+    {
+      "bel": "p(FIXME:EndoU)",
+      "concept": {
+        "name": "EndoU",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "90e09aefe71f5a0a986dd2f092ba24a6"
+    },
+    {
+      "bel": "p(FIXME:EndoU, var(\"p.His262Ala\"))",
+      "concept": {
+        "name": "EndoU",
+        "namespace": "FIXME"
+      },
+      "function": "Protein",
+      "id": "ec47e5bb0ba8cd3eed2a96a463ce45c0",
+      "variants": [
+        {
+          "hgvs": "p.His262Ala",
+          "kind": "hgvs"
+        }
+      ]
+    },
+    {
+      "bel": "p(MGI:Ccl3)",
+      "concept": {
+        "name": "Ccl3",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "d5e4d4378aa5322c02d921f58f13f208"
+    },
+    {
+      "bel": "p(MGI:Ccl4)",
+      "concept": {
+        "name": "Ccl4",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "9475c4577b38a5c509a92ae27119a839"
+    },
+    {
+      "bel": "p(MGI:Cxcl1)",
+      "concept": {
+        "name": "Cxcl1",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "2a3242594c28922a7c477e478145db67"
+    },
+    {
+      "bel": "p(MGI:Il10)",
+      "concept": {
+        "name": "Il10",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "d7efbff73c3abd7e85e237b7ae947af6"
+    },
+    {
+      "bel": "p(MGI:Il6)",
+      "concept": {
+        "name": "Il6",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "461076a43183c4f1e4e9b4954be313fe"
+    },
+    {
+      "bel": "p(MGI:Tnf)",
+      "concept": {
+        "name": "Tnf",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "cd5c5c12b7855d35a3e18c5ee16eb074"
+    },
+    {
+      "bel": "r(MGI:Ccl22)",
+      "concept": {
+        "name": "Ccl22",
+        "namespace": "MGI"
+      },
+      "function": "RNA",
+      "id": "612c02e4864f411baed90bec115fa31b"
+    },
+    {
+      "bel": "r(MGI:Csf2)",
+      "concept": {
+        "name": "Csf2",
+        "namespace": "MGI"
+      },
+      "function": "RNA",
+      "id": "5623c6561cf71b371ce808efd6b9a770"
+    },
+    {
+      "bel": "r(MGI:Cx3cl1)",
+      "concept": {
+        "name": "Cx3cl1",
+        "namespace": "MGI"
+      },
+      "function": "RNA",
+      "id": "776adcaf85eba098f1887a6bd6f48004"
+    },
+    {
+      "bel": "r(MGI:Cxcl3)",
+      "concept": {
+        "name": "Cxcl3",
+        "namespace": "MGI"
+      },
+      "function": "RNA",
+      "id": "31a59067fde53ded686902b3d5b4d4c5"
+    },
+    {
+      "bel": "r(MGI:Cxcl9)",
+      "concept": {
+        "name": "Cxcl9",
+        "namespace": "MGI"
+      },
+      "function": "RNA",
+      "id": "a55c46c37e19dccc453059ebaa89d31f"
+    },
+    {
+      "bel": "r(MGI:Ddit3)",
+      "concept": {
+        "name": "Ddit3",
+        "namespace": "MGI"
+      },
+      "function": "RNA",
+      "id": "eaf74f852b98c35579ced7d1f9765e68"
+    },
+    {
+      "bel": "r(MGI:Edem1)",
+      "concept": {
+        "name": "Edem1",
+        "namespace": "MGI"
+      },
+      "function": "RNA",
+      "id": "80082dfbbe3cd95b0a3807c941068d97"
+    },
+    {
+      "bel": "r(MGI:Hspa5)",
+      "concept": {
+        "name": "Hspa5",
+        "namespace": "MGI"
+      },
+      "function": "RNA",
+      "id": "871fce3fcbc7b2d9b9463907c64a9d6d"
+    },
+    {
+      "bel": "r(MGI:Ifna11)",
+      "concept": {
+        "name": "Ifna11",
+        "namespace": "MGI"
+      },
+      "function": "RNA",
+      "id": "e69d98f351fd381058d6d19099a63da4"
+    },
+    {
+      "bel": "r(MGI:Ifna2)",
+      "concept": {
+        "name": "Ifna2",
+        "namespace": "MGI"
+      },
+      "function": "RNA",
+      "id": "cb6d672b2c8ab14e387fa802245fc4c1"
+    },
+    {
+      "bel": "r(MGI:Ifna5)",
+      "concept": {
+        "name": "Ifna5",
+        "namespace": "MGI"
+      },
+      "function": "RNA",
+      "id": "d8b4456cfa3d6595d8a15d0e321524b9"
+    },
+    {
+      "bel": "r(MGI:Ifnb1)",
+      "concept": {
+        "name": "Ifnb1",
+        "namespace": "MGI"
+      },
+      "function": "RNA",
+      "id": "04678d8ca5f37e402c6c3539f0099afc"
+    },
+    {
+      "bel": "r(MGI:Il1a)",
+      "concept": {
+        "name": "Il1a",
+        "namespace": "MGI"
+      },
+      "function": "RNA",
+      "id": "b5ac022988378172f6e5aed08fc4eb68"
+    },
+    {
+      "bel": "r(MGI:Il1b)",
+      "concept": {
+        "name": "Il1b",
+        "namespace": "MGI"
+      },
+      "function": "RNA",
+      "id": "a2edeb6e6a62fbea92f1be6e33f707b4"
+    },
+    {
+      "bel": "r(MGI:Isg15)",
+      "concept": {
+        "name": "Isg15",
+        "namespace": "MGI"
+      },
+      "function": "RNA",
+      "id": "ba6212be54f92657e7ddf8c57826504d"
+    },
+    {
+      "bel": "r(MGI:Xbp1)",
+      "concept": {
+        "name": "Xbp1",
+        "namespace": "MGI"
+      },
+      "function": "RNA",
+      "id": "fbec62fd02a99c0d0274b47d8e238b7b"
+    }
+  ]
+}

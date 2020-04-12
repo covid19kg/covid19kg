@@ -1,0 +1,508 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Assay": [
+        "Co-Immunoprecipitation"
+      ],
+      "CellLine_Infection_Type": [
+        "Severe acute respiratory syndrome coronavirus 2"
+      ],
+      "Cells": [
+        "Vero E6"
+      ],
+      "PublicationStatus": [
+        "Preprint"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "CellLine": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+    },
+    "document_metadata": {
+      "authors": "Thrishna",
+      "contact": "thrishna@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "Wang_et.al_2020.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "NCBIGENE": ".*",
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "DRUGBANK": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "GOBP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+    },
+    "path": "Wang_et.al_2020.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "CellLine": {
+          "Vero cell": true
+        },
+        "CellLine_Infection_Type": {
+          "Severe acute respiratory syndrome coronavirus 2": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.03.14.988345"
+      },
+      "evidence": "These results show that blocking CD147 on the host cells has an inhibitory effect on SARS-CoV-2, suggesting an essential role of CD147 in facilitating SARS-CoV-2 invasion for host cells.",
+      "key": "c49c389a81eda4a1c4a5ec4631218646",
+      "line": 102,
+      "relation": "increases",
+      "source": 8,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 1
+    },
+    {
+      "key": "34a5de6b00db6c8e56c116e81bebb8d4",
+      "relation": "partOf",
+      "source": 8,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Vero cell": true
+        },
+        "CellLine_Infection_Type": {
+          "Severe acute respiratory syndrome coronavirus 2": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.03.14.988345"
+      },
+      "evidence": "These results confirm the interaction of CD147 and SP, indicating a novel potential route for SARS-CoV-2 to invade host cells.",
+      "key": "b97e2226e12499664b39eb285591a0af",
+      "line": 135,
+      "relation": "increases",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "key": "6fa02722539db4e9ce1b8f677d94232a",
+      "relation": "partOf",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "ELISA": true
+        },
+        "CellLine": {
+          "Vero cell": true
+        },
+        "CellLine_Infection_Type": {
+          "Severe acute respiratory syndrome coronavirus 2": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.03.14.988345"
+      },
+      "evidence": "In the meanwhile, competitive inhibition assay showed that Meplazumab could competitively inhibit the binding of SP and CD147, with an IC50 of 16.44 μg/mL (Figure 2D).",
+      "key": "7375b306eab3f8d0478eb9070a1177a2",
+      "line": 129,
+      "relation": "decreases",
+      "source": 0,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Cells": {
+          "Vero E6": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.03.14.988345"
+      },
+      "evidence": "These results show that blocking CD147 on the host cells has an inhibitory effect on SARS-CoV-2, suggesting an essential role of CD147 in facilitating SARS-CoV-2 invasion for host cells.",
+      "key": "e80c6c1296698005a46ca700420d3257",
+      "line": 148,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Cells": {
+          "Vero E6": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.03.14.988345"
+      },
+      "evidence": "These results show that blocking CD147 on the host cells has an inhibitory effect on SARS-CoV-2, suggesting an essential role of CD147 in facilitating SARS-CoV-2 invasion for host cells.",
+      "key": "9d56e8e1d9718a4a59124cadb967df85",
+      "line": 149,
+      "relation": "association",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "key": "e99d6fb9e24688a867e6b0250ac5f81d",
+      "relation": "partOf",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Cells": {
+          "Vero E6": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.03.14.988345"
+      },
+      "evidence": "These results show that blocking CD147 on the host cells has an inhibitory effect on SARS-CoV-2, suggesting an essential role of CD147 in facilitating SARS-CoV-2 invasion for host cells.",
+      "key": "527254e7e03a0e8f5b0acf1b61da731b",
+      "line": 148,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Cells": {
+          "Vero E6": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.03.14.988345"
+      },
+      "evidence": "These results show that blocking CD147 on the host cells has an inhibitory effect on SARS-CoV-2, suggesting an essential role of CD147 in facilitating SARS-CoV-2 invasion for host cells.",
+      "key": "9aa59598d6d914d17af2f340f054cde1",
+      "line": 149,
+      "relation": "association",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Cells": {
+          "Vero E6": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.03.14.988345"
+      },
+      "evidence": "After traced by 10 nm (CD147) and 20 nm (SP) gold colloid-labeled antibodies, we found that the two proteins mainly presented in viral inclusion bodies of Vero E6 cells (Figure 3A-C). These results reinforce the finding that the CD147-SP interaction enhances viral invasion for host cells.",
+      "key": "c1ec1f62920ea2b37deb1d984bb1688d",
+      "line": 157,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Cells": {
+          "Vero E6": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.03.14.988345"
+      },
+      "evidence": "The result showed that there was an interaction between CD147 and SP (RBD), which was consistent with the SPR assay (Figure 2B). In addition, the interaction of CD147-SP (RBD) was also confirmed by ELISA assay (Figure 2C). In the meanwhile, competitive inhibition assay showed that Meplazumab could competitively inhibit the binding of SP and CD147, with an IC50 of 16.44 μg/mL (Figure 2D). These results confirm the interaction of CD147 and SP, indicating a novel potential route for SARS-CoV-2 to invade host cells.",
+      "key": "e9658d988db781d637125625c8352895",
+      "line": 153,
+      "relation": "increases",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Cells": {
+          "Vero E6": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.03.14.988345"
+      },
+      "evidence": "After traced by 10 nm (CD147) and 20 nm (SP) gold colloid-labeled antibodies, we found that the two proteins mainly presented in viral inclusion bodies of Vero E6 cells (Figure 3A-C). These results reinforce the finding that the CD147-SP interaction enhances viral invasion for host cells.",
+      "key": "227b293466b088d071fcc1d58035e696",
+      "line": 157,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Cells": {
+          "Vero E6": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1101/2020.03.14.988345"
+      },
+      "evidence": "After traced by 10 nm (CD147) and 20 nm (SP) gold colloid-labeled antibodies, we found that the two proteins mainly presented in viral inclusion bodies of Vero E6 cells (Figure 3A-C). These results reinforce the finding that the CD147-SP interaction enhances viral invasion for host cells.",
+      "key": "240b9f870d753389909a943328a04f2f",
+      "line": 156,
+      "relation": "increases",
+      "source": 4,
+      "target": 4
+    },
+    {
+      "key": "aefc5feaa1baecdf0408a07652fb60b9",
+      "relation": "partOf",
+      "source": 7,
+      "target": 4
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(DRUGBANK:DB06612)",
+      "concept": {
+        "name": "DB06612",
+        "namespace": "DRUGBANK"
+      },
+      "function": "Abundance",
+      "id": "930dd15dbe36af04f8f6e25741cdf656"
+    },
+    {
+      "bel": "bp(GO:\"viral entry into host cell\")",
+      "concept": {
+        "name": "viral entry into host cell",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "2a6e5ae8582e2cded25095e14c2ee329"
+    },
+    {
+      "bel": "bp(GOBP:\"viral entry into host cell\")",
+      "concept": {
+        "name": "viral entry into host cell",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "60bbae25b4e0ac32c4c03901c2b4960c"
+    },
+    {
+      "bel": "complex(p(COVID:S), p(UNIPROT:A0A0D9RKP4))",
+      "function": "Complex",
+      "id": "5a4fbd8a533f135595dfbe160e4532ab",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(UNIPROT:A0A0D9RKP4)",
+          "concept": {
+            "name": "A0A0D9RKP4",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "1a88d7c92b6b662ca8a91767e146fe8c"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(HGNC:BSG), p(NCBIGENE:43740568))",
+      "function": "Complex",
+      "id": "e0df82c8efa0da26f00c5505292f477f",
+      "members": [
+        {
+          "bel": "p(HGNC:BSG)",
+          "concept": {
+            "name": "BSG",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "94be91a54962bc9c4b1b38465b121a91"
+        },
+        {
+          "bel": "p(NCBIGENE:43740568)",
+          "concept": {
+            "name": "43740568",
+            "namespace": "NCBIGENE"
+          },
+          "function": "Protein",
+          "id": "7c0c25d9b85462ae1b80a07e4192e4b9"
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(HGNC:BSG)",
+      "concept": {
+        "name": "BSG",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "94be91a54962bc9c4b1b38465b121a91"
+    },
+    {
+      "bel": "p(NCBIGENE:43740568)",
+      "concept": {
+        "name": "43740568",
+        "namespace": "NCBIGENE"
+      },
+      "function": "Protein",
+      "id": "7c0c25d9b85462ae1b80a07e4192e4b9"
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9RKP4)",
+      "concept": {
+        "name": "A0A0D9RKP4",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "1a88d7c92b6b662ca8a91767e146fe8c"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    }
+  ]
+}

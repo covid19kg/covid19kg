@@ -1,0 +1,937 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Assay": [
+        "enzyme-linked immunosorbent assay"
+      ],
+      "Custom_CellLine": [
+        "HEK293T"
+      ],
+      "EC50": [
+        "1.07 μg/ml"
+      ],
+      "IC50": [
+        "1.35 μg/ml",
+        "11.63 μg/ml",
+        "22.25 μg/ml",
+        "4.1 μg/ml",
+        "5.47 μg/ml"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ],
+      "Virus_type": [
+        "pseudovirus"
+      ],
+      "protein_type": [
+        "soluble"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Priya S",
+      "contact": "priya@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32203189.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32203189.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293T": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Du L",
+          "He L",
+          "Jiang S",
+          "Pu J",
+          "Tai W",
+          "Voronin D",
+          "Zhang X",
+          "Zhou Y"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32203189",
+        "db_name": "Cellular &amp; molecular immunology",
+        "first": "Tai W",
+        "last": "Du L"
+      },
+      "evidence": "Similar to SARS-CoV RBD, SARS-CoV-2 RBD bound to hACE2/293T cells expressing hACE2 (Fig. 2b (left and middle panels)), but not to hDPP4/293T cells expressing hDPP4 (Fig. 2c (left and middle panels)).",
+      "key": "16a2ad9965b24839de1f796324602b94",
+      "line": 53,
+      "relation": "increases",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "enzyme-linked immunosorbent assay": true
+        },
+        "EC50": {
+          "1.07 μg/ml": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "protein_type": {
+          "soluble": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Du L",
+          "He L",
+          "Jiang S",
+          "Pu J",
+          "Tai W",
+          "Voronin D",
+          "Zhang X",
+          "Zhou Y"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32203189",
+        "db_name": "Cellular &amp; molecular immunology",
+        "first": "Tai W",
+        "last": "Du L"
+      },
+      "evidence": "Third, we detected the binding of SARS-CoV-2 RBD to soluble hACE2 protein (sACE2) by ELISA. The results indicated that SARS-CoV-2 RBD bound to sACE2 in a dose dependent manner and that the binding between SARS-CoV-2 RBD and sACE2 with 50% effective dose (EC50) of 1.07 μg/ml was stronger than that between SARS-CoV RBD and sACE2 (EC50: 1.66 μg/ml).",
+      "key": "c7171018fca78d2574f57c5ee6b4d0a8",
+      "line": 68,
+      "relation": "increases",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "flow cytometry": true
+        },
+        "Custom_CellLine": {
+          "HEK293T": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Du L",
+          "He L",
+          "Jiang S",
+          "Pu J",
+          "Tai W",
+          "Voronin D",
+          "Zhang X",
+          "Zhou Y"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32203189",
+        "db_name": "Cellular &amp; molecular immunology",
+        "first": "Tai W",
+        "last": "Du L"
+      },
+      "evidence": "These data suggest that SARS-CoV-2 RBD can bind to both bACE2 and hACE2 with significantly stronger binding than that of SARS-CoV RBD to either bACE2 or hACE2, supporting the bat origin of SARS-CoV-2.",
+      "key": "f290e1e3fe3afe344140105757780a91",
+      "line": 86,
+      "relation": "increases",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293T": true
+        },
+        "IC50": {
+          "1.35 μg/ml": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_type": {
+          "pseudovirus": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Du L",
+          "He L",
+          "Jiang S",
+          "Pu J",
+          "Tai W",
+          "Voronin D",
+          "Zhang X",
+          "Zhou Y"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32203189",
+        "db_name": "Cellular &amp; molecular immunology",
+        "first": "Tai W",
+        "last": "Du L"
+      },
+      "evidence": "As expected, SARS-CoV-2 RBD protein inhibited SARS-CoV-2 pseudovirus entry into hACE2-expressing 293T cells in a dose-dependent manner with 50% inhibition concentration (IC50) as low as 1.35 μg/ml. Interestingly, it also blocked the entry of SARS-CoV pseudovirus into hACE2-expressing 293T cells with IC50 of 5.47 μg/ml5.47 μg/ml (Fig. 4a).",
+      "key": "63933c81da65f03f703373c2bf2b630d",
+      "line": 96,
+      "relation": "decreases",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293T": true
+        },
+        "IC50": {
+          "5.47 μg/ml": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_type": {
+          "pseudovirus": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Du L",
+          "He L",
+          "Jiang S",
+          "Pu J",
+          "Tai W",
+          "Voronin D",
+          "Zhang X",
+          "Zhou Y"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32203189",
+        "db_name": "Cellular &amp; molecular immunology",
+        "first": "Tai W",
+        "last": "Du L"
+      },
+      "evidence": "As expected, SARS-CoV-2 RBD protein inhibited SARS-CoV-2 pseudovirus entry into hACE2-expressing 293T cells in a dose-dependent manner with 50% inhibition concentration (IC50) as low as 1.35 μg/ml. Interestingly, it also blocked the entry of SARS-CoV pseudovirus into hACE2-expressing 293T cells with IC50 of 5.47 μg/ml5.47 μg/ml (Fig. 4a).",
+      "key": "d1e8db11b6ee76a9771f41fa28b8f2c7",
+      "line": 99,
+      "relation": "decreases",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "key": "cc2d182e46a7afcbe8de0b32b4f87ed1",
+      "relation": "partOf",
+      "source": 9,
+      "target": 3
+    },
+    {
+      "key": "8c2086cf4ea4f11e1b1d3feab7b25763",
+      "relation": "partOf",
+      "source": 9,
+      "target": 5
+    },
+    {
+      "key": "4a5247c4f14873816061303466316629",
+      "relation": "partOf",
+      "source": 9,
+      "target": 4
+    },
+    {
+      "key": "1db03b2523b3b2cd2b465edf9382bc2a",
+      "relation": "partOf",
+      "source": 10,
+      "target": 3
+    },
+    {
+      "key": "91585dfb07b68567219a2cb720e5cf5e",
+      "relation": "partOf",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293T": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Du L",
+          "He L",
+          "Jiang S",
+          "Pu J",
+          "Tai W",
+          "Voronin D",
+          "Zhang X",
+          "Zhou Y"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32203189",
+        "db_name": "Cellular &amp; molecular immunology",
+        "first": "Tai W",
+        "last": "Du L"
+      },
+      "evidence": "MERS-CoV RBD did not bind to hACE2-expressing 293T cells (Fig. 2b (right panel)), but rather bound to hDPP4-expressing 293T cells (Fig. 2c (right panel)).",
+      "key": "95cd36fbf05ad853da584a4520f8574f",
+      "line": 60,
+      "relation": "increases",
+      "source": 7,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293T": true
+        },
+        "IC50": {
+          "22.25 μg/ml": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_type": {
+          "pseudovirus": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Du L",
+          "He L",
+          "Jiang S",
+          "Pu J",
+          "Tai W",
+          "Voronin D",
+          "Zhang X",
+          "Zhou Y"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32203189",
+        "db_name": "Cellular &amp; molecular immunology",
+        "first": "Tai W",
+        "last": "Du L"
+      },
+      "evidence": "MERS-CoV RBD did not block the entry of SARS-CoV-2 pseudovirus or SARS-CoV pseudovirus into hACE2-expressing 293T cells, but it did block the entry of MERS-CoV pseudovirus into hDPP4-expressing 293T cells (IC50: 22.25 μg/ml) (Fig. 4a–c).",
+      "key": "0337abe48c2bf1eff51b64fdf49ce387",
+      "line": 122,
+      "relation": "decreases",
+      "source": 7,
+      "target": 0
+    },
+    {
+      "key": "a765f585000fcd4c1413710e5ee3a957",
+      "relation": "partOf",
+      "source": 11,
+      "target": 7
+    },
+    {
+      "key": "e8128e42c09c990e296aac651fdcf523",
+      "relation": "partOf",
+      "source": 13,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293T": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Du L",
+          "He L",
+          "Jiang S",
+          "Pu J",
+          "Tai W",
+          "Voronin D",
+          "Zhang X",
+          "Zhou Y"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32203189",
+        "db_name": "Cellular &amp; molecular immunology",
+        "first": "Tai W",
+        "last": "Du L"
+      },
+      "evidence": "Results indicated that SARSCoV-2 RBD bound strongly to 293T-expressed bACE2 with intensity similar to that of its binding to 293T-expressed hACE2 (Fig. 3a, c), and that this binding occurred in a dose-dependent manner (Fig. 3e, f).",
+      "key": "5f49430eb188fdb9e9333e02ad9c09ae",
+      "line": 76,
+      "relation": "increases",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "flow cytometry": true
+        },
+        "Custom_CellLine": {
+          "HEK293T": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Du L",
+          "He L",
+          "Jiang S",
+          "Pu J",
+          "Tai W",
+          "Voronin D",
+          "Zhang X",
+          "Zhou Y"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32203189",
+        "db_name": "Cellular &amp; molecular immunology",
+        "first": "Tai W",
+        "last": "Du L"
+      },
+      "evidence": "These data suggest that SARS-CoV-2 RBD can bind to both bACE2 and hACE2 with significantly stronger binding than that of SARS-CoV RBD to either bACE2 or hACE2, supporting the bat origin of SARS-CoV-2.",
+      "key": "f15edf56c2b2400ddffe6a57ed1a88e3",
+      "line": 84,
+      "relation": "increases",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "key": "acd18954175e1efc956d11347b5db38a",
+      "relation": "partOf",
+      "source": 14,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293T": true
+        },
+        "IC50": {
+          "11.63 μg/ml": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_type": {
+          "pseudovirus": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Du L",
+          "He L",
+          "Jiang S",
+          "Pu J",
+          "Tai W",
+          "Voronin D",
+          "Zhang X",
+          "Zhou Y"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32203189",
+        "db_name": "Cellular &amp; molecular immunology",
+        "first": "Tai W",
+        "last": "Du L"
+      },
+      "evidence": "Similarly, SARS-CoV RBD protein blocked the entry of both SARS-CoV pseudovirus and SARS-CoV-2 pseudovirus into hACE2-expressing 293T cells with IC50 of 4.1 and 11.63 μg/ml, respectively (Fig. 4b).",
+      "key": "1ff41a888da3af018549ae2eb121b7f1",
+      "line": 109,
+      "relation": "decreases",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "HEK293T": true
+        },
+        "IC50": {
+          "4.1 μg/ml": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Virus_type": {
+          "pseudovirus": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Du L",
+          "He L",
+          "Jiang S",
+          "Pu J",
+          "Tai W",
+          "Voronin D",
+          "Zhang X",
+          "Zhou Y"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32203189",
+        "db_name": "Cellular &amp; molecular immunology",
+        "first": "Tai W",
+        "last": "Du L"
+      },
+      "evidence": "Similarly, SARS-CoV RBD protein blocked the entry of both SARS-CoV pseudovirus and SARS-CoV-2 pseudovirus into hACE2-expressing 293T cells with IC50 of 4.1 and 11.63 μg/ml, respectively (Fig. 4b).",
+      "key": "c98049f976d5251bf31366b89f543bcd",
+      "line": 112,
+      "relation": "decreases",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "key": "e9a19617010334e4a7cd5c4ca2c08702",
+      "relation": "partOf",
+      "source": 15,
+      "target": 6
+    },
+    {
+      "key": "c1dde0b989d1e91a8c2c4d8744980140",
+      "relation": "partOf",
+      "source": 15,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Du L",
+          "He L",
+          "Jiang S",
+          "Pu J",
+          "Tai W",
+          "Voronin D",
+          "Zhang X",
+          "Zhou Y"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32203189",
+        "db_name": "Cellular &amp; molecular immunology",
+        "first": "Tai W",
+        "last": "Du L"
+      },
+      "evidence": "The results showed that SARS-CoV-2 RBD reacted strongly with anti-SARS-CoV RBD IgG with antibody titer of 1:2.4 × 104 (Fig. 4d), but it did not react with anti-MERS-CoV RBD IgG (Fig. 4e). As expected, SARS-CoV RBD reacted strongly with anti-SARS-CoV RBD IgG (antibody titer: 1:1.4 × 105) (Fig. 4d),but not with anti-MERS-CoV RBD IgG (Fig. 4e).",
+      "key": "3b428e6b4132797d2fc60b9d867346a5",
+      "line": 129,
+      "relation": "decreases",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "key": "7e57bb2df0fd369c5b45bfa71a4e3a8d",
+      "relation": "partOf",
+      "source": 12,
+      "target": 4
+    },
+    {
+      "key": "1766c6324caf05c915bd0a4591e80a3f",
+      "relation": "partOf",
+      "source": 12,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Du L",
+          "He L",
+          "Jiang S",
+          "Pu J",
+          "Tai W",
+          "Voronin D",
+          "Zhang X",
+          "Zhou Y"
+        ],
+        "date": "2020-03-19",
+        "db": "PubMed",
+        "db_id": "32203189",
+        "db_name": "Cellular &amp; molecular immunology",
+        "first": "Tai W",
+        "last": "Du L"
+      },
+      "evidence": "The results showed that SARS-CoV-2 RBD reacted strongly with anti-SARS-CoV RBD IgG with antibody titer of 1:2.4 × 104 (Fig. 4d), but it did not react with anti-MERS-CoV RBD IgG (Fig. 4e). As expected, SARS-CoV RBD reacted strongly with anti-SARS-CoV RBD IgG (antibody titer: 1:1.4 × 105) (Fig. 4d),but not with anti-MERS-CoV RBD IgG (Fig. 4e).",
+      "key": "8cd49c91dca81dc1df032dd812517397",
+      "line": 130,
+      "relation": "decreases",
+      "source": 8,
+      "target": 15
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(TAX:\"Middle East respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Middle East respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "f954d5cc971a29c7e7089ca32a056914"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "a824ba056422b4e42996cd3269ec9a19"
+    },
+    {
+      "bel": "complex(p(COVID:S), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "6b8514d35b9a04dcfdf30d01d4a3a0a0",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:S), p(MESH:\"Immunoglobulin G\"))",
+      "function": "Complex",
+      "id": "ac21c612b9b34053491c31b2febdd9e2",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(MESH:\"Immunoglobulin G\")",
+          "concept": {
+            "name": "Immunoglobulin G",
+            "namespace": "MESH"
+          },
+          "function": "Protein",
+          "id": "0552597810550378b083a4247508e495"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:S), p(UNIPROT:G1PXH7))",
+      "function": "Complex",
+      "id": "45d9632d99d1bf1fa1e355ea59730e98",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(UNIPROT:G1PXH7)",
+          "concept": {
+            "name": "G1PXH7",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "09a311ef9b03f21271f99611736facbf"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(HGNC:ACE2), p(UNIPROT:P59594))",
+      "function": "Complex",
+      "id": "5f0fba1d2f3748b26fc96f962647074c",
+      "members": [
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        },
+        {
+          "bel": "p(UNIPROT:P59594)",
+          "concept": {
+            "name": "P59594",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "7543d9372e2f08df7ae62ef5685b391b"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(HGNC:DPP4), p(UNIPROT:A0A140AYZ5))",
+      "function": "Complex",
+      "id": "4ab7e394579500a3174c25eb5122e618",
+      "members": [
+        {
+          "bel": "p(HGNC:DPP4)",
+          "concept": {
+            "name": "DPP4",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "ed0b2cb13479d4589d4dac0ecbced25e"
+        },
+        {
+          "bel": "p(UNIPROT:A0A140AYZ5)",
+          "concept": {
+            "name": "A0A140AYZ5",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "eba20891b3441af1cf6b3d7f68d6d4c0"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(MESH:\"Immunoglobulin G\"), p(UNIPROT:P59594))",
+      "function": "Complex",
+      "id": "e68b67151605fb9361b69e26798dd89f",
+      "members": [
+        {
+          "bel": "p(MESH:\"Immunoglobulin G\")",
+          "concept": {
+            "name": "Immunoglobulin G",
+            "namespace": "MESH"
+          },
+          "function": "Protein",
+          "id": "0552597810550378b083a4247508e495"
+        },
+        {
+          "bel": "p(UNIPROT:P59594)",
+          "concept": {
+            "name": "P59594",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "7543d9372e2f08df7ae62ef5685b391b"
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "p(HGNC:DPP4)",
+      "concept": {
+        "name": "DPP4",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "ed0b2cb13479d4589d4dac0ecbced25e"
+    },
+    {
+      "bel": "p(MESH:\"Immunoglobulin G\")",
+      "concept": {
+        "name": "Immunoglobulin G",
+        "namespace": "MESH"
+      },
+      "function": "Protein",
+      "id": "0552597810550378b083a4247508e495"
+    },
+    {
+      "bel": "p(UNIPROT:A0A140AYZ5)",
+      "concept": {
+        "name": "A0A140AYZ5",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "eba20891b3441af1cf6b3d7f68d6d4c0"
+    },
+    {
+      "bel": "p(UNIPROT:G1PXH7)",
+      "concept": {
+        "name": "G1PXH7",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "09a311ef9b03f21271f99611736facbf"
+    },
+    {
+      "bel": "p(UNIPROT:P59594)",
+      "concept": {
+        "name": "P59594",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "7543d9372e2f08df7ae62ef5685b391b"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+##################################################################################
+SET DOCUMENT Name = "32178593.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION Spike_Region AS LIST {"S1 domain"}
+DEFINE ANNOTATION Analysis AS LIST {"Molecular docking"}
+DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+SET Citation = {"PubMed","32178593"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Full Text"
+
+SET Evidence = "Similar to most other coronaviruses, the outer membrane spike \
+glycoprotein, known for its glycosylation [3], is the prime host \
+interacting protein with host cell targets (such as ACE2, CD26, Ezrin, \
+cyclophilins and other cell adhesion factors) important for cell \
+adhesion and virulence [4,5]."
+
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -- p(COVID:S)
+complex(p(COVID:S), p(HGNC:ACE2)) -> bp(GO:"adhesion receptor-mediated virion attachment to host cell")
+complex(p(COVID:S), p(HGNC:ACE2)) -> bp(MESH:Virulence)
+complex(p(COVID:S), p(HGNC:DPP4)) -> bp(GO:"adhesion receptor-mediated virion attachment to host cell")
+complex(p(COVID:S), p(HGNC:DPP4)) -> bp(MESH:Virulence)
+complex(p(COVID:S), p(HGNC:EZR)) -> bp(GO:"adhesion receptor-mediated virion attachment to host cell")
+complex(p(COVID:S), p(HGNC:EZR)) -> bp(MESH:Virulence)
+complex(p(COVID:S), p(PFAM:"Pro_isomerase")) -> bp(GO:"adhesion receptor-mediated virion attachment to host cell")
+complex(p(COVID:S), p(PFAM:"Pro_isomerase")) -> bp(MESH:Virulence)
+
+SET Evidence = "The host CD26 receptor cleaves amino-terminal dipeptides from \
+polypeptides with either L-proline or L-alanine in the penultimate \
+position, leading to T-cell activation and thus acting as a key \
+immunoregulatory factor in viral infections [9]."
+
+SET MeSHDisease = "Virus Diseases"
+act(p(HGNC:DPP4)) -> bp(GO:"T cell activation")
+bp(GO:"T cell activation") reg bp(GO:"immune response")
+UNSET MeSHDisease
+
+SET Evidence = "This suggests a possible tight interaction between the S1 domain loops \
+in the modelled structure and the CD26 surface."
+
+SET Analysis = "Molecular docking"
+SET Spike_Region = "S1 domain"
+complex(p(COVID:S, frag("13_685")), p(HGNC:DPP4))
+UNSET Spike_Region
+UNSET Analysis
+
+SET Evidence = "Some of these unique residues of S1 domain are also predicted interact \
+with the ACE2 protein [6]."
+
+SET Spike_Region = "S1 domain"
+complex(p(COVID:S, frag("13_685")), p(HGNC:ACE2))
+UNSET Spike_Region
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

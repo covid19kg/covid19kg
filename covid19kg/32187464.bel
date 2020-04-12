@@ -1,0 +1,60 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32187464.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Timeline AS LIST {"28 days","15 days"}
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed", "N Engl J Med. 2020 Mar 18. doi: 10.1056/NEJMoa2001282.", "32187464"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+
+SET Evidence = "In the modified intention to-treat population, the median time to clinical improvement was 15 days in the lopinavir–ritonavir group, as compared with 16 days in the
+standard-care group (hazard ratio, 1.39; 95% CI, 1.00 to 1.91) (Table S1 and Fig. S1 in the Supplementary Appendix)."
+SET Timeline = "15 days"
+composite(a(CHEBI:lopinavir), a(CHEBI:ritonavir)) -| path(DO:"COVID-19")
+UNSET Timeline
+
+SET Evidence = "The 28-day mortality was numerically lower in the lopinavir–ritonavir group than in the standardcare group for either the intention-to-treat population
+(19.2% vs. 25.0%; difference, −5.8 percentage points; 95% CI, −17.3 to 5.7)."
+SET Timeline = "28 days"
+composite(a(CHEBI:lopinavir), a(CHEBI:ritonavir)) -| path(DO:"COVID-19")
+composite(a(CHEBI:lopinavir), a(CHEBI:ritonavir)) -| path(MESH:Mortality)
+UNSET Timeline
+
+SET Evidence = "Gastrointestinal adverse events including nausea, vomiting, and diarrhea were more common in lopinavir–ritonavir group than in the standard-care group (Table 4)."
+composite(a(CHEBI:lopinavir), a(CHEBI:ritonavir)) pos path(MESH:Nausea)
+composite(a(CHEBI:lopinavir), a(CHEBI:ritonavir)) pos path(MESH:Vomiting)
+composite(a(CHEBI:lopinavir), a(CHEBI:ritonavir)) pos path(MESH:Diarrhea)
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

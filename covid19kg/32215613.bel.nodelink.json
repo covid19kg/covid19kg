@@ -1,0 +1,3171 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Review"
+      ],
+      "Section": [
+        "Full Text"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Thrishna",
+      "contact": "thrishna@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32215613.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "FIXME": ".*"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "MGI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32215613.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In an analysis of 45,000 confirmed cases in China, the crude case fatality rate was 0.9% for patients without any documented comorbidities, whereas the case fatality rate was much higher for patients with CVD (10.5%), diabetes (7.3%), or hypertension (6.3%)",
+      "key": "c09dac34c01d0f78588ef42818bd296c",
+      "line": 46,
+      "relation": "increases",
+      "source": 22,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In an analysis of 45,000 confirmed cases in China, the crude case fatality rate was 0.9% for patients without any documented comorbidities, whereas the case fatality rate was much higher for patients with CVD (10.5%), diabetes (7.3%), or hypertension (6.3%)",
+      "key": "e8e4641382862f7ff9175121acf3d5bd",
+      "line": 53,
+      "relation": "decreases",
+      "source": 22,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In an analysis of 45,000 confirmed cases in China, the crude case fatality rate was 0.9% for patients without any documented comorbidities, whereas the case fatality rate was much higher for patients with CVD (10.5%), diabetes (7.3%), or hypertension (6.3%)",
+      "key": "96fd023beff32c3e6b4d6395d13616a8",
+      "line": 49,
+      "relation": "association",
+      "source": 22,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Indeed, increased ACE2 levels are seen in multiple cardiovascular conditions and related comorbidities such as diabetes and hypertension [8,18,25].",
+      "key": "169faa6bcc1f66832f05a1bcd386e85a",
+      "line": 124,
+      "relation": "positiveCorrelation",
+      "source": 22,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "RAS activity in patients with CVD or cardiovascular comorbidities could increase the likelihood and severity of SARS-CoV-2 infection in the lung or heart and may explain heterogeneity in the clinical course of COVID-19, but in what direction??",
+      "key": "5e3892b28ef796688f89b6f6afd1c02a",
+      "line": 166,
+      "relation": "association",
+      "source": 22,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In an analysis of 45,000 confirmed cases in China, the crude case fatality rate was 0.9% for patients without any documented comorbidities, whereas the case fatality rate was much higher for patients with CVD (10.5%), diabetes (7.3%), or hypertension (6.3%)",
+      "key": "e519d2bcbcbe3d018c013d22dad16b83",
+      "line": 47,
+      "relation": "increases",
+      "source": 23,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In an analysis of 45,000 confirmed cases in China, the crude case fatality rate was 0.9% for patients without any documented comorbidities, whereas the case fatality rate was much higher for patients with CVD (10.5%), diabetes (7.3%), or hypertension (6.3%)",
+      "key": "5de0fc52053eefbd48739a249deec78f",
+      "line": 54,
+      "relation": "decreases",
+      "source": 23,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In an analysis of 45,000 confirmed cases in China, the crude case fatality rate was 0.9% for patients without any documented comorbidities, whereas the case fatality rate was much higher for patients with CVD (10.5%), diabetes (7.3%), or hypertension (6.3%)",
+      "key": "39917630ac65ad95520458548b96551c",
+      "line": 50,
+      "relation": "association",
+      "source": 23,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Indeed, increased ACE2 levels are seen in multiple cardiovascular conditions and related comorbidities such as diabetes and hypertension [8,18,25].",
+      "key": "a12c6ab3447281eb47e49969a2038e61",
+      "line": 125,
+      "relation": "positiveCorrelation",
+      "source": 23,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In an analysis of 45,000 confirmed cases in China, the crude case fatality rate was 0.9% for patients without any documented comorbidities, whereas the case fatality rate was much higher for patients with CVD (10.5%), diabetes (7.3%), or hypertension (6.3%)",
+      "key": "271ec33b6b277a92315dd01642507770",
+      "line": 48,
+      "relation": "increases",
+      "source": 26,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In an analysis of 45,000 confirmed cases in China, the crude case fatality rate was 0.9% for patients without any documented comorbidities, whereas the case fatality rate was much higher for patients with CVD (10.5%), diabetes (7.3%), or hypertension (6.3%)",
+      "key": "08039e20b9e0e4ad068ee142dbaeb7b4",
+      "line": 55,
+      "relation": "decreases",
+      "source": 26,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In an analysis of 45,000 confirmed cases in China, the crude case fatality rate was 0.9% for patients without any documented comorbidities, whereas the case fatality rate was much higher for patients with CVD (10.5%), diabetes (7.3%), or hypertension (6.3%)",
+      "key": "ee1a633d6b55a79e488c5d794e7c9780",
+      "line": 51,
+      "relation": "association",
+      "source": 26,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Indeed, increased ACE2 levels are seen in multiple cardiovascular conditions and related comorbidities such as diabetes and hypertension [8,18,25].",
+      "key": "811d2995b309631eb16735bf339f82ad",
+      "line": 126,
+      "relation": "positiveCorrelation",
+      "source": 26,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In an analysis of 45,000 confirmed cases in China, the crude case fatality rate was 0.9% for patients without any documented comorbidities, whereas the case fatality rate was much higher for patients with CVD (10.5%), diabetes (7.3%), or hypertension (6.3%)",
+      "key": "c3bae7e23fb9b0580de931fe75099557",
+      "line": 49,
+      "relation": "association",
+      "source": 20,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In an analysis of 45,000 confirmed cases in China, the crude case fatality rate was 0.9% for patients without any documented comorbidities, whereas the case fatality rate was much higher for patients with CVD (10.5%), diabetes (7.3%), or hypertension (6.3%)",
+      "key": "c213b0dfff04fd10d0b07126e8f98b3b",
+      "line": 50,
+      "relation": "association",
+      "source": 20,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In an analysis of 45,000 confirmed cases in China, the crude case fatality rate was 0.9% for patients without any documented comorbidities, whereas the case fatality rate was much higher for patients with CVD (10.5%), diabetes (7.3%), or hypertension (6.3%)",
+      "key": "c5cf9c9e1b817887fada53642e61325d",
+      "line": 51,
+      "relation": "association",
+      "source": 20,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "ACE2 in the gastrointestinal tract may underly early gastrointestinal symptoms such as nausea, vomiting, and diarrhea, and ACE2 in the heart may be related to cardiac damage and fulminant myocarditis that have been reported in COVID-19 [14,15].",
+      "key": "08d197a53614c159abe679fd0dd39219",
+      "line": 80,
+      "relation": "increases",
+      "source": 20,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "ACE2 in the gastrointestinal tract may underly early gastrointestinal symptoms such as nausea, vomiting, and diarrhea, and ACE2 in the heart may be related to cardiac damage and fulminant myocarditis that have been reported in COVID-19 [14,15].",
+      "key": "88317fb52f6296ac0b64b032416991d8",
+      "line": 81,
+      "relation": "increases",
+      "source": 20,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "ACE2 in the gastrointestinal tract may underly early gastrointestinal symptoms such as nausea, vomiting, and diarrhea, and ACE2 in the heart may be related to cardiac damage and fulminant myocarditis that have been reported in COVID-19 [14,15].",
+      "key": "ae8485c65d79d619e4cb3afacd418529",
+      "line": 82,
+      "relation": "increases",
+      "source": 20,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "ACE2 in the gastrointestinal tract may underly early gastrointestinal symptoms such as nausea, vomiting, and diarrhea, and ACE2 in the heart may be related to cardiac damage and fulminant myocarditis that have been reported in COVID-19 [14,15].",
+      "key": "17b3de4233d65115fd2adcc4394bd4c9",
+      "line": 83,
+      "relation": "increases",
+      "source": 20,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "ACE2 in the gastrointestinal tract may underly early gastrointestinal symptoms such as nausea, vomiting, and diarrhea, and ACE2 in the heart may be related to cardiac damage and fulminant myocarditis that have been reported in COVID-19 [14,15].",
+      "key": "8943c545c5fedaa65db7604fd1f3ae32",
+      "line": 84,
+      "relation": "increases",
+      "source": 20,
+      "target": 28
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Lastly, SARS-CoV-2 infection may downregulate ACE2 function, possibly to a greater extent in patients with pre-existing CVD.",
+      "key": "17138a51afce6379d734e81dad2322d7",
+      "line": 139,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "decreases",
+      "source": 20,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Because most patients who die from COVID-19 appear to develop ARDS as they decompensate, the definition of severe disease should include death, need for intensive care and organ support such as mechanical ventilation, or acute respiratory distress syndrome.",
+      "key": "b7ad287629c0537f0828d426d2fc8df3",
+      "line": 174,
+      "relation": "increases",
+      "source": 20,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Some centers are anecdotally reporting de novo cardiomyopathy; if this is true, this too should be considered in the definition of severe disease, although the mechanism could differ, and it is unclear if cardiomyopathy associated with COVID-19 occurs in the absence of ARDS.",
+      "key": "a02ebad5126dfd736a09286eab21e1a7",
+      "line": 181,
+      "relation": "increases",
+      "source": 20,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Similar pathogenesis has been identified in SARS-CoV-2, where it was recently confirmed that host-cell entry also depends on ACE2 [11].",
+      "key": "4b3a6a5fa5f83a5610a7fbacc1a487f8",
+      "line": 64,
+      "relation": "increases",
+      "source": 15,
+      "target": 11
+    },
+    {
+      "key": "9b5e6ebdb508b622c266b4b986bd47ee",
+      "relation": "partOf",
+      "source": 7,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Mechanistic evidence suggests two competing hypotheses: 1) RAS blockade decreases proinflammatory activity of Ang II, decreasing the risk of ARDS, myocarditis, or mortality in COVID-19, or 2) RAS blockade increases ACE2 expression, promoting SARS-CoV-2 virulence in the lungs and heart that leads to ARDS, myocarditis, and death.",
+      "key": "6011758ce3316df4598d7a71f735f87d",
+      "line": 198,
+      "relation": "increases",
+      "source": 7,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Heart": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Mechanistic evidence suggests two competing hypotheses: 1) RAS blockade decreases proinflammatory activity of Ang II, decreasing the risk of ARDS, myocarditis, or mortality in COVID-19, or 2) RAS blockade increases ACE2 expression, promoting SARS-CoV-2 virulence in the lungs and heart that leads to ARDS, myocarditis, and death.",
+      "key": "44004c617377f7b6136f0785dfc08893",
+      "line": 201,
+      "relation": "increases",
+      "source": 7,
+      "target": 27
+    },
+    {
+      "key": "52cb6d8fcf894bbfe8497cecebc5b0d1",
+      "relation": "partOf",
+      "source": 17,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Gastrointestinal Tract": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "ACE2 in the gastrointestinal tract may underly early gastrointestinal symptoms such as nausea, vomiting, and diarrhea, and ACE2 in the heart may be related to cardiac damage and fulminant myocarditis that have been reported in COVID-19 [14,15].",
+      "key": "fb609779ad44ced0e8cafd8087529a6b",
+      "line": 72,
+      "relation": "association",
+      "source": 17,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 32
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Gastrointestinal Tract": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "ACE2 in the gastrointestinal tract may underly early gastrointestinal symptoms such as nausea, vomiting, and diarrhea, and ACE2 in the heart may be related to cardiac damage and fulminant myocarditis that have been reported in COVID-19 [14,15].",
+      "key": "2ae7aa97559791f808aac0d743db4e4d",
+      "line": 73,
+      "relation": "association",
+      "source": 17,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 33
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Gastrointestinal Tract": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "ACE2 in the gastrointestinal tract may underly early gastrointestinal symptoms such as nausea, vomiting, and diarrhea, and ACE2 in the heart may be related to cardiac damage and fulminant myocarditis that have been reported in COVID-19 [14,15].",
+      "key": "54c14d3118fdb6a01089891f625faa2e",
+      "line": 74,
+      "relation": "association",
+      "source": 17,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Heart": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "ACE2 in the gastrointestinal tract may underly early gastrointestinal symptoms such as nausea, vomiting, and diarrhea, and ACE2 in the heart may be related to cardiac damage and fulminant myocarditis that have been reported in COVID-19 [14,15].",
+      "key": "a21ecad2a384c07bd4bf9eaf96327c45",
+      "line": 77,
+      "relation": "association",
+      "source": 17,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Heart": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "ACE2 in the gastrointestinal tract may underly early gastrointestinal symptoms such as nausea, vomiting, and diarrhea, and ACE2 in the heart may be related to cardiac damage and fulminant myocarditis that have been reported in COVID-19 [14,15].",
+      "key": "429096629f440c17be85427bbe2cfed7",
+      "line": 78,
+      "relation": "association",
+      "source": 17,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 28
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In contrast, ACE2 counteracts the RAS cascade by providing inhibitory control over Ang II. It does this via two primary mechanisms. First, ACE2 directly catalyzes Ang I and Ang II, depleting their levels [17].",
+      "key": "46b8b191591687bbbf6294b389b07dd3",
+      "line": 101,
+      "object": {
+        "modifier": "Degradation"
+      },
+      "relation": "increases",
+      "source": 17,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 0
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In contrast, ACE2 counteracts the RAS cascade by providing inhibitory control over Ang II. It does this via two primary mechanisms. First, ACE2 directly catalyzes Ang I and Ang II, depleting their levels [17].",
+      "key": "7cd853d3f2b7fab8fa0ae1b3e224ab99",
+      "line": 102,
+      "object": {
+        "modifier": "Degradation"
+      },
+      "relation": "increases",
+      "source": 17,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "This could lead to toxic Ang II overaccumulation, and several pathologic sequelae such as ARDS or fulminant myocarditis may follow.",
+      "key": "be5de11cf5b7a5cb5b4a8d271a3117a7",
+      "line": 144,
+      "relation": "decreases",
+      "source": 17,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 1
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Indeed, increased ACE2 levels are seen in multiple cardiovascular conditions and related comorbidities such as diabetes and hypertension [8,18,25].",
+      "key": "3105d18b9c835f8d31a6f80a4e580cb7",
+      "line": 124,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Indeed, increased ACE2 levels are seen in multiple cardiovascular conditions and related comorbidities such as diabetes and hypertension [8,18,25].",
+      "key": "85d7c78c0bcba5e5c88cff81316b5df0",
+      "line": 125,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Indeed, increased ACE2 levels are seen in multiple cardiovascular conditions and related comorbidities such as diabetes and hypertension [8,18,25].",
+      "key": "6da7f17489fe29c48da0e8522f4ea58d",
+      "line": 126,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Heart": true,
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Mechanistic evidence suggests two competing hypotheses: 1) RAS blockade decreases proinflammatory activity of Ang II, decreasing the risk of ARDS, myocarditis, or mortality in COVID-19, or 2) RAS blockade increases ACE2 expression, promoting SARS-CoV-2 virulence in the lungs and heart that leads to ARDS, myocarditis, and death.",
+      "key": "ba60b943630330579bba0398107bcf0d",
+      "line": 195,
+      "relation": "increases",
+      "source": 17,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Gastrointestinal Tract": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "ACE2 in the gastrointestinal tract may underly early gastrointestinal symptoms such as nausea, vomiting, and diarrhea, and ACE2 in the heart may be related to cardiac damage and fulminant myocarditis that have been reported in COVID-19 [14,15].",
+      "key": "118f6f7672dd3ba2e7a002ebed3c782d",
+      "line": 72,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "association",
+      "source": 32,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Gastrointestinal Tract": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "ACE2 in the gastrointestinal tract may underly early gastrointestinal symptoms such as nausea, vomiting, and diarrhea, and ACE2 in the heart may be related to cardiac damage and fulminant myocarditis that have been reported in COVID-19 [14,15].",
+      "key": "4a3ff9acb7155dd557134ee91c0146f3",
+      "line": 73,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "association",
+      "source": 33,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Gastrointestinal Tract": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "ACE2 in the gastrointestinal tract may underly early gastrointestinal symptoms such as nausea, vomiting, and diarrhea, and ACE2 in the heart may be related to cardiac damage and fulminant myocarditis that have been reported in COVID-19 [14,15].",
+      "key": "ba824400a46197480cb29baaf7bc167f",
+      "line": 74,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "association",
+      "source": 25,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Heart": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "ACE2 in the gastrointestinal tract may underly early gastrointestinal symptoms such as nausea, vomiting, and diarrhea, and ACE2 in the heart may be related to cardiac damage and fulminant myocarditis that have been reported in COVID-19 [14,15].",
+      "key": "fc2af62bcba8d0ced8f4fd2eced53290",
+      "line": 77,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "association",
+      "source": 31,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Heart": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "ACE2 in the gastrointestinal tract may underly early gastrointestinal symptoms such as nausea, vomiting, and diarrhea, and ACE2 in the heart may be related to cardiac damage and fulminant myocarditis that have been reported in COVID-19 [14,15].",
+      "key": "541f9dc630a1a03b6a9eed573f980abd",
+      "line": 78,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "association",
+      "source": 28,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In the RAS cascade, ACE is responsible for the conversion of Angiotensin (Ang) I to Ang II, and Ang II is the vasoactive peptide principally responsible for systemic vasoconstriction and stimulation of aldosterone release (Figure 1) [16]",
+      "key": "0376bc8a3d87849804f034f5936520be",
+      "line": 92,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "association",
+      "source": 13,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Paradoxically, pharmacologic RAS blockade has also been associated with increased ACE2 expression in mouse models [20].",
+      "key": "3b6de0fe8494a42b3d484a0a78b0c95e",
+      "line": 132,
+      "relation": "decreases",
+      "source": 13,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "RAS activity in patients with CVD or cardiovascular comorbidities could increase the likelihood and severity of SARS-CoV-2 infection in the lung or heart and may explain heterogeneity in the clinical course of COVID-19, but in what direction??",
+      "key": "706130d2858c87bb4df0ca5acd27d50d",
+      "line": 166,
+      "relation": "association",
+      "source": 13,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "RAS activity in patients with CVD or cardiovascular comorbidities could increase the likelihood and severity of SARS-CoV-2 infection in the lung or heart and may explain heterogeneity in the clinical course of COVID-19, but in what direction??",
+      "key": "89ad5ba832ce63ca787f8e647f70c3ba",
+      "line": 167,
+      "relation": "increases",
+      "source": 13,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Mechanistic evidence suggests two competing hypotheses: 1) RAS blockade decreases proinflammatory activity of Ang II, decreasing the risk of ARDS, myocarditis, or mortality in COVID-19, or 2) RAS blockade increases ACE2 expression, promoting SARS-CoV-2 virulence in the lungs and heart that leads to ARDS, myocarditis, and death.",
+      "key": "4e4f02b2aff63864b93a3d6de1e859f5",
+      "line": 189,
+      "relation": "increases",
+      "source": 13,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Mechanistic evidence suggests two competing hypotheses: 1) RAS blockade decreases proinflammatory activity of Ang II, decreasing the risk of ARDS, myocarditis, or mortality in COVID-19, or 2) RAS blockade increases ACE2 expression, promoting SARS-CoV-2 virulence in the lungs and heart that leads to ARDS, myocarditis, and death.",
+      "key": "20ca5896fca46047c1b5b2f253ab244a",
+      "line": 193,
+      "relation": "decreases",
+      "source": 13,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In the RAS cascade, ACE is responsible for the conversion of Angiotensin (Ang) I to Ang II, and Ang II is the vasoactive peptide principally responsible for systemic vasoconstriction and stimulation of aldosterone release (Figure 1) [16]",
+      "key": "b1c2675edb3c53f3bb8790dce0f711e9",
+      "line": 92,
+      "relation": "association",
+      "source": 16,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 13
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In the RAS cascade, ACE is responsible for the conversion of Angiotensin (Ang) I to Ang II, and Ang II is the vasoactive peptide principally responsible for systemic vasoconstriction and stimulation of aldosterone release (Figure 1) [16]",
+      "key": "304659944edf4f46d030eed4d3acc3e0",
+      "line": 93,
+      "relation": "increases",
+      "source": 16,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 35
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "The generation of Ang II by ACE is pharmacologically inhibited by angiotensin converting enzyme inhibitors (ACEi), and angiotensin receptor blockers (ARBs) function by blocking the downstream interaction of Ang II with the AT1 receptor [16].",
+      "key": "a473c847f7e0aaff7335046ffdee7ab8",
+      "line": 109,
+      "relation": "increases",
+      "source": 16,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 1
+    },
+    {
+      "key": "b46c68f0101675cbf474fc5f62c27f66",
+      "relation": "hasReactant",
+      "source": 35,
+      "target": 0
+    },
+    {
+      "key": "cc899e488e5679d40c70fd677ca6d733",
+      "relation": "hasProduct",
+      "source": 35,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In the RAS cascade, ACE is responsible for the conversion of Angiotensin (Ang) I to Ang II, and Ang II is the vasoactive peptide principally responsible for systemic vasoconstriction and stimulation of aldosterone release (Figure 1) [16]",
+      "key": "2b91ff01ee6080bee9035bc332241ab9",
+      "line": 94,
+      "relation": "increases",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "In the RAS cascade, ACE is responsible for the conversion of Angiotensin (Ang) I to Ang II, and Ang II is the vasoactive peptide principally responsible for systemic vasoconstriction and stimulation of aldosterone release (Figure 1) [16]",
+      "key": "b750507e2e1293befedad18346c12acb",
+      "line": 95,
+      "relation": "increases",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "key": "ea029bcd56961235a0dd0813c0012387",
+      "relation": "partOf",
+      "source": 1,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "This could lead to toxic Ang II overaccumulation, and several pathologic sequelae such as ARDS or fulminant myocarditis may follow.",
+      "key": "bd3ee3b68d7af9284aa7c67f9bfd04af",
+      "line": 145,
+      "relation": "increases",
+      "source": 1,
+      "target": 28
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "This could lead to toxic Ang II overaccumulation, and several pathologic sequelae such as ARDS or fulminant myocarditis may follow.",
+      "key": "8f9d97d866ac79d99096d5423b1fb8cd",
+      "line": 146,
+      "relation": "increases",
+      "source": 1,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Mechanistic evidence suggests two competing hypotheses: 1) RAS blockade decreases proinflammatory activity of Ang II, decreasing the risk of ARDS, myocarditis, or mortality in COVID-19, or 2) RAS blockade increases ACE2 expression, promoting SARS-CoV-2 virulence in the lungs and heart that leads to ARDS, myocarditis, and death.",
+      "key": "00a3980cbd09b75799ab7d52ec023be0",
+      "line": 190,
+      "relation": "increases",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "The generation of Ang II by ACE is pharmacologically inhibited by angiotensin converting enzyme inhibitors (ACEi), and angiotensin receptor blockers (ARBs) function by blocking the downstream interaction of Ang II with the AT1 receptor [16].",
+      "key": "46a4205f3a5176eb7d5b3fd2cf20b9ab",
+      "line": 110,
+      "relation": "decreases",
+      "source": 5,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "The generation of Ang II by ACE is pharmacologically inhibited by angiotensin converting enzyme inhibitors (ACEi), and angiotensin receptor blockers (ARBs) function by blocking the downstream interaction of Ang II with the AT1 receptor [16].",
+      "key": "36688792bc7a21866ab91ee0913ecbdc",
+      "line": 112,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 14,
+      "target": 16
+    },
+    {
+      "key": "2eddd69822628dd852f7fbede4a5e6e5",
+      "relation": "partOf",
+      "source": 18,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "The generation of Ang II by ACE is pharmacologically inhibited by angiotensin converting enzyme inhibitors (ACEi), and angiotensin receptor blockers (ARBs) function by blocking the downstream interaction of Ang II with the AT1 receptor [16].",
+      "key": "3f7b4fcfdb560408da543e99856f99eb",
+      "line": 111,
+      "relation": "decreases",
+      "source": 2,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Additional medications, including thiazolidinediones or ibuprofen, may also increase ACE2 levels, though data on this are sparse [21].",
+      "key": "111b5592a2778f90cb27a904ca4ae4d3",
+      "line": 117,
+      "relation": "increases",
+      "source": 4,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Additional medications, including thiazolidinediones or ibuprofen, may also increase ACE2 levels, though data on this are sparse [21].",
+      "key": "3533069135d3e19bc5fda490c2b68dd4",
+      "line": 118,
+      "relation": "increases",
+      "source": 3,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "With SARS-CoV, animal models showed that infection with the virus downregulated ACE2 expression, generating an inflammatory response correlated with acute lung injury and impaired cardiac contractility [26–28].",
+      "key": "6cb76a3172ed66531e4ca3186126026f",
+      "line": 156,
+      "relation": "decreases",
+      "source": 19,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 10
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Mechanistic evidence suggests two competing hypotheses: 1) RAS blockade decreases proinflammatory activity of Ang II, decreasing the risk of ARDS, myocarditis, or mortality in COVID-19, or 2) RAS blockade increases ACE2 expression, promoting SARS-CoV-2 virulence in the lungs and heart that leads to ARDS, myocarditis, and death.",
+      "key": "6f5d11f216e13310d71c41b7f76b4af3",
+      "line": 191,
+      "relation": "positiveCorrelation",
+      "source": 21,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "With SARS-CoV, animal models showed that infection with the virus downregulated ACE2 expression, generating an inflammatory response correlated with acute lung injury and impaired cardiac contractility [26–28].",
+      "key": "3ac683fb75399d97362efaa2f0bca882",
+      "line": 155,
+      "relation": "decreases",
+      "source": 8,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "With SARS-CoV, animal models showed that infection with the virus downregulated ACE2 expression, generating an inflammatory response correlated with acute lung injury and impaired cardiac contractility [26–28].",
+      "key": "3cab81573062e03dbc03409c226df277",
+      "line": 157,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "With SARS-CoV, animal models showed that infection with the virus downregulated ACE2 expression, generating an inflammatory response correlated with acute lung injury and impaired cardiac contractility [26–28].",
+      "key": "a483c3c52a509e1bc199e47b7a6e6c68",
+      "line": 158,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Mechanistic evidence suggests two competing hypotheses: 1) RAS blockade decreases proinflammatory activity of Ang II, decreasing the risk of ARDS, myocarditis, or mortality in COVID-19, or 2) RAS blockade increases ACE2 expression, promoting SARS-CoV-2 virulence in the lungs and heart that leads to ARDS, myocarditis, and death.",
+      "key": "abefe12971a21bc2a058c1cd5427a4b7",
+      "line": 191,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Mechanistic evidence suggests two competing hypotheses: 1) RAS blockade decreases proinflammatory activity of Ang II, decreasing the risk of ARDS, myocarditis, or mortality in COVID-19, or 2) RAS blockade increases ACE2 expression, promoting SARS-CoV-2 virulence in the lungs and heart that leads to ARDS, myocarditis, and death.",
+      "key": "dfb60ee6680b5f8e834706397d30b862",
+      "line": 192,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "With SARS-CoV, animal models showed that infection with the virus downregulated ACE2 expression, generating an inflammatory response correlated with acute lung injury and impaired cardiac contractility [26–28].",
+      "key": "7a6d513217666dbef00100c461390c4a",
+      "line": 157,
+      "relation": "positiveCorrelation",
+      "source": 30,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "With SARS-CoV, animal models showed that infection with the virus downregulated ACE2 expression, generating an inflammatory response correlated with acute lung injury and impaired cardiac contractility [26–28].",
+      "key": "d2cdb7a1a0e5ef5e1a458f3fa65401f2",
+      "line": 158,
+      "relation": "positiveCorrelation",
+      "source": 29,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Brown TS",
+          "Cohen JB",
+          "Hanff TC",
+          "Harhay MO",
+          "Mohareb AM"
+        ],
+        "date": "2020-03-26",
+        "db": "PubMed",
+        "db_id": "32215613",
+        "db_name": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "first": "Hanff TC",
+        "last": "Mohareb AM"
+      },
+      "evidence": "Mechanistic evidence suggests two competing hypotheses: 1) RAS blockade decreases proinflammatory activity of Ang II, decreasing the risk of ARDS, myocarditis, or mortality in COVID-19, or 2) RAS blockade increases ACE2 expression, promoting SARS-CoV-2 virulence in the lungs and heart that leads to ARDS, myocarditis, and death.",
+      "key": "d5e3eebe8cff8cddb3a2f88e90720d03",
+      "line": 192,
+      "relation": "positiveCorrelation",
+      "source": 27,
+      "target": 10
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:\"Angiotensin I\")",
+      "concept": {
+        "name": "Angiotensin I",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "6af52f2989caaf4daa5adeac24e9215a"
+    },
+    {
+      "bel": "a(CHEBI:\"angiotensin II\")",
+      "concept": {
+        "name": "angiotensin II",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "17c2386466aa664335d7eeca2063bf1f"
+    },
+    {
+      "bel": "a(CHEBI:\"angiotensin receptor antagonist\")",
+      "concept": {
+        "name": "angiotensin receptor antagonist",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "804e9c51456ff53ac97de8fdb426e46e"
+    },
+    {
+      "bel": "a(CHEBI:ibuprofen)",
+      "concept": {
+        "name": "ibuprofen",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "c289a5c2fe3d61cb05d28f3ef46b2293"
+    },
+    {
+      "bel": "a(CHEBI:thiazolidinediones)",
+      "concept": {
+        "name": "thiazolidinediones",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "1a224b6887ce14ed316c4214033196e0"
+    },
+    {
+      "bel": "a(MESH:\"Angiotensin-Converting Enzyme Inhibitors\")",
+      "concept": {
+        "name": "Angiotensin-Converting Enzyme Inhibitors",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "1421e0d945d1b17a03ff2445854ed2d2"
+    },
+    {
+      "bel": "a(MESH:Mortality)",
+      "concept": {
+        "name": "Mortality",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "cf219a9c8a81a7e372e19173d071eef6"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "a824ba056422b4e42996cd3269ec9a19"
+    },
+    {
+      "bel": "bp(GO:\"aldosterone secretion\")",
+      "concept": {
+        "name": "aldosterone secretion",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "27c0b57fb6bb3f0bdd1c6d61e44579f3"
+    },
+    {
+      "bel": "bp(GO:\"inflammatory response\")",
+      "concept": {
+        "name": "inflammatory response",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "abd32f6c5cca606061975532840db260"
+    },
+    {
+      "bel": "bp(GO:\"viral entry into host cell\")",
+      "concept": {
+        "name": "viral entry into host cell",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "2a6e5ae8582e2cded25095e14c2ee329"
+    },
+    {
+      "bel": "bp(GO:vasoconstriction)",
+      "concept": {
+        "name": "vasoconstriction",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "407b9c02f282c6a2ac0ba14924d4ebd7"
+    },
+    {
+      "bel": "bp(MESH:\"Renin-Angiotensin System\")",
+      "concept": {
+        "name": "Renin-Angiotensin System",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "f80fbf58ffc396be8b673c9ad4850284"
+    },
+    {
+      "bel": "complex(a(CHEBI:\"angiotensin II\"), p(HGNC:AGTR1))",
+      "function": "Complex",
+      "id": "6872471c911c339823785212ff43935f",
+      "members": [
+        {
+          "bel": "a(CHEBI:\"angiotensin II\")",
+          "concept": {
+            "name": "angiotensin II",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "17c2386466aa664335d7eeca2063bf1f"
+        },
+        {
+          "bel": "p(HGNC:AGTR1)",
+          "concept": {
+            "name": "AGTR1",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "aaf1fa632bd4a29e5095caf17491bb89"
+        }
+      ]
+    },
+    {
+      "bel": "complex(a(TAX:\"Severe acute respiratory syndrome coronavirus 2\"), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "146428e3b0f07633969567cac441971e",
+      "members": [
+        {
+          "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+          "concept": {
+            "name": "Severe acute respiratory syndrome coronavirus 2",
+            "namespace": "TAX"
+          },
+          "function": "Abundance",
+          "id": "c41851da59cc36c21b2e8acf24c1f46d"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:ACE)",
+      "concept": {
+        "name": "ACE",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "a42fa7a0be4ac760f67482e649ad0441"
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "p(HGNC:AGTR1)",
+      "concept": {
+        "name": "AGTR1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "aaf1fa632bd4a29e5095caf17491bb89"
+    },
+    {
+      "bel": "p(MGI:Ace2)",
+      "concept": {
+        "name": "Ace2",
+        "namespace": "MGI"
+      },
+      "function": "Protein",
+      "id": "9cb4733ab4e60addd6378f9f4c97eef9"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"adult respiratory distress syndrome\")",
+      "concept": {
+        "name": "adult respiratory distress syndrome",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "13c578f210684ad9f22dd027aa28b11a"
+    },
+    {
+      "bel": "path(DO:\"cardiovascular system disease\")",
+      "concept": {
+        "name": "cardiovascular system disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "0dddecaa74a5cb604700b965433f853e"
+    },
+    {
+      "bel": "path(DO:\"diabetes mellitus\")",
+      "concept": {
+        "name": "diabetes mellitus",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "a851751c015aaa69ddfba6458d99c945"
+    },
+    {
+      "bel": "path(DO:cardiomyopathy)",
+      "concept": {
+        "name": "cardiomyopathy",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "9f4ae2e723d6426cf3fe916c57089fcc"
+    },
+    {
+      "bel": "path(DO:diarrhea)",
+      "concept": {
+        "name": "diarrhea",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "f53fc3580f7450b941e98608ca05fddb"
+    },
+    {
+      "bel": "path(DO:hypertension)",
+      "concept": {
+        "name": "hypertension",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "53d5b8bd814074e87b1da1ff6250dcff"
+    },
+    {
+      "bel": "path(DO:myocarditis)",
+      "concept": {
+        "name": "myocarditis",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "bbe16b0e058f3aaccecc808506614baf"
+    },
+    {
+      "bel": "path(FIXME:\"Fulminant myocarditis\")",
+      "concept": {
+        "name": "Fulminant myocarditis",
+        "namespace": "FIXME"
+      },
+      "function": "Pathology",
+      "id": "94df751c035cc451ef5d62b0f5c63a74"
+    },
+    {
+      "bel": "path(HP:\"Impaired myocardial contractility\")",
+      "concept": {
+        "name": "Impaired myocardial contractility",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "5b8f6368f09e6a71e04e4fb13eaec0de"
+    },
+    {
+      "bel": "path(MESH:\"Acute Kidney Injury\")",
+      "concept": {
+        "name": "Acute Kidney Injury",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "c79b5c3cb64cd6a386a6983c7f4dbbdb"
+    },
+    {
+      "bel": "path(MESH:\"Heart Injuries\")",
+      "concept": {
+        "name": "Heart Injuries",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "936781bd0bf245df80710c8255fe2b1a"
+    },
+    {
+      "bel": "path(MESH:Nausea)",
+      "concept": {
+        "name": "Nausea",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "41e2b9e6454d4c63a3654236ce97040f"
+    },
+    {
+      "bel": "path(MESH:Vomiting)",
+      "concept": {
+        "name": "Vomiting",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "364ae88ab20bb2e8a9fd696110a8f558"
+    },
+    {
+      "bel": "r(MGI:Ace2)",
+      "concept": {
+        "name": "Ace2",
+        "namespace": "MGI"
+      },
+      "function": "RNA",
+      "id": "644ed02583c2f0757302dd8b21ee697d"
+    },
+    {
+      "bel": "rxn(reactants(a(CHEBI:\"Angiotensin I\")), products(a(CHEBI:\"angiotensin II\")))",
+      "function": "Reaction",
+      "id": "56a45e6a5eab5f1a2df86c48565300b1",
+      "products": [
+        {
+          "bel": "a(CHEBI:\"angiotensin II\")",
+          "concept": {
+            "name": "angiotensin II",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "17c2386466aa664335d7eeca2063bf1f"
+        }
+      ],
+      "reactants": [
+        {
+          "bel": "a(CHEBI:\"Angiotensin I\")",
+          "concept": {
+            "name": "Angiotensin I",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "6af52f2989caaf4daa5adeac24e9215a"
+        }
+      ]
+    }
+  ]
+}

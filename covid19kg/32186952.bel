@@ -1,0 +1,146 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32186952.bel"
+SET DOCUMENT Authors = "Shounak Baksi"
+SET DOCUMENT ContactInfo = "shounak.baksi@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+# DEFINE NAMESPACE ADO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/alzheimer-disease-ontology/alzheimer-disease-ontology-1.0.2.belns"
+# DEFINE NAMESPACE BRCO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/brain-region-ontology/brain-region-ontology-1.0.0.belns"
+# DEFINE NAMESPACE NIFT AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/nift/NIFT.belns"
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+# DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+# DEFINE NAMESPACE RGD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/rgd-rat-genes/rgd-rat-genes-20190128.belns"
+# DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+# DEFINE NAMESPACE SCOMP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-named-complexes/selventa-named-complexes-20190128.belns"
+# DEFINE NAMESPACE SFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-protein-families/selventa-protein-families-20190128.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DRUGBANK AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns"
+# DEFINE NAMESPACE INTERPRO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/interpro/interpro-names-20181021.belns"
+# DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+# DEFINE NAMESPACE GOBP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns"
+# DEFINE NAMESPACE GOCC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20190128.belns"
+# DEFINE NAMESPACE EFO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/efo/efo-20171206.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+# DEFINE NAMESPACE MESHC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-chemicals/mesh-chemicals-20190128.belns"
+# DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20190128.belns"
+# DEFINE NAMESPACE MESHPP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-processes/mesh-processes-20190128.belns"
+# DEFINE NAMESPACE MESHA AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-anatomy/mesh-anatomy-20190128.belns"
+# DEFINE NAMESPACE MESHCS AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-cellular-structures/mesh-cellular-structures-20190128.belns"
+# DEFINE NAMESPACE NCBIGENE AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-gene/ncbi-gene-20190224.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+# DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+# DEFINE NAMESPACE dbSNP AS PATTERN "rs[0-9]+"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+# DEFINE ANNOTATION Anatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno"
+# DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+# DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+# DEFINE ANNOTATION Disease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/disease/disease-20190128.belanno"
+# DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+# DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+# DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review", "Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint", "Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text", "Abstract", "Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","32186952"}
+SET PublicationType = "Review"
+SET PublicationStatus = "Published"
+SET Section = "Full Text"
+SET Custom_Disease = "COVID-19"
+SET Species = "9606"
+
+SET Evidence = "According to WHO guidelines, infected patients will receive supportive care including oxygen therapy, fluid therapy, and antibiotics for treating secondary bacterial infections."
+
+bp(MESH:"Oxygen Inhalation Therapy") -| path(DO:"COVID-19")
+bp(MESH:"Fluid Therapy") -| path(DO:"COVID-19")
+path(MESH:"Bacterial Infections") -- path(DO:"COVID-19")
+bp(GO:"response to antibiotic") -| path(MESH:"Bacterial Infections")
+
+SET Evidence = "The WHO also recommends the isolation of patients suspected or confirmed for COVID-19.16"
+
+path(MESH:"Social Isolation") -| path(DO:"COVID-19")
+
+SET Evidence = "The major therapeutic drugs that might be effective in managing COVID-19 include remdesivir, lopinavir/ritonavir alone or in combination with interferon-β, convalescent plasma, and mAbs.17 "
+
+a(PUBCHEM:121304016) -| path(DO:"COVID-19")
+#in chebi (CHEBI:145994) but not in arti
+a(CHEBI:lopinavir) -| path(DO:"COVID-19")
+a(CHEBI:ritonavir) -| path(DO:"COVID-19")
+composite(a(CHEBI:lopinavir),a(CHEBI:ritonavir),p(HGNC:IFNB1)) -| path(DO:"COVID-19")
+SET MeSHDisease = "Convalescence"
+composite(a(CHEBI:lopinavir),a(CHEBI:ritonavir)) -| path(DO:"COVID-19")
+UNSET MeSHDisease
+
+SET Evidence = "The S1 subunit has an RBD that interacts with its host cell receptor, angiotensin-converting enzyme 2 (ACE2), whereas the S2 subunit mediates fusion between the virus and host cell membranes for releasing viral RNA into the cytoplasm for replication.19 "
+
+p(COVID:S, frag("?")) -> complex(a(COVID:S), p(HGNC:ACE2))
+p(COVID:S, frag("?")) -> bp(GO:"intracellular transport of virus")
+
+SET Evidence = "The S protein has a major role in the induction of protective immunity during infection with SARS-CoV by eliciting neutralizing-antibodies and T-cell responses.19 "
+
+p(COVID:S) -> bp(MESH:Immunity)
+
+SET Evidence = "The interactions between these epitopes and their corresponding MHC class I molecules were studied further by using molecular dynamics simulations and found that the CTL epitopes bind with MHC class I peptide-binding grooves via multiple contacts, thus indicating their potential for generating immune responses.30 "
+
+complex(p(GO:"MHC class I protein complex"),a(COVID:S)) -> bp(MESH:Immunity)
+
+SET Evidence = "Combination therapy with mAbs and the drug remdesivir could be an ideal therapeutic option for COVID-19"
+
+a(PUBCHEM:121304016) -| path(DO:"COVID-19")
+
+SET Evidence = "The binding of COVID-19 and ACE2 affects the balance of renin–angiotensin system (RAS), potentially leading to exacerbation of severe pneumonia. Thus, it is speculated that ACEI and angiotensin type-1 receptor (AT1R) inhibitors might be able to reduce pulmonary inflammatory responses, thereby reducing the mortality.72"
+
+complex(p(HGNC:ACE2), a(TAX:"Severe acute respiratory syndrome coronavirus 2")) reg bp(MESH:"Renin-Angiotensin System")
+complex(p(HGNC:ACE2), a(TAX:"Severe acute respiratory syndrome coronavirus 2")) -> path(DO:pneumonia)
+ 
+SET Evidence = "Furthermore, RNA synthesis inhibitors (like 3TC, TDF), remdesivir, neuraminidase inhibitors, peptide (EK1), anti-inflammatory drugs, abidol, Chinese traditional medicine, such as Lianhuaqingwen and ShuFengJieDu Capsules, could be the promising COVID-19 treatments.2"
+
+a(CHEBI:lamivudine) -| path(DO:"COVID-19")
+a(PUBCHEM:64987) -| path(DO:"COVID-19")
+#a(PUBCHEM: 121304016) -| path(DO:"COVID-19")
+#already coded. 
+p(HGNC:NEU1) pos path(DO:"COVID-19")
+a(FIXME:"peptide EK1") -| path(DO:"COVID-19")
+a(DRUGBANK:DB13609)  -| path(DO:"COVID-19")
+a(MESH:"Medicine, Chinese Traditional") -| path(DO:"COVID-19")
+a(MESH:lianhuaqingwen) -| path(DO:"COVID-19")
+a(FIXME:ShuFengJieDu) -| path(DO:"COVID-19")
+
+SET Evidence = "Recently, the in vitro antiviral efficacy of approved drugs such as ribavirin, penciclovir, nitazoxanide, nafamostat, and chloroquine was compared with that of the two broad-spectrum antiviral drugs remdesivir and favipiravir for COVID-19. Among the evaluated drugs, both remdesivir and chloroquine were found to be highly effective in controlling COVID-19 in vitro.63 "
+
+a(CHEBI:chloroquine) -| path(DO:"COVID-19")
+#remdesivir already coded. 
+UNSET Species
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

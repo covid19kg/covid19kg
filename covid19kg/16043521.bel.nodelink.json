@@ -1,0 +1,4171 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Disease_Stage": [
+        "early stage",
+        "prodromal stage"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "Anatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno",
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "MeSHDisease": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Abish K",
+      "contact": "abish@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "16043521.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20190128.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "16043521.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "BioAssay": {
+          "optical microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "Conventional light microscopy (LM) demonstrated widespread damage of the lung parenchyma, with extensive fibrin exudate, edema, interstitial thickening, and extensive hyaline membrane formation (Fig. 1B).",
+      "key": "fc9896dacc672e7bc485bcc94aa5b255",
+      "line": 52,
+      "relation": "decreases",
+      "source": 16,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "optical microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "Conventional light microscopy (LM) demonstrated widespread damage of the lung parenchyma, with extensive fibrin exudate, edema, interstitial thickening, and extensive hyaline membrane formation (Fig. 1B).",
+      "key": "f7cccf473573ca4c6b8e487fc4e19002",
+      "line": 53,
+      "relation": "increases",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "optical microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Pulmonary Alveoli": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "There was extensive alveolar collapse, and the remaining alveoli were filled with fluid and desquamated alveolar and bronchial epithelial cells. Alveolar epithelial hyperplasia was evident.",
+      "key": "a4dff1e3ce0b48a5e09d8cb1c225ffd8",
+      "line": 61,
+      "relation": "increases",
+      "source": 16,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "optical microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "Conventional light microscopy (LM) demonstrated widespread damage of the lung parenchyma, with extensive fibrin exudate, edema, interstitial thickening, and extensive hyaline membrane formation (Fig. 1B).",
+      "key": "37639c8a448918b4207142641cbd8ba3",
+      "line": 54,
+      "relation": "increases",
+      "source": 16,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "optical microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "Conventional light microscopy (LM) demonstrated widespread damage of the lung parenchyma, with extensive fibrin exudate, edema, interstitial thickening, and extensive hyaline membrane formation (Fig. 1B).",
+      "key": "c8570156b5ac2c9a0cb577177f2c5612",
+      "line": 55,
+      "relation": "increases",
+      "source": 16,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "optical microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Pulmonary Alveoli": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "There was extensive alveolar collapse, and the remaining alveoli were filled with fluid and desquamated alveolar and bronchial epithelial cells. Alveolar epithelial hyperplasia was evident.",
+      "key": "725e2f56e27a33e9434a9753282ea5ff",
+      "line": 60,
+      "relation": "decreases",
+      "source": 16,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "optical microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Pulmonary Alveoli": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "There was extensive alveolar collapse, and the remaining alveoli were filled with fluid and desquamated alveolar and bronchial epithelial cells. Alveolar epithelial hyperplasia was evident.",
+      "key": "bd55d14128cbd1ff0f93749ab546b788",
+      "line": 62,
+      "relation": "increases",
+      "source": 16,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "optical microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Bronchi": true,
+          "Pulmonary Alveoli": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "There was extensive alveolar collapse, and the remaining alveoli were filled with fluid and desquamated alveolar and bronchial epithelial cells. Alveolar epithelial hyperplasia was evident.",
+      "key": "eda5662f5a9137e8b6e44044aeef1cdf",
+      "line": 65,
+      "relation": "decreases",
+      "source": 16,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "optical microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "Large syncytial cells with multiple nuclei were present. Small vessel vasculitis was seen.",
+      "key": "02d98eceeb2e2ad0ea78deb0809f157d",
+      "line": 71,
+      "relation": "increases",
+      "source": 16,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "optical microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "Large syncytial cells with multiple nuclei were present. Small vessel vasculitis was seen.",
+      "key": "8faf0a39d0abea320a7ce1b69a26fb91",
+      "line": 72,
+      "relation": "increases",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHAnatomy": {
+          "Lymphocytes": true,
+          "Macrophages": true,
+          "Respiratory Mucosa": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "In situ hybridization demonstrated SARS viral sequences in the cytoplasm of a large number of intact and degenerating epithelial cells of the lungs as well as in the scanty infiltrating lymphocytes and clustered macrophages (Fig. 1, C and D).",
+      "key": "3c0df53e80441d3adea99a35d774febe",
+      "line": 79,
+      "object": {
+        "location": {
+          "name": "cytoplasm",
+          "namespace": "GO"
+        }
+      },
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHAnatomy": {
+          "Blood Vessels": true,
+          "Lung": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "Monocytes and lymphocytes in blood vessels of the lungs also were positive for in situ hybridization (Fig. 1E).",
+      "key": "14e830529179fd3822dab8eb9f8cfbdf",
+      "line": 88,
+      "object": {
+        "location": {
+          "name": "Monocytes",
+          "namespace": "MESH"
+        }
+      },
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHAnatomy": {
+          "Blood Vessels": true,
+          "Lung": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "Monocytes and lymphocytes in blood vessels of the lungs also were positive for in situ hybridization (Fig. 1E).",
+      "key": "1d52058c58e8148e94a7b50b81f9d85e",
+      "line": 89,
+      "object": {
+        "location": {
+          "name": "Lymphocytes",
+          "namespace": "MESH"
+        }
+      },
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHAnatomy": {
+          "Bronchi": true,
+          "Bronchioles": true,
+          "Trachea": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "SARS viral sequences also were detected in the epithelial cells of the trachea, bronchi, and bronchioles by in situ hybridization (Fig. 1 J).",
+      "key": "59657fc050aa9e6835ebcceb2f8a370d",
+      "line": 97,
+      "object": {
+        "location": {
+          "name": "Epithelial Cells",
+          "namespace": "MESH"
+        }
+      },
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true,
+          "Lymph Nodes": true,
+          "Spleen": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "In situ hybridization identified the SARS viral sequence in the enlarged macrophages and in the isolated and sometimes clustered T lymphocytes, which were distributed mostly at the periphery of the germinal centers of the splenic white pulp, lymph nodes, and peripheral blood (Fig. 1 E; Fig. 2 G, H, J, and M).",
+      "key": "2e690059070150f56e380583dc76cedd",
+      "line": 148,
+      "object": {
+        "location": {
+          "name": "Macrophages",
+          "namespace": "MESH"
+        }
+      },
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true,
+          "Lymph Nodes": true,
+          "Spleen": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "In situ hybridization identified the SARS viral sequence in the enlarged macrophages and in the isolated and sometimes clustered T lymphocytes, which were distributed mostly at the periphery of the germinal centers of the splenic white pulp, lymph nodes, and peripheral blood (Fig. 1 E; Fig. 2 G, H, J, and M).",
+      "key": "9cdffd65b12eb02bf2969e76311143f0",
+      "line": 149,
+      "object": {
+        "location": {
+          "name": "T-Lymphocytes",
+          "namespace": "MESH"
+        }
+      },
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Anatomy": {
+          "submucosa of digestive tract": true
+        },
+        "BioAssay": {
+          "electron microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Gastrointestinal Tract": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "The lymphoid follicles (Peyer’s patches) showed markedly decreased lymphocytes (Fig. 3 A), and in severe cases only the depleted stromal framework of the structure remained. EM detected viral particles in the submucosa of the gut (Fig. 3, B and C) and within the residual lymphocytes.",
+      "key": "026e88823d253c675f15dd65ccbb716e",
+      "line": 161,
+      "object": {
+        "location": {
+          "name": "T-Lymphocytes",
+          "namespace": "MESH"
+        }
+      },
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Anatomy": {
+          "mucosa of small intestine": true,
+          "submucosa of small intestine": true
+        },
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "In situ hybridization demonstrated the presence of SARS positivity in the lymphocytes of the mucosa and the submucosa (Fig. 3 D).",
+      "key": "be61c07fb83f724c707133b03e3d9953",
+      "line": 170,
+      "object": {
+        "location": {
+          "name": "Lymphocytes",
+          "namespace": "MESH"
+        }
+      },
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Anatomy": {
+          "mucosa of large intestine": true,
+          "mucosa of small intestine": true
+        },
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "In addition, the epithelial cells of mucosa of the small and large intestines were found to be infected by the virus by in situ hybridization and EM (Fig. 3G).",
+      "key": "8db626da8343c3928182af8fc320c5fb",
+      "line": 178,
+      "object": {
+        "location": {
+          "name": "Epithelial Cells",
+          "namespace": "MESH"
+        }
+      },
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHAnatomy": {
+          "Kidney Tubules, Distal": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "In situ hybridization localized viral sequences to the epithelial cells of the renal distal tubules (Fig. 3 J).",
+      "key": "fa587dcacf9a632f8aa5ee582de67cfe",
+      "line": 189,
+      "object": {
+        "location": {
+          "name": "Epithelial Cells",
+          "namespace": "MESH"
+        }
+      },
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electron microscopy": true,
+          "nucleic acid hybridization-based method": true,
+          "optical microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Cerebral Cortex": true,
+          "Hypothalamus": true,
+          "Neurons": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "SARS genome sequences were detected in the brain of all SARS autopsies with LM, EM, and with real-time RT-PCR. The signals were confined to the cytoplasm of numerous neurons in the hypothalamus and cortex (Fig. 3 O).",
+      "key": "a4fd3fbdcb345f58a156f1b94c68f254",
+      "line": 205,
+      "object": {
+        "location": {
+          "name": "cytoplasm",
+          "namespace": "GO"
+        }
+      },
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electron microscopy": true
+        },
+        "Disease_Stage": {
+          "early stage": true
+        },
+        "MeSHAnatomy": {
+          "Lymphocytes": true,
+          "Monocytes": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "Among the 22 SARS blood samples that were obtained from the early stages of the disease, EM detected SARS-like viral particles in monocytes and lymphocytes of six patients. These round viral particles, with diameters of 80–120 nm, were located in the cytoplasm.",
+      "key": "45f2c16c3a65c7af487294376e05cd72",
+      "line": 106,
+      "object": {
+        "location": {
+          "name": "cytoplasm",
+          "namespace": "GO"
+        }
+      },
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electron microscopy": true
+        },
+        "Disease_Stage": {
+          "early stage": true
+        },
+        "MeSHAnatomy": {
+          "B-Lymphocytes": true,
+          "Killer Cells, Natural": true,
+          "T-Lymphocytes": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "Most of the infected cells were T cells. Some B cells and NK cells also were infected by the virus. By EM, the viral particles tended to form clusters and were located within or near the endoplasmic reticulum.",
+      "key": "3812c809fb5f92b96043613b5efef1b2",
+      "line": 112,
+      "object": {
+        "location": {
+          "name": "endoplasmic reticulum",
+          "namespace": "GO"
+        }
+      },
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lymphocytes": true,
+          "Lymphoid Tissue": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "A large proportion of lymphocytes in the circulation and lymphoid organs contained the virus (Fig. 2, A and B).",
+      "key": "943937db553371885d68bb5ee1a7e48b",
+      "line": 120,
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Anatomy": {
+          "mucosa of large intestine": true,
+          "mucosa of small intestine": true
+        },
+        "BioAssay": {
+          "electron microscopy": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "In addition, the epithelial cells of mucosa of the small and large intestines were found to be infected by the virus by in situ hybridization and EM (Fig. 3G).",
+      "key": "aefd22feb98d0c71831250cd3776933e",
+      "line": 181,
+      "object": {
+        "location": {
+          "name": "Epithelial Cells",
+          "namespace": "MESH"
+        }
+      },
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electron microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Kidney Tubules, Distal": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "Clusters of SARS viral particles also were detected in the cytoplasm of the distal tubular epithelium by EM (Fig. 3, M and N).",
+      "key": "2d734db937235c8875c1ef2722d61a31",
+      "line": 197,
+      "object": {
+        "location": {
+          "name": "cytoplasm",
+          "namespace": "GO"
+        }
+      },
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lymph Nodes": true,
+          "Spleen": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "The spleen and lymph nodes were atrophic (Fig. 2 L).",
+      "key": "bbc7425504866578790c6eea2192c457",
+      "line": 126,
+      "relation": "increases",
+      "source": 16,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electron microscopy": true,
+          "nucleic acid hybridization-based method": true,
+          "optical microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Hepatocytes": true,
+          "Testis": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "In five out of the eight confirmed cases, hepatocytes in the centrilobular zone showed apparent degenerative changes. The testes of the seven male patients displayed focal atrophy.",
+      "key": "201712023d28c8400cbde0e409f4d0b6",
+      "line": 211,
+      "relation": "increases",
+      "source": 16,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "optical microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Lymph Nodes": true,
+          "Spleen": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "LM with hematoxylin and eosin staining revealed a notable decrease of lymphocytes in these organs (Fig. 2 C).",
+      "key": "6e88520ffb06bf7583fb5d552ef63f4e",
+      "line": 133,
+      "relation": "decreases",
+      "source": 16,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "All immune cell types, including dendritic cells, were decreased significantly (P <0.01), and CD68 positive macrophages, which were decreased in number, were noticeably (P < 0.01) increased in size and gave the impression of macrophage activation (Fig. 2, D and E).",
+      "key": "caff6ddebe02ed7dcb1ea6d590060c78",
+      "line": 139,
+      "relation": "decreases",
+      "source": 16,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "All immune cell types, including dendritic cells, were decreased significantly (P <0.01), and CD68 positive macrophages, which were decreased in number, were noticeably (P < 0.01) increased in size and gave the impression of macrophage activation (Fig. 2, D and E).",
+      "key": "3dc75f6f2eeac96770179118e59e9b68",
+      "line": 140,
+      "relation": "negativeCorrelation",
+      "source": 16,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "All immune cell types, including dendritic cells, were decreased significantly (P <0.01), and CD68 positive macrophages, which were decreased in number, were noticeably (P < 0.01) increased in size and gave the impression of macrophage activation (Fig. 2, D and E).",
+      "key": "66ff0a99a803ba4e87beae1e0f3a8fa2",
+      "line": 142,
+      "relation": "increases",
+      "source": 16,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Peyer's Patches": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "The lymphoid follicles (Peyer’s patches) showed markedly decreased lymphocytes (Fig. 3 A), and in severe cases only the depleted stromal framework of the structure remained. EM detected viral particles in the submucosa of the gut (Fig. 3, B and C) and within the residual lymphocytes.",
+      "key": "e5865f772476a385124de2c4c8599b20",
+      "line": 156,
+      "relation": "decreases",
+      "source": 16,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electron microscopy": true,
+          "nucleic acid hybridization-based method": true,
+          "optical microscopy": true
+        },
+        "Disease_Stage": {
+          "prodromal stage": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "T lymphocytes (CD3+, CD4+, and CD8+ cells) were decreased at the onset of symptoms; this decrease persisted until the recovery phase.",
+      "key": "2c21a0d375b1b44e570490673460d6db",
+      "line": 217,
+      "relation": "decreases",
+      "source": 16,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electron microscopy": true,
+          "nucleic acid hybridization-based method": true,
+          "optical microscopy": true
+        },
+        "Disease_Stage": {
+          "prodromal stage": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "T lymphocytes (CD3+, CD4+, and CD8+ cells) were decreased at the onset of symptoms; this decrease persisted until the recovery phase.",
+      "key": "0ae0f3e0e91c7230c8e24eb6e76284bf",
+      "line": 218,
+      "relation": "decreases",
+      "source": 16,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHAnatomy": {
+          "Lymphocytes": true,
+          "Macrophages": true,
+          "Respiratory Mucosa": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "In situ hybridization demonstrated SARS viral sequences in the cytoplasm of a large number of intact and degenerating epithelial cells of the lungs as well as in the scanty infiltrating lymphocytes and clustered macrophages (Fig. 1, C and D).",
+      "key": "ea422a46b7c67ab08966c079787b25af",
+      "line": 79,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "subject": {
+        "location": {
+          "name": "cytoplasm",
+          "namespace": "GO"
+        }
+      },
+      "target": 16
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHAnatomy": {
+          "Blood Vessels": true,
+          "Lung": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "Monocytes and lymphocytes in blood vessels of the lungs also were positive for in situ hybridization (Fig. 1E).",
+      "key": "d4b652bab1dcd39d8f04fe5811237ff9",
+      "line": 88,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "subject": {
+        "location": {
+          "name": "Monocytes",
+          "namespace": "MESH"
+        }
+      },
+      "target": 16
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHAnatomy": {
+          "Blood Vessels": true,
+          "Lung": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "Monocytes and lymphocytes in blood vessels of the lungs also were positive for in situ hybridization (Fig. 1E).",
+      "key": "fa158b2bc4557e45f17dd0f2a5ce6f0f",
+      "line": 89,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "subject": {
+        "location": {
+          "name": "Lymphocytes",
+          "namespace": "MESH"
+        }
+      },
+      "target": 16
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHAnatomy": {
+          "Bronchi": true,
+          "Bronchioles": true,
+          "Trachea": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "SARS viral sequences also were detected in the epithelial cells of the trachea, bronchi, and bronchioles by in situ hybridization (Fig. 1 J).",
+      "key": "6ee35154e78788953d6e061a33a78b3b",
+      "line": 97,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "subject": {
+        "location": {
+          "name": "Epithelial Cells",
+          "namespace": "MESH"
+        }
+      },
+      "target": 16
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true,
+          "Lymph Nodes": true,
+          "Spleen": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "In situ hybridization identified the SARS viral sequence in the enlarged macrophages and in the isolated and sometimes clustered T lymphocytes, which were distributed mostly at the periphery of the germinal centers of the splenic white pulp, lymph nodes, and peripheral blood (Fig. 1 E; Fig. 2 G, H, J, and M).",
+      "key": "2095a29e107959d019819f2c695943b1",
+      "line": 148,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "subject": {
+        "location": {
+          "name": "Macrophages",
+          "namespace": "MESH"
+        }
+      },
+      "target": 16
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHAnatomy": {
+          "Blood": true,
+          "Lymph Nodes": true,
+          "Spleen": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "In situ hybridization identified the SARS viral sequence in the enlarged macrophages and in the isolated and sometimes clustered T lymphocytes, which were distributed mostly at the periphery of the germinal centers of the splenic white pulp, lymph nodes, and peripheral blood (Fig. 1 E; Fig. 2 G, H, J, and M).",
+      "key": "fd1587142ce9ddc881140173d3fa4291",
+      "line": 149,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "subject": {
+        "location": {
+          "name": "T-Lymphocytes",
+          "namespace": "MESH"
+        }
+      },
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Anatomy": {
+          "submucosa of digestive tract": true
+        },
+        "BioAssay": {
+          "electron microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Gastrointestinal Tract": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "The lymphoid follicles (Peyer’s patches) showed markedly decreased lymphocytes (Fig. 3 A), and in severe cases only the depleted stromal framework of the structure remained. EM detected viral particles in the submucosa of the gut (Fig. 3, B and C) and within the residual lymphocytes.",
+      "key": "244f27c1a5ca1e3ab19ae09161ea400d",
+      "line": 161,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "subject": {
+        "location": {
+          "name": "T-Lymphocytes",
+          "namespace": "MESH"
+        }
+      },
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Anatomy": {
+          "mucosa of small intestine": true,
+          "submucosa of small intestine": true
+        },
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "In situ hybridization demonstrated the presence of SARS positivity in the lymphocytes of the mucosa and the submucosa (Fig. 3 D).",
+      "key": "e701fffb7242808265c4529d2ae7c66d",
+      "line": 170,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "subject": {
+        "location": {
+          "name": "Lymphocytes",
+          "namespace": "MESH"
+        }
+      },
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Anatomy": {
+          "mucosa of large intestine": true,
+          "mucosa of small intestine": true
+        },
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "In addition, the epithelial cells of mucosa of the small and large intestines were found to be infected by the virus by in situ hybridization and EM (Fig. 3G).",
+      "key": "1e5df508e725d92f5c0687396d222eef",
+      "line": 178,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "subject": {
+        "location": {
+          "name": "Epithelial Cells",
+          "namespace": "MESH"
+        }
+      },
+      "target": 16
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHAnatomy": {
+          "Kidney Tubules, Distal": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "In situ hybridization localized viral sequences to the epithelial cells of the renal distal tubules (Fig. 3 J).",
+      "key": "494d5ac1aa0128b254e1f2331fa38e3e",
+      "line": 189,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "subject": {
+        "location": {
+          "name": "Epithelial Cells",
+          "namespace": "MESH"
+        }
+      },
+      "target": 16
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electron microscopy": true,
+          "nucleic acid hybridization-based method": true,
+          "optical microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Cerebral Cortex": true,
+          "Hypothalamus": true,
+          "Neurons": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "SARS genome sequences were detected in the brain of all SARS autopsies with LM, EM, and with real-time RT-PCR. The signals were confined to the cytoplasm of numerous neurons in the hypothalamus and cortex (Fig. 3 O).",
+      "key": "18a4e26d6484555ec4c334830879c28e",
+      "line": 205,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "subject": {
+        "location": {
+          "name": "cytoplasm",
+          "namespace": "GO"
+        }
+      },
+      "target": 16
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHAnatomy": {
+          "Lymphocytes": true,
+          "Macrophages": true,
+          "Respiratory Mucosa": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "In situ hybridization demonstrated SARS viral sequences in the cytoplasm of a large number of intact and degenerating epithelial cells of the lungs as well as in the scanty infiltrating lymphocytes and clustered macrophages (Fig. 1, C and D).",
+      "key": "06532505956b09799ac2f9a88e954ae3",
+      "line": 80,
+      "relation": "association",
+      "source": 0,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "nucleic acid hybridization-based method": true
+        },
+        "MeSHAnatomy": {
+          "Lymphocytes": true,
+          "Macrophages": true,
+          "Respiratory Mucosa": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "In situ hybridization demonstrated SARS viral sequences in the cytoplasm of a large number of intact and degenerating epithelial cells of the lungs as well as in the scanty infiltrating lymphocytes and clustered macrophages (Fig. 1, C and D).",
+      "key": "6248a8f69853c74f4490b7aba53b4ba5",
+      "line": 80,
+      "relation": "association",
+      "source": 9,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electron microscopy": true
+        },
+        "Disease_Stage": {
+          "early stage": true
+        },
+        "MeSHAnatomy": {
+          "Lymphocytes": true,
+          "Monocytes": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "Among the 22 SARS blood samples that were obtained from the early stages of the disease, EM detected SARS-like viral particles in monocytes and lymphocytes of six patients. These round viral particles, with diameters of 80–120 nm, were located in the cytoplasm.",
+      "key": "e4579f9c84b170fc8f03cf5ec2c9ee17",
+      "line": 106,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "subject": {
+        "location": {
+          "name": "cytoplasm",
+          "namespace": "GO"
+        }
+      },
+      "target": 16
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electron microscopy": true
+        },
+        "Disease_Stage": {
+          "early stage": true
+        },
+        "MeSHAnatomy": {
+          "B-Lymphocytes": true,
+          "Killer Cells, Natural": true,
+          "T-Lymphocytes": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "Most of the infected cells were T cells. Some B cells and NK cells also were infected by the virus. By EM, the viral particles tended to form clusters and were located within or near the endoplasmic reticulum.",
+      "key": "a270501e5886bc7ab2d1d281bd1b8ee6",
+      "line": 112,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "subject": {
+        "location": {
+          "name": "endoplasmic reticulum",
+          "namespace": "GO"
+        }
+      },
+      "target": 16
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Lymphocytes": true,
+          "Lymphoid Tissue": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "A large proportion of lymphocytes in the circulation and lymphoid organs contained the virus (Fig. 2, A and B).",
+      "key": "750c95fe6ab4f6d71d5004c2d67a7c30",
+      "line": 120,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Anatomy": {
+          "mucosa of large intestine": true,
+          "mucosa of small intestine": true
+        },
+        "BioAssay": {
+          "electron microscopy": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "In addition, the epithelial cells of mucosa of the small and large intestines were found to be infected by the virus by in situ hybridization and EM (Fig. 3G).",
+      "key": "f11d0edf8ab01577851f1857a394714d",
+      "line": 181,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "subject": {
+        "location": {
+          "name": "Epithelial Cells",
+          "namespace": "MESH"
+        }
+      },
+      "target": 16
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "electron microscopy": true
+        },
+        "MeSHAnatomy": {
+          "Kidney Tubules, Distal": true
+        },
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "Clusters of SARS viral particles also were detected in the cytoplasm of the distal tubular epithelium by EM (Fig. 3, M and N).",
+      "key": "ea24ab6df19971c2f6dad5797fa86c9e",
+      "line": 197,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "subject": {
+        "location": {
+          "name": "cytoplasm",
+          "namespace": "GO"
+        }
+      },
+      "target": 16
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "All immune cell types, including dendritic cells, were decreased significantly (P <0.01), and CD68 positive macrophages, which were decreased in number, were noticeably (P < 0.01) increased in size and gave the impression of macrophage activation (Fig. 2, D and E).",
+      "key": "412c2e0065434932188ed207be728471",
+      "line": 140,
+      "relation": "negativeCorrelation",
+      "source": 13,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "All immune cell types, including dendritic cells, were decreased significantly (P <0.01), and CD68 positive macrophages, which were decreased in number, were noticeably (P < 0.01) increased in size and gave the impression of macrophage activation (Fig. 2, D and E).",
+      "key": "701346b976aee2ce828f3b668a5e5e5f",
+      "line": 141,
+      "relation": "association",
+      "source": 13,
+      "subject": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "target": 8
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Severe Acute Respiratory Syndrome": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Anderson VM",
+          "Fang W",
+          "Gao D",
+          "Gao Z",
+          "Gong E",
+          "Gu J",
+          "He Z",
+          "Leong AS",
+          "Li X",
+          "Pei F",
+          "Shao H",
+          "Shi X",
+          "Wang S",
+          "Wu B",
+          "Xie Z",
+          "Xu D",
+          "Zhan J",
+          "Zhang B",
+          "Zheng J",
+          "Zhong H",
+          "Zhong Y",
+          "Zhuang H",
+          "Zou W"
+        ],
+        "date": "2005-08-01",
+        "db": "PubMed",
+        "db_id": "16043521",
+        "db_name": "The Journal of experimental medicine",
+        "first": "Gu J",
+        "last": "Leong AS",
+        "pages": "415-24",
+        "volume": "202"
+      },
+      "evidence": "All immune cell types, including dendritic cells, were decreased significantly (P <0.01), and CD68 positive macrophages, which were decreased in number, were noticeably (P < 0.01) increased in size and gave the impression of macrophage activation (Fig. 2, D and E).",
+      "key": "7b537c2fe8146d17fccd5bce37b033d3",
+      "line": 141,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "cell surface",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "association",
+      "source": 8,
+      "target": 13
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(GO:\"RNA viral genome\")",
+      "concept": {
+        "name": "RNA viral genome",
+        "namespace": "GO"
+      },
+      "function": "Abundance",
+      "id": "58886676a15d0caee20d11c6dbfcfc7d"
+    },
+    {
+      "bel": "a(MESH:\"CD4-Positive T-Lymphocytes\")",
+      "concept": {
+        "name": "CD4-Positive T-Lymphocytes",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "d26f55e472a40223e18fc717c6a1b55d"
+    },
+    {
+      "bel": "a(MESH:\"CD8-Positive T-Lymphocytes\")",
+      "concept": {
+        "name": "CD8-Positive T-Lymphocytes",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "59b2f285d4c75c8c59127aa7c441658c"
+    },
+    {
+      "bel": "a(MESH:\"Dendritic Cells\")",
+      "concept": {
+        "name": "Dendritic Cells",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "e2f5d623dde0ab0a25131ec9f547f7c3"
+    },
+    {
+      "bel": "a(MESH:\"Parenchymal Tissue\")",
+      "concept": {
+        "name": "Parenchymal Tissue",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "4e0307ad34709ebd1fa00ce5225c784d"
+    },
+    {
+      "bel": "a(MESH:\"Respiratory Mucosa\")",
+      "concept": {
+        "name": "Respiratory Mucosa",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "88f4897d30d838d5586ced89683bf205"
+    },
+    {
+      "bel": "a(MESH:\"T-Lymphocytes\")",
+      "concept": {
+        "name": "T-Lymphocytes",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "04840e346c8f8e46d6d4e5ed8f1b84c5"
+    },
+    {
+      "bel": "a(MESH:Lymphocytes)",
+      "concept": {
+        "name": "Lymphocytes",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "05994a861f52857ee7dd98e839952695"
+    },
+    {
+      "bel": "a(MESH:Macrophages)",
+      "concept": {
+        "name": "Macrophages",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "311e39dad42597c983d7962f84ee92b6"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "a824ba056422b4e42996cd3269ec9a19"
+    },
+    {
+      "bel": "bp(GO:\"cell wall thickening\")",
+      "concept": {
+        "name": "cell wall thickening",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "8f88317a0f20b1171d44f32175540058"
+    },
+    {
+      "bel": "bp(GO:\"lung alveolus development\")",
+      "concept": {
+        "name": "lung alveolus development",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "842cea4942923c84301050c902e25616"
+    },
+    {
+      "bel": "bp(GO:\"macrophage activation\")",
+      "concept": {
+        "name": "macrophage activation",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "b4f30b2d638992803651eb8bd038b5e6"
+    },
+    {
+      "bel": "p(HGNC:CD68)",
+      "concept": {
+        "name": "CD68",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "2dab12906b4ea7abe775f9c34171a870"
+    },
+    {
+      "bel": "path(DO:\"pulmonary edema\")",
+      "concept": {
+        "name": "pulmonary edema",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "e4929e22be444025c7b6bbfbed819a45"
+    },
+    {
+      "bel": "path(DO:\"respiratory syncytial virus infectious disease\")",
+      "concept": {
+        "name": "respiratory syncytial virus infectious disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "348d26f45601d0e9cfcc2cfd7bb45411"
+    },
+    {
+      "bel": "path(DO:\"severe acute respiratory syndrome\")",
+      "concept": {
+        "name": "severe acute respiratory syndrome",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "06fc6690e6ddfff254197e953a470c95"
+    },
+    {
+      "bel": "path(HP:\"Small vessel vasculitis\")",
+      "concept": {
+        "name": "Small vessel vasculitis",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "f6946c831c66c1caf8ea1a4116aedbff"
+    },
+    {
+      "bel": "path(MESH:\"Hyaline Membrane Disease\")",
+      "concept": {
+        "name": "Hyaline Membrane Disease",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "7a97c7729deb37f69a74aed007bb854c"
+    },
+    {
+      "bel": "path(MESH:Atrophy)",
+      "concept": {
+        "name": "Atrophy",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "7d5394b2784c6e661c25500d859dc266"
+    },
+    {
+      "bel": "path(MESH:Hyperplasia)",
+      "concept": {
+        "name": "Hyperplasia",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "7974643f2711a69a593496ec5da5b233"
+    }
+  ]
+}

@@ -1,0 +1,1078 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Abish K",
+      "contact": "abish@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32227090.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32227090.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Intestines": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen L",
+          "Chen M",
+          "Feng Y",
+          "Li X",
+          "Xiong C"
+        ],
+        "date": "2020-03-30",
+        "db": "PubMed",
+        "db_id": "32227090",
+        "db_name": "Cardiovascular research",
+        "first": "Chen L",
+        "last": "Xiong C"
+      },
+      "evidence": "Digestive tract intestine displayed the highest expression of ACE2, followed by testis and kidney, suggesting the vulnerability to virus in these organs, which could explain the positive detection of SARS- CoV-2 in patients’ faeces and urine. 6",
+      "key": "00c598b9fb85b49d9a3e58639ea5c83a",
+      "line": 51,
+      "relation": "increases",
+      "source": 6,
+      "target": 15
+    },
+    {
+      "key": "cc2d182e46a7afcbe8de0b32b4f87ed1",
+      "relation": "partOf",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "key": "1db03b2523b3b2cd2b465edf9382bc2a",
+      "relation": "partOf",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "protein profiling assay": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Myocytes, Cardiac": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen L",
+          "Chen M",
+          "Feng Y",
+          "Li X",
+          "Xiong C"
+        ],
+        "date": "2020-03-30",
+        "db": "PubMed",
+        "db_id": "32227090",
+        "db_name": "Cardiovascular research",
+        "first": "Chen L",
+        "last": "Xiong C"
+      },
+      "evidence": "RNA sequencing revealed that myocardial ACE2 expression was significantly increased in patients with heart failure (Figure 1J, fold change = 3.00, P<0.0001), which was further validated at the protein level by proteomics profiling (Figure 1K, fold change=1.82, P<0.0001).",
+      "key": "a14128e326bc02a3ac8bf37ebacbf286",
+      "line": 97,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Feces": true,
+          "Urine": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen L",
+          "Chen M",
+          "Feng Y",
+          "Li X",
+          "Xiong C"
+        ],
+        "date": "2020-03-30",
+        "db": "PubMed",
+        "db_id": "32227090",
+        "db_name": "Cardiovascular research",
+        "first": "Chen L",
+        "last": "Xiong C"
+      },
+      "evidence": "Digestive tract intestine displayed the highest expression of ACE2, followed by testis and kidney, suggesting the vulnerability to virus in these organs, which could explain the positive detection of SARS- CoV-2 in patients’ faeces and urine. 6",
+      "key": "6ab9eb2c9ebdb5327b1eb8312c0765de",
+      "line": 54,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Heart": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen L",
+          "Chen M",
+          "Feng Y",
+          "Li X",
+          "Xiong C"
+        ],
+        "date": "2020-03-30",
+        "db": "PubMed",
+        "db_id": "32227090",
+        "db_name": "Cardiovascular research",
+        "first": "Chen L",
+        "last": "Xiong C"
+      },
+      "evidence": "Taken together, these results suggested that SARS-CoV-2 infection in the human heart might attack pericytes, and cause capillary ECs dysfunction, thus inducing micro-circulation disorder.",
+      "key": "c65427a11907fda3bd06e0d19b270daf",
+      "line": 78,
+      "relation": "decreases",
+      "source": 15,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen L",
+          "Chen M",
+          "Feng Y",
+          "Li X",
+          "Xiong C"
+        ],
+        "date": "2020-03-30",
+        "db": "PubMed",
+        "db_id": "32227090",
+        "db_name": "Cardiovascular research",
+        "first": "Chen L",
+        "last": "Xiong C"
+      },
+      "evidence": "This may explain the clinical manifestation of CK elevation among 13% of COVID-19 patients. 2",
+      "key": "e12857765ff7bbd5490175b8b4eacc46",
+      "line": 84,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Feces": true,
+          "Urine": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen L",
+          "Chen M",
+          "Feng Y",
+          "Li X",
+          "Xiong C"
+        ],
+        "date": "2020-03-30",
+        "db": "PubMed",
+        "db_id": "32227090",
+        "db_name": "Cardiovascular research",
+        "first": "Chen L",
+        "last": "Xiong C"
+      },
+      "evidence": "Digestive tract intestine displayed the highest expression of ACE2, followed by testis and kidney, suggesting the vulnerability to virus in these organs, which could explain the positive detection of SARS- CoV-2 in patients’ faeces and urine. 6",
+      "key": "034f7634f47284e28d485f930637bf44",
+      "line": 54,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Endothelial Cells": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen L",
+          "Chen M",
+          "Feng Y",
+          "Li X",
+          "Xiong C"
+        ],
+        "date": "2020-03-30",
+        "db": "PubMed",
+        "db_id": "32227090",
+        "db_name": "Cardiovascular research",
+        "first": "Chen L",
+        "last": "Xiong C"
+      },
+      "evidence": "ECs showed extensive linkages with pericytes, with dominant role of angiopoietin ligands (ANGPT1/2)–Tie receptor (TIE2) interaction in normal heart, which could promote vascular EC survival and reduced vascular leakage.",
+      "key": "f2e453d4acba4b4347299b83eda6fbf9",
+      "line": 63,
+      "relation": "increases",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Endothelial Cells": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen L",
+          "Chen M",
+          "Feng Y",
+          "Li X",
+          "Xiong C"
+        ],
+        "date": "2020-03-30",
+        "db": "PubMed",
+        "db_id": "32227090",
+        "db_name": "Cardiovascular research",
+        "first": "Chen L",
+        "last": "Xiong C"
+      },
+      "evidence": "ECs showed extensive linkages with pericytes, with dominant role of angiopoietin ligands (ANGPT1/2)–Tie receptor (TIE2) interaction in normal heart, which could promote vascular EC survival and reduced vascular leakage.",
+      "key": "98a2712b22e35c55a60054f13703dfbb",
+      "line": 65,
+      "relation": "decreases",
+      "source": 7,
+      "target": 3
+    },
+    {
+      "key": "b6d9c9b0d29b69cf7f74b8a9972a5460",
+      "relation": "partOf",
+      "source": 11,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Heart": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen L",
+          "Chen M",
+          "Feng Y",
+          "Li X",
+          "Xiong C"
+        ],
+        "date": "2020-03-30",
+        "db": "PubMed",
+        "db_id": "32227090",
+        "db_name": "Cardiovascular research",
+        "first": "Chen L",
+        "last": "Xiong C"
+      },
+      "evidence": "ECs showed extensive linkages with pericytes, with dominant role of angiopoietin ligands (ANGPT1/2)–Tie receptor (TIE2) interaction in normal heart, which could promote vascular EC survival and reduced vascular leakage.",
+      "key": "8133cefb945106d85cba9cfd35dfc0b3",
+      "line": 69,
+      "relation": "association",
+      "source": 11,
+      "target": 0
+    },
+    {
+      "key": "c96ca7e84c554a47aeb98c11a500ef3f",
+      "relation": "partOf",
+      "source": 14,
+      "target": 7
+    },
+    {
+      "key": "78d03e34f75f809174f7dea816e303ca",
+      "relation": "partOf",
+      "source": 14,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Heart": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen L",
+          "Chen M",
+          "Feng Y",
+          "Li X",
+          "Xiong C"
+        ],
+        "date": "2020-03-30",
+        "db": "PubMed",
+        "db_id": "32227090",
+        "db_name": "Cardiovascular research",
+        "first": "Chen L",
+        "last": "Xiong C"
+      },
+      "evidence": "ECs showed extensive linkages with pericytes, with dominant role of angiopoietin ligands (ANGPT1/2)–Tie receptor (TIE2) interaction in normal heart, which could promote vascular EC survival and reduced vascular leakage.",
+      "key": "df42e1865558ce1a56f0193375344a62",
+      "line": 70,
+      "relation": "association",
+      "source": 14,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Endothelial Cells": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen L",
+          "Chen M",
+          "Feng Y",
+          "Li X",
+          "Xiong C"
+        ],
+        "date": "2020-03-30",
+        "db": "PubMed",
+        "db_id": "32227090",
+        "db_name": "Cardiovascular research",
+        "first": "Chen L",
+        "last": "Xiong C"
+      },
+      "evidence": "ECs showed extensive linkages with pericytes, with dominant role of angiopoietin ligands (ANGPT1/2)–Tie receptor (TIE2) interaction in normal heart, which could promote vascular EC survival and reduced vascular leakage.",
+      "key": "50628759b2433788f5b58e187918736e",
+      "line": 64,
+      "relation": "increases",
+      "source": 8,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Endothelial Cells": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen L",
+          "Chen M",
+          "Feng Y",
+          "Li X",
+          "Xiong C"
+        ],
+        "date": "2020-03-30",
+        "db": "PubMed",
+        "db_id": "32227090",
+        "db_name": "Cardiovascular research",
+        "first": "Chen L",
+        "last": "Xiong C"
+      },
+      "evidence": "ECs showed extensive linkages with pericytes, with dominant role of angiopoietin ligands (ANGPT1/2)–Tie receptor (TIE2) interaction in normal heart, which could promote vascular EC survival and reduced vascular leakage.",
+      "key": "55c0b5ea5695fe8c5a8462a3632fbb82",
+      "line": 66,
+      "relation": "decreases",
+      "source": 8,
+      "target": 3
+    },
+    {
+      "key": "61d228a95ce0dbd0b83342004c5cb5ed",
+      "relation": "partOf",
+      "source": 12,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Heart": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen L",
+          "Chen M",
+          "Feng Y",
+          "Li X",
+          "Xiong C"
+        ],
+        "date": "2020-03-30",
+        "db": "PubMed",
+        "db_id": "32227090",
+        "db_name": "Cardiovascular research",
+        "first": "Chen L",
+        "last": "Xiong C"
+      },
+      "evidence": "ECs showed extensive linkages with pericytes, with dominant role of angiopoietin ligands (ANGPT1/2)–Tie receptor (TIE2) interaction in normal heart, which could promote vascular EC survival and reduced vascular leakage.",
+      "key": "eb78de335d586f63af0f58153b734fe3",
+      "line": 69,
+      "relation": "association",
+      "source": 0,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Heart": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen L",
+          "Chen M",
+          "Feng Y",
+          "Li X",
+          "Xiong C"
+        ],
+        "date": "2020-03-30",
+        "db": "PubMed",
+        "db_id": "32227090",
+        "db_name": "Cardiovascular research",
+        "first": "Chen L",
+        "last": "Xiong C"
+      },
+      "evidence": "ECs showed extensive linkages with pericytes, with dominant role of angiopoietin ligands (ANGPT1/2)–Tie receptor (TIE2) interaction in normal heart, which could promote vascular EC survival and reduced vascular leakage.",
+      "key": "4c57505f177cbed9ed3384a22d73bdbc",
+      "line": 70,
+      "relation": "association",
+      "source": 1,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen L",
+          "Chen M",
+          "Feng Y",
+          "Li X",
+          "Xiong C"
+        ],
+        "date": "2020-03-30",
+        "db": "PubMed",
+        "db_id": "32227090",
+        "db_name": "Cardiovascular research",
+        "first": "Chen L",
+        "last": "Xiong C"
+      },
+      "evidence": "This may explain the clinical manifestation of CK elevation among 13% of COVID-19 patients. 2",
+      "key": "d88385672ced47fdbf2a6b1f54bdce09",
+      "line": 84,
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "nucleic acid sequencing method": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Myocytes, Cardiac": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen L",
+          "Chen M",
+          "Feng Y",
+          "Li X",
+          "Xiong C"
+        ],
+        "date": "2020-03-30",
+        "db": "PubMed",
+        "db_id": "32227090",
+        "db_name": "Cardiovascular research",
+        "first": "Chen L",
+        "last": "Xiong C"
+      },
+      "evidence": "RNA sequencing revealed that myocardial ACE2 expression was significantly increased in patients with heart failure (Figure 1J, fold change = 3.00, P<0.0001), which was further validated at the protein level by proteomics profiling (Figure 1K, fold change=1.82, P<0.0001).",
+      "key": "b520af6ef9be9c33a204dbe00d916ea4",
+      "line": 94,
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "protein profiling assay": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Myocytes, Cardiac": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen L",
+          "Chen M",
+          "Feng Y",
+          "Li X",
+          "Xiong C"
+        ],
+        "date": "2020-03-30",
+        "db": "PubMed",
+        "db_id": "32227090",
+        "db_name": "Cardiovascular research",
+        "first": "Chen L",
+        "last": "Xiong C"
+      },
+      "evidence": "RNA sequencing revealed that myocardial ACE2 expression was significantly increased in patients with heart failure (Figure 1J, fold change = 3.00, P<0.0001), which was further validated at the protein level by proteomics profiling (Figure 1K, fold change=1.82, P<0.0001).",
+      "key": "755ebf36caf5f97fcfbe9182cb407644",
+      "line": 97,
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "nucleic acid sequencing method": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Myocytes, Cardiac": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chen L",
+          "Chen M",
+          "Feng Y",
+          "Li X",
+          "Xiong C"
+        ],
+        "date": "2020-03-30",
+        "db": "PubMed",
+        "db_id": "32227090",
+        "db_name": "Cardiovascular research",
+        "first": "Chen L",
+        "last": "Xiong C"
+      },
+      "evidence": "RNA sequencing revealed that myocardial ACE2 expression was significantly increased in patients with heart failure (Figure 1J, fold change = 3.00, P<0.0001), which was further validated at the protein level by proteomics profiling (Figure 1K, fold change=1.82, P<0.0001).",
+      "key": "810c4d527009460c1096441f4f0ea719",
+      "line": 94,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 16
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(MESH:\"Endothelial Cells\")",
+      "concept": {
+        "name": "Endothelial Cells",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "354cb7358357eee52d9c3a86b9c2c470"
+    },
+    {
+      "bel": "a(MESH:Pericytes)",
+      "concept": {
+        "name": "Pericytes",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "26f6aa66715f5dc5c0d272c26b4dde3a"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "bp(MESH:\"Capillary Permeability\")",
+      "concept": {
+        "name": "Capillary Permeability",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "ed32f2df0e251e0c0fba649696581015"
+    },
+    {
+      "bel": "bp(MESH:\"Cell Survival\")",
+      "concept": {
+        "name": "Cell Survival",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "c6f26bea83787c63169a3fcb728da799"
+    },
+    {
+      "bel": "bp(MESH:Microcirculation)",
+      "concept": {
+        "name": "Microcirculation",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "c148ad0dcb8ca9ac3ffafbc1ddc57cb7"
+    },
+    {
+      "bel": "complex(p(COVID:S), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "6b8514d35b9a04dcfdf30d01d4a3a0a0",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(HGNC:ANGPT1), p(HGNC:TEK))",
+      "function": "Complex",
+      "id": "3736ee3050a2c16536f7d6d9c4aa8457",
+      "members": [
+        {
+          "bel": "p(HGNC:ANGPT1)",
+          "concept": {
+            "name": "ANGPT1",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "a27cb3b3477c25051613bdf5a8a76d6b"
+        },
+        {
+          "bel": "p(HGNC:TEK)",
+          "concept": {
+            "name": "TEK",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "d1e4915d4106acf6886bcb892370e6bf"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(HGNC:ANGPT2), p(HGNC:TEK))",
+      "function": "Complex",
+      "id": "a74d2323b30c483687496d4e01db637a",
+      "members": [
+        {
+          "bel": "p(HGNC:ANGPT2)",
+          "concept": {
+            "name": "ANGPT2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "d28e841b566cad13e04d75209574687a"
+        },
+        {
+          "bel": "p(HGNC:TEK)",
+          "concept": {
+            "name": "TEK",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "d1e4915d4106acf6886bcb892370e6bf"
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "p(HGNC:ANGPT1)",
+      "concept": {
+        "name": "ANGPT1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "a27cb3b3477c25051613bdf5a8a76d6b"
+    },
+    {
+      "bel": "p(HGNC:ANGPT2)",
+      "concept": {
+        "name": "ANGPT2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "d28e841b566cad13e04d75209574687a"
+    },
+    {
+      "bel": "p(HGNC:CKM)",
+      "concept": {
+        "name": "CKM",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "253693ad2d136c16248a6ab2d047038a"
+    },
+    {
+      "bel": "p(HGNC:TEK)",
+      "concept": {
+        "name": "TEK",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "d1e4915d4106acf6886bcb892370e6bf"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"congestive heart failure\")",
+      "concept": {
+        "name": "congestive heart failure",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "f7be3204e32f0fe982c2db056dff8b4b"
+    },
+    {
+      "bel": "r(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "7cff30248f9371fc8cda30aa41c15418"
+    }
+  ]
+}

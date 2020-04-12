@@ -1,0 +1,724 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "PublicationStatus": [
+        "Preprint",
+        "Published"
+      ],
+      "PublicationType": [
+        "Commnent",
+        "Research",
+        "Review"
+      ],
+      "Section": [
+        "Abstract",
+        "Full Text",
+        "Results"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "CellLine": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Shounak Baksi",
+      "contact": "shounak.baksi@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "20020050.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+    },
+    "path": "20020050.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "CellLine": {
+          "Huh7 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Commnent": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ahmad F",
+          "Jameel S",
+          "Khan N",
+          "Minakshi R",
+          "Padhan K",
+          "Rani M"
+        ],
+        "date": "2009-12-17",
+        "db": "PubMed",
+        "db_id": "20020050",
+        "db_name": "PloS one",
+        "first": "Minakshi R",
+        "last": "Jameel S",
+        "pages": "e8342",
+        "volume": "4"
+      },
+      "evidence": "We observed about 3 to 4 fold increase in luciferase activity in 3a expressing cells as compared to the vector control cells.",
+      "key": "94fb9c7fb3764626fb24674663aa12c0",
+      "line": 81,
+      "relation": "increases",
+      "source": 11,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Huh7 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Commnent": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ahmad F",
+          "Jameel S",
+          "Khan N",
+          "Minakshi R",
+          "Padhan K",
+          "Rani M"
+        ],
+        "date": "2009-12-17",
+        "db": "PubMed",
+        "db_id": "20020050",
+        "db_name": "PloS one",
+        "first": "Minakshi R",
+        "last": "Jameel S",
+        "pages": "e8342",
+        "volume": "4"
+      },
+      "evidence": "We observed about 3 to 4 fold increase in luciferase activity in 3a expressing cells as compared to the vector control cells.",
+      "key": "afe08e37161e0e4f4ab6bcf35593d219",
+      "line": 82,
+      "relation": "increases",
+      "source": 11,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Huh7 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Commnent": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ahmad F",
+          "Jameel S",
+          "Khan N",
+          "Minakshi R",
+          "Padhan K",
+          "Rani M"
+        ],
+        "date": "2009-12-17",
+        "db": "PubMed",
+        "db_id": "20020050",
+        "db_name": "PloS one",
+        "first": "Minakshi R",
+        "last": "Jameel S",
+        "pages": "e8342",
+        "volume": "4"
+      },
+      "evidence": "Compared to control cells, the 3a-expressing cells showed increased levels of phospho-eIF2α (peIF2α) without a concomitant increase in total eIF2α levels (Fig. 2B).",
+      "key": "c21a6b0084ec99ef17d49a1d0225be44",
+      "line": 88,
+      "relation": "increases",
+      "source": 11,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Huh7 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Commnent": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ahmad F",
+          "Jameel S",
+          "Khan N",
+          "Minakshi R",
+          "Padhan K",
+          "Rani M"
+        ],
+        "date": "2009-12-17",
+        "db": "PubMed",
+        "db_id": "20020050",
+        "db_name": "PloS one",
+        "first": "Minakshi R",
+        "last": "Jameel S",
+        "pages": "e8342",
+        "volume": "4"
+      },
+      "evidence": "Compared to control cells, the 3a-expressing cells showed increased levels of phospho-eIF2α (peIF2α) without a concomitant increase in total eIF2α levels (Fig. 2B).",
+      "key": "f623172ba5e793d340943a1becd5ef0e",
+      "line": 89,
+      "relation": "increases",
+      "source": 11,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Huh7 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Commnent": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ahmad F",
+          "Jameel S",
+          "Khan N",
+          "Minakshi R",
+          "Padhan K",
+          "Rani M"
+        ],
+        "date": "2009-12-17",
+        "db": "PubMed",
+        "db_id": "20020050",
+        "db_name": "PloS one",
+        "first": "Minakshi R",
+        "last": "Jameel S",
+        "pages": "e8342",
+        "volume": "4"
+      },
+      "evidence": "There was about 17-fold increase in ATF4 expression in 3a-expressing cells compared to control cells; the other viral proteins did not show any significant effect on ATF4 translation",
+      "key": "53aba820aa280efa648cceea68d3f20f",
+      "line": 93,
+      "relation": "increases",
+      "source": 11,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Huh7 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Commnent": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ahmad F",
+          "Jameel S",
+          "Khan N",
+          "Minakshi R",
+          "Padhan K",
+          "Rani M"
+        ],
+        "date": "2009-12-17",
+        "db": "PubMed",
+        "db_id": "20020050",
+        "db_name": "PloS one",
+        "first": "Minakshi R",
+        "last": "Jameel S",
+        "pages": "e8342",
+        "volume": "4"
+      },
+      "evidence": "There was an ∼4-fold increase in CHOP promoter activity in 3a-expressing cells (Fig. 3B); the other viral proteins showed variable results.",
+      "key": "9c7b7ed5ff32797fa57e214f9f4b9157",
+      "line": 97,
+      "relation": "increases",
+      "source": 11,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Huh7 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Commnent": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ahmad F",
+          "Jameel S",
+          "Khan N",
+          "Minakshi R",
+          "Padhan K",
+          "Rani M"
+        ],
+        "date": "2009-12-17",
+        "db": "PubMed",
+        "db_id": "20020050",
+        "db_name": "PloS one",
+        "first": "Minakshi R",
+        "last": "Jameel S",
+        "pages": "e8342",
+        "volume": "4"
+      },
+      "evidence": " Increased IFNAR1 phosphorylation was observed in 3a expressing cells, compared to control cells (Fig. 4A).",
+      "key": "feb8ed489a2a2d98a9c63544b2ae59f7",
+      "line": 101,
+      "relation": "increases",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Huh7 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Commnent": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ahmad F",
+          "Jameel S",
+          "Khan N",
+          "Minakshi R",
+          "Padhan K",
+          "Rani M"
+        ],
+        "date": "2009-12-17",
+        "db": "PubMed",
+        "db_id": "20020050",
+        "db_name": "PloS one",
+        "first": "Minakshi R",
+        "last": "Jameel S",
+        "pages": "e8342",
+        "volume": "4"
+      },
+      "evidence": "Compared to control cells, the 3a expressing cells showed increased ubiquitination of the IFNAR1 protein (Fig. 4B).",
+      "key": "319ee70503ea51f8d2337ce93b9e3dfa",
+      "line": 105,
+      "relation": "increases",
+      "source": 11,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Huh7 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Commnent": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ahmad F",
+          "Jameel S",
+          "Khan N",
+          "Minakshi R",
+          "Padhan K",
+          "Rani M"
+        ],
+        "date": "2009-12-17",
+        "db": "PubMed",
+        "db_id": "20020050",
+        "db_name": "PloS one",
+        "first": "Minakshi R",
+        "last": "Jameel S",
+        "pages": "e8342",
+        "volume": "4"
+      },
+      "evidence": "There was increased localization of IFNAR1 in the lysosomal compartment in 3a expressing cells compared to control cells (Fig. 5).",
+      "key": "aff6d0b317287f646baa0417bc364b42",
+      "line": 109,
+      "object": {
+        "location": {
+          "name": "lysosome",
+          "namespace": "GO"
+        }
+      },
+      "relation": "increases",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Huh7 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Commnent": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ahmad F",
+          "Jameel S",
+          "Khan N",
+          "Minakshi R",
+          "Padhan K",
+          "Rani M"
+        ],
+        "date": "2009-12-17",
+        "db": "PubMed",
+        "db_id": "20020050",
+        "db_name": "PloS one",
+        "first": "Minakshi R",
+        "last": "Jameel S",
+        "pages": "e8342",
+        "volume": "4"
+      },
+      "evidence": "As shown in Fig. 6, there was a significant decrease in the equilibrium levels of IFNAR1 in 3a-ECFP expressing cells compared to control cells.",
+      "key": "084bda8bd1fae4fd41bcc2039012f0ee",
+      "line": 112,
+      "relation": "decreases",
+      "source": 11,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Huh7 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Commnent": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ahmad F",
+          "Jameel S",
+          "Khan N",
+          "Minakshi R",
+          "Padhan K",
+          "Rani M"
+        ],
+        "date": "2009-12-17",
+        "db": "PubMed",
+        "db_id": "20020050",
+        "db_name": "PloS one",
+        "first": "Minakshi R",
+        "last": "Jameel S",
+        "pages": "e8342",
+        "volume": "4"
+      },
+      "evidence": "We observed about 3 to 4 fold increase in luciferase activity in 3a expressing cells as compared to the vector control cells.",
+      "key": "6b904c675f26e6b0a1e35a7c7472d9b4",
+      "line": 83,
+      "relation": "regulates",
+      "source": 7,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Huh7 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Commnent": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ahmad F",
+          "Jameel S",
+          "Khan N",
+          "Minakshi R",
+          "Padhan K",
+          "Rani M"
+        ],
+        "date": "2009-12-17",
+        "db": "PubMed",
+        "db_id": "20020050",
+        "db_name": "PloS one",
+        "first": "Minakshi R",
+        "last": "Jameel S",
+        "pages": "e8342",
+        "volume": "4"
+      },
+      "evidence": "We observed about 3 to 4 fold increase in luciferase activity in 3a expressing cells as compared to the vector control cells.",
+      "key": "c98a133c99f40abdb882502b534f4f91",
+      "line": 84,
+      "relation": "regulates",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "key": "3abd2e2d68b4f34febbede9193457357",
+      "relation": "hasVariant",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "key": "b12c4e41a49cdc94cdcda88bf94960b4",
+      "relation": "hasVariant",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "key": "54564250e5ac9c3d85ced4876aea14f8",
+      "relation": "hasVariant",
+      "source": 8,
+      "target": 10
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "bp(GO:\"PERK-mediated unfolded protein response\")",
+      "concept": {
+        "name": "PERK-mediated unfolded protein response",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "9fd0641dc965b1943b2c81caaa92df4b"
+    },
+    {
+      "bel": "bp(GO:\"response to endoplasmic reticulum stress\")",
+      "concept": {
+        "name": "response to endoplasmic reticulum stress",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "2bca80506c5bc38187a55054600107d3"
+    },
+    {
+      "bel": "p(HGNC:ATF4)",
+      "concept": {
+        "name": "ATF4",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "282cadf3251e5d5824f4de2c8c668106"
+    },
+    {
+      "bel": "p(HGNC:DDIT3)",
+      "concept": {
+        "name": "DDIT3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "8467896dba02638019c0752735903695"
+    },
+    {
+      "bel": "p(HGNC:EIF2S1)",
+      "concept": {
+        "name": "EIF2S1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "59d6bde13275a91c28804ad61b102bde"
+    },
+    {
+      "bel": "p(HGNC:EIF2S1, pmod(Ph))",
+      "concept": {
+        "name": "EIF2S1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "a0c1808dd44354f95282271f6b6d6396",
+      "variants": [
+        {
+          "concept": {
+            "name": "Ph",
+            "namespace": "bel"
+          },
+          "kind": "pmod"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:HSP90B1)",
+      "concept": {
+        "name": "HSP90B1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "ebebf53d78a2b8f1d92acb52d21dd913"
+    },
+    {
+      "bel": "p(HGNC:HSPA5)",
+      "concept": {
+        "name": "HSPA5",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "650f02e92327fa9894f3cf5b3dafccf3"
+    },
+    {
+      "bel": "p(HGNC:IFNAR1)",
+      "concept": {
+        "name": "IFNAR1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "fffa84a055dc39dd331315ecd3e662c4"
+    },
+    {
+      "bel": "p(HGNC:IFNAR1, pmod(Ph))",
+      "concept": {
+        "name": "IFNAR1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "aa003657678ba1fdd3a4aa395e42431d",
+      "variants": [
+        {
+          "concept": {
+            "name": "Ph",
+            "namespace": "bel"
+          },
+          "kind": "pmod"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:IFNAR1, pmod(Ub))",
+      "concept": {
+        "name": "IFNAR1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "501b12ef11d466bca900848efd63b86a",
+      "variants": [
+        {
+          "concept": {
+            "name": "Ub",
+            "namespace": "bel"
+          },
+          "kind": "pmod"
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P59632)",
+      "concept": {
+        "name": "P59632",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "3f9bf94203188b4bd8e831d4e61cb9cc"
+    }
+  ]
+}

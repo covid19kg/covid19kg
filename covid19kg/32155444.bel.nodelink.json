@@ -1,0 +1,589 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Method": [
+        "murine leukemia virus pseudotyping"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "CellLine": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Priya S",
+      "contact": "priya@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32155444.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "MGI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32155444.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Method": {
+          "murine leukemia virus pseudotyping": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "McGuire AT",
+          "Park YJ",
+          "Tortorici MA",
+          "Veesler D",
+          "Wall A",
+          "Walls AC"
+        ],
+        "date": "2020-03-06",
+        "db": "PubMed",
+        "db_id": "32155444",
+        "db_name": "Cell",
+        "first": "Walls AC",
+        "last": "Veesler D"
+      },
+      "evidence": "Both pseudoviruses entered cells equally well (Figure 1A), suggesting that SARS-CoV-2 S-MLV could use African green monkey ACE2 as entry receptor.",
+      "key": "8bf9f987aef056cf1a0b7d67983a3ecd",
+      "line": 51,
+      "relation": "increases",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "key": "0186bc5c7428359a7ec900f156fab35a",
+      "relation": "partOf",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "key": "cc2d182e46a7afcbe8de0b32b4f87ed1",
+      "relation": "partOf",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "key": "2d97d3f2b9d770f8d6cf486c326bd190",
+      "relation": "partOf",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Method": {
+          "murine leukemia virus pseudotyping": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "McGuire AT",
+          "Park YJ",
+          "Tortorici MA",
+          "Veesler D",
+          "Wall A",
+          "Walls AC"
+        ],
+        "date": "2020-03-06",
+        "db": "PubMed",
+        "db_id": "32155444",
+        "db_name": "Cell",
+        "first": "Walls AC",
+        "last": "Veesler D"
+      },
+      "evidence": "Both pseudoviruses entered cells equally well (Figure 1A), suggesting that SARS-CoV-2 S-MLV could use African green monkey ACE2 as entry receptor.",
+      "key": "147a26aefc0fcae7570562e2a373b3db",
+      "line": 52,
+      "relation": "association",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "BHK-21 cell": true
+        },
+        "Method": {
+          "murine leukemia virus pseudotyping": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "McGuire AT",
+          "Park YJ",
+          "Tortorici MA",
+          "Veesler D",
+          "Wall A",
+          "Walls AC"
+        ],
+        "date": "2020-03-06",
+        "db": "PubMed",
+        "db_id": "32155444",
+        "db_name": "Cell",
+        "first": "Walls AC",
+        "last": "Veesler D"
+      },
+      "evidence": "To confirm these results, we evaluated entry into BHK cells and observed that transient transfection with hACE2 rendered them susceptible to transduction with SARS-CoV-2 S-MLV (Figure 1B). These results demonstrate hACE2 is a functional receptor for SARS-CoV-2, in agreement with recently reported findings (Hoffmann et al., 2020; Letko et al., 2020; Zhouet al., 2020).",
+      "key": "d0490cc3332e2f5bdb008724b996b9ce",
+      "line": 60,
+      "relation": "association",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Method": {
+          "murine leukemia virus pseudotyping": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "McGuire AT",
+          "Park YJ",
+          "Tortorici MA",
+          "Veesler D",
+          "Wall A",
+          "Walls AC"
+        ],
+        "date": "2020-03-06",
+        "db": "PubMed",
+        "db_id": "32155444",
+        "db_name": "Cell",
+        "first": "Walls AC",
+        "last": "Veesler D"
+      },
+      "evidence": "We therefore investigated the ability of plasma from four mice immunized with a stabilized SARS-CoV S to inhibit SARS-CoV-2 S- and SARS-CoV S-mediated entry into target cells. All sera tested completely inhibited transduction of SARS-CoV S-MLV and reduced SARS-CoV-2 S-MLV transduction to \u000110% of control in VeroE6 cells (Figure 5C) ",
+      "key": "9ad04bca89d9ecf7f006e0e2b196f032",
+      "line": 69,
+      "relation": "association",
+      "source": 1,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "VERO C1008 cell": true
+        },
+        "Method": {
+          "murine leukemia virus pseudotyping": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "McGuire AT",
+          "Park YJ",
+          "Tortorici MA",
+          "Veesler D",
+          "Wall A",
+          "Walls AC"
+        ],
+        "date": "2020-03-06",
+        "db": "PubMed",
+        "db_id": "32155444",
+        "db_name": "Cell",
+        "first": "Walls AC",
+        "last": "Veesler D"
+      },
+      "evidence": "Both pseudoviruses entered cells equally well (Figure 1A), suggesting that SARS-CoV-2 S-MLV could use African green monkey ACE2 as entry receptor.",
+      "key": "916cb91e004fd7d72d88f8895a890ddf",
+      "line": 52,
+      "relation": "association",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "BHK-21 cell": true
+        },
+        "Method": {
+          "murine leukemia virus pseudotyping": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "McGuire AT",
+          "Park YJ",
+          "Tortorici MA",
+          "Veesler D",
+          "Wall A",
+          "Walls AC"
+        ],
+        "date": "2020-03-06",
+        "db": "PubMed",
+        "db_id": "32155444",
+        "db_name": "Cell",
+        "first": "Walls AC",
+        "last": "Veesler D"
+      },
+      "evidence": "To confirm these results, we evaluated entry into BHK cells and observed that transient transfection with hACE2 rendered them susceptible to transduction with SARS-CoV-2 S-MLV (Figure 1B). These results demonstrate hACE2 is a functional receptor for SARS-CoV-2, in agreement with recently reported findings (Hoffmann et al., 2020; Letko et al., 2020; Zhouet al., 2020).",
+      "key": "68b4bd2c19c47c55bc28de13e3680e06",
+      "line": 60,
+      "relation": "association",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Method": {
+          "murine leukemia virus pseudotyping": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "McGuire AT",
+          "Park YJ",
+          "Tortorici MA",
+          "Veesler D",
+          "Wall A",
+          "Walls AC"
+        ],
+        "date": "2020-03-06",
+        "db": "PubMed",
+        "db_id": "32155444",
+        "db_name": "Cell",
+        "first": "Walls AC",
+        "last": "Veesler D"
+      },
+      "evidence": "We therefore investigated the ability of plasma from four mice immunized with a stabilized SARS-CoV S to inhibit SARS-CoV-2 S- and SARS-CoV S-mediated entry into target cells. All sera tested completely inhibited transduction of SARS-CoV S-MLV and reduced SARS-CoV-2 S-MLV transduction to \u000110% of control in VeroE6 cells (Figure 5C) ",
+      "key": "62d0af3580157e6c84613eb6ad04a55e",
+      "line": 69,
+      "relation": "association",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "BHK-21 cell": true
+        },
+        "Method": {
+          "murine leukemia virus pseudotyping": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "McGuire AT",
+          "Park YJ",
+          "Tortorici MA",
+          "Veesler D",
+          "Wall A",
+          "Walls AC"
+        ],
+        "date": "2020-03-06",
+        "db": "PubMed",
+        "db_id": "32155444",
+        "db_name": "Cell",
+        "first": "Walls AC",
+        "last": "Veesler D"
+      },
+      "evidence": "To confirm these results, we evaluated entry into BHK cells and observed that transient transfection with hACE2 rendered them susceptible to transduction with SARS-CoV-2 S-MLV (Figure 1B). These results demonstrate hACE2 is a functional receptor for SARS-CoV-2, in agreement with recently reported findings (Hoffmann et al., 2020; Letko et al., 2020; Zhouet al., 2020).",
+      "key": "d75993b0d96eb6b8c326fa81405ae5e7",
+      "line": 59,
+      "relation": "increases",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "key": "1db03b2523b3b2cd2b465edf9382bc2a",
+      "relation": "partOf",
+      "source": 5,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Method": {
+          "murine leukemia virus pseudotyping": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "McGuire AT",
+          "Park YJ",
+          "Tortorici MA",
+          "Veesler D",
+          "Wall A",
+          "Walls AC"
+        ],
+        "date": "2020-03-06",
+        "db": "PubMed",
+        "db_id": "32155444",
+        "db_name": "Cell",
+        "first": "Walls AC",
+        "last": "Veesler D"
+      },
+      "evidence": "We therefore investigated the ability of plasma from four mice immunized with a stabilized SARS-CoV S to inhibit SARS-CoV-2 S- and SARS-CoV S-mediated entry into target cells. All sera tested completely inhibited transduction of SARS-CoV S-MLV and reduced SARS-CoV-2 S-MLV transduction to \u000110% of control in VeroE6 cells (Figure 5C) ",
+      "key": "a16c5721ddaa1731f9d3c16f30114959",
+      "line": 67,
+      "relation": "decreases",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Method": {
+          "murine leukemia virus pseudotyping": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "10090": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "McGuire AT",
+          "Park YJ",
+          "Tortorici MA",
+          "Veesler D",
+          "Wall A",
+          "Walls AC"
+        ],
+        "date": "2020-03-06",
+        "db": "PubMed",
+        "db_id": "32155444",
+        "db_name": "Cell",
+        "first": "Walls AC",
+        "last": "Veesler D"
+      },
+      "evidence": "We therefore investigated the ability of plasma from four mice immunized with a stabilized SARS-CoV S to inhibit SARS-CoV-2 S- and SARS-CoV S-mediated entry into target cells. All sera tested completely inhibited transduction of SARS-CoV S-MLV and reduced SARS-CoV-2 S-MLV transduction to \u000110% of control in VeroE6 cells (Figure 5C) ",
+      "key": "d429a08c0b5f896e463a174b728beceb",
+      "line": 68,
+      "relation": "decreases",
+      "source": 7,
+      "target": 1
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "bp(GO:\"viral entry into host cell\")",
+      "concept": {
+        "name": "viral entry into host cell",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "2a6e5ae8582e2cded25095e14c2ee329"
+    },
+    {
+      "bel": "complex(p(COVID:S), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "6b8514d35b9a04dcfdf30d01d4a3a0a0",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:S), p(UNIPROT:A0A0D9RQZ0))",
+      "function": "Complex",
+      "id": "9eb965d1e9206545389f2cca299759e6",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(UNIPROT:A0A0D9RQZ0)",
+          "concept": {
+            "name": "A0A0D9RQZ0",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "739508b2289934835fb174b9da81b196"
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9RQZ0)",
+      "concept": {
+        "name": "A0A0D9RQZ0",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "739508b2289934835fb174b9da81b196"
+    },
+    {
+      "bel": "p(UNIPROT:P59594)",
+      "concept": {
+        "name": "P59594",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "7543d9372e2f08df7ae62ef5685b391b"
+    }
+  ]
+}

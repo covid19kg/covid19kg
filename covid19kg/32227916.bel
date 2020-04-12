@@ -1,0 +1,64 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32227916.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Editorial"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed", "ACS Nano. 2020 Mar 31. doi: 10.1021/acsnano.0c02540.", "32227916"}
+
+SET PublicationType = "Editorial"
+SET PublicationStatus = "Preprint"
+SET Section = "Full Text"
+
+SET Evidence = "The coronavirus infectious disease (COVID-19), which started in late 2019, was found to be caused by the SARS-CoV-2 virus."
+SET Species = "9606"
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(DO:"COVID-19")
+
+SET Evidence = "On January 10, 2020, the previously unknown pathogen was identified through next-generation sequencing as an RNA virus.2"
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") isA a(MESH:"RNA Viruses")
+
+SET Evidence = "Persons infected with SARS-CoV-2 present with a wide range of symptoms
+similar to other respiratory infections (e.g., fever, cough, and shortness of breath) or may be silent carriers."
+path(DO:"COVID-19") -- path(HP:Fever)
+path(DO:"COVID-19") -- path(HP:Cough)
+path(DO:"COVID-19") -- path(HP:Dyspnea)
+
+SET Evidence = "Basic studies of the nano-bio interactions could be adapted to understand how SARS-CoV-2 infects their cells (e.g., SARS-CoV-2 is 60−140 nm and binds to angiotensin converting enzyme receptor 2, ACE2), which can lead to new therapeutic agents and design."
+complex(a(TAX:"Severe acute respiratory syndrome coronavirus 2"),p(HGNC:ACE2)) -> bp(GO:"viral entry into host cell")
+UNSET Species
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

@@ -1,0 +1,89 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Rao_et.al_2020"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"DOI","10.1101/2020.03.31.014639"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+
+SET Evidence = "We observed totally five diabetes-related traits that showed nominally significant MR results, and they were all positively associated with ACE2 expression."
+SET Species = "9606"
+path(DO:"type 1 diabetes mellitus") pos p(HGNC:ACE2)
+path(DO:"type 2 diabetes mellitus") pos p(HGNC:ACE2)
+
+SET Evidence = "We also observed that starting insulin within one year of diagnosis, which was only assessed within diabetic subjects, was casually associated with increased ACE2 expression."
+a(MESH:Insulin) -> p(HGNC:ACE2)
+
+SET Evidence = "Several neoplasms, such as breast and lung cancer, may be associated with increased ACE2 expression."
+path(DO:"breast cancer") -- p(HGNC:ACE2)
+path(DO:"lung cancer") -- p(HGNC:ACE2)
+
+SET Evidence = "We also observed that several autoimmune disorders, especially inflammatory bowel diseases may be casually associated with ACE2 expression."
+path(DO:"inflammatory bowel disease") -- p(HGNC:ACE2)
+
+SET Evidence = "Interestingly, asthma and tobacco use also showed nominal significant
+associations with higher ACE2 expression."
+path(DO:asthma) -- p(HGNC:ACE2)
+path(MESH:"Tobacco Use") -- p(HGNC:ACE2)
+
+SET Evidence = "As for other traits, high alanine aminotransferase (ALT), commonly associated with liver diseases, may be related to elevated ACE2 expression."
+p(HGNC:GPT) -> p(HGNC:ACE2)
+p(HGNC:GPT) -- path(DO:"liver disease")
+
+SET Evidence = "Other commonly measured blood measures that may lead to altered ACE2 expression also included red cell distribution width (often associated with iron-deficiency, folate or B12 deficiency anemia), basophil percentage (inverse relationship), calcium level, urate level, HDL-cholesterol and LDL cholesterol (inverse relationship)."
+SET MeSHAnatomy = "Blood"
+path(HP:"Abnormal red blood cell count") pos p(HGNC:ACE2)
+path(HP:"Decreased basophil count") -> p(HGNC:ACE2)
+a(MESH:Calcium) neg p(HGNC:ACE2)
+a(CHEBI:"uric acid") neg p(HGNC:ACE2)
+a(MESH:"Lipoproteins, HDL") neg p(HGNC:ACE2)
+a(MESH:"Lipoproteins, LDL") neg p(HGNC:ACE2)
+UNSET MeSHAnatomy
+
+SET Evidence = "Some of top pathways include cytokine and cytokine receptor interaction, VEGFA-VEGF2 signaling pathway, JAS-STAT signaling pathway etc"
+p(HGNC:ACE2) -- bp(GO:"cytokine-mediated signaling pathway")
+p(HGNC:ACE2) -- bp(GO:"vascular endothelial growth factor receptor signaling pathway")
+p(HGNC:ACE2) -- bp(GO:"JAK-STAT cascade")
+UNSET Species
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

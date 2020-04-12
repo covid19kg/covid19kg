@@ -1,0 +1,1541 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Preprint"
+      ],
+      "PublicationType": [
+        "Letter to Editor"
+      ],
+      "Section": [
+        "Full Text"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "MeSHDisease": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Priya S",
+      "contact": "priya@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32220633.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32220633.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "In particular, in a recent study by Qin C, et al.in which among 452 patients with COVID-19, most of them had increase of several inflammatory cytokines such as tumor necrosis factor (TNF)-α, interleukin (IL)-1and IL-6 [3].",
+      "key": "5a46d5b1c723fbf370d0f0c6ad4aca2e",
+      "line": 54,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "extracellular space",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "increases",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "In particular, in a recent study by Qin C, et al.in which among 452 patients with COVID-19, most of them had increase of several inflammatory cytokines such as tumor necrosis factor (TNF)-α, interleukin (IL)-1and IL-6 [3].",
+      "key": "d005106076b06375605959e98b630b93",
+      "line": 55,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "extracellular space",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "increases",
+      "source": 12,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "In particular, in a recent study by Qin C, et al.in which among 452 patients with COVID-19, most of them had increase of several inflammatory cytokines such as tumor necrosis factor (TNF)-α, interleukin (IL)-1and IL-6 [3].",
+      "key": "aa5cd2be3f79620e1afa4797a5ab4b25",
+      "line": 56,
+      "object": {
+        "effect": {
+          "fromLoc": {
+            "name": "intracellular",
+            "namespace": "bel"
+          },
+          "toLoc": {
+            "name": "extracellular space",
+            "namespace": "bel"
+          }
+        },
+        "modifier": "Translocation"
+      },
+      "relation": "increases",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Arthritis, Juvenile": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "Remarkably, in SJIA patients,the pulmonary involvement triggers a hyper-inflammatory reaction and occurrence of secondary haemophagocytic lymphohistiocytosis (sHLH), since the up-regulation of IFN-signature, IL-1β and IL-6 may be observed [5,8].",
+      "key": "b752b43e7f784f7047b6b78348cb61a6",
+      "line": 78,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Arthritis, Juvenile": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "Remarkably, in SJIA patients,the pulmonary involvement triggers a hyper-inflammatory reaction and occurrence of secondary haemophagocytic lymphohistiocytosis (sHLH), since the up-regulation of IFN-signature, IL-1β and IL-6 may be observed [5,8].",
+      "key": "dbc917f792f664592b9535273b808567",
+      "line": 79,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 15
+    },
+    {
+      "key": "2f5aca18c91db234fe705bb80e231ce7",
+      "relation": "hasVariant",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "Additionally, in severe cases, a reduction of CD4+ and CD8+ T cells and a decrease of regulatory T cells has been found, likely due to high expression of proinflammatory cytokines in COVID-19 patients [3].",
+      "key": "30213534820601fd8206100fcbf1761c",
+      "line": 64,
+      "relation": "decreases",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "Additionally, in severe cases, a reduction of CD4+ and CD8+ T cells and a decrease of regulatory T cells has been found, likely due to high expression of proinflammatory cytokines in COVID-19 patients [3].",
+      "key": "a96a6a0c0db79b08e1b50a5ecd64201f",
+      "line": 65,
+      "relation": "decreases",
+      "source": 4,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "Additionally, in severe cases, a reduction of CD4+ and CD8+ T cells and a decrease of regulatory T cells has been found, likely due to high expression of proinflammatory cytokines in COVID-19 patients [3].",
+      "key": "e0b1bd71fbd854e77a18472dcfc39c94",
+      "line": 66,
+      "relation": "decreases",
+      "source": 4,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Arthritis, Juvenile": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "Remarkably, in SJIA patients,the pulmonary involvement triggers a hyper-inflammatory reaction and occurrence of secondary haemophagocytic lymphohistiocytosis (sHLH), since the up-regulation of IFN-signature, IL-1β and IL-6 may be observed [5,8].",
+      "key": "8026143a7b38e0693a1a0b371fe9dc0b",
+      "line": 75,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Arthritis, Juvenile": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "Remarkably, in SJIA patients,the pulmonary involvement triggers a hyper-inflammatory reaction and occurrence of secondary haemophagocytic lymphohistiocytosis (sHLH), since the up-regulation of IFN-signature, IL-1β and IL-6 may be observed [5,8].",
+      "key": "7e04438a1fed2b89cfa756e4ad9db2cf",
+      "line": 76,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Arthritis, Juvenile": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "Remarkably, in SJIA patients,the pulmonary involvement triggers a hyper-inflammatory reaction and occurrence of secondary haemophagocytic lymphohistiocytosis (sHLH), since the up-regulation of IFN-signature, IL-1β and IL-6 may be observed [5,8].",
+      "key": "fd8842dd081a70e7d7dbf1dcb1b96fc8",
+      "line": 75,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Arthritis, Juvenile": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "Remarkably, in SJIA patients,the pulmonary involvement triggers a hyper-inflammatory reaction and occurrence of secondary haemophagocytic lymphohistiocytosis (sHLH), since the up-regulation of IFN-signature, IL-1β and IL-6 may be observed [5,8].",
+      "key": "2e47d08706afe2e615342965166d0b48",
+      "line": 77,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Arthritis, Juvenile": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "Remarkably, in SJIA patients,the pulmonary involvement triggers a hyper-inflammatory reaction and occurrence of secondary haemophagocytic lymphohistiocytosis (sHLH), since the up-regulation of IFN-signature, IL-1β and IL-6 may be observed [5,8].",
+      "key": "9acb766d9784dce4b2ac8f52db4dd2d5",
+      "line": 78,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Arthritis, Juvenile": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "Remarkably, in SJIA patients,the pulmonary involvement triggers a hyper-inflammatory reaction and occurrence of secondary haemophagocytic lymphohistiocytosis (sHLH), since the up-regulation of IFN-signature, IL-1β and IL-6 may be observed [5,8].",
+      "key": "8c64bf4795b6fee6f2d4159e7235666a",
+      "line": 79,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Arthritis, Juvenile": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "Remarkably, in SJIA patients,the pulmonary involvement triggers a hyper-inflammatory reaction and occurrence of secondary haemophagocytic lymphohistiocytosis (sHLH), since the up-regulation of IFN-signature, IL-1β and IL-6 may be observed [5,8].",
+      "key": "8d7f9dbc525355cf0ef90ccad17fc691",
+      "line": 76,
+      "relation": "positiveCorrelation",
+      "source": 14,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Arthritis, Juvenile": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "Remarkably, in SJIA patients,the pulmonary involvement triggers a hyper-inflammatory reaction and occurrence of secondary haemophagocytic lymphohistiocytosis (sHLH), since the up-regulation of IFN-signature, IL-1β and IL-6 may be observed [5,8].",
+      "key": "6c6dfecfbeb703365dafba43a79d6da3",
+      "line": 77,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "In particular, anti-cytokine therapy, by the use of the IL-6 humanized monoclonal antibody, tocilizumab, successfully used for autoimmune and autoinflammatory diseases, is under investigation for COVID-19 patients with severe pneumonia [11].",
+      "key": "19417434c68bde592ba0f1187fe45e3f",
+      "line": 87,
+      "relation": "negativeCorrelation",
+      "source": 0,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "In particular, anti-cytokine therapy, by the use of the IL-6 humanized monoclonal antibody, tocilizumab, successfully used for autoimmune and autoinflammatory diseases, is under investigation for COVID-19 patients with severe pneumonia [11].",
+      "key": "3b852258de97d41dce85af3fa63ac2b2",
+      "line": 88,
+      "relation": "negativeCorrelation",
+      "source": 0,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "In particular, anti-cytokine therapy, by the use of the IL-6 humanized monoclonal antibody, tocilizumab, successfully used for autoimmune and autoinflammatory diseases, is under investigation for COVID-19 patients with severe pneumonia [11].",
+      "key": "3791f021c55f014fb049d850126a4d84",
+      "line": 90,
+      "relation": "negativeCorrelation",
+      "source": 0,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "In particular, anti-cytokine therapy, by the use of the IL-6 humanized monoclonal antibody, tocilizumab, successfully used for autoimmune and autoinflammatory diseases, is under investigation for COVID-19 patients with severe pneumonia [11].",
+      "key": "4c54d20d862ea05e4374da742ffdc07a",
+      "line": 87,
+      "relation": "negativeCorrelation",
+      "source": 16,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "A growing body of evidence showed that genetic host characteristics, such as IL-6 polymorphisms, may contribute to virus susceptibility, in specific populations and ethnicities [12], thus, in our opinion, the shared pathogenetic mechanisms and clinical-radiological aspects between hyper-inflammatory diseases and COVID-19 may suggest that SARS-CoV-2 could act as a triggering factor for the development of a rapid autoimmune and/or autoinflammatory dysregulation, leading to severe interstitial pneumonia, in genetic predisposed individuals.",
+      "key": "dc7024119386db3cddc5ee70bcb81b78",
+      "line": 105,
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "In particular, anti-cytokine therapy, by the use of the IL-6 humanized monoclonal antibody, tocilizumab, successfully used for autoimmune and autoinflammatory diseases, is under investigation for COVID-19 patients with severe pneumonia [11].",
+      "key": "662aadce293b46660356264fc9651acc",
+      "line": 88,
+      "relation": "negativeCorrelation",
+      "source": 17,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "A growing body of evidence showed that genetic host characteristics, such as IL-6 polymorphisms, may contribute to virus susceptibility, in specific populations and ethnicities [12], thus, in our opinion, the shared pathogenetic mechanisms and clinical-radiological aspects between hyper-inflammatory diseases and COVID-19 may suggest that SARS-CoV-2 could act as a triggering factor for the development of a rapid autoimmune and/or autoinflammatory dysregulation, leading to severe interstitial pneumonia, in genetic predisposed individuals.",
+      "key": "2709f1c73c621971cd07278312c83ad9",
+      "line": 106,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "In particular, anti-cytokine therapy, by the use of the IL-6 humanized monoclonal antibody, tocilizumab, successfully used for autoimmune and autoinflammatory diseases, is under investigation for COVID-19 patients with severe pneumonia [11].",
+      "key": "65cf03d4e2a0079d3b15410341d8ec48",
+      "line": 90,
+      "relation": "negativeCorrelation",
+      "source": 13,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "A growing body of evidence showed that genetic host characteristics, such as IL-6 polymorphisms, may contribute to virus susceptibility, in specific populations and ethnicities [12], thus, in our opinion, the shared pathogenetic mechanisms and clinical-radiological aspects between hyper-inflammatory diseases and COVID-19 may suggest that SARS-CoV-2 could act as a triggering factor for the development of a rapid autoimmune and/or autoinflammatory dysregulation, leading to severe interstitial pneumonia, in genetic predisposed individuals.",
+      "key": "a7c7d557276d8884fa819131e0611db6",
+      "line": 107,
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "A growing body of evidence showed that genetic host characteristics, such as IL-6 polymorphisms, may contribute to virus susceptibility, in specific populations and ethnicities [12], thus, in our opinion, the shared pathogenetic mechanisms and clinical-radiological aspects between hyper-inflammatory diseases and COVID-19 may suggest that SARS-CoV-2 could act as a triggering factor for the development of a rapid autoimmune and/or autoinflammatory dysregulation, leading to severe interstitial pneumonia, in genetic predisposed individuals.",
+      "key": "68bc6993d2d4a5a8f220174d6c1c3752",
+      "line": 104,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "A growing body of evidence showed that genetic host characteristics, such as IL-6 polymorphisms, may contribute to virus susceptibility, in specific populations and ethnicities [12], thus, in our opinion, the shared pathogenetic mechanisms and clinical-radiological aspects between hyper-inflammatory diseases and COVID-19 may suggest that SARS-CoV-2 could act as a triggering factor for the development of a rapid autoimmune and/or autoinflammatory dysregulation, leading to severe interstitial pneumonia, in genetic predisposed individuals.",
+      "key": "13e7ba3cd49f91ad0e00638a062a9f2c",
+      "line": 104,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "A growing body of evidence showed that genetic host characteristics, such as IL-6 polymorphisms, may contribute to virus susceptibility, in specific populations and ethnicities [12], thus, in our opinion, the shared pathogenetic mechanisms and clinical-radiological aspects between hyper-inflammatory diseases and COVID-19 may suggest that SARS-CoV-2 could act as a triggering factor for the development of a rapid autoimmune and/or autoinflammatory dysregulation, leading to severe interstitial pneumonia, in genetic predisposed individuals.",
+      "key": "e9c52c9c2dd385fe1010f1314e38b3b4",
+      "line": 105,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "A growing body of evidence showed that genetic host characteristics, such as IL-6 polymorphisms, may contribute to virus susceptibility, in specific populations and ethnicities [12], thus, in our opinion, the shared pathogenetic mechanisms and clinical-radiological aspects between hyper-inflammatory diseases and COVID-19 may suggest that SARS-CoV-2 could act as a triggering factor for the development of a rapid autoimmune and/or autoinflammatory dysregulation, leading to severe interstitial pneumonia, in genetic predisposed individuals.",
+      "key": "d10847b4d1d1d63f4509699361d98157",
+      "line": 106,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Caso F",
+          "Costa L",
+          "Del Puente A",
+          "Giacomelli R",
+          "Navarini L",
+          "Ruscitti P",
+          "Scarpa R"
+        ],
+        "date": "2020-03-24",
+        "db": "PubMed",
+        "db_id": "32220633",
+        "db_name": "Autoimmunity reviews",
+        "first": "Caso F",
+        "last": "Scarpa R",
+        "pages": "102524"
+      },
+      "evidence": "A growing body of evidence showed that genetic host characteristics, such as IL-6 polymorphisms, may contribute to virus susceptibility, in specific populations and ethnicities [12], thus, in our opinion, the shared pathogenetic mechanisms and clinical-radiological aspects between hyper-inflammatory diseases and COVID-19 may suggest that SARS-CoV-2 could act as a triggering factor for the development of a rapid autoimmune and/or autoinflammatory dysregulation, leading to severe interstitial pneumonia, in genetic predisposed individuals.",
+      "key": "095d79e9335e3f81534657406c100a3f",
+      "line": 107,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 13
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:tocilizumab)",
+      "concept": {
+        "name": "tocilizumab",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "090a136d01cd46d3c69c7c2bc77613eb"
+    },
+    {
+      "bel": "a(MESH:\"CD4-Positive T-Lymphocytes\")",
+      "concept": {
+        "name": "CD4-Positive T-Lymphocytes",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "d26f55e472a40223e18fc717c6a1b55d"
+    },
+    {
+      "bel": "a(MESH:\"CD8-Positive T-Lymphocytes\")",
+      "concept": {
+        "name": "CD8-Positive T-Lymphocytes",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "59b2f285d4c75c8c59127aa7c441658c"
+    },
+    {
+      "bel": "a(MESH:\"T-Lymphocytes, Regulatory\")",
+      "concept": {
+        "name": "T-Lymphocytes, Regulatory",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "fcc3fa9dfeeae3748755e8f546e23b9d"
+    },
+    {
+      "bel": "a(MESH:Cytokines)",
+      "concept": {
+        "name": "Cytokines",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "0d3c01297f25a34285f54b350178a231"
+    },
+    {
+      "bel": "a(MESH:Lung)",
+      "concept": {
+        "name": "Lung",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "01153b8afebc21b98ee3c9ceb2b46df9"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "p(HGNC:IFNG)",
+      "concept": {
+        "name": "IFNG",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "20367a6ea54ae1032be4f48276f3c524"
+    },
+    {
+      "bel": "p(HGNC:IL1B)",
+      "concept": {
+        "name": "IL1B",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "cca08112d9fcf1a31015f1dbfc30b04c"
+    },
+    {
+      "bel": "p(HGNC:IL6)",
+      "concept": {
+        "name": "IL6",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "8a1d3c4828c5416eba867c395cc65caa"
+    },
+    {
+      "bel": "p(HGNC:IL6, var(\"?\"))",
+      "concept": {
+        "name": "IL6",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "3d57a529ec7d7bbe27e535b79b31dd7f",
+      "variants": [
+        {
+          "hgvs": "?",
+          "kind": "hgvs"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:TNF)",
+      "concept": {
+        "name": "TNF",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "fdc1c1f5a73c3c992b6eb71ce9b6908e"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"acute interstitial pneumonia\")",
+      "concept": {
+        "name": "acute interstitial pneumonia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6849022203ad2a2d9b01a7d5c40d9e69"
+    },
+    {
+      "bel": "path(DO:\"hemophagocytic lymphohistiocytosis\")",
+      "concept": {
+        "name": "hemophagocytic lymphohistiocytosis",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "9796d1c0ad9ca0cf1946335f2b36f033"
+    },
+    {
+      "bel": "path(GO:\"inflammatory response\")",
+      "concept": {
+        "name": "inflammatory response",
+        "namespace": "GO"
+      },
+      "function": "Pathology",
+      "id": "c33d40abf9574937f72f5b11c8a4b082"
+    },
+    {
+      "bel": "path(MESH:\"Autoimmune Diseases\")",
+      "concept": {
+        "name": "Autoimmune Diseases",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "0aeb632260f15842cdd2b5e3c4b15c15"
+    },
+    {
+      "bel": "path(MESH:\"Hereditary Autoinflammatory Diseases\")",
+      "concept": {
+        "name": "Hereditary Autoinflammatory Diseases",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "3aae8149f1aa8c9629614a414399dd95"
+    }
+  ]
+}

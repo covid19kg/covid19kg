@@ -1,0 +1,139 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32221306.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+#Not in template.bel
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Custom_CellLine AS LIST {"17cl1","HEK293/hACE"}
+DEFINE ANNOTATION Virus_type AS LIST {"pseudovirion"}
+DEFINE ANNOTATION concentration AS LIST {"20 nM", "100 nM"}
+DEFINE ANNOTATION Treatment AS LIST {"Trypsin"}
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+#################################################################################
+
+SET Citation = {"PubMed", "Nat Commun. 2020 Mar 27;11(1):1620. doi: 10.1038/s41467-020-15562-9.", "32221306"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "Consistent with previous reports, 20mM NH4Cl and 100 nM bafilomycin A \
+decreased entry of SARS-CoV S and VSV-G pseudovirions by over 99%, \
+compared to no treatment control."
+
+SET Custom_CellLine = "HEK293/hACE"
+SET Virus_type = "pseudovirion"
+SET concentration = "20 nM"
+a(CHEBI:"ammonium chloride") neg a(MESH:"G protein, vesicular stomatitis virus")
+a(CHEBI:"ammonium chloride") neg p(COVID:S)
+UNSET concentration
+SET concentration = "100 nM"
+a(CHEBI:"bafilomycin A1") neg a(MESH:"G protein, vesicular stomatitis virus")
+a(CHEBI:"bafilomycin A1") neg p(COVID:S)
+UNSET concentration
+UNSET Virus_type
+UNSET Custom_CellLine
+
+SET Evidence = "Inhibition of PIKfyve by apilimod significantly reduced entry of SARS- \
+CoV S pseudovirions on 293/hACE2 cells in a dose dependent manner \
+(Fig. 3b), whereas it had no effect on entry of VSV-G pseudovirions, \
+which occurs in early endosomes."
+
+SET Custom_CellLine = "HEK293/hACE"
+a(PUBCHEM:10173277) neg p(HGNC:PIKFYVE)
+SET Virus_type = "pseudovirion"
+a(PUBCHEM:10173277) neg p(COVID:S)
+a(PUBCHEM:10173277) cnc a(MESH:"G protein, vesicular stomatitis virus")
+UNSET Virus_type
+UNSET Custom_CellLine
+
+SET Evidence = "Moreover, infection of live MHV on 17Cl.1 cells was also strongly \
+inhibited by apilimod treatment (Fig. 3c)."
+
+SET Custom_CellLine = "17cl1"
+a(PUBCHEM:10173277) neg a(MESH:"Murine hepatitis virus")
+UNSET Custom_CellLine
+
+SET Evidence = "As expected, apilimod treatment inhibited entry of SARS-CoV-2 S \
+pseudovirions in a dose dependent manner (Fig. 3d)"
+
+a(PUBCHEM:10173277) neg a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+
+SET Evidence = "While blocking TPC2 activity by tetrandrine, an inhibitor for TPC237, \
+decreased entry of SARS-CoV-2 S pseudovirions (Fig. 3f), treatment of \
+cells with 130, a TRPML1 inhibitor, had no effect (Supplementary Fig. \
+1), indicating that TPC2, not TRPML1, is important for SARS-CoV-2 \
+entry."
+
+a(CHEBI:"(+)-Tetrandrine") neg act(p(MGI:Tpcn2))
+SET Virus_type = "pseudovirion"
+a(CHEBI:"(+)-Tetrandrine") neg a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Virus_type
+
+SET Evidence = "E64D treatment of 293/hACE2 cells reduced entry of SARS-CoV-2 S \
+pseudovirions by 92.5%, indicating that at least one of cathepsins or \
+calpain might be required for SARS-CoV-2 entry (Fig. 4a)."
+
+SET Custom_CellLine = "HEK293/hACE"
+a(CHEBI:aloxistatin) -| p(COVID:S)
+UNSET Custom_CellLine
+
+SET Evidence = "While cathepsin B inhibitor treatment did not show any marked effect \
+on virus entry, cathepsin L inhibition treatment decreased entry of \
+SARS-CoV-2 S pseudovirions into 293/hACE2 by over 76% (Fig. 4a), \
+suggesting that cathepsin L should be essential for priming of SARS- \
+CoV-2 S protein in lysosome for entry into 293/hACE2 cells."
+
+SET Custom_CellLine = "HEK293/hACE"
+a(PUBCHEM:16725315) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+p(HGNC:CTSL, loc(GO:lysosome)) -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Custom_CellLine
+
+SET Evidence = "Consistent to our previous report23, addition of trypsin triggered \
+syncytium formation on 293/hACE2 cells by SARS-CoV S protein after 4 h \
+incubation (Fig. 4b, c)."
+
+SET Custom_CellLine = "HEK293/hACE"
+SET Treatment = "Trypsin"
+p(COVID:S) -> a(MESH:"Giant Cells")
+UNSET Treatment
+UNSET Custom_CellLine
+
+SET Evidence = "Of note, SARS-CoV-2, but not SARS-CoV, S proteins induced syncytia \
+formation on 293/hACE2 cells even in the absence of trypsin (Fig. 4c), \
+suggesting that SARS-CoV-2 S proteins could be triggered upon the \
+receptor binding without exogenous protease priming or activation."
+
+SET Custom_CellLine = "HEK293/hACE"
+p(COVID:S) -> a(MESH:"Giant Cells")
+UNSET Custom_CellLine
+
+UNSET Citation

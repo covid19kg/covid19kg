@@ -1,0 +1,4666 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "Disease_Stage": [
+        "Early",
+        "Late"
+      ],
+      "PublicationStatus": [
+        "Preprint",
+        "Published"
+      ],
+      "PublicationType": [
+        "Research",
+        "Review"
+      ],
+      "Section": [
+        "Abstract",
+        "Full Text",
+        "Results"
+      ],
+      "Severity": [
+        "Severe"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Shounak Baksi",
+      "contact": "shounak.baksi@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32216698.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "EFO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/efo/efo-20171206.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+    },
+    "path": "32216698.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The existence of significantly increased fibrin-degraded products and reduced platelets in severe COVID-19 patients is consistent with the presence of hyper-fibrinolysis.",
+      "key": "768943bb4e9be6adb4da7269667ca73f",
+      "line": 89,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "subject": {
+        "modifier": "Degradation"
+      },
+      "target": 33
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "This opinion is supported by the presence of hemorrhage in multiple organs and a positive correlation between fibrinolysis and mortality.",
+      "key": "f23b1d44593867b654b14e655806a6e0",
+      "line": 96,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "subject": {
+        "modifier": "Degradation"
+      },
+      "target": 42
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Plasmin, a key player in fibrinolysis, enhances the virulence and pathogenicity of viruses containing a furin site in their envelope proteins, as is the case with the SARS-CoV-2.",
+      "key": "9ec8ed20f3eb3bfe4b6f7b5f7b1a80d5",
+      "line": 105,
+      "relation": "increases",
+      "source": 0,
+      "subject": {
+        "modifier": "Degradation"
+      },
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Elevated fibrin degradation products and D-dimers were detected predominantly in patients with severe disease (11, 24, 31, 43, 91 45, 79, 85)",
+      "key": "a137586c2dc95e88b5a308eeaf09389e",
+      "line": 125,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "subject": {
+        "modifier": "Degradation"
+      },
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Plasmin, a key player in fibrinolysis, enhances the virulence and pathogenicity of viruses containing a furin site in their envelope proteins, as is the case with the SARS-CoV-2.",
+      "key": "d6b6c8bb64cf68dbfe1f7c9e803a35e7",
+      "line": 106,
+      "relation": "increases",
+      "source": 0,
+      "subject": {
+        "modifier": "Degradation"
+      },
+      "target": 45
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The existence of significantly increased fibrin-degraded products and reduced platelets in severe COVID-19 patients is consistent with the presence of hyper-fibrinolysis.",
+      "key": "ba9768711e95b94ce3fe0a7c78d176a4",
+      "line": 89,
+      "object": {
+        "modifier": "Degradation"
+      },
+      "relation": "positiveCorrelation",
+      "source": 33,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The existence of significantly increased fibrin-degraded products and reduced platelets in severe COVID-19 patients is consistent with the presence of hyper-fibrinolysis.",
+      "key": "1e10e8a7173ff14d5b2813a00f5a016c",
+      "line": 90,
+      "relation": "negativeCorrelation",
+      "source": 33,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The existence of significantly increased fibrin-degraded products and reduced platelets in severe COVID-19 patients is consistent with the presence of hyper-fibrinolysis.",
+      "key": "09218f1c38198c9d2fb5ba01dcab5dca",
+      "line": 91,
+      "relation": "positiveCorrelation",
+      "source": 33,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The existence of significantly increased fibrin-degraded products and reduced platelets in severe COVID-19 patients is consistent with the presence of hyper-fibrinolysis.",
+      "key": "32de44fba6596ab1c820f01b99ded8cf",
+      "line": 90,
+      "relation": "negativeCorrelation",
+      "source": 13,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Platelet counts were decreased significantly in severe and dead patients (79, 97, 101)",
+      "key": "efd12caab6c9c2bd731cc1e5ebc533a8",
+      "line": 231,
+      "relation": "negativeCorrelation",
+      "source": 13,
+      "target": 44
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The existence of significantly increased fibrin-degraded products and reduced platelets in severe COVID-19 patients is consistent with the presence of hyper-fibrinolysis.",
+      "key": "9a128516c0b218650e2c488210c70374",
+      "line": 91,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Elevated fibrin degradation products and D-dimers were detected predominantly in patients with severe disease (11, 24, 31, 43, 91 45, 79, 85)",
+      "key": "2eef4c482b772017746f18c8bf3b1def",
+      "line": 125,
+      "object": {
+        "modifier": "Degradation"
+      },
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Elevated fibrin degradation products and D-dimers were detected predominantly in patients with severe disease (11, 24, 31, 43, 91 45, 79, 85)",
+      "key": "0b3fd426b037c857874cdfba381c0fd5",
+      "line": 126,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Early": true
+        },
+        "MeSHAnatomy": {
+          "Alveolar Epithelial Cells": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "In the early stages of infection, puncture lung biopsies reveal the presence of pneumonia, edema, proteinaceous exudate with globules and focal hyperplasia of alveolar epithelial cells associated with patchy inflammatory infiltrates, and multinucleated giant cells (81).",
+      "key": "a26e8788081bbd7deb08dfe630d42212",
+      "line": 141,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Early": true
+        },
+        "MeSHAnatomy": {
+          "Alveolar Epithelial Cells": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "In the early stages of infection, puncture lung biopsies reveal the presence of pneumonia, edema, proteinaceous exudate with globules and focal hyperplasia of alveolar epithelial cells associated with patchy inflammatory infiltrates, and multinucleated giant cells (81).",
+      "key": "48f1495bc8e354275c861da5c3da020f",
+      "line": 142,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 43
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Early": true
+        },
+        "MeSHAnatomy": {
+          "Alveolar Epithelial Cells": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "In the early stages of infection, puncture lung biopsies reveal the presence of pneumonia, edema, proteinaceous exudate with globules and focal hyperplasia of alveolar epithelial cells associated with patchy inflammatory infiltrates, and multinucleated giant cells (81).",
+      "key": "438fdfe9ba18732f90705d3f95c1dcf2",
+      "line": 143,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 41
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Early": true
+        },
+        "MeSHAnatomy": {
+          "Alveolar Epithelial Cells": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "In the early stages of infection, puncture lung biopsies reveal the presence of pneumonia, edema, proteinaceous exudate with globules and focal hyperplasia of alveolar epithelial cells associated with patchy inflammatory infiltrates, and multinucleated giant cells (81).",
+      "key": "fdfe182e9d3a10b118dc806c9e90918c",
+      "line": 144,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Late": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "At the later stages, diffuse alveolar damage (DAD) is observed in addition to hemorrhage and some areas of interstitial fibrosis (48).",
+      "key": "4946a73cdc6a3d77d2d43b6c5cd7db6a",
+      "line": 151,
+      "relation": "negativeCorrelation",
+      "source": 31,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Late": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "At the later stages, diffuse alveolar damage (DAD) is observed in addition to hemorrhage and some areas of interstitial fibrosis (48).",
+      "key": "68b3d0df331577361e3b585c579fb74e",
+      "line": 152,
+      "relation": "positiveCorrelation",
+      "source": 31,
+      "target": 42
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The S protein of SARS-CoV-2 bind to human ACE2 receptors with higher affinity than that of the SARS-CoV virus (88).",
+      "key": "c0b093fef20fec81da25971010807c68",
+      "line": 169,
+      "relation": "association",
+      "source": 31,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "This opinion is supported by the presence of hemorrhage in multiple organs and a positive correlation between fibrinolysis and mortality.",
+      "key": "fa1fd7a3a15817fec84bff11bfac8d74",
+      "line": 96,
+      "object": {
+        "modifier": "Degradation"
+      },
+      "relation": "positiveCorrelation",
+      "source": 42,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "This opinion is supported by the presence of hemorrhage in multiple organs and a positive correlation between fibrinolysis and mortality.",
+      "key": "e2645d6a343bc184b485bd58fc5d5c6b",
+      "line": 97,
+      "relation": "positiveCorrelation",
+      "source": 42,
+      "target": 44
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Late": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "At the later stages, diffuse alveolar damage (DAD) is observed in addition to hemorrhage and some areas of interstitial fibrosis (48).",
+      "key": "e14f4c355dc594f19bc0f43999667d71",
+      "line": 152,
+      "relation": "positiveCorrelation",
+      "source": 42,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Late": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "At the later stages, diffuse alveolar damage (DAD) is observed in addition to hemorrhage and some areas of interstitial fibrosis (48).",
+      "key": "f50b3c14278c89c9d9a18565c9012d74",
+      "line": 153,
+      "relation": "positiveCorrelation",
+      "source": 42,
+      "target": 39
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "This opinion is supported by the presence of hemorrhage in multiple organs and a positive correlation between fibrinolysis and mortality.",
+      "key": "7e4063d0ccb76118e5544bc48e8e83ee",
+      "line": 97,
+      "relation": "positiveCorrelation",
+      "source": 44,
+      "target": 42
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The leading causes of deaths are ARDS, septic shock with MOF, hemorrhage/coagulopathy (disseminated intravascular coagulopathy, DIC), acute heart/liver/kidney injury, and secondary bacterial infections (97, 101)",
+      "key": "1dcadfe94fcef6afbbbcb8465b84713e",
+      "line": 113,
+      "relation": "positiveCorrelation",
+      "source": 44,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The leading causes of deaths are ARDS, septic shock with MOF, hemorrhage/coagulopathy (disseminated intravascular coagulopathy, DIC), acute heart/liver/kidney injury, and secondary bacterial infections (97, 101)",
+      "key": "90098394c11c990d2ff9ebc9c6710c10",
+      "line": 114,
+      "relation": "positiveCorrelation",
+      "source": 44,
+      "target": 37
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The leading causes of deaths are ARDS, septic shock with MOF, hemorrhage/coagulopathy (disseminated intravascular coagulopathy, DIC), acute heart/liver/kidney injury, and secondary bacterial infections (97, 101)",
+      "key": "711ac72c9abe6af914f2d3ae02977fd3",
+      "line": 115,
+      "relation": "positiveCorrelation",
+      "source": 44,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The leading causes of deaths are ARDS, septic shock with MOF, hemorrhage/coagulopathy (disseminated intravascular coagulopathy, DIC), acute heart/liver/kidney injury, and secondary bacterial infections (97, 101)",
+      "key": "cbbf4a33d0eecbacedffd92fd4b5c86b",
+      "line": 116,
+      "relation": "positiveCorrelation",
+      "source": 44,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The leading causes of deaths are ARDS, septic shock with MOF, hemorrhage/coagulopathy (disseminated intravascular coagulopathy, DIC), acute heart/liver/kidney injury, and secondary bacterial infections (97, 101)",
+      "key": "1539a87a4b965f2b97a305d9f042b2b0",
+      "line": 117,
+      "relation": "positiveCorrelation",
+      "source": 44,
+      "target": 36
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The leading causes of deaths are ARDS, septic shock with MOF, hemorrhage/coagulopathy (disseminated intravascular coagulopathy, DIC), acute heart/liver/kidney injury, and secondary bacterial infections (97, 101)",
+      "key": "bc33d378bc7d964f9ddd2acd0bb08ef9",
+      "line": 118,
+      "relation": "positiveCorrelation",
+      "source": 44,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Multivariate regression further suggests that age and D-dimer levels (>1 mg/L) are two 92 independent risk factors for mortality (89, 101).",
+      "key": "4b992bca96c326e1a05aa11683f79d90",
+      "line": 131,
+      "relation": "positiveCorrelation",
+      "source": 44,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Multivariate regression further suggests that age and D-dimer levels (>1 mg/L) are two 92 independent risk factors for mortality (89, 101).",
+      "key": "d014505dbc342f93847dda925684d4ea",
+      "line": 132,
+      "relation": "positiveCorrelation",
+      "source": 44,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Multivariate regression further links hypertension with increased incidence and fatality (85, 89, 101).",
+      "key": "33eaf0467d211a1be7e3892eeefcc199",
+      "line": 219,
+      "relation": "positiveCorrelation",
+      "source": 44,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "This is accompanied by a prolonged prothrombin time particularly in non-- survivors (31, 79, 97, 101).",
+      "key": "da475381e651c6f69e1b6c517b3d64e9",
+      "line": 225,
+      "relation": "positiveCorrelation",
+      "source": 44,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Platelet counts were decreased significantly in severe and dead patients (79, 97, 101)",
+      "key": "7ed833b23cd519145a063320881ecc8f",
+      "line": 231,
+      "relation": "negativeCorrelation",
+      "source": 44,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "71.4% of non-survivors meet the criteria of the International Society on Thrombosis and Haemostasis (ISTH) for disseminated intravascular coagulation (DIC), suggesting the coexistence of coagulation activation and hyper-fibrinolysis in patients with severe COVID-19 infection (78, 85).",
+      "key": "2085959a2276ec778cfa18051f72ff90",
+      "line": 240,
+      "relation": "positiveCorrelation",
+      "source": 44,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "71.4% of non-survivors meet the criteria of the International Society on Thrombosis and Haemostasis (ISTH) for disseminated intravascular coagulation (DIC), suggesting the coexistence of coagulation activation and hyper-fibrinolysis in patients with severe COVID-19 infection (78, 85).",
+      "key": "8f529d67b01ba4e195cc1d2c63e1907b",
+      "line": 241,
+      "relation": "positiveCorrelation",
+      "source": 44,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Plasmin, a key player in fibrinolysis, enhances the virulence and pathogenicity of viruses containing a furin site in their envelope proteins, as is the case with the SARS-CoV-2.",
+      "key": "fb4ce816830962a6bee851f61ab8a87c",
+      "line": 104,
+      "object": {
+        "modifier": "Degradation"
+      },
+      "relation": "increases",
+      "source": 21,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The leading causes of deaths are ARDS, septic shock with MOF, hemorrhage/coagulopathy (disseminated intravascular coagulopathy, DIC), acute heart/liver/kidney injury, and secondary bacterial infections (97, 101)",
+      "key": "19c9890468abb28f48b832c23488d5a6",
+      "line": 113,
+      "relation": "positiveCorrelation",
+      "source": 30,
+      "target": 44
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The leading causes of deaths are ARDS, septic shock with MOF, hemorrhage/coagulopathy (disseminated intravascular coagulopathy, DIC), acute heart/liver/kidney injury, and secondary bacterial infections (97, 101)",
+      "key": "3603f01242a4d424e5df90c13cd571be",
+      "line": 114,
+      "relation": "positiveCorrelation",
+      "source": 37,
+      "target": 44
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The leading causes of deaths are ARDS, septic shock with MOF, hemorrhage/coagulopathy (disseminated intravascular coagulopathy, DIC), acute heart/liver/kidney injury, and secondary bacterial infections (97, 101)",
+      "key": "26294e1c1e7df2e2677d1f3c067c5059",
+      "line": 115,
+      "relation": "positiveCorrelation",
+      "source": 35,
+      "target": 44
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The leading causes of deaths are ARDS, septic shock with MOF, hemorrhage/coagulopathy (disseminated intravascular coagulopathy, DIC), acute heart/liver/kidney injury, and secondary bacterial infections (97, 101)",
+      "key": "a0b8ac944e120ca036e1bfe310f9769a",
+      "line": 116,
+      "relation": "positiveCorrelation",
+      "source": 34,
+      "target": 44
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Consistent with clinical observations, the lungs are the most injured organs, followed by moderate injury in the heart, liver, kidney, and brain.",
+      "key": "964eee007348ef3d9173c7414d617738",
+      "line": 162,
+      "relation": "positiveCorrelation",
+      "source": 34,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The leading causes of deaths are ARDS, septic shock with MOF, hemorrhage/coagulopathy (disseminated intravascular coagulopathy, DIC), acute heart/liver/kidney injury, and secondary bacterial infections (97, 101)",
+      "key": "ca4d7a27d1cc61b20c684ab3ac8ab7da",
+      "line": 117,
+      "relation": "positiveCorrelation",
+      "source": 36,
+      "target": 44
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Consistent with clinical observations, the lungs are the most injured organs, followed by moderate injury in the heart, liver, kidney, and brain.",
+      "key": "a7e94254fb7399d046e80cbb2e97ebeb",
+      "line": 163,
+      "relation": "positiveCorrelation",
+      "source": 36,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The leading causes of deaths are ARDS, septic shock with MOF, hemorrhage/coagulopathy (disseminated intravascular coagulopathy, DIC), acute heart/liver/kidney injury, and secondary bacterial infections (97, 101)",
+      "key": "e4eabee6b5bca8264cd986f4d7e3e365",
+      "line": 118,
+      "relation": "positiveCorrelation",
+      "source": 32,
+      "target": 44
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Consistent with clinical observations, the lungs are the most injured organs, followed by moderate injury in the heart, liver, kidney, and brain.",
+      "key": "43124862b60d8d7a3e589bd238b92042",
+      "line": 164,
+      "relation": "positiveCorrelation",
+      "source": 32,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Elevated fibrin degradation products and D-dimers were detected predominantly in patients with severe disease (11, 24, 31, 43, 91 45, 79, 85)",
+      "key": "1c289fc9e2c1bcf3f0243a1427f8d395",
+      "line": 126,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Multivariate regression further suggests that age and D-dimer levels (>1 mg/L) are two 92 independent risk factors for mortality (89, 101).",
+      "key": "ea961a748fb2a2b695e17f41ae660bd0",
+      "line": 131,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 44
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Measurements of plasmin(ogen) levels and its enzymatic activity may be important biomarkers of disease severity in addition to resultant D-dimer.",
+      "key": "68f5afe157b568e0c935a744a7fc39b4",
+      "line": 248,
+      "relation": "biomarkerFor",
+      "source": 10,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Multivariate regression further suggests that age and D-dimer levels (>1 mg/L) are two 92 independent risk factors for mortality (89, 101).",
+      "key": "801938d53bf842cbcc912e06c75aad1b",
+      "line": 132,
+      "relation": "positiveCorrelation",
+      "source": 3,
+      "target": 44
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Early": true
+        },
+        "MeSHAnatomy": {
+          "Alveolar Epithelial Cells": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "In the early stages of infection, puncture lung biopsies reveal the presence of pneumonia, edema, proteinaceous exudate with globules and focal hyperplasia of alveolar epithelial cells associated with patchy inflammatory infiltrates, and multinucleated giant cells (81).",
+      "key": "a1c2b301c3493906fba087a6b5576953",
+      "line": 141,
+      "relation": "positiveCorrelation",
+      "source": 26,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Early": true
+        },
+        "MeSHAnatomy": {
+          "Alveolar Epithelial Cells": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "In the early stages of infection, puncture lung biopsies reveal the presence of pneumonia, edema, proteinaceous exudate with globules and focal hyperplasia of alveolar epithelial cells associated with patchy inflammatory infiltrates, and multinucleated giant cells (81).",
+      "key": "3e4291a23e752dcf34f0a3d675960c20",
+      "line": 142,
+      "relation": "positiveCorrelation",
+      "source": 43,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Early": true
+        },
+        "MeSHAnatomy": {
+          "Alveolar Epithelial Cells": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "In the early stages of infection, puncture lung biopsies reveal the presence of pneumonia, edema, proteinaceous exudate with globules and focal hyperplasia of alveolar epithelial cells associated with patchy inflammatory infiltrates, and multinucleated giant cells (81).",
+      "key": "953fd160aa6efe3ee1d57f2e3ff2a4ae",
+      "line": 143,
+      "relation": "positiveCorrelation",
+      "source": 41,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Early": true
+        },
+        "MeSHAnatomy": {
+          "Alveolar Epithelial Cells": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "In the early stages of infection, puncture lung biopsies reveal the presence of pneumonia, edema, proteinaceous exudate with globules and focal hyperplasia of alveolar epithelial cells associated with patchy inflammatory infiltrates, and multinucleated giant cells (81).",
+      "key": "25192dd3e561addc34e1b7724cded376",
+      "line": 144,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Late": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "At the later stages, diffuse alveolar damage (DAD) is observed in addition to hemorrhage and some areas of interstitial fibrosis (48).",
+      "key": "4b51cc33e3628f775d88fd688aeba8d5",
+      "line": 151,
+      "relation": "negativeCorrelation",
+      "source": 4,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Disease_Stage": {
+          "Late": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "At the later stages, diffuse alveolar damage (DAD) is observed in addition to hemorrhage and some areas of interstitial fibrosis (48).",
+      "key": "d4f3948e3dff2bb902dbfc8b025abb71",
+      "line": 153,
+      "relation": "positiveCorrelation",
+      "source": 39,
+      "target": 42
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Consistent with clinical observations, the lungs are the most injured organs, followed by moderate injury in the heart, liver, kidney, and brain.",
+      "key": "4cc7758947886fd547e430c53e9f295e",
+      "line": 160,
+      "relation": "positiveCorrelation",
+      "source": 22,
+      "target": 40
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Consistent with clinical observations, the lungs are the most injured organs, followed by moderate injury in the heart, liver, kidney, and brain.",
+      "key": "a1318efca8bbbcdf00f717fc1fc5c16f",
+      "line": 161,
+      "relation": "positiveCorrelation",
+      "source": 22,
+      "target": 38
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Consistent with clinical observations, the lungs are the most injured organs, followed by moderate injury in the heart, liver, kidney, and brain.",
+      "key": "638abe5f49653c5acbcdc70a365981e3",
+      "line": 162,
+      "relation": "positiveCorrelation",
+      "source": 22,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Consistent with clinical observations, the lungs are the most injured organs, followed by moderate injury in the heart, liver, kidney, and brain.",
+      "key": "2e452523c1dc34631264139fc2e6b4d0",
+      "line": 163,
+      "relation": "positiveCorrelation",
+      "source": 22,
+      "target": 36
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Consistent with clinical observations, the lungs are the most injured organs, followed by moderate injury in the heart, liver, kidney, and brain.",
+      "key": "a0f3b0acdc1572b8f0e8fcc67248d2fa",
+      "line": 164,
+      "relation": "positiveCorrelation",
+      "source": 22,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "In comparison with patients with mild COVID-19 (such as those who did not require ICU stays, did not develop ARDS or pneumonia, and who survived), patients with severe COVID-19 have higher comorbidities, including 56% for hypertension, 21% for heart diseases, 18% for diabetes, 12% for cerebrovascular diseases, and 7% for cancer (Table 1) (79, 97).",
+      "key": "48205ebee5fef8d0943c5c28855caa64",
+      "line": 209,
+      "relation": "association",
+      "source": 22,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "In comparison with patients with mild COVID-19 (such as those who did not require ICU stays, did not develop ARDS or pneumonia, and who survived), patients with severe COVID-19 have higher comorbidities, including 56% for hypertension, 21% for heart diseases, 18% for diabetes, 12% for cerebrovascular diseases, and 7% for cancer (Table 1) (79, 97).",
+      "key": "bebfb6cd1d7fc8db94f5a8db05e68663",
+      "line": 210,
+      "relation": "association",
+      "source": 22,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "In comparison with patients with mild COVID-19 (such as those who did not require ICU stays, did not develop ARDS or pneumonia, and who survived), patients with severe COVID-19 have higher comorbidities, including 56% for hypertension, 21% for heart diseases, 18% for diabetes, 12% for cerebrovascular diseases, and 7% for cancer (Table 1) (79, 97).",
+      "key": "2025389f96f32182b138a194a2b2c4a3",
+      "line": 211,
+      "relation": "association",
+      "source": 22,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "In comparison with patients with mild COVID-19 (such as those who did not require ICU stays, did not develop ARDS or pneumonia, and who survived), patients with severe COVID-19 have higher comorbidities, including 56% for hypertension, 21% for heart diseases, 18% for diabetes, 12% for cerebrovascular diseases, and 7% for cancer (Table 1) (79, 97).",
+      "key": "5b87e0d9b03448e0e11bc1ca8bdc9950",
+      "line": 212,
+      "relation": "association",
+      "source": 22,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "In comparison with patients with mild COVID-19 (such as those who did not require ICU stays, did not develop ARDS or pneumonia, and who survived), patients with severe COVID-19 have higher comorbidities, including 56% for hypertension, 21% for heart diseases, 18% for diabetes, 12% for cerebrovascular diseases, and 7% for cancer (Table 1) (79, 97).",
+      "key": "16b2825dec48a0d153f7e91800525f00",
+      "line": 213,
+      "relation": "association",
+      "source": 22,
+      "target": 28
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Consistent with clinical observations, the lungs are the most injured organs, followed by moderate injury in the heart, liver, kidney, and brain.",
+      "key": "994082a5aa87e03635a972bc95ed1291",
+      "line": 160,
+      "relation": "positiveCorrelation",
+      "source": 40,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Consistent with clinical observations, the lungs are the most injured organs, followed by moderate injury in the heart, liver, kidney, and brain.",
+      "key": "69a9735c833bed15f3be60d5d9982813",
+      "line": 161,
+      "relation": "positiveCorrelation",
+      "source": 38,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The S protein of SARS-CoV-2 bind to human ACE2 receptors with higher affinity than that of the SARS-CoV virus (88).",
+      "key": "b69f353f413d68e435e654bbd4998be8",
+      "line": 169,
+      "relation": "association",
+      "source": 15,
+      "target": 31
+    },
+    {
+      "key": "cc2d182e46a7afcbe8de0b32b4f87ed1",
+      "relation": "partOf",
+      "source": 18,
+      "target": 15
+    },
+    {
+      "key": "2fac24f2b27106d2c0ea816941980bf5",
+      "relation": "hasVariant",
+      "source": 18,
+      "target": 19
+    },
+    {
+      "key": "1db03b2523b3b2cd2b465edf9382bc2a",
+      "relation": "partOf",
+      "source": 20,
+      "target": 15
+    },
+    {
+      "key": "5a0b9d59fdcc7f631f2cdcab8fb443b7",
+      "relation": "partOf",
+      "source": 20,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The S protein of coronaviruses may be cleaved by plasmin, trypsin, cathepsins, elastase and TMPRSSs; cleavage of S protein may mediate enhancement of virus entry, into bronchial epithelial cells (37)",
+      "key": "66c7641819b9f70f17b2df8d2232df40",
+      "line": 175,
+      "relation": "increases",
+      "source": 1,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Measurements of plasmin(ogen) levels and its enzymatic activity may be important biomarkers of disease severity in addition to resultant D-dimer.",
+      "key": "ab78da67ac3243d0f016a658bdeee848",
+      "line": 249,
+      "relation": "biomarkerFor",
+      "source": 1,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Alveolar Epithelial Cells": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The S protein of coronaviruses may be cleaved by plasmin, trypsin, cathepsins, elastase and TMPRSSs; cleavage of S protein may mediate enhancement of virus entry, into bronchial epithelial cells (37)",
+      "key": "a9cb14066b9077b3ff2f162e28c9df35",
+      "line": 181,
+      "relation": "increases",
+      "source": 19,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Similarly, the S protein of SARS-CoV-2 harbors a furin cleavage site at the S1/S2 boundary. The almost ubiquitous and diverse expression of furin-like proteases could lead to increasing SARS-CoV-2 cell and tissue tropism and transmissibility, and enhance its pathogenicity (84).",
+      "key": "9a2a330b7ea234223ac56cd20287c539",
+      "line": 191,
+      "relation": "increases",
+      "source": 19,
+      "target": 31
+    },
+    {
+      "key": "42167d86d161366721784906f7218852",
+      "relation": "partOf",
+      "source": 19,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The S proteins bind to ACE2 receptors after being cleaved by furin- like proteases. The RNA-dependent RNA polymerase (RdRp) is responsible for replicating SARS-CoV-2 RNA genome",
+      "key": "0ec9ad6239275e605c77d9a443f991eb",
+      "line": 198,
+      "relation": "increases",
+      "source": 19,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The S protein of coronaviruses may be cleaved by plasmin, trypsin, cathepsins, elastase and TMPRSSs; cleavage of S protein may mediate enhancement of virus entry, into bronchial epithelial cells (37)",
+      "key": "110f6bcadb23c626fd584eec52b6037a",
+      "line": 176,
+      "relation": "increases",
+      "source": 2,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The S protein of coronaviruses may be cleaved by plasmin, trypsin, cathepsins, elastase and TMPRSSs; cleavage of S protein may mediate enhancement of virus entry, into bronchial epithelial cells (37)",
+      "key": "73d2e1167b5e247cabf90996efc41f79",
+      "line": 177,
+      "relation": "increases",
+      "source": 7,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The S protein of coronaviruses may be cleaved by plasmin, trypsin, cathepsins, elastase and TMPRSSs; cleavage of S protein may mediate enhancement of virus entry, into bronchial epithelial cells (37)",
+      "key": "73f43a11fe529c0263f1f514d79991de",
+      "line": 178,
+      "relation": "increases",
+      "source": 9,
+      "subject": {
+        "modifier": "Degradation"
+      },
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The S protein of coronaviruses may be cleaved by plasmin, trypsin, cathepsins, elastase and TMPRSSs; cleavage of S protein may mediate enhancement of virus entry, into bronchial epithelial cells (37)",
+      "key": "f6ecffecb19b32b22cbed9e63a3832e5",
+      "line": 179,
+      "relation": "increases",
+      "source": 6,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "As demonstrated in vitro, TMPRSS2, a serine protease inhibitor blocks SARS-CoV-2 S protein-driven entry into cells (30).",
+      "key": "363c255e170418e69489f834a741172d",
+      "line": 254,
+      "relation": "decreases",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Similarly, the S protein of SARS-CoV-2 harbors a furin cleavage site at the S1/S2 boundary. The almost ubiquitous and diverse expression of furin-like proteases could lead to increasing SARS-CoV-2 cell and tissue tropism and transmissibility, and enhance its pathogenicity (84).",
+      "key": "24879fe8620fd8427e0f88edfd9b1487",
+      "line": 190,
+      "relation": "increases",
+      "source": 8,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The S proteins bind to ACE2 receptors after being cleaved by furin- like proteases. The RNA-dependent RNA polymerase (RdRp) is responsible for replicating SARS-CoV-2 RNA genome",
+      "key": "4e1ccfb3b68a233fd5589cc0f434f258",
+      "line": 197,
+      "relation": "increases",
+      "source": 8,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "The S proteins bind to ACE2 receptors after being cleaved by furin- like proteases. The RNA-dependent RNA polymerase (RdRp) is responsible for replicating SARS-CoV-2 RNA genome",
+      "key": "1af5e6361e4501638dd5fbd26a800960",
+      "line": 199,
+      "relation": "increases",
+      "source": 17,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "In comparison with patients with mild COVID-19 (such as those who did not require ICU stays, did not develop ARDS or pneumonia, and who survived), patients with severe COVID-19 have higher comorbidities, including 56% for hypertension, 21% for heart diseases, 18% for diabetes, 12% for cerebrovascular diseases, and 7% for cancer (Table 1) (79, 97).",
+      "key": "a3ee6bbfe34c55f180cf2098862a066a",
+      "line": 209,
+      "relation": "association",
+      "source": 29,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "Multivariate regression further links hypertension with increased incidence and fatality (85, 89, 101).",
+      "key": "b0b0f35461567d3d9232c39ff5e9f81b",
+      "line": 219,
+      "relation": "positiveCorrelation",
+      "source": 29,
+      "target": 44
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "In comparison with patients with mild COVID-19 (such as those who did not require ICU stays, did not develop ARDS or pneumonia, and who survived), patients with severe COVID-19 have higher comorbidities, including 56% for hypertension, 21% for heart diseases, 18% for diabetes, 12% for cerebrovascular diseases, and 7% for cancer (Table 1) (79, 97).",
+      "key": "d5b2d2b52552e468aa6f1797521215e5",
+      "line": 210,
+      "relation": "association",
+      "source": 27,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "In comparison with patients with mild COVID-19 (such as those who did not require ICU stays, did not develop ARDS or pneumonia, and who survived), patients with severe COVID-19 have higher comorbidities, including 56% for hypertension, 21% for heart diseases, 18% for diabetes, 12% for cerebrovascular diseases, and 7% for cancer (Table 1) (79, 97).",
+      "key": "498c5efde396439be3286355e558fb56",
+      "line": 211,
+      "relation": "association",
+      "source": 24,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "In comparison with patients with mild COVID-19 (such as those who did not require ICU stays, did not develop ARDS or pneumonia, and who survived), patients with severe COVID-19 have higher comorbidities, including 56% for hypertension, 21% for heart diseases, 18% for diabetes, 12% for cerebrovascular diseases, and 7% for cancer (Table 1) (79, 97).",
+      "key": "bef106c0039db93796b6ddb6ce59b34d",
+      "line": 212,
+      "relation": "association",
+      "source": 23,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "In comparison with patients with mild COVID-19 (such as those who did not require ICU stays, did not develop ARDS or pneumonia, and who survived), patients with severe COVID-19 have higher comorbidities, including 56% for hypertension, 21% for heart diseases, 18% for diabetes, 12% for cerebrovascular diseases, and 7% for cancer (Table 1) (79, 97).",
+      "key": "e2e782bda1326baebc8bb84de164ea11",
+      "line": 213,
+      "relation": "association",
+      "source": 28,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "This is accompanied by a prolonged prothrombin time particularly in non-- survivors (31, 79, 97, 101).",
+      "key": "aa82b8eb963f098a8d808b5cfc777766",
+      "line": 225,
+      "relation": "positiveCorrelation",
+      "source": 14,
+      "target": 44
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "71.4% of non-survivors meet the criteria of the International Society on Thrombosis and Haemostasis (ISTH) for disseminated intravascular coagulation (DIC), suggesting the coexistence of coagulation activation and hyper-fibrinolysis in patients with severe COVID-19 infection (78, 85).",
+      "key": "fb5c76333c75afff0ffe6d8c66a62dc3",
+      "line": 240,
+      "relation": "positiveCorrelation",
+      "source": 25,
+      "target": 44
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ji HL",
+          "Matalon S",
+          "Matthay MA",
+          "Zhao R"
+        ],
+        "date": "2020-07-01",
+        "db": "PubMed",
+        "db_id": "32216698",
+        "db_name": "Physiological reviews",
+        "first": "Ji HL",
+        "last": "Matthay MA",
+        "pages": "1065-1075",
+        "volume": "100"
+      },
+      "evidence": "71.4% of non-survivors meet the criteria of the International Society on Thrombosis and Haemostasis (ISTH) for disseminated intravascular coagulation (DIC), suggesting the coexistence of coagulation activation and hyper-fibrinolysis in patients with severe COVID-19 infection (78, 85).",
+      "key": "9fbcdcb675cbbc0301504405f4b6c33a",
+      "line": 241,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 44
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:Fibrin)",
+      "concept": {
+        "name": "Fibrin",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "a2fd68e7631bb65d2738acd32e888616"
+    },
+    {
+      "bel": "a(CHEBI:Plasmin)",
+      "concept": {
+        "name": "Plasmin",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "16ed003ba9ba081eb25a656d3aba9270"
+    },
+    {
+      "bel": "a(CHEBI:Trypsin)",
+      "concept": {
+        "name": "Trypsin",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "a21234001883c83ed7e6561f241251de"
+    },
+    {
+      "bel": "a(MESH:\"Age of Onset\")",
+      "concept": {
+        "name": "Age of Onset",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "0896fa3662038c7fd85cf6d48191d84f"
+    },
+    {
+      "bel": "a(MESH:\"Alveolar Epithelial Cells\")",
+      "concept": {
+        "name": "Alveolar Epithelial Cells",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "c286ed6e2b932ad22464b9557356c5b0"
+    },
+    {
+      "bel": "a(MESH:\"Giant Cells\")",
+      "concept": {
+        "name": "Giant Cells",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "16a79f90aa78f1aa0c3096c4a8b808c6"
+    },
+    {
+      "bel": "a(MESH:\"TMPRSS2 protein, human\")",
+      "concept": {
+        "name": "TMPRSS2 protein, human",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "298e3311da6f53c42a8df9dddf47d468"
+    },
+    {
+      "bel": "a(MESH:Cathepsins)",
+      "concept": {
+        "name": "Cathepsins",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "637fb9c79c2d0161d9d62b4a58584f9d"
+    },
+    {
+      "bel": "a(MESH:Furin)",
+      "concept": {
+        "name": "Furin",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "fe21bb75284fe417d0c634817de17c9f"
+    },
+    {
+      "bel": "a(MESH:proelastase)",
+      "concept": {
+        "name": "proelastase",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "3c9f48b00f956b0e0f9bd8830db6fa4f"
+    },
+    {
+      "bel": "bp(EFO:\"D dimer measurement\")",
+      "concept": {
+        "name": "D dimer measurement",
+        "namespace": "EFO"
+      },
+      "function": "BiologicalProcess",
+      "id": "adb2c6aaf5600372075f4348dbf9d820"
+    },
+    {
+      "bel": "bp(GO:\"viral genome replication\")",
+      "concept": {
+        "name": "viral genome replication",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "e08b08a1af1179857efa22393f4badf4"
+    },
+    {
+      "bel": "bp(MESH:\"Blood Coagulation\")",
+      "concept": {
+        "name": "Blood Coagulation",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "1d5cb4544a05cff7ad1a42f09047c886"
+    },
+    {
+      "bel": "bp(MESH:\"Platelet Count\")",
+      "concept": {
+        "name": "Platelet Count",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "2925a20007d257be5ea15c8f4fe852e4"
+    },
+    {
+      "bel": "bp(MESH:\"Prothrombin Time\")",
+      "concept": {
+        "name": "Prothrombin Time",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "75395f85b55ceba9bd78ad3cbfa28a69"
+    },
+    {
+      "bel": "complex(p(COVID:S), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "6b8514d35b9a04dcfdf30d01d4a3a0a0",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "complex(p(COVID:S, frag(\"?\")), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "32f0a183fd2cd8f6d9d46e611637aa79",
+      "members": [
+        {
+          "bel": "p(COVID:S, frag(\"?\"))",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "a4ea879b1d193de79d75f4ce77b539a5",
+          "variants": [
+            {
+              "kind": "frag",
+              "missing": "?"
+            }
+          ]
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:ORF1ab)",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "3e2ae75f3061012cb65ea6b97f7db096"
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(COVID:S, frag(\"?\"))",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "a4ea879b1d193de79d75f4ce77b539a5",
+      "variants": [
+        {
+          "kind": "frag",
+          "missing": "?"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "p(HGNC:PLG)",
+      "concept": {
+        "name": "PLG",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "f26ffa1f3ffe1139d4072df0b0797f10"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"cardiovascular system disease\")",
+      "concept": {
+        "name": "cardiovascular system disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "0dddecaa74a5cb604700b965433f853e"
+    },
+    {
+      "bel": "path(DO:\"diabetes mellitus\")",
+      "concept": {
+        "name": "diabetes mellitus",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "a851751c015aaa69ddfba6458d99c945"
+    },
+    {
+      "bel": "path(DO:\"disseminated intravascular coagulation\")",
+      "concept": {
+        "name": "disseminated intravascular coagulation",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "c702809f95520c3e8ea459e4d618c6d2"
+    },
+    {
+      "bel": "path(DO:\"focal epithelial hyperplasia\")",
+      "concept": {
+        "name": "focal epithelial hyperplasia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "117c78b8d9d23e7a00aa96cc8f5b1d6b"
+    },
+    {
+      "bel": "path(DO:\"heart disease\")",
+      "concept": {
+        "name": "heart disease",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "76ff3da6ecf8964b007ab3591485d89c"
+    },
+    {
+      "bel": "path(DO:cancer)",
+      "concept": {
+        "name": "cancer",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6cd82834a6f18684f4a5b8aa1c431537"
+    },
+    {
+      "bel": "path(DO:hypertension)",
+      "concept": {
+        "name": "hypertension",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "53d5b8bd814074e87b1da1ff6250dcff"
+    },
+    {
+      "bel": "path(EFO:\"acute respiratory distress syndrome\")",
+      "concept": {
+        "name": "acute respiratory distress syndrome",
+        "namespace": "EFO"
+      },
+      "function": "Pathology",
+      "id": "f3314ef28a1a3d7c8c5d89dfe1a7fb75"
+    },
+    {
+      "bel": "path(EFO:pathogenicity)",
+      "concept": {
+        "name": "pathogenicity",
+        "namespace": "EFO"
+      },
+      "function": "Pathology",
+      "id": "27b76f5e6989bc7b1120d9cc7900a7e8"
+    },
+    {
+      "bel": "path(HP:\"Acute hepatitis\")",
+      "concept": {
+        "name": "Acute hepatitis",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "852c3290842877863512cdd75d70effc"
+    },
+    {
+      "bel": "path(HP:Hyperfibrinolysis)",
+      "concept": {
+        "name": "Hyperfibrinolysis",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "07680e186b60c72590f6b3e018173f0e"
+    },
+    {
+      "bel": "path(MESH:\"Acute Kidney Injury\")",
+      "concept": {
+        "name": "Acute Kidney Injury",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "c79b5c3cb64cd6a386a6983c7f4dbbdb"
+    },
+    {
+      "bel": "path(MESH:\"Bacterial Infections\")",
+      "concept": {
+        "name": "Bacterial Infections",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "99f1b853c8cfad351f262aee74a3716a"
+    },
+    {
+      "bel": "path(MESH:\"Brain Injuries\")",
+      "concept": {
+        "name": "Brain Injuries",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "1ac8fcaca36bf2aee3bf5c9dfa8eca2c"
+    },
+    {
+      "bel": "path(MESH:\"Disseminated Intravascular Coagulation\")",
+      "concept": {
+        "name": "Disseminated Intravascular Coagulation",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "f89ea66747234f3bd8976226f9dd7266"
+    },
+    {
+      "bel": "path(MESH:\"Heart Injuries\")",
+      "concept": {
+        "name": "Heart Injuries",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "936781bd0bf245df80710c8255fe2b1a"
+    },
+    {
+      "bel": "path(MESH:\"Lung Diseases, Interstitial\")",
+      "concept": {
+        "name": "Lung Diseases, Interstitial",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "8ee6c61159c4e0214dfe46f3602a2231"
+    },
+    {
+      "bel": "path(MESH:\"Lung Injury\")",
+      "concept": {
+        "name": "Lung Injury",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "0331236e5bff96357737ca4f300a8893"
+    },
+    {
+      "bel": "path(MESH:Edema)",
+      "concept": {
+        "name": "Edema",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "459c2216c44fc92562d789ad8c379b18"
+    },
+    {
+      "bel": "path(MESH:Hemorrhage)",
+      "concept": {
+        "name": "Hemorrhage",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "cf4a162722a05595a90a635aa9c8b7ba"
+    },
+    {
+      "bel": "path(MESH:Inflammation)",
+      "concept": {
+        "name": "Inflammation",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "10cd96fd4056a5e6c27264e0130e89f9"
+    },
+    {
+      "bel": "path(MESH:Mortality)",
+      "concept": {
+        "name": "Mortality",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "df8c4e5f3d406d3ef8f732f01595a9a6"
+    },
+    {
+      "bel": "path(MESH:Virulence)",
+      "concept": {
+        "name": "Virulence",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "cd22afe1d9d585df2f0e1a10fc161447"
+    }
+  ]
+}

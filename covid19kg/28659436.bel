@@ -1,0 +1,141 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "28659436.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20190128.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION IC50 AS LIST {"0.069 μM", "0.074 μM"}
+DEFINE ANNOTATION concentration AS LIST {"50 mg/kg once daily", "25 mg/kg twice daily"}
+DEFINE ANNOTATION Custom_CellLine AS LIST {"HAE Cell"}
+DEFINE ANNOTATION Mouse_type AS LIST {"Ces1c−/−"}
+DEFINE ANNOTATION CellLine_Infection_Type AS LIST {"Middle East respiratory syndrome-related coronavirus"}
+DEFINE ANNOTATION Infection_Type AS LIST {"Severe acute respiratory syndrome-related coronavirus"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+#example#
+SET Citation = {"PubMed", "Sci Transl Med. 2017 Jun 28;9(396). pii: 9/396/eaal3653. doi:10.1126/scitranslmed.aal3653.", "28659436"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "A dose-dependent reduction in replication approaching 1 log10 was \
+observed at 0.1 μM and exceeded 2 log10 at 1 μM GS-5734 as compared to \
+untreated controls (Fig. 2, A and B), with average IC50 values of \
+0.069 μM (SARS-CoV) and 0.074 μM (MERS-CoV)."
+
+SET IC50 = "0.069 μM"
+a(PUBCHEM:121304016) -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+UNSET IC50
+SET IC50 = "0.074 μM"
+a(PUBCHEM:121304016) -| a(TAX:"Middle East respiratory syndrome-related coronavirus")
+UNSET IC50
+
+SET Evidence = "A dose-dependent reduction in both ORF1a and ORFN was observed for \
+both SARS-CoV and MERS-CoV (Fig. 2, C and D, and table S1), consistent \
+with titer reduction"
+
+a(PUBCHEM:121304016) -| p(UNIPROT:A7J8L3)
+a(PUBCHEM:121304016) -| p(UNIPROT:P59595)
+a(PUBCHEM:121304016) -| p(UNIPROT:W6A941)
+a(PUBCHEM:121304016) -| p(UNIPROT:R9UM87)
+
+SET Evidence = "The number of MERS-CoV–infected HAE cells also diminished with \
+increasing dose of GS-5734, as observed by microscopy (Fig. 2E)."
+
+SET Custom_CellLine = "HAE Cell"
+SET CellLine_Infection_Type = "Middle East respiratory syndrome-related coronavirus"
+a(PUBCHEM:121304016) -| bp(MESH:Virulence)
+UNSET CellLine_Infection_Type
+UNSET Custom_CellLine
+
+SET Evidence = "As shown in Fig. 5A, prophylactic administration at 50 mg/kg QD or 25 \
+mg/kg BID ameliorated SARS-CoV–induced weight loss seen with vehicle \
+treatment."
+
+path(DO:"severe acute respiratory syndrome") -> path(MESH:"Weight Loss")
+SET Species = "10090"
+SET Mouse_type = "Ces1c−/−"
+SET Infection_Type = "Severe acute respiratory syndrome-related coronavirus"
+SET concentration = {"50 mg/kg once daily", "25 mg/kg twice daily"}
+a(PUBCHEM:121304016) -| path(MESH:"Weight Loss")
+UNSET concentration
+
+
+SET Evidence = "Virus titers in the lung were significantly reduced (P < 0.05) on both \
+2 and 5 days postinfection (dpi) in GS-5734–treated mice as compared \
+to vehicle-treated animals (Fig. 5B)."
+
+SET MeSHAnatomy = "Lung"
+a(PUBCHEM:121304016) -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+
+
+SET Evidence = "Treatment with GS-5734 also reduced SARS-CoV–induced lung pathology, \
+including denuding bronchiolitis, perivascular accumulation of \
+inflammatory infiltrates (that is, “cuffing”), and intra-alveolar \
+edema associated with diffuse alveolar damage as compared to vehicle- \
+treated animals (Fig. 5E and fig. S6)."
+
+a(PUBCHEM:121304016) -| path(DO:bronchiolitis)
+a(PUBCHEM:121304016) -| path(FIXME:"Cuffing,perivascular")
+a(PUBCHEM:121304016) -| path(DO:"pulmonary edema")
+path(FIXME:"diffuse alveolar damage") -- path(DO:bronchiolitis)
+path(FIXME:"diffuse alveolar damage") -- path(DO:"pulmonary edema")
+path(FIXME:"diffuse alveolar damage") -- path(FIXME:"Cuffing,perivascular")
+
+
+SET Evidence = "Therapeutic GS-5734 substantially reduced the SARS-CoV–induced weight \
+loss in infected animals (Fig. 6, A and B) and significantly \
+suppressed virus lung titers (P = 0.0059), thus demonstrating that \
+therapeutic administration of GS-5734 can reduce disease and suppress \
+replication during an ongoing infection (Fig. 6C)."
+
+SET MeSHDisease = "Severe Acute Respiratory Syndrome"
+a(PUBCHEM:121304016) -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+a(PUBCHEM:121304016) -| path(MESH:Virulence)
+
+
+SET Evidence = "Therapeutic treatment significantly (P = 0.003) improved pulmonary \
+function (that is, reduced Penh scores) as compared to vehicle-treated \
+controls (Fig. 6D)."
+
+a(PUBCHEM:121304016) -| path(HP:"Decreased pulmonary function")
+UNSET MeSHAnatomy
+UNSET Infection_Type
+UNSET Mouse_type
+UNSET Species
+
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

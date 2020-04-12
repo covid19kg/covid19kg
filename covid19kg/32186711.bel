@@ -1,0 +1,114 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32186711.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION mode_of_administration AS LIST {"intravenous injection"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Letter to the Editor"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","J Travel Med. 2020;taaa041. doi:10.1093/jtm/taaa041","32186711"}
+SET PublicationType = "Letter to the Editor"
+SET PublicationStatus = "Published"
+SET Section = "Full Text"
+
+SET Evidence = "Angiotensin-converting enzyme inhibitors (ACEIs) and angiotensin receptor blockers (ARBs) are highly recommended medications for patients with cardiovascular diseases, such as refractory hypertension, coronary artery disease, heart failure, and post-myocardial infarction status. 1, 2"
+
+SET Species = "9606"
+a(MESH:"Angiotensin-Converting Enzyme Inhibitors") -| path(DO:hypertension)
+a(MESH:"Angiotensin-Converting Enzyme Inhibitors") -| path(DO:"coronary artery disease")
+a(MESH:"Angiotensin-Converting Enzyme Inhibitors") -| path(DO:"congestive heart failure")
+a(MESH:"Angiotensin-Converting Enzyme Inhibitors") -| path(DO:"myocardial infarction")
+a(CHEBI:"angiotensin receptor antagonist") -| path(DO:hypertension)
+a(CHEBI:"angiotensin receptor antagonist") -| path(DO:"coronary artery disease")
+a(CHEBI:"angiotensin receptor antagonist") -| path(DO:"congestive heart failure")
+a(CHEBI:"angiotensin receptor antagonist") -| path(DO:"myocardial infarction")
+UNSET Species
+
+SET Evidence = "Intravenous infusions of ACEIs and ARBs in experimental animals increase the numbers of angiotensin converting enzyme 2 (ACE2) receptors in the cardiopulmonary circulation. 4"
+SET Species = "10090"
+SET MeSHAnatomy = {"Heart","Lung","Blood"}
+SET mode_of_administration = "intravenous injection"
+a(MESH:"Angiotensin-Converting Enzyme Inhibitors") -> p(MGI:Ace2)
+a(CHEBI:"angiotensin receptor antagonist") -> p(MGI:Ace2)
+UNSET mode_of_administration
+UNSET MeSHAnatomy
+UNSET Species
+
+SET Evidence = "Patients taking ACEIs or ARBs chronically for cardiovascular diseases are assumed to have increased numbers of ACE2 receptors throughout their cardiopulmonary circulations as observed in experimental animal models."
+
+SET Species = "9606"
+SET MeSHAnatomy = {"Heart","Lung","Blood"}
+a(MESH:"Angiotensin-Converting Enzyme Inhibitors") -> p(HGNC:ACE2)
+a(CHEBI:"angiotensin receptor antagonist") -> p(HGNC:ACE2)
+UNSET MeSHAnatomy
+
+SET Evidence = "The phylogenetically related beta coronavirus, SARS-Cov-2, causes the novel coronavirus disease (nCoV-2019) or COVID-19. 5 S proteins anchor both beta coronaviruses to ACE2 receptors in the lower respiratory tract of infected patients in order to gain entry into the lungs."
+
+SET MeSHAnatomy = "Lung"
+complex(p(HGNC:ACE2),p(COVID:S)) -> path(DO:"COVID-19")
+p(COVID:S) -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET MeSHAnatomy
+
+SET Evidence = "Viral pneumonia and potentially fatal respiratory failure may result in susceptible persons after 10-14 days. 5"
+
+SET MeSHAnatomy = "Lung"
+path(DO:"COVID-19") -> path(DO:"viral pneumonia")
+path(DO:"COVID-19") -> path(DO:"respiratory failure")
+UNSET MeSHAnatomy
+
+SET Evidence = "Since patients treated with ACEIs and ARBS will have increased numbers of ACE2 receptors in their lungs for coronavirus S proteins to bind to, they may be at increased risk of severe disease outcomes due to SARS-CoV-2 infections."
+
+SET MeSHAnatomy = "Lung"
+a(MESH:"Angiotensin-Converting Enzyme Inhibitors") -> p(HGNC:ACE2)
+a(CHEBI:"angiotensin receptor antagonist") -> p(HGNC:ACE2)
+p(HGNC:ACE2) pos complex(p(HGNC:ACE2),p(COVID:S))
+complex(p(HGNC:ACE2),p(COVID:S)) -> path(DO:"COVID-19")
+UNSET MeSHAnatomy
+
+SET Evidence = "In this study, Guan et al reported more severe disease outcomes in patients with hypertension, coronary artery disease, diabetes, and chronic renal disease (Table 1). 6"
+path(DO:"COVID-19") pos path(DO:hypertension)
+path(DO:"COVID-19") pos path(DO:"coronary artery disease")
+path(DO:"COVID-19") pos path(DO:"diabetes mellitus")
+path(DO:"COVID-19") pos path(DO:"chronic kidney disease")
+
+SET Evidence = "Two mechanisms may protect children from COVID-19 infections: (1) cross-protective antibodies from multiple upper respiratory tract infections caused by the common cold-causing alpha coronaviruses, and (2) fewer ACE2 receptors in their lower respiratory tracts to attract the binding S proteins of the beta coronaviruses."
+
+a(TAX:"Alphacoronavirus") -> path(DO:"upper respiratory tract disease")
+path(DO:"upper respiratory tract disease") -> a(MESH:"Antibodies, Viral")
+a(MESH:"Antibodies, Viral") -| path(DO:"COVID-19")
+p(HGNC:ACE2) pos complex(p(HGNC:ACE2),p(COVID:S))
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

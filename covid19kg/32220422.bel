@@ -1,0 +1,101 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32220422.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+#Not in template.bel
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+DEFINE NAMESPACE dbSNP AS PATTERN "rs[0-9]+"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Country AS LIST {"China", "Korea"}
+DEFINE ANNOTATION population_type AS LIST {"European"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Editorial"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+##################################################################################
+# Statements #
+#################################################################################
+
+SET Citation = {"PubMed","32220422"}
+
+SET PublicationType = "Editorial"
+SET PublicationStatus = "Preprint"
+SET Section = "Full Text"
+
+SET Evidence = "We know that angiotensin converting enzyme is involved in corona virus \
+infection. Pathogenic coronaviruses (severe acute respiratory syndrome \
+coronavirus [SARS-CoV] and SARS-CoV-2) bind to their target cells \
+through angiotensin-converting enzyme 2 (ACE2), [3,4]."
+
+SET Species = "9606"
+p(GFAM:"Angiotensin receptors") -- path(DO:"COVID-19")
+complex(a(TAX:"Severe acute respiratory syndrome coronavirus 2"), p(HGNC:ACE2)) pos path(DO:"COVID-19")
+UNSET Species
+
+SET Evidence = "Not only has ACE2 facilitated the invasion of SARS virus for rapid \
+replication, but also ACE2 is depleted from the cell membrane and \
+therefore the damaging effects of Ang II are enhanced, resulting in \
+acute deterioration of lung tissues [5]."
+
+SET Species = "9606"
+complex(a(TAX:"Severe acute respiratory syndrome-related coronavirus"), p(HGNC:ACE2)) pos bp(MESH:"Virus Replication")
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") neg p(HGNC:ACE2, loc(GO:"host cell membrane"))
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") pos path(DO:"lung disease")
+UNSET Species
+
+SET Evidence = "The angiotensin-converting 1 (ACE1) enzyme is characterized by a \
+genetic deletion/insertion (D/I) polymorphism in intron 16, which is \
+associated with alterations in circulating and tissue concentrations \
+of ACE. The D allele is associated with a reduced expression of ACE2."
+
+SET Species = "9606"
+p(HGNC:ACE, var("?")) neg p(HGNC:ACE2)
+UNSET Species
+
+SET Evidence = "It should also be noted that the two Asian countries which were \
+initially severely hit by the virus, China and Korea, are also \
+characterized by low D allele frequencies."
+
+SET Species = "9606"
+SET Country = {"China", "Korea"}
+path(DO:"COVID-19") neg p(HGNC:ACE, var("?"))
+UNSET Species
+
+SET Evidence = "These data suggest that ACE1 D/I polymorphism may be regarded as a \
+confounder in the spread of COVID-19 and the outcome of the infection \
+in various European populations. These findings are in agreement with \
+the role of ACE in pulmonary infections caused by coronaviruses [4]."
+
+SET Species = "9606"
+SET population_type = "European"
+p(HGNC:ACE, var("?")) pos path(DO:"COVID-19")
+path(DO:"COVID-19") pos path(HP:"Recurrent pneumonia")
+UNSET Species
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

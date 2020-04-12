@@ -1,0 +1,114 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32188729.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.1.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Assay AS LIST {"Cytometric Bead Array"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","32188729"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+
+SET Evidence = "Using this method of plotting the read counts over time, we detected statistically significant transcriptional upregulation of IFN gene expression in the DUBmut-infected cells."
+SET Species = "10090"
+SET Cell = "bone marrow macrophage"
+p(FIXME:DUB) -- a(TAX:"Murine hepatitis virus strain A59")
+# mouse hepatitis viral protein coded with FIXME
+p(FIXME:DUB, var("p.Asp1772Ala")) -> r(MGI:Ifnb1)
+p(FIXME:DUB, var("p.Asp1772Ala")) -> r(MGI:Ifna2)
+p(FIXME:DUB, var("p.Asp1772Ala")) -> r(MGI:Ifna5)
+p(FIXME:DUB, var("p.Asp1772Ala")) -> r(MGI:Ifna11)
+#Figure 2B
+
+SET Evidence = "EndoUmut-infected macrophages exhibited markedly elevated levels of IFN transcripts as early as 9 hpi"
+p(FIXME:EndoU) -- a(TAX:"Murine hepatitis virus strain A59")
+#mouse hepatitis viral protein coded with FIXME
+p(FIXME:EndoU, var("p.His262Ala")) -> r(MGI:Ifnb1)
+p(FIXME:EndoU, var("p.His262Ala")) -> r(MGI:Ifna2)
+p(FIXME:EndoU, var("p.His262Ala")) -> r(MGI:Ifna5)
+p(FIXME:EndoU, var("p.His262Ala")) -> r(MGI:Ifna11)
+p(FIXME:EndoU, var("p.His262Ala")) -> r(MGI:Isg15)
+#Figure 2B
+
+SET Evidence = "Interestingly, wild-type infected cells exhibited the highest levels of expression for most of these cytokines, while DUBmut-infected cells were characterized by decreased expression of Csf2, Il1β, and IL1α"
+p(FIXME:DUB, var("p.Asp1772Ala")) -| r(MGI:Il1b)
+p(FIXME:DUB, var("p.Asp1772Ala")) -| r(MGI:Il1a)
+p(FIXME:DUB, var("p.Asp1772Ala")) -| r(MGI:Csf2)
+
+SET Evidence = "DUBmut virus-infection induced upregulation of Cxcl9, but downregulation of Ccl22, Cx3cl1,and Cxcl3 compared to WT-infected cells."
+p(FIXME:DUB, var("p.Asp1772Ala")) -> r(MGI:Cxcl9)
+p(FIXME:DUB, var("p.Asp1772Ala")) -| r(MGI:Ccl22)
+p(FIXME:DUB, var("p.Asp1772Ala")) -| r(MGI:Cx3cl1)
+p(FIXME:DUB, var("p.Asp1772Ala")) -| r(MGI:Cxcl3)
+
+SET Evidence = "We report that DUBmut- and EndoUmut-infected cells have reduced levels of inflammatory cytokines TNFα, IL-6, and MIP-1α relative to wild-type-infected cells (Fig. 4A)."
+SET Assay = "Cytometric Bead Array"
+p(FIXME:DUB, var("p.Asp1772Ala")) -| p(MGI:Tnf)
+p(FIXME:EndoU, var("p.His262Ala")) -| p(MGI:Tnf)
+p(FIXME:DUB, var("p.Asp1772Ala")) -| p(MGI:Il6)
+p(FIXME:EndoU, var("p.His262Ala")) -| p(MGI:Il6)
+p(FIXME:DUB, var("p.Asp1772Ala")) -| p(MGI:Ccl3)
+p(FIXME:EndoU, var("p.His262Ala")) -| p(MGI:Ccl3)
+
+SET Evidence = "We also found that EndoUmut- infected cells exhibit lower levels of KC, IL-10, and MIP-1β proteins relative to WT- and DUBmut-infected cells (Fig. 4B)."
+p(FIXME:EndoU, var("p.His262Ala")) -| p(MGI:Cxcl1)
+p(FIXME:EndoU, var("p.His262Ala")) -| p(MGI:Il10)
+p(FIXME:EndoU, var("p.His262Ala")) -| p(MGI:Ccl4)
+UNSET Assay
+
+SET Evidence = "Based on our analyses of differential gene expression, we report significant transcriptional upregulation of multiple genes associated with activation of ER sensors IRE1, ATF6, and PERK, such as Edem1, Hspa5 (encoding BiP protein), and Ddit3 (encoding CHOP), in response to virus replication, with the most robust response detected in cells infected with the wild-type or DUBmut virus infection (Fig. 5B, C, and D)."
+p(FIXME:DUB, var("p.Asp1772Ala")) -> r(MGI:Edem1)
+p(FIXME:EndoU, var("p.His262Ala")) -> r(MGI:Edem1)
+p(FIXME:DUB, var("p.Asp1772Ala")) -> r(MGI:Hspa5)
+p(FIXME:EndoU, var("p.His262Ala")) -> r(MGI:Hspa5)
+p(FIXME:DUB, var("p.Asp1772Ala")) -> r(MGI:Ddit3)
+p(FIXME:EndoU, var("p.His262Ala")) -> r(MGI:Ddit3)
+a(TAX:"Murine hepatitis virus strain A59") -> r(MGI:Edem1)
+a(TAX:"Murine hepatitis virus strain A59") -> r(MGI:Hspa5)
+a(TAX:"Murine hepatitis virus strain A59") -> r(MGI:Ddit3)
+r(MGI:Edem1) -- bp(GO:"IRE1-mediated unfolded protein response")
+r(MGI:Hspa5) -- bp(GO:"ATF6-mediated unfolded protein response")
+r(MGI:Ddit3) -- bp(GO:"PERK-mediated unfolded protein response")
+
+SET Evidence = "We found that the WT- and DUBmut-viruses exhibit higher proportions of spliced XBP-1 mRNA at 9 hpi and 12 hpi compared to EndoUmut infected cells (Fig. 5E), consistent with activation of the IRE-1 arm of the unfolded protein response."
+SET BioAssay = "polymerase chain reaction"
+p(FIXME:DUB, var("p.Asp1772Ala")) -> r(MGI:Xbp1)
+a(TAX:"Murine hepatitis virus strain A59") -> r(MGI:Xbp1)
+r(MGI:Xbp1) -- bp(GO:"IRE1-mediated unfolded protein response")
+UNSET BioAssay
+UNSET Cell
+UNSET Species
+

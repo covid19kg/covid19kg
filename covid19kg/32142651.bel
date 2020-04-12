@@ -1,0 +1,152 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32142651.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+#Not in template.bel
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+DEFINE ANNOTATION Custom_CellLine AS LIST {"TMPRSS2-293T cells", "Vero-TMPRSS2 cells"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+##################################################################################
+# Statements #
+#################################################################################
+
+SET Citation = {"PubMed", "Cell. 2020 Mar 4. pii: S0092-8674(20)30229-4. doi: 10.1016/j.cell.2020.02.052.", "32142651"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "In agreement with these findings, directed expression of human and bat \
+(Rhinolophus alcyone) ACE2 but not human DPP4, the entry receptor used \
+by MERS-CoV (Raj et al., 2013), or human APN, the entry receptor used \
+by HCoV-229E (Yeager et al.,1992), allowed SARS-2-S- and SARS-S-driven \
+entry into otherwise non-susceptible BHK-21 cells (Figure 3A)."
+
+SET CellLine = "BHK-21 cell"
+complex(p(HGNC:DPP4), a(MESH:"Middle East Respiratory Syndrome Coronavirus")) reg a(MESH:"Middle East Respiratory Syndrome Coronavirus")
+complex(p(HGNC:ANPEP),a(TAX:"Human coronavirus 229E")) reg a(TAX:"Human coronavirus 229E")
+complex(p(HGNC:ACE2), p(COVID:S)) reg p(COVID:S)
+p(COVID:S) -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+complex(p(HGNC:ACE2), a(UNIPROT:P59594)) reg a(UNIPROT:P59594)
+UNSET CellLine
+
+SET Evidence = "Moreover, antiserum raised against human ACE2 blocked SARS-S- and \
+SARS-2-S- but not VSV-G- or MERS-S-driven entry (Figure 3B)."
+
+SET CellLine = "Vero cell"
+act(p(HGNC:ACE2)) pos a(UNIPROT:P59594)
+act(p(HGNC:ACE2)) pos p(COVID:S)
+UNSET CellLine
+
+SET Evidence = "Ammonium chloride blocked VSV-G-dependent entry into both cell lines \
+whereas entry driven by Nipah virus F and G proteins was not affected \
+(Figure S3A; data not shown), consistent with Nipah virus but not VSV \
+being able to fuse directly with the plasma membrane (Bossart et al., \
+2002)."
+
+SET Custom_CellLine = "TMPRSS2-293T cells"
+SET CellLine = "Caco-2 cell"
+a(CHEBI:"ammonium chloride") -| complex(p(HGNC:TMPRSS2), a(MESH:"G protein, vesicular stomatitis virus"))
+UNSET CellLine
+UNSET Custom_CellLine
+
+SET Evidence = "Ammonium chloride treatment strongly inhibited SARS-2-S- and SARS-S- \
+driven entry into TMPRSS2-293T cells (Figure S3 A), suggesting CatB/L \
+dependence."
+
+SET Custom_CellLine = "TMPRSS2-293T cells"
+a(CHEBI:"ammonium chloride") -| complex(p(COVID:S), p(HGNC:ACE2))
+a(CHEBI:"ammonium chloride") -| complex(p(HGNC:ACE2), a(UNIPROT:P59594))
+UNSET Custom_CellLine
+
+SET Evidence = "Indeed, the clinically proven serine protease inhibitor camostat \
+mesylate, which is active against TMPRSS2 (Kawase et al., 2012), \
+partially blocked SARS-2-S-driven entry into Caco-2 (Figure S3 B) and \
+Vero-TMPRSS2 cells (Figure 4A)."
+
+SET Custom_CellLine = "Vero-TMPRSS2 cells"
+SET CellLine = "Caco-2 cell"
+a(CHEBI:camostat) -| act(p(HGNC:TMPRSS2))
+complex(a(CHEBI:camostat), p(HGNC:TMPRSS2)) -| p(COVID:S)
+UNSET CellLine
+UNSET Custom_CellLine
+
+SET Evidence = "Full inhibition was attained when camostat mesylate and E-64d, an \
+inhibitor of CatB/L, were added (Figure 4A; Figure S3B), indicating \
+that SARS-2-S can use both CatB/L as well as TMPRSS2 for priming in \
+these cell lines."
+
+SET Custom_CellLine = "Vero-TMPRSS2 cells"
+a(CHEBI:camostat) -| act(p(HGNC:CTSB))
+a(CHEBI:camostat) -| act(p(HGNC:CTSL))
+a(CHEBI:aloxistatin) -| act(p(HGNC:CTSB))
+a(CHEBI:aloxistatin) -| act(p(HGNC:CTSL))
+complex(p(HGNC:CTSB), p(COVID:S)) -> p(COVID:S)
+complex(p(HGNC:CTSL), p(COVID:S)) -> p(COVID:S)
+complex(p(HGNC:TMPRSS2), p(COVID:S)) -> p(COVID:S)
+UNSET Custom_CellLine
+
+SET Evidence = "Indeed, camostat mesylate significantly reduced MERS-S-, SARS-S-, and \
+SARS-2-S- but not VSV-G-driven entry into the lung cell line Calu-3 \
+(Figure 4C) and exerted no unwanted cytotoxic effects (Figure S3 C)."
+
+SET CellLine = "Calu-3 cell"
+a(CHEBI:camostat) -| a(UNIPROT:P59594)
+a(CHEBI:camostat) -| p(COVID:S)
+UNSET CellLine
+
+SET Evidence = "Similarly, camostat mesylate treatment significantly reduced Calu-3 \
+infection with authentic SARS-CoV-2 (Figure 4D)."
+
+SET CellLine = "Calu-3 cell"
+a(CHEBI:camostat) -| path(DO:"COVID-19")
+UNSET CellLine
+
+SET Evidence = "Finally, camostat mesylate treatment inhibited SARS-S- and SARS-2-S- \
+but not VSV-G-driven entry into primary human lung cells (Figure 4E)."
+
+SET CellLine = "Calu-3 cell"
+a(CHEBI:camostat) -| p(COVID:S)
+a(CHEBI:camostat) -| a(UNIPROT:P59594)
+UNSET CellLine
+
+SET Evidence = "Collectively, SARS-CoV-2 can use TMPRSS2 for S protein priming and \
+camostat mesylate, an inhibitor of TMPRSS2, blocks SARS-CoV-2 \
+infection of lung cells."
+
+SET CellLine = "Calu-3 cell"
+complex(p(HGNC:TMPRSS2), p(COVID:S)) -> p(COVID:S)
+a(CHEBI:camostat) -| path(DO:"COVID-19")
+UNSET CellLine
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

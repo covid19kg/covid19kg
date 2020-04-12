@@ -1,0 +1,97 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "19394665.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION CovidAccession AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/ncbi-covid19/ncbi-accession-covid19-20200326.belanno"
+DEFINE ANNOTATION Plasmid_Transfected AS LIST {"pCAGGS-E-pCAGGS-9b", "pCAGGS-3a-HA","pCAGGS-9b"}
+DEFINE ANNOTATION Sample AS LIST {"Supernatant", "Medium", "Cell lysates"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","19394665"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "The expression of 9b protein in SARS-CoV infected cells was confirmed \
+by Western blot analysis with anti-9b monoclonal antibody."
+
+SET BioAssay = "western blot"
+p(UNIPROT:P59636) -- a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+UNSET BioAssay
+
+SET Evidence = "The results showed that 9b protein was able to be expressed in cells \
+transfected with plasmids containing the N gene coding region (Fig. 1C \
+ORFN), but that the expression level was relatively weaker compared \
+with that of cells transfected with ORF9b alone (Fig. 1C ORF9b)."
+
+SET CellLine = "HEK293"
+act(p(COVID:N)) -> p(UNIPROT:P59636)
+UNSET CellLine
+
+SET Evidence = "Western blot analysis of the pellets demonstrated that 9b protein was \
+not released into the culture medium of 9b-expressing cells, while 3a \
+protein was released as previously described (Huang et al., 2006b). \
+The abundant host protein, actin, was not detectable in the \
+supernatants from any group of cells (Fig. 2)."
+
+SET BioAssay = "western blot"
+SET CellLine = "HEK293"
+SET Sample = "Supernatant"
+SET Plasmid_Transfected = "pCAGGS-3a-HA"
+act(p(COVID:ORF3a)) -> sec(p(COVID:ORF3a))
+p(COVID:ORF3a) -| sec(p(PFAM:Actin))
+UNSET Plasmid_Transfected
+SET Plasmid_Transfected = "pCAGGS-9b"
+p(UNIPROT:P59636) -| sec(p(PFAM:Actin))
+UNSET Plasmid_Transfected
+UNSET Sample
+UNSET CellLine
+UNSET BioAssay
+
+SET Evidence = "As shown in Fig. 5 , in the pellets of the culture medium collected \
+from cells co-transfected with pCAGGS-E and pCAGGS-9b, a low level of \
+9b protein was detected suggesting that 9b protein is able to be \
+released when only E protein is available."
+
+SET CellLine = "HEK293"
+SET BioAssay = "western blot"
+SET Plasmid_Transfected = "pCAGGS-E-pCAGGS-9b"
+SET Sample = {"Medium", "Cell lysates"}
+act(p(COVID:E)) -> sec(p(UNIPROT:P59636))
+UNSET Sample
+UNSET Plasmid_Transfected
+UNSET BioAssay
+UNSET CellLine
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

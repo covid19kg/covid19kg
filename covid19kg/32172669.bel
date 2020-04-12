@@ -1,0 +1,147 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32172669.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Timeline AS LIST {"14 days","5 days","3-5 days"}
+DEFINE ANNOTATION Dose AS LIST {"2 tablets twice per day","40-80 mg per day","0.25-0.5 g/kg per day"}
+DEFINE ANNOTATION Technique AS LIST {"computed tomography"}
+DEFINE ANNOTATION Sample AS LIST {"Pharynx swab"}
+DEFINE ANNOTATION Severity AS LIST {"Severe"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","Emerg Microbes Infect. 2020;9(1):582–585. doi:10.1080/22221751.2020.1735265","32172669"}
+SET PublicationType = "Review"
+SET PublicationStatus = "Published"
+SET Section = "Full Text"
+
+SET Evidence = "The clinical features include fever, dry cough, shortness of breath, \
+normal or low levels of peripheral white blood cells, and inflammatory \
+changes on chest X-ray."
+
+SET Species = "9606"
+SET Custom_Disease = "COVID-19"
+path(DO:"COVID-19") pos path(MESH:Fever)
+path(DO:"COVID-19") pos path(MESH:Cough)
+path(DO:"COVID-19") pos path(MESH:Dyspnea)
+path(DO:"COVID-19") pos path(DO:lymphopenia)
+path(DO:"COVID-19") pos path(MESH:Fever)
+SET MeSHAnatomy = "Lung"
+path(DO:"COVID-19") pos bp(GO:"inflammatory response")
+UNSET MeSHAnatomy
+
+SET Evidence = "Chest radiology at early stage is characteristic of multiple small \
+patchy shadows and interstitial changes, more prominent in the \
+extrapulmonary bands. Multiple ground-glass opacities and \
+infiltrations may develop bilaterally with disease progression, with \
+possible consolidation in severe cases."
+
+SET Technique = "computed tomography"
+path(DO:"COVID-19") pos path(HP:"Ground-glass opacification on pulmonary HRCT")
+UNSET Technique
+
+SET Evidence = "SARS-CoV-2 nucleic acid positive in samples of sputum, pharynx swabs, \
+and secretions of lower respiratory tract tested by real-time reverse- \
+transcriptase–polymerase-chain reaction (rRT-PCR) assay."
+
+SET BioAssay = "quantitative reverse transcription PCR"
+SET MeSHAnatomy = "Sputum"
+SET Sample = "Pharynx swab"
+path(DO:"COVID-19") -> a(MESH:"RNA, Viral")
+a(MESH:"RNA, Viral") -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET BioAssay
+UNSET Sample
+UNSET MeSHAnatomy
+
+SET Evidence = "Patients with hypoxemia should be given oxygen therapy immediately and \
+maintain a blood oxygen saturation level to no less than 90% in man \
+and non-pregnant women, and between 92% and 95% in pregnant women."
+
+path(DO:"COVID-19") pos path(HP:Hypoxemia)
+a(MESH:"Oxygen Inhalation Therapy") -| path(HP:Hypoxemia)
+
+SET Evidence = "For those patients with most severe ARDS, extracorporeal membrane \
+oxygenation or prone position is recommended."
+
+path(DO:"COVID-19") pos path(DO:"adult respiratory distress syndrome")
+a(MESH:"Extracorporeal Membrane Oxygenation") -| path(DO:"adult respiratory distress syndrome")
+bp(MESH:"Prone Position") -| path(DO:"adult respiratory distress syndrome")
+
+SET Evidence = "Lopinavir/ritonavir can be used when appropriate, 2 tablets, twice \
+daily for 14 days."
+
+SET Timeline = "14 days"
+SET Dose = "2 tablets twice per day"
+a(CHEBI:lopinavir) -| path(DO:"COVID-19")
+a(CHEBI:ritonavir) -| path(DO:"COVID-19")
+UNSET Dose
+UNSET Timeline
+
+SET Evidence = "Severe patients could receive glucocorticoid at early stage, e.g. \
+intravenous methylprednisolone 40–80 mg, once daily for 5 days, and \
+the course of treatment can be prolonged according to the clinical \
+condition and radiological manifestations."
+
+SET Severity = "Severe"
+SET Timeline = "5 days"
+SET Dose = "40-80 mg per day"
+a(CHEBI:"6alpha-methylprednisolone") -| path(DO:"COVID-19")
+UNSET Dose
+UNSET Timeline
+UNSET Severity
+
+SET Evidence = "Early intravenous infusion of human immunoglobulin is recommended for \
+critically ill patients, based on their clinical condition, at \
+0.25–0.5 g/(kg·d), for 3–5 days [6–7]."
+
+SET Timeline = "3-5 days"
+SET Dose = "0.25-0.5 g/kg per day"
+a(MESH:"Immunoglobulins, Intravenous") -| path(DO:"COVID-19")
+UNSET Dose
+UNSET Timeline
+
+SET Evidence = "If bacterial infection is suspected according to the patient’s \
+clinical and imaging findings, patients of mild type can take oral \
+antibiotics for community-acquired pneumonia, such as second- \
+generation cephalosporins or fluoroquinolones."
+
+path(DO:"COVID-19") pos path(DO:pneumonia)
+a(CHEBI:cephalosporin) -| path(DO:pneumonia)
+a(CHEBI:"fluoroquinolone antibiotic") -| path(DO:pneumonia)
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

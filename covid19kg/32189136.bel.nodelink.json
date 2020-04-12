@@ -1,0 +1,1421 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Preprint",
+        "Published"
+      ],
+      "PublicationType": [
+        "Letter to Editor",
+        "Research",
+        "Review"
+      ],
+      "Section": [
+        "Abstract",
+        "Full Text",
+        "Results"
+      ],
+      "Severity": [
+        "Severe"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Shounak Baksi",
+      "contact": "shounak.baksi@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32189136.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "EFO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/efo/efo-20171206.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+    },
+    "path": "32189136.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "Once SpO2 < 93%, RR > 30/min, HR > 120/min or any signs of organ failure were observed, patients would be transferred to intensive care unit (ICU) and ICU physicians and nurses would take over their treatment.",
+      "key": "edf53dcea7ab06a37a79686650bceca7",
+      "line": 84,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "Once SpO2 < 93%, RR > 30/min, HR > 120/min or any signs of organ failure were observed, patients would be transferred to intensive care unit (ICU) and ICU physicians and nurses would take over their treatment.",
+      "key": "16ee7adc7be75c38a10016b57fd3b67f",
+      "line": 84,
+      "relation": "negativeCorrelation",
+      "source": 9,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "Once SpO2 < 93%, RR > 30/min, HR > 120/min or any signs of organ failure were observed, patients would be transferred to intensive care unit (ICU) and ICU physicians and nurses would take over their treatment.",
+      "key": "383a2712adce9b34c9f7dc3225c4909e",
+      "line": 85,
+      "relation": "negativeCorrelation",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "Once SpO2 < 93%, RR > 30/min, HR > 120/min or any signs of organ failure were observed, patients would be transferred to intensive care unit (ICU) and ICU physicians and nurses would take over their treatment.",
+      "key": "dbdae72fc60b3bcbecab18542402bf3b",
+      "line": 86,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "Once SpO2 < 93%, RR > 30/min, HR > 120/min or any signs of organ failure were observed, patients would be transferred to intensive care unit (ICU) and ICU physicians and nurses would take over their treatment.",
+      "key": "0baadfb47817d9cbe416ac9f422aa6f5",
+      "line": 87,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "From our data of more than 600 NCP patients in Jiangsu Province, age, lymphocyte count, oxygen supplementation and aggressive pulmonary radiographic infiltrations are independent risk factors for NCP progressing to a critical condition.",
+      "key": "ff8d06620801dcafcfb116eba8901e3f",
+      "line": 91,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "From our data of more than 600 NCP patients in Jiangsu Province, age, lymphocyte count, oxygen supplementation and aggressive pulmonary radiographic infiltrations are independent risk factors for NCP progressing to a critical condition.",
+      "key": "44d67e33a32e1714e9ddf5f1cd89d866",
+      "line": 92,
+      "relation": "negativeCorrelation",
+      "source": 9,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "From our data of more than 600 NCP patients in Jiangsu Province, age, lymphocyte count, oxygen supplementation and aggressive pulmonary radiographic infiltrations are independent risk factors for NCP progressing to a critical condition.",
+      "key": "95b37850be32e666931429aa4e66f606",
+      "line": 94,
+      "relation": "association",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "For patients with ARDS or pulmonary extensive effusion in CT scan, high-flow nasal cannula oxygen therapy (HFNC) or non-invasive mechanical ventilation (NIV) was used to maintain positive end expiratory pressure (PEEP) to prevent alveolar collapse even if some of these patients did not have refractory hypoxemia.",
+      "key": "8a93fa029e5d8d3635c569bf061cf7a5",
+      "line": 98,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "(2) Restrictive fluid resuscitation under the premise of adequate tissue perfusion is performed to relieve pulmonary edema.",
+      "key": "d12fc23a81ab29f228cd42d010b9c39d",
+      "line": 105,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "Once SpO2 < 93%, RR > 30/min, HR > 120/min or any signs of organ failure were observed, patients would be transferred to intensive care unit (ICU) and ICU physicians and nurses would take over their treatment.",
+      "key": "f0832c3a748e19e90dc02563c931a332",
+      "line": 85,
+      "relation": "negativeCorrelation",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "Once SpO2 < 93%, RR > 30/min, HR > 120/min or any signs of organ failure were observed, patients would be transferred to intensive care unit (ICU) and ICU physicians and nurses would take over their treatment.",
+      "key": "3ebd5b36ed0f82d4ba829e1194303bf4",
+      "line": 86,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "Once SpO2 < 93%, RR > 30/min, HR > 120/min or any signs of organ failure were observed, patients would be transferred to intensive care unit (ICU) and ICU physicians and nurses would take over their treatment.",
+      "key": "8dff5eb96165af73880ad9208c12a9f7",
+      "line": 87,
+      "relation": "positiveCorrelation",
+      "source": 14,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "From our data of more than 600 NCP patients in Jiangsu Province, age, lymphocyte count, oxygen supplementation and aggressive pulmonary radiographic infiltrations are independent risk factors for NCP progressing to a critical condition.",
+      "key": "ef6787e8fde841bb0721d58a2c7e9560",
+      "line": 91,
+      "relation": "positiveCorrelation",
+      "source": 0,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "From our data of more than 600 NCP patients in Jiangsu Province, age, lymphocyte count, oxygen supplementation and aggressive pulmonary radiographic infiltrations are independent risk factors for NCP progressing to a critical condition.",
+      "key": "e80523566aa5249e80630d9abaaac600",
+      "line": 92,
+      "relation": "negativeCorrelation",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "From our data of more than 600 NCP patients in Jiangsu Province, age, lymphocyte count, oxygen supplementation and aggressive pulmonary radiographic infiltrations are independent risk factors for NCP progressing to a critical condition.",
+      "key": "86a2b4210a7a736e25b7dba602e8c3d5",
+      "line": 93,
+      "relation": "regulates",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "From our data of more than 600 NCP patients in Jiangsu Province, age, lymphocyte count, oxygen supplementation and aggressive pulmonary radiographic infiltrations are independent risk factors for NCP progressing to a critical condition.",
+      "key": "0d693b8a1ad17e43ffe7cd0a07c4d0e0",
+      "line": 94,
+      "relation": "association",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "For patients with ARDS or pulmonary extensive effusion in CT scan, high-flow nasal cannula oxygen therapy (HFNC) or non-invasive mechanical ventilation (NIV) was used to maintain positive end expiratory pressure (PEEP) to prevent alveolar collapse even if some of these patients did not have refractory hypoxemia.",
+      "key": "8cedf7a90152c0c64a078b72e7dc1fb9",
+      "line": 99,
+      "relation": "negativeCorrelation",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "For patients with ARDS or pulmonary extensive effusion in CT scan, high-flow nasal cannula oxygen therapy (HFNC) or non-invasive mechanical ventilation (NIV) was used to maintain positive end expiratory pressure (PEEP) to prevent alveolar collapse even if some of these patients did not have refractory hypoxemia.",
+      "key": "69301498617378c4ee7d9ff3016d8f36",
+      "line": 98,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "For patients with ARDS or pulmonary extensive effusion in CT scan, high-flow nasal cannula oxygen therapy (HFNC) or non-invasive mechanical ventilation (NIV) was used to maintain positive end expiratory pressure (PEEP) to prevent alveolar collapse even if some of these patients did not have refractory hypoxemia.",
+      "key": "5f65e705ff2114107c707b9406565900",
+      "line": 99,
+      "relation": "negativeCorrelation",
+      "source": 11,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "For patients with ARDS or pulmonary extensive effusion in CT scan, high-flow nasal cannula oxygen therapy (HFNC) or non-invasive mechanical ventilation (NIV) was used to maintain positive end expiratory pressure (PEEP) to prevent alveolar collapse even if some of these patients did not have refractory hypoxemia.",
+      "key": "2daaf2cdf79e5751c5fb05d3d935f1be",
+      "line": 100,
+      "relation": "negativeCorrelation",
+      "source": 11,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "For patients with ARDS or pulmonary extensive effusion in CT scan, high-flow nasal cannula oxygen therapy (HFNC) or non-invasive mechanical ventilation (NIV) was used to maintain positive end expiratory pressure (PEEP) to prevent alveolar collapse even if some of these patients did not have refractory hypoxemia.",
+      "key": "5179fa1e82d8785937ee35c4630c49c2",
+      "line": 100,
+      "relation": "negativeCorrelation",
+      "source": 5,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "For patients with ARDS or pulmonary extensive effusion in CT scan, high-flow nasal cannula oxygen therapy (HFNC) or non-invasive mechanical ventilation (NIV) was used to maintain positive end expiratory pressure (PEEP) to prevent alveolar collapse even if some of these patients did not have refractory hypoxemia.",
+      "key": "4355680ff991c0e8060c46129a9bc7c7",
+      "line": 101,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "For patients with ARDS or pulmonary extensive effusion in CT scan, high-flow nasal cannula oxygen therapy (HFNC) or non-invasive mechanical ventilation (NIV) was used to maintain positive end expiratory pressure (PEEP) to prevent alveolar collapse even if some of these patients did not have refractory hypoxemia.",
+      "key": "83faf38a1e0fccb8b3cebf1cb360d575",
+      "line": 101,
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "(2) Restrictive fluid resuscitation under the premise of adequate tissue perfusion is performed to relieve pulmonary edema.",
+      "key": "6d4a86ef6dcf4a47d9a5b8e5250bf4f7",
+      "line": 105,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "(2) Restrictive fluid resuscitation under the premise of adequate tissue perfusion is performed to relieve pulmonary edema.",
+      "key": "4ce9392567001a6f1e1fdbc688da1b53",
+      "line": 106,
+      "relation": "decreases",
+      "source": 3,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "Although previous study proved prone position’s benefit in moderate-to-severe ARDS patients with invasive mechanical ventilation (IMV) [11], we attempted awake prone position in NCP patients which showed significant effects in improving oxygenation and pulmonary heterogeneity (Fig. ​(Fig.2).2).",
+      "key": "0b8ade7c122cdd71e104a39a469c96c1",
+      "line": 110,
+      "relation": "decreases",
+      "source": 7,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Huang M",
+          "Qiu H",
+          "Sun Q",
+          "Yang Y"
+        ],
+        "date": "2020-03-18",
+        "db": "PubMed",
+        "db_id": "32189136",
+        "db_name": "Annals of intensive care",
+        "first": "Sun Q",
+        "last": "Yang Y",
+        "pages": "33",
+        "volume": "10"
+      },
+      "evidence": "Although previous study proved prone position’s benefit in moderate-to-severe ARDS patients with invasive mechanical ventilation (IMV) [11], we attempted awake prone position in NCP patients which showed significant effects in improving oxygenation and pulmonary heterogeneity (Fig. ​(Fig.2).2).",
+      "key": "8cf1a2125a5e4cecda351864253fdd40",
+      "line": 111,
+      "relation": "increases",
+      "source": 7,
+      "target": 2
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(MESH:\"Age of Onset\")",
+      "concept": {
+        "name": "Age of Onset",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "0896fa3662038c7fd85cf6d48191d84f"
+    },
+    {
+      "bel": "a(MESH:Lymphocytes)",
+      "concept": {
+        "name": "Lymphocytes",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "05994a861f52857ee7dd98e839952695"
+    },
+    {
+      "bel": "bp(EFO:\"oxygen saturation measurement\")",
+      "concept": {
+        "name": "oxygen saturation measurement",
+        "namespace": "EFO"
+      },
+      "function": "BiologicalProcess",
+      "id": "570d780522df14740ff504bed6f67777"
+    },
+    {
+      "bel": "bp(MESH:\"Fluid Therapy\")",
+      "concept": {
+        "name": "Fluid Therapy",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "d3561230ae56efc66dceba883384d8a6"
+    },
+    {
+      "bel": "bp(MESH:\"Heart Rate\")",
+      "concept": {
+        "name": "Heart Rate",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "04c7567a808ed8cd352b78e95310d948"
+    },
+    {
+      "bel": "bp(MESH:\"Noninvasive Ventilation\")",
+      "concept": {
+        "name": "Noninvasive Ventilation",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "7f2adc392bf294cd457287ae566cb594"
+    },
+    {
+      "bel": "bp(MESH:\"Oxygen Inhalation Therapy\")",
+      "concept": {
+        "name": "Oxygen Inhalation Therapy",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "385500825a3d4b39ec1414366a099975"
+    },
+    {
+      "bel": "bp(MESH:\"Pulmonary Ventilation\")",
+      "concept": {
+        "name": "Pulmonary Ventilation",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "c848ca20a5eb2c7b633b5a2fda5107a7"
+    },
+    {
+      "bel": "bp(MESH:\"Respiratory Rate\")",
+      "concept": {
+        "name": "Respiratory Rate",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "4a8e4aa11bacee938f0ccc02bf500a02"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"pulmonary edema\")",
+      "concept": {
+        "name": "pulmonary edema",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "e4929e22be444025c7b6bbfbed819a45"
+    },
+    {
+      "bel": "path(EFO:\"acute respiratory distress syndrome\")",
+      "concept": {
+        "name": "acute respiratory distress syndrome",
+        "namespace": "EFO"
+      },
+      "function": "Pathology",
+      "id": "f3314ef28a1a3d7c8c5d89dfe1a7fb75"
+    },
+    {
+      "bel": "path(HP:\"Pulmonary infiltrates\")",
+      "concept": {
+        "name": "Pulmonary infiltrates",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "179b99858f2bd11e328664b2e18bb07d"
+    },
+    {
+      "bel": "path(HP:\"alveolar system\")",
+      "concept": {
+        "name": "alveolar system",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "3268f8560f70dbfbdf76d6914f00328b"
+    },
+    {
+      "bel": "path(MESH:\"Multiple Organ Failure\")",
+      "concept": {
+        "name": "Multiple Organ Failure",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "c68665a25303c9b5df7508418a074e70"
+    }
+  ]
+}

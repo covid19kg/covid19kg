@@ -1,0 +1,123 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Bao_et.al_2020.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Anatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Custom_Species AS LIST {"9544"}
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Infection_Type AS LIST {"Primary","Re-infection"}
+DEFINE ANNOTATION Timeline AS LIST {"3 days"}
+DEFINE ANNOTATION Sample AS LIST {"anal swab","nasal swab","pharyngeal swab"}
+DEFINE ANNOTATION Assay AS LIST {"Haemotoxylin and Eosin staining"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"DOI", "Epub 2020 Mar 14", "10.1101/2020.03.13.990226"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Full Text"
+
+SET Evidence = "The Corona Virus Disease 2019 (COVID-40 19) caused by severe acute respiratory syndrome CoV-2 (SARS-CoV-2), emerged in Wuhan China, has continued to sweep
+through South Korea, Japan, Italy and Iran."
+SET Custom_Species = "9544"
+SET Custom_Disease = "COVID-19"
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(DO:"COVID-19")
+
+SET Evidence = "Following the initial infection, three of the four monkeys showed the weight loss ranging from 200 g to 400 g (Figure 2a), but the changes of rectal temperature in all the animals were not observed (Figure 2b)."
+SET Infection_Type = "Primary"
+path(DO:"COVID-19") -- path(HP:"Weight loss")
+
+SET Evidence = "Other clinical signs such as reduced appetite, increased respiration rate and hunched posture were transient after the initial challenge."
+path(DO:"COVID-19") -- path(HP:"Poor appetite")
+path(DO:"COVID-19") -- path(HP:Tachypnea)
+path(DO:"COVID-19") -- path(MESH:"Vertebral Hypoplasia With Lumbar Kyphosis")
+
+SET Evidence = "As shown in Figure 2c and 2d, the viral loads in nasal swabs and pharyngeal swabs reached the highest levels (average, approximately 6.5 log10 RNA copies/mL) at 3 days post-infection (dpi) and then declined naturally."
+SET Timeline = "3 days"
+SET Sample = {"nasal swab","pharyngeal swab"}
+path(DO:"COVID-19") pos path(MESH:"Virus Replication")
+UNSET Sample
+
+SET Evidence = "Similarly, viral loads from anal swabs reached the peak about 4.5 log10 RNA copies/mL at 3 dpi and then declined to undetectable level at 14 dpi (Figure 2e)."
+SET Sample = "anal swab"
+path(DO:"COVID-19") pos path(MESH:"Virus Replication")
+UNSET Sample
+
+SET Evidence = "As shown in Figure 2f (left panel), viral replication was found in nose (107 to 108 copies/mL), pharynx (105 to 106 copies/mL), lung (104 to 107 copies/mL), gut (104 to 106 copies/mL), spinal cord (approximately 104 copies/mL), heart (approximately 104 copies/mL), skeletal muscle (approximately 104 copies/mL) and bladder (approximately 104 copies/mL)."
+SET MeSHAnatomy = {"Nose", "Pharynx", "Lung", "Intestines", "Spinal Cord", "Heart", "Urinary Bladder"}
+SET Anatomy = "skeletal musculature"
+path(DO:"COVID-19") pos path(MESH:"Virus Replication")
+UNSET MeSHAnatomy
+UNSET Anatomy
+
+SET Evidence = "Furthermore, the lesions occurred mainly in the lung confirmed by the HE staining and anti-spike protein of SARS-CoV-2 staining, with mild to moderate interstitial pneumonia characterized by thickened alveolar septa, accumulation of alveolar macrophages in the alveoli, degeneration of the alveolar epithelia, and infiltration of inflammatory cells (Figure 3a)."
+SET MeSHAnatomy = "Lung"
+SET Assay = "Haemotoxylin and Eosin staining"
+SET BioAssay = "immunohistochemistry"
+path(DO:"COVID-19") pos path(DO:"viral pneumonia")
+path(DO:"viral pneumonia") -- path(FIXME:"thickened alveolar septa")
+path(DO:"viral pneumonia") -- a(MESH:"Macrophages, Alveolar")
+path(DO:"viral pneumonia") -- deg(a(MESH:"Alveolar Epithelial Cells"))
+path(DO:"viral pneumonia") -- path(FIXME:"infiltration of inflammatory cells")
+UNSET MeSHAnatomy
+UNSET Assay
+UNSET BioAssay
+
+SET Evidence = "For the longitudinal tracking of the characteristics each monkey, the specific antibody against SARS-CoV-2 of M2, M3 and M4 monkey was significantly elevated at 14 dpi or 21 dpi and 28 dpi compared to that at 3 dpi and 7dpi (*P<0.05, **P<0.01, Figure 2g)."
+SET BioAssay = "ELISA"
+SET MeSHAnatomy = "Serum"
+path(DO:"COVID-19") -> a(MESH:"Immunoglobulin G")
+a(MESH:"Immunoglobulin G") -- p(COVID:S)
+UNSET BioAssay
+UNSET MeSHAnatomy
+UNSET Infection_Type
+
+SET Evidence = "None of the monkeys showed the weight loss after the re-exposure (Figure 2a), but the transient elevation of body temperature was observed in both re-exposed monkeys (Figure 2b)."
+SET Infection_Type = "Re-infection"
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") neg path(HP:"Weight loss")
+
+SET Evidence = "Therefore, our results suggested that the monkeys with SARS-CoV-2 infection after recovery could not be reinfected with the same strain."
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") neg path(DO:"COVID-19")
+
+SET Evidence = "From our current longitudinal study of monkeys, the reinfection could not occur if the monkeys produced the neutralizing antibody at an early stage after the primary infection"
+a(MESH:"Immunoglobulin G") -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Infection_Type
+UNSET Custom_Species
+UNSET Custom_Disease
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

@@ -1,0 +1,2062 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "PublicationStatus": [
+        "Preprint"
+      ],
+      "PublicationType": [
+        "Editorial"
+      ],
+      "Section": [
+        "Full Text"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Geena Mariya Jose",
+      "contact": "geena.mariya.jose@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32179150.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "PUBCHEM": "^\\d+$"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "EFO": "https://raw.githubusercontent.com/pharmacome/conso/5d2c2ea6f7112421cc8089a3f021a75ab60bb373/external/efo-names.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "GOBP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns",
+      "GOCC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20190128.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "MESHC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-chemicals/mesh-chemicals-20190128.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32179150.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "This coronavirus, named SARS-CoV-2 (formerly 2019-nCoV), is responsible for respiratory infections including pneumonia with a mortality rate estimated about 2%-2.5%, increasing with age and the existence of underlying diseases",
+      "key": "6dadfc351a5b4b1cb2494ab899e98919",
+      "line": 95,
+      "relation": "increases",
+      "source": 12,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "This coronavirus, named SARS-CoV-2 (formerly 2019-nCoV), is responsible for respiratory infections including pneumonia with a mortality rate estimated about 2%-2.5%, increasing with age and the existence of underlying diseases",
+      "key": "34087bcafe828ef68aae23ce4cb6a78f",
+      "line": 96,
+      "relation": "positiveCorrelation",
+      "source": 27,
+      "target": 28
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "This coronavirus, named SARS-CoV-2 (formerly 2019-nCoV), is responsible for respiratory infections including pneumonia with a mortality rate estimated about 2%-2.5%, increasing with age and the existence of underlying diseases",
+      "key": "ccf41d3169e27ca68e6b78a8a7c78d7a",
+      "line": 97,
+      "relation": "positiveCorrelation",
+      "source": 27,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "This coronavirus, named SARS-CoV-2 (formerly 2019-nCoV), is responsible for respiratory infections including pneumonia with a mortality rate estimated about 2%-2.5%, increasing with age and the existence of underlying diseases",
+      "key": "a1d0953d7ab4fa0c5ab295794a7cadde",
+      "line": 96,
+      "relation": "positiveCorrelation",
+      "source": 28,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "This coronavirus, named SARS-CoV-2 (formerly 2019-nCoV), is responsible for respiratory infections including pneumonia with a mortality rate estimated about 2%-2.5%, increasing with age and the existence of underlying diseases",
+      "key": "e20b20c4e168bb2977e667bf0ae06247",
+      "line": 97,
+      "relation": "positiveCorrelation",
+      "source": 32,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Chloroquine/hydroxychloroquine, a front-line drug used in the treatment and prophylaxis of malaria also used in autoimmune disease had been shown to inhibit the replication of several DNA and RNA viruses, including most of human coronaviruses",
+      "key": "04c9ca782bd19892c96d5e440b1382c8",
+      "line": 100,
+      "relation": "decreases",
+      "source": 0,
+      "target": 30
+    },
+    {
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Chloroquine/hydroxychloroquine, a front-line drug used in the treatment and prophylaxis of malaria also used in autoimmune disease had been shown to inhibit the replication of several DNA and RNA viruses, including most of human coronaviruses [3].",
+      "key": "efde53d6f56b7a416f42ece0121f3fcc",
+      "line": 154,
+      "relation": "negativeCorrelation",
+      "source": 0,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Chloroquine/hydroxychloroquine, a front-line drug used in the treatment and prophylaxis of malaria also used in autoimmune disease had been shown to inhibit the replication of several DNA and RNA viruses, including most of human coronaviruses",
+      "key": "2f3f84fe7565931d3bac9088aabd7e33",
+      "line": 102,
+      "relation": "decreases",
+      "source": 0,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Chloroquine/hydroxychloroquine, a front-line drug used in the treatment and prophylaxis of malaria also used in autoimmune disease had been shown to inhibit the replication of several DNA and RNA viruses, including most of human coronaviruses",
+      "key": "2f8312c672c4fe20d32ae5fa6fe92db1",
+      "line": 104,
+      "relation": "decreases",
+      "source": 0,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Recently, chloroquine was found to inhibit SARS-CoV-2 in vitro and its hydroxylated form has been proposed as a possible therapy to treat patients infected with SARS-CoV-2 [4,5].",
+      "key": "4e06a5c256f91885d5a299661b84e813",
+      "line": 108,
+      "relation": "decreases",
+      "source": 0,
+      "target": 12
+    },
+    {
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Chloroquine/hydroxychloroquine, a front-line drug used in the treatment and prophylaxis of malaria also used in autoimmune disease had been shown to inhibit the replication of several DNA and RNA viruses, including most of human coronaviruses [3].",
+      "key": "57d7d11e17ccaeb10a52f961e116dac7",
+      "line": 156,
+      "relation": "negativeCorrelation",
+      "source": 0,
+      "target": 31
+    },
+    {
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Chloroquine/hydroxychloroquine, a front-line drug used in the treatment and prophylaxis of malaria also used in autoimmune disease had been shown to inhibit the replication of several DNA and RNA viruses, including most of human coronaviruses [3].",
+      "key": "4058695c3e1c9d97a740209945d7ac65",
+      "line": 158,
+      "relation": "decreases",
+      "source": 0,
+      "target": 19
+    },
+    {
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Recently, chloroquine was found to inhibit SARS-CoV-2 in vitro and its hydroxylated form has been proposed as a possible therapy to treat patients infected with SARS-CoV-2 [4,5].",
+      "key": "566fb9afa920a0e8f9617623f191ca23",
+      "line": 165,
+      "relation": "decreases",
+      "source": 0,
+      "target": 27
+    },
+    {
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Chloroquine/hydroxychloroquine, a front-line drug used in the treatment and prophylaxis of malaria also used in autoimmune disease had been shown to inhibit the replication of several DNA and RNA viruses, including most of human coronaviruses [3].",
+      "key": "29cc85e1d1f1d9c7e3fface357cd23dd",
+      "line": 154,
+      "relation": "negativeCorrelation",
+      "source": 30,
+      "target": 0
+    },
+    {
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Chloroquine/hydroxychloroquine, a front-line drug used in the treatment and prophylaxis of malaria also used in autoimmune disease had been shown to inhibit the replication of several DNA and RNA viruses, including most of human coronaviruses [3].",
+      "key": "5a2cf61c974db7fdb386832e3ab4105e",
+      "line": 155,
+      "relation": "negativeCorrelation",
+      "source": 30,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Chloroquine/hydroxychloroquine, a front-line drug used in the treatment and prophylaxis of malaria also used in autoimmune disease had been shown to inhibit the replication of several DNA and RNA viruses, including most of human coronaviruses",
+      "key": "6738ad75421345b125fd301640869cf4",
+      "line": 101,
+      "relation": "decreases",
+      "source": 1,
+      "target": 30
+    },
+    {
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Chloroquine/hydroxychloroquine, a front-line drug used in the treatment and prophylaxis of malaria also used in autoimmune disease had been shown to inhibit the replication of several DNA and RNA viruses, including most of human coronaviruses [3].",
+      "key": "29acab40c277b067bb95c3049be07fd3",
+      "line": 155,
+      "relation": "negativeCorrelation",
+      "source": 1,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Chloroquine/hydroxychloroquine, a front-line drug used in the treatment and prophylaxis of malaria also used in autoimmune disease had been shown to inhibit the replication of several DNA and RNA viruses, including most of human coronaviruses",
+      "key": "1ea7a6bd2d05c35b0140523f710d89dc",
+      "line": 103,
+      "relation": "decreases",
+      "source": 1,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Chloroquine/hydroxychloroquine, a front-line drug used in the treatment and prophylaxis of malaria also used in autoimmune disease had been shown to inhibit the replication of several DNA and RNA viruses, including most of human coronaviruses",
+      "key": "0c8ed710910266a701a1100e9c975668",
+      "line": 105,
+      "relation": "decreases",
+      "source": 1,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Recently, chloroquine was found to inhibit SARS-CoV-2 in vitro and its hydroxylated form has been proposed as a possible therapy to treat patients infected with SARS-CoV-2 [4,5].",
+      "key": "c7d262938ec1ba7b8be0dc04ff8294e5",
+      "line": 109,
+      "relation": "decreases",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Chloroquine/hydroxychloroquine, a front-line drug used in the treatment and prophylaxis of malaria also used in autoimmune disease had been shown to inhibit the replication of several DNA and RNA viruses, including most of human coronaviruses [3].",
+      "key": "0c0a0cd9544d7f00e9f2482579ec66e3",
+      "line": 157,
+      "relation": "negativeCorrelation",
+      "source": 1,
+      "target": 31
+    },
+    {
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Chloroquine/hydroxychloroquine, a front-line drug used in the treatment and prophylaxis of malaria also used in autoimmune disease had been shown to inhibit the replication of several DNA and RNA viruses, including most of human coronaviruses [3].",
+      "key": "3a2a8eadf5b0b96d134e1e93b8a66ce0",
+      "line": 159,
+      "relation": "decreases",
+      "source": 1,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "In this contest, other drug showed significant efficacy against SARS-Cov-2 in vitro such as remdesivir, lopinavir, ribavirin or ritonavir (https://drugvirus.info/) [6].",
+      "key": "844c6558e684deefd167bd86c8804078",
+      "line": 112,
+      "relation": "decreases",
+      "source": 8,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "In this contest, other drug showed significant efficacy against SARS-Cov-2 in vitro such as remdesivir, lopinavir, ribavirin or ritonavir (https://drugvirus.info/) [6].",
+      "key": "687eb6f39b4d4e11e46bdc6100a58dfd",
+      "line": 113,
+      "relation": "decreases",
+      "source": 2,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "In this contest, other drug showed significant efficacy against SARS-Cov-2 in vitro such as remdesivir, lopinavir, ribavirin or ritonavir (https://drugvirus.info/) [6].",
+      "key": "9525e3196b43afe5c52f475643342cb5",
+      "line": 114,
+      "relation": "decreases",
+      "source": 3,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "In this contest, other drug showed significant efficacy against SARS-Cov-2 in vitro such as remdesivir, lopinavir, ribavirin or ritonavir (https://drugvirus.info/) [6].",
+      "key": "d2d395f56f635cda3212cfb1e6a1f487",
+      "line": 115,
+      "relation": "decreases",
+      "source": 4,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Teicoplanin, a glycopeptide antibiotic routinely used to treat bacterial infection was found to be active in vitro against SARS-CoV, has joined the list of molecules that could be used as therapeutic arsenal against COVID-19 [7].",
+      "key": "72dcbad2f762868686e243e2d9573894",
+      "line": 118,
+      "relation": "decreases",
+      "source": 5,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "This antibiotic, currently used in the treatment of Gram-positive bacterial infection, especially in Staphylococcal infections, has already showed efficacy against various viruses such as Ebola, influenza virus, flavivirus, hepatitis C virus, HIV virus and on coronavirus such as MERS-CoV and SARS-CoV [8,9].",
+      "key": "0cab52d25047cca8268d33d4c7f503aa",
+      "line": 121,
+      "relation": "decreases",
+      "source": 5,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "This antibiotic, currently used in the treatment of Gram-positive bacterial infection, especially in Staphylococcal infections, has already showed efficacy against various viruses such as Ebola, influenza virus, flavivirus, hepatitis C virus, HIV virus and on coronavirus such as MERS-CoV and SARS-CoV [8,9].",
+      "key": "daa4e3b2a4b3e0831764ef1c1334156a",
+      "line": 122,
+      "relation": "decreases",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "This antibiotic, currently used in the treatment of Gram-positive bacterial infection, especially in Staphylococcal infections, has already showed efficacy against various viruses such as Ebola, influenza virus, flavivirus, hepatitis C virus, HIV virus and on coronavirus such as MERS-CoV and SARS-CoV [8,9].",
+      "key": "53e88ad65eace1ded750ab099a184515",
+      "line": 123,
+      "relation": "decreases",
+      "source": 5,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "This antibiotic, currently used in the treatment of Gram-positive bacterial infection, especially in Staphylococcal infections, has already showed efficacy against various viruses such as Ebola, influenza virus, flavivirus, hepatitis C virus, HIV virus and on coronavirus such as MERS-CoV and SARS-CoV [8,9].",
+      "key": "39b741d1dc26e4ce03e7a4501289ad28",
+      "line": 124,
+      "relation": "decreases",
+      "source": 5,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "This antibiotic, currently used in the treatment of Gram-positive bacterial infection, especially in Staphylococcal infections, has already showed efficacy against various viruses such as Ebola, influenza virus, flavivirus, hepatitis C virus, HIV virus and on coronavirus such as MERS-CoV and SARS-CoV [8,9].",
+      "key": "36caaa97695eb46a64e6881765f78872",
+      "line": 125,
+      "relation": "decreases",
+      "source": 5,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "This antibiotic, currently used in the treatment of Gram-positive bacterial infection, especially in Staphylococcal infections, has already showed efficacy against various viruses such as Ebola, influenza virus, flavivirus, hepatitis C virus, HIV virus and on coronavirus such as MERS-CoV and SARS-CoV [8,9].",
+      "key": "8f2f450b0b25a7ff90f1977e0e117493",
+      "line": 126,
+      "relation": "decreases",
+      "source": 5,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "This antibiotic, currently used in the treatment of Gram-positive bacterial infection, especially in Staphylococcal infections, has already showed efficacy against various viruses such as Ebola, influenza virus, flavivirus, hepatitis C virus, HIV virus and on coronavirus such as MERS-CoV and SARS-CoV [8,9].",
+      "key": "ebf8a6d72f013cc78fe9c5349aa6e8ce",
+      "line": 127,
+      "relation": "decreases",
+      "source": 5,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "This antibiotic, currently used in the treatment of Gram-positive bacterial infection, especially in Staphylococcal infections, has already showed efficacy against various viruses such as Ebola, influenza virus, flavivirus, hepatitis C virus, HIV virus and on coronavirus such as MERS-CoV and SARS-CoV [8,9].",
+      "key": "0c8a612392fd2e30cdb9f80ba6f16cc7",
+      "line": 128,
+      "relation": "decreases",
+      "source": 5,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "According to Zhou and colleagues, in coronaviruses, teicoplanin acts on the early step of the viral life cycle by inhibiting the low pH cleavage of the viral spike protein by cathepsin L in the late endosomes thereby preventing the release of genomic viral RNA and the continuation of virus replication cycle.",
+      "key": "4be33b9887afa9b4802165f59324118a",
+      "line": 132,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "decreases",
+      "source": 5,
+      "target": 24
+    },
+    {
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Teicoplanin, a glycopeptide antibiotic routinely used to treat bacterial infection was found to be active in vitro against SARS-CoV, has joined the list of molecules that could be used as herapeutic arsenal against COVID-19 [7]",
+      "key": "95a3a7cc208a439729ff066789a36c4b",
+      "line": 172,
+      "relation": "isA",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Teicoplanin, a glycopeptide antibiotic routinely used to treat bacterial infection was found to be active in vitro against SARS-CoV, has joined the list of molecules that could be used as herapeutic arsenal against COVID-19 [7]",
+      "key": "ca92ce6c617728dde7123e2a79b071b9",
+      "line": 173,
+      "relation": "decreases",
+      "source": 5,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "According to Zhou and colleagues, in coronaviruses, teicoplanin acts on the early step of the viral life cycle by inhibiting the low pH cleavage of the viral spike protein by cathepsin L in the late endosomes thereby preventing the release of genomic viral RNA and the continuation of virus replication cycle.",
+      "key": "e92a8069d2cd331764ebe165d98844b7",
+      "line": 182,
+      "relation": "decreases",
+      "source": 5,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "According to Zhou and colleagues, in coronaviruses, teicoplanin acts on the early step of the viral life cycle by inhibiting the low pH cleavage of the viral spike protein by cathepsin L in the late endosomes thereby preventing the release of genomic viral RNA and the continuation of virus replication cycle.",
+      "key": "7d24295afd0ac7304564746a20f9b3c5",
+      "line": 133,
+      "relation": "regulates",
+      "source": 24,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 6
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "A recent study by the same authors showed that this activity was conserved on SARSCov- 2 (the target sequence that serve as cleavage site for cathepsin L is conserved among SARS-CoV spike protein) [7].",
+      "key": "c4737a546a2342380e394cfb59cb6780",
+      "line": 138,
+      "relation": "increases",
+      "source": 24,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 23
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "According to Zhou and colleagues, in coronaviruses, teicoplanin acts on the early step of the viral life cycle by inhibiting the low pH cleavage of the viral spike protein by cathepsin L in the late endosomes thereby preventing the release of genomic viral RNA and the continuation of virus replication cycle.",
+      "key": "54efc0c8c60237ea8b6f66c86d2e5ccc",
+      "line": 184,
+      "relation": "increases",
+      "source": 24,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 26
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "According to Zhou and colleagues, in coronaviruses, teicoplanin acts on the early step of the viral life cycle by inhibiting the low pH cleavage of the viral spike protein by cathepsin L in the late endosomes thereby preventing the release of genomic viral RNA and the continuation of virus replication cycle.",
+      "key": "17b76aec55d45b3b9ae45c050c82cdaa",
+      "line": 134,
+      "relation": "regulates",
+      "source": 6,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "According to Zhou and colleagues, in coronaviruses, teicoplanin acts on the early step of the viral life cycle by inhibiting the low pH cleavage of the viral spike protein by cathepsin L in the late endosomes thereby preventing the release of genomic viral RNA and the continuation of virus replication cycle.",
+      "key": "341578452ba26157d48877b90c7c9437",
+      "line": 135,
+      "relation": "regulates",
+      "source": 6,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "A recent study by the same authors showed that this activity was conserved on SARSCov- 2 (the target sequence that serve as cleavage site for cathepsin L is conserved among SARS-CoV spike protein) [7].",
+      "key": "8e1cb0c4be35bf7c822573acf9c9731e",
+      "line": 139,
+      "relation": "increases",
+      "source": 23,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Editorial": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "A recent study by the same authors showed that this activity was conserved on SARSCov- 2 (the target sequence that serve as cleavage site for cathepsin L is conserved among SARS-CoV spike protein) [7].",
+      "key": "2cb6bb3d3dc2281885c20a74d9982ea0",
+      "line": 140,
+      "relation": "increases",
+      "source": 23,
+      "target": 17
+    },
+    {
+      "key": "2fac24f2b27106d2c0ea816941980bf5",
+      "relation": "hasVariant",
+      "source": 22,
+      "target": 23
+    },
+    {
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Chloroquine/hydroxychloroquine, a front-line drug used in the treatment and prophylaxis of malaria also used in autoimmune disease had been shown to inhibit the replication of several DNA and RNA viruses, including most of human coronaviruses [3].",
+      "key": "09beae28a7f3cad5ae665e2dff2da9cb",
+      "line": 156,
+      "relation": "negativeCorrelation",
+      "source": 31,
+      "target": 0
+    },
+    {
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "Chloroquine/hydroxychloroquine, a front-line drug used in the treatment and prophylaxis of malaria also used in autoimmune disease had been shown to inhibit the replication of several DNA and RNA viruses, including most of human coronaviruses [3].",
+      "key": "55db7e603eedbabcbca0edc50b07b8d8",
+      "line": 157,
+      "relation": "negativeCorrelation",
+      "source": 31,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "According to Zhou and colleagues, in coronaviruses, teicoplanin acts on the early step of the viral life cycle by inhibiting the low pH cleavage of the viral spike protein by cathepsin L in the late endosomes thereby preventing the release of genomic viral RNA and the continuation of virus replication cycle.",
+      "key": "dc26e83aba33bc72476cf15ff41a202c",
+      "line": 183,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 18,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "According to Zhou and colleagues, in coronaviruses, teicoplanin acts on the early step of the viral life cycle by inhibiting the low pH cleavage of the viral spike protein by cathepsin L in the late endosomes thereby preventing the release of genomic viral RNA and the continuation of virus replication cycle.",
+      "key": "126eaa5f0d8e449a0a7880c2e0912a33",
+      "line": 185,
+      "object": {
+        "location": {
+          "name": "intracellular",
+          "namespace": "GOCC"
+        }
+      },
+      "relation": "increases",
+      "source": 26,
+      "target": 21
+    },
+    {
+      "key": "e10d63cb00b9c9d530159d038a0af128",
+      "relation": "hasVariant",
+      "source": 25,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Baron SA",
+          "Colson P",
+          "Devaux C",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-13",
+        "db": "PubMed",
+        "db_id": "32179150",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Baron SA",
+        "last": "Rolain JM",
+        "pages": "105944"
+      },
+      "evidence": "According to Zhou and colleagues, in coronaviruses, teicoplanin acts on the early step of the viral life cycle by inhibiting the low pH cleavage of the viral spike protein by cathepsin L in the late endosomes thereby preventing the release of genomic viral RNA and the continuation of virus replication cycle.",
+      "key": "aaa4fed60570e701f8430b685860e985",
+      "line": 186,
+      "relation": "increases",
+      "source": 21,
+      "subject": {
+        "location": {
+          "name": "intracellular",
+          "namespace": "GOCC"
+        }
+      },
+      "target": 20
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:chloroquine)",
+      "concept": {
+        "name": "chloroquine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "c368fe204031ce23a04cc402914492f6"
+    },
+    {
+      "bel": "a(CHEBI:hydroxychloroquine)",
+      "concept": {
+        "name": "hydroxychloroquine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "ab32f892e51f67346bd0d43fae8ab4e9"
+    },
+    {
+      "bel": "a(CHEBI:lopinavir)",
+      "concept": {
+        "name": "lopinavir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "540f0a29f78ff437222f25e1c2e1b0fd"
+    },
+    {
+      "bel": "a(CHEBI:ribavirin)",
+      "concept": {
+        "name": "ribavirin",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "c126fb0a90c3749d6b1418b349632dcb"
+    },
+    {
+      "bel": "a(CHEBI:ritonavir)",
+      "concept": {
+        "name": "ritonavir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "07c1651afef7019b0cb107f1ce5fef12"
+    },
+    {
+      "bel": "a(CHEBI:teicoplanin)",
+      "concept": {
+        "name": "teicoplanin",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "3d395f1e448a85095f70c998c6a4fd01"
+    },
+    {
+      "bel": "a(MESH:\"Spike Glycoprotein, Coronavirus\")",
+      "concept": {
+        "name": "Spike Glycoprotein, Coronavirus",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "e3c5bbfa190900cacb3900c06bba4db6"
+    },
+    {
+      "bel": "a(MESHC:\"Anti-Bacterial Agents\")",
+      "concept": {
+        "name": "Anti-Bacterial Agents",
+        "namespace": "MESHC"
+      },
+      "function": "Abundance",
+      "id": "563fcabc1318702b61756bec1ff0fd97"
+    },
+    {
+      "bel": "a(PUBCHEM:121304016)",
+      "concept": {
+        "name": "121304016",
+        "namespace": "PUBCHEM"
+      },
+      "function": "Abundance",
+      "id": "7704f9ea62204912dace9e0cfb704c95"
+    },
+    {
+      "bel": "a(TAX:\"Ebola virus\")",
+      "concept": {
+        "name": "Ebola virus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "1d4a6e27e41c1278ae3840fb063ad122"
+    },
+    {
+      "bel": "a(TAX:\"Human immunodeficiency virus\")",
+      "concept": {
+        "name": "Human immunodeficiency virus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "4ffa35214e19ab07e733adf5e1f6420c"
+    },
+    {
+      "bel": "a(TAX:\"Middle East respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Middle East respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "f954d5cc971a29c7e7089ca32a056914"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome-related coronavirus\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome-related coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "a824ba056422b4e42996cd3269ec9a19"
+    },
+    {
+      "bel": "a(TAX:Flavivirus)",
+      "concept": {
+        "name": "Flavivirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "d55add24062b9fccb86afc7035117812"
+    },
+    {
+      "bel": "a(TAX:Hepacivirus)",
+      "concept": {
+        "name": "Hepacivirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "8c0d74bf7b9677de5bf4959eba3e3f7c"
+    },
+    {
+      "bel": "bp(GO:\"viral entry into host cell\")",
+      "concept": {
+        "name": "viral entry into host cell",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "2a6e5ae8582e2cded25095e14c2ee329"
+    },
+    {
+      "bel": "bp(GO:\"viral life cycle\")",
+      "concept": {
+        "name": "viral life cycle",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "f942c2cdc95426b6a30cdccc550a442a"
+    },
+    {
+      "bel": "bp(GOBP:\"response to acidic pH\")",
+      "concept": {
+        "name": "response to acidic pH",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "85032ff7e57fb85c3cee83810aced59f"
+    },
+    {
+      "bel": "bp(GOBP:\"viral genome replication\")",
+      "concept": {
+        "name": "viral genome replication",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "415c15bf0ba2750d04619d778d539428"
+    },
+    {
+      "bel": "bp(GOBP:\"viral life cycle\")",
+      "concept": {
+        "name": "viral life cycle",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "a36491353f8ce96785fc7689b3cdd86b"
+    },
+    {
+      "bel": "complex(GO:\"viral replication complex\")",
+      "concept": {
+        "name": "viral replication complex",
+        "namespace": "GO"
+      },
+      "function": "Complex",
+      "id": "25cd34181ee91e5574f66f6eb0070d3a"
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(COVID:S, frag(\"?\"))",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "a4ea879b1d193de79d75f4ce77b539a5",
+      "variants": [
+        {
+          "kind": "frag",
+          "missing": "?"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:CTSL)",
+      "concept": {
+        "name": "CTSL",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "a78366aeaeaa0648757907826646d259"
+    },
+    {
+      "bel": "p(MESH:\"Spike Glycoprotein, Coronavirus\")",
+      "concept": {
+        "name": "Spike Glycoprotein, Coronavirus",
+        "namespace": "MESH"
+      },
+      "function": "Protein",
+      "id": "72bf47ec055cad8f8650ec2d351f6721"
+    },
+    {
+      "bel": "p(MESH:\"Spike Glycoprotein, Coronavirus\", frag(\"?\"))",
+      "concept": {
+        "name": "Spike Glycoprotein, Coronavirus",
+        "namespace": "MESH"
+      },
+      "function": "Protein",
+      "id": "98cc66da9e372961e6c6cb19fa760ad1",
+      "variants": [
+        {
+          "kind": "frag",
+          "missing": "?"
+        }
+      ]
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"viral pneumonia\")",
+      "concept": {
+        "name": "viral pneumonia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "d5680e5b767d58870e63b3f606ac54e9"
+    },
+    {
+      "bel": "path(DO:influenza)",
+      "concept": {
+        "name": "influenza",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "ed15bfb63a176a38b4cce77ca70dab7a"
+    },
+    {
+      "bel": "path(DO:malaria)",
+      "concept": {
+        "name": "malaria",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "314301df6b8777170cb1bd0c5f752a0b"
+    },
+    {
+      "bel": "path(EFO:\"autoimmune disease\")",
+      "concept": {
+        "name": "autoimmune disease",
+        "namespace": "EFO"
+      },
+      "function": "Pathology",
+      "id": "6ade60b38188c8a6fbfaa2a06fa3a6a2"
+    },
+    {
+      "bel": "path(HP:\"human aged stage\")",
+      "concept": {
+        "name": "human aged stage",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "0c5674793235370a65e0bfe3efbb583a"
+    },
+    {
+      "bel": "path(MESH:\"Autoimmune Diseases\")",
+      "concept": {
+        "name": "Autoimmune Diseases",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "0aeb632260f15842cdd2b5e3c4b15c15"
+    },
+    {
+      "bel": "path(MESH:\"Staphylococcal Infections\")",
+      "concept": {
+        "name": "Staphylococcal Infections",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "325d0c8956fef0e5b57d38d966e68ddd"
+    },
+    {
+      "bel": "path(MESH:\"Virus Replication\")",
+      "concept": {
+        "name": "Virus Replication",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "5e513772ef3f1f2bafe1df69ef149abc"
+    }
+  ]
+}

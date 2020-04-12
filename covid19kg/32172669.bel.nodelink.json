@@ -1,0 +1,1465 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "Dose": [
+        "0.25-0.5 g/kg per day",
+        "2 tablets twice per day",
+        "40-80 mg per day"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Review"
+      ],
+      "Sample": [
+        "Pharynx swab"
+      ],
+      "Section": [
+        "Full Text"
+      ],
+      "Severity": [
+        "Severe"
+      ],
+      "Technique": [
+        "computed tomography"
+      ],
+      "Timeline": [
+        "14 days",
+        "3-5 days",
+        "5 days"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Abish K",
+      "contact": "abish@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32172669.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32172669.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "The clinical features include fever, dry cough, shortness of breath, normal or low levels of peripheral white blood cells, and inflammatory changes on chest X-ray.",
+      "key": "a08b14b645b62c49970f2ff8c103d393",
+      "line": 56,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "The clinical features include fever, dry cough, shortness of breath, normal or low levels of peripheral white blood cells, and inflammatory changes on chest X-ray.",
+      "key": "79f2db287bf6db4f1402cf5d976dc016",
+      "line": 57,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "The clinical features include fever, dry cough, shortness of breath, normal or low levels of peripheral white blood cells, and inflammatory changes on chest X-ray.",
+      "key": "cafd8d190b19faf93bd55984f686d814",
+      "line": 58,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "The clinical features include fever, dry cough, shortness of breath, normal or low levels of peripheral white blood cells, and inflammatory changes on chest X-ray.",
+      "key": "a7624813203f4ece7e21e2e3fff6a048",
+      "line": 59,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "The clinical features include fever, dry cough, shortness of breath, normal or low levels of peripheral white blood cells, and inflammatory changes on chest X-ray.",
+      "key": "d52c53615e8f0e212ab6c8f2c25e2265",
+      "line": 62,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "computed tomography": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "Chest radiology at early stage is characteristic of multiple small patchy shadows and interstitial changes, more prominent in the extrapulmonary bands. Multiple ground-glass opacities and infiltrations may develop bilaterally with disease progression, with possible consolidation in severe cases.",
+      "key": "65839c7b197b20223004ebd77a272577",
+      "line": 72,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative reverse transcription PCR": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Sputum": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Sample": {
+          "Pharynx swab": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "SARS-CoV-2 nucleic acid positive in samples of sputum, pharynx swabs, and secretions of lower respiratory tract tested by real-time reverse- transcriptase–polymerase-chain reaction (rRT-PCR) assay.",
+      "key": "cbd9cbae90000baeb39bcec6c3cd635e",
+      "line": 82,
+      "relation": "increases",
+      "source": 12,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "Patients with hypoxemia should be given oxygen therapy immediately and maintain a blood oxygen saturation level to no less than 90% in man and non-pregnant women, and between 92% and 95% in pregnant women.",
+      "key": "3e9cdf70199c20a2b46c2e3cc07d246d",
+      "line": 92,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "For those patients with most severe ARDS, extracorporeal membrane oxygenation or prone position is recommended.",
+      "key": "0621b3d33c009cff4198eae13ca9f8e8",
+      "line": 98,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "If bacterial infection is suspected according to the patient’s clinical and imaging findings, patients of mild type can take oral antibiotics for community-acquired pneumonia, such as second- generation cephalosporins or fluoroquinolones.",
+      "key": "56c7f4fb160af1d3ec440bb93f200764",
+      "line": 140,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "The clinical features include fever, dry cough, shortness of breath, normal or low levels of peripheral white blood cells, and inflammatory changes on chest X-ray.",
+      "key": "1413c31d77b298fac453b5ae720fa88a",
+      "line": 56,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "The clinical features include fever, dry cough, shortness of breath, normal or low levels of peripheral white blood cells, and inflammatory changes on chest X-ray.",
+      "key": "bc6238ab0834fe0f69dd9a1eaff67f5a",
+      "line": 57,
+      "relation": "positiveCorrelation",
+      "source": 18,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "The clinical features include fever, dry cough, shortness of breath, normal or low levels of peripheral white blood cells, and inflammatory changes on chest X-ray.",
+      "key": "b1cd5b291290adc1afcd1cc11243b94d",
+      "line": 58,
+      "relation": "positiveCorrelation",
+      "source": 19,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "The clinical features include fever, dry cough, shortness of breath, normal or low levels of peripheral white blood cells, and inflammatory changes on chest X-ray.",
+      "key": "53eb3b6ba5c7cfa6e1af3688d5396270",
+      "line": 59,
+      "relation": "positiveCorrelation",
+      "source": 14,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "The clinical features include fever, dry cough, shortness of breath, normal or low levels of peripheral white blood cells, and inflammatory changes on chest X-ray.",
+      "key": "92ffdc48a3d80417cb729fa8bc7ddd20",
+      "line": 62,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "computed tomography": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "Chest radiology at early stage is characteristic of multiple small patchy shadows and interstitial changes, more prominent in the extrapulmonary bands. Multiple ground-glass opacities and infiltrations may develop bilaterally with disease progression, with possible consolidation in severe cases.",
+      "key": "172b5531cfe782ea502c565658ff1bbe",
+      "line": 72,
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative reverse transcription PCR": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Sputum": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Sample": {
+          "Pharynx swab": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "SARS-CoV-2 nucleic acid positive in samples of sputum, pharynx swabs, and secretions of lower respiratory tract tested by real-time reverse- transcriptase–polymerase-chain reaction (rRT-PCR) assay.",
+      "key": "c39e6617890a5e2590cf469cc9d5af2a",
+      "line": 83,
+      "relation": "association",
+      "source": 8,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "quantitative reverse transcription PCR": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Sputum": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Sample": {
+          "Pharynx swab": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "SARS-CoV-2 nucleic acid positive in samples of sputum, pharynx swabs, and secretions of lower respiratory tract tested by real-time reverse- transcriptase–polymerase-chain reaction (rRT-PCR) assay.",
+      "key": "4ca73cdfbfa2d52748b2dfd948806ec8",
+      "line": 83,
+      "relation": "association",
+      "source": 9,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "Patients with hypoxemia should be given oxygen therapy immediately and maintain a blood oxygen saturation level to no less than 90% in man and non-pregnant women, and between 92% and 95% in pregnant women.",
+      "key": "94ae927141f5b925debc5c9b36955280",
+      "line": 92,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "Patients with hypoxemia should be given oxygen therapy immediately and maintain a blood oxygen saturation level to no less than 90% in man and non-pregnant women, and between 92% and 95% in pregnant women.",
+      "key": "0959b3fd7e524612116a247cc5c9421b",
+      "line": 93,
+      "relation": "decreases",
+      "source": 7,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "For those patients with most severe ARDS, extracorporeal membrane oxygenation or prone position is recommended.",
+      "key": "6069884f1acc673395fca828cff58995",
+      "line": 98,
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "For those patients with most severe ARDS, extracorporeal membrane oxygenation or prone position is recommended.",
+      "key": "567da29f2d285320b1d95d869ce2bbcf",
+      "line": 99,
+      "relation": "decreases",
+      "source": 5,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "For those patients with most severe ARDS, extracorporeal membrane oxygenation or prone position is recommended.",
+      "key": "0c8fe89d091c8f8bd87baae4499b46e7",
+      "line": 100,
+      "relation": "decreases",
+      "source": 11,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Dose": {
+          "2 tablets twice per day": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "14 days": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "Lopinavir/ritonavir can be used when appropriate, 2 tablets, twice daily for 14 days.",
+      "key": "580ae5cd46192b1693ca42a40842a9cd",
+      "line": 107,
+      "relation": "decreases",
+      "source": 3,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Dose": {
+          "2 tablets twice per day": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "14 days": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "Lopinavir/ritonavir can be used when appropriate, 2 tablets, twice daily for 14 days.",
+      "key": "6d8540bd0d48922bbda2af94ec1c09b8",
+      "line": 108,
+      "relation": "decreases",
+      "source": 4,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Dose": {
+          "40-80 mg per day": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "5 days": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "Severe patients could receive glucocorticoid at early stage, e.g. intravenous methylprednisolone 40–80 mg, once daily for 5 days, and the course of treatment can be prolonged according to the clinical condition and radiological manifestations.",
+      "key": "e3b60ef13659201aa1c481e89e088b70",
+      "line": 120,
+      "relation": "decreases",
+      "source": 0,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Dose": {
+          "0.25-0.5 g/kg per day": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "3-5 days": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "Early intravenous infusion of human immunoglobulin is recommended for critically ill patients, based on their clinical condition, at 0.25–0.5 g/(kg·d), for 3–5 days [6–7].",
+      "key": "1250600dfb5650c06cfeae9d1ea14877",
+      "line": 131,
+      "relation": "decreases",
+      "source": 6,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "If bacterial infection is suspected according to the patient’s clinical and imaging findings, patients of mild type can take oral antibiotics for community-acquired pneumonia, such as second- generation cephalosporins or fluoroquinolones.",
+      "key": "433ef55f60f83c28e66d4addc2867e1e",
+      "line": 140,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "If bacterial infection is suspected according to the patient’s clinical and imaging findings, patients of mild type can take oral antibiotics for community-acquired pneumonia, such as second- generation cephalosporins or fluoroquinolones.",
+      "key": "f5a61521da8612188dca898cdb7bc9aa",
+      "line": 141,
+      "relation": "decreases",
+      "source": 2,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Review": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Li T"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32172669",
+        "db_name": "Emerging microbes &amp; infections",
+        "first": "Li T",
+        "last": "Li T",
+        "pages": "582-585",
+        "volume": "9"
+      },
+      "evidence": "If bacterial infection is suspected according to the patient’s clinical and imaging findings, patients of mild type can take oral antibiotics for community-acquired pneumonia, such as second- generation cephalosporins or fluoroquinolones.",
+      "key": "47e7e611988671d03ba876e8d974770e",
+      "line": 142,
+      "relation": "decreases",
+      "source": 1,
+      "target": 15
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:\"6alpha-methylprednisolone\")",
+      "concept": {
+        "name": "6alpha-methylprednisolone",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "fea471620ced80ced8490de1e02e6695"
+    },
+    {
+      "bel": "a(CHEBI:\"fluoroquinolone antibiotic\")",
+      "concept": {
+        "name": "fluoroquinolone antibiotic",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "8bebe8c057bf9eeb7e63478ff864207a"
+    },
+    {
+      "bel": "a(CHEBI:cephalosporin)",
+      "concept": {
+        "name": "cephalosporin",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "a511c618f1172014979de2089a0a0800"
+    },
+    {
+      "bel": "a(CHEBI:lopinavir)",
+      "concept": {
+        "name": "lopinavir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "540f0a29f78ff437222f25e1c2e1b0fd"
+    },
+    {
+      "bel": "a(CHEBI:ritonavir)",
+      "concept": {
+        "name": "ritonavir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "07c1651afef7019b0cb107f1ce5fef12"
+    },
+    {
+      "bel": "a(MESH:\"Extracorporeal Membrane Oxygenation\")",
+      "concept": {
+        "name": "Extracorporeal Membrane Oxygenation",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "bad41a60ea5e3281644e4ea734f187fe"
+    },
+    {
+      "bel": "a(MESH:\"Immunoglobulins, Intravenous\")",
+      "concept": {
+        "name": "Immunoglobulins, Intravenous",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "104e73ad01bfb360958c2c20119dc171"
+    },
+    {
+      "bel": "a(MESH:\"Oxygen Inhalation Therapy\")",
+      "concept": {
+        "name": "Oxygen Inhalation Therapy",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "c8989168e048e385c285ad241d0e9f1c"
+    },
+    {
+      "bel": "a(MESH:\"RNA, Viral\")",
+      "concept": {
+        "name": "RNA, Viral",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "ee3639abaecc7757e3d353fd9090a7e2"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "bp(GO:\"inflammatory response\")",
+      "concept": {
+        "name": "inflammatory response",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "abd32f6c5cca606061975532840db260"
+    },
+    {
+      "bel": "bp(MESH:\"Prone Position\")",
+      "concept": {
+        "name": "Prone Position",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "5de68deabc025ba4f656731cb827e06c"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"adult respiratory distress syndrome\")",
+      "concept": {
+        "name": "adult respiratory distress syndrome",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "13c578f210684ad9f22dd027aa28b11a"
+    },
+    {
+      "bel": "path(DO:lymphopenia)",
+      "concept": {
+        "name": "lymphopenia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "c44581ea27814dd1a201d1fcc1979068"
+    },
+    {
+      "bel": "path(DO:pneumonia)",
+      "concept": {
+        "name": "pneumonia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "274776fc664e9bfd9c191cca80623b0d"
+    },
+    {
+      "bel": "path(HP:\"Ground-glass opacification on pulmonary HRCT\")",
+      "concept": {
+        "name": "Ground-glass opacification on pulmonary HRCT",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "84ff186012d6eb9a071d53766af91a2e"
+    },
+    {
+      "bel": "path(HP:Hypoxemia)",
+      "concept": {
+        "name": "Hypoxemia",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "177544b3806b3fde71c751b4c1cdc130"
+    },
+    {
+      "bel": "path(MESH:Cough)",
+      "concept": {
+        "name": "Cough",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "9fee4f29ebce7356ac1721785693b80c"
+    },
+    {
+      "bel": "path(MESH:Dyspnea)",
+      "concept": {
+        "name": "Dyspnea",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "3f78d64501d3d9478ac9ad623a28ec72"
+    },
+    {
+      "bel": "path(MESH:Fever)",
+      "concept": {
+        "name": "Fever",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "ffc74da80b64d7057f4eff0e06cdd1b6"
+    }
+  ]
+}

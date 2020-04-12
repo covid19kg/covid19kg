@@ -1,0 +1,138 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32170560.bel"
+SET DOCUMENT Authors = "Shounak Baksi"
+SET DOCUMENT ContactInfo = "shounak.baksi@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+#DEFINE NAMESPACE ADO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/alzheimer-disease-ontology/alzheimer-disease-ontology-1.0.2.belns"
+#DEFINE NAMESPACE BRCO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/brain-region-ontology/brain-region-ontology-1.0.0.belns"
+#DEFINE NAMESPACE NIFT AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/nift/NIFT.belns"
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+#DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+#DEFINE NAMESPACE RGD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/rgd-rat-genes/rgd-rat-genes-20190128.belns"
+#DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+#DEFINE NAMESPACE SCOMP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-named-complexes/selventa-named-complexes-20190128.belns"
+#DEFINE NAMESPACE SFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-protein-families/selventa-protein-families-20190128.belns"
+#DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+#DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+#DEFINE NAMESPACE DRUGBANK AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns"
+#DEFINE NAMESPACE INTERPRO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/interpro/interpro-names-20181021.belns"
+#DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+#DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20190128.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+#DEFINE NAMESPACE GOBP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns"
+#DEFINE NAMESPACE GOCC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20190128.belns"
+DEFINE NAMESPACE EFO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/efo/efo-20171206.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+#DEFINE NAMESPACE MESHC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-chemicals/mesh-chemicals-20190128.belns"
+#DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20190128.belns"
+#DEFINE NAMESPACE MESHPP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-processes/mesh-processes-20190128.belns"
+#DEFINE NAMESPACE MESHA AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-anatomy/mesh-anatomy-20190128.belns"
+#DEFINE NAMESPACE MESHCS AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-cellular-structures/mesh-cellular-structures-20190128.belns"
+#DEFINE NAMESPACE NCBIGENE AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-gene/ncbi-gene-20190224.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+#DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+#DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+#DEFINE NAMESPACE dbSNP AS PATTERN "rs[0-9]+"
+#
+#
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Anatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno"
+#DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+#DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+#DEFINE ANNOTATION Disease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/disease/disease-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+#DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+#DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+#DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review", "Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint", "Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text", "Abstract", "Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed", "Front Med. 2020 Mar 12. doi: 10.1007/s11684-020-0754-0", "32170560"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+SET Custom_Disease = "COVID-19"
+SET Species = "9606"
+
+SET Evidence = "Interestingly, the respiratory epithelial cells from the respiratory \
+track sample contained approximately 2% ACE2 positive cells, and the \
+respiratory track is thus regarded as high risk (Fig. 1)."
+
+SET Anatomy = {"respiratory tract"}
+complex(p(HGNC:ACE2),a(TAX:"Severe acute respiratory syndrome coronavirus 2")) -> bp(GO:"viral entry into host cell")
+bp(GO:"viral entry into host cell")->  path(MESH:Virulence)
+bp(GO:"viral entry into host cell") -> path(EFO:pathogenicity)
+UNSET Anatomy
+
+SET Evidence = "The scRNA-seq data from human heart showed that more than 7.5% \
+myocardial cells have positive ACE2 expression (Fig. 2), thereby \
+implying that heart could be in high risk of 2019-nCoV infection, \
+especially in the presence of the virus in blood or viremia."
+
+SET Anatomy = {"myocardium", "heart"}
+complex(p(HGNC:ACE2),a(TAX:"Severe acute respiratory syndrome coronavirus 2")) -> bp(GO:"viral entry into host cell")
+bp(GO:"viral entry into host cell")->  path(MESH:Virulence)
+bp(GO:"viral entry into host cell") -> path(EFO:pathogenicity)
+UNSET Anatomy
+
+SET Evidence = "Interestingly, extremely high ACE2 expression was found in ileal \
+epithelial cells (~30% ACE2-positive cells, Fig. 3); thus, ileum could \
+be at high risk."
+
+SET Anatomy = {"ilium"}
+complex(p(HGNC:ACE2),a(TAX:"Severe acute respiratory syndrome coronavirus 2")) -> bp(GO:"viral entry into host cell")
+bp(GO:"viral entry into host cell")->  path(MESH:Virulence)
+bp(GO:"viral entry into host cell") -> path(EFO:pathogenicity)
+UNSET Anatomy
+
+SET Evidence = "More than 1% ACE2 positive esophagus epithelial cells were found, and \
+esophagus can thus be regarded as high risk (Fig. 4)."
+
+SET MeSHAnatomy = {"Esophagus"}
+complex(p(HGNC:ACE2),a(TAX:"Severe acute respiratory syndrome coronavirus 2")) -> bp(GO:"viral entry into host cell")
+bp(GO:"viral entry into host cell")->  path(MESH:Virulence)
+bp(GO:"viral entry into host cell") -> path(EFO:pathogenicity)
+UNSET MeSHAnatomy
+
+SET Evidence = "Significantly high ACE2 expression was found in kidney proximal tubule \
+(PT) cells with the proportion of ACE2-positive cells at approximately \
+4% (Fig. 5). Furthermore, the proportion of ACE2-positive cells in the \
+bladder urothelial cells was 2.4% (Fig. 6).Therefore, kidney and \
+bladder were considered high risk, especially in viremia."
+
+SET MeSHAnatomy = {"Kidney Tubules, Proximal"}
+SET Anatomy = {"bladder organ"}
+complex(p(HGNC:ACE2),a(TAX:"Severe acute respiratory syndrome coronavirus 2")) -> bp(GO:"viral entry into host cell")
+bp(GO:"viral entry into host cell")->  path(MESH:Virulence)
+bp(GO:"viral entry into host cell") -> path(EFO:pathogenicity)
+UNSET Anatomy
+UNSET MeSHAnatomy
+UNSET Species
+UNSET Custom_Disease
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+

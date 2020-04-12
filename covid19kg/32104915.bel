@@ -1,0 +1,142 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32104915.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+
+DEFINE ANNOTATION Technique AS LIST {"computed tomography"}
+DEFINE ANNOTATION Custom_Species AS LIST {"9823"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","32104915"}
+
+SET PublicationType = "Review"
+SET PublicationStatus = "Preprint"
+SET Section = "Full Text"
+
+SET Evidence = "Most human CoVs, such as hCoV-229E, OC43, NL63, and HKU1, cause mild respiratory diseases, but the worldwide spread of two previously unrecognized coronaviruses, the severe acute respiratory syndrome CoV (SARS-CoV) and Middle East respiratory syndrome CoV (MERS-CoV), has called global attention to the lethal potential of human CoVs 2."
+SET Species = "9606"
+a(TAX:"Human coronavirus 229E") -> path(DO:"respiratory system disease")
+a(TAX:"Human coronavirus OC43") -> path(DO:"respiratory system disease")
+a(TAX:"Human coronavirus NL63") -> path(DO:"respiratory system disease")
+a(TAX:"Human coronavirus HKU1") -> path(DO:"respiratory system disease")
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> path(DO:"respiratory system disease")
+a(TAX:"Middle East respiratory syndrome-related coronavirus") -> path(DO:"respiratory system disease")
+
+SET Evidence = "This novel CoV has caused a national outbreak of severe pneumonia (COVID-19) in China, and rapidly spreads around the world."
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(DO:"COVID-19")
+
+SET Evidence = "SARS-CoV-2 causes acute, highly lethal pneumonia with clinical symptoms similar to those reported for SARS-CoV and MERS-CoV 2, 13."
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(DO:pneumonia)
+
+SET Evidence = "Imaging examination revealed that most patients with fever, dry cough, and dyspnoea showed bilateral ground-glass opacities on chest CT scans 14."
+SET Technique ="computed tomography"
+path(DO:"COVID-19") -- path(HP:Fever)
+path(DO:"COVID-19") -- path(HP:Cough)
+path(DO:"COVID-19") -- path(HP:Dyspnea)
+UNSET Technique
+
+SET Evidence = "However, different from SARS-CoV, SARS-CoV-2-infected patients rarely showed prominent upper respiratory tract signs and symptoms, indicating that the target cells of SARS-CoV-2 may be located in the lower airway 2."
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -- path(HP:"lower respiratory tract")
+
+SET Evidence = "However, the most characteristic symptom of patients is respiratory distress (~55%)."
+path(DO:"COVID-19") -- path(HP:"Respiratory distress")
+UNSET Species
+
+SET Evidence = "Such neuroinvasive propensity of CoVs has been documented almost for all the betacoronaviruses, including SARS-CoV 1, MERS-CoV 11, HCoV-229E 16, HCoV-OC43 12, mouse hepatitis virus (MHV) 17, and porcine hemagglutinating encephalomyelitis coronavirus (HEV) 9-10, 18-19."
+a(TAX:"Human coronavirus 229E") -> path(MESH:"Central Nervous System Infections")
+a(TAX:"Human coronavirus OC43") -> path(MESH:"Central Nervous System Infections")
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> path(MESH:"Central Nervous System Infections")
+a(TAX:"Middle East respiratory syndrome-related coronavirus") -> path(MESH:"Central Nervous System Infections")
+a(TAX:"Porcine hemagglutinating encephalomyelitis virus") -> path(MESH:"Central Nervous System Infections")
+a(TAX:"Murine hepatitis virus") -> path(MESH:"Central Nervous System Infections")
+
+SET Evidence = "The entry of SARS-CoV into human host cells is mediated mainly by a cellular receptor angiotensin-converting enzyme 2 (ACE2), which is expressed in human airway epithelia, lung parenchyma, vascular endothelia, kidney cells, and small intestine cells 23-25."
+SET Species = "9606"
+complex(a(TAX:"Severe acute respiratory syndrome coronavirus 2"),p(HGNC:ACE2)) -> bp(GO:"viral entry into host cell")
+p(HGNC:ACE2) -- path(HP:"lung parenchyma")
+p(HGNC:ACE2) -- path(HP:"respiratory epithelial cell")
+p(HGNC:ACE2) -- a(MESH:"Endothelium, Vascular")
+p(HGNC:ACE2) -- path(HP:"small intestine")
+p(HGNC:ACE2) -- path(HP:kidney)
+
+SET Evidence = "Different from SARS-CoV, MERS-CoV enters human host cells mainly via dipeptidyl peptidase 4 (DPP4), which is present in the lower respiratory tract, kidney, small intestine, liver, and the cells of the immune system 26-27."
+complex(a(TAX:"Severe acute respiratory syndrome coronavirus 2"),p(HGNC:DPP4)) -> bp(GO:"viral entry into host cell")
+p(HGNC:DPP4) -- path(HP:"lower respiratory tract")
+p(HGNC:DPP4) -- path(HP:kidney)
+p(HGNC:DPP4) -- path(HP:"small intestine")
+p(HGNC:DPP4) -- path(HP:liver)
+p(HGNC:DPP4) -- bp(MESH:"Immune System")
+UNSET Species
+
+SET Evidence = "Experimental studies using transgenic mice further revealed that either SARS-CoV 30 or MERS-COV 11, when given intranasally, could enter the brain, possibly via the olfactory nerves, and there after rapidly spread to some specific brain areas including thalamus and brainstem."
+SET Species = "10090"
+SET MeSHAnatomy = {"Thalamus", "Brain Stem"}
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> path(MESH:"Central Nervous System Infections")
+a(TAX:"Middle East respiratory syndrome-related coronavirus") -> path(MESH:"Central Nervous System Infections")
+UNSET Species
+
+SET Evidence = "HEV 67N is the first coronavirus found to invade the porcine brain, and it shares >91% homology with HCoV-OC43 38-39."
+SET Custom_Species = "9823"
+SET MeSHAnatomy = "Brain"
+a(TAX:"Porcine hemagglutinating encephalomyelitis virus (strain 67N)") -> path(MESH:"Central Nervous System Infections")
+
+SET Evidence = "The transfer of HEV67N between neurons has been demonstrated by our previous ultrastructural studies to use the clathrin-coating-mediated endo-/exocytotic pathway 10."
+a(TAX:"Porcine hemagglutinating encephalomyelitis virus (strain 67N)") -- bp(GO:"clathrin-dependent endocytosis")
+a(TAX:"Porcine hemagglutinating encephalomyelitis virus (strain 67N)") -- bp(GO:"viral exocytosis")
+UNSET Custom_Species
+UNSET MeSHAnatomy
+
+SET Evidence = "Intranasal inoculation in mice with avian influenza virus was reported to cause neural infection besides bronchitis or pneumonia 36."
+SET Species = "10090"
+a(TAX:"Influenza A virus (A/whistling swan/Shimone/499/1983(H5N3))") -> path(MESH:"Central Nervous System Infections")
+a(TAX:"Influenza A virus (A/whistling swan/Shimone/499/1983(H5N3))") -> path(DO:bronchitis)
+a(TAX:"Influenza A virus (A/whistling swan/Shimone/499/1983(H5N3))") -> path(DO:pneumonia)
+UNSET Species
+
+SET Evidence = "As a matter of fact, it has been reported that some patients infected with SARS-CoV-2 did show neurologic signs such as headache (about 8%), nausea and vomiting (1%)."
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -- path(HP:Headache)
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -- path(HP:"Nausea and vomiting")
+
+SET Evidence = "Airway inhalation of antiviral agents will be the first choice at the early stage of infection, which will inhibit the replication SARS-CoV-2 in the respiratory tracts and lung and prevent from its subsequent neuroinvasion."
+a(MESH:"Antiviral Agents") -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

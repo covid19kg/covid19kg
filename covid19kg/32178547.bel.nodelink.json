@@ -1,0 +1,883 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Cohort": [
+        "Chinese"
+      ],
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Preprint",
+        "Published"
+      ],
+      "PublicationType": [
+        "Letter to Editor",
+        "Research",
+        "Review"
+      ],
+      "Section": [
+        "Abstract",
+        "Full Text",
+        "Results"
+      ],
+      "Severity": [
+        "Mild",
+        "Moderate",
+        "Severe"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {},
+    "document_metadata": {
+      "authors": "Shounak Baksi",
+      "contact": "shounak.baksi@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": " 32178547.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+    },
+    "path": "32178547.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "Most COVID-19 patients initially suffered from fever, cough, fatigue, and shortness of breath, while other symptoms included muscle pain, headache, chest pain, and diarrhea, similar to the symptoms observed after chemotherapy, targeted and immune therapy1",
+      "key": "bebcef94cd282be7391676c1c303ea99",
+      "line": 104,
+      "relation": "positiveCorrelation",
+      "source": 1,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "Most COVID-19 patients initially suffered from fever, cough, fatigue, and shortness of breath, while other symptoms included muscle pain, headache, chest pain, and diarrhea, similar to the symptoms observed after chemotherapy, targeted and immune therapy1",
+      "key": "0eef0cdd716e8ffd6c0d70222b3c96a2",
+      "line": 105,
+      "relation": "positiveCorrelation",
+      "source": 1,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "Most COVID-19 patients initially suffered from fever, cough, fatigue, and shortness of breath, while other symptoms included muscle pain, headache, chest pain, and diarrhea, similar to the symptoms observed after chemotherapy, targeted and immune therapy1",
+      "key": "8ef7578f1c12ede5970112efb886a86c",
+      "line": 106,
+      "relation": "positiveCorrelation",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "Most COVID-19 patients initially suffered from fever, cough, fatigue, and shortness of breath, while other symptoms included muscle pain, headache, chest pain, and diarrhea, similar to the symptoms observed after chemotherapy, targeted and immune therapy1",
+      "key": "c28ee91fbbf55df12ec65d7ce0f148bd",
+      "line": 107,
+      "relation": "positiveCorrelation",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "Most COVID-19 patients initially suffered from fever, cough, fatigue, and shortness of breath, while other symptoms included muscle pain, headache, chest pain, and diarrhea, similar to the symptoms observed after chemotherapy, targeted and immune therapy1",
+      "key": "28213f9cc8d0d04a3fd7732670661f07",
+      "line": 108,
+      "relation": "positiveCorrelation",
+      "source": 1,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "Most COVID-19 patients initially suffered from fever, cough, fatigue, and shortness of breath, while other symptoms included muscle pain, headache, chest pain, and diarrhea, similar to the symptoms observed after chemotherapy, targeted and immune therapy1",
+      "key": "718119406c6f49dc1415241f2f6f69de",
+      "line": 109,
+      "relation": "positiveCorrelation",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "Most COVID-19 patients initially suffered from fever, cough, fatigue, and shortness of breath, while other symptoms included muscle pain, headache, chest pain, and diarrhea, similar to the symptoms observed after chemotherapy, targeted and immune therapy1",
+      "key": "aedc3ab8fd94a81c34f12c5bd81acae5",
+      "line": 110,
+      "relation": "positiveCorrelation",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "Chinese": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "According to the latest study revealing the correlation between COVID-19 and cancer, 18 (1%) of 1590 COVID-19 cases had a history of cancer, which was higher than the incidence of cancer (0.29%) in the overall Chinese population; meanwhile, cancer patients were found to have a higher risk of severe events than patients without cancer.2",
+      "key": "219b710e07f4654bf6c3c92ebb1a5732",
+      "line": 120,
+      "relation": "positiveCorrelation",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "Most COVID-19 patients initially suffered from fever, cough, fatigue, and shortness of breath, while other symptoms included muscle pain, headache, chest pain, and diarrhea, similar to the symptoms observed after chemotherapy, targeted and immune therapy1",
+      "key": "b686b8240f82c9ae7782f5e313f5c98d",
+      "line": 104,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "Most COVID-19 patients initially suffered from fever, cough, fatigue, and shortness of breath, while other symptoms included muscle pain, headache, chest pain, and diarrhea, similar to the symptoms observed after chemotherapy, targeted and immune therapy1",
+      "key": "eedf742323c266fdef33a1e02df638c4",
+      "line": 105,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "Most COVID-19 patients initially suffered from fever, cough, fatigue, and shortness of breath, while other symptoms included muscle pain, headache, chest pain, and diarrhea, similar to the symptoms observed after chemotherapy, targeted and immune therapy1",
+      "key": "a9f7b5937eeca89f1e9bb2464eadd029",
+      "line": 106,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "Most COVID-19 patients initially suffered from fever, cough, fatigue, and shortness of breath, while other symptoms included muscle pain, headache, chest pain, and diarrhea, similar to the symptoms observed after chemotherapy, targeted and immune therapy1",
+      "key": "30551db7d31587185ac3ca29dad4579a",
+      "line": 107,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "Most COVID-19 patients initially suffered from fever, cough, fatigue, and shortness of breath, while other symptoms included muscle pain, headache, chest pain, and diarrhea, similar to the symptoms observed after chemotherapy, targeted and immune therapy1",
+      "key": "ebe41a2d8da17885c93c202a813d3a00",
+      "line": 108,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "Most COVID-19 patients initially suffered from fever, cough, fatigue, and shortness of breath, while other symptoms included muscle pain, headache, chest pain, and diarrhea, similar to the symptoms observed after chemotherapy, targeted and immune therapy1",
+      "key": "ddbdab69e30a2e2c9291be0a2b12bdfb",
+      "line": 109,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "Most COVID-19 patients initially suffered from fever, cough, fatigue, and shortness of breath, while other symptoms included muscle pain, headache, chest pain, and diarrhea, similar to the symptoms observed after chemotherapy, targeted and immune therapy1",
+      "key": "1eb23229621d72f1c195b0118bcf5010",
+      "line": 110,
+      "relation": "positiveCorrelation",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "Chinese": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Severe": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "According to the latest study revealing the correlation between COVID-19 and cancer, 18 (1%) of 1590 COVID-19 cases had a history of cancer, which was higher than the incidence of cancer (0.29%) in the overall Chinese population; meanwhile, cancer patients were found to have a higher risk of severe events than patients without cancer.2",
+      "key": "96679ecb82aa50a9ddfe885412acaf05",
+      "line": 120,
+      "relation": "positiveCorrelation",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "Chinese": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "In high epidemic areas, members of the public are encouraged to reduce going out; thus, Tai Chi and Qi Gong, as integrative therapies, might be very suitable indoor exercises to strengthen the constitution.",
+      "key": "3bd7f94c08d62adc420328c73b0a2a12",
+      "line": 127,
+      "relation": "decreases",
+      "source": 6,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "Chinese": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "In comparison, one integrative therapy, Chinese herbal medicine (CHM), is widely used in the treatment of COVID-19, and was shown to be quite effective in preliminary clinical practice.",
+      "key": "80b4d88856bab7b6cc5a38913518d04b",
+      "line": 133,
+      "relation": "decreases",
+      "source": 0,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Cohort": {
+          "Chinese": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Letter to Editor": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Severity": {
+          "Mild": true,
+          "Moderate": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Yang G",
+          "Yang Y",
+          "Zhang H"
+        ],
+        "date": "2020-01-01",
+        "db": "PubMed",
+        "db_id": "32178547",
+        "db_name": "Integrative cancer therapies",
+        "first": "Yang G",
+        "last": "Yang Y",
+        "pages": "1534735420912811",
+        "volume": "19"
+      },
+      "evidence": "Thus, cancer patients diagnosed with mild or medium COVID-19 should be encouraged to receive CHM therapies.",
+      "key": "8bf6dcdafc286264b59bde2101d77fc1",
+      "line": 139,
+      "relation": "decreases",
+      "source": 0,
+      "target": 1
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(MESH:\"Medicine, Chinese Traditional\")",
+      "concept": {
+        "name": "Medicine, Chinese Traditional",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "b74a1ebaacfeac828bf9a3a0ec89b5de"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:cancer)",
+      "concept": {
+        "name": "cancer",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6cd82834a6f18684f4a5b8aa1c431537"
+    },
+    {
+      "bel": "path(DO:diarrhea)",
+      "concept": {
+        "name": "diarrhea",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "f53fc3580f7450b941e98608ca05fddb"
+    },
+    {
+      "bel": "path(HP:\"Breathing dysregulation\")",
+      "concept": {
+        "name": "Breathing dysregulation",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "58ecae61b4f80de89dd34d8f1564de29"
+    },
+    {
+      "bel": "path(MESH:\"Chest Pain\")",
+      "concept": {
+        "name": "Chest Pain",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "6f89f8df7f653c212afd85bf13db4180"
+    },
+    {
+      "bel": "path(MESH:\"Social Isolation\")",
+      "concept": {
+        "name": "Social Isolation",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "6996cbe11809781667ce8f4dba02974e"
+    },
+    {
+      "bel": "path(MESH:Fatigue)",
+      "concept": {
+        "name": "Fatigue",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "d9f7d216d60384a034383bbc94db85cd"
+    },
+    {
+      "bel": "path(MESH:Fever)",
+      "concept": {
+        "name": "Fever",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "ffc74da80b64d7057f4eff0e06cdd1b6"
+    },
+    {
+      "bel": "path(MESH:Headache)",
+      "concept": {
+        "name": "Headache",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "2a9db847bd9248b92260deeecc169912"
+    },
+    {
+      "bel": "path(MESH:Myalgia)",
+      "concept": {
+        "name": "Myalgia",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "9e757b6d113fa97d3dadae6749895c25"
+    }
+  ]
+}

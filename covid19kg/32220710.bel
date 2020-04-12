@@ -1,0 +1,77 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32220710.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Medical Hypothesis"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","Med Hypotheses. 2020;140:109686. doi:10.1016/j.mehy.2020.109686","32220710"}
+SET PublicationType = "Medical Hypothesis"
+SET PublicationStatus = "Published"
+SET Section = "Full Text"
+
+SET Evidence = "In humans the renin-angiotensin system is the hormone system which regulates blood pressure and vascular resistances, as well as electrolytic balance; within this important system, the angiotensin-converting enzyme (ACE), present on the surface of vascular endothelial cells, in particular those of the lungs, is deputed to the conversion of angiotensin I to angiotensin II (AII), a potent vasoconstrictive peptide [1]."
+
+SET Species = "9606"
+SET Custom_Disease = "COVID-19"
+bp(MESH:"Renin-Angiotensin System") reg bp(MESH:"Blood Pressure")
+bp(MESH:"Renin-Angiotensin System") reg bp(MESH:"Water-Electrolyte Balance")
+bp(MESH:"Renin-Angiotensin System") reg bp(MESH:"Vascular Resistance")
+SET MeSHAnatomy = "Lung"
+p(HGNC:ACE2) -- bp(MESH:"Renin-Angiotensin System")
+UNSET MeSHAnatomy
+
+SET Evidence = "For this, both ACE and AII have been widely exploited as pharmacological targets in the treatment of hypertension, heart failure or diabetic nephropathy by means of ACE inhibitors and AII receptor antagonists, respectively [1]."
+
+act(p(HGNC:ACE2)) pos path(DO:hypertension)
+act(p(HGNC:ACE2)) pos path(MESH:"Heart Failure")
+act(p(HGNC:ACE2)) pos path(MESH:"Diabetic Nephropathies")
+
+SET Evidence = "Surprisingly, the surface spike proteins of the ‘severe-acute-respiratory-syndrome-coronavirus-2′ (SARS-CoV-2), the etiological agent of the ongoing ‘coronavirus disease 2019’ (COVID-19), are able to bind the ACE2 receptors [2]."
+
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(DO:"COVID-19")
+complex(p(COVID:S),p(HGNC:ACE2)) pos path(DO:"COVID-19")
+p(COVID:S) -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+
+SET Evidence = "In our opinion, during the COVID-19 pandemic, it would be more prudent to replace these drugs, when possible, with calcium channel blockers, adrenergic receptor blockers, diuretics or vasodilators."
+
+a(CHEBI:"calcium channel blocker") neg path(DO:"COVID-19")
+a(CHEBI:"adrenergic antagonist") neg path(DO:"COVID-19")
+a(CHEBI:diuretic) neg path(DO:"COVID-19")
+a(CHEBI:"vasodilator agent") neg path(DO:"COVID-19")
+UNSET Custom_Disease
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

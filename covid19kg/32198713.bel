@@ -1,0 +1,101 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32198713.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Letter"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+SET Citation = {"PubMed","32198713"}
+
+SET PublicationType = "Letter"
+SET PublicationStatus = "Published"
+SET Section = "Full Text"
+SET Custom_Disease = "COVID-19"
+
+SET Evidence = "The viral infection incubation period varies from 2 to 14 days and \
+typical clinical symptoms are fever, dry cough, dyspnea, headache, and \
+pneumonia. Disease onset may result in progressive respiratory failure \
+due to alveolar damage and even death (Chan et al. 2020; Chen et al. \
+2020; Huang et al. 2020)."
+
+path(DO:"COVID-19") -> path(MESH:Fever)
+path(DO:"COVID-19") -> path(MESH:Cough)
+path(DO:"COVID-19") -> path(MESH:Dyspnea)
+path(DO:"COVID-19") -> path(MESH:Headache)
+path(DO:"COVID-19") -> path(DO:pneumonia)
+path(DO:"COVID-19") -> path(FIXME:"alveolar damage")
+path(FIXME:"alveolar damage") pos path(DO:"respiratory failure")
+UNSET Custom_Disease
+
+SET Evidence = "For coronaviruses, their receptor binding and subsequent \
+internalization mainly depend on the spike protein (S protein) \
+anchored in the viral envelope."
+
+a(TAX:Corona) -- p(MESH:"Spike Glycoprotein, Coronavirus")
+a(MESH:"Spike Glycoprotein, Coronavirus") -> bp(GO:"viral entry into host cell")
+
+SET Evidence = "For instance, a variety of human proteases, such as trypsin, tryptase \
+Clara, human airway trypsin-like protease (HAT) and transmembrane \
+protease serine 2 (TMPRSS2), are known to cleave and activate the S \
+protein of SARS-CoV (Bosch et al. 2008; Bertram et al. 2011)."
+
+SET Species = "9606"
+act(p(PFAM:Trypsin)) -> p(UNIPROT:P59594, frag("?"))
+act(p(MESH:"tryptase Clara")) -> p(UNIPROT:P59594, frag("?"))
+#this was isolated from RAT
+act(p(HGNC:TMPRSS2)) -> p(UNIPROT:P59594, frag("?"))
+act(p(HGNC:TMPRSS11D)) -> p(UNIPROT:P59594, frag("?"))
+p(UNIPROT:P59594, frag("?")) -> act(p(UNIPROT:P59594))
+# not in UNIPROT file
+UNSET Species
+
+SET Evidence = "As a result, 2019-nCoV S protein showed a unique furin cleavage \
+(–RRAR–) within the S1/S2 domain which was overlapped with insertion \
+described above (Fig. 1B).This furin cleavage site was located between \
+the residues 682 and 685, distinct from SARSCoV and all other SARS- \
+like coronaviruses which only contain a trypsin or TMPRSS2 cleavage \
+site at R667 (corresponding to residues 685 in 2019-nCoV S) (Fig. 1B)"
+
+SET Custom_Disease = "COVID-19"
+act(p(HGNC:FURIN)) -> p(COVID:S, frag("?"))
+#p(COVID:S, frag("682_685")) shows error
+
+SET Evidence = "With the furin cleavage site on the S protein, 2019-nCoV probably \
+gains ability to infect organs or tissues insensitive to other \
+coronaviruses, leading to systematic infection of 2019-nCoV in the \
+body"
+
+p(COVID:S, frag("?")) -> bp(GO:"viral entry into host cell")
+bp(GO:"viral entry into host cell") -> path(DO:"COVID-19")
+UNSET Custom_Disease
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

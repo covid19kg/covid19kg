@@ -1,0 +1,167 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "15294014.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+
+DEFINE ANNOTATION Condition AS LIST {"serum starvation"}
+DEFINE ANNOTATION Assay AS LIST {"TUNEL assay"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","15294014"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "As shown in Figure 1(B), serum starvation induced approx. 30% cell death in the presence of N (lane 4)."
+
+SET Condition = "serum starvation"
+#absence of serum (for growth factor deprivation)
+SET Assay = "TUNEL assay"
+p(UNIPROT:P59595) -> bp(GO:"apoptotic process")
+UNSET Assay
+UNSET Condition
+
+SET Evidence = "N expression clearly down-regulated the level of extracellular fibronectin in the absence of serum (Figure 2A, upper panel)."
+
+SET CellLine = "COS-1 cell"
+# this cell line is from Green monkey
+SET Condition = "serum starvation"
+p(UNIPROT:P59595) neg p(UNIPROT:A0A0D9R9X4, loc(GO:"extracellular space"))
+#A0A0D9R9X4 - fibronectin
+UNSET Condition
+UNSET CellLine
+
+SET Evidence = "As expected, fibronectin levels were found to be lower in N-expressing cells irrespective of the presence or absence of serum (Figure 2A, lower
+panel), suggesting that N down-regulated fibronectin gene expression."
+
+SET BioAssay = "immunoassay"
+SET CellLine = "COS-1 cell"
+p(UNIPROT:P59595) neg p(UNIPROT:A0A0D9R9X4)
+UNSET CellLine
+UNSET BioAssay
+
+SET Evidence = "The level of phosphorylated FAK was significantly down-regulated in N-expressing cells in the absence of growth factors (Figure 2C)."
+
+SET CellLine = "COS-1 cell"
+SET Condition = "serum starvation"
+p(UNIPROT:P59595) neg p(UNIPROT:A0A0D9RB32, pmod(Ph))
+#A0A0D9RB32 is FAK which is Protein tyrosine kinase 2
+UNSET Condition
+UNSET CellLine
+
+SET Evidence = "This result supported further our hypothesis that N-induced cell death was due to interference with the integrin signalling pathway, and that serum factors inhibited this phenomenon dominantly by maintaining the activity of FAK through alternative pathways."
+
+p(UNIPROT:P59595) -> bp(GO:"apoptotic process")
+bp(GO:"integrin-mediated signaling pathway") -- p(UNIPROT:P59595)
+
+SET Evidence = "In the absence of serum, N expression down-regulated the activity of p-ERK (Figure 3A, lanes 4–6)"
+
+SET CellLine = "COS-1 cell"
+SET Condition = "serum starvation"
+p(UNIPROT:P59595) -| p(UNIPROT:A0A0D9R1K1, pmod(Ph))
+#A0A0D9R1K1 is ERK
+UNSET Condition
+UNSET CellLine
+
+SET Evidence = "Furthermore, N expression up-regulated the activity of stress activated protein kinases, namely the JNK and p38 MAPK pathways. The activity was significantly high in the absence of serum (Figure 3B, top panel, lanes 5 and 6)."
+
+SET CellLine = "COS-1 cell"
+SET Condition = "serum starvation"
+p(UNIPROT:P59595) -> act(p(UNIPROT:A0A0D9RCP6))
+#A0A0D9RCP6 is JNK
+p(UNIPROT:P59595) -> act(p(UNIPROT:A0A0D9RCS6))
+#A0A0D9RCS6 is p38 MAPK
+UNSET Condition
+UNSET CellLine
+
+SET Evidence = "The up-regulation of JNK activity was reflected further by the elevated p-Jun level (Figure3B, third panel, lanes 5 and 6)."
+
+SET CellLine = "COS-1 cell"
+SET Condition = "serum starvation"
+act(p(UNIPROT:A0A0D9RCP6)) -> p(UNIPROT:A0A0D9SAF4, pmod(Ph))
+#A0A0D9SAF4 is JUN
+UNSET Condition
+UNSET CellLine
+
+
+SET Evidence = "Thus we conclude that N-induced activation of the p38 MAPK pathway in the absence of growth factors leads to actin reorganization."
+
+SET CellLine = "COS-1 cell"
+SET Condition = "serum starvation"
+p(UNIPROT:P59595) -> act(p(UNIPROT:A0A0D9RCS6))
+act(p(UNIPROT:A0A0D9RCS6)) -> bp(GO:"actin filament reorganization")
+UNSET Condition
+UNSET CellLine
+
+SET Evidence = "The level of p-Akt was found to be significantly down-regulated in the absence of serum (Figure 5A, lanes 4–6)."
+
+SET CellLine = "COS-1 cell"
+SET Condition = "serum starvation"
+p(UNIPROT:P59595) -| p(UNIPROT:A0A0D9RBG0, pmod(Ph, Thr, 308))
+UNSET Condition
+UNSET CellLine
+
+SET Evidence = "Expression of this construct together with N rescued the cells from a death phenotype as exhibited by inhibition of caspase 3 activation (Figure 5E, lane 1)."
+
+SET CellLine = "COS-1 cell"
+SET Condition = "serum starvation"
+complex(p(UNIPROT:A0A0D9RKI4),p(UNIPROT:P59595)) -| act(p(UNIPROT:A0A0D9S2F1))
+#PIK3CA is A0A0D9RKI4
+complex(p(UNIPROT:A0A0D9RKI4),p(UNIPROT:P59595)) -| bp(GO:"apoptotic process")
+UNSET Condition
+UNSET CellLine
+
+
+SET Evidence = "Immunoprecipitation of Bcl-2 showed strong down-regulation in the absence of serum (Figure 5B, lanes 4–6)."
+
+SET BioAssay = "immunoassay"
+SET CellLine = "COS-1 cell"
+SET Condition = "serum starvation"
+p(UNIPROT:P59595) -| act(p(UNIPROT:A0A0D9S017))
+#A0A0D9S017 is Bcl2
+UNSET Condition
+UNSET CellLine
+UNSET BioAssay
+
+SET Evidence = "From these experiments, we conclude that the N protein of SARS-CoV induces apoptosis and actin reorganization by interfering with the integrin signalling pathway during cellular stress induced by the absence of growth factors."
+
+SET CellLine = "COS-1 cell"
+SET Condition = "serum starvation"
+p(UNIPROT:P59595) -> bp(GO:"apoptotic process")
+p(UNIPROT:P59595) -> bp(GO:"actin filament reorganization")
+bp(GO:"integrin-mediated signaling pathway") -- p(UNIPROT:P59595)
+UNSET Condition
+UNSET CellLine
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

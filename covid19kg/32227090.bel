@@ -1,0 +1,105 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32227090.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","32227090"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "Digestive tract intestine displayed the highest expression of ACE2, \
+followed by testis and kidney, suggesting the vulnerability to virus \
+in these organs, which could explain the positive detection of SARS- \
+CoV-2 in patients’ faeces and urine. 6"
+
+SET Species = "9606"
+SET Custom_Disease = "COVID-19"
+SET MeSHAnatomy = "Intestines"
+complex(p(HGNC:ACE2),p(COVID:S)) -> path(DO:"COVID-19")
+UNSET MeSHAnatomy
+SET MeSHAnatomy = {"Feces","Urine"}
+path(DO:"COVID-19") pos a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET MeSHAnatomy
+
+SET Evidence = "ECs showed extensive linkages with pericytes, with dominant role of \
+angiopoietin ligands (ANGPT1/2)–Tie receptor (TIE2) interaction in \
+normal heart, which could promote vascular EC survival and reduced \
+vascular leakage."
+
+SET MeSHAnatomy = "Endothelial Cells"
+complex(p(HGNC:ANGPT1),p(HGNC:TEK)) -> bp(MESH:"Cell Survival")
+complex(p(HGNC:ANGPT2),p(HGNC:TEK)) -> bp(MESH:"Cell Survival")
+complex(p(HGNC:ANGPT1),p(HGNC:TEK)) -| bp(MESH:"Capillary Permeability")
+complex(p(HGNC:ANGPT2),p(HGNC:TEK)) -| bp(MESH:"Capillary Permeability")
+UNSET MeSHAnatomy
+SET MeSHAnatomy = "Heart"
+p(HGNC:ANGPT1) -- a(MESH:"Endothelial Cells")
+p(HGNC:TEK) -- a(MESH:Pericytes)
+UNSET MeSHAnatomy
+
+SET Evidence = "Taken together, these results suggested that SARS-CoV-2 infection in \
+the human heart might attack pericytes, and cause capillary ECs \
+dysfunction, thus inducing micro-circulation disorder."
+
+SET MeSHAnatomy = "Heart"
+path(DO:"COVID-19") -| bp(MESH:Microcirculation)
+UNSET MeSHAnatomy
+
+SET Evidence = "This may explain the clinical manifestation of CK elevation among 13% \
+of COVID-19 patients. 2"
+
+path(DO:"COVID-19") pos p(HGNC:CKM)
+
+SET Evidence = "RNA sequencing revealed that myocardial ACE2 expression was \
+significantly increased in patients with heart failure (Figure 1J, \
+fold change = 3.00, P<0.0001), which was further validated at the \
+protein level by proteomics profiling (Figure 1K, fold change=1.82, \
+P<0.0001)."
+
+SET MeSHAnatomy = "Myocytes, Cardiac"
+SET BioAssay = "nucleic acid sequencing method"
+path(DO:"congestive heart failure") pos r(HGNC:ACE2)
+UNSET BioAssay
+SET BioAssay = "protein profiling assay"
+path(DO:"congestive heart failure") pos p(HGNC:ACE2)
+UNSET BioAssay
+UNSET MeSHAnatomy
+UNSET Custom_Disease
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

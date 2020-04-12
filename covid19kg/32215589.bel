@@ -1,0 +1,59 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32215589.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID_Knowledge_Curation_project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Cohort AS LIST {"Newborn"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Letter to the Editor"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","JAMA. 2020;e204861. doi:10.1001/jama.2020.4861","32215589"}
+SET PublicationType = "Letter to the Editor"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "All 6 infants had antibodies detected in their serum."
+
+SET Species = "9606"
+SET Cohort = "Newborn"
+SET MeSHAnatomy = "Serum"
+path(DO:"COVID-19") -> a(MESH:"Immunoglobulin G")
+path(DO:"COVID-19") -> a(MESH:"Immunoglobulin M")
+UNSET MeSHAnatomy
+
+SET Evidence = "Inflammatory cytokine IL-6 was significantly increased in all infants."
+
+SET MeSHAnatomy = "Serum"
+path(DO:"COVID-19") -> sec(p(HGNC:IL6))
+UNSET MeSHAnatomy
+UNSET Cohort
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

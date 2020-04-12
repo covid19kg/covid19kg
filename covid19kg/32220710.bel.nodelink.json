@@ -1,0 +1,1229 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Medical Hypothesis"
+      ],
+      "Section": [
+        "Full Text"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Abish K",
+      "contact": "abish@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32220710.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32220710.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "In humans the renin-angiotensin system is the hormone system which regulates blood pressure and vascular resistances, as well as electrolytic balance; within this important system, the angiotensin-converting enzyme (ACE), present on the surface of vascular endothelial cells, in particular those of the lungs, is deputed to the conversion of angiotensin I to angiotensin II (AII), a potent vasoconstrictive peptide [1].",
+      "key": "cb0b37d1a194649db7cb778341eb50ad",
+      "line": 47,
+      "relation": "regulates",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "In humans the renin-angiotensin system is the hormone system which regulates blood pressure and vascular resistances, as well as electrolytic balance; within this important system, the angiotensin-converting enzyme (ACE), present on the surface of vascular endothelial cells, in particular those of the lungs, is deputed to the conversion of angiotensin I to angiotensin II (AII), a potent vasoconstrictive peptide [1].",
+      "key": "ab2dddac28d5d994ef52205fce67e1d8",
+      "line": 48,
+      "relation": "regulates",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "In humans the renin-angiotensin system is the hormone system which regulates blood pressure and vascular resistances, as well as electrolytic balance; within this important system, the angiotensin-converting enzyme (ACE), present on the surface of vascular endothelial cells, in particular those of the lungs, is deputed to the conversion of angiotensin I to angiotensin II (AII), a potent vasoconstrictive peptide [1].",
+      "key": "9d215dcbc2b2baff800332ccdac0da0a",
+      "line": 49,
+      "relation": "regulates",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "In humans the renin-angiotensin system is the hormone system which regulates blood pressure and vascular resistances, as well as electrolytic balance; within this important system, the angiotensin-converting enzyme (ACE), present on the surface of vascular endothelial cells, in particular those of the lungs, is deputed to the conversion of angiotensin I to angiotensin II (AII), a potent vasoconstrictive peptide [1].",
+      "key": "893305335b70defd9a089335704a7e7d",
+      "line": 51,
+      "relation": "association",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "In humans the renin-angiotensin system is the hormone system which regulates blood pressure and vascular resistances, as well as electrolytic balance; within this important system, the angiotensin-converting enzyme (ACE), present on the surface of vascular endothelial cells, in particular those of the lungs, is deputed to the conversion of angiotensin I to angiotensin II (AII), a potent vasoconstrictive peptide [1].",
+      "key": "499b1b52a57dce5350fb37662de70386",
+      "line": 51,
+      "relation": "association",
+      "source": 11,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "For this, both ACE and AII have been widely exploited as pharmacological targets in the treatment of hypertension, heart failure or diabetic nephropathy by means of ACE inhibitors and AII receptor antagonists, respectively [1].",
+      "key": "2c1118dcddb7e1baa2256e3064ec521d",
+      "line": 56,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "For this, both ACE and AII have been widely exploited as pharmacological targets in the treatment of hypertension, heart failure or diabetic nephropathy by means of ACE inhibitors and AII receptor antagonists, respectively [1].",
+      "key": "0069d134780593eb91d142118b8304bb",
+      "line": 57,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "For this, both ACE and AII have been widely exploited as pharmacological targets in the treatment of hypertension, heart failure or diabetic nephropathy by means of ACE inhibitors and AII receptor antagonists, respectively [1].",
+      "key": "a5d8d16ef361c9e02a4eaebe7e64fa44",
+      "line": 58,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 14
+    },
+    {
+      "key": "1db03b2523b3b2cd2b465edf9382bc2a",
+      "relation": "partOf",
+      "source": 11,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "For this, both ACE and AII have been widely exploited as pharmacological targets in the treatment of hypertension, heart failure or diabetic nephropathy by means of ACE inhibitors and AII receptor antagonists, respectively [1].",
+      "key": "9751ca8e4b2676033667ad5f815ac19b",
+      "line": 56,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "For this, both ACE and AII have been widely exploited as pharmacological targets in the treatment of hypertension, heart failure or diabetic nephropathy by means of ACE inhibitors and AII receptor antagonists, respectively [1].",
+      "key": "eef33061f991bd8c00ba28332980423c",
+      "line": 57,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "For this, both ACE and AII have been widely exploited as pharmacological targets in the treatment of hypertension, heart failure or diabetic nephropathy by means of ACE inhibitors and AII receptor antagonists, respectively [1].",
+      "key": "beb051294a64a45b97b8a7ad16db8848",
+      "line": 58,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "positiveCorrelation",
+      "source": 14,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "Surprisingly, the surface spike proteins of the ‘severe-acute-respiratory-syndrome-coronavirus-2′ (SARS-CoV-2), the etiological agent of the ongoing ‘coronavirus disease 2019’ (COVID-19), are able to bind the ACE2 receptors [2].",
+      "key": "137b2bf7e9c34957dc78a7980d9bea75",
+      "line": 62,
+      "relation": "increases",
+      "source": 4,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "Surprisingly, the surface spike proteins of the ‘severe-acute-respiratory-syndrome-coronavirus-2′ (SARS-CoV-2), the etiological agent of the ongoing ‘coronavirus disease 2019’ (COVID-19), are able to bind the ACE2 receptors [2].",
+      "key": "dc641b288162fa04be265dc4276ed37d",
+      "line": 64,
+      "relation": "association",
+      "source": 4,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "Surprisingly, the surface spike proteins of the ‘severe-acute-respiratory-syndrome-coronavirus-2′ (SARS-CoV-2), the etiological agent of the ongoing ‘coronavirus disease 2019’ (COVID-19), are able to bind the ACE2 receptors [2].",
+      "key": "96025107fd52ba15d7ab39160d752c54",
+      "line": 63,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "In our opinion, during the COVID-19 pandemic, it would be more prudent to replace these drugs, when possible, with calcium channel blockers, adrenergic receptor blockers, diuretics or vasodilators.",
+      "key": "0cc7e6de350bbe56606630bb84fe5f61",
+      "line": 68,
+      "relation": "negativeCorrelation",
+      "source": 12,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "In our opinion, during the COVID-19 pandemic, it would be more prudent to replace these drugs, when possible, with calcium channel blockers, adrenergic receptor blockers, diuretics or vasodilators.",
+      "key": "f2f7d9bfe266783944d129a7f52e244d",
+      "line": 69,
+      "relation": "negativeCorrelation",
+      "source": 12,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "In our opinion, during the COVID-19 pandemic, it would be more prudent to replace these drugs, when possible, with calcium channel blockers, adrenergic receptor blockers, diuretics or vasodilators.",
+      "key": "db70eae3f39f2bad776a108790273774",
+      "line": 70,
+      "relation": "negativeCorrelation",
+      "source": 12,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "In our opinion, during the COVID-19 pandemic, it would be more prudent to replace these drugs, when possible, with calcium channel blockers, adrenergic receptor blockers, diuretics or vasodilators.",
+      "key": "32f594abe52284f91ae5a77314fb0650",
+      "line": 71,
+      "relation": "negativeCorrelation",
+      "source": 12,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "Surprisingly, the surface spike proteins of the ‘severe-acute-respiratory-syndrome-coronavirus-2′ (SARS-CoV-2), the etiological agent of the ongoing ‘coronavirus disease 2019’ (COVID-19), are able to bind the ACE2 receptors [2].",
+      "key": "1dc359b5ec8f3e4f9587fadffa430daa",
+      "line": 63,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 12
+    },
+    {
+      "key": "cc2d182e46a7afcbe8de0b32b4f87ed1",
+      "relation": "partOf",
+      "source": 10,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "Surprisingly, the surface spike proteins of the ‘severe-acute-respiratory-syndrome-coronavirus-2′ (SARS-CoV-2), the etiological agent of the ongoing ‘coronavirus disease 2019’ (COVID-19), are able to bind the ACE2 receptors [2].",
+      "key": "b9b65dc81cb8d4716ecee7d8ddf679d1",
+      "line": 64,
+      "relation": "association",
+      "source": 10,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "In our opinion, during the COVID-19 pandemic, it would be more prudent to replace these drugs, when possible, with calcium channel blockers, adrenergic receptor blockers, diuretics or vasodilators.",
+      "key": "bcfd8d3861e02805a96f77e9ce4c2dd3",
+      "line": 68,
+      "relation": "negativeCorrelation",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "In our opinion, during the COVID-19 pandemic, it would be more prudent to replace these drugs, when possible, with calcium channel blockers, adrenergic receptor blockers, diuretics or vasodilators.",
+      "key": "0f7e470770e46a8e5c868f4b7fe6fe96",
+      "line": 69,
+      "relation": "negativeCorrelation",
+      "source": 0,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "In our opinion, during the COVID-19 pandemic, it would be more prudent to replace these drugs, when possible, with calcium channel blockers, adrenergic receptor blockers, diuretics or vasodilators.",
+      "key": "773d9a938b7280cfea38b362bfe35571",
+      "line": 70,
+      "relation": "negativeCorrelation",
+      "source": 3,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Medical Hypothesis": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Gallo G",
+          "Manenti A",
+          "Palmieri B",
+          "Roncati L"
+        ],
+        "date": "2020-03-21",
+        "db": "PubMed",
+        "db_id": "32220710",
+        "db_name": "Medical hypotheses",
+        "first": "Roncati L",
+        "last": "Palmieri B",
+        "pages": "109686",
+        "volume": "140"
+      },
+      "evidence": "In our opinion, during the COVID-19 pandemic, it would be more prudent to replace these drugs, when possible, with calcium channel blockers, adrenergic receptor blockers, diuretics or vasodilators.",
+      "key": "9c44d3381e41e34785bd2b1ef029f237",
+      "line": 71,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "target": 12
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:\"adrenergic antagonist\")",
+      "concept": {
+        "name": "adrenergic antagonist",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "33c418e4f7dec618ad671ab614fe9209"
+    },
+    {
+      "bel": "a(CHEBI:\"calcium channel blocker\")",
+      "concept": {
+        "name": "calcium channel blocker",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "98245700e8951c00b75870533d689075"
+    },
+    {
+      "bel": "a(CHEBI:\"vasodilator agent\")",
+      "concept": {
+        "name": "vasodilator agent",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "6ae2cad0219e7f62b53c177b2f5d88fc"
+    },
+    {
+      "bel": "a(CHEBI:diuretic)",
+      "concept": {
+        "name": "diuretic",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "8adb88787b9a9bb620b7016063595e9e"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "bp(MESH:\"Blood Pressure\")",
+      "concept": {
+        "name": "Blood Pressure",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "fe4965bd3798a9aa6b28451e5d343b76"
+    },
+    {
+      "bel": "bp(MESH:\"Renin-Angiotensin System\")",
+      "concept": {
+        "name": "Renin-Angiotensin System",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "f80fbf58ffc396be8b673c9ad4850284"
+    },
+    {
+      "bel": "bp(MESH:\"Vascular Resistance\")",
+      "concept": {
+        "name": "Vascular Resistance",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "22be8cba806c0198756621d1b29ea673"
+    },
+    {
+      "bel": "bp(MESH:\"Water-Electrolyte Balance\")",
+      "concept": {
+        "name": "Water-Electrolyte Balance",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "56eb0aef14c404fd87b848792fd4dea6"
+    },
+    {
+      "bel": "complex(p(COVID:S), p(HGNC:ACE2))",
+      "function": "Complex",
+      "id": "6b8514d35b9a04dcfdf30d01d4a3a0a0",
+      "members": [
+        {
+          "bel": "p(COVID:S)",
+          "concept": {
+            "name": "S",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "8d090715298e11996081058536798c19"
+        },
+        {
+          "bel": "p(HGNC:ACE2)",
+          "concept": {
+            "name": "ACE2",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:hypertension)",
+      "concept": {
+        "name": "hypertension",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "53d5b8bd814074e87b1da1ff6250dcff"
+    },
+    {
+      "bel": "path(MESH:\"Diabetic Nephropathies\")",
+      "concept": {
+        "name": "Diabetic Nephropathies",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "99443e78b3d716e7f552b36cadd99f7d"
+    },
+    {
+      "bel": "path(MESH:\"Heart Failure\")",
+      "concept": {
+        "name": "Heart Failure",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "cb0270d343c264a55cf2e50111f267e9"
+    }
+  ]
+}

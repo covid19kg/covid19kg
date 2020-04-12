@@ -1,0 +1,167 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "19398035.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE ANNOTATION Custom_Species AS LIST  {"60711"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","19398035"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "We found that wild type 3a (3a-WT) protein localized to the plasma membrane (Fig. 1B and F), and also displayed a punctate cytoplasmic staining pattern (Fig. 1B and F)."
+SET CellLine = "VERO C1008 cell"
+SET Custom_Species = "60711"
+SET BioAssay = "immunocytochemistry"
+p(UNIPROT:P59632) -- a(GO:"plasma membrane")
+p(UNIPROT:P59632) -- a(GO:"cytoplasm")
+
+SET Evidence = "In contrast to 3a-WT, the 3a-CS mutant protein lost the plasma membrane localization and became more concentrated in the cytoplasm and the perinuclear region (Fig. 1C and F)."
+p(UNIPROT:P59632, var("p.Cys127Ser"), var("p.Cys130Ser"), var("p.Cys133Ser")) -- a(GO:"cytoplasm")
+p(UNIPROT:P59632, var("p.Cys127Ser"), var("p.Cys130Ser"), var("p.Cys133Ser")) -- a(GO:"perinuclear region of cytoplasm")
+
+SET Evidence = "Similarly, the plasma membrane localization of 3a-YA (Fig. 1D and F) and 3a-DE (Fig. 1E and F) mutants was partially reduced with a concomitant increase in cytoplasmic signals."
+p(UNIPROT:P59632, var("p.Tyr160Ala")) -- a(GO:"cytoplasm")
+p(UNIPROT:P59632, var("p.Glu171Ala"), var("p.Asp173Ala")) -- a(GO:"cytoplasm")
+
+SET Evidence = "Consistent with previous findings (Lawet al., 2005),we showed that up to 60% of 3a-WT-expressing Vero E6 cells displayed nuclear condensation (Fig. 2A)."
+p(UNIPROT:P59632) -> bp(GO:"chromosome condensation")
+
+SET Evidence = "When compared with 3a-WT,we observed a∼5-fold reduction of the number of condensed nuclei in cell population expressing the 3a-CS-YA-DE triple mutant protein (Fig. 2B)."
+p(UNIPROT:P59632, var("p.Cys127Ser"), var("p.Cys130Ser"), var("p.Cys133Ser"), var("p.Tyr160Ala"), var("p.Glu171Ala"), var("p.Asp173Ala")) -| bp(GO:"chromosome condensation")
+#triple mutant
+
+SET Evidence = "Unlike 3a-CS-YA-DE triple mutant, cells expressing single mutant proteins (3a-CS, 3a-DE and 3a-YA) displayed more prominent nuclear condensation (Fig. 2C)."
+p(UNIPROT:P59632, var("p.Cys127Ser"), var("p.Cys130Ser"), var("p.Cys133Ser")) -> bp(GO:"chromosome condensation")
+p(UNIPROT:P59632, var("p.Tyr160Ala")) -> bp(GO:"chromosome condensation")
+p(UNIPROT:P59632, var("p.Glu171Ala"), var("p.Asp173Ala")) -> bp(GO:"chromosome condensation")
+#when compared to triple mutant
+
+SET Evidence = "Here, we found that both caspase-8- and -9-specific inhibitors significantly suppressed nuclear condensation induced by 3a-WT in Vero E6 cells (Fig. 2C)."
+p(UNIPROT:P59632) -> act(p(UNIPROT:A0A0D9REG4))
+p(UNIPROT:P59632) -> act(p(UNIPROT:A0A0D9S8I4))
+act(p(UNIPROT:A0A0D9REG4)) -> bp(GO:"chromosome condensation")
+act(p(UNIPROT:A0A0D9S8I4)) -> bp(GO:"chromosome condensation")
+SET Evidence = "This indicates 3a triggers apoptosis through both the death receptor- and mitochondria-mediated pathways."
+p(UNIPROT:P59632) -> bp(GO:"extrinsic apoptotic signaling pathway via death domain receptors")
+p(UNIPROT:P59632) -> bp(GO:"intrinsic apoptotic signaling pathway")
+
+SET Evidence = "When we treated 3a-WT-expressing Vero E6 cells with a broad-spectrum caspase inhibitor z-VAD-fmk (Van Noorden, 2001) which blocks caspase-dependent apoptosis in general, a similar level of inhibition was again observed (Fig. 2D)."
+p(UNIPROT:P59632) -> bp(GO:"apoptotic process")
+UNSET BioAssay
+
+SET Evidence = "Consistent with the caspase inhibition results,we further showed that the activities of caspase-8 and -9 were significantly reduced in all 3a mutant expressing cells (Fig. 2E and F)."
+p(UNIPROT:P59632, var("p.Cys127Ser"), var("p.Cys130Ser"), var("p.Cys133Ser")) -| act(p(UNIPROT:A0A0D9REG4))
+p(UNIPROT:P59632, var("p.Tyr160Ala")) -| act(p(UNIPROT:A0A0D9REG4))
+p(UNIPROT:P59632, var("p.Glu171Ala"), var("p.Asp173Ala")) -| act(p(UNIPROT:A0A0D9REG4))
+p(UNIPROT:P59632, var("p.Cys127Ser"), var("p.Cys130Ser"), var("p.Cys133Ser")) -| act(p(UNIPROT:A0A0D9S8I4))
+p(UNIPROT:P59632, var("p.Tyr160Ala")) -| act(p(UNIPROT:A0A0D9S8I4))
+p(UNIPROT:P59632, var("p.Glu171Ala"), var("p.Asp173Ala")) -| act(p(UNIPROT:A0A0D9S8I4))
+
+SET Evidence = "Here, we show that 3a-WT protein induced Bid cleavage (Fig. 3A) and mitochondrial cytochrome c release (Fig. 3B)."
+SET BioAssay = "western blot"
+p(UNIPROT:P59632) -> act(p(UNIPROT:G4XXN2))
+p(UNIPROT:P59632) -> act(p(UNIPROT:A0A0D9RP74))
+UNSET CellLine
+UNSET Custom_Species
+UNSET BioAssay
+
+SET Evidence = "We previously reported that overexpression of 3a- WT protein caused a rough-eye phenotype, and the eye size was also reduced due to excessive cell death (Wong et al., 2005; Fig. 4B)."
+SET Species ="7227"
+SET MeSHAnatomy = "Eye"
+p(UNIPROT:P59632) -> path(HP:"Abnormal eye morphology")
+p(UNIPROT:P59632) -> bp(GO:"cell death")
+
+SET Evidence = "Nevertheless, we found that both 3a-WT (Fig. 4G) and 3a mutants (Fig. 4H–J) caused disruption of external eye morphology by scanning electron microscopy."
+SET BioAssay = "scanning electron microscopy"
+p(UNIPROT:P59632) -> path(HP:"Abnormal eye morphology")
+p(UNIPROT:P59632, var("p.Cys127Ser"), var("p.Cys130Ser"), var("p.Cys133Ser")) -> path(HP:"Abnormal eye morphology")
+p(UNIPROT:P59632, var("p.Tyr160Ala")) -> path(HP:"Abnormal eye morphology")
+p(UNIPROT:P59632, var("p.Glu171Ala"), var("p.Asp173Ala")) -> path(HP:"Abnormal eye morphology")
+UNSET BioAssay
+
+SET Evidence = "As previously reported (Wong et al., 2005), 3a-WT-expressing transgenic animals displayed an increased number of AO-positive cells (Fig. 5B) when compared to the gmr-GAL4 driver control (Fig. 5A)."
+p(UNIPROT:P59632) -> bp(GO:"apoptotic process")
+
+SET Evidence = "In contrast to 3a-WT, relatively few number of AO-positive cells were detected in 3a-CS, 3a-YA and 3a-DE mutant animals (Fig. 5C–E)."
+p(UNIPROT:P59632, var("p.Cys127Ser"), var("p.Cys130Ser"), var("p.Cys133Ser")) -| bp(GO:"apoptotic process")
+p(UNIPROT:P59632, var("p.Tyr160Ala")) -| bp(GO:"apoptotic process")
+p(UNIPROT:P59632, var("p.Glu171Ala"), var("p.Asp173Ala")) -| bp(GO:"apoptotic process")
+UNSET Species
+UNSET MeSHAnatomy
+
+SET Evidence = "Cells expressing 3a-WT-EGFP displayed a larger membrane current over the potential range (Fig. 6B) when compared to the mock transfected cells (Fig. 6A)."
+SET CellLine = "HEK293"
+SET BioAssay = "electrophysiological method"
+p(UNIPROT:P59632) -> bp(GO:"ion transport")
+p(UNIPROT:P59632) -> bp(GO:"ion channel activity")
+
+SET Evidence = "We also detected channel activities in 3a-YA-EGFP and 3a-DE-EGFP- expressing cells (Fig. 6C and D), however, the activities were found to be different from that observed in 3a- WT-EGFP-expressing cells."
+p(UNIPROT:P59632, var("p.Tyr160Ala")) -> bp(GO:"ion channel activity")
+p(UNIPROT:P59632, var("p.Glu171Ala"), var("p.Asp173Ala")) -> bp(GO:"ion channel activity")
+
+SET Evidence = "Notably, 3a-CS-EGFP-expressing cells displayed whole cell currents that were similar to that of mock transfected cells (Fig. 6E), indicating the 3a-CS mutant protein lacks ion channel activity."
+p(UNIPROT:P59632, var("p.Cys127Ser"), var("p.Cys130Ser"), var("p.Cys133Ser")) -| bp(GO:"ion transport")
+p(UNIPROT:P59632, var("p.Cys127Ser"), var("p.Cys130Ser"), var("p.Cys133Ser")) -| bp(GO:"ion channel activity")
+
+SET Evidence = "We further found that addition of ion channel blocker barium chloride (Ba) altered the cell membrane current mediated by 3a-WT-EGFP, 3a-YA-EGFP and 3a-DE-EGFP proteins (Fig. 6B–D)."
+p(UNIPROT:P59632) isA a(MESH:"Ion Channels")
+p(UNIPROT:P59632, var("p.Tyr160Ala")) isA a(MESH:"Ion Channels")
+p(UNIPROT:P59632, var("p.Glu171Ala"), var("p.Asp173Ala")) isA a(MESH:"Ion Channels")
+UNSET CellLine
+UNSET BioAssay
+
+SET Evidence = "To intervene the ion channel function we treated 3a-WT-transfected Vero E6 cells with ion channel blockers, 4-aminopyridine (AP) or Ba, and found that both inhibitors were able to suppress 3a-WT-induced nuclear condensation (Fig. 6F)."
+SET CellLine = "VERO C1008 cell"
+p(UNIPROT:P59632) -> bp(GO:"ion transport")
+p(UNIPROT:P59632) -> bp(GO:"ion channel activity")
+bp(GO:"ion channel activity") -> bp(GO:"chromosome condensation")
+UNSET CellLine
+
+SET Evidence = "It has previously been shown that the C133S point mutation (Lu et al., 2006) compromised 3a’s ion channel activity."
+p(UNIPROT:P59632, var("p.Cys133Ser")) -| bp(GO:"ion channel activity")
+
+SET Evidence = "We found that the number of AO positive cells was largely reduced in 3a-WT-expressing larvae that were treated with Ba (Fig. 7C) when compared to the untreated control (Fig. 7B)."
+SET Species ="7227"
+SET MeSHAnatomy = "Eye"
+p(UNIPROT:P59632) -> bp(GO:"ion transport")
+p(UNIPROT:P59632) -> bp(GO:"ion channel activity")
+bp(GO:"ion channel activity") -> bp(GO:"apoptotic process")
+UNSET Species
+UNSET MeSHAnatomy
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

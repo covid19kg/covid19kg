@@ -1,0 +1,1685 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ],
+      "Technique": [
+        "computed tomography"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Abish K",
+      "contact": "abish@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32173576.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {},
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32173576.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Most patients presented cough and fever (mainly low fever, temperature ranges from 37.3 to 38.0) (Table 1). Four patients had the symptom of productive cough (white phlegm) and sore throat. Three patients reported headache and nausea. One patient only existed chest congestion (patient 7).",
+      "key": "4c9a1ae40f0ad0ba9056cc532f36440a",
+      "line": 51,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Most patients presented cough and fever (mainly low fever, temperature ranges from 37.3 to 38.0) (Table 1). Four patients had the symptom of productive cough (white phlegm) and sore throat. Three patients reported headache and nausea. One patient only existed chest congestion (patient 7).",
+      "key": "7675ccac96569c45184dcf183b358b3f",
+      "line": 52,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Most patients presented cough and fever (mainly low fever, temperature ranges from 37.3 to 38.0) (Table 1). Four patients had the symptom of productive cough (white phlegm) and sore throat. Three patients reported headache and nausea. One patient only existed chest congestion (patient 7).",
+      "key": "9910ecfc7c5d9691a58e932dce2cdac5",
+      "line": 53,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Most patients presented cough and fever (mainly low fever, temperature ranges from 37.3 to 38.0) (Table 1). Four patients had the symptom of productive cough (white phlegm) and sore throat. Three patients reported headache and nausea. One patient only existed chest congestion (patient 7).",
+      "key": "3f732a1203cd6a1899e7dd3335da9621",
+      "line": 54,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Most patients presented cough and fever (mainly low fever, temperature ranges from 37.3 to 38.0) (Table 1). Four patients had the symptom of productive cough (white phlegm) and sore throat. Three patients reported headache and nausea. One patient only existed chest congestion (patient 7).",
+      "key": "d8f44bebba4fa3650e9c1eb6ac7e03e4",
+      "line": 55,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Leukopenia (less than 3.5×10 9 leucocytes per liter) and lymphopenia (less than 1.1×10 9 lymphocytes per liter) were observed in two patients, respectively.",
+      "key": "68ba0b2ef7722696cfd4cc38264f203d",
+      "line": 61,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Leukopenia (less than 3.5×10 9 leucocytes per liter) and lymphopenia (less than 1.1×10 9 lymphocytes per liter) were observed in two patients, respectively.",
+      "key": "c20a91d7ff6b01942c65bcbfff2b5e42",
+      "line": 62,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "computed tomography": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "The main abnormalities in chest CT images were air-space shadowing: patchy ground-glass opacities (in patients 2, 3, 6 and 9) (Figure 2A) or patchy hyperdense areas (patients 1, 4, 5, 8 and 10) (Figure 2B) on the initial chest radiograph. The radiographic opacities were mostly in the lower lung zones (patients 1, 2, 3, 4, 5, 6, 8 and 9).",
+      "key": "97b3ba9ad7d8122c926f7f02ff08dba6",
+      "line": 71,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Patient 6 presented with pleural effusions.",
+      "key": "098f598b3fabebb80f32a2d6df6acbf0",
+      "line": 77,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "The eosinophil values of patients 1, 2 and 3 were all less than the lower bound of normal range before they were transferred to the First Affiliated Hospital of Zhejiang University (Figure 4).",
+      "key": "12c1ea45581d24e3ed56c7df2d940b09",
+      "line": 84,
+      "relation": "negativeCorrelation",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "During the period of lower eosinophil, SARS-CoV-2-RNA presented positive, and after eosinophil increased to normal, SARS-CoV-2- RNA turned to negative within 5 days, except for patient 6 (11 days).",
+      "key": "089949e399c925f4261e1c99510d6401",
+      "line": 91,
+      "relation": "association",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Most values of C-reactive protein (CRP, normal range: 0–10 mg/L) were above the upper bound of normal range, and over half of the fibrinogen levels (FIB, normal range: 1.8–3.5 g/L) were high during the observed period (Figure 3).",
+      "key": "bfb6973fa36a151f96a7a429b5ab5efd",
+      "line": 98,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Most patients presented cough and fever (mainly low fever, temperature ranges from 37.3 to 38.0) (Table 1). Four patients had the symptom of productive cough (white phlegm) and sore throat. Three patients reported headache and nausea. One patient only existed chest congestion (patient 7).",
+      "key": "9a471f9f0562c1b033bd36fbc59d7742",
+      "line": 51,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Most patients presented cough and fever (mainly low fever, temperature ranges from 37.3 to 38.0) (Table 1). Four patients had the symptom of productive cough (white phlegm) and sore throat. Three patients reported headache and nausea. One patient only existed chest congestion (patient 7).",
+      "key": "f709b1b9098e00adc0b149050f7d1bfd",
+      "line": 52,
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Most patients presented cough and fever (mainly low fever, temperature ranges from 37.3 to 38.0) (Table 1). Four patients had the symptom of productive cough (white phlegm) and sore throat. Three patients reported headache and nausea. One patient only existed chest congestion (patient 7).",
+      "key": "9d7d975610b212ad7301ee0c52712bac",
+      "line": 53,
+      "relation": "positiveCorrelation",
+      "source": 10,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Most patients presented cough and fever (mainly low fever, temperature ranges from 37.3 to 38.0) (Table 1). Four patients had the symptom of productive cough (white phlegm) and sore throat. Three patients reported headache and nausea. One patient only existed chest congestion (patient 7).",
+      "key": "7d1d41472b69f0706d2292317b4a7230",
+      "line": 54,
+      "relation": "positiveCorrelation",
+      "source": 14,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Most patients presented cough and fever (mainly low fever, temperature ranges from 37.3 to 38.0) (Table 1). Four patients had the symptom of productive cough (white phlegm) and sore throat. Three patients reported headache and nausea. One patient only existed chest congestion (patient 7).",
+      "key": "38764e79d8e44f9d2bdac350cbc442c6",
+      "line": 55,
+      "relation": "positiveCorrelation",
+      "source": 17,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Leukopenia (less than 3.5×10 9 leucocytes per liter) and lymphopenia (less than 1.1×10 9 lymphocytes per liter) were observed in two patients, respectively.",
+      "key": "c494daf6adf7acd780fb5a242df67464",
+      "line": 61,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Leukopenia (less than 3.5×10 9 leucocytes per liter) and lymphopenia (less than 1.1×10 9 lymphocytes per liter) were observed in two patients, respectively.",
+      "key": "6523d5c3d66de0cd8bc0bffd4eafdc7a",
+      "line": 62,
+      "relation": "positiveCorrelation",
+      "source": 16,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "computed tomography": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "The main abnormalities in chest CT images were air-space shadowing: patchy ground-glass opacities (in patients 2, 3, 6 and 9) (Figure 2A) or patchy hyperdense areas (patients 1, 4, 5, 8 and 10) (Figure 2B) on the initial chest radiograph. The radiographic opacities were mostly in the lower lung zones (patients 1, 2, 3, 4, 5, 6, 8 and 9).",
+      "key": "e308e32a6858ba2e4226e7f1a166ad74",
+      "line": 71,
+      "relation": "positiveCorrelation",
+      "source": 9,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Patient 6 presented with pleural effusions.",
+      "key": "958b652adf0958109728c39dbfe94f37",
+      "line": 77,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "The eosinophil values of patients 1, 2 and 3 were all less than the lower bound of normal range before they were transferred to the First Affiliated Hospital of Zhejiang University (Figure 4).",
+      "key": "f08f27bbb72a317f28b26e4c3c47bd65",
+      "line": 84,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "During the period of lower eosinophil, SARS-CoV-2-RNA presented positive, and after eosinophil increased to normal, SARS-CoV-2- RNA turned to negative within 5 days, except for patient 6 (11 days).",
+      "key": "d137bc4b997677b22e0d36bc4a01d918",
+      "line": 90,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "During the period of lower eosinophil, SARS-CoV-2-RNA presented positive, and after eosinophil increased to normal, SARS-CoV-2- RNA turned to negative within 5 days, except for patient 6 (11 days).",
+      "key": "5f0063661e55583e5c806f5a2dc403e4",
+      "line": 90,
+      "relation": "negativeCorrelation",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "During the period of lower eosinophil, SARS-CoV-2-RNA presented positive, and after eosinophil increased to normal, SARS-CoV-2- RNA turned to negative within 5 days, except for patient 6 (11 days).",
+      "key": "8e7dd1e1f5a1f9bd6f268331edff5e24",
+      "line": 91,
+      "relation": "association",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Most values of C-reactive protein (CRP, normal range: 0–10 mg/L) were above the upper bound of normal range, and over half of the fibrinogen levels (FIB, normal range: 1.8–3.5 g/L) were high during the observed period (Figure 3).",
+      "key": "db052ace1e9caf9916a3ad8a59b9e118",
+      "line": 98,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Patients 1 and 2 had severe digestive adverse effect (diarrhea and emesis) and hypokalemia within four days of treatment (LPV + interferon α2b).",
+      "key": "642636778c35ee4d43a1ff7fc48bb616",
+      "line": 104,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Patients 1 and 2 had severe digestive adverse effect (diarrhea and emesis) and hypokalemia within four days of treatment (LPV + interferon α2b).",
+      "key": "362449cb7a19e0094ab8b45415453922",
+      "line": 105,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Patients 1 and 2 had severe digestive adverse effect (diarrhea and emesis) and hypokalemia within four days of treatment (LPV + interferon α2b).",
+      "key": "6d0a12526b0529aa0043f45584583cf0",
+      "line": 106,
+      "relation": "positiveCorrelation",
+      "source": 4,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Technique": {
+          "computed tomography": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "The opacities on CT images of patients 4, 5, 9 and 10 improved persistently after eight, seven, six and seven days of LPV-combined regimen exposure, respectively.",
+      "key": "b6f840f735b41181910e8e896169aca1",
+      "line": 113,
+      "relation": "decreases",
+      "source": 4,
+      "target": 9
+    },
+    {
+      "key": "948013d131d356a39115e410a6076556",
+      "relation": "partOf",
+      "source": 0,
+      "target": 4
+    },
+    {
+      "key": "c23f1125a5138d87f49a8674a95ac887",
+      "relation": "partOf",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Patients 1 and 2 had severe digestive adverse effect (diarrhea and emesis) and hypokalemia within four days of treatment (LPV + interferon α2b).",
+      "key": "d28fe01d4ac4557eb26f84c93853ca95",
+      "line": 104,
+      "relation": "positiveCorrelation",
+      "source": 7,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Patients 1 and 2 had severe digestive adverse effect (diarrhea and emesis) and hypokalemia within four days of treatment (LPV + interferon α2b).",
+      "key": "7a7241b1877c66c5f5d1c7858d92d8e0",
+      "line": 105,
+      "relation": "positiveCorrelation",
+      "source": 18,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Liu F",
+          "Pan K",
+          "Xu A",
+          "Xuan W",
+          "Yan T",
+          "Yu W",
+          "Zhang J",
+          "Zhang Y"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32173576",
+        "db_name": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+        "first": "Liu F",
+        "last": "Zhang J"
+      },
+      "evidence": "Patients 1 and 2 had severe digestive adverse effect (diarrhea and emesis) and hypokalemia within four days of treatment (LPV + interferon α2b).",
+      "key": "46b5ddff41e6f144521cf2acc4cd2290",
+      "line": 106,
+      "relation": "positiveCorrelation",
+      "source": 8,
+      "target": 4
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:lopinavir)",
+      "concept": {
+        "name": "lopinavir",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "540f0a29f78ff437222f25e1c2e1b0fd"
+    },
+    {
+      "bel": "a(MESH:\"interferon alfa-2b\")",
+      "concept": {
+        "name": "interferon alfa-2b",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "9a01bfb835a0d9db69aafe2f09824830"
+    },
+    {
+      "bel": "a(MESH:Eosinophils)",
+      "concept": {
+        "name": "Eosinophils",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "346cce1a6d7435f0f8f5fea088da8b61"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "composite(a(CHEBI:lopinavir), a(MESH:\"interferon alfa-2b\"))",
+      "function": "Composite",
+      "id": "9cd8f845fc2a8578bcc4d7863f60a02d",
+      "members": [
+        {
+          "bel": "a(CHEBI:lopinavir)",
+          "concept": {
+            "name": "lopinavir",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "540f0a29f78ff437222f25e1c2e1b0fd"
+        },
+        {
+          "bel": "a(MESH:\"interferon alfa-2b\")",
+          "concept": {
+            "name": "interferon alfa-2b",
+            "namespace": "MESH"
+          },
+          "function": "Abundance",
+          "id": "9a01bfb835a0d9db69aafe2f09824830"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:CRP)",
+      "concept": {
+        "name": "CRP",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "b2238c9ec2ce73112c0f44c8375b7acb"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:diarrhea)",
+      "concept": {
+        "name": "diarrhea",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "f53fc3580f7450b941e98608ca05fddb"
+    },
+    {
+      "bel": "path(DO:hypokalemia)",
+      "concept": {
+        "name": "hypokalemia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "d787766a73d0bfa95dacdeebe413678c"
+    },
+    {
+      "bel": "path(HP:\"Ground-glass opacification on pulmonary HRCT\")",
+      "concept": {
+        "name": "Ground-glass opacification on pulmonary HRCT",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "84ff186012d6eb9a071d53766af91a2e"
+    },
+    {
+      "bel": "path(HP:phlegm)",
+      "concept": {
+        "name": "phlegm",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "52b14a1b0a842cd6e191b6b1cec3afd3"
+    },
+    {
+      "bel": "path(MESH:\"Pleural Effusion\")",
+      "concept": {
+        "name": "Pleural Effusion",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "9761c9c1a1fa2647ef363d4aa1fa9a97"
+    },
+    {
+      "bel": "path(MESH:Cough)",
+      "concept": {
+        "name": "Cough",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "9fee4f29ebce7356ac1721785693b80c"
+    },
+    {
+      "bel": "path(MESH:Fever)",
+      "concept": {
+        "name": "Fever",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "ffc74da80b64d7057f4eff0e06cdd1b6"
+    },
+    {
+      "bel": "path(MESH:Headache)",
+      "concept": {
+        "name": "Headache",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "2a9db847bd9248b92260deeecc169912"
+    },
+    {
+      "bel": "path(MESH:Leukopenia)",
+      "concept": {
+        "name": "Leukopenia",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "c83d72bd9c0228f683cc2513a6de793e"
+    },
+    {
+      "bel": "path(MESH:Lymphopenia)",
+      "concept": {
+        "name": "Lymphopenia",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "5409b4ca69266591bf641701b8b404c3"
+    },
+    {
+      "bel": "path(MESH:Nausea)",
+      "concept": {
+        "name": "Nausea",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "41e2b9e6454d4c63a3654236ce97040f"
+    },
+    {
+      "bel": "path(MESH:Vomiting)",
+      "concept": {
+        "name": "Vomiting",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "364ae88ab20bb2e8a9fd696110a8f558"
+    }
+  ]
+}

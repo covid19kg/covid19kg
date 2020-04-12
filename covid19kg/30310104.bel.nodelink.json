@@ -1,0 +1,668 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_CellLine": [
+        "RhiLu-ACE2 cell"
+      ],
+      "Custom_Species": [
+        "42415",
+        "9925",
+        "9940"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ],
+      "Timeline": [
+        "24 hours",
+        "72 hours"
+      ],
+      "Treatment": [
+        "Type 1 IFN alpha"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "Cell": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno",
+      "CellLine": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno",
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Geena Mariya Jose",
+      "contact": "geena.mariya.jose@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "30310104.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "NCBIGENE": ".*"
+    },
+    "namespace_url": {
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "30310104.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "CellLine": {
+          "Vero cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "72 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ameneiros RS",
+          "Balboni A",
+          "Battilani M",
+          "Binger T",
+          "Corman VM",
+          "Dijkman R",
+          "Drexler JF",
+          "Drosten C",
+          "Gloza-Rausch F",
+          "Gottula LT",
+          "Muth D",
+          "Müller MA",
+          "Pfeifer A",
+          "Rihtarič D",
+          "Roth H",
+          "Thiel V",
+          "Toplak I"
+        ],
+        "date": "2018-10-11",
+        "db": "PubMed",
+        "db_id": "30310104",
+        "db_name": "Scientific reports",
+        "first": "Muth D",
+        "last": "Drosten C",
+        "pages": "15177",
+        "volume": "8"
+      },
+      "evidence": "72 h post infection (hpi), rSCV8full, rSCVepi and rSCVdel8–2 gave evidence of replication by real-time RT-PCR, while rSCVdel8–1 RNA increased more slowly, reaching a plateau level only by 96 hpi.",
+      "key": "624819a324ebb0b6d48cb3629ca5c993",
+      "line": 56,
+      "relation": "increases",
+      "source": 3,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Vero cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "72 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ameneiros RS",
+          "Balboni A",
+          "Battilani M",
+          "Binger T",
+          "Corman VM",
+          "Dijkman R",
+          "Drexler JF",
+          "Drosten C",
+          "Gloza-Rausch F",
+          "Gottula LT",
+          "Muth D",
+          "Müller MA",
+          "Pfeifer A",
+          "Rihtarič D",
+          "Roth H",
+          "Thiel V",
+          "Toplak I"
+        ],
+        "date": "2018-10-11",
+        "db": "PubMed",
+        "db_id": "30310104",
+        "db_name": "Scientific reports",
+        "first": "Muth D",
+        "last": "Drosten C",
+        "pages": "15177",
+        "volume": "8"
+      },
+      "evidence": "72 h post infection (hpi), rSCV8full, rSCVepi and rSCVdel8–2 gave evidence of replication by real-time RT-PCR, while rSCVdel8–1 RNA increased more slowly, reaching a plateau level only by 96 hpi.",
+      "key": "6be1a5da0b9837b19d1d43410a0e7d83",
+      "line": 58,
+      "relation": "association",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "western blot": true
+        },
+        "CellLine": {
+          "Vero cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ameneiros RS",
+          "Balboni A",
+          "Battilani M",
+          "Binger T",
+          "Corman VM",
+          "Dijkman R",
+          "Drexler JF",
+          "Drosten C",
+          "Gloza-Rausch F",
+          "Gottula LT",
+          "Muth D",
+          "Müller MA",
+          "Pfeifer A",
+          "Rihtarič D",
+          "Roth H",
+          "Thiel V",
+          "Toplak I"
+        ],
+        "date": "2018-10-11",
+        "db": "PubMed",
+        "db_id": "30310104",
+        "db_name": "Scientific reports",
+        "first": "Muth D",
+        "last": "Drosten C",
+        "pages": "15177",
+        "volume": "8"
+      },
+      "evidence": "Western blot analyses showed that rSCV8full, rSCVepi, as well as rSCVdel8–2 expressed similar amounts of the nucleocapsid protein, while no expression was seen in cells infected with rSCVdel8–1 (Fig. 1b).",
+      "key": "42bc11ab1293d8419f52ebbf047f4c23",
+      "line": 63,
+      "relation": "increases",
+      "source": 3,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "titration method": true
+        },
+        "CellLine": {
+          "Vero cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ameneiros RS",
+          "Balboni A",
+          "Battilani M",
+          "Binger T",
+          "Corman VM",
+          "Dijkman R",
+          "Drexler JF",
+          "Drosten C",
+          "Gloza-Rausch F",
+          "Gottula LT",
+          "Muth D",
+          "Müller MA",
+          "Pfeifer A",
+          "Rihtarič D",
+          "Roth H",
+          "Thiel V",
+          "Toplak I"
+        ],
+        "date": "2018-10-11",
+        "db": "PubMed",
+        "db_id": "30310104",
+        "db_name": "Scientific reports",
+        "first": "Muth D",
+        "last": "Drosten C",
+        "pages": "15177",
+        "volume": "8"
+      },
+      "evidence": "rSCV8full grew significantly more efficiently than both other variants at 24 hpi (p < 0.05 and p < 0.001 comparing to rSCVepi and rSCVdel8, respectively, using t-Test)",
+      "key": "31a7df22c56df132dc119a9b97885a49",
+      "line": 68,
+      "relation": "increases",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "titration method": true
+        },
+        "Custom_CellLine": {
+          "RhiLu-ACE2 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ameneiros RS",
+          "Balboni A",
+          "Battilani M",
+          "Binger T",
+          "Corman VM",
+          "Dijkman R",
+          "Drexler JF",
+          "Drosten C",
+          "Gloza-Rausch F",
+          "Gottula LT",
+          "Muth D",
+          "Müller MA",
+          "Pfeifer A",
+          "Rihtarič D",
+          "Roth H",
+          "Thiel V",
+          "Toplak I"
+        ],
+        "date": "2018-10-11",
+        "db": "PubMed",
+        "db_id": "30310104",
+        "db_name": "Scientific reports",
+        "first": "Muth D",
+        "last": "Drosten C",
+        "pages": "15177",
+        "volume": "8"
+      },
+      "evidence": "As shown in Fig. 3g, the same hierarchy of viral replication levels as in VeroFM cells was observed (rSCV8full > rSCVepi > rSCVdel8)",
+      "key": "d194b0a203cae18f36375a162316d04d",
+      "line": 85,
+      "relation": "increases",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "titration method": true
+        },
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "Custom_Species": {
+          "42415": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ameneiros RS",
+          "Balboni A",
+          "Battilani M",
+          "Binger T",
+          "Corman VM",
+          "Dijkman R",
+          "Drexler JF",
+          "Drosten C",
+          "Gloza-Rausch F",
+          "Gottula LT",
+          "Muth D",
+          "Müller MA",
+          "Pfeifer A",
+          "Rihtarič D",
+          "Roth H",
+          "Thiel V",
+          "Toplak I"
+        ],
+        "date": "2018-10-11",
+        "db": "PubMed",
+        "db_id": "30310104",
+        "db_name": "Scientific reports",
+        "first": "Muth D",
+        "last": "Drosten C",
+        "pages": "15177",
+        "volume": "8"
+      },
+      "evidence": "Again the same hierarchy of viral replication levels, namely rSCV8full > rSCVepi > rSCVdel8, was observed at 24 hpi (Fig. 4b).",
+      "key": "960c78ede3a7293c9695adec99d0f58e",
+      "line": 91,
+      "relation": "increases",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "titration method": true
+        },
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ameneiros RS",
+          "Balboni A",
+          "Battilani M",
+          "Binger T",
+          "Corman VM",
+          "Dijkman R",
+          "Drexler JF",
+          "Drosten C",
+          "Gloza-Rausch F",
+          "Gottula LT",
+          "Muth D",
+          "Müller MA",
+          "Pfeifer A",
+          "Rihtarič D",
+          "Roth H",
+          "Thiel V",
+          "Toplak I"
+        ],
+        "date": "2018-10-11",
+        "db": "PubMed",
+        "db_id": "30310104",
+        "db_name": "Scientific reports",
+        "first": "Muth D",
+        "last": "Drosten C",
+        "pages": "15177",
+        "volume": "8"
+      },
+      "evidence": "At both time points rSCV8full replicated to significantly higher titers than rSCVepi or rSCVdel8 in HAE (Fig. 4c).",
+      "key": "ec0beda8f12d1604805803f360da945d",
+      "line": 103,
+      "relation": "increases",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Vero cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "72 hours": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ameneiros RS",
+          "Balboni A",
+          "Battilani M",
+          "Binger T",
+          "Corman VM",
+          "Dijkman R",
+          "Drexler JF",
+          "Drosten C",
+          "Gloza-Rausch F",
+          "Gottula LT",
+          "Muth D",
+          "Müller MA",
+          "Pfeifer A",
+          "Rihtarič D",
+          "Roth H",
+          "Thiel V",
+          "Toplak I"
+        ],
+        "date": "2018-10-11",
+        "db": "PubMed",
+        "db_id": "30310104",
+        "db_name": "Scientific reports",
+        "first": "Muth D",
+        "last": "Drosten C",
+        "pages": "15177",
+        "volume": "8"
+      },
+      "evidence": "72 h post infection (hpi), rSCV8full, rSCVepi and rSCVdel8–2 gave evidence of replication by real-time RT-PCR, while rSCVdel8–1 RNA increased more slowly, reaching a plateau level only by 96 hpi.",
+      "key": "6320422cc32493559c1b7d8644106895",
+      "line": 58,
+      "relation": "association",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "titration method": true
+        },
+        "CellLine": {
+          "Vero cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        },
+        "Timeline": {
+          "24 hours": true
+        },
+        "Treatment": {
+          "Type 1 IFN alpha": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ameneiros RS",
+          "Balboni A",
+          "Battilani M",
+          "Binger T",
+          "Corman VM",
+          "Dijkman R",
+          "Drexler JF",
+          "Drosten C",
+          "Gloza-Rausch F",
+          "Gottula LT",
+          "Muth D",
+          "Müller MA",
+          "Pfeifer A",
+          "Rihtarič D",
+          "Roth H",
+          "Thiel V",
+          "Toplak I"
+        ],
+        "date": "2018-10-11",
+        "db": "PubMed",
+        "db_id": "30310104",
+        "db_name": "Scientific reports",
+        "first": "Muth D",
+        "last": "Drosten C",
+        "pages": "15177",
+        "volume": "8"
+      },
+      "evidence": "At 24 h p.i., rSCV8full grew to titers 30 times higher than rSCVdel8 (Fig. 2b)",
+      "key": "1c2d3711b63aa645b9134ff38daff5ee",
+      "line": 78,
+      "relation": "increases",
+      "source": 1,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Vero cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Ameneiros RS",
+          "Balboni A",
+          "Battilani M",
+          "Binger T",
+          "Corman VM",
+          "Dijkman R",
+          "Drexler JF",
+          "Drosten C",
+          "Gloza-Rausch F",
+          "Gottula LT",
+          "Muth D",
+          "Müller MA",
+          "Pfeifer A",
+          "Rihtarič D",
+          "Roth H",
+          "Thiel V",
+          "Toplak I"
+        ],
+        "date": "2018-10-11",
+        "db": "PubMed",
+        "db_id": "30310104",
+        "db_name": "Scientific reports",
+        "first": "Muth D",
+        "last": "Drosten C",
+        "pages": "15177",
+        "volume": "8"
+      },
+      "evidence": "Due to the essential role of the type I IFN system in the restriction of virus infection, it was tested whether the ORF8-dependent replication phenotype might be linked to the type I IFN response.",
+      "key": "80c948b9384dc0bf66ad36e0e149514b",
+      "line": 72,
+      "relation": "decreases",
+      "source": 4,
+      "target": 5
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(MESH:\"Nucleocapsid Proteins\")",
+      "concept": {
+        "name": "Nucleocapsid Proteins",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "be11ff99b6a821da3bb32c57f289b4a1"
+    },
+    {
+      "bel": "a(TAX:\"recombinant SARS coronavirus\")",
+      "concept": {
+        "name": "recombinant SARS coronavirus",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "b373b179cfaa66dcc72c14f9c2cb728d"
+    },
+    {
+      "bel": "bp(GO:\"viral RNA genome replication\")",
+      "concept": {
+        "name": "viral RNA genome replication",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "c6475238746aa09a1cac45675b0349fb"
+    },
+    {
+      "bel": "g(NCBIGENE:43740577)",
+      "concept": {
+        "name": "43740577",
+        "namespace": "NCBIGENE"
+      },
+      "function": "Gene",
+      "id": "bb2cd7eda459783bf5338989dc786247"
+    },
+    {
+      "bel": "path(HP:\"type I interferon\")",
+      "concept": {
+        "name": "type I interferon",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "b0f2950ee0c4564119605df7aafb5bd3"
+    },
+    {
+      "bel": "path(MESH:\"Virus Replication\")",
+      "concept": {
+        "name": "Virus Replication",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "5e513772ef3f1f2bafe1df69ef149abc"
+    }
+  ]
+}

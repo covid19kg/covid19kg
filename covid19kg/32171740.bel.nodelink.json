@@ -1,0 +1,3128 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "CellCulture": [
+        "HCoV-O43",
+        "U937"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "CellLine": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno",
+      "Disease": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/disease/disease-20190128.belanno",
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno",
+      "MeSHDisease": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+    },
+    "document_metadata": {
+      "authors": "Yojana Gadiya",
+      "contact": "yojana.gadiya@scai.fraunhofer.de",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "New Insights on the Antiviral Effects of Chloroquine Against Coronavirus: What to Expect for COVID-19?",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "PMID_32171740",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "NCBIGENE": ".*"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GFAM": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "GOBP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns",
+      "GOCC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20190128.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+    },
+    "path": "32171740.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41].",
+      "key": "fdd76c39bec968b9bb300ab3fe732aab",
+      "line": 96,
+      "relation": "decreases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 14
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41].",
+      "key": "d48fdfa1a7d942078b500cc713640124",
+      "line": 97,
+      "relation": "decreases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 22
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41].",
+      "key": "a9015754285f637e21736de34820d99f",
+      "line": 98,
+      "relation": "decreases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 19
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41].",
+      "key": "dc1787e34b512211481db0e45d08972f",
+      "line": 99,
+      "relation": "decreases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 7
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41].",
+      "key": "46f3952ddfa34ff20ba0d24ba8bbc44d",
+      "line": 100,
+      "relation": "decreases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 20
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41].",
+      "key": "95280e41c66c1203f0f63a2c415118ae",
+      "line": 101,
+      "relation": "decreases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 74
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41].",
+      "key": "bc2a57f99a14f06eb83c098f26b48800",
+      "line": 102,
+      "relation": "decreases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 11
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41].",
+      "key": "23639be22d03777f94278e91eb99235d",
+      "line": 103,
+      "relation": "decreases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 10
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41].",
+      "key": "3ac3483512aaec77d6110758574212a7",
+      "line": 104,
+      "relation": "decreases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 2
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Vero cell": true
+        },
+        "MeSHAnatomy": {
+          "Endosomes": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Due to the alkalisation of endosomes, chloroquine was an effective in vitro treatment against Chikungunya virus when added to Vero cells prior to virus exposure [30].",
+      "key": "b60c1962fd5cbad4053bffcc9efbff32",
+      "line": 148,
+      "relation": "decreases",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41].",
+      "key": "43a0f005cc7565b3d60b2f469ed63b02",
+      "line": 105,
+      "relation": "decreases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 4
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41].",
+      "key": "3861492eefe7263164ced6e442b9c396",
+      "line": 106,
+      "relation": "decreases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 16
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41].",
+      "key": "7de6b8d5b88da602a6f2f06fcc1a72f4",
+      "line": 107,
+      "relation": "decreases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 12
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41].",
+      "key": "21d9e117e9e86db1dbda2df308289550",
+      "line": 108,
+      "relation": "decreases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 6
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41].",
+      "key": "dd99fbe17022817e1d669022bc50b24f",
+      "line": 109,
+      "relation": "decreases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 13
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41].",
+      "key": "a761f31333aa890fb664f4833a409c77",
+      "line": 110,
+      "relation": "decreases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 5
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41].",
+      "key": "21a599dc62e215d29ca25d73b04db250",
+      "line": 111,
+      "relation": "decreases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 18
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41].",
+      "key": "91821393924b9c92cce28ac1d4e3d15a",
+      "line": 112,
+      "relation": "decreases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 8
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In vitro, chloroquine appears as a versatile bioactive agent reported to possess antiviral activity against RNA viruses as diverse as rabies virus [16], poliovirus [17], HIV [12,[18], [19], [20], hepatitis A virus [21,22], hepatitis C virus [23], influenza A and B viruses [24], [25], [26], [27], influenza A H5N1 virus [28], Chikungunya virus [29], [30], [31], Dengue virus [32,33], Zika virus [34], Lassa virus [35], Hendra and Nipah viruses [36,37], Crimean–Congo hemorrhagic fever virus [38] and Ebola virus [39], as well as various DNA viruses such as hepatitis B virus [40] and herpes simplex virus [41].",
+      "key": "8e0dbb4f7c785bb31b72f234d707c8d0",
+      "line": 113,
+      "relation": "decreases",
+      "source": 1,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 23
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Although the long use of this drug in malaria therapy demonstrates the safety of acute chloroquine administration to humans, one cannot ignore the minor risk of macular retinopathy, which depends on the cumulative dose [52], and the existence of some reports on cardiomyopathy as a severe adverse effect caused by chloroquine [53,54].",
+      "key": "9a76e6fd30ba30ab3d092499dbe95733",
+      "line": 116,
+      "relation": "increases",
+      "source": 1,
+      "target": 71
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Although the long use of this drug in malaria therapy demonstrates the safety of acute chloroquine administration to humans, one cannot ignore the minor risk of macular retinopathy, which depends on the cumulative dose [52], and the existence of some reports on cardiomyopathy as a severe adverse effect caused by chloroquine [53,54].",
+      "key": "0769815c016d1c0f31480c73244f87f4",
+      "line": 117,
+      "relation": "increases",
+      "source": 1,
+      "target": 72
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine can inhibit a pre-entry step of the viral cycle by interfering with viral particles binding to their cellular cell surface receptor.",
+      "key": "9c9de10bdcb6cb6db2c7000b1fbfb028",
+      "line": 120,
+      "relation": "decreases",
+      "source": 1,
+      "target": 41
+    },
+    {
+      "annotations": {
+        "CellCulture": {
+          "HCoV-O43": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine was shown to inhibit quinone reductase 2 [56], a structural neighbour of UDP-N-acetylglucosamine 2-epimerases [57] that are involved in the biosynthesis of sialic acids. The sialic acids are acidic monosaccharides found at the extremity of sugar chains present on cell transmembrane proteins and are critical components of ligand recognition. The possible interference of chloroquine with sialic acid biosynthesis could account for the broad antiviral spectrum of that drug since viruses such as the human coronavirus HCoV-O43 and the orthomyxoviruses use sialic acid moieties as receptors [58].",
+      "key": "78d65dd8a4e6ed26050b66e45b9082b6",
+      "line": 125,
+      "relation": "decreases",
+      "source": 1,
+      "target": 65
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Vero cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "The potent anti-SARS-CoV-1 effects of chloroquine in vitro were considered attributable to a deficit in the glycosylation of a virus cell surface receptor, the angiotensin-converting enzyme 2 (ACE2) on Vero cells [59].",
+      "key": "0aa791f4143778be355e29b54ca97b8c",
+      "line": 133,
+      "relation": "decreases",
+      "source": 1,
+      "target": 56
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine can also impair another early stage of virus replication by interfering with the pH-dependent endosome-mediated viral entry of enveloped viruses such as Dengue virus or Chikungunya virus [60,61].",
+      "key": "e65eec92f358c974dd9d85c55940b2ad",
+      "line": 140,
+      "relation": "regulates",
+      "source": 1,
+      "target": 39
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine can also impair another early stage of virus replication by interfering with the pH-dependent endosome-mediated viral entry of enveloped viruses such as Dengue virus or Chikungunya virus [60,61].",
+      "key": "e4c1c77a362e45535ca691321c8f28e4",
+      "line": 141,
+      "relation": "regulates",
+      "source": 1,
+      "target": 42
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Vero cell": true
+        },
+        "MeSHAnatomy": {
+          "Endosomes": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Due to the alkalisation of endosomes, chloroquine was an effective in vitro treatment against Chikungunya virus when added to Vero cells prior to virus exposure [30].",
+      "key": "f4c6b6fbc20cb01572259b31931d257d",
+      "line": 146,
+      "relation": "increases",
+      "source": 1,
+      "target": 37
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "The mechanism of inhibition likely involved the prevention of endocytosis and/or rapid elevation of the endosomal pH and abrogation of virus–endosome fusion.",
+      "key": "1cefc46e5b26ede863a5a62ebc583c19",
+      "line": 153,
+      "relation": "decreases",
+      "source": 1,
+      "target": 29
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "The mechanism of inhibition likely involved the prevention of endocytosis and/or rapid elevation of the endosomal pH and abrogation of virus–endosome fusion.",
+      "key": "8d6b24e5f8103f60dfbd5e8675dcdc40",
+      "line": 154,
+      "relation": "decreases",
+      "source": 1,
+      "target": 34
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine-mediated inhibition of hepatitis A virus was found to be associated with uncoating, thus blocking its entire replication cycle [22].",
+      "key": "1ec26061ce339d37bc4c4854b86cf9e5",
+      "line": 170,
+      "relation": "association",
+      "source": 1,
+      "target": 40
+    },
+    {
+      "annotations": {
+        "Disease": {
+          "human immunodeficiency virus infectious disease": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "For HIV, the antiretroviral effect of chloroquine is attributable to a post-transcriptional inhibition of glycosylation of the gp120 envelope glycoprotein, and the neosynthesised virus particles are non-infectious [19,65].",
+      "key": "d09082987a2b21cb474bb6ef9eb3ce0f",
+      "line": 175,
+      "relation": "decreases",
+      "source": 1,
+      "target": 70
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Dengue": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine also inhibits the replication Dengue-2 virus by affecting the normal proteolytic processing of the flavivirus prM protein to M protein [32].",
+      "key": "785a374edba38ee0858742f0496e61f6",
+      "line": 182,
+      "relation": "decreases",
+      "source": 1,
+      "target": 67
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Herpesviridae Infections": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In the herpes simplex virus (HSV) model, chloroquine inhibited budding with accumulation of non-infectious HSV-1 particles in the trans-Golgi network [66].",
+      "key": "f019433df86af02ba05bdc03a14b7919",
+      "line": 187,
+      "object": {
+        "location": {
+          "name": "vesicle",
+          "namespace": "GOCC"
+        }
+      },
+      "relation": "decreases",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Herpesviridae Infections": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In the herpes simplex virus (HSV) model, chloroquine inhibited budding with accumulation of non-infectious HSV-1 particles in the trans-Golgi network [66].",
+      "key": "dcf90931dd1cd9698da8a135af8daa03",
+      "line": 189,
+      "object": {
+        "location": {
+          "name": "trans-Golgi network",
+          "namespace": "GOCC"
+        }
+      },
+      "relation": "decreases",
+      "source": 1,
+      "target": 9
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Beside affecting the virus maturation process, pH modulation by chloroquine can impair the proper maturation of viral protein [32] and the recognition of viral antigen by dendritic cells, which occurs through a Toll-like receptor-dependent pathway that requires endosomal acidification [69].",
+      "key": "39559ac63d6b35d5e5753de2e26a346c",
+      "line": 197,
+      "relation": "increases",
+      "source": 1,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Dendritic Cells": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "On the contrary, other proposed effects of chloroquine on the immune system include increasing the export of soluble antigens into the cytosol of dendritic cells and the enhancement of human cytotoxic CD8+ T-cell responses against viral antigens [70].",
+      "key": "f2e7cb13e2497db70b86bb61e68c701f",
+      "line": 201,
+      "object": {
+        "location": {
+          "name": "cytosol",
+          "namespace": "GOCC"
+        }
+      },
+      "relation": "increases",
+      "source": 1,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Influenza, Human": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In the influenza virus model, it was reported that chloroquine improve the cross-presentation of non-replicating virus antigen by dendritic cells to CD8+ T-cells recruited to lymph nodes draining the site of infection, eliciting a broadly protective immune response [71].",
+      "key": "522eac575c9a38e26dc54803fec15fca",
+      "line": 207,
+      "relation": "positiveCorrelation",
+      "source": 1,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "THP-1 cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine is known to inhibit phosphorylation (activation) of the p38 mitogen-activated protein kinase (MAPK) in THP-1 cells as well as caspase-1 [72]. Activation of cells via MAPK signalling is frequently required by viruses to achieve their replication cycle [73]. In the model of HCoV-229 coronavirus, chloroquine-induced virus inhibition occurs through inhibition of p38 MAPK [44].",
+      "key": "050676a21cb4d23c3e3817f3c29c72ec",
+      "line": 212,
+      "relation": "decreases",
+      "source": 1,
+      "target": 64
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "THP-1 cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine is known to inhibit phosphorylation (activation) of the p38 mitogen-activated protein kinase (MAPK) in THP-1 cells as well as caspase-1 [72]. Activation of cells via MAPK signalling is frequently required by viruses to achieve their replication cycle [73]. In the model of HCoV-229 coronavirus, chloroquine-induced virus inhibition occurs through inhibition of p38 MAPK [44].",
+      "key": "73bafe25b981b294fc0c35a9f7092d11",
+      "line": 213,
+      "relation": "decreases",
+      "source": 1,
+      "target": 58
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "THP-1 cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine inhibits interleukin-1 beta (IL-1β) mRNA expression in THP-1 cells and reduces IL-1β release [72].",
+      "key": "14792d4d2c3f5fb60f1598ef6cf398df",
+      "line": 223,
+      "relation": "decreases",
+      "source": 1,
+      "target": 76
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "THP-1 cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine inhibits interleukin-1 beta (IL-1β) mRNA expression in THP-1 cells and reduces IL-1β release [72].",
+      "key": "93765750c622695e7cbaa88deccd0a76",
+      "line": 224,
+      "relation": "decreases",
+      "source": 1,
+      "target": 61
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Macrophages": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine-induced reduction of IL-1 and IL-6 cytokines was also found in monocytes/macrophages [79].",
+      "key": "f4f7471bdb08365e12630a519383e138",
+      "line": 229,
+      "relation": "decreases",
+      "source": 1,
+      "target": 60
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Macrophages": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine-induced reduction of IL-1 and IL-6 cytokines was also found in monocytes/macrophages [79].",
+      "key": "b532dc2d29179fdec30fbc2c272d4559",
+      "line": 230,
+      "relation": "decreases",
+      "source": 1,
+      "target": 62
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine-induced inhibition of tumour necrosis factor-alpha (TNFα) production by immune cells was reported to occur either through disruption of cellular iron metabolism [80], blockade of the conversion of pro-TNF into soluble mature TNFα molecules [81] and/or inhibition of TNFα mRNA expression [72,82,83].",
+      "key": "0f0097ca83589cb89dbbc8bee6da767c",
+      "line": 235,
+      "relation": "decreases",
+      "source": 1,
+      "target": 66
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine-induced inhibition of tumour necrosis factor-alpha (TNFα) production by immune cells was reported to occur either through disruption of cellular iron metabolism [80], blockade of the conversion of pro-TNF into soluble mature TNFα molecules [81] and/or inhibition of TNFα mRNA expression [72,82,83].",
+      "key": "61959115f203a743674310c99ba814d6",
+      "line": 237,
+      "relation": "negativeCorrelation",
+      "source": 1,
+      "target": 28
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine-induced inhibition of tumour necrosis factor-alpha (TNFα) production by immune cells was reported to occur either through disruption of cellular iron metabolism [80], blockade of the conversion of pro-TNF into soluble mature TNFα molecules [81] and/or inhibition of TNFα mRNA expression [72,82,83].",
+      "key": "79018d50865b46d7463082cacda7fa92",
+      "line": 238,
+      "relation": "decreases",
+      "source": 1,
+      "target": 77
+    },
+    {
+      "annotations": {
+        "CellCulture": {
+          "U937": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Inhibition of the TNFα receptor was also reported in U937 monocytic cells treated with chloroquine [84]. In the Dengue virus model, chloroquine was found to inhibit interferon-alpha (IFNα), IFNβ, IFNγ, TNFα, IL-6 and IL-12 gene expression in U937 cells infected with Dengue-2 virus [33].",
+      "key": "8e46f1c41be105ac09484a3c71009dbf",
+      "line": 242,
+      "relation": "decreases",
+      "source": 1,
+      "target": 54
+    },
+    {
+      "annotations": {
+        "CellCulture": {
+          "U937": true
+        },
+        "MeSHDisease": {
+          "Dengue": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Inhibition of the TNFα receptor was also reported in U937 monocytic cells treated with chloroquine [84]. In the Dengue virus model, chloroquine was found to inhibit interferon-alpha (IFNα), IFNβ, IFNγ, TNFα, IL-6 and IL-12 gene expression in U937 cells infected with Dengue-2 virus [33].",
+      "key": "e0d9146cc0bf342dd3932caf2cabd34b",
+      "line": 244,
+      "relation": "decreases",
+      "source": 1,
+      "target": 52
+    },
+    {
+      "annotations": {
+        "CellCulture": {
+          "U937": true
+        },
+        "MeSHDisease": {
+          "Dengue": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Inhibition of the TNFα receptor was also reported in U937 monocytic cells treated with chloroquine [84]. In the Dengue virus model, chloroquine was found to inhibit interferon-alpha (IFNα), IFNβ, IFNγ, TNFα, IL-6 and IL-12 gene expression in U937 cells infected with Dengue-2 virus [33].",
+      "key": "eb62f55eaca56738e78065acc9b2e0cd",
+      "line": 245,
+      "relation": "decreases",
+      "source": 1,
+      "target": 47
+    },
+    {
+      "annotations": {
+        "CellCulture": {
+          "U937": true
+        },
+        "MeSHDisease": {
+          "Dengue": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Inhibition of the TNFα receptor was also reported in U937 monocytic cells treated with chloroquine [84]. In the Dengue virus model, chloroquine was found to inhibit interferon-alpha (IFNα), IFNβ, IFNγ, TNFα, IL-6 and IL-12 gene expression in U937 cells infected with Dengue-2 virus [33].",
+      "key": "f9e359d7ef5c9c21a820af2927b9b518",
+      "line": 246,
+      "relation": "decreases",
+      "source": 1,
+      "target": 48
+    },
+    {
+      "annotations": {
+        "CellCulture": {
+          "U937": true
+        },
+        "MeSHDisease": {
+          "Dengue": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Inhibition of the TNFα receptor was also reported in U937 monocytic cells treated with chloroquine [84]. In the Dengue virus model, chloroquine was found to inhibit interferon-alpha (IFNα), IFNβ, IFNγ, TNFα, IL-6 and IL-12 gene expression in U937 cells infected with Dengue-2 virus [33].",
+      "key": "cd501700ec7e4cac1e48625ec2d6f726",
+      "line": 247,
+      "relation": "decreases",
+      "source": 1,
+      "target": 51
+    },
+    {
+      "annotations": {
+        "CellCulture": {
+          "U937": true
+        },
+        "MeSHDisease": {
+          "Dengue": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Inhibition of the TNFα receptor was also reported in U937 monocytic cells treated with chloroquine [84]. In the Dengue virus model, chloroquine was found to inhibit interferon-alpha (IFNα), IFNβ, IFNγ, TNFα, IL-6 and IL-12 gene expression in U937 cells infected with Dengue-2 virus [33].",
+      "key": "db00a4162f059b26988098f0cc80a253",
+      "line": 248,
+      "relation": "decreases",
+      "source": 1,
+      "target": 50
+    },
+    {
+      "annotations": {
+        "CellCulture": {
+          "U937": true
+        },
+        "MeSHDisease": {
+          "Dengue": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Inhibition of the TNFα receptor was also reported in U937 monocytic cells treated with chloroquine [84]. In the Dengue virus model, chloroquine was found to inhibit interferon-alpha (IFNα), IFNβ, IFNγ, TNFα, IL-6 and IL-12 gene expression in U937 cells infected with Dengue-2 virus [33].",
+      "key": "ad560969169f86a1e91e1df7ef63f6be",
+      "line": 249,
+      "relation": "decreases",
+      "source": 1,
+      "target": 49
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Vero cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "The potent anti-SARS-CoV-1 effects of chloroquine in vitro were considered attributable to a deficit in the glycosylation of a virus cell surface receptor, the angiotensin-converting enzyme 2 (ACE2) on Vero cells [59].",
+      "key": "cea0b40804bcb690d584310eb7e1cbff",
+      "line": 134,
+      "relation": "association",
+      "source": 41,
+      "target": 56
+    },
+    {
+      "annotations": {
+        "CellCulture": {
+          "HCoV-O43": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine was shown to inhibit quinone reductase 2 [56], a structural neighbour of UDP-N-acetylglucosamine 2-epimerases [57] that are involved in the biosynthesis of sialic acids. The sialic acids are acidic monosaccharides found at the extremity of sugar chains present on cell transmembrane proteins and are critical components of ligand recognition. The possible interference of chloroquine with sialic acid biosynthesis could account for the broad antiviral spectrum of that drug since viruses such as the human coronavirus HCoV-O43 and the orthomyxoviruses use sialic acid moieties as receptors [58].",
+      "key": "9c0b7521f75d3b7da147ec066a1fe6b7",
+      "line": 126,
+      "relation": "increases",
+      "source": 65,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "CellCulture": {
+          "HCoV-O43": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine was shown to inhibit quinone reductase 2 [56], a structural neighbour of UDP-N-acetylglucosamine 2-epimerases [57] that are involved in the biosynthesis of sialic acids. The sialic acids are acidic monosaccharides found at the extremity of sugar chains present on cell transmembrane proteins and are critical components of ligand recognition. The possible interference of chloroquine with sialic acid biosynthesis could account for the broad antiviral spectrum of that drug since viruses such as the human coronavirus HCoV-O43 and the orthomyxoviruses use sialic acid moieties as receptors [58].",
+      "key": "4e0e03aa18c02afa5d30f0671117da7f",
+      "line": 127,
+      "relation": "association",
+      "source": 0,
+      "target": 25
+    },
+    {
+      "key": "e7cb94978a37b03a038a47ffbb212eae",
+      "relation": "partOf",
+      "source": 0,
+      "target": 45
+    },
+    {
+      "annotations": {
+        "CellCulture": {
+          "HCoV-O43": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine was shown to inhibit quinone reductase 2 [56], a structural neighbour of UDP-N-acetylglucosamine 2-epimerases [57] that are involved in the biosynthesis of sialic acids. The sialic acids are acidic monosaccharides found at the extremity of sugar chains present on cell transmembrane proteins and are critical components of ligand recognition. The possible interference of chloroquine with sialic acid biosynthesis could account for the broad antiviral spectrum of that drug since viruses such as the human coronavirus HCoV-O43 and the orthomyxoviruses use sialic acid moieties as receptors [58].",
+      "key": "a3361f1f67104cf2f6b1b5982f2018f5",
+      "line": 127,
+      "relation": "association",
+      "source": 25,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "CellCulture": {
+          "HCoV-O43": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine was shown to inhibit quinone reductase 2 [56], a structural neighbour of UDP-N-acetylglucosamine 2-epimerases [57] that are involved in the biosynthesis of sialic acids. The sialic acids are acidic monosaccharides found at the extremity of sugar chains present on cell transmembrane proteins and are critical components of ligand recognition. The possible interference of chloroquine with sialic acid biosynthesis could account for the broad antiviral spectrum of that drug since viruses such as the human coronavirus HCoV-O43 and the orthomyxoviruses use sialic acid moieties as receptors [58].",
+      "key": "cf45dda06c0f20ae12ca3577b1fd6c56",
+      "line": 128,
+      "relation": "increases",
+      "source": 45,
+      "target": 41
+    },
+    {
+      "key": "789dbf2e5aba6f8b42baea13e6740e7f",
+      "relation": "partOf",
+      "source": 21,
+      "target": 45
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Vero cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "The potent anti-SARS-CoV-1 effects of chloroquine in vitro were considered attributable to a deficit in the glycosylation of a virus cell surface receptor, the angiotensin-converting enzyme 2 (ACE2) on Vero cells [59].",
+      "key": "cd425d74a413f47d43e5b97827e8e0eb",
+      "line": 134,
+      "relation": "association",
+      "source": 56,
+      "target": 41
+    },
+    {
+      "key": "71f65a9689fd33f948489f2d8de01909",
+      "relation": "hasVariant",
+      "source": 55,
+      "target": 56
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine can also impair another early stage of virus replication by interfering with the pH-dependent endosome-mediated viral entry of enveloped viruses such as Dengue virus or Chikungunya virus [60,61].",
+      "key": "5decdff2f8cd53f9a706bde91b0163c6",
+      "line": 138,
+      "relation": "regulates",
+      "source": 39,
+      "target": 33
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Beside affecting the virus maturation process, pH modulation by chloroquine can impair the proper maturation of viral protein [32] and the recognition of viral antigen by dendritic cells, which occurs through a Toll-like receptor-dependent pathway that requires endosomal acidification [69].",
+      "key": "88e5d50de3b04ae6c5ebc4cf724ebb7e",
+      "line": 193,
+      "relation": "positiveCorrelation",
+      "source": 39,
+      "target": 43
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine can also impair another early stage of virus replication by interfering with the pH-dependent endosome-mediated viral entry of enveloped viruses such as Dengue virus or Chikungunya virus [60,61].",
+      "key": "7ec6ca32c65b450faef8ef50a1116a27",
+      "line": 139,
+      "relation": "increases",
+      "source": 33,
+      "target": 42
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Cytoplasm": true
+        },
+        "MeSHDisease": {
+          "Coronavirus Infections": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "A pH-dependant mechanism of entry of coronavirus into target cells was also reported for SARS-CoV-1 after binding of the DC-SIGN receptor [62]. The activation step that occurs in endosomes at acidic pH results in fusion of the viral and endosomal membranes leading to the release of the viral SARS-CoV-1 genome into the cytosol [63].In the absence of antiviral drug, the virus is targeted to the lysosomal compartment where the low pH, along with the action of enzymes, disrupts the viral particle, thus liberating the infectious nucleic acid and, in several cases, enzymes necessary for its replication [64].",
+      "key": "42274079295e2c35a0a0792a2d10e8ac",
+      "line": 163,
+      "relation": "increases",
+      "source": 33,
+      "target": 73
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "Vero cell": true
+        },
+        "MeSHAnatomy": {
+          "Endosomes": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Due to the alkalisation of endosomes, chloroquine was an effective in vitro treatment against Chikungunya virus when added to Vero cells prior to virus exposure [30].",
+      "key": "c16088f627bc4f7eae64793a5331a7b9",
+      "line": 147,
+      "relation": "decreases",
+      "source": 37,
+      "target": 42
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        },
+        "MeSHDisease": {
+          "Coronavirus Infections": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "A pH-dependant mechanism of entry of coronavirus into target cells was also reported for SARS-CoV-1 after binding of the DC-SIGN receptor [62]. The activation step that occurs in endosomes at acidic pH results in fusion of the viral and endosomal membranes leading to the release of the viral SARS-CoV-1 genome into the cytosol [63].In the absence of antiviral drug, the virus is targeted to the lysosomal compartment where the low pH, along with the action of enzymes, disrupts the viral particle, thus liberating the infectious nucleic acid and, in several cases, enzymes necessary for its replication [64].",
+      "key": "750edaedbb5dd6464551185a1007892f",
+      "line": 160,
+      "relation": "increases",
+      "source": 46,
+      "target": 38
+    },
+    {
+      "key": "844202ae09cc87fb044d714ffc1affbe",
+      "relation": "partOf",
+      "source": 15,
+      "target": 46
+    },
+    {
+      "key": "5f9c55b55988277e9e1ffcc59c51bf44",
+      "relation": "partOf",
+      "source": 59,
+      "target": 46
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Endosomes": true
+        },
+        "MeSHDisease": {
+          "Coronavirus Infections": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "A pH-dependant mechanism of entry of coronavirus into target cells was also reported for SARS-CoV-1 after binding of the DC-SIGN receptor [62]. The activation step that occurs in endosomes at acidic pH results in fusion of the viral and endosomal membranes leading to the release of the viral SARS-CoV-1 genome into the cytosol [63].In the absence of antiviral drug, the virus is targeted to the lysosomal compartment where the low pH, along with the action of enzymes, disrupts the viral particle, thus liberating the infectious nucleic acid and, in several cases, enzymes necessary for its replication [64].",
+      "key": "74b13d10d6c09520ab3b00d979cf327b",
+      "line": 161,
+      "relation": "increases",
+      "source": 38,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Cytoplasm": true
+        },
+        "MeSHDisease": {
+          "Coronavirus Infections": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "A pH-dependant mechanism of entry of coronavirus into target cells was also reported for SARS-CoV-1 after binding of the DC-SIGN receptor [62]. The activation step that occurs in endosomes at acidic pH results in fusion of the viral and endosomal membranes leading to the release of the viral SARS-CoV-1 genome into the cytosol [63].In the absence of antiviral drug, the virus is targeted to the lysosomal compartment where the low pH, along with the action of enzymes, disrupts the viral particle, thus liberating the infectious nucleic acid and, in several cases, enzymes necessary for its replication [64].",
+      "key": "787033f47cb02deffddd79707bae7245",
+      "line": 164,
+      "relation": "increases",
+      "source": 36,
+      "target": 68
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Cytoplasm": true
+        },
+        "MeSHDisease": {
+          "Coronavirus Infections": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "A pH-dependant mechanism of entry of coronavirus into target cells was also reported for SARS-CoV-1 after binding of the DC-SIGN receptor [62]. The activation step that occurs in endosomes at acidic pH results in fusion of the viral and endosomal membranes leading to the release of the viral SARS-CoV-1 genome into the cytosol [63].In the absence of antiviral drug, the virus is targeted to the lysosomal compartment where the low pH, along with the action of enzymes, disrupts the viral particle, thus liberating the infectious nucleic acid and, in several cases, enzymes necessary for its replication [64].",
+      "key": "2be9a1ffc6a2a283bc8a4eae71800330",
+      "line": 165,
+      "relation": "increases",
+      "source": 68,
+      "target": 42
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine-mediated inhibition of hepatitis A virus was found to be associated with uncoating, thus blocking its entire replication cycle [22].",
+      "key": "1f586273c1316c8bc9f72d6143da1e8c",
+      "line": 170,
+      "relation": "association",
+      "source": 40,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Disease": {
+          "human immunodeficiency virus infectious disease": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "For HIV, the antiretroviral effect of chloroquine is attributable to a post-transcriptional inhibition of glycosylation of the gp120 envelope glycoprotein, and the neosynthesised virus particles are non-infectious [19,65].",
+      "key": "fdeb12baeb304359c7a37c0ea33b2b74",
+      "line": 176,
+      "relation": "increases",
+      "source": 70,
+      "target": 24
+    },
+    {
+      "key": "07df7caeb796cada846a15b9ddde7e1e",
+      "relation": "hasVariant",
+      "source": 69,
+      "target": 70
+    },
+    {
+      "annotations": {
+        "Disease": {
+          "human immunodeficiency virus infectious disease": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "For HIV, the antiretroviral effect of chloroquine is attributable to a post-transcriptional inhibition of glycosylation of the gp120 envelope glycoprotein, and the neosynthesised virus particles are non-infectious [19,65].",
+      "key": "77099f9eb13d11e07f74291d269e3b2b",
+      "line": 177,
+      "relation": "increases",
+      "source": 24,
+      "target": 75
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Herpesviridae Infections": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In the herpes simplex virus (HSV) model, chloroquine inhibited budding with accumulation of non-infectious HSV-1 particles in the trans-Golgi network [66].",
+      "key": "7ce31460ea4607c36ffcaeb02984a8a6",
+      "line": 188,
+      "object": {
+        "location": {
+          "name": "trans-Golgi network",
+          "namespace": "GOCC"
+        }
+      },
+      "relation": "increases",
+      "source": 9,
+      "subject": {
+        "location": {
+          "name": "vesicle",
+          "namespace": "GOCC"
+        }
+      },
+      "target": 9
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Beside affecting the virus maturation process, pH modulation by chloroquine can impair the proper maturation of viral protein [32] and the recognition of viral antigen by dendritic cells, which occurs through a Toll-like receptor-dependent pathway that requires endosomal acidification [69].",
+      "key": "736c6eee379622afee18b06b07986bd3",
+      "line": 193,
+      "relation": "positiveCorrelation",
+      "source": 43,
+      "target": 39
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Beside affecting the virus maturation process, pH modulation by chloroquine can impair the proper maturation of viral protein [32] and the recognition of viral antigen by dendritic cells, which occurs through a Toll-like receptor-dependent pathway that requires endosomal acidification [69].",
+      "key": "0b792d9324f6fda5dd5c928cea48eb75",
+      "line": 194,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 32,
+      "target": 53
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Beside affecting the virus maturation process, pH modulation by chloroquine can impair the proper maturation of viral protein [32] and the recognition of viral antigen by dendritic cells, which occurs through a Toll-like receptor-dependent pathway that requires endosomal acidification [69].",
+      "key": "46941fdb91ffc55113f7b9908bb68473",
+      "line": 195,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 53,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 3
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Beside affecting the virus maturation process, pH modulation by chloroquine can impair the proper maturation of viral protein [32] and the recognition of viral antigen by dendritic cells, which occurs through a Toll-like receptor-dependent pathway that requires endosomal acidification [69].",
+      "key": "dd310aabdface6fd23a1948aba9bd617",
+      "line": 196,
+      "relation": "increases",
+      "source": 3,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 31
+    },
+    {
+      "annotations": {
+        "MeSHAnatomy": {
+          "Dendritic Cells": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "On the contrary, other proposed effects of chloroquine on the immune system include increasing the export of soluble antigens into the cytosol of dendritic cells and the enhancement of human cytotoxic CD8+ T-cell responses against viral antigens [70].",
+      "key": "fca723b209be86552c6d6abdaef7a012",
+      "line": 202,
+      "relation": "increases",
+      "source": 17,
+      "subject": {
+        "location": {
+          "name": "cytosol",
+          "namespace": "GOCC"
+        }
+      },
+      "target": 26
+    },
+    {
+      "annotations": {
+        "MeSHDisease": {
+          "Influenza, Human": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "In the influenza virus model, it was reported that chloroquine improve the cross-presentation of non-replicating virus antigen by dendritic cells to CD8+ T-cells recruited to lymph nodes draining the site of infection, eliciting a broadly protective immune response [71].",
+      "key": "b515a04e8c36f221809709e10d729d43",
+      "line": 207,
+      "relation": "positiveCorrelation",
+      "source": 30,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "THP-1 cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine is known to inhibit phosphorylation (activation) of the p38 mitogen-activated protein kinase (MAPK) in THP-1 cells as well as caspase-1 [72]. Activation of cells via MAPK signalling is frequently required by viruses to achieve their replication cycle [73]. In the model of HCoV-229 coronavirus, chloroquine-induced virus inhibition occurs through inhibition of p38 MAPK [44].",
+      "key": "645c363b4e4a2d4641d98568e4619d80",
+      "line": 214,
+      "relation": "increases",
+      "source": 64,
+      "target": 27
+    },
+    {
+      "key": "9d9fc7664badd564c5390a44255dece8",
+      "relation": "hasVariant",
+      "source": 63,
+      "target": 64
+    },
+    {
+      "key": "6a6626955015b43ab7c9eed52f185952",
+      "relation": "hasVariant",
+      "source": 57,
+      "target": 58
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "THP-1 cell": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine is known to inhibit phosphorylation (activation) of the p38 mitogen-activated protein kinase (MAPK) in THP-1 cells as well as caspase-1 [72]. Activation of cells via MAPK signalling is frequently required by viruses to achieve their replication cycle [73]. In the model of HCoV-229 coronavirus, chloroquine-induced virus inhibition occurs through inhibition of p38 MAPK [44].",
+      "key": "04e8b629ac4f96f49879321e61928f7b",
+      "line": 215,
+      "relation": "increases",
+      "source": 27,
+      "target": 44
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine-induced inhibition of tumour necrosis factor-alpha (TNFα) production by immune cells was reported to occur either through disruption of cellular iron metabolism [80], blockade of the conversion of pro-TNF into soluble mature TNFα molecules [81] and/or inhibition of TNFα mRNA expression [72,82,83].",
+      "key": "8e6efded01bac739f48d435aaad7c4fc",
+      "line": 234,
+      "relation": "increases",
+      "source": 35,
+      "target": 66
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine-induced inhibition of tumour necrosis factor-alpha (TNFα) production by immune cells was reported to occur either through disruption of cellular iron metabolism [80], blockade of the conversion of pro-TNF into soluble mature TNFα molecules [81] and/or inhibition of TNFα mRNA expression [72,82,83].",
+      "key": "2cc563d506497d7fdd3907a436e37cbf",
+      "line": 236,
+      "relation": "regulates",
+      "source": 28,
+      "target": 66
+    },
+    {
+      "citation": {
+        "authors": [
+          "Colson P",
+          "Devaux CA",
+          "Raoult D",
+          "Rolain JM"
+        ],
+        "date": "2020-03-12",
+        "db": "PubMed",
+        "db_id": "32171740",
+        "db_name": "International journal of antimicrobial agents",
+        "first": "Devaux CA",
+        "last": "Raoult D",
+        "pages": "105938"
+      },
+      "evidence": "Chloroquine-induced inhibition of tumour necrosis factor-alpha (TNFα) production by immune cells was reported to occur either through disruption of cellular iron metabolism [80], blockade of the conversion of pro-TNF into soluble mature TNFα molecules [81] and/or inhibition of TNFα mRNA expression [72,82,83].",
+      "key": "0c5e38616e8f32fe26b7f211aa5c1f9c",
+      "line": 237,
+      "relation": "negativeCorrelation",
+      "source": 28,
+      "target": 1
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:\"sialic acid\")",
+      "concept": {
+        "name": "sialic acid",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "572eadc06daef994f3c7caa2d8477be5"
+    },
+    {
+      "bel": "a(CHEBI:chloroquine)",
+      "concept": {
+        "name": "chloroquine",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "c368fe204031ce23a04cc402914492f6"
+    },
+    {
+      "bel": "a(MESH:\"Chikungunya virus\")",
+      "concept": {
+        "name": "Chikungunya virus",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "d6100fa91b09ea2778e7b27f3dac93a9"
+    },
+    {
+      "bel": "a(MESH:\"Dendritic Cells\")",
+      "concept": {
+        "name": "Dendritic Cells",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "e2f5d623dde0ab0a25131ec9f547f7c3"
+    },
+    {
+      "bel": "a(MESH:\"Dengue Virus\")",
+      "concept": {
+        "name": "Dengue Virus",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "f71bfde5a4f294421001a75a55cf75d6"
+    },
+    {
+      "bel": "a(MESH:\"Hemorrhagic Fever Virus, Crimean-Congo\")",
+      "concept": {
+        "name": "Hemorrhagic Fever Virus, Crimean-Congo",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "d3bbc1c4f6f4bbd051577d9e9fedd275"
+    },
+    {
+      "bel": "a(MESH:\"Hendra Virus\")",
+      "concept": {
+        "name": "Hendra Virus",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "9a66d814bac4300f41101d0a27775e9d"
+    },
+    {
+      "bel": "a(MESH:\"Hepatitis A Virus, Human\")",
+      "concept": {
+        "name": "Hepatitis A Virus, Human",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "0018350480e1cf7d12daacf63c137766"
+    },
+    {
+      "bel": "a(MESH:\"Hepatitis B virus\")",
+      "concept": {
+        "name": "Hepatitis B virus",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "1a495c40a5b6ed06068ea0fd847a00cb"
+    },
+    {
+      "bel": "a(MESH:\"Herpesvirus 1, Human\")",
+      "concept": {
+        "name": "Herpesvirus 1, Human",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "0eb82c0c6d7fd90f9c2c26d664bd706e"
+    },
+    {
+      "bel": "a(MESH:\"Influenza A Virus, H5N1 Subtype\")",
+      "concept": {
+        "name": "Influenza A Virus, H5N1 Subtype",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "3cbb226bdb89a856a95feda1fa9da783"
+    },
+    {
+      "bel": "a(MESH:\"Influenza B virus\")",
+      "concept": {
+        "name": "Influenza B virus",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "d45427a0c7694fbbe1545036249414a2"
+    },
+    {
+      "bel": "a(MESH:\"Lassa virus\")",
+      "concept": {
+        "name": "Lassa virus",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "924bd4df20ec5b7b4f44860fbd52d464"
+    },
+    {
+      "bel": "a(MESH:\"Nipah Virus\")",
+      "concept": {
+        "name": "Nipah Virus",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "25fa899ef6a6b8bc0ce5ae32895b67aa"
+    },
+    {
+      "bel": "a(MESH:\"Rabies virus\")",
+      "concept": {
+        "name": "Rabies virus",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "13a49f189b764e5cc281420004ca1442"
+    },
+    {
+      "bel": "a(MESH:\"SARS Virus\")",
+      "concept": {
+        "name": "SARS Virus",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "6145a705baca340d1f17e8e7c1d12845"
+    },
+    {
+      "bel": "a(MESH:\"Zika Virus\")",
+      "concept": {
+        "name": "Zika Virus",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "816167162b4ef31d710c0230df1626e8"
+    },
+    {
+      "bel": "a(MESH:Antigens)",
+      "concept": {
+        "name": "Antigens",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "f8aec280b18d8c29378fa35631c2a000"
+    },
+    {
+      "bel": "a(MESH:Ebolavirus)",
+      "concept": {
+        "name": "Ebolavirus",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "6c4c504fc6b289a81d3d6f1117499c32"
+    },
+    {
+      "bel": "a(MESH:HIV)",
+      "concept": {
+        "name": "HIV",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "a079232d81b4a8230cd4d2b637635229"
+    },
+    {
+      "bel": "a(MESH:Hepacivirus)",
+      "concept": {
+        "name": "Hepacivirus",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "ef661c7a61bcd9ec89d2c618bd6e71b7"
+    },
+    {
+      "bel": "a(MESH:Orthomyxoviridae)",
+      "concept": {
+        "name": "Orthomyxoviridae",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "bf027b861bfdb5f7e5ce44d0b909f30c"
+    },
+    {
+      "bel": "a(MESH:Poliovirus)",
+      "concept": {
+        "name": "Poliovirus",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "7765087c00936164dbdd835910e10365"
+    },
+    {
+      "bel": "a(MESH:Simplexvirus)",
+      "concept": {
+        "name": "Simplexvirus",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "e4bcad5c826b9a955ea31bf8d0faab38"
+    },
+    {
+      "bel": "a(MESH:Viruses)",
+      "concept": {
+        "name": "Viruses",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "584bcc3fdd53c0624b293eaccd20deff"
+    },
+    {
+      "bel": "bp(GO:\"entry receptor-mediated virion attachment to host cell\")",
+      "concept": {
+        "name": "entry receptor-mediated virion attachment to host cell",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "ea5e78baf61640b43e995f1ff19b14b8"
+    },
+    {
+      "bel": "bp(GOBP:\"CD8-positive, alpha-beta T cell activation\")",
+      "concept": {
+        "name": "CD8-positive, alpha-beta T cell activation",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "834f683d1dbd955addd154f05c735e4a"
+    },
+    {
+      "bel": "bp(GOBP:\"MAPK cascade\")",
+      "concept": {
+        "name": "MAPK cascade",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "7cfc11ecb3ff06c05b7c74d09350c9b9"
+    },
+    {
+      "bel": "bp(GOBP:\"cellular iron ion homeostasis\")",
+      "concept": {
+        "name": "cellular iron ion homeostasis",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "1abe58448d5551f2903b884f9f206846"
+    },
+    {
+      "bel": "bp(GOBP:\"clathrin-dependent endocytosis of virus by host cell\")",
+      "concept": {
+        "name": "clathrin-dependent endocytosis of virus by host cell",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "09ef1909570c0822a9d62741f42e282d"
+    },
+    {
+      "bel": "bp(GOBP:\"dendritic cell antigen processing and presentation\")",
+      "concept": {
+        "name": "dendritic cell antigen processing and presentation",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "ee5f72b6ff01f6db98887db48be9a09b"
+    },
+    {
+      "bel": "bp(GOBP:\"detection of virus\")",
+      "concept": {
+        "name": "detection of virus",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "7bfea674bdd681db1c2e04ad6121bc1f"
+    },
+    {
+      "bel": "bp(GOBP:\"endosomal lumen acidification\")",
+      "concept": {
+        "name": "endosomal lumen acidification",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "45193ffabb99cd7fc6e3260b7d8247c6"
+    },
+    {
+      "bel": "bp(GOBP:\"endosome membrane permeabilization involved in viral entry into host cell\")",
+      "concept": {
+        "name": "endosome membrane permeabilization involved in viral entry into host cell",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "278c8b77c3f0637957892b7940b03eaa"
+    },
+    {
+      "bel": "bp(GOBP:\"fusion of virus membrane with host endosome membrane\")",
+      "concept": {
+        "name": "fusion of virus membrane with host endosome membrane",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "29a13cdcefdfcfd2df907e66b7d3ff80"
+    },
+    {
+      "bel": "bp(GOBP:\"immune response\")",
+      "concept": {
+        "name": "immune response",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "72180688ae861f5f9ee558ef6e6df9fb"
+    },
+    {
+      "bel": "bp(GOBP:\"lysosomal lumen acidification\")",
+      "concept": {
+        "name": "lysosomal lumen acidification",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "86c8f232e04bfc28fe553218a038bc1f"
+    },
+    {
+      "bel": "bp(GOBP:\"pH elevation\")",
+      "concept": {
+        "name": "pH elevation",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "aaf9b56b6c2fb0b55d225881cd9413ed"
+    },
+    {
+      "bel": "bp(GOBP:\"pH reduction\")",
+      "concept": {
+        "name": "pH reduction",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "1f5825c4ed35e4b2d4533d5132f2d399"
+    },
+    {
+      "bel": "bp(GOBP:\"regulation of pH\")",
+      "concept": {
+        "name": "regulation of pH",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "b6f5b2f109268f8a07eacbd8d291c0bb"
+    },
+    {
+      "bel": "bp(GOBP:\"uncoating of virus\")",
+      "concept": {
+        "name": "uncoating of virus",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "90e416b81ed715348b67aeec12c115d2"
+    },
+    {
+      "bel": "bp(GOBP:\"viral entry into host cell\")",
+      "concept": {
+        "name": "viral entry into host cell",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "60bbae25b4e0ac32c4c03901c2b4960c"
+    },
+    {
+      "bel": "bp(GOBP:\"viral genome replication\")",
+      "concept": {
+        "name": "viral genome replication",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "415c15bf0ba2750d04619d778d539428"
+    },
+    {
+      "bel": "bp(GOBP:\"virus maturation\")",
+      "concept": {
+        "name": "virus maturation",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "f5d28b16466774ee30b07280b1edaa8d"
+    },
+    {
+      "bel": "bp(MESH:\"Virus Replication\")",
+      "concept": {
+        "name": "Virus Replication",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "f511c0a55a7b8aa880279fba6181fd8c"
+    },
+    {
+      "bel": "composite(a(CHEBI:\"sialic acid\"), a(MESH:Orthomyxoviridae))",
+      "function": "Composite",
+      "id": "3b505374b8dfa852819ff6c34a877c2d",
+      "members": [
+        {
+          "bel": "a(CHEBI:\"sialic acid\")",
+          "concept": {
+            "name": "sialic acid",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "572eadc06daef994f3c7caa2d8477be5"
+        },
+        {
+          "bel": "a(MESH:Orthomyxoviridae)",
+          "concept": {
+            "name": "Orthomyxoviridae",
+            "namespace": "MESH"
+          },
+          "function": "Abundance",
+          "id": "bf027b861bfdb5f7e5ce44d0b909f30c"
+        }
+      ]
+    },
+    {
+      "bel": "composite(a(MESH:\"SARS Virus\"), p(HGNC:CD209))",
+      "function": "Composite",
+      "id": "bfc61a7046135ea57b58f3453f7e9757",
+      "members": [
+        {
+          "bel": "a(MESH:\"SARS Virus\")",
+          "concept": {
+            "name": "SARS Virus",
+            "namespace": "MESH"
+          },
+          "function": "Abundance",
+          "id": "6145a705baca340d1f17e8e7c1d12845"
+        },
+        {
+          "bel": "p(HGNC:CD209)",
+          "concept": {
+            "name": "CD209",
+            "namespace": "HGNC"
+          },
+          "function": "Protein",
+          "id": "07ba22e3bef6f5d7725269ebd534e872"
+        }
+      ]
+    },
+    {
+      "bel": "g(HGNC:IFNB1)",
+      "concept": {
+        "name": "IFNB1",
+        "namespace": "HGNC"
+      },
+      "function": "Gene",
+      "id": "7d6c15580dbffa9c612caf6e03850f92"
+    },
+    {
+      "bel": "g(HGNC:IFNG)",
+      "concept": {
+        "name": "IFNG",
+        "namespace": "HGNC"
+      },
+      "function": "Gene",
+      "id": "2ae2c632d8bc0921fbbc3e09fcc45e96"
+    },
+    {
+      "bel": "g(HGNC:IL12B)",
+      "concept": {
+        "name": "IL12B",
+        "namespace": "HGNC"
+      },
+      "function": "Gene",
+      "id": "7c9d1e21f72b5cec89907c171b573986"
+    },
+    {
+      "bel": "g(HGNC:IL6)",
+      "concept": {
+        "name": "IL6",
+        "namespace": "HGNC"
+      },
+      "function": "Gene",
+      "id": "85c2353a202ca4ec8ecc864597ee9903"
+    },
+    {
+      "bel": "g(HGNC:TNF)",
+      "concept": {
+        "name": "TNF",
+        "namespace": "HGNC"
+      },
+      "function": "Gene",
+      "id": "9c7e30edcfe066e31a5bed6bd01e26e0"
+    },
+    {
+      "bel": "g(MESH:\"Interferon-alpha\")",
+      "concept": {
+        "name": "Interferon-alpha",
+        "namespace": "MESH"
+      },
+      "function": "Gene",
+      "id": "ba5b7f90f810d4cce864817e630753db"
+    },
+    {
+      "bel": "p(GFAM:\"Toll like receptors\")",
+      "concept": {
+        "name": "Toll like receptors",
+        "namespace": "GFAM"
+      },
+      "function": "Protein",
+      "id": "a54e0851a2ca8bafc84f18d95d33627f"
+    },
+    {
+      "bel": "p(GFAM:\"Tumor necrosis factor receptor superfamily\")",
+      "concept": {
+        "name": "Tumor necrosis factor receptor superfamily",
+        "namespace": "GFAM"
+      },
+      "function": "Protein",
+      "id": "0abd749e11e6dfe480eced0106400fc8"
+    },
+    {
+      "bel": "p(HGNC:ACE2)",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
+    },
+    {
+      "bel": "p(HGNC:ACE2, pmod(Glyco))",
+      "concept": {
+        "name": "ACE2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "7d21b82a3f83fda053aee6c7c953a79f",
+      "variants": [
+        {
+          "concept": {
+            "name": "Glyco",
+            "namespace": "bel"
+          },
+          "kind": "pmod"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:CASP1)",
+      "concept": {
+        "name": "CASP1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "757e8982730dda44190069437655a3cf"
+    },
+    {
+      "bel": "p(HGNC:CASP1, pmod(Ph))",
+      "concept": {
+        "name": "CASP1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "dd0c3689e44e21b4c0c49a4152831742",
+      "variants": [
+        {
+          "concept": {
+            "name": "Ph",
+            "namespace": "bel"
+          },
+          "kind": "pmod"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:CD209)",
+      "concept": {
+        "name": "CD209",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "07ba22e3bef6f5d7725269ebd534e872"
+    },
+    {
+      "bel": "p(HGNC:IL1A)",
+      "concept": {
+        "name": "IL1A",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "017f14e3a15a95b856bdaba5630dcf34"
+    },
+    {
+      "bel": "p(HGNC:IL1B)",
+      "concept": {
+        "name": "IL1B",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "cca08112d9fcf1a31015f1dbfc30b04c"
+    },
+    {
+      "bel": "p(HGNC:IL6)",
+      "concept": {
+        "name": "IL6",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "8a1d3c4828c5416eba867c395cc65caa"
+    },
+    {
+      "bel": "p(HGNC:MAPK14)",
+      "concept": {
+        "name": "MAPK14",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "0c0476ae2f3918834fb6ae31829c9b8d"
+    },
+    {
+      "bel": "p(HGNC:MAPK14, pmod(Ph))",
+      "concept": {
+        "name": "MAPK14",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "fc83ba5f82d0f639ed93cf32b50f13e9",
+      "variants": [
+        {
+          "concept": {
+            "name": "Ph",
+            "namespace": "bel"
+          },
+          "kind": "pmod"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:NQO2)",
+      "concept": {
+        "name": "NQO2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "29e6124391670ab4a1fac1242082d6f5"
+    },
+    {
+      "bel": "p(HGNC:TNF)",
+      "concept": {
+        "name": "TNF",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "fdc1c1f5a73c3c992b6eb71ce9b6908e"
+    },
+    {
+      "bel": "p(MESH:\"Viral Matrix Proteins\")",
+      "concept": {
+        "name": "Viral Matrix Proteins",
+        "namespace": "MESH"
+      },
+      "function": "Protein",
+      "id": "210bf8aae0b3199cdde64b19d7503ca9"
+    },
+    {
+      "bel": "p(MESH:\"Viral Regulatory and Accessory Proteins\")",
+      "concept": {
+        "name": "Viral Regulatory and Accessory Proteins",
+        "namespace": "MESH"
+      },
+      "function": "Protein",
+      "id": "566e84a966adc67499c2c7a143cc9a51"
+    },
+    {
+      "bel": "p(NCBIGENE:155971)",
+      "concept": {
+        "name": "155971",
+        "namespace": "NCBIGENE"
+      },
+      "function": "Protein",
+      "id": "f04ac6c138bf86be8249a4e7adebfaaf"
+    },
+    {
+      "bel": "p(NCBIGENE:155971, pmod(Glyco))",
+      "concept": {
+        "name": "155971",
+        "namespace": "NCBIGENE"
+      },
+      "function": "Protein",
+      "id": "1ef3d5746dd0467273fe64377e304a34",
+      "variants": [
+        {
+          "concept": {
+            "name": "Glyco",
+            "namespace": "bel"
+          },
+          "kind": "pmod"
+        }
+      ]
+    },
+    {
+      "bel": "path(DO:\"macular retinal edema\")",
+      "concept": {
+        "name": "macular retinal edema",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "f7f260dc172c27616a97be95b5c1b12f"
+    },
+    {
+      "bel": "path(DO:cardiomyopathy)",
+      "concept": {
+        "name": "cardiomyopathy",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "9f4ae2e723d6426cf3fe916c57089fcc"
+    },
+    {
+      "bel": "path(MESH:\"Genome, Viral\")",
+      "concept": {
+        "name": "Genome, Viral",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "7ca5005b8f6b0af9404259161f412c2b"
+    },
+    {
+      "bel": "path(MESH:\"Influenza, Human\")",
+      "concept": {
+        "name": "Influenza, Human",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "96edcca7635804347cb52ab0e99f8bba"
+    },
+    {
+      "bel": "path(MESH:\"Virus Diseases\")",
+      "concept": {
+        "name": "Virus Diseases",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "b140e260acd534b7a80b4f030d82d965"
+    },
+    {
+      "bel": "r(HGNC:IL1B)",
+      "concept": {
+        "name": "IL1B",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "5fa99a5398e196b8c3ed2fe80e8fc32a"
+    },
+    {
+      "bel": "r(HGNC:TNF)",
+      "concept": {
+        "name": "TNF",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "c7cb5c65848a9c337fa0e8b87d7110d4"
+    }
+  ]
+}

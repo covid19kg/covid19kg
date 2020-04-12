@@ -1,0 +1,76 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "GUO_et.al_2020.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Analysis AS LIST {"Pearson correlation analysis"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"DOI","10.21203/rs.3.rs-19182/v1"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+
+SET Evidence = "The number of MPs in patients with COVID-19 was significantly higher than that in the control group (P<0.05)."
+SET Species = "9606"
+SET Custom_Disease = "COVID-19"
+SET MeSHAnatomy = "Plasma"
+SET BioAssay = "flow cytometry"
+path(DO:"COVID-19") pos a(GO:"blood microparticle")
+UNSET MeSHAnatomy
+UNSET BioAssay
+
+SET Evidence = "The expression of IL-6, IL-8 and IL-10 in the serum of patients with COVID-19 increased significantly compared with the control group (P<0.05)."
+SET MeSHAnatomy = "Serum"
+SET BioAssay = "ELISA"
+path(DO:"COVID-19") pos p(HGNC:IL6)
+path(DO:"COVID-19") pos p(HGNC:CXCL8)
+path(DO:"COVID-19") pos p(HGNC:IL10)
+UNSET MeSHAnatomy
+UNSET BioAssay
+
+SET Evidence = "Pearson correlation analysis results showed a remarkably positive correlation of MP production and the expression of IL-6, IL-8 and IL-10 with the severity of COVID-19 (Table 4)."
+SET Analysis  = "Pearson correlation analysis"
+a(GO:"blood microparticle") pos path(HP:Severity)
+p(HGNC:IL6) pos path(HP:Severity)
+p(HGNC:CXCL8) pos path(HP:Severity)
+p(HGNC:IL10) pos path(HP:Severity)
+UNSET Analysis
+UNSET Species
+UNSET Custom_Disease
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

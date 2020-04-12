@@ -1,0 +1,142 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Nezhad_et.al_2020.bel"
+SET DOCUMENT Authors = "Shounak Baksi"
+SET DOCUMENT ContactInfo = "shounak.baksi@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+#DEFINE NAMESPACE ADO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/alzheimer-disease-ontology/alzheimer-disease-ontology-1.0.2.belns"
+#DEFINE NAMESPACE BRCO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/brain-region-ontology/brain-region-ontology-1.0.0.belns"
+#DEFINE NAMESPACE NIFT AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/nift/NIFT.belns"
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+#DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+#DEFINE NAMESPACE RGD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/rgd-rat-genes/rgd-rat-genes-20190128.belns"
+#DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+#DEFINE NAMESPACE SCOMP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-named-complexes/selventa-named-complexes-20190128.belns"
+#DEFINE NAMESPACE SFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-protein-families/selventa-protein-families-20190128.belns"
+#DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+#DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+#DEFINE NAMESPACE DRUGBANK AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns"
+#DEFINE NAMESPACE INTERPRO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/interpro/interpro-names-20181021.belns"
+#DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+#DEFINE NAMESPACE GOBP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns"
+#DEFINE NAMESPACE GOCC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20190128.belns"
+#DEFINE NAMESPACE EFO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/efo/efo-20171206.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+#DEFINE NAMESPACE MESHC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-chemicals/mesh-chemicals-20190128.belns"
+#DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20190128.belns"
+#DEFINE NAMESPACE MESHPP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-processes/mesh-processes-20190128.belns"
+#DEFINE NAMESPACE MESHA AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-anatomy/mesh-anatomy-20190128.belns"
+#DEFINE NAMESPACE MESHCS AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-cellular-structures/mesh-cellular-structures-20190128.belns"
+#DEFINE NAMESPACE NCBIGENE AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-gene/ncbi-gene-20190224.belns"
+#DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+#DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+#DEFINE NAMESPACE dbSNP AS PATTERN "rs[0-9]+"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+#DEFINE ANNOTATION Anatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno"
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+#DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+#DEFINE ANNOTATION Disease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/disease/disease-20190128.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+#DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+#DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+#DEFINE ANNOTATION BioAssay AS URL   "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/bao/bao-20190130.belanno"
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review", "Research", "Commnent"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint", "Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text", "Abstract", "Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"DOI","doi:10.20944/preprints202003.0206.v1"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+SET Species = "9606"
+
+SET Evidence = "Several studies revealed that CoV implements some strategies to evade the immune response by antagonizing the arms of IFN signaling pathway (32).In this regard, Frieman et al. indicated that SARS-CoV ORF6 protein blocks the expression of STAT1-activated genes and finally acts as an IFN antagonist (33)."
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> bp(GO:"type I interferon signaling pathway")
+p(UNIPROT:Q19QW5) -| act(p(HGNC:STAT1))
+p(UNIPROT:Q19QW5) -| bp(GO:"type I interferon signaling pathway")
+
+SET Evidence = "Yang and colleagues indicated that MERS-CoV ORF4b antagonizes the antiviral IFN-β response by inhibiting IRF3 and IRF7 (34)."
+
+p(UNIPROT:K9N643) -| p(HGNC:IRF3)
+p(UNIPROT:K9N643) -| p(HGNC:IRF7)
+p(HGNC:IRF3) -> p(HGNC:IFNB1)
+p(HGNC:IRF7) -> p(HGNC:IFNB1)
+
+SET Evidence = "Daczkowski et al. demonstrated that CoV could interact with IFNstimulated gene 15 (ISG15) and antagonize the IFN-mediated antiviral response (36)."
+
+complex(a(TAX:"Severe acute respiratory syndrome-related coronavirus"), p(HGNC:ISG15)) -| bp(GO:"type I interferon signaling pathway")
+
+SET Evidence = "Considering the immunologic differences between adults and children, the IFN-γ induction by NK cells are higher in adults but has a lower threshold in children (11,37)."
+
+a(MESH:"Killer Cells, Natural") -> p(HGNC:IFNG)
+
+SET Evidence = "It was concluded that the immune response of SARS-affected patients is mainly innate immune response rather than specific antiviral responses."
+
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> bp(GO:"innate immune response")
+
+SET Evidence = "Thus, it can be concluded that a delayed IFN-related antiviral response could debilitate the host immunity to inhibit rapid virus replication at the early stages of infection."
+
+bp(GO:"type I interferon signaling pathway") -| bp(GO:"viral genome replication")
+
+SET Evidence = "This immune system inhibition might happen through affecting STAT1 and other important discussed proteins or some other strategies that CoV implement to antagonize IFN signaling (31), which finally compromises effective IFN mediated antiviral immune responses."
+
+bp(GO:"type I interferon signaling pathway") reg p(HGNC:STAT1)
+
+SET Evidence = "This result is consistent with the recent study, which represented that the number of T cells in patients with COVID-19 were reduced and functionally exhausted, especially among elderly patients (≥60) and in patients requiring Intensive Care Unit (ICU) (47)."
+
+path(DO:"COVID-19") -| a(MESH:"T-Lymphocytes")
+
+SET Evidence = "Moreover, the phosphorylation of STAT1 and STAT5 was increased in the activated naïve CD4+ T cells taken from young adults in order to lower their response threshold to type I IFN stimulation"
+SET MeSHAnatomy = "CD4-Positive T-Lymphocytes"
+path(DO:"COVID-19") -> p(HGNC:STAT1, pmod(Ph))
+path(DO:"COVID-19") -> p(HGNC:STAT5A, pmod(Ph))
+UNSET MeSHAnatomy
+
+SET Evidence = "As mentioned above, SARS-CoV ORF6 protein antagonizes the function of STAT1."
+
+p(UNIPROT:Q19QW5) -| act(p(HGNC:STAT1))
+
+SET Evidence = "A combination of type I IFN and either IFN-γ or IFN-λ, was shown to synergistically inhibit the virus replication in vitro (40,53,54)."
+
+bp(GO:"type I interferon signaling pathway") -| bp(GO:"viral genome replication")
+p(HGNC:IFNG) -| bp(GO:"viral genome replication")
+p(HGNC:IFNA1) -| bp(GO:"viral genome replication")
+
+SET Evidence = "Another study, demonstrated that IFN-α and -γ co-administration caused hyper-activated IRF-1 and STAT1, which finally led to a more robust antiviral symphony against virus replication (59)."
+composite(p(HGNC:IFNG), p(HGNC:IFNA1)) -> act(p(HGNC:IRF1))
+composite(p(HGNC:IFNG), p(HGNC:IFNA1)) -> act(p(HGNC:STAT1))
+p(HGNC:STAT1) -| bp(GO:"viral genome replication")
+p(HGNC:IRF1) -| bp(GO:"viral genome replication")
+
+SET Evidence = "As another approach, the IFN level can be increased indirectly. Noteworthy, toll like receptor (TLR)3 activation, could induce these IFNs (61–64)."
+
+p(HGNC:TLR3) -> p(HGNC:IFNG)
+p(HGNC:TLR3) -> p(HGNC:IFNA1)
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType

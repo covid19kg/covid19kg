@@ -1,0 +1,209 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32222466.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed", "Clin Immunol. 2020 Mar 25;214:108393. doi: 10.1016/j.clim.2020.108393.", "32222466"}
+
+SET PublicationType = "Review"
+SET PublicationStatus = "Preprint"
+SET Section = "Full Text"
+
+SET Evidence = "Accumulating evidence revealed that a part of severe COVID-19 patients have a elevated cytokine profile resembling CS in SARS and MERS."
+
+SET Custom_Disease = "COVID-19"
+bp(GO:"cytokine production") pos path(DO:"COVID-19")
+
+SET Evidence = "They measured cytokine levels in 41 inpatients (including 13 ICU patients and 28 non ICU patients), IL-1B, IL-1RA, IL-7, IL-8, IL-9, IL-10, fibroblast growth factor (FGF), granulocyte-macrophage colony stimulating factor (GM-CSF), IFNγ, granulocyte-colony stimulating factor (G-CSF), interferon-γ-inducible protein (IP10), monocyte chemoattractant protein (MCP1), macrophage inflammatory protein 1 alpha (MIP1A) , platelet derived growth factor (PDGF), tumor necrosis factor (TNFα),   vascular endothelial growth factor (VEGF) were increased, among which IL-2, IL-7, IL-10, G-CSF, IP10, MCP1, MIP1A, TNFα were h igher in severe patients[3, 4]."
+path(DO:"COVID-19") pos p(HGNC:IL1B)
+path(DO:"COVID-19") pos p(HGNC:IL1RN)
+path(DO:"COVID-19") pos p(HGNC:IL7)
+path(DO:"COVID-19") pos p(HGNC:CXCL8)
+path(DO:"COVID-19") pos p(HGNC:IL9)
+path(DO:"COVID-19") pos p(HGNC:IL10)
+path(DO:"COVID-19") pos a(MESH:"Fibroblast Growth Factors")
+path(DO:"COVID-19") pos p(HGNC:CSF2)
+path(DO:"COVID-19") pos p(HGNC:IFNG)
+path(DO:"COVID-19") pos p(HGNC:CSF3)
+path(DO:"COVID-19") pos p(HGNC:CXCL10)
+path(DO:"COVID-19") pos p(HGNC:CCL2)
+path(DO:"COVID-19") pos p(HGNC:CCL3)
+path(DO:"COVID-19") pos p(PFAM:PDGF)
+path(DO:"COVID-19") pos p(HGNC:TNF)
+path(DO:"COVID-19") pos p(HGNC:VEGFA)
+
+SET Evidence = "However, in another retrospective, multicentre cohort study, the same study group reported a significantly elevation of IL-6 level in non-survival group of patients with COVID-19, as compared with that of the survivals [5]."
+p(HGNC:IL6) -- path(MESH:Death)
+
+SET Evidence = "One study analyzed the lymphocyte subsets and cytokines in 123 patients, all patients had lymphcytopenia"
+path(DO:"COVID-19") neg bp(MESH:"Lymphocyte Count")
+
+SET Evidence = "Consistent with others, most of severe COVID-19 patients in our ICU ward had persistent very high level of erythematosus sedimentation rate (ESR), CRP, and high level of IL-6,TNFa, IL-1B, IL-8, IL2R, etc, and were associated with ARDS, hypercoagulation and disseminated intravascular coagulation (DIC), manifested as thrombosis, thrombocytopenia, gangrene of extremities."
+path(DO:"COVID-19") -- path(HP:"Elevated erythrocyte sedimentation rate")
+path(DO:"COVID-19") pos p(HGNC:CRP)
+path(DO:"COVID-19") pos p(HGNC:IL6)
+path(DO:"COVID-19") pos p(HGNC:IL2RA)
+path(DO:"COVID-19") -- path(DO:"adult respiratory distress syndrome")
+path(DO:"COVID-19") -- path(DO:thrombophilia)
+path(DO:"COVID-19") -- path(DO:"disseminated intravascular coagulation")
+
+SET Evidence = "Both T cells and NK cells in patients with COVID-19 were reduced."
+path(DO:"COVID-19") -- path(HP:"Decrease in T cell count")
+path(DO:"COVID-19") -- path(HP:"Reduced natural killer cell count")
+
+SET Evidence = "Spleen atrophy was observed in all reported cases with decreased numbers of lymphocyte, and significant cell degeneration, focal hemorrhagic necrosis, macrophage proliferation and macrophage phagocytosis were found in spleen."
+SET MeSHAnatomy = "Spleen"
+path(DO:"COVID-19") -- path(HP:atrophy)
+path(DO:"COVID-19") neg bp(MESH:"Lymphocyte Count")
+path(DO:"COVID-19") neg bp(MESH:"Cell Survival")
+path(DO:"COVID-19") neg bp(FIXME:"Hemorrhagic necrosis")
+path(DO:"COVID-19") -- bp(GO:"macrophage proliferation")
+path(DO:"COVID-19") -- bp(GO:phagocytosis)
+UNSET MeSHAnatomy
+
+SET Evidence = "Similarly, lymph node atrophy and the number of lymph nodes decreased, accompanied by necrosis."
+SET MeSHAnatomy = "Lymph Nodes"
+path(DO:"COVID-19") -- path(HP:atrophy)
+path(DO:"COVID-19") -- path(HP:"Abnormality of the lymph nodes")
+UNSET MeSHAnatomy
+
+SET Evidence = "Immunohistochemical staining showed that CD4+T cells and CD8+T cells were decreased in spleen and lymph nodes [13]."
+SET MeSHAnatomy = {"Spleen", "Lymph Nodes"}
+path(DO:"COVID-19") -- path(HP:"Decreased proportion of CD4-positive T cells")
+path(DO:"COVID-19") -- path(HP:"Decreased proportion of CD8-positive T cells")
+UNSET MeSHAnatomy
+
+SET Evidence = "In addition, in the lung with characteristic diffused alveolar damage (DAD), the major infiltrated cells were monocytes and macrophages, moderate multinucleated giant cells, but very few lymphocytes."
+SET MeSHAnatomy = "Lung"
+path(DO:"COVID-19") -- path(HP:"Diffuse alveolar hemorrhage")
+path(DO:"COVID-19") -- bp(FIXME:"infiltration of inflammatory cells")
+
+SET Evidence = "Importantly, virus inclusion bodies can still be detected in type II alveolar epithelia and macrophages, despite that the PCR test was negative in blood or throat swabs [10, 12, 14]."
+path(DO:"COVID-19") -- a(GO:"viral occlusion body")
+UNSET MeSHAnatomy
+
+SET Evidence = "Another prominent clinical manifestation in severe COVID-19 patients is endothelium damage."
+SET MeSHAnatomy = "Endothelium, Vascular"
+path(DO:"COVID-19") -- path(HP:atrophy)
+UNSET MeSHAnatomy
+
+SET Evidence = "Clinically, many critical ill patients have vasculitis-like manifestations, or even gangrene at their extremities; Pathology examination revealed the blood vessels of alveolar septum were congested and edematous, with modest infiltration of monocytes and lymphocytes within and around blood vessels."
+SET MeSHAnatomy = "Blood Vessels"
+path(DO:"COVID-19") -- path(DO:vasculitis)
+path(DO:"COVID-19") -- path(FIXME:"Vascular congestion")
+path(DO:"COVID-19") -- path(HP:Edema)
+path(DO:"COVID-19") -- bp(FIXME:"infiltration of inflammatory cells")
+
+SET Evidence = "Small vessels showed hyperplasia, vessel wall thickening, lumen stenosis , occlusion and focal hemorrhage."
+path(DO:"COVID-19") -- path(MESH:Hyperplasia)
+path(DO:"COVID-19") -- path(FIXME:"Vascular congestion")
+path(DO:"COVID-19") -- path(MESH:"Constriction, Pathologic")
+path(DO:"COVID-19") -- path(MESH:"Coronary Occlusion")
+path(DO:"COVID-19") -- path(MESH:Hemorrhage)
+
+SET Evidence = "The underlying mechanism of vascular damage may be due to the direct injury of endothelial cells by virus, leading to DIC, anti-phospholipid syndrome (APS) and mimicry of vasculitis."
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(HP:atrophy)
+path(HP:atrophy) -> path(DO:"disseminated intravascular coagulation")
+path(HP:atrophy) -> path(DO:"antiphospholipid syndrome")
+path(HP:atrophy) -> path(DO:vasculitis)
+UNSET MeSHAnatomy
+
+SET Evidence = "In this phase, use of corticosteroids may be justified in concert with the use of cytokine inhibitors such as tocilizumab (IL-6 inhibitor) or anakinra (IL-1 receptor antagonist)."
+a(CHEBI:corticosteroid) neg path(DO:"COVID-19")
+a(CHEBI:tocilizumab) neg path(DO:"COVID-19")
+a(PUBCHEM:139595263) neg path(DO:"COVID-19")
+
+SET Evidence = "At present, systemic glucocorticoids administration was empirically used for severe complications in order to suppress CS manifestations in patients with COVID-19, such as ARDS, acute heart injuries, acute kidney complication, and patients with higher D-dimer levels, et al[3, 23, 24]"
+a(CHEBI:glucocorticoid) -| path(DO:"adult respiratory distress syndrome")
+a(CHEBI:glucocorticoid) -| path(MESH:"Heart Injuries")
+a(CHEBI:glucocorticoid) -| path(HP:"Acute kidney injury")
+a(CHEBI:glucocorticoid) neg p(MESH:"fibrin fragment D")
+
+SET Evidence = "Tocilizumab (TCZ) is a recombinant human IL-6 monoclonal antibody, which specifically binds to soluble and membrane-bound IL-6 receptors (IL-6R), thus blocking IL-6 signaling and its mediated inflammatory response."
+complex(a(CHEBI:tocilizumab), p(HGNC:IL6R)) -| bp(GO:"interleukin-6-mediated signaling pathway")
+bp(GO:"interleukin-6-mediated signaling pathway") -> path(HP:inflammation)
+
+SET Evidence = "Their data suggests TCZ might be an effective treatment in severe patients of COVID-19."
+a(CHEBI:tocilizumab) neg path(DO:"COVID-19")
+
+SET Evidence = "Baricitinib, a JAK inhibitor as well as an AAK1 inhibitor, was suggested a possible candidate for treatment of COVID-19, considering its relative safety and high affinity."
+a(PUBCHEM:44205240) neg path(DO:"COVID-19")
+a(PUBCHEM:44205240) -| p(HGNC:AAK1)
+a(PUBCHEM:44205240) -| g(GFAM:"Jak family tyrosine kinases")
+
+SET Evidence = "For decades, CQ and HCQ are front-line medications for the treatment and prophylaxis of malaria and are also used to treat autoimmune diseases, including rheumatoid arthritis (RA) and systemic lupus erythematosus (SLE)."
+a(CHEBI:chloroquine) -| path(DO:malaria)
+a(CHEBI:hydroxychloroquine) -| path(DO:malaria)
+a(CHEBI:chloroquine) -| path(DO:"rheumatoid arthritis")
+a(CHEBI:hydroxychloroquine) -| path(DO:"rheumatoid arthritis")
+a(CHEBI:chloroquine) -| path(DO:"systemic lupus erythematosus")
+a(CHEBI:hydroxychloroquine) -| path(DO:"systemic lupus erythematosus")
+
+SET Evidence = "Previous studies reported that CQ/HCQ possess a broad spectrum of antiviral effects on a variety of viruses as diverse as human immunodeficiency virus (HIV)[30], Marburg virus, Zika virus [31], dengue virus[32], Ebola virus[33], and SARS-CoV-1[34,35], etc."
+a(CHEBI:chloroquine) -| a(TAX:"Human immunodeficiency virus")
+a(CHEBI:hydroxychloroquine) -| a(TAX:"Human immunodeficiency virus")
+a(CHEBI:chloroquine) -| path(MESH:"Marburg Virus Disease")
+a(CHEBI:hydroxychloroquine) -| path(MESH:"Marburg Virus Disease")
+a(CHEBI:chloroquine) -| a(TAX:"Zika virus")
+a(CHEBI:hydroxychloroquine) -| a(TAX:"Zika virus")
+a(CHEBI:chloroquine) -| a(TAX:"Dengue virus")
+a(CHEBI:hydroxychloroquine) -| a(TAX:"Dengue virus")
+a(CHEBI:chloroquine) -| a(TAX:"Ebola virus")
+a(CHEBI:hydroxychloroquine) -| a(TAX:"Ebola virus")
+a(CHEBI:chloroquine) -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+a(CHEBI:hydroxychloroquine) -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+
+SET Evidence = "Recently, CQ and HCQ have been shown by several studies to reduce the SARS-CoV-2 viral load and shorten the duration of viremia."
+a(CHEBI:chloroquine) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+a(CHEBI:hydroxychloroquine) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+
+SET Evidence = "So far, in a clinical trial involving more than 100 patients, the chloroquine phosphate group showed efficacy in reducing the exacerbation of pneumonia, improving lung imaging findings and increasing negative rate of virus nucleic acid test."
+a(PUBCHEM:64927) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+a(PUBCHEM:64927) -| path(DO:pneumonia)
+UNSET Custom_Disease
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

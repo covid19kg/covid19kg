@@ -1,0 +1,184 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32203186.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Severity AS LIST {"Severe", "Mild"}
+DEFINE ANNOTATION functionality AS LIST {"functional", "non-functional"}
+DEFINE ANNOTATION Condition AS LIST {"excessive"}
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Correspondence"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+#
+
+SET Citation = {"PubMed","32203186"}
+SET PublicationType = "Correspondence"
+SET PublicationStatus = "Published"
+SET Section = "Full Text"
+
+SET Evidence = "The novel contagious primary atypical pneumonia epidemic, which broke \
+out in Wuhan, China, in December 2019, is now formally called \
+Coronavirus Disease 2019 (COVID-19), with the causative virus named as \
+Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2).1,2"
+
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(DO:"COVID-19")
+
+SET Evidence = "Recent studies have shown that in addition to dyspnea, hypoxemia, and \
+acute respiratory distress, lymphopenia, and cytokine release syndrome \
+are also important clinical features in patients with severe SARS- \
+CoV-2 infection.3"
+
+SET Custom_Disease = "COVID-19"
+SET Species = "9606"
+SET Severity = "Severe"
+path(DO:"COVID-19") -> path(MESH:Dyspnea)
+path(DO:"COVID-19") -> path(MESH:Hypoxia)
+path(DO:"COVID-19") -> path(DO:"adult respiratory distress syndrome")
+path(DO:"COVID-19") -> path(DO:lymphopenia)
+path(DO:"COVID-19") -> path(FIXME:"Cytokine Release Syndrome")
+UNSET Severity
+
+SET Evidence = "This suggests that homeostasis of the immune system plays an important \
+role in the development of COVID-19 pneumonia."
+
+bp(GO:"immune response") reg path(DO:"COVID-19")
+
+SET Evidence = "Instead, we found that the severe group had a significant reduction in \
+granulocytes compared to the mild group (Fig. 1a)"
+
+SET Severity = "Severe"
+path(DO:"COVID-19") -| a(MESH:Granulocytes)
+UNSET Severity
+
+SET Evidence = "Although patients had higher sCD14 levels than healthy people, there \
+were no significant differences between the severe and mild groups \
+(Fig. 1b)."
+
+SET MeSHAnatomy = "Plasma"
+SET Severity = {"Severe", "Mild"}
+path(DO:"COVID-19") -> p(HGNC:CD14)
+UNSET Severity
+UNSET MeSHAnatomy
+
+
+SET Evidence = "Among the differentially expressed functional molecules, the levels of \
+interferon-γ (IFN-γ) and TNF-α in CD4+ T cells were lower in the \
+severe group than in the mild group, whereas the levels of granzyme B \
+and perforin in CD8+ T cells were higher in the severe group than in \
+the mild group."
+
+SET Severity = "Severe"
+SET MeSHAnatomy = "CD4-Positive T-Lymphocytes"
+SET functionality = "functional"
+path(DO:"COVID-19") -| p(HGNC:IFNG)
+path(DO:"COVID-19") -| p(HGNC:TNF)
+UNSET functionality
+UNSET MeSHAnatomy
+SET MeSHAnatomy = "CD8-Positive T-Lymphocytes"
+path(DO:"COVID-19") -> p(HGNC:GZMB)
+path(DO:"COVID-19") -> p(HGNC:PRF1)
+UNSET MeSHAnatomy
+UNSET Severity
+
+SET Evidence = "The activation molecules showed no differences in CD4+ T cells, \
+whereas the levels of HLA-DR and TIGIT in CD8+ T cells were higher in \
+the severe group than in the mild group (Fig. 1c)."
+
+SET Severity = "Severe"
+SET MeSHAnatomy = "CD8-Positive T-Lymphocytes"
+path(DO:"COVID-19") -> p(HGNC:"HLA-DRA")
+path(DO:"COVID-19") -> p(HGNC:TIGIT)
+UNSET MeSHAnatomy
+UNSET Severity
+
+
+SET Evidence = "These data indicate that COVID-19, similar to some chronic infections, \
+damages the function of CD4+ T cells and promotes excessive activation \
+and possibly subsequent exhaustion of CD8+ T cells."
+
+path(DO:"COVID-19") -| bp(GO:"CD4-positive, alpha-beta T cell activation")
+path(DO:"COVID-19") -> bp(GO:"CD8-positive, alpha-beta T cell activation")
+SET Condition = "excessive"
+bp(GO:"CD8-positive, alpha-beta T cell activation") -> deg(a(MESH:"CD8-Positive T-Lymphocytes"))
+UNSET Condition
+
+SET Evidence = "Compared with the healthy control and mild group, the frequency of \
+multi-functional CD4+ T cells (positive for at least two cytokines) \
+decreased significantly in the severe group, whereas the proportion of \
+non-functional (IFN-γ −TNF-α−IL-2−) subsets increased significantly."
+
+SET Severity = "Severe"
+SET functionality = "functional"
+path(DO:"COVID-19") -| a(MESH:"CD8-Positive T-Lymphocytes")
+path(DO:"COVID-19") -| a(MESH:"CD8-Positive T-Lymphocytes")
+UNSET functionality
+SET functionality = "non-functional"
+path(DO:"COVID-19") -> p(HGNC:IFNG)
+path(DO:"COVID-19") -> p(HGNC:TNF)
+path(DO:"COVID-19") -> p(HGNC:IL2)
+UNSET functionality
+UNSET Severity
+
+SET Evidence = "Studies have shown that multi-functional T cells can better control \
+human immunodeficiency virus in natural infection and are correlated \
+with better outcomes during vaccination; thus, the functional damage \
+of CD4+ T cells may have predisposed COVID-19 patients to severe \
+disease.8"
+
+bp(GO:"T cell activation") reg path(DO:"human immunodeficiency virus infectious disease")
+bp(GO:"CD4-positive, alpha-beta T cell activation") neg path(DO:"COVID-19")
+
+SET Evidence = "In CD8+ T cells, the frequency of the nonexhausted \
+(PD-1−CTLA-4−TIGIT−) subset in the severe group was significantly \
+lower than that in the other two groups (Fig. 1d)."
+
+SET functionality = "functional"
+SET MeSHAnatomy = "CD8-Positive T-Lymphocytes"
+SET Severity = "Severe"
+path(DO:"COVID-19") -| p(HGNC:PDCD1)
+path(DO:"COVID-19") -| p(HGNC:CTLA4)
+path(DO:"COVID-19") -| p(HGNC:TIGIT)
+UNSET Severity
+UNSET MeSHAnatomy
+UNSET functionality
+
+
+SET Evidence = "Because functional blockade of PD-1, CTLA-4, and TIGIT is beneficial \
+for CD8+ T cells to maintain lasting antigen-specific immunity and \
+antiviral effects,10,11 the excessive exhaustion of CD8+ T cells in \
+severe patients may reduce their cellular immune response to SARS- \
+CoV-2."
+
+act(p(HGNC:PDCD1)) neg bp(GO:"CD8-positive, alpha-beta T cell activation")
+act(p(HGNC:CTLA4)) neg bp(GO:"CD8-positive, alpha-beta T cell activation")
+act(p(HGNC:TIGIT)) neg bp(GO:"CD8-positive, alpha-beta T cell activation")
+deg(a(MESH:"CD8-Positive T-Lymphocytes")) -- path(DO:"COVID-19")
+deg(a(MESH:"CD8-Positive T-Lymphocytes")) -| bp(GO:"immune response")
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Species
+UNSET Custom_Disease
+UNSET Citation

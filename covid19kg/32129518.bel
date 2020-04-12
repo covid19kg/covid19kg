@@ -1,0 +1,177 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32129518.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE RGD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/rgd-rat-genes/rgd-rat-genes-20190128.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Timeline AS LIST {"28 days"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Commentary"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text", "Abstract"}
+
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","Drug Dev Res. 2020;10.1002/ddr.21656. doi:10.1002/ddr.21656","32129518"}
+SET PublicationType = "Commentary"
+SET PublicationStatus = "Published"
+SET Section = "Abstract"
+
+SET Evidence = "A tentative suggestion based on existing therapeutics, which would likely be resistant to new coronavirus mutations, is to use available angiotensin receptor 1 (AT1R) blockers, such as losartan, as therapeutics for reducing the aggressiveness and mortality from SARS-CoV-2 virus infections."
+
+SET Species = "9606"
+a(CHEBI:losartan) -| act(p(HGNC:AGTR1))
+a(CHEBI:losartan) isA a(CHEBI:"angiotensin receptor antagonist")
+act(p(HGNC:AGTR1)) pos path(DO:"COVID-19")
+
+SET Evidence = "This idea is based on observations that the angiotensin-converting enzyme 2 (ACE2) very likely serves as the binding site for SARS-CoV-2, the strain implicated in the current COVID-19 epidemic, similarly to strain SARS-CoV implicated in the 2002–2003 SARS epidemic."
+
+complex(p(HGNC:ACE2),a(TAX:"Severe acute respiratory syndrome coronavirus 2")) -> path(DO:"COVID-19")
+complex(p(HGNC:ACE2),a(TAX:"Severe acute respiratory syndrome-related coronavirus")) -> path(DO:"severe acute respiratory syndrome")
+UNSET Section
+
+SET Section = "Full Text"
+SET Evidence = "A recent hypothesis suggested that angiotensin receptor 1 (AT1R) inhibitors might be beneficial for patients infected by COVID-19 who experience pneumonia (Sun, Yang, Sun, & Su, 2020)."
+a(CHEBI:"angiotensin receptor antagonist") -| path(DO:pneumonia)
+path(DO:pneumonia) -- path(DO:"COVID-19")
+
+SET Evidence = "These tentative suggestions were based on the observation that SARS-CoV-2 uses angiotensin-converting enzyme 2 (ACE2) as the receptor binding domain for its spike protein (Lu et al., 2020; Wan, Shang, Graham, Baric, & Li, 2020), similarly to the coronavirus strain implicated in the 2002–2003 SARS epidemic (Dimitrov, 2003; Ge et al., 2013; Li et al., 2003; Prabakaran et al 2004; Turner, Hiscox, & Hooper, 2004)."
+
+complex(p(HGNC:ACE2),p(COVID:S)) -> path(DO:"COVID-19")
+p(COVID:S) -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+complex(p(HGNC:ACE2),p(UNIPROT:P59594)) -> path(DO:"severe acute respiratory syndrome")
+p(UNIPROT:P59594) -- a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+
+SET Evidence = "ACE cleaves angiotensin I to generate angiotensin II, the peptide which binds to and activates AT1R to constrict blood vessels, thereby elevating blood pressure."
+
+act(p(HGNC:ACE), ma(cat)) -> rxn(reactants(a(CHEBI:"Angiotensin I")), products(a(CHEBI:"angiotensin II")))
+complex(a(CHEBI:"angiotensin II"),p(HGNC:AGTR1)) -> act(p(HGNC:AGTR1))
+act(p(HGNC:AGTR1)) -> bp(GO:vasoconstriction)
+bp(GO:vasoconstriction) -> bp(MESH:"Blood Pressure")
+
+SET Evidence = "By contract, ACE2 inactivates angiotensin II while generating angiotensin 1–7, a heptapeptide having a potent vasodilator function via activation of its Mas receptor (Santos et al., 2003), and thus serving as a negative regulator of the renin–angiotensin system."
+
+act(p(HGNC:ACE2)) -| a(CHEBI:"angiotensin II")
+act(p(HGNC:ACE2)) -> a(PUBCHEM:123805)
+a(PUBCHEM:123805) -> act(p(HGNC:MAS1))
+act(p(HGNC:MAS1)) -> bp(GO:vasodilation)
+act(p(HGNC:ACE2)) neg bp(MESH:"Renin-Angiotensin System")
+
+SET Evidence = "The AT1R antagonists losartan and olmesartan, commonly applied for reducing blood pressure in hypertensive patients, were shown to increase cardiac ACE2 expression about three-fold following chronic treatment (28 days) after myocardial infarction induced by coronary artery ligation of rats (Ishiyama et al., 2004)."
+
+SET MeSHDisease = "Hypertension"
+a(CHEBI:losartan) -| act(p(HGNC:AGTR1))
+a(CHEBI:olmesartan) -| act(p(HGNC:AGTR1))
+UNSET MeSHDisease
+UNSET Species
+SET Species = "10116"
+SET MeSHAnatomy = "Heart"
+SET MeSHDisease = "Myocardial Infarction"
+SET Timeline = "28 days"
+a(CHEBI:losartan) -> p(RGD:Ace2)
+a(CHEBI:olmesartan) -> p(RGD:Ace2)
+UNSET Timeline
+UNSET MeSHAnatomy
+UNSET MeSHDisease
+UNSET Species
+
+SET Evidence = "Losartan was also shown to upregulate renal ACE2 expression in chronically treated rats (Klimas et al., 2015). In agreement with these observations, higher urinary ACE2 levels were observed in hypertensive patients treated with the AT1R antagonist olmesartan (Furuhashi et al., 2015)."
+
+SET Species = "10116"
+SET MeSHAnatomy = "Kidney"
+a(CHEBI:losartan) -> p(RGD:Ace2)
+UNSET MeSHAnatomy
+UNSET Species
+SET Species = "9606"
+SET MeSHAnatomy = "Urine"
+a(CHEBI:olmesartan) -> p(HGNC:ACE2)
+UNSET MeSHAnatomy
+UNSET Species
+
+SET Evidence = "Taken together, these observations suggest that chronic AT1R blockade results in ACE2 upregulation in both rats and humans."
+
+SET Species = "9606"
+act(p(HGNC:AGTR1)) neg act(p(HGNC:ACE2))
+UNSET Species
+SET Species = "10116"
+act(p(RGD:Agtr1a)) neg act(p(RGD:Ace2))
+UNSET Species
+
+SET Evidence = "It has been demonstrated that the binding of the coronavirus spike protein to ACE2, its cellular binding site, leads to ACE2 downregulation, which in turn results in excessive production of angiotensin by the related enzyme ACE, while less ACE2 is capable of converting it to the vasodilator heptapeptide angiotensin 1–7."
+
+SET Species = "9606"
+SET Custom_Disease = "COVID-19"
+complex(p(HGNC:ACE2),p(COVID:S)) -| act(p(HGNC:ACE2))
+act(p(HGNC:ACE2)) -| a(CHEBI:"angiotensin II")
+act(p(HGNC:ACE2)) neg act(p(HGNC:ACE))
+
+SET Evidence = "This in turn contributes to lung injury, as angiotensin-stimulated AT1R results in increased pulmonary vascular permeability, thereby mediating increased lung pathology (Imai et al., 2005; Kuba et al., 2005)."
+
+SET MeSHAnatomy = "Lung"
+a(CHEBI:"angiotensin II") -> act(p(HGNC:AGTR1))
+act(p(HGNC:AGTR1)) -| bp(GO:"lung epithelium development")
+bp(GO:"lung epithelium development") neg path(MESH:"Lung Injury")
+
+SET Evidence = "Therefore, higher ACE2 expression following chronically medicating SARS-CoV-2 infected patients with AT1R blockers, while seemingly paradoxical, may protect them against acute lung injury rather than putting them at higher risk to develop SARS."
+
+a(CHEBI:"angiotensin receptor antagonist") -> p(HGNC:ACE2)
+act(p(HGNC:ACE2)) neg path(MESH:"Lung Injury")
+UNSET MeSHAnatomy
+
+SET Evidence = "This may be accounted for by two complementary mechanisms: blocking the excessive angiotensin-mediated AT1R activation caused by the viral infection, as well as upregulating ACE2, thereby reducing angiotensin production by ACE and increasing the production of the vasodilator angiotensin 1–7."
+
+path(DO:"COVID-19") pos a(CHEBI:"angiotensin II")
+a(CHEBI:"angiotensin II") -> act(p(HGNC:AGTR1))
+act(p(HGNC:ACE2)) neg act(p(HGNC:ACE))
+act(p(HGNC:ACE2)) -| a(CHEBI:"angiotensin II")
+act(p(HGNC:ACE)) -> a(CHEBI:"Angiotensin I")
+act(p(HGNC:ACE2)) -> a(PUBCHEM:123805)
+a(PUBCHEM:123805) -> bp(GO:vasodilation)
+
+SET Evidence = "Losartan, telmisartan, olmesartan (and additional AT1R antagonists) are widely applied in the clinic since the 1990s for control of hypertension and kidney disorders, and are known as safe drugs that are rarely implicated in adverse drugs events (Deppe, Böger, Weiss, & Benndorf, 2010; McIntyre, Caffe, Michalak, & Reid, 1997)."
+
+a(CHEBI:losartan) -| path(DO:hypertension)
+a(CHEBI:losartan) -| path(DO:"kidney disease")
+a(CHEBI:telmisartan) -| path(DO:hypertension)
+a(CHEBI:telmisartan) -| path(DO:"kidney disease")
+a(CHEBI:olmesartan) -| path(DO:hypertension)
+a(CHEBI:olmesartan) -| path(DO:"kidney disease")
+
+SET Evidence = "If the latter percentage would be found to be significantly smaller, this would support the notion that AT1R antagonists confer protection from severe symptoms among SARS-CoV-2 infected individuals."
+a(CHEBI:"angiotensin receptor antagonist") neg path(DO:"COVID-19")
+UNSET Custom_Disease
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

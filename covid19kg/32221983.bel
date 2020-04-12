@@ -1,0 +1,313 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32221983.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+DEFINE NAMESPACE RGD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/rgd-rat-genes/rgd-rat-genes-20190128.belns"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Diet AS LIST {"Diet, High-Fat"}
+DEFINE ANNOTATION Mouse_Type AS LIST {"ApoE-/-", "ApoE-/-ACE2-/-"}
+
+DEFINE ANNOTATION PublicationType AS LIST {"Review"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Full Text"}
+
+SET Citation = {"PubMed","32221983"}
+
+SET PublicationType = "Review"
+SET PublicationStatus = "Preprint"
+SET Section = "Full Text"
+
+SET Evidence = "Angiotensin-converting enzyme 2 (ACE2) is a crucial component of the \
+renin-angiotensin system (RAS)."
+
+p(HGNC:ACE2) -- bp(MESH:"Renin-Angiotensin System")
+
+SET Evidence = "ACE2 antagonizes the activation of the classical RAS system and \
+protects against organ damage, protecting against hypertension, \
+diabetes, and cardiovascular disease."
+
+act(p(HGNC:ACE2)) -| path(HP:"Hyperactive renin-angiotensin system")
+path(HP:"Hyperactive renin-angiotensin system") -> path(HP:"cell and tissue damage")
+path(HP:"Hyperactive renin-angiotensin system") -> path(DO:hypertension)
+path(HP:"Hyperactive renin-angiotensin system") -> path(DO:"diabetes mellitus")
+path(HP:"Hyperactive renin-angiotensin system") -> path(DO:"cardiovascular system disease")
+
+SET Evidence = "Similar to SARS-CoV, SARS-CoV-2 also uses the ACE2 receptor to invade \
+human alveolar epithelial cells."
+
+SET Species = "9606"
+SET MeSHAnatomy = "Alveolar Epithelial Cells"
+complex(a(TAX:"Severe acute respiratory syndrome coronavirus 2"), p(HGNC:ACE2)) -> bp(GO:"viral entry into host cell")
+complex(a(TAX:"Severe acute respiratory syndrome-related coronavirus"), p(HGNC:ACE2)) -> bp(GO:"viral entry into host cell")
+UNSET MeSHAnatomy
+UNSET Species
+
+SET Evidence = "ARDS is a clinical high-mortality disease, and ACE2 has a protective \
+effect on this type of acute lung injury."
+
+act(p(HGNC:ACE2)) neg path(DO:"adult respiratory distress syndrome")
+
+SET Evidence = "The renin-angiotensin system (RAS) is a critical homeostasis \
+regulation of the human body (showed in Fig.1.).1"
+
+path(HP:"Hyperactive renin-angiotensin system") reg bp(GO:"homeostatic process")
+
+SET Evidence = "Ang II is an effective pulmonary vasoconstrictor."
+
+a(CHEBI:"angiotensin II") -> bp(GO:vasoconstriction)
+
+SET Evidence = "RAS is activated during hypoxia"
+
+path(MESH:Hypoxia) -> path(HP:"Hyperactive renin-angiotensin system")
+
+SET Evidence = "Ang II can not only promote the growth response of vascular smooth \
+muscle cells but also directly promote vascular remodeling and prevent \
+pneumonia and shunts related to lung injury.13"
+
+a(CHEBI:"angiotensin II") -> bp(GO:"vascular smooth muscle cell development")
+a(CHEBI:"angiotensin II") -> path(MESH:"Vascular Remodeling")
+a(CHEBI:"angiotensin II") -| path(DO:pneumonia)
+a(CHEBI:"angiotensin II") -| path(MESH:"Lung Injury")
+
+SET Evidence = "However, Ang II can also promote the occurrence of pulmonary edema and \
+impair lung function.14"
+
+a(CHEBI:"angiotensin II") -> path(DO:"pulmonary edema")
+a(CHEBI:"angiotensin II") -- path(HP:"Decreased pulmonary function")
+
+SET Evidence = "ARDS(acute respiratory distress syndrome)is the most severe form of \
+acute lung injury."
+
+path(DO:"adult respiratory distress syndrome") -- path(MESH:"Lung Injury")
+
+SET Evidence = "It is characterized mainly by increased pulmonary vascular \
+permeability and pulmonary edema."
+
+path(DO:"adult respiratory distress syndrome") -> path(DO:"pulmonary edema")
+path(DO:"adult respiratory distress syndrome") -- bp(GO:"negative regulation of vascular permeability")
+
+SET Evidence = "It is often induced by sepsis, aspiration, and pneumonia (including \
+that caused by SARS coronavirus, bird flu, and human influenza \
+viruses)."
+
+path(MESH:Sepsis) -> path(DO:"adult respiratory distress syndrome")
+path(HP:"Aspiration") -> path(DO:"adult respiratory distress syndrome")
+path(DO:pneumonia) -> path(DO:"adult respiratory distress syndrome")
+
+SET Evidence = "ACE2 is highly expressed in the lung, and Imai14 et al. confirmed the \
+protective effect of ACE2 in acute lung injury."
+
+SET MeSHAnatomy = "Lung"
+act(p(HGNC:ACE2)) neg path(MESH:"Acute Lung Injury")
+UNSET MeSHAnatomy
+
+SET Evidence = "The inhalation of acidic gas significantly increased the levels of Ang \
+II in the lung and plasma of wild-type mice, and the levels of Ang II \
+in the lung and plasma of acid-induced ACE2 knockout (ACE2 KO) mice \
+were further increased."
+
+SET Species = "10090"
+SET MeSHAnatomy = {"Lung", "Plasma"}
+act(p(HGNC:ACE2)) -| a(CHEBI:"angiotensin II")
+UNSET MeSHAnatomy
+
+SET Evidence = "Recombinant human ACE2 (rhACE2) protein treatment could reduce plasma \
+Ang II levels and reduce acute lung injury in ACE2 KO mice and wild- \
+type mice"
+
+SET MeSHAnatomy = "Plasma"
+a(FIXME:"Recombinant Human Angiotensin Converting Enzyme 2 APN01") -| a(CHEBI:"angiotensin II")
+a(CHEBI:"angiotensin II") -> path(MESH:"Acute Lung Injury")
+UNSET MeSHAnatomy
+UNSET Species
+
+SET Evidence = "Studies have further demonstrated that Ang II plays a role in acute \
+lung injury via AT1R."
+
+complex(a(CHEBI:"angiotensin II"), p(HGNC:AGTR1)) -> path(MESH:"Acute Lung Injury")
+
+SET Evidence = "ACE2 is also one of the primary receptors for SARS-CoV invasion into \
+the human body.15"
+
+complex(p(HGNC:ACE2), a(TAX:"Severe acute respiratory syndrome-related coronavirus")) -> bp(GO:"viral entry into host cell")
+
+SET Evidence = "What is puzzling is that SARS-CoV infection leads to highly lethal \
+pneumonia compared to other common cold symptoms after other \
+coronavirus infections."
+
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> path(DO:pneumonia)
+
+SET Evidence = "The researchers found that SARS-CoV-infected or recombinant SARS-spike \
+protein-treated wild-type mice exhibited significantly reduced ACE2 \
+expression in the lungs."
+
+SET Species = "10090"
+SET MeSHAnatomy = "Lung"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -| p(MGI:Ace2)
+p(UNIPROT:P59594) -| p(MGI:Ace2)
+p(UNIPROT:P59594) -- a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+
+
+SET Evidence = "These mice showed increased severity of pathological conditions in \
+acute lung injury."
+
+act(p(MGI:Ace2)) neg path(MESH:"Acute Lung Injury")
+UNSET MeSHAnatomy
+UNSET Species
+
+SET Evidence = "Therefore, the downregulation of ACE2 expression in SARS-CoV infection \
+may play a causal role in the pathogenesis of SARS, which provides a \
+reasonable explanation for the progression of SARS patients into ARDS."
+
+act(p(HGNC:ACE2)) -| path(DO:"severe acute respiratory syndrome")
+path(DO:"severe acute respiratory syndrome") -> path(DO:"adult respiratory distress syndrome")
+
+SET Evidence = "COVID-19 ARDS patients and SARS patients have typical ARDS pathology \
+in the lung.17"
+
+path(DO:"COVID-19") ->  path(DO:"adult respiratory distress syndrome")
+
+SET Evidence = "A retrospective study of 8866 cases22 showed that these factors, such \
+as being male, being over 60 years of age, and having pneumonia at \
+diagnosis, were significantly positively correlated with the increase \
+in mortality."
+
+SET Custom_Disease = "COVID-19"
+path(DO:pneumonia) -> a(MESH:Mortality)
+UNSET Custom_Disease
+
+SET Evidence = "Ang II promotes atherosclerosis in the cardiovascular system and \
+promotes inflammation, oxidative stress, and migration of endothelial \
+cells and vascular smooth muscle cells.24"
+
+SET MeSHAnatomy = "Cardiovascular System"
+a(CHEBI:"angiotensin II") -> path(DO:atherosclerosis)
+path(DO:atherosclerosis) -> bp(GO:"inflammatory response")
+path(DO:atherosclerosis) -> bp(MESH:"Oxidative Stress")
+path(DO:atherosclerosis) -> bp(GO:"endothelial cell migration")
+path(DO:atherosclerosis) -> bp(GO:"vascular associated smooth muscle cell migration")
+UNSET MeSHAnatomy
+
+SET Evidence = "ACE2 has a protective effect on many diseases with reduced expression \
+of ACE2, such as hypertension, diabetes, and cardiovascular diseases, \
+because it antagonizes the role of Ang II."
+
+act(p(HGNC:ACE2)) -| a(CHEBI:"angiotensin II")
+a(CHEBI:"angiotensin II") -> path(DO:hypertension)
+a(CHEBI:"angiotensin II") -> path(DO:"diabetes mellitus")
+a(CHEBI:"angiotensin II") -> path(DO:"cardiovascular system disease")
+
+SET Evidence = "RAS activation is an important pathophysiological mechanism of \
+hypertension, and RAS blockers are widely used."
+
+path(HP:"Hyperactive renin-angiotensin system") pos path(DO:hypertension)
+
+SET Evidence = "Studies have shown that the protective mechanism of ACE2 against \
+hypertension is most likely achieved by degradation of Ang II26."
+
+act(p(HGNC:ACE2)) -> deg(a(CHEBI:"angiotensin II"))
+a(CHEBI:"angiotensin II") -> path(DO:hypertension)
+
+SET Evidence = "Studies by Ferrario27 and others showed that ACE2 levels increased by \
+4.7 and 2.8 times when blood pressure decreased after applying ACEIs \
+(lisinopril) and ARBs (losartan) to rats."
+
+SET Species = "10116"
+a(CHEBI:lisinopril) -| path(DO:hypertension)
+a(CHEBI:losartan) -| path(DO:hypertension)
+path(DO:hypertension) neg p(RGD:Ace2)
+UNSET Species
+
+SET Evidence = "Animal experiments have found that Ang 1-7 infusion treatment can \
+significantly improve vascular endothelial function and inhibit \
+atherosclerotic lesion development in Ang 1-7 transgenic \
+apolipoprotein E knockout (ApoE KO) mice receiving atherogenic high- \
+fat diets28."
+
+SET Diet = "Diet, High-Fat"
+SET Species = "10090"
+SET Mouse_Type = "ApoE-/-"
+a(CHEBI:"Ile(5)-angiotensin II (1-7)") -| path(DO:atherosclerosis)
+SET MeSHAnatomy = "Endothelium, Vascular"
+a(CHEBI:"Ile(5)-angiotensin II (1-7)") -> act(a(MESH:"Endothelial Cells"))
+UNSET MeSHAnatomy
+UNSET Mouse_Type
+UNSET Species
+UNSET Diet
+
+SET Evidence = "It was also found that RAS blockade could prevent atherosclerosis in \
+ApoE/ACE2 double knockout mice."
+
+SET Species = "10090"
+SET Mouse_Type = "ApoE-/-ACE2-/-"
+path(DO:atherosclerosis) pos path(HP:"Hyperactive renin-angiotensin system")
+UNSET Mouse_Type
+UNSET Species
+
+SET Evidence = "ACE2 can also antagonize cardiac fibrosis and ventricular remodeling \
+caused by the long-term effects of Ang II."
+
+a(CHEBI:"angiotensin II") pos path(MESH:"Ventricular Remodeling")
+a(CHEBI:"angiotensin II") pos path(HP:"Myocardial fibrosis")
+
+SET Evidence = "In diabetic nephropathy, downregulation of renal tubular ACE2 is \
+associated with proteinuria and tubular damage32, and further \
+inhibition of ACE2 aggravates renal damage33."
+
+SET MeSHDisease = "Diabetic Nephropathies"
+SET MeSHAnatomy = "Kidney"
+act(p(HGNC:ACE2)) -| path(DO:proteinuria)
+act(p(HGNC:ACE2)) -| path(DO:"kidney failure")
+UNSET MeSHAnatomy
+UNSET MeSHDisease
+
+SET Evidence = "RhACE2 can reduce blood pressure while reducing renal damage34"
+
+a(FIXME:"Recombinant Human Angiotensin Converting Enzyme 2 APN01") -| path(DO:"kidney failure")
+path(DO:"kidney failure") pos path(DO:hypertension)
+
+SET Evidence = "The expression of ACE2 decreases with increasing age."
+
+bp(GO:aging) neg p(HGNC:ACE2)
+
+SET Evidence = "SARS-CoV-2 infection reduces ACE2 activity and receptor consumption, \
+further exacerbating pathophysiological mechanisms, such as Ang \
+II/ACE2 regulation imbalance(showed in Fig.2.)."
+
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -| act(p(HGNC:ACE2))
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -| complex(p(HGNC:ACE2), a(CHEBI:"angiotensin II"))
+
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

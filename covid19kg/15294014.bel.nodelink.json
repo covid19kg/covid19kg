@@ -1,0 +1,1337 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Assay": [
+        "TUNEL assay"
+      ],
+      "Condition": [
+        "serum starvation"
+      ],
+      "PublicationStatus": [
+        "Published"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Section": [
+        "Results"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "CellLine": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+    },
+    "document_metadata": {
+      "authors": "Priya S",
+      "contact": "priya@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "15294014.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "UNIPROT": "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\\.\\d+)?$"
+    },
+    "namespace_url": {
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+    },
+    "path": "15294014.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Assay": {
+          "TUNEL assay": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "As shown in Figure 1(B), serum starvation induced approx. 30% cell death in the presence of N (lane 4).",
+      "key": "e9ec7ca8253a6b1ee8bf07a8fc098878",
+      "line": 49,
+      "relation": "increases",
+      "source": 18,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "This result supported further our hypothesis that N-induced cell death was due to interference with the integrin signalling pathway, and that serum factors inhibited this phenomenon dominantly by maintaining the activity of FAK through alternative pathways.",
+      "key": "a563bc15e13f9eb101d89172bed5e7ae",
+      "line": 83,
+      "relation": "increases",
+      "source": 18,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "From these experiments, we conclude that the N protein of SARS-CoV induces apoptosis and actin reorganization by interfering with the integrin signalling pathway during cellular stress induced by the absence of growth factors.",
+      "key": "3b51621f409838c360ca427c2f6e90d2",
+      "line": 159,
+      "relation": "increases",
+      "source": 18,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "N expression clearly down-regulated the level of extracellular fibronectin in the absence of serum (Figure 2A, upper panel).",
+      "key": "6b34eaac5f9e2c2a03072efd538cddca",
+      "line": 58,
+      "object": {
+        "location": {
+          "name": "extracellular space",
+          "namespace": "GO"
+        }
+      },
+      "relation": "negativeCorrelation",
+      "source": 18,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunoassay": true
+        },
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "As expected, fibronectin levels were found to be lower in N-expressing cells irrespective of the presence or absence of serum (Figure 2A, lower panel), suggesting that N down-regulated fibronectin gene expression.",
+      "key": "385d0e9b8c5dad0790f8219ff1a0092d",
+      "line": 68,
+      "relation": "negativeCorrelation",
+      "source": 18,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "The level of phosphorylated FAK was significantly down-regulated in N-expressing cells in the absence of growth factors (Figure 2C).",
+      "key": "727678157e4aa339dbbb792766813401",
+      "line": 76,
+      "relation": "negativeCorrelation",
+      "source": 18,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "This result supported further our hypothesis that N-induced cell death was due to interference with the integrin signalling pathway, and that serum factors inhibited this phenomenon dominantly by maintaining the activity of FAK through alternative pathways.",
+      "key": "365d254af3d1f7c988acc86c5544b39c",
+      "line": 84,
+      "relation": "association",
+      "source": 18,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "From these experiments, we conclude that the N protein of SARS-CoV induces apoptosis and actin reorganization by interfering with the integrin signalling pathway during cellular stress induced by the absence of growth factors.",
+      "key": "a02ec3bc63381e23fa3ff436245c25de",
+      "line": 161,
+      "relation": "association",
+      "source": 18,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "In the absence of serum, N expression down-regulated the activity of p-ERK (Figure 3A, lanes 4–6)",
+      "key": "5d29fd67801f3a9e766132eff0f564a2",
+      "line": 90,
+      "relation": "decreases",
+      "source": 18,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "Furthermore, N expression up-regulated the activity of stress activated protein kinases, namely the JNK and p38 MAPK pathways. The activity was significantly high in the absence of serum (Figure 3B, top panel, lanes 5 and 6).",
+      "key": "003d8df09d936c11c1d0d0c0e8ed8e02",
+      "line": 99,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 18,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "Furthermore, N expression up-regulated the activity of stress activated protein kinases, namely the JNK and p38 MAPK pathways. The activity was significantly high in the absence of serum (Figure 3B, top panel, lanes 5 and 6).",
+      "key": "4e980325f7194b88a3c7388377ec6ea7",
+      "line": 101,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 18,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "Thus we conclude that N-induced activation of the p38 MAPK pathway in the absence of growth factors leads to actin reorganization.",
+      "key": "c428d54c9e5f495c6623f84d65ed1542",
+      "line": 120,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "increases",
+      "source": 18,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "The level of p-Akt was found to be significantly down-regulated in the absence of serum (Figure 5A, lanes 4–6).",
+      "key": "3087256e266a0cddbbe8fbe03c9a2415",
+      "line": 129,
+      "relation": "decreases",
+      "source": 18,
+      "target": 10
+    },
+    {
+      "key": "ab11719123b687ff983dfac9dc0a7df4",
+      "relation": "partOf",
+      "source": 18,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunoassay": true
+        },
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "Immunoprecipitation of Bcl-2 showed strong down-regulation in the absence of serum (Figure 5B, lanes 4–6).",
+      "key": "79d83126b9bf68de20a60d4b6fc704c3",
+      "line": 149,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "decreases",
+      "source": 18,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "From these experiments, we conclude that the N protein of SARS-CoV induces apoptosis and actin reorganization by interfering with the integrin signalling pathway during cellular stress induced by the absence of growth factors.",
+      "key": "cc94f69bfd3d7f9d4ea6d89d95e6afae",
+      "line": 160,
+      "relation": "increases",
+      "source": 18,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "N expression clearly down-regulated the level of extracellular fibronectin in the absence of serum (Figure 2A, upper panel).",
+      "key": "becbf49a08fda7f620b447c89051b54a",
+      "line": 58,
+      "relation": "negativeCorrelation",
+      "source": 6,
+      "subject": {
+        "location": {
+          "name": "extracellular space",
+          "namespace": "GO"
+        }
+      },
+      "target": 18
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "immunoassay": true
+        },
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "As expected, fibronectin levels were found to be lower in N-expressing cells irrespective of the presence or absence of serum (Figure 2A, lower panel), suggesting that N down-regulated fibronectin gene expression.",
+      "key": "d32cf2e21442e0ab0d03fe12017f0c5b",
+      "line": 68,
+      "relation": "negativeCorrelation",
+      "source": 6,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "The level of phosphorylated FAK was significantly down-regulated in N-expressing cells in the absence of growth factors (Figure 2C).",
+      "key": "ee033f68bcdab8da06026e061344d710",
+      "line": 76,
+      "relation": "negativeCorrelation",
+      "source": 8,
+      "target": 18
+    },
+    {
+      "key": "fb85df2bce635a39d3779ff3da6edd9b",
+      "relation": "hasVariant",
+      "source": 7,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "This result supported further our hypothesis that N-induced cell death was due to interference with the integrin signalling pathway, and that serum factors inhibited this phenomenon dominantly by maintaining the activity of FAK through alternative pathways.",
+      "key": "a9e4a2a61bcc578608d2675c95088f69",
+      "line": 84,
+      "relation": "association",
+      "source": 2,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "From these experiments, we conclude that the N protein of SARS-CoV induces apoptosis and actin reorganization by interfering with the integrin signalling pathway during cellular stress induced by the absence of growth factors.",
+      "key": "b68e05a84cafc3a572b5c370ad3a9842",
+      "line": 161,
+      "relation": "association",
+      "source": 2,
+      "target": 18
+    },
+    {
+      "key": "560c7878c2a99cc97dd6557b5f26c5f9",
+      "relation": "hasVariant",
+      "source": 4,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "The up-regulation of JNK activity was reflected further by the elevated p-Jun level (Figure3B, third panel, lanes 5 and 6).",
+      "key": "a7e875e3df60a5f0f0d9c32ea9204f86",
+      "line": 110,
+      "relation": "increases",
+      "source": 11,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 17
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "Thus we conclude that N-induced activation of the p38 MAPK pathway in the absence of growth factors leads to actin reorganization.",
+      "key": "9dfc1c4a65bec9b0e5852c3ac36475b6",
+      "line": 121,
+      "relation": "increases",
+      "source": 12,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 0
+    },
+    {
+      "key": "6668304a05f61b45c2a8c10adbfafa26",
+      "relation": "hasVariant",
+      "source": 16,
+      "target": 17
+    },
+    {
+      "key": "6118938cd66aadf82b6fd06f12b304ad",
+      "relation": "hasVariant",
+      "source": 9,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "Expression of this construct together with N rescued the cells from a death phenotype as exhibited by inhibition of caspase 3 activation (Figure 5E, lane 1).",
+      "key": "7ca9ff2aed2ad24dd8dffe7249ee251e",
+      "line": 137,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "decreases",
+      "source": 3,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "CellLine": {
+          "COS-1 cell": true
+        },
+        "Condition": {
+          "serum starvation": true
+        },
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Results": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Chow VT",
+          "Jameel S",
+          "Lal SK",
+          "Liu B",
+          "Surjit M"
+        ],
+        "date": "2004-10-01",
+        "db": "PubMed",
+        "db_id": "15294014",
+        "db_name": "The Biochemical journal",
+        "first": "Surjit M",
+        "last": "Lal SK",
+        "pages": "13-8",
+        "volume": "383"
+      },
+      "evidence": "Expression of this construct together with N rescued the cells from a death phenotype as exhibited by inhibition of caspase 3 activation (Figure 5E, lane 1).",
+      "key": "b3019ae1a6d5ad92379eef32e008e6ba",
+      "line": 139,
+      "relation": "decreases",
+      "source": 3,
+      "target": 1
+    },
+    {
+      "key": "b230abafa517ffc3fadfe46e6195449b",
+      "relation": "partOf",
+      "source": 13,
+      "target": 3
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "bp(GO:\"actin filament reorganization\")",
+      "concept": {
+        "name": "actin filament reorganization",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "c0bc13b2569ab1115ae86dec8535a524"
+    },
+    {
+      "bel": "bp(GO:\"apoptotic process\")",
+      "concept": {
+        "name": "apoptotic process",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "9eb8739869ef0e82697f61a33d3d6afa"
+    },
+    {
+      "bel": "bp(GO:\"integrin-mediated signaling pathway\")",
+      "concept": {
+        "name": "integrin-mediated signaling pathway",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "4906d9d452d45a85ac2354fdeed309e9"
+    },
+    {
+      "bel": "complex(p(UNIPROT:A0A0D9RKI4), p(UNIPROT:P59595))",
+      "function": "Complex",
+      "id": "47a600ded7c94089a381ca7cf9ebf8b3",
+      "members": [
+        {
+          "bel": "p(UNIPROT:A0A0D9RKI4)",
+          "concept": {
+            "name": "A0A0D9RKI4",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "032e10e111b8b0327b1117d000d0be1e"
+        },
+        {
+          "bel": "p(UNIPROT:P59595)",
+          "concept": {
+            "name": "P59595",
+            "namespace": "UNIPROT"
+          },
+          "function": "Protein",
+          "id": "92d5d8ae1d5c45a589f3e1f8bed8d0a0"
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9R1K1)",
+      "concept": {
+        "name": "A0A0D9R1K1",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "cc09f0f4c99d1f365898dedf982f6d7b"
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9R1K1, pmod(Ph))",
+      "concept": {
+        "name": "A0A0D9R1K1",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "8f67d2de8e6e5a10d02deea62d5e5f30",
+      "variants": [
+        {
+          "concept": {
+            "name": "Ph",
+            "namespace": "bel"
+          },
+          "kind": "pmod"
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9R9X4)",
+      "concept": {
+        "name": "A0A0D9R9X4",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "8f40e2b5eb2b44c1edb11e1704400065"
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9RB32)",
+      "concept": {
+        "name": "A0A0D9RB32",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "4a82733c0b65f34c9633ff31d396e29b"
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9RB32, pmod(Ph))",
+      "concept": {
+        "name": "A0A0D9RB32",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "0de3e694725990d7b43bef2068822faf",
+      "variants": [
+        {
+          "concept": {
+            "name": "Ph",
+            "namespace": "bel"
+          },
+          "kind": "pmod"
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9RBG0)",
+      "concept": {
+        "name": "A0A0D9RBG0",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "c861db85c7356d9607331ef2fcb59ef8"
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9RBG0, pmod(Ph, Thr, 308))",
+      "concept": {
+        "name": "A0A0D9RBG0",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "96f7cc02a36b15852904c163b921e02b",
+      "variants": [
+        {
+          "code": "Thr",
+          "concept": {
+            "name": "Ph",
+            "namespace": "bel"
+          },
+          "kind": "pmod",
+          "pos": 308
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9RCP6)",
+      "concept": {
+        "name": "A0A0D9RCP6",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "d1d96f16c3b057513ca52fce84a19600"
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9RCS6)",
+      "concept": {
+        "name": "A0A0D9RCS6",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "460889383acfd6fe75738ad427d9d8ab"
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9RKI4)",
+      "concept": {
+        "name": "A0A0D9RKI4",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "032e10e111b8b0327b1117d000d0be1e"
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9S017)",
+      "concept": {
+        "name": "A0A0D9S017",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "218384ff6d06c80a38362b6b7a5f2c30"
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9S2F1)",
+      "concept": {
+        "name": "A0A0D9S2F1",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "9e3b936b2fe4de00858afa1e4a847cc6"
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9SAF4)",
+      "concept": {
+        "name": "A0A0D9SAF4",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "68a4f554654e50943e3c0b177667830c"
+    },
+    {
+      "bel": "p(UNIPROT:A0A0D9SAF4, pmod(Ph))",
+      "concept": {
+        "name": "A0A0D9SAF4",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "fff7d2080dccebc3145fc65274916ad3",
+      "variants": [
+        {
+          "concept": {
+            "name": "Ph",
+            "namespace": "bel"
+          },
+          "kind": "pmod"
+        }
+      ]
+    },
+    {
+      "bel": "p(UNIPROT:P59595)",
+      "concept": {
+        "name": "P59595",
+        "namespace": "UNIPROT"
+      },
+      "function": "Protein",
+      "id": "92d5d8ae1d5c45a589f3e1f8bed8d0a0"
+    }
+  ]
+}

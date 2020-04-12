@@ -1,0 +1,113 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Thuy_et.al_2020.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+#Not in template.bel
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"DOI","10.1021/acsomega.0c00772"}
+
+SET PublicationType = "Research"
+#insilico study
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET BioAssay = "molecular docking"
+
+SET Evidence =  "The model describing the docking molecules indicated that all of the 17 compounds in the garlic essential oil from T1-ACE2 to T17-ACE2 have the binding ability toward the areas affected by the ACE2 protein."
+
+complex(a(CHEBI:"diallyl disulfide"),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+#T1
+complex(a(CHEBI:"diallyl trisulfide"),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+#T2
+complex(a(PUBCHEM:5352855),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+#T3
+complex(a(PUBCHEM:61926),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+#T4
+complex(a(PUBCHEM:75552),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+#T5
+complex(a(PUBCHEM:525331),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+#T6
+complex(a(PUBCHEM:5352907),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+#T7
+complex(a(PUBCHEM:133337),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+#T8
+complex(a(PUBCHEM:525328),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+#T9
+complex(a(CHEBI:carvone) ,p(HGNC:ACE2))-| act(p(HGNC:ACE2))
+#T10
+complex(a(PUBCHEM:181104),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+#T11
+complex(a(CHEBI:"allyl methyl disulfide"),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+#T12
+complex(a(CHEBI:"diacetone alcohol"),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+#T13
+complex(a(PUBCHEM:5352693),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+#T14
+complex(a(PUBCHEM:66282),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+#T15
+complex(a(PUBCHEM:6164465),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+#T16
+complex(a(PUBCHEM:21159455),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+#T17
+
+SET Evidence = "The compounds T1 and T2 indicated the highest content in the garlic essential oil (51.3%) and gave the best anti-SARS-CoV-2 activity, followed by the three compounds T5, T4, and T11."
+
+complex(a(CHEBI:"diallyl disulfide"),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+complex(a(CHEBI:"diallyl trisulfide"),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+complex(a(PUBCHEM:61926),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+complex(a(PUBCHEM:75552),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+complex(a(PUBCHEM:181104),p(HGNC:ACE2)) -| act(p(HGNC:ACE2))
+
+SET Evidence = "Meanwhile, the order of active compounds resisting SARS-CoV-2 is T2 = T1 > T5 > T4 > T11 > T15 > T8 > T16 > T9 > T12 > T13 > T3 > T6 > T7 > T10 > T14 > T17"
+complex(a(CHEBI:"diallyl disulfide"), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+#ORF1ab - main protease (MPro/3C-like proteinase), PDB6LU
+complex(a(PUBCHEM:75552), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+complex(a(PUBCHEM:61926), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+complex(a(PUBCHEM:181104), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+complex(a(PUBCHEM:66282), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+complex(a(PUBCHEM:133337), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+complex(a(PUBCHEM:6164465), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+complex(a(PUBCHEM:525328), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+complex(a(CHEBI:"allyl methyl disulfide"), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+complex(a(CHEBI:"diacetone alcohol"), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+complex(a(PUBCHEM:5352855), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+complex(a(PUBCHEM:525331), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+complex(a(PUBCHEM:5352907), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+complex(a(CHEBI:carvone), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+complex(a(PUBCHEM:5352693), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+complex(a(PUBCHEM:21159455), p(COVID:ORF1ab, frag("3264_3569"))) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+
+UNSET BioAssay
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

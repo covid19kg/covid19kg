@@ -1,0 +1,1473 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Assay": [
+        "Haemotoxylin and Eosin staining"
+      ],
+      "Custom_Disease": [
+        "COVID-19"
+      ],
+      "Custom_Species": [
+        "9544"
+      ],
+      "Infection_Type": [
+        "Primary",
+        "Re-infection"
+      ],
+      "PublicationStatus": [
+        "Preprint"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Sample": [
+        "anal swab",
+        "nasal swab",
+        "pharyngeal swab"
+      ],
+      "Section": [
+        "Full Text"
+      ],
+      "Timeline": [
+        "3 days"
+      ]
+    },
+    "annotation_pattern": {
+      "BioAssay": ".*"
+    },
+    "annotation_url": {
+      "Anatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno",
+      "MeSHAnatomy": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+    },
+    "document_metadata": {
+      "authors": "Geena Mariya Jose",
+      "contact": "geena.mariya.jose@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "Bao_et.al_2020.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "FIXME": ".*"
+    },
+    "namespace_url": {
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "Bao_et.al_2020.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "The Corona Virus Disease 2019 (COVID-40 19) caused by severe acute respiratory syndrome CoV-2 (SARS-CoV-2), emerged in Wuhan China, has continued to sweep through South Korea, Japan, Italy and Iran.",
+      "key": "6460b68eff596ae610995f358601ef14",
+      "line": 58,
+      "relation": "increases",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Re-infection": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Therefore, our results suggested that the monkeys with SARS-CoV-2 infection after recovery could not be reinfected with the same strain.",
+      "key": "20ba039556e02374f363da0bfd49b691",
+      "line": 114,
+      "relation": "negativeCorrelation",
+      "source": 3,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Re-infection": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "None of the monkeys showed the weight loss after the re-exposure (Figure 2a), but the transient elevation of body temperature was observed in both re-exposed monkeys (Figure 2b).",
+      "key": "944b8e1052a0221893e983cbc5d2ef3c",
+      "line": 111,
+      "relation": "negativeCorrelation",
+      "source": 3,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Following the initial infection, three of the four monkeys showed the weight loss ranging from 200 g to 400 g (Figure 2a), but the changes of rectal temperature in all the animals were not observed (Figure 2b).",
+      "key": "487a5f9aae42b439e7cb7e831b2efbd8",
+      "line": 62,
+      "relation": "association",
+      "source": 5,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Other clinical signs such as reduced appetite, increased respiration rate and hunched posture were transient after the initial challenge.",
+      "key": "5ce05c63c0050a4697952fd0eda8080a",
+      "line": 65,
+      "relation": "association",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Other clinical signs such as reduced appetite, increased respiration rate and hunched posture were transient after the initial challenge.",
+      "key": "8e91630ee7b438775b9cbe11bd1c2ca5",
+      "line": 66,
+      "relation": "association",
+      "source": 5,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Other clinical signs such as reduced appetite, increased respiration rate and hunched posture were transient after the initial challenge.",
+      "key": "c015fe6f4cba0f9d8c7fbf78ebca9443",
+      "line": 67,
+      "relation": "association",
+      "source": 5,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "nasal swab": true,
+          "pharyngeal swab": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "As shown in Figure 2c and 2d, the viral loads in nasal swabs and pharyngeal swabs reached the highest levels (average, approximately 6.5 log10 RNA copies/mL) at 3 days post-infection (dpi) and then declined naturally.",
+      "key": "0783919f873773a2ee1c6a651cf736f2",
+      "line": 72,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "anal swab": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Similarly, viral loads from anal swabs reached the peak about 4.5 log10 RNA copies/mL at 3 dpi and then declined to undetectable level at 14 dpi (Figure 2e).",
+      "key": "14c143b9a5f0b4ce0d2e7a6e0c5851d6",
+      "line": 77,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Anatomy": {
+          "skeletal musculature": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "MeSHAnatomy": {
+          "Heart": true,
+          "Intestines": true,
+          "Lung": true,
+          "Nose": true,
+          "Pharynx": true,
+          "Spinal Cord": true,
+          "Urinary Bladder": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "As shown in Figure 2f (left panel), viral replication was found in nose (107 to 108 copies/mL), pharynx (105 to 106 copies/mL), lung (104 to 107 copies/mL), gut (104 to 106 copies/mL), spinal cord (approximately 104 copies/mL), heart (approximately 104 copies/mL), skeletal muscle (approximately 104 copies/mL) and bladder (approximately 104 copies/mL).",
+      "key": "16111000f1a3b7d91eb1d85533fa1439",
+      "line": 83,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Haemotoxylin and Eosin staining": true
+        },
+        "BioAssay": {
+          "immunohistochemistry": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Furthermore, the lesions occurred mainly in the lung confirmed by the HE staining and anti-spike protein of SARS-CoV-2 staining, with mild to moderate interstitial pneumonia characterized by thickened alveolar septa, accumulation of alveolar macrophages in the alveoli, degeneration of the alveolar epithelia, and infiltration of inflammatory cells (Figure 3a).",
+      "key": "af5d3cfa655e3824dc455a7e6ba09e23",
+      "line": 91,
+      "relation": "positiveCorrelation",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "ELISA": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "For the longitudinal tracking of the characteristics each monkey, the specific antibody against SARS-CoV-2 of M2, M3 and M4 monkey was significantly elevated at 14 dpi or 21 dpi and 28 dpi compared to that at 3 dpi and 7dpi (*P<0.05, **P<0.01, Figure 2g).",
+      "key": "c2028563538dd23120e1fff375b8a688",
+      "line": 103,
+      "relation": "increases",
+      "source": 5,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Re-infection": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Therefore, our results suggested that the monkeys with SARS-CoV-2 infection after recovery could not be reinfected with the same strain.",
+      "key": "9738633033babf87d12969dbc1ff61dc",
+      "line": 114,
+      "relation": "negativeCorrelation",
+      "source": 5,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Following the initial infection, three of the four monkeys showed the weight loss ranging from 200 g to 400 g (Figure 2a), but the changes of rectal temperature in all the animals were not observed (Figure 2b).",
+      "key": "ae242a09a8843b9ee6a92974067bf601",
+      "line": 62,
+      "relation": "association",
+      "source": 10,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Re-infection": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "None of the monkeys showed the weight loss after the re-exposure (Figure 2a), but the transient elevation of body temperature was observed in both re-exposed monkeys (Figure 2b).",
+      "key": "2c8f116ee1dbeaef6198175f6b59ab28",
+      "line": 111,
+      "relation": "negativeCorrelation",
+      "source": 10,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Other clinical signs such as reduced appetite, increased respiration rate and hunched posture were transient after the initial challenge.",
+      "key": "cf4ea3b45972bd6ef8b5893f5b492605",
+      "line": 65,
+      "relation": "association",
+      "source": 9,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Other clinical signs such as reduced appetite, increased respiration rate and hunched posture were transient after the initial challenge.",
+      "key": "163091dd3f36dd10d838369ffb05deac",
+      "line": 66,
+      "relation": "association",
+      "source": 11,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Other clinical signs such as reduced appetite, increased respiration rate and hunched posture were transient after the initial challenge.",
+      "key": "b47eaa45c04a2ab6fb3867e16a30cfaf",
+      "line": 67,
+      "relation": "association",
+      "source": 12,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "nasal swab": true,
+          "pharyngeal swab": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "As shown in Figure 2c and 2d, the viral loads in nasal swabs and pharyngeal swabs reached the highest levels (average, approximately 6.5 log10 RNA copies/mL) at 3 days post-infection (dpi) and then declined naturally.",
+      "key": "5064fd62cf5e572597555c943180641d",
+      "line": 72,
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "anal swab": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Similarly, viral loads from anal swabs reached the peak about 4.5 log10 RNA copies/mL at 3 dpi and then declined to undetectable level at 14 dpi (Figure 2e).",
+      "key": "8a2659f432b77a8b423f45be43e812a1",
+      "line": 77,
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Anatomy": {
+          "skeletal musculature": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "MeSHAnatomy": {
+          "Heart": true,
+          "Intestines": true,
+          "Lung": true,
+          "Nose": true,
+          "Pharynx": true,
+          "Spinal Cord": true,
+          "Urinary Bladder": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "As shown in Figure 2f (left panel), viral replication was found in nose (107 to 108 copies/mL), pharynx (105 to 106 copies/mL), lung (104 to 107 copies/mL), gut (104 to 106 copies/mL), spinal cord (approximately 104 copies/mL), heart (approximately 104 copies/mL), skeletal muscle (approximately 104 copies/mL) and bladder (approximately 104 copies/mL).",
+      "key": "3d80b663acfdf5a080306fe50e2e5de1",
+      "line": 83,
+      "relation": "positiveCorrelation",
+      "source": 13,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Haemotoxylin and Eosin staining": true
+        },
+        "BioAssay": {
+          "immunohistochemistry": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Furthermore, the lesions occurred mainly in the lung confirmed by the HE staining and anti-spike protein of SARS-CoV-2 staining, with mild to moderate interstitial pneumonia characterized by thickened alveolar septa, accumulation of alveolar macrophages in the alveoli, degeneration of the alveolar epithelia, and infiltration of inflammatory cells (Figure 3a).",
+      "key": "1fdf0e9e248fcbcc881e716b9b20b3d7",
+      "line": 91,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Haemotoxylin and Eosin staining": true
+        },
+        "BioAssay": {
+          "immunohistochemistry": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Furthermore, the lesions occurred mainly in the lung confirmed by the HE staining and anti-spike protein of SARS-CoV-2 staining, with mild to moderate interstitial pneumonia characterized by thickened alveolar septa, accumulation of alveolar macrophages in the alveoli, degeneration of the alveolar epithelia, and infiltration of inflammatory cells (Figure 3a).",
+      "key": "5dcffcdda5f5e41523a1d6061483d8a1",
+      "line": 92,
+      "relation": "association",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Haemotoxylin and Eosin staining": true
+        },
+        "BioAssay": {
+          "immunohistochemistry": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Furthermore, the lesions occurred mainly in the lung confirmed by the HE staining and anti-spike protein of SARS-CoV-2 staining, with mild to moderate interstitial pneumonia characterized by thickened alveolar septa, accumulation of alveolar macrophages in the alveoli, degeneration of the alveolar epithelia, and infiltration of inflammatory cells (Figure 3a).",
+      "key": "0ad610e0fd0b4e31b92f37000ba400b4",
+      "line": 93,
+      "relation": "association",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Haemotoxylin and Eosin staining": true
+        },
+        "BioAssay": {
+          "immunohistochemistry": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Furthermore, the lesions occurred mainly in the lung confirmed by the HE staining and anti-spike protein of SARS-CoV-2 staining, with mild to moderate interstitial pneumonia characterized by thickened alveolar septa, accumulation of alveolar macrophages in the alveoli, degeneration of the alveolar epithelia, and infiltration of inflammatory cells (Figure 3a).",
+      "key": "893983025ce4688045b5341aaea7a5cc",
+      "line": 94,
+      "object": {
+        "modifier": "Degradation"
+      },
+      "relation": "association",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Haemotoxylin and Eosin staining": true
+        },
+        "BioAssay": {
+          "immunohistochemistry": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Furthermore, the lesions occurred mainly in the lung confirmed by the HE staining and anti-spike protein of SARS-CoV-2 staining, with mild to moderate interstitial pneumonia characterized by thickened alveolar septa, accumulation of alveolar macrophages in the alveoli, degeneration of the alveolar epithelia, and infiltration of inflammatory cells (Figure 3a).",
+      "key": "e7e95e7d4055616ea6a031264740f91b",
+      "line": 95,
+      "relation": "association",
+      "source": 6,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Haemotoxylin and Eosin staining": true
+        },
+        "BioAssay": {
+          "immunohistochemistry": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Furthermore, the lesions occurred mainly in the lung confirmed by the HE staining and anti-spike protein of SARS-CoV-2 staining, with mild to moderate interstitial pneumonia characterized by thickened alveolar septa, accumulation of alveolar macrophages in the alveoli, degeneration of the alveolar epithelia, and infiltration of inflammatory cells (Figure 3a).",
+      "key": "5a2d0c072c83f484e8f13b6704c7cc03",
+      "line": 92,
+      "relation": "association",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Haemotoxylin and Eosin staining": true
+        },
+        "BioAssay": {
+          "immunohistochemistry": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Furthermore, the lesions occurred mainly in the lung confirmed by the HE staining and anti-spike protein of SARS-CoV-2 staining, with mild to moderate interstitial pneumonia characterized by thickened alveolar septa, accumulation of alveolar macrophages in the alveoli, degeneration of the alveolar epithelia, and infiltration of inflammatory cells (Figure 3a).",
+      "key": "6c417915e580eeb8136ce7a18968c6e8",
+      "line": 93,
+      "relation": "association",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Haemotoxylin and Eosin staining": true
+        },
+        "BioAssay": {
+          "immunohistochemistry": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Furthermore, the lesions occurred mainly in the lung confirmed by the HE staining and anti-spike protein of SARS-CoV-2 staining, with mild to moderate interstitial pneumonia characterized by thickened alveolar septa, accumulation of alveolar macrophages in the alveoli, degeneration of the alveolar epithelia, and infiltration of inflammatory cells (Figure 3a).",
+      "key": "7273531aeeee5e202029beaa46270460",
+      "line": 94,
+      "relation": "association",
+      "source": 0,
+      "subject": {
+        "modifier": "Degradation"
+      },
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Assay": {
+          "Haemotoxylin and Eosin staining": true
+        },
+        "BioAssay": {
+          "immunohistochemistry": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "MeSHAnatomy": {
+          "Lung": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "Furthermore, the lesions occurred mainly in the lung confirmed by the HE staining and anti-spike protein of SARS-CoV-2 staining, with mild to moderate interstitial pneumonia characterized by thickened alveolar septa, accumulation of alveolar macrophages in the alveoli, degeneration of the alveolar epithelia, and infiltration of inflammatory cells (Figure 3a).",
+      "key": "2dd6740b735d6cdb59a6a0ec5c3c0b53",
+      "line": 95,
+      "relation": "association",
+      "source": 7,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "ELISA": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "For the longitudinal tracking of the characteristics each monkey, the specific antibody against SARS-CoV-2 of M2, M3 and M4 monkey was significantly elevated at 14 dpi or 21 dpi and 28 dpi compared to that at 3 dpi and 7dpi (*P<0.05, **P<0.01, Figure 2g).",
+      "key": "c671e8a284c572dbf90d2f5c98183a01",
+      "line": 104,
+      "relation": "association",
+      "source": 1,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Re-infection": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "From our current longitudinal study of monkeys, the reinfection could not occur if the monkeys produced the neutralizing antibody at an early stage after the primary infection",
+      "key": "f8eec33719637a8964132e965260fb6f",
+      "line": 117,
+      "relation": "decreases",
+      "source": 1,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "BioAssay": {
+          "ELISA": true
+        },
+        "Custom_Disease": {
+          "COVID-19": true
+        },
+        "Custom_Species": {
+          "9544": true
+        },
+        "Infection_Type": {
+          "Primary": true
+        },
+        "MeSHAnatomy": {
+          "Serum": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Timeline": {
+          "3 days": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.13.990226"
+      },
+      "evidence": "For the longitudinal tracking of the characteristics each monkey, the specific antibody against SARS-CoV-2 of M2, M3 and M4 monkey was significantly elevated at 14 dpi or 21 dpi and 28 dpi compared to that at 3 dpi and 7dpi (*P<0.05, **P<0.01, Figure 2g).",
+      "key": "b5beda3b5ae44e310a3b692e8382c5f4",
+      "line": 104,
+      "relation": "association",
+      "source": 4,
+      "target": 1
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(MESH:\"Alveolar Epithelial Cells\")",
+      "concept": {
+        "name": "Alveolar Epithelial Cells",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "c286ed6e2b932ad22464b9557356c5b0"
+    },
+    {
+      "bel": "a(MESH:\"Immunoglobulin G\")",
+      "concept": {
+        "name": "Immunoglobulin G",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "ed6b199fc0a3b814d8ce805fa9964dca"
+    },
+    {
+      "bel": "a(MESH:\"Macrophages, Alveolar\")",
+      "concept": {
+        "name": "Macrophages, Alveolar",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "462213c46e6d58474cb8803aeff740bd"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "p(COVID:S)",
+      "concept": {
+        "name": "S",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "8d090715298e11996081058536798c19"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"viral pneumonia\")",
+      "concept": {
+        "name": "viral pneumonia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "d5680e5b767d58870e63b3f606ac54e9"
+    },
+    {
+      "bel": "path(FIXME:\"infiltration of inflammatory cells\")",
+      "concept": {
+        "name": "infiltration of inflammatory cells",
+        "namespace": "FIXME"
+      },
+      "function": "Pathology",
+      "id": "31020be8337b115c4d6d9ff605861012"
+    },
+    {
+      "bel": "path(FIXME:\"thickened alveolar septa\")",
+      "concept": {
+        "name": "thickened alveolar septa",
+        "namespace": "FIXME"
+      },
+      "function": "Pathology",
+      "id": "9b9a279ea9f32d2de0d49d47cca36c5f"
+    },
+    {
+      "bel": "path(HP:\"Poor appetite\")",
+      "concept": {
+        "name": "Poor appetite",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "a5a6d7b3b9e1e6c92f5841050277dc4e"
+    },
+    {
+      "bel": "path(HP:\"Weight loss\")",
+      "concept": {
+        "name": "Weight loss",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "ce7caf8e4d57983d919bde8f6ea70b13"
+    },
+    {
+      "bel": "path(HP:Tachypnea)",
+      "concept": {
+        "name": "Tachypnea",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "c0e09d9c30b0ddd8117c4b14ea97e09d"
+    },
+    {
+      "bel": "path(MESH:\"Vertebral Hypoplasia With Lumbar Kyphosis\")",
+      "concept": {
+        "name": "Vertebral Hypoplasia With Lumbar Kyphosis",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "3a035d1f6f72fb220ec808c85631ba24"
+    },
+    {
+      "bel": "path(MESH:\"Virus Replication\")",
+      "concept": {
+        "name": "Virus Replication",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "5e513772ef3f1f2bafe1df69ef149abc"
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "PublicationStatus": [
+        "Preprint",
+        "Published"
+      ],
+      "PublicationType": [
+        "Report",
+        "Research",
+        "Review"
+      ],
+      "Section": [
+        "Abstract",
+        "Full Text",
+        "Results"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {},
+    "document_metadata": {
+      "authors": "Shounak Baksi",
+      "contact": "shounak.baksi@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "32198291.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "FIXME": ".*"
+    },
+    "namespace_url": {
+      "COVID": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "32198291.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Abstract": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Becker S",
+          "Curth U",
+          "Drosten C",
+          "Hilgenfeld R",
+          "Lin D",
+          "Rox K",
+          "Sauerhering L",
+          "Sun X",
+          "Zhang L"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32198291",
+        "db_name": "Science (New York, N.Y.)",
+        "first": "Zhang L",
+        "last": "Hilgenfeld R"
+      },
+      "evidence": "Based on the structure, we developed the lead compound into a potent inhibitor of the SARS-CoV-2 Mpro.",
+      "key": "9157f2fd8312e8c3916ee63e8fade0c1",
+      "line": 81,
+      "object": {
+        "modifier": "Activity"
+      },
+      "relation": "decreases",
+      "source": 5,
+      "target": 6
+    },
+    {
+      "key": "a97f939227bb92e0221c9cf3deab3efa",
+      "relation": "partOf",
+      "source": 0,
+      "target": 5
+    },
+    {
+      "key": "af0adece2489495a78683fb329f5fb2b",
+      "relation": "partOf",
+      "source": 6,
+      "target": 5
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Becker S",
+          "Curth U",
+          "Drosten C",
+          "Hilgenfeld R",
+          "Lin D",
+          "Rox K",
+          "Sauerhering L",
+          "Sun X",
+          "Zhang L"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32198291",
+        "db_name": "Science (New York, N.Y.)",
+        "first": "Zhang L",
+        "last": "Hilgenfeld R"
+      },
+      "evidence": "One of the best characterized drug targets among coronaviruses is the main protease (Mpro, also called 3CLpro) (4). Along with the papain- like protease(s), this enzyme is essential for processing the polyproteins that are translated from the viral RNA (5).",
+      "key": "1e29ee034dc45da7aa27c642e7cd3eb0",
+      "line": 90,
+      "relation": "regulates",
+      "source": 6,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Becker S",
+          "Curth U",
+          "Drosten C",
+          "Hilgenfeld R",
+          "Lin D",
+          "Rox K",
+          "Sauerhering L",
+          "Sun X",
+          "Zhang L"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32198291",
+        "db_name": "Science (New York, N.Y.)",
+        "first": "Zhang L",
+        "last": "Hilgenfeld R"
+      },
+      "evidence": "The Mpro operates at no less than 11 cleavage sites on the large polyprotein 1ab (replicase 1ab, ~790 kDa); the recognition sequence at most sites is Leu-Gln↓(Ser,Ala,Gly) (↓ marks the cleavage site).",
+      "key": "c1032d1256cf9fa7a2d5a465793bf947",
+      "line": 98,
+      "relation": "increases",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Becker S",
+          "Curth U",
+          "Drosten C",
+          "Hilgenfeld R",
+          "Lin D",
+          "Rox K",
+          "Sauerhering L",
+          "Sun X",
+          "Zhang L"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32198291",
+        "db_name": "Science (New York, N.Y.)",
+        "first": "Zhang L",
+        "last": "Hilgenfeld R"
+      },
+      "evidence": "Inhibiting the activity of this enzyme would block viral replication.",
+      "key": "a6c05c530cb3b23b42b989aa26a9520f",
+      "line": 102,
+      "relation": "increases",
+      "source": 6,
+      "subject": {
+        "modifier": "Activity"
+      },
+      "target": 3
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Becker S",
+          "Curth U",
+          "Drosten C",
+          "Hilgenfeld R",
+          "Lin D",
+          "Rox K",
+          "Sauerhering L",
+          "Sun X",
+          "Zhang L"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32198291",
+        "db_name": "Science (New York, N.Y.)",
+        "first": "Zhang L",
+        "last": "Hilgenfeld R"
+      },
+      "evidence": "One of the best characterized drug targets among coronaviruses is the main protease (Mpro, also called 3CLpro) (4). Along with the papain- like protease(s), this enzyme is essential for processing the polyproteins that are translated from the viral RNA (5).",
+      "key": "6de7c14aa4fb7443831f6654058098a8",
+      "line": 91,
+      "relation": "increases",
+      "source": 4,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Becker S",
+          "Curth U",
+          "Drosten C",
+          "Hilgenfeld R",
+          "Lin D",
+          "Rox K",
+          "Sauerhering L",
+          "Sun X",
+          "Zhang L"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32198291",
+        "db_name": "Science (New York, N.Y.)",
+        "first": "Zhang L",
+        "last": "Hilgenfeld R"
+      },
+      "evidence": "One of the best characterized drug targets among coronaviruses is the main protease (Mpro, also called 3CLpro) (4). Along with the papain- like protease(s), this enzyme is essential for processing the polyproteins that are translated from the viral RNA (5).",
+      "key": "2390ad6afa487440a3d4f2a6ada1b28b",
+      "line": 92,
+      "relation": "association",
+      "source": 1,
+      "target": 2
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Published": true
+        },
+        "PublicationType": {
+          "Report": true
+        },
+        "Section": {
+          "Full Text": true
+        }
+      },
+      "citation": {
+        "authors": [
+          "Becker S",
+          "Curth U",
+          "Drosten C",
+          "Hilgenfeld R",
+          "Lin D",
+          "Rox K",
+          "Sauerhering L",
+          "Sun X",
+          "Zhang L"
+        ],
+        "date": "2020-03-20",
+        "db": "PubMed",
+        "db_id": "32198291",
+        "db_name": "Science (New York, N.Y.)",
+        "first": "Zhang L",
+        "last": "Hilgenfeld R"
+      },
+      "evidence": "One of the best characterized drug targets among coronaviruses is the main protease (Mpro, also called 3CLpro) (4). Along with the papain- like protease(s), this enzyme is essential for processing the polyproteins that are translated from the viral RNA (5).",
+      "key": "2df691859680e91cd1280a3a49a7483a",
+      "line": 92,
+      "relation": "association",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "key": "2f10bf8fdaa769844333163cae0608fa",
+      "relation": "hasVariant",
+      "source": 7,
+      "target": 8
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(FIXME:\"alpha-ketoamide inhibitor\")",
+      "concept": {
+        "name": "alpha-ketoamide inhibitor",
+        "namespace": "FIXME"
+      },
+      "function": "Abundance",
+      "id": "f2c30ded8030534ed8ca90b69b4d6b01"
+    },
+    {
+      "bel": "a(MESH:\"Viral Proteins\")",
+      "concept": {
+        "name": "Viral Proteins",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "b4a3b7b1b8e0fc6fcfe9d2a65480d823"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "bp(GO:\"viral genome replication\")",
+      "concept": {
+        "name": "viral genome replication",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "e08b08a1af1179857efa22393f4badf4"
+    },
+    {
+      "bel": "bp(GO:\"viral translation\")",
+      "concept": {
+        "name": "viral translation",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "a3fd8eb464df3c2e2d1ac733c9d2cc95"
+    },
+    {
+      "bel": "complex(a(FIXME:\"alpha-ketoamide inhibitor\"), p(COVID:M))",
+      "function": "Complex",
+      "id": "9f122e24dd0b4fd61ca3fabbefe01446",
+      "members": [
+        {
+          "bel": "a(FIXME:\"alpha-ketoamide inhibitor\")",
+          "concept": {
+            "name": "alpha-ketoamide inhibitor",
+            "namespace": "FIXME"
+          },
+          "function": "Abundance",
+          "id": "f2c30ded8030534ed8ca90b69b4d6b01"
+        },
+        {
+          "bel": "p(COVID:M)",
+          "concept": {
+            "name": "M",
+            "namespace": "COVID"
+          },
+          "function": "Protein",
+          "id": "2e63e8799f85d686aecde07685acbf12"
+        }
+      ]
+    },
+    {
+      "bel": "p(COVID:M)",
+      "concept": {
+        "name": "M",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "2e63e8799f85d686aecde07685acbf12"
+    },
+    {
+      "bel": "p(COVID:ORF1ab)",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "3e2ae75f3061012cb65ea6b97f7db096"
+    },
+    {
+      "bel": "p(COVID:ORF1ab, frag(\"?\"))",
+      "concept": {
+        "name": "ORF1ab",
+        "namespace": "COVID"
+      },
+      "function": "Protein",
+      "id": "2345db4c82549a5603efaec7550ed08a",
+      "variants": [
+        {
+          "kind": "frag",
+          "missing": "?"
+        }
+      ]
+    }
+  ]
+}

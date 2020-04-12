@@ -1,0 +1,65 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Arya_et.al_2020.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+
+SET Citation = {"DOI","10.26434/chemrxiv.11860011"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET BioAssay = "molecular docking"
+
+SET Evidence = "These promising inhibitors of SARS-CoV-2 PLpro are listed in Table 1, \
+and their docked poses are shown in Figure 2."
+
+complex(a(PUBCHEM:4891), p(COVID:ORF1ab, frag("819_2763"))) -| p(COVID:ORF1ab, frag("819_2763"))
+complex(a(CHEBI:chlorothiazide), p(COVID:ORF1ab, frag("819_2763"))) -| p(COVID:ORF1ab, frag("819_2763"))
+complex(a(CHEBI:chloroquine), p(COVID:ORF1ab, frag("819_2763"))) -| p(COVID:ORF1ab, frag("819_2763"))
+complex(a(CHEBI:formoterol), p(COVID:ORF1ab, frag("819_2763"))) -| p(COVID:ORF1ab, frag("819_2763"))
+complex(a(CHEBI:benzylpenicillin), p(COVID:ORF1ab, frag("819_2763"))) -| p(COVID:ORF1ab, frag("819_2763"))
+complex(a(CHEBI:Naphazoline), p(COVID:ORF1ab, frag("819_2763"))) -| p(COVID:ORF1ab, frag("819_2763"))
+complex(a(CHEBI:amitriptyline), p(COVID:ORF1ab, frag("819_2763"))) -| p(COVID:ORF1ab, frag("819_2763"))
+complex(a(CHEBI:levamisole), p(COVID:ORF1ab, frag("819_2763"))) -| p(COVID:ORF1ab, frag("819_2763"))
+complex(a(CHEBI:ethoheptazine), p(COVID:ORF1ab, frag("819_2763"))) -| p(COVID:ORF1ab, frag("819_2763"))
+complex(a(CHEBI:ticlopidine), p(COVID:ORF1ab, frag("819_2763"))) -| p(COVID:ORF1ab, frag("819_2763"))
+complex(a(CHEBI:tetryzoline), p(COVID:ORF1ab, frag("819_2763"))) -| p(COVID:ORF1ab, frag("819_2763"))
+complex(a(CHEBI:labetalol), p(COVID:ORF1ab, frag("819_2763"))) -| p(COVID:ORF1ab, frag("819_2763"))
+complex(a(CHEBI:Meperidine), p(COVID:ORF1ab, frag("819_2763"))) -| p(COVID:ORF1ab, frag("819_2763"))
+complex(a(CHEBI:terbinafine), p(COVID:ORF1ab, frag("819_2763"))) -| p(COVID:ORF1ab, frag("819_2763"))
+complex(a(CHEBI:procainamide), p(COVID:ORF1ab, frag("819_2763"))) -| p(COVID:ORF1ab, frag("819_2763"))
+complex(a(CHEBI:cinacalcet), p(COVID:ORF1ab, frag("819_2763"))) -| p(COVID:ORF1ab, frag("819_2763"))
+
+UNSET BioAssay
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

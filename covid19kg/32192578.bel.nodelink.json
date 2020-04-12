@@ -1,0 +1,532 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Virus": [
+        "SARS-CoV-2"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {},
+    "document_metadata": {
+      "authors": "Yojana Gadiya",
+      "contact": "yojana.gadiya@scai.fraunhofer.de",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID-19: consider cytokine storm syndromes and immunosuppression",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "https://doi.org/10.1016/S0140-6736(20)30628-0",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "FIXME": ".*"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "DRUGBANK": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns",
+      "GOBP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+    },
+    "path": "32192578.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "However, in hyperinflammation, immunosuppression is likely to be beneficial. Re-analysis of data from a phase 3 randomised controlled trial of IL-1 blockade (anakinra) in sepsis, showed significant survival benefit in patients with hyperinflammation, without increased adverse events.[8]",
+      "key": "aecc46b99d0d578e77316f01dcb57fc2",
+      "line": 86,
+      "relation": "negativeCorrelation",
+      "source": 17,
+      "target": 6
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "However, in hyperinflammation, immunosuppression is likely to be beneficial. Re-analysis of data from a phase 3 randomised controlled trial of IL-1 blockade (anakinra) in sepsis, showed significant survival benefit in patients with hyperinflammation, without increased adverse events.[8]",
+      "key": "b8f501da7c09efa526d95cda3b67338a",
+      "line": 86,
+      "relation": "negativeCorrelation",
+      "source": 6,
+      "target": 17
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "However, in hyperinflammation, immunosuppression is likely to be beneficial. Re-analysis of data from a phase 3 randomised controlled trial of IL-1 blockade (anakinra) in sepsis, showed significant survival benefit in patients with hyperinflammation, without increased adverse events.[8]",
+      "key": "1cb3c86b49467d3bb0435d9c260fa9b1",
+      "line": 89,
+      "relation": "negativeCorrelation",
+      "source": 6,
+      "target": 2
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "All patients with severe COVID-19 should be screened for hyperinflammation using laboratory trends (eg, increasing ferritin, decreasing platelet counts, or erythrocyte sedimentation rate) and the HScore [11] (table) to identify the subgroup of patients for whom immunosuppression could improve mortality.",
+      "key": "17e8d9f75b4cbfb914430f708b725695",
+      "line": 102,
+      "relation": "increases",
+      "source": 6,
+      "target": 0
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "All patients with severe COVID-19 should be screened for hyperinflammation using laboratory trends (eg, increasing ferritin, decreasing platelet counts, or erythrocyte sedimentation rate) and the HScore [11] (table) to identify the subgroup of patients for whom immunosuppression could improve mortality.",
+      "key": "1657f2af2fa3ff64c29d7f7cf14f7a49",
+      "line": 103,
+      "relation": "decreases",
+      "source": 6,
+      "target": 16
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "All patients with severe COVID-19 should be screened for hyperinflammation using laboratory trends (eg, increasing ferritin, decreasing platelet counts, or erythrocyte sedimentation rate) and the HScore [11] (table) to identify the subgroup of patients for whom immunosuppression could improve mortality.",
+      "key": "05414d71deb87d994f1cde2d2fc6b3b5",
+      "line": 104,
+      "relation": "association",
+      "source": 6,
+      "target": 15
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "However, in hyperinflammation, immunosuppression is likely to be beneficial. Re-analysis of data from a phase 3 randomised controlled trial of IL-1 blockade (anakinra) in sepsis, showed significant survival benefit in patients with hyperinflammation, without increased adverse events.[8]",
+      "key": "d6f77c1e209f430290928b62628ca838",
+      "line": 87,
+      "relation": "decreases",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "However, in hyperinflammation, immunosuppression is likely to be beneficial. Re-analysis of data from a phase 3 randomised controlled trial of IL-1 blockade (anakinra) in sepsis, showed significant survival benefit in patients with hyperinflammation, without increased adverse events.[8]",
+      "key": "5b741b2cca1808389a280224287b703b",
+      "line": 88,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "target": 18
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "However, in hyperinflammation, immunosuppression is likely to be beneficial. Re-analysis of data from a phase 3 randomised controlled trial of IL-1 blockade (anakinra) in sepsis, showed significant survival benefit in patients with hyperinflammation, without increased adverse events.[8]",
+      "key": "32af476a946614360fb0b2f7d43d13d8",
+      "line": 89,
+      "relation": "negativeCorrelation",
+      "source": 2,
+      "target": 6
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "Therapeutic options include steroids, intravenous immunoglobulin, selective cytokine blockade (eg, anakinra or tocilizumab) and JAK inhibition.",
+      "key": "f8a6a260b4b824a695855a320cc194fc",
+      "line": 111,
+      "relation": "decreases",
+      "source": 2,
+      "target": 12
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "However, in hyperinflammation, immunosuppression is likely to be beneficial. Re-analysis of data from a phase 3 randomised controlled trial of IL-1 blockade (anakinra) in sepsis, showed significant survival benefit in patients with hyperinflammation, without increased adverse events.[8]",
+      "key": "210aa2427176432b54b4129eb4f5f204",
+      "line": 88,
+      "relation": "negativeCorrelation",
+      "source": 18,
+      "target": 2
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "A multicentre, randomised controlled trial of tocilizumab (IL-6 receptor blockade, licensed for cytokine release syndrome), has been approved in patients with COVID-19 pneumonia and elevated IL-6 in China (ChiCTR2000029765) [9]. Janus kinase (JAK) inhibition could affect both inflammation and cellular viral entry in COVID-19 [10].",
+      "key": "b28be9ec94d393b97ceeeebbf2dd3312",
+      "line": 93,
+      "relation": "decreases",
+      "source": 3,
+      "target": 10
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "Therapeutic options include steroids, intravenous immunoglobulin, selective cytokine blockade (eg, anakinra or tocilizumab) and JAK inhibition.",
+      "key": "1579c4ea17b332ba0f6a86e636c6885f",
+      "line": 112,
+      "relation": "decreases",
+      "source": 3,
+      "target": 12
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "A multicentre, randomised controlled trial of tocilizumab (IL-6 receptor blockade, licensed for cytokine release syndrome), has been approved in patients with COVID-19 pneumonia and elevated IL-6 in China (ChiCTR2000029765) [9]. Janus kinase (JAK) inhibition could affect both inflammation and cellular viral entry in COVID-19 [10].",
+      "key": "eb841b7d54b232439bfa748d04c11dd3",
+      "line": 94,
+      "relation": "association",
+      "source": 10,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Virus": {
+          "SARS-CoV-2": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "A multicentre, randomised controlled trial of tocilizumab (IL-6 receptor blockade, licensed for cytokine release syndrome), has been approved in patients with COVID-19 pneumonia and elevated IL-6 in China (ChiCTR2000029765) [9]. Janus kinase (JAK) inhibition could affect both inflammation and cellular viral entry in COVID-19 [10].",
+      "key": "36bdd213aabfee29497a8284b4ac84e2",
+      "line": 96,
+      "relation": "negativeCorrelation",
+      "source": 10,
+      "target": 13
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "A multicentre, randomised controlled trial of tocilizumab (IL-6 receptor blockade, licensed for cytokine release syndrome), has been approved in patients with COVID-19 pneumonia and elevated IL-6 in China (ChiCTR2000029765) [9]. Janus kinase (JAK) inhibition could affect both inflammation and cellular viral entry in COVID-19 [10].",
+      "key": "11a5050a34b44c79a80f67555c23955e",
+      "line": 94,
+      "relation": "association",
+      "source": 14,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "Virus": {
+          "SARS-CoV-2": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "A multicentre, randomised controlled trial of tocilizumab (IL-6 receptor blockade, licensed for cytokine release syndrome), has been approved in patients with COVID-19 pneumonia and elevated IL-6 in China (ChiCTR2000029765) [9]. Janus kinase (JAK) inhibition could affect both inflammation and cellular viral entry in COVID-19 [10].",
+      "key": "cc439980cdda58b169a8d8ad6c3814c4",
+      "line": 96,
+      "relation": "negativeCorrelation",
+      "source": 13,
+      "target": 10
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "A multicentre, randomised controlled trial of tocilizumab (IL-6 receptor blockade, licensed for cytokine release syndrome), has been approved in patients with COVID-19 pneumonia and elevated IL-6 in China (ChiCTR2000029765) [9]. Janus kinase (JAK) inhibition could affect both inflammation and cellular viral entry in COVID-19 [10].",
+      "key": "89410f413e364539e1d60cb62633ea73",
+      "line": 98,
+      "relation": "association",
+      "source": 5,
+      "target": 7
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "A multicentre, randomised controlled trial of tocilizumab (IL-6 receptor blockade, licensed for cytokine release syndrome), has been approved in patients with COVID-19 pneumonia and elevated IL-6 in China (ChiCTR2000029765) [9]. Janus kinase (JAK) inhibition could affect both inflammation and cellular viral entry in COVID-19 [10].",
+      "key": "93a44e891f0b2a1a4ee30ae49bc38416",
+      "line": 99,
+      "relation": "association",
+      "source": 5,
+      "target": 8
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "A multicentre, randomised controlled trial of tocilizumab (IL-6 receptor blockade, licensed for cytokine release syndrome), has been approved in patients with COVID-19 pneumonia and elevated IL-6 in China (ChiCTR2000029765) [9]. Janus kinase (JAK) inhibition could affect both inflammation and cellular viral entry in COVID-19 [10].",
+      "key": "e407829b232870d6c3feebf767ed6e5a",
+      "line": 98,
+      "relation": "association",
+      "source": 7,
+      "target": 5
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "A multicentre, randomised controlled trial of tocilizumab (IL-6 receptor blockade, licensed for cytokine release syndrome), has been approved in patients with COVID-19 pneumonia and elevated IL-6 in China (ChiCTR2000029765) [9]. Janus kinase (JAK) inhibition could affect both inflammation and cellular viral entry in COVID-19 [10].",
+      "key": "03fa7456f734aa0fa9e7ddaab0550ebd",
+      "line": 99,
+      "relation": "association",
+      "source": 8,
+      "target": 5
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "All patients with severe COVID-19 should be screened for hyperinflammation using laboratory trends (eg, increasing ferritin, decreasing platelet counts, or erythrocyte sedimentation rate) and the HScore [11] (table) to identify the subgroup of patients for whom immunosuppression could improve mortality.",
+      "key": "19261eef3637a198ca6c3384a80c4410",
+      "line": 104,
+      "relation": "association",
+      "source": 15,
+      "target": 6
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "Therapeutic options include steroids, intravenous immunoglobulin, selective cytokine blockade (eg, anakinra or tocilizumab) and JAK inhibition.",
+      "key": "5e921f62d2596f236644d15cdca679ba",
+      "line": 109,
+      "relation": "decreases",
+      "source": 1,
+      "target": 12
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "Therapeutic options include steroids, intravenous immunoglobulin, selective cytokine blockade (eg, anakinra or tocilizumab) and JAK inhibition.",
+      "key": "5034f7c7555180c2f16c95c611678fbc",
+      "line": 113,
+      "relation": "positiveCorrelation",
+      "source": 12,
+      "target": 11
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "Therapeutic options include steroids, intravenous immunoglobulin, selective cytokine blockade (eg, anakinra or tocilizumab) and JAK inhibition.",
+      "key": "57789779448129cd7bab0b6f4b754a9c",
+      "line": 110,
+      "relation": "decreases",
+      "source": 4,
+      "target": 12
+    },
+    {
+      "citation": {
+        "db": "DOI",
+        "db_id": "https://doi.org/10.1016/S0140-6736(20)30628-0"
+      },
+      "evidence": "Therapeutic options include steroids, intravenous immunoglobulin, selective cytokine blockade (eg, anakinra or tocilizumab) and JAK inhibition.",
+      "key": "2e815ea9af0c0a8a2f3d6f12f3f791fa",
+      "line": 113,
+      "relation": "positiveCorrelation",
+      "source": 11,
+      "target": 12
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:Ferritin)",
+      "concept": {
+        "name": "Ferritin",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "249dbbc3ad43d89651e07c2d4506e857"
+    },
+    {
+      "bel": "a(CHEBI:steroid)",
+      "concept": {
+        "name": "steroid",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "5efab5fc1af093bd03489f015b9e29c4"
+    },
+    {
+      "bel": "a(DRUGBANK:DB00026)",
+      "concept": {
+        "name": "DB00026",
+        "namespace": "DRUGBANK"
+      },
+      "function": "Abundance",
+      "id": "5a0f7d2f34e3d28205e978d43811a804"
+    },
+    {
+      "bel": "a(DRUGBANK:DB06273)",
+      "concept": {
+        "name": "DB06273",
+        "namespace": "DRUGBANK"
+      },
+      "function": "Abundance",
+      "id": "4d24a3119bff403218a293dfcc4d6496"
+    },
+    {
+      "bel": "a(MESH:Immunoglobulins)",
+      "concept": {
+        "name": "Immunoglobulins",
+        "namespace": "MESH"
+      },
+      "function": "Abundance",
+      "id": "ee83657f1cb91b45697f9647ef2f9149"
+    },
+    {
+      "bel": "bp(GOBP:\"activation of Janus kinase activity\")",
+      "concept": {
+        "name": "activation of Janus kinase activity",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "1e9ae38ca97e5c583cdc533d00af5207"
+    },
+    {
+      "bel": "bp(GOBP:\"chronic inflammatory response\")",
+      "concept": {
+        "name": "chronic inflammatory response",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "d0dcd43160b612ca55d93af98c6847d9"
+    },
+    {
+      "bel": "bp(GOBP:\"inflammatory response\")",
+      "concept": {
+        "name": "inflammatory response",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "231ce9f9130365dfdf6765587f4e8343"
+    },
+    {
+      "bel": "bp(GOBP:\"viral entry into host cell\")",
+      "concept": {
+        "name": "viral entry into host cell",
+        "namespace": "GOBP"
+      },
+      "function": "BiologicalProcess",
+      "id": "60bbae25b4e0ac32c4c03901c2b4960c"
+    },
+    {
+      "bel": "p(HGNC:IL1A)",
+      "concept": {
+        "name": "IL1A",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "017f14e3a15a95b856bdaba5630dcf34"
+    },
+    {
+      "bel": "p(HGNC:IL6R)",
+      "concept": {
+        "name": "IL6R",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "92536fcad84ecfcda5039c198ce6946d"
+    },
+    {
+      "bel": "p(MESH:\"Janus Kinases\")",
+      "concept": {
+        "name": "Janus Kinases",
+        "namespace": "MESH"
+      },
+      "function": "Protein",
+      "id": "23647a60409e1c5ecf9a331e1f7d2439"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(DO:\"viral pneumonia\")",
+      "concept": {
+        "name": "viral pneumonia",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "d5680e5b767d58870e63b3f606ac54e9"
+    },
+    {
+      "bel": "path(FIXME:\"cytokine release syndrome\")",
+      "concept": {
+        "name": "cytokine release syndrome",
+        "namespace": "FIXME"
+      },
+      "function": "Pathology",
+      "id": "e17e21e78d588d64fa6c8cdbad234835"
+    },
+    {
+      "bel": "path(MESH:\"Blood Sedimentation\")",
+      "concept": {
+        "name": "Blood Sedimentation",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "a175ae23c7adfe132447c42ab8551090"
+    },
+    {
+      "bel": "path(MESH:\"Platelet Count\")",
+      "concept": {
+        "name": "Platelet Count",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "93d0ba4d1a2d577e14baa829e1f2dd2a"
+    },
+    {
+      "bel": "path(MESH:Immunosuppression)",
+      "concept": {
+        "name": "Immunosuppression",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "ccc7d3dbf541e7b1f7acfee2e6431c30"
+    },
+    {
+      "bel": "path(MESH:Sepsis)",
+      "concept": {
+        "name": "Sepsis",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "9ba9ef73914fe6af207a26336aafebd2"
+    }
+  ]
+}

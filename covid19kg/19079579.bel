@@ -1,0 +1,223 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "19079579.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+#Not in template.bel
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Mouse_type AS LIST {"RAG-1-/-", "MyD88-/-", "CCR1-/-","CCR2-/-","CCR5-/-"}
+DEFINE ANNOTATION Timeline AS LIST {"2 dpi", "4 dpi", "6 dpi"}
+DEFINE ANNOTATION Mouse_strain AS LIST {"C57BL/6J"}
+DEFINE ANNOTATION Technique AS LIST {"Histopathology"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+#################################################################################
+
+SET Citation = {"PubMed", "PLoS Pathog. 2008 Dec;4(12):e1000240. doi: 10.1371/journal.ppat.1000240. Epub 2008 Dec 12.", "19079579"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Species = "10090"
+
+SET Evidence = "Infection of WT, RAG-1-/-, or MyD88-/- mice resulted in weight loss \
+beginning at day 2 post-infection (Fig. 1A)."
+
+SET Mouse_type = {"RAG-1-/-", "MyD88-/-"}
+SET Timeline = "2 dpi"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> path(MESH:"Weight Loss")
+UNSET Timeline
+UNSET Mouse_type
+
+SET Evidence = "ii) the genetic absence of MyD88 significantly enhances SARS CoV- \
+induced morbidity and mortality , and iii) MyD88-dependent signaling \
+through a receptor(s) other than IL-1R1 or IL-18R1 is responsible for \
+protection from rMA15."
+
+SET Mouse_type = "MyD88-/-"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> bp(MESH:Morbidity)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> bp(MESH:Mortality)
+bp(GO:"MyD88-dependent toll-like receptor signaling pathway") -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+UNSET Mouse_type
+
+SET Evidence = "Interestingly, SARS-CoV infection of either WT or MyD88-/- mice \
+resulted in similar induction of type III IFN over mock-infected mice \
+which peaked at 2 dpi and declined thereafter (Fig 3A)."
+
+SET Timeline = "2 dpi"
+SET BioAssay = "quantitative PCR"
+SET Mouse_type = "MyD88-/-"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Tlr3)
+UNSET Mouse_type
+UNSET BioAssay
+UNSET Timeline
+
+SET Evidence = "Infection of WT mice with rMA15 resulted in a significant induction of \
+proinflammatory chemokines including CCL2 (MCP-1), CCL3 (MIP-1a), and \
+CCL5 (RANTES) as compared to mockinfected control mice (Fig. 3B)."
+
+SET Mouse_strain = "C57BL/6J"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Ccl2)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Ccl3)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> p(MGI:Ccl5)
+UNSET Mouse_strain
+
+SET Evidence = "In contrast to type I and type III IFNs, induction of CCL2 was \
+dramatically reduced in rMA15-infected MyD88-/- mice compared to WT \
+mice at 2 dpi (14 fold difference, P,0.005)."
+
+SET Mouse_type = "MyD88-/-"
+SET Timeline = "2 dpi"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -| p(MGI:Ccl2)
+UNSET Timeline
+UNSET Mouse_type
+
+SET Evidence = "Similarly, the induction of CCL3 (22 fold difference at 2 dpi, \
+P,0.005; 5 fold difference at 4 dpi, p,0.005) and CCL5 (8 fold \
+difference at 2 dpi, P,0.005; 8 fold difference at 4 dpi, P,0.01) were \
+dramatically reduced in infected MyD88-/- compared to infected WT mice \
+(Fig. 3B)."
+
+SET Mouse_type = "MyD88-/-"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -| p(MGI:Ccl3)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -| p(MGI:Ccl5)
+UNSET Mouse_type
+
+SET Evidence = "In addition to proinflammatory chemokines, virus-induced expression of \
+several proinflammatory cytokines, including TNF-a (9 fold difference \
+at 2 dpi, P,0.005; 3 fold difference at 4 dpi, p,0.005), IL-1b (3.8 \
+fold difference at 2 dpi,P,0.01), and IL-6 (11 fold difference at 2 \
+dpi, P,0.005); , was severely impaired in rMA15-infected MyD88-/- mice \
+compared to infected WT mice (Fig. 3C)."
+
+SET Mouse_type = "MyD88-/-"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -| p(MGI:Tnf)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -| p(MGI:Il1b)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -| p(MGI:Il6)
+UNSET Mouse_type
+
+SET Evidence = "At 2 dpi, MyD88-/- mice exhibited a denuding bronchiolitis \
+characterized by an extrusion of airway epithelial cells into the \
+lumen of the airway and epithelial/endothelial atypia (vacuolization \
+and disruption of normal epithelium and endothelium) but did not \
+exhibit any obvious signs of inflammatory cell infiltration including \
+peribronchivascular (PBV) or peri-venular immune cell infiltration \
+(‘‘cuffing’’)."
+
+SET Mouse_type = "MyD88-/-"
+SET Timeline = "2 dpi"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> path(DO:bronchiolitis)
+UNSET Timeline
+UNSET Mouse_type
+
+SET Evidence = "In contrast, WT mice at 2 dpi exhibited pronounced lung inflammation \
+characterized by perivascular cuffing, endothelial and epithelial \
+atypia, and peribronchivascular immune cell infiltration, without the \
+severe denuding bronchiolitis seen in MyD88-/- mice (Fig. 4)."
+
+SET Mouse_strain = "C57BL/6J"
+SET Timeline = "2 dpi"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> path(DO:pneumonia)
+UNSET Timeline
+UNSET Mouse_strain
+
+SET Evidence = "At 4 dpi, MyD88-/- mice continued to exhibit a denuding bronchiolitis, \
+epithelial/endothelial atypia, and the added phenotype of PBV edema \
+without immune cell infiltration around the airway though perivascular \
+infiltration of immune cells was observed (Fig. 4)."
+
+SET Mouse_type = "MyD88-/-"
+SET Timeline = "4 dpi"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> path(DO:bronchiolitis)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> path(DO:"pulmonary edema")
+UNSET Timeline
+UNSET Mouse_type
+
+SET Evidence = "Interestingly, by 6 dpi, the severity of PBV edema and denuding \
+bronchiolitis in MyD88-/- mice had waned, and signs of lung \
+inflammation were evident, with marked PBV infiltrates and \
+perivascular cuffing even more severe than that seen in WT mice at \
+similar times post infection."
+
+SET Mouse_type = "MyD88-/-"
+SET Timeline = "6 dpi"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -| path(DO:"pulmonary edema")
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -| path(DO:bronchiolitis)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> path(DO:pneumonia)
+path(DO:pneumonia) ->  path(DO:"pulmonary edema")
+SET MeSHAnatomy = "Bronchi"
+path(DO:pneumonia) -> bp(GO:"cell wall thickening")
+# For perivascular cuffing
+UNSET MeSHAnatomy
+UNSET Timeline
+UNSET Mouse_type
+
+SET Evidence = "The histological and flow cytometric analyses outlined above suggested \
+that monocytes/macrophages are i) the major cell population increased \
+in the SARS-infected lung at early times post-infection, ii) increased \
+in the lung by a MyD88-dependent mechanism, and iii) critical for \
+protection against severe rMA15-induced disease."
+
+SET BioAssay = "flow cytometry"
+SET Technique = "Histopathology"
+SET MeSHAnatomy = "Lung"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> a(MESH:Monocytes)
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") -> a(MESH:Macrophages)
+bp(GO:"MyD88-dependent toll-like receptor signaling pathway") -> a(MESH:Monocytes)
+bp(GO:"MyD88-dependent toll-like receptor signaling pathway") -> a(MESH:Macrophages)
+UNSET MeSHAnatomy
+UNSET Technique
+UNSET BioAssay
+
+SET Evidence = "Fig 6. In contrast, mice deficient in either CCR1, CCR2, or CCR5 \
+exhibited more prominent airway epithelial cell apoptosis, a severe \
+denuding bronchiolitis with an accumulation of cohesive apoptotic \
+debris within the airway (empty arrowhead) ,and \
+perivenular/periarterial cuffing (filled arrowhead) but there was a \
+distinct lack of cuffing around the affected airways."
+
+# fig 6
+SET Mouse_type = {"CCR1-/-","CCR2-/-","CCR5-/-"}
+SET MeSHAnatomy = "Lung"
+p(MGI:Ccr1) neg a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+p(MGI:Ccr2) neg a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+p(MGI:Ccr5) neg a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+SET MeSHAnatomy = "Epithelial Cells"
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") pos bp(GO:"apoptotic process")
+UNSET MeSHAnatomy
+a(TAX:"Severe acute respiratory syndrome-related coronavirus") pos path(DO:bronchiolitis)
+UNSET Mouse_type
+UNSET Species
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section

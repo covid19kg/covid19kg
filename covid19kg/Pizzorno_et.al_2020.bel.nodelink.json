@@ -1,0 +1,2692 @@
+{
+  "directed": true,
+  "graph": {
+    "annotation_list": {
+      "Custom_CellLine": [
+        "Vero E6 cell"
+      ],
+      "PublicationStatus": [
+        "Preprint"
+      ],
+      "PublicationType": [
+        "Research"
+      ],
+      "Sample": [
+        "basal medium"
+      ],
+      "Section": [
+        "Full Text"
+      ],
+      "Timeline": [
+        "24 hours post infection",
+        "48 hours post infection",
+        "48-72 hours post infection",
+        "96 hours post infection"
+      ]
+    },
+    "annotation_pattern": {},
+    "annotation_url": {
+      "Cell": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno",
+      "Species": "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+    },
+    "document_metadata": {
+      "authors": "Abish K",
+      "contact": "abish@causalitybiomodels.com",
+      "copyright": "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved",
+      "description": "COVID Knowledge Curation project",
+      "licenses": "Private Ownership to Fraunhofer Institute SCAI",
+      "name": "Pizzorno_et.al_2020.bel",
+      "version": "2.0.0"
+    },
+    "namespace_pattern": {
+      "PUBCHEM": "^\\d+$"
+    },
+    "namespace_url": {
+      "CHEBI": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns",
+      "DO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns",
+      "GO": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns",
+      "HGNC": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns",
+      "HP": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns",
+      "MESH": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns",
+      "TAX": "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+    },
+    "path": "Pizzorno_et.al_2020.bel",
+    "pybel_version": "0.14.6"
+  },
+  "links": [
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48-72 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "SARS-CoV-2 viral production at the epithelial apical surface increased sharply at 48 hpi, reaching 5.8 and 6.3 log10 TCID50/mL in nasal and bronchial HAE, respectively. The peak of viral replication was reached earlier in bronchial (48-72 hpi) than in nasal HAE, in which a progressive increase in infectious viral titers was observed until at least 96 hpi (Fig. 1D).",
+      "key": "02b6f0a2c2560900d18513a49a2f97ab",
+      "line": 52,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true,
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "High viral replication correlated with a reduction in epithelium integrity at 48 hpi, reflected by more than 2.8- and 4-fold decreases in bronchial and nasal HAE TEER values, respectively, followed by a partial recovery in the case of bronchial HAE (Fig. 1E).",
+      "key": "1d8cf256a7eee9b7280e02663b3c0791",
+      "line": 65,
+      "relation": "decreases",
+      "source": 15,
+      "target": 7
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "basal medium": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Interestingly, viral genome was detected in the basal medium from 48 hpi, with the peak observed at 72 hpi (Fig. 1H) coinciding with the highest impact of SARS-CoV-2 infection on epithelium integrity.",
+      "key": "66c588f3a04f88e87d23b0257566b003",
+      "line": 73,
+      "relation": "increases",
+      "source": 15,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true,
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "At 48 hpi, both HAE exhibited a well-established infection, with ciliated, goblet and to a lesser extent basal cells showing active production of viral progeny.",
+      "key": "c3c7faca2eb1a11f7ddd4fad0e873114",
+      "line": 82,
+      "relation": "increases",
+      "source": 15,
+      "target": 16
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true,
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "At 48 hpi, both HAE exhibited a well-established infection, with ciliated, goblet and to a lesser extent basal cells showing active production of viral progeny.",
+      "key": "dad55f52579565e70066cd963a5abcf5",
+      "line": 83,
+      "relation": "increases",
+      "source": 15,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Large electron-dense structures corresponding to the accumulation of viral material in active virus replication zones as well as typical double-membrane spherules containing pieces of membranes interspaced among virions being formed were also observed at 48 hpi (Fig. 2B, D).",
+      "key": "9e6e7007d4cb5d69def6ace7d9ffaf8d",
+      "line": 91,
+      "relation": "increases",
+      "source": 15,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Large electron-dense structures corresponding to the accumulation of viral material in active virus replication zones as well as typical double-membrane spherules containing pieces of membranes interspaced among virions being formed were also observed at 48 hpi (Fig. 2B, D).",
+      "key": "b4100c2a08566eaf8cd435d8b3ad31fa",
+      "line": 92,
+      "relation": "increases",
+      "source": 15,
+      "target": 4
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "790b2b19fba5e3ac844842e6a84421a3",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "96 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "351402e75acb4feedb9402fd5763d7dd",
+      "line": 114,
+      "relation": "negativeCorrelation",
+      "source": 15,
+      "target": 22
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "460f16fc3c15117511e7150215a1d750",
+      "line": 100,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "96 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "acacd3817a83ae0b694f971b1925606f",
+      "line": 115,
+      "relation": "negativeCorrelation",
+      "source": 15,
+      "target": 23
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "23bbcaf86f2484958cb3dfad526c4f0a",
+      "line": 101,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 24
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "aeb9a46635effa9c38c35e8f7ca4c5f2",
+      "line": 102,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 25
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "0b29c8808c9e031f976f157cefdf244e",
+      "line": 103,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 26
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "7cdf149599ae84d9676b6bc6321348f6",
+      "line": 106,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 20
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "526e4cdc923c6dea151cfa6f0b1ea143",
+      "line": 107,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 21
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "f45c5f41962cd9f3f9106c9a903e150e",
+      "line": 108,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 29
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "0f52c3b3841be7af0e69ea8f7022f0ff",
+      "line": 109,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 30
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "1bffc02d2c83173a4dd74fc46a34c700",
+      "line": 110,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 32
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "df72e03a5160d0657149f9316d378bad",
+      "line": 111,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 36
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "96 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "380c6dbe6098c77e5a9907e264f21a8a",
+      "line": 116,
+      "relation": "negativeCorrelation",
+      "source": 15,
+      "target": 19
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "96 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "fa14bb98af64354cffa608b89cac9fcb",
+      "line": 117,
+      "relation": "negativeCorrelation",
+      "source": 15,
+      "target": 31
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Moreover, the relative expression of a subset of genes associated with the NF-kB and TNFα pathways (e.g. IL18, IL18R1, NFKB2, NFKBIA, TNFA, and TNFAIP3) is mostly unchanged all throughout the infection in bronchial HAE but it is highly upregulated in nasal HAE at 48 hpi and onwards (Fig. 3C and Data S1).",
+      "key": "4f129d73383e0afb25c75cfbc071843a",
+      "line": 125,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 27
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Moreover, the relative expression of a subset of genes associated with the NF-kB and TNFα pathways (e.g. IL18, IL18R1, NFKB2, NFKBIA, TNFA, and TNFAIP3) is mostly unchanged all throughout the infection in bronchial HAE but it is highly upregulated in nasal HAE at 48 hpi and onwards (Fig. 3C and Data S1).",
+      "key": "edd8013dda295833b82b5b6c3894bbcc",
+      "line": 126,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 28
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Moreover, the relative expression of a subset of genes associated with the NF-kB and TNFα pathways (e.g. IL18, IL18R1, NFKB2, NFKBIA, TNFA, and TNFAIP3) is mostly unchanged all throughout the infection in bronchial HAE but it is highly upregulated in nasal HAE at 48 hpi and onwards (Fig. 3C and Data S1).",
+      "key": "3edc0e326ff25bb8fb6891e4db9f7e7b",
+      "line": 127,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 33
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Moreover, the relative expression of a subset of genes associated with the NF-kB and TNFα pathways (e.g. IL18, IL18R1, NFKB2, NFKBIA, TNFA, and TNFAIP3) is mostly unchanged all throughout the infection in bronchial HAE but it is highly upregulated in nasal HAE at 48 hpi and onwards (Fig. 3C and Data S1).",
+      "key": "a85a47f67dbbab05fbf42ed6b3c32ff1",
+      "line": 128,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 34
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Moreover, the relative expression of a subset of genes associated with the NF-kB and TNFα pathways (e.g. IL18, IL18R1, NFKB2, NFKBIA, TNFA, and TNFAIP3) is mostly unchanged all throughout the infection in bronchial HAE but it is highly upregulated in nasal HAE at 48 hpi and onwards (Fig. 3C and Data S1).",
+      "key": "d0f3d186b5d0ef4c3fe37522f131fda1",
+      "line": 129,
+      "relation": "positiveCorrelation",
+      "source": 15,
+      "target": 35
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "2780fc8f451530c0e3763f23fd40055a",
+      "line": 144,
+      "relation": "negativeCorrelation",
+      "source": 15,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "b1091939e2b26e9e0c4e9b8b74e1e393",
+      "line": 145,
+      "relation": "negativeCorrelation",
+      "source": 15,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "7f23a9c92c5d40699e155b840d80cd38",
+      "line": 146,
+      "relation": "negativeCorrelation",
+      "source": 15,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "e2b47b891a12c2281360f8f342df6c6d",
+      "line": 147,
+      "relation": "negativeCorrelation",
+      "source": 15,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "118bb5b3f56aeb880a683864932b510b",
+      "line": 148,
+      "relation": "negativeCorrelation",
+      "source": 15,
+      "target": 14
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48-72 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "SARS-CoV-2 viral production at the epithelial apical surface increased sharply at 48 hpi, reaching 5.8 and 6.3 log10 TCID50/mL in nasal and bronchial HAE, respectively. The peak of viral replication was reached earlier in bronchial (48-72 hpi) than in nasal HAE, in which a progressive increase in infectious viral titers was observed until at least 96 hpi (Fig. 1D).",
+      "key": "fbcb8de8a5464c1cfa79f5a53002518a",
+      "line": 52,
+      "relation": "positiveCorrelation",
+      "source": 6,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "basal medium": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Interestingly, viral genome was detected in the basal medium from 48 hpi, with the peak observed at 72 hpi (Fig. 1H) coinciding with the highest impact of SARS-CoV-2 infection on epithelium integrity.",
+      "key": "2783008720011ac350fdbf633a3eea44",
+      "line": 74,
+      "relation": "association",
+      "source": 6,
+      "target": 3
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true,
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "At 48 hpi, both HAE exhibited a well-established infection, with ciliated, goblet and to a lesser extent basal cells showing active production of viral progeny.",
+      "key": "7991a9266ca7baba2526851237e4a395",
+      "line": 84,
+      "relation": "association",
+      "source": 6,
+      "target": 8
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Sample": {
+          "basal medium": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Interestingly, viral genome was detected in the basal medium from 48 hpi, with the peak observed at 72 hpi (Fig. 1H) coinciding with the highest impact of SARS-CoV-2 infection on epithelium integrity.",
+      "key": "d6cfb4ae5dd5135f3cec93b276e77a54",
+      "line": 74,
+      "relation": "association",
+      "source": 3,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true,
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "At 48 hpi, both HAE exhibited a well-established infection, with ciliated, goblet and to a lesser extent basal cells showing active production of viral progeny.",
+      "key": "5cc375c6b02483129da49c0db469a5d7",
+      "line": 84,
+      "relation": "association",
+      "source": 8,
+      "target": 6
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "d270a15f23503e7322c596c22f6bd3f1",
+      "line": 99,
+      "relation": "positiveCorrelation",
+      "source": 22,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "96 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "dc8361b64081939f866ac561fcb292b2",
+      "line": 114,
+      "relation": "negativeCorrelation",
+      "source": 22,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "4996e2d62d4e188eaab26e022d5b7b00",
+      "line": 100,
+      "relation": "positiveCorrelation",
+      "source": 23,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "96 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "5fda9f8ac8fd415aab7aae9f786fa324",
+      "line": 115,
+      "relation": "negativeCorrelation",
+      "source": 23,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "83f284e5ca050c4fbc80c75a175599f5",
+      "line": 101,
+      "relation": "positiveCorrelation",
+      "source": 24,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "3bba09bb20db9ba30fafc327fc505c94",
+      "line": 102,
+      "relation": "positiveCorrelation",
+      "source": 25,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "ca4babf07937a6396448dce784912bfc",
+      "line": 103,
+      "relation": "positiveCorrelation",
+      "source": 26,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "3d8ff7a6c14f509cd953bc3d43f89255",
+      "line": 106,
+      "relation": "positiveCorrelation",
+      "source": 20,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "a306f97265c08e9bd8df03d6a4e866e4",
+      "line": 107,
+      "relation": "positiveCorrelation",
+      "source": 21,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "127f0c422fcfd194879198df8384dc37",
+      "line": 108,
+      "relation": "positiveCorrelation",
+      "source": 29,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "da288d80ac33ced4dc98e2d253a2591d",
+      "line": 109,
+      "relation": "positiveCorrelation",
+      "source": 30,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "f2a9157a4a9b6ce4b1455f79c7c08686",
+      "line": 110,
+      "relation": "positiveCorrelation",
+      "source": 32,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "24 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "8f7674e5ae0aad17037453bcb5c61055",
+      "line": 111,
+      "relation": "positiveCorrelation",
+      "source": 36,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "96 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "bd4268560c8c9b064021dd1c95475f00",
+      "line": 116,
+      "relation": "negativeCorrelation",
+      "source": 19,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "bronchial epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "96 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In the nasal HAE, the response after 24 hpi (peak at 72-96 hpi) is driven by a strong upregulation of type I and type III IFNs (IFNB1, IFNL1, IFNL2-3-4) as well as other immunity-related genes. Whereas only a subset of these genes (CXCL10/IP10, CXCL2/MIP2A, IL1A, IL1B, Mx1 and ZBP1) follow the same pattern in the bronchial HAE, though at overall lower expression levels, the initial modulation of IFNB1, IFNL1, CCL2/MCP1 and IL6 in this tissue seems to fade at 96 hpi.",
+      "key": "68d68f103b10914c8098cfb5cd6a1196",
+      "line": 117,
+      "relation": "negativeCorrelation",
+      "source": 31,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Moreover, the relative expression of a subset of genes associated with the NF-kB and TNFα pathways (e.g. IL18, IL18R1, NFKB2, NFKBIA, TNFA, and TNFAIP3) is mostly unchanged all throughout the infection in bronchial HAE but it is highly upregulated in nasal HAE at 48 hpi and onwards (Fig. 3C and Data S1).",
+      "key": "c1fb85bca06a163ccbf58ecf9d0ba91d",
+      "line": 125,
+      "relation": "positiveCorrelation",
+      "source": 27,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Moreover, the relative expression of a subset of genes associated with the NF-kB and TNFα pathways (e.g. IL18, IL18R1, NFKB2, NFKBIA, TNFA, and TNFAIP3) is mostly unchanged all throughout the infection in bronchial HAE but it is highly upregulated in nasal HAE at 48 hpi and onwards (Fig. 3C and Data S1).",
+      "key": "6fb67fcf6b481de8442f515d845a58a8",
+      "line": 126,
+      "relation": "positiveCorrelation",
+      "source": 28,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Moreover, the relative expression of a subset of genes associated with the NF-kB and TNFα pathways (e.g. IL18, IL18R1, NFKB2, NFKBIA, TNFA, and TNFAIP3) is mostly unchanged all throughout the infection in bronchial HAE but it is highly upregulated in nasal HAE at 48 hpi and onwards (Fig. 3C and Data S1).",
+      "key": "ba651ba954bd9cd7108716444759ecdb",
+      "line": 127,
+      "relation": "positiveCorrelation",
+      "source": 33,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Moreover, the relative expression of a subset of genes associated with the NF-kB and TNFα pathways (e.g. IL18, IL18R1, NFKB2, NFKBIA, TNFA, and TNFAIP3) is mostly unchanged all throughout the infection in bronchial HAE but it is highly upregulated in nasal HAE at 48 hpi and onwards (Fig. 3C and Data S1).",
+      "key": "218becf03f06c93c5eb2aa2500d87a1a",
+      "line": 128,
+      "relation": "positiveCorrelation",
+      "source": 34,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        },
+        "Timeline": {
+          "48 hours post infection": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Moreover, the relative expression of a subset of genes associated with the NF-kB and TNFα pathways (e.g. IL18, IL18R1, NFKB2, NFKBIA, TNFA, and TNFAIP3) is mostly unchanged all throughout the infection in bronchial HAE but it is highly upregulated in nasal HAE at 48 hpi and onwards (Fig. 3C and Data S1).",
+      "key": "531072cf26c4bd642f92607e8bc67aca",
+      "line": 129,
+      "relation": "positiveCorrelation",
+      "source": 35,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "98a91d74692b5a4c35ac6a7e90833455",
+      "line": 135,
+      "relation": "isA",
+      "source": 2,
+      "target": 1
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "d43248a04d32d0637a91c556b4cf666e",
+      "line": 136,
+      "relation": "isA",
+      "source": 2,
+      "target": 0
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "6bac2d041f99f1870281d13d42c6b0d9",
+      "line": 137,
+      "relation": "decreases",
+      "source": 2,
+      "target": 17
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "9a037c01e1dce3347bf838a975523b10",
+      "line": 138,
+      "relation": "decreases",
+      "source": 2,
+      "target": 18
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "5d93e5e4d6afb2232953e82a2c992d83",
+      "line": 139,
+      "relation": "increases",
+      "source": 2,
+      "target": 10
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "36f51813cacfcaa28e490c3481ad8f4f",
+      "line": 140,
+      "relation": "increases",
+      "source": 2,
+      "target": 11
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "aad41f182f7a2902fbd6f90c5891c9aa",
+      "line": 141,
+      "relation": "increases",
+      "source": 2,
+      "target": 12
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "08b8a4e745de830e621e22d664f710d5",
+      "line": 142,
+      "relation": "increases",
+      "source": 2,
+      "target": 13
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "f4d9ceea266ded22df243667aefa4135",
+      "line": 143,
+      "relation": "increases",
+      "source": 2,
+      "target": 14
+    },
+    {
+      "key": "f274db02dc9730c5375806507b0dc7db",
+      "relation": "partOf",
+      "source": 2,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "94721b43dc3ccbacfd7dd90c5ba11845",
+      "line": 144,
+      "relation": "negativeCorrelation",
+      "source": 10,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "129bdb79aad633bd8851c76aafb8c6ff",
+      "line": 145,
+      "relation": "negativeCorrelation",
+      "source": 11,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "d2faec30757acee3b0303f77469d6641",
+      "line": 146,
+      "relation": "negativeCorrelation",
+      "source": 12,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "a573d15abe49dfcd3250c82f53116480",
+      "line": 147,
+      "relation": "negativeCorrelation",
+      "source": 13,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Diltiazem is a voltage gated Ca 2+ channel antagonist currently used as anti-hypertensive for the control of angina pectoris and cardiac arrhythmia (26), which we have recently repurposed as an effective host-directed influenza inhibitor due to its so far undescribed capacity of inducing the interferon (IFN) antiviral response, particularly type III IFNs (Fig. S2) (8).",
+      "key": "ac41843da8b58f1914a962f14dc93112",
+      "line": 148,
+      "relation": "negativeCorrelation",
+      "source": 14,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Custom_CellLine": {
+          "Vero E6 cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Figure 4A-C shows a very strong antiviral effect of post-infection treatment with remdesivir in VeroE6 cells, with 50% inhibitory concentration (IC50) values of 0.98 ± 0.07 µM at 180 48 hpi and 0.72 ± 0.03 µM at 72 hpi.",
+      "key": "838f70d035d0db2101b0323ae757792f",
+      "line": 153,
+      "relation": "decreases",
+      "source": 5,
+      "target": 15
+    },
+    {
+      "key": "deabd30e96d24540b5088c8870c2d335",
+      "relation": "partOf",
+      "source": 5,
+      "target": 9
+    },
+    {
+      "annotations": {
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "Nonetheless, addition of 11.5 µM diltiazem significantly potentiated the antiviral effect of remdesivir (Fig. 4A-C), inducing 68% and 50% reductions in remdesivir IC50 values at 48 and 72 hpi, respectively.",
+      "key": "9b2cce7ba2024b55054b55e0887c3c46",
+      "line": 158,
+      "relation": "decreases",
+      "source": 9,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "In all cases, the antiviral effects induced by remdesivir, diltiazem or the remdesivir-diltiazem combination translated into a protection of the nasal but not the bronchial HAE barrier integrity, preventing the drop on TEER values induced by the infection (Fig. 4D, lower panel). Importantly, remdesivir also showed a strong antiviral effect at 72 hpi (Fig. 4E, upper panel).",
+      "key": "34d868b3682f8eeaef2f6b01777429d8",
+      "line": 169,
+      "relation": "decreases",
+      "source": 9,
+      "target": 15
+    },
+    {
+      "annotations": {
+        "Cell": {
+          "nasopharyngeal epithelial cell": true
+        },
+        "PublicationStatus": {
+          "Preprint": true
+        },
+        "PublicationType": {
+          "Research": true
+        },
+        "Section": {
+          "Full Text": true
+        },
+        "Species": {
+          "9606": true
+        }
+      },
+      "citation": {
+        "db": "DOI",
+        "db_id": "10.1101/2020.03.31.017889"
+      },
+      "evidence": "On top of that, we observed an additional 1.3 log10 reduction in nasal HAE viral titers for the remdesivir-diltiazem combination when compared with remdesivir monotherapy.",
+      "key": "f20570ab7f0c83ec4c8e8a813db9629f",
+      "line": 163,
+      "relation": "decreases",
+      "source": 9,
+      "target": 6
+    }
+  ],
+  "multigraph": true,
+  "nodes": [
+    {
+      "bel": "a(CHEBI:\"antihypertensive agent\")",
+      "concept": {
+        "name": "antihypertensive agent",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "233e111e7da187a1af52091069eb492b"
+    },
+    {
+      "bel": "a(CHEBI:\"calcium channel blocker\")",
+      "concept": {
+        "name": "calcium channel blocker",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "98245700e8951c00b75870533d689075"
+    },
+    {
+      "bel": "a(CHEBI:diltiazem)",
+      "concept": {
+        "name": "diltiazem",
+        "namespace": "CHEBI"
+      },
+      "function": "Abundance",
+      "id": "84cf3040f930e7f65b46972f851739fd"
+    },
+    {
+      "bel": "a(GO:\"RNA viral genome\")",
+      "concept": {
+        "name": "RNA viral genome",
+        "namespace": "GO"
+      },
+      "function": "Abundance",
+      "id": "58886676a15d0caee20d11c6dbfcfc7d"
+    },
+    {
+      "bel": "a(GO:\"double membrane vesicle viral factory\")",
+      "concept": {
+        "name": "double membrane vesicle viral factory",
+        "namespace": "GO"
+      },
+      "function": "Abundance",
+      "id": "c0030c14b1528dfe47bd57eb950d9423"
+    },
+    {
+      "bel": "a(PUBCHEM:121304016)",
+      "concept": {
+        "name": "121304016",
+        "namespace": "PUBCHEM"
+      },
+      "function": "Abundance",
+      "id": "7704f9ea62204912dace9e0cfb704c95"
+    },
+    {
+      "bel": "a(TAX:\"Severe acute respiratory syndrome coronavirus 2\")",
+      "concept": {
+        "name": "Severe acute respiratory syndrome coronavirus 2",
+        "namespace": "TAX"
+      },
+      "function": "Abundance",
+      "id": "c41851da59cc36c21b2e8acf24c1f46d"
+    },
+    {
+      "bel": "bp(GO:\"epithelial structure maintenance\")",
+      "concept": {
+        "name": "epithelial structure maintenance",
+        "namespace": "GO"
+      },
+      "function": "BiologicalProcess",
+      "id": "2deb708c382c861439547bbc087dc6bf"
+    },
+    {
+      "bel": "bp(MESH:\"Virus Replication\")",
+      "concept": {
+        "name": "Virus Replication",
+        "namespace": "MESH"
+      },
+      "function": "BiologicalProcess",
+      "id": "f511c0a55a7b8aa880279fba6181fd8c"
+    },
+    {
+      "bel": "composite(a(CHEBI:diltiazem), a(PUBCHEM:121304016))",
+      "function": "Composite",
+      "id": "6a4b1a945bd1dbf0f323fdd71573efa9",
+      "members": [
+        {
+          "bel": "a(CHEBI:diltiazem)",
+          "concept": {
+            "name": "diltiazem",
+            "namespace": "CHEBI"
+          },
+          "function": "Abundance",
+          "id": "84cf3040f930e7f65b46972f851739fd"
+        },
+        {
+          "bel": "a(PUBCHEM:121304016)",
+          "concept": {
+            "name": "121304016",
+            "namespace": "PUBCHEM"
+          },
+          "function": "Abundance",
+          "id": "7704f9ea62204912dace9e0cfb704c95"
+        }
+      ]
+    },
+    {
+      "bel": "p(HGNC:IFNB1)",
+      "concept": {
+        "name": "IFNB1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "187da957c4e0c092e01fc85dd9da5fa4"
+    },
+    {
+      "bel": "p(HGNC:IFNL1)",
+      "concept": {
+        "name": "IFNL1",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "2e69331eeefc2f2dc793d43ac82a8433"
+    },
+    {
+      "bel": "p(HGNC:IFNL2)",
+      "concept": {
+        "name": "IFNL2",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "dccc91de566e67d7104cd34f8e6f38c2"
+    },
+    {
+      "bel": "p(HGNC:IFNL3)",
+      "concept": {
+        "name": "IFNL3",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "b95acf17bf36561e4943df86a982491e"
+    },
+    {
+      "bel": "p(HGNC:IFNL4)",
+      "concept": {
+        "name": "IFNL4",
+        "namespace": "HGNC"
+      },
+      "function": "Protein",
+      "id": "fdcbba5c3b8cd3dcad0b7bc74863e648"
+    },
+    {
+      "bel": "path(DO:\"COVID-19\")",
+      "concept": {
+        "name": "COVID-19",
+        "namespace": "DO"
+      },
+      "function": "Pathology",
+      "id": "6f9f1c2e8012537e503a758c6bfaff0f"
+    },
+    {
+      "bel": "path(HP:\"ciliated cell\")",
+      "concept": {
+        "name": "ciliated cell",
+        "namespace": "HP"
+      },
+      "function": "Pathology",
+      "id": "3a88801c1e797b213639a17a28558a23"
+    },
+    {
+      "bel": "path(MESH:\"Angina Pectoris\")",
+      "concept": {
+        "name": "Angina Pectoris",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "873b1d8d5c3f6e93230023035c39ce2c"
+    },
+    {
+      "bel": "path(MESH:\"Arrhythmias, Cardiac\")",
+      "concept": {
+        "name": "Arrhythmias, Cardiac",
+        "namespace": "MESH"
+      },
+      "function": "Pathology",
+      "id": "647f560a55382a22c7927c85b80e0dcf"
+    },
+    {
+      "bel": "r(HGNC:CCL2)",
+      "concept": {
+        "name": "CCL2",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "0159e3d16a4bd148b1001fe29ff3ecd5"
+    },
+    {
+      "bel": "r(HGNC:CXCL10)",
+      "concept": {
+        "name": "CXCL10",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "2326fad96c3b5867bbe27170d6183a40"
+    },
+    {
+      "bel": "r(HGNC:CXCL2)",
+      "concept": {
+        "name": "CXCL2",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "41a190c2cc78866ca479a0e35eb28aff"
+    },
+    {
+      "bel": "r(HGNC:IFNB1)",
+      "concept": {
+        "name": "IFNB1",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "0741df84ff6642ebb4c57401b4765a09"
+    },
+    {
+      "bel": "r(HGNC:IFNL1)",
+      "concept": {
+        "name": "IFNL1",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "28d73c42a1167ac55f4a71a45e252c6a"
+    },
+    {
+      "bel": "r(HGNC:IFNL2)",
+      "concept": {
+        "name": "IFNL2",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "e81387cd6dacb411f918a2f2624c79d7"
+    },
+    {
+      "bel": "r(HGNC:IFNL3)",
+      "concept": {
+        "name": "IFNL3",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "b9f0db75a291024145503d4b84707661"
+    },
+    {
+      "bel": "r(HGNC:IFNL4)",
+      "concept": {
+        "name": "IFNL4",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "4f44bd410663271feaebe7a8f15d61be"
+    },
+    {
+      "bel": "r(HGNC:IL18)",
+      "concept": {
+        "name": "IL18",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "f28a6cf8a30a3d9463460263d046ce3b"
+    },
+    {
+      "bel": "r(HGNC:IL18R1)",
+      "concept": {
+        "name": "IL18R1",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "48a6a8b1eabf9722a55c62824a09431f"
+    },
+    {
+      "bel": "r(HGNC:IL1A)",
+      "concept": {
+        "name": "IL1A",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "ea3869f4dd31ed5399a302ee662d73f2"
+    },
+    {
+      "bel": "r(HGNC:IL1B)",
+      "concept": {
+        "name": "IL1B",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "5fa99a5398e196b8c3ed2fe80e8fc32a"
+    },
+    {
+      "bel": "r(HGNC:IL6)",
+      "concept": {
+        "name": "IL6",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "5080f7e156b0d46f95fe8defa45ce659"
+    },
+    {
+      "bel": "r(HGNC:MX1)",
+      "concept": {
+        "name": "MX1",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "e2a77c98cd594ecbda593c413efc7065"
+    },
+    {
+      "bel": "r(HGNC:NFKB2)",
+      "concept": {
+        "name": "NFKB2",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "d90e5b5ce1a596e42e7482a3e2d90a1e"
+    },
+    {
+      "bel": "r(HGNC:TNF)",
+      "concept": {
+        "name": "TNF",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "c7cb5c65848a9c337fa0e8b87d7110d4"
+    },
+    {
+      "bel": "r(HGNC:TNFAIP3)",
+      "concept": {
+        "name": "TNFAIP3",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "7cce4c51b7a41f6ca7cf80965ff9dc81"
+    },
+    {
+      "bel": "r(HGNC:ZBP1)",
+      "concept": {
+        "name": "ZBP1",
+        "namespace": "HGNC"
+      },
+      "function": "RNA",
+      "id": "9d7ef283094b542df7676e25c5558551"
+    }
+  ]
+}

@@ -1,0 +1,569 @@
+# This document was created by PyBEL v0.13.2 and bel-resources v0.0.3 on Thu Mar 26 17:01:28 2020
+
+SET DOCUMENT Name = "DrugBank"
+SET DOCUMENT Authors = "Reagon Karki"
+SET DOCUMENT ContactInfo = "reagon.karki@scai.fraunhofer.de"
+SET DOCUMENT Description = "DrugBank data"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+################################################################################
+#| Namespaces
+################################################################################
+
+# Enumerated Namespaces
+# DEFINE NAMESPACE CONSO          AS URL "https://raw.githubusercontent.com/pharmacome/conso/3c93a65dc48e6786fe29ae55aa36cf9a902fe8c6/export/conso-names.belns"
+# DEFINE NAMESPACE ECCODE         AS URL "https://raw.githubusercontent.com/pharmacome/conso/c328ad964c08967a0417a887510b97b965a62fa5/external/ec-code.belns"
+# DEFINE NAMESPACE EFO            AS URL "https://raw.githubusercontent.com/pharmacome/conso/5d2c2ea6f7112421cc8089a3f021a75ab60bb373/external/efo-names.belns"
+# DEFINE NAMESPACE FB             AS URL "https://raw.githubusercontent.com/pharmacome/conso/c328ad964c08967a0417a887510b97b965a62fa5/external/fb-names.belns"
+# DEFINE NAMESPACE MIRBASE        AS URL "https://raw.githubusercontent.com/pharmacome/conso/c328ad964c08967a0417a887510b97b965a62fa5/external/mirbase-names.belns"
+
+# DEFINE NAMESPACE ADO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/alzheimer-disease-ontology/alzheimer-disease-ontology-1.0.2.belns"
+# DEFINE NAMESPACE BRCO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/brain-region-ontology/brain-region-ontology-1.0.0.belns"
+# DEFINE NAMESPACE NIFT AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/nift/NIFT.belns"
+
+# DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+# DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+# DEFINE NAMESPACE RGD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/rgd-rat-genes/rgd-rat-genes-20190128.belns"
+# DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+# DEFINE NAMESPACE SCOMP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-named-complexes/selventa-named-complexes-20190128.belns"
+# DEFINE NAMESPACE SFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-protein-families/selventa-protein-families-20190128.belns"
+# DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DRUGBANK AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns"
+# DEFINE NAMESPACE INTERPRO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/interpro/interpro-names-20181021.belns"
+# DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+# DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+# DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+# DEFINE NAMESPACE GOBP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns"
+# DEFINE NAMESPACE GOCC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20190128.belns"
+
+# DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+# DEFINE NAMESPACE MESHC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-chemicals/mesh-chemicals-20190128.belns"
+# DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20190128.belns"
+# DEFINE NAMESPACE MESHPP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-processes/mesh-processes-20190128.belns"
+# DEFINE NAMESPACE MESHA AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-anatomy/mesh-anatomy-20190128.belns"
+# DEFINE NAMESPACE MESHCS AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-cellular-structures/mesh-cellular-structures-20190128.belns"
+# DEFINE NAMESPACE NCBITAXON AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+# DEFINE NAMESPACE FPLX           AS URL "https://raw.githubusercontent.com/sorgerlab/famplex/d9ec0526c20795146a9a6aef17496efe1a36cac6/export/famplex.belns"
+# ---------------------
+
+# DEFINE NAMESPACE NCBIGENE AS PATTERN ".*"
+# DEFINE NAMESPACE TAXONOMY       AS PATTERN "^\d+$"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+# DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+# DEFINE NAMESPACE dbSNP AS PATTERN "rs[0-9]+"
+
+################################################################################
+#| Annotations
+################################################################################
+
+# Locally Defined Annotations
+# ---------------------------
+DEFINE ANNOTATION bio2bel AS LIST {"drugbank"}
+
+################################################################################
+#| Statements
+################################################################################
+SET Citation = {"PubMed", "10848718"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:hydroxychloroquine) regulates act(p(UNIPROT:P10635))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "10896408"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P10635))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "11752352"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:ribavirin) regulates act(p(UNIPROT:P20839))
+UNSET bio2bel
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P09210))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "12756207"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P10635))
+UNSET bio2bel
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P08684))
+UNSET bio2bel
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P04798))
+UNSET bio2bel
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P10632))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "12920490"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P08684))
+UNSET bio2bel
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P10632))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "12967198"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P08684))
+UNSET bio2bel
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P10632))
+UNSET bio2bel
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P20815))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "14579285"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:hydroxychloroquine) regulates act(p(UNIPROT:Q9NYK1))
+UNSET bio2bel
+SET bio2bel = "drugbank"
+a(CHEBI:hydroxychloroquine) regulates act(p(UNIPROT:Q9NR96))
+UNSET bio2bel
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:Q9NR96))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "15307186"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:Q9NR96))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "15762869"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:Q9NR96))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "15917509"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:ribavirin) regulates act(p(UNIPROT:P55263))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "16148144"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:Q9NR96))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "16152757"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:ribavirin) regulates act(p(UNIPROT:P20839))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "16293677"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:ribavirin) regulates act(p(UNIPROT:P20839))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "16418198"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P01375))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "16421290"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:ribavirin) regulates act(p(UNIPROT:P20839))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "16495369"}
+
+SET Evidence= "From DrugBank"
+#DB00507  - Nitazoxanide
+SET bio2bel = "drugbank"
+a(DRUGBANK:DB00507) regulates act(p(UNIPROT:P41440))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "16670522"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P01375))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "16761500"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P01375))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "16849519"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:Q9NR96))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "16870179"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P01375))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "16899109"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:tocilizumab) regulates act(p(UNIPROT:P08887))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "16917012"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:hydroxychloroquine) regulates act(p(UNIPROT:P08183))
+UNSET bio2bel
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P08183))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "17016423"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:ribavirin) regulates act(p(UNIPROT:P12268))
+UNSET bio2bel
+SET bio2bel = "drugbank"
+a(CHEBI:ribavirin) regulates act(p(UNIPROT:P49902))
+UNSET bio2bel
+SET bio2bel = "drugbank"
+a(CHEBI:ribavirin) regulates act(p(UNIPROT:P22413))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "17139284"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:ribavirin) regulates act(p(UNIPROT:P12268))
+UNSET bio2bel
+SET bio2bel = "drugbank"
+a(CHEBI:ribavirin) regulates act(p(UNIPROT:P49902))
+UNSET bio2bel
+SET bio2bel = "drugbank"
+a(CHEBI:ribavirin) regulates act(p(UNIPROT:P22413))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "17379518"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:ribavirin) regulates act(p(UNIPROT:P55263))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "17456179"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P01375))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "17646561"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:darunavir) regulates act(p(UNIPROT:P08684))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "18220957"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:hydroxychloroquine) regulates act(p(UNIPROT:Q9NYK1))
+UNSET bio2bel
+SET bio2bel = "drugbank"
+a(CHEBI:hydroxychloroquine) regulates act(p(UNIPROT:Q9NR96))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "19188392"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:hydroxychloroquine) regulates act(p(UNIPROT:P08684))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "19209258"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:darunavir) regulates act(p(UNIPROT:P08684))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "19323590"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:darunavir) regulates act(p(UNIPROT:P08684))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "19492868"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:darunavir) regulates act(p(UNIPROT:P08684))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "20096989"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:ribavirin) regulates act(p(UNIPROT:Q9HAS3))
+UNSET bio2bel
+SET bio2bel = "drugbank"
+a(CHEBI:ribavirin) regulates act(p(UNIPROT:Q99808))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "20102298"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:darunavir) regulates act(p(UNIPROT:Q9Y6L6))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "20185188"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:ribavirin) regulates act(p(UNIPROT:Q99808))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "26316040"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P20815))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "26429523"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:hydroxychloroquine) regulates act(p(UNIPROT:P46721))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "27621203"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:tocilizumab) regulates act(p(UNIPROT:P08684))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "29438998"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:hydroxychloroquine) regulates act(p(UNIPROT:P08684))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "8803904"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:hydroxychloroquine) regulates act(p(UNIPROT:P02768))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################
+SET Citation = {"PubMed", "9764961"}
+
+SET Evidence= "From DrugBank"
+
+SET bio2bel = "drugbank"
+a(CHEBI:chloroquine) regulates act(p(UNIPROT:P10635))
+UNSET bio2bel
+
+UNSET Citation
+
+################################################################################

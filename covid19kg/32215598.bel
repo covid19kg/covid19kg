@@ -1,0 +1,137 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32215598.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.1.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Gestation_Period AS LIST {"40 weeks", "40 weeks and 4 days", "31 weeks and 2 days"}
+DEFINE ANNOTATION Cohort AS LIST {"Newborn"}
+DEFINE ANNOTATION Cohort_Age AS LIST {"2 days","4 days","6 days","14 days"}
+DEFINE ANNOTATION Technique AS LIST {"chest X-ray"}
+DEFINE ANNOTATION Sample AS LIST {"Nasopharyngeal swab","Anal swab"}
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed", "JAMA Pediatr. 2020 Mar 26. doi: 10.1001/jamapediatrics.2020.0878.", "32215598"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+
+SET Evidence = "The most common symptom was shortness of breath (4 of 33 neonates)"
+SET Custom_Disease = "COVID-19"
+SET Species = "9606"
+SET Cohort = "Newborn"
+path(DO:"COVID-19") -- path(HP:Dyspnea)
+
+SET Evidence = "On day 2 of life, the infant experienced lethargy and fever, with unremarkable physical examination results, and was moved to the neonatal intensive care unit."
+SET Gestation_Period = "40 weeks"
+SET Cohort_Age = "2 days"
+path(DO:"COVID-19") -- path(HP:Lethargy)
+path(DO:"COVID-19") -- path(HP:Fever)
+
+SET Evidence = "A chest radiographic image showed pneumonia, but other laboratory tests (except procalcitonin) were normal"
+SET Technique = "chest X-ray"
+path(DO:"COVID-19") -- path(DO:pneumonia)
+UNSET Technique
+path(DO:"COVID-19") -- p(HGNC:CALCA)
+UNSET Cohort_Age
+
+SET Evidence = "Nasopharyngeal and anal swabs were positive for SARS-CoV-2 on days 2 and 4 of life and negative on day 6"
+SET Sample = {"Nasopharyngeal swab","Anal swab"}
+SET Cohort_Age = {"2 days", "4 days"}
+path(DO:"COVID-19") -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Cohort_Age
+UNSET Gestation_Period
+
+SET Evidence = "He presented with lethargy, vomiting, and fever."
+SET Gestation_Period = "40 weeks and 4 days"
+path(DO:"COVID-19") -- path(HP:Lethargy)
+path(DO:"COVID-19") -- path(HP:Vomiting)
+path(DO:"COVID-19") -- path(HP:Fever)
+
+SET Evidence = "Laboratory tests showed leukocytosis, lymphocytopenia, and an elevated creatine kinase–MB fraction."
+SET MeSHAnatomy = "Blood"
+path(DO:"COVID-19") -- path(HP:Leukocytosis)
+path(DO:"COVID-19") neg bp(MESH:"Lymphocyte Count")
+path(DO:"COVID-19") pos p(HGNC:CKM)
+path(DO:"COVID-19") pos p(HGNC:CKB)
+UNSET MeSHAnatomy
+
+SET Evidence = "A chest radiographic image showed pneumonia."
+SET Technique = "chest X-ray"
+path(DO:"COVID-19") -- path(DO:pneumonia)
+UNSET Technique
+
+SET Evidence = "Nasopharyngeal and anal swabs were positive for SARS-CoV-2 on days 2 and 4 of life and negative on day 6."
+SET Sample = {"Nasopharyngeal swab","Anal swab"}
+SET Cohort_Age = {"2 days", "4 days"}
+path(DO:"COVID-19") -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Cohort_Age
+UNSET Gestation_Period
+
+SET Evidence = "Neonatal respiratory distress syndrome and pneumonia confirmed by chest radiographic image on admission resolved on day 14 of life after treatment with noninvasive ventilation, caffeine, and antibiotics."
+SET Gestation_Period = "31 weeks and 2 days"
+SET Technique = "chest X-ray"
+path(DO:"COVID-19") -- path(DO:pneumonia)
+path(DO:"COVID-19") -- path(HP:"Neonatal respiratory distress")
+SET Cohort_Age = "14 days"
+a(MESH:"Noninvasive Ventilation") reg path(DO:pneumonia)
+a(CHEBI:caffeine) neg path(DO:pneumonia)
+bp(GO:"response to antibiotic") neg path(DO:pneumonia)
+a(MESH:"Noninvasive Ventilation") reg path(HP:"Neonatal respiratory distress")
+a(CHEBI:caffeine) neg path(HP:"Neonatal respiratory distress")
+bp(GO:"response to antibiotic") neg path(HP:"Neonatal respiratory distress")
+UNSET Cohort_Age
+UNSET Technique
+
+SET Evidence = "He also had suspected sepsis, with an Enterobacter agglomerates– positive blood culture, leukocytosis, thrombocytopenia (11 cells × 103/μL; to convert to cells × 109/L, multiply by 1.0), and coagulopathy (prothrombin time, 21 seconds; activated partial thromboplastin time, 81.9 seconds), which improved with antibiotic treatment."
+path(DO:"COVID-19") -- path(DO:"bacterial sepsis")
+path(DO:"COVID-19") -- path(DO:thrombocytopenia)
+path(DO:"COVID-19") -- path(MESH:"Blood Coagulation Disorders")
+bp(GO:"response to antibiotic") neg path(DO:"bacterial sepsis")
+bp(GO:"response to antibiotic") neg path(DO:thrombocytopenia)
+bp(GO:"response to antibiotic") neg path(MESH:"Blood Coagulation Disorders")
+
+SET Evidence = "Nasopharyngeal and anal swabs were positive for SARS-CoV-2 on days 2 and 4 of life and negative on day 7."
+SET Sample = {"Nasopharyngeal swab","Anal swab"}
+SET Cohort_Age = {"2 days", "4 days"}
+path(DO:"COVID-19") -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Cohort_Age
+UNSET Gestation_Period
+UNSET Species
+UNSET Custom_Disease
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

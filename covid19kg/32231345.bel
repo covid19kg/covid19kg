@@ -1,0 +1,130 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32231345.bel"
+SET DOCUMENT Authors = "Shounak Baksi"
+SET DOCUMENT ContactInfo = "shounak.baksi@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+#DEFINE NAMESPACE ADO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/alzheimer-disease-ontology/alzheimer-disease-ontology-1.0.2.belns"
+#DEFINE NAMESPACE BRCO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/brain-region-ontology/brain-region-ontology-1.0.0.belns"
+#DEFINE NAMESPACE NIFT AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/nift/NIFT.belns"
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+#DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+#DEFINE NAMESPACE RGD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/rgd-rat-genes/rgd-rat-genes-20190128.belns"
+#DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+#DEFINE NAMESPACE SCOMP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-named-complexes/selventa-named-complexes-20190128.belns"
+#DEFINE NAMESPACE SFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-protein-families/selventa-protein-families-20190128.belns"
+#DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+#DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+#DEFINE NAMESPACE DRUGBANK AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns"
+#DEFINE NAMESPACE INTERPRO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/interpro/interpro-names-20181021.belns"
+# DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+# DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20190128.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+# DEFINE NAMESPACE GOBP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns"
+# DEFINE NAMESPACE GOCC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20190128.belns"
+DEFINE NAMESPACE EFO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/efo/efo-20171206.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+# DEFINE NAMESPACE MESHC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-chemicals/mesh-chemicals-20190128.belns"
+# DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20190128.belns"
+# DEFINE NAMESPACE MESHPP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-processes/mesh-processes-20190128.belns"
+# DEFINE NAMESPACE MESHA AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-anatomy/mesh-anatomy-20190128.belns"
+# DEFINE NAMESPACE MESHCS AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-cellular-structures/mesh-cellular-structures-20190128.belns"
+# DEFINE NAMESPACE NCBIGENE AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-gene/ncbi-gene-20190224.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+# DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+# DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+# DEFINE NAMESPACE dbSNP AS PATTERN "rs[0-9]+"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+# DEFINE ANNOTATION Anatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno"
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+# DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+# DEFINE ANNOTATION Disease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/disease/disease-20190128.belanno"
+# DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+# DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+# DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+# DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review", "Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint", "Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text", "Abstract", "Results"}
+
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed", "Cell Res. 2020 Apr;30(4):343-355. doi: 10.1038/s41422-020-0305-x.", "32231345"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Custom_Disease = "COVID-19"
+SET Species = "9606"
+
+SET Evidence = "S1 subunit is located within the N-terminal 14–685 amino acids of S protein, containing N-terminal domain (NTD), receptor binding domain (RBD), and receptor binding motif (RBM). S2 subunit contains fusion peptide (FP), heptad repeat 1 (HR1), heptad repeat 2 (HR2), transmembrane domain (TM) and cytoplasmic domain (CP) (Fig. 1b)."
+
+p(COVID:S, frag("14_685")) -> bp(GO:"receptor binding")
+
+SET Evidence = "Recent biophysical and structural evidence showed that SARS-CoV-2 S protein binds hACE2 with 10-fold to 20-fold higher affinity than SARS-CoV S protein, suggesting the higher infectivity of the new virus.12"
+
+complex(p(COVID:S), p(HGNC:ACE2)) -> path(MESH:Virulence)
+
+SET Evidence = "Indeed, in live SARS-CoV-2 infection, we found a typical syncytium phenomenon naturally formed by infected cells, which is rarely reported in SARS-CoV infection (Fig. 1c). "
+
+SET CellLine = "Huh7 cell"
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> bp(GO:"syncytium formation")
+UNSET CellLine
+
+SET Evidence = "After effector cells and target cells were cocultured at 37 °C for 2 h, the fused cells showed at least 2-fold larger size than normal cells and multiple nuclei, and these cells were observed in the SARS-CoV-2 group, but not the SARS-CoV group."
+
+SET CellLine = "HEK293-T-REx cell"
+complex(p(COVID:S), p(HGNC:ACE2)) -> bp(GO:"syncytium formation")
+
+SET Evidence = "Both of them could completely inhibit SARS-CoV-2 mediated cell–cell fusion at the concentration of 2.5 μM (Fig. 4b)."
+
+p(FIXME:EK1C) -| bp(GO:"syncytium formation")
+p(FIXME:EK1P) -| bp(GO:"syncytium formation")
+#these are custom made peptides, sequence given in the paper
+SET Evidence = "Here, we further systematically evaluated the broad-spectrum surface-fusion inhibitory activity of EK1C4 on cell–cell fusion mediated by S proteins of divergent coronaviruses, including SARS-CoV, MERS-CoV, HCoV-OC43, HCoV-NL63 and HCoV-229E.Among them, SARS-CoV has the closest relative to SARS-CoV-2, and its S protein-mediated cell–cell fusion could be effectively inhibited by EK1C4 with IC50 of 4.3 nM, which is about 94-fold more active than that of EK1 (IC50 = 409.3 nM) (Fig. 5a)."
+
+p(COVID:S) -> bp(GO:"induction by virus of host cell-cell fusion")
+bp(GO:"induction by virus of host cell-cell fusion") -> bp(GO:"syncytium formation")
+p(FIXME:EK1C4) -| act(p(COVID:S))
+#these are custom made peptides, sequence given in the paper
+SET Evidence = "Importantly, EK1C4 effectively blocked SARS-CoV-2 infection at the cellular level in a dose-dependent manner with IC50 of 36.5 nM, being 67-fold more active than that of EK1 (IC50 = 2,468 nM) (Fig. 6a), which is consistent to the results of cell–cell fusion assay and PsV infection assay mediated by SARS-CoV-2 S protein."
+
+p(FIXME:EK1C4) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+#these are custom made peptides, sequence given in the paper
+SET Evidence = "Therefore, the selectivity index (SI = CC50/IC50) of EK1C4 is >136, suggesting that EK1C4 is a promising SARS-CoV-2 fusion inhibitor with little, or even no, toxic effect in vitro."
+
+p(FIXME:EK1C4) -| bp(GO:"induction by virus of host cell-cell fusion")
+p(FIXME:EK1C4) cnc bp(EFO:"cytotoxicity measurement")
+
+SET Evidence = "These results suggested that increased antiviral activity of EK1C4 should be related to its increased binding affinity with HR1, but their detailed interactions require further studies."
+
+complex(p(FIXME:EK1C4), p(COVID:S, frag("?"))) -| path(MESH:Virulence)
+UNSET Species
+UNSET Custom_Disease
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+

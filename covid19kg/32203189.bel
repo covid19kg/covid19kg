@@ -1,0 +1,134 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32203189.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+#Not in template.bel
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+
+DEFINE ANNOTATION IC50 AS LIST  {"4.1 μg/ml","11.63 μg/ml","5.47 μg/ml","1.35 μg/ml","22.25 μg/ml"}
+DEFINE ANNOTATION EC50 AS LIST {"1.07 μg/ml"}
+DEFINE ANNOTATION Custom_CellLine AS LIST {"HEK293T"}
+DEFINE ANNOTATION protein_type AS LIST {"soluble"}
+DEFINE ANNOTATION Virus_type AS LIST {"pseudovirus"}
+DEFINE ANNOTATION Assay AS LIST {"enzyme-linked immunosorbent assay"}
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed", "Cell Mol Immunol. 2020 Mar 19. pii: 10.1038/s41423-020-0400-4. doi:10.1038/s41423-020-0400-4.", "32203189"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "Similar to SARS-CoV RBD, SARS-CoV-2 RBD bound to hACE2/293T cells expressing hACE2 (Fig. 2b (left and middle panels)), but not to hDPP4/293T cells expressing hDPP4 (Fig. 2c (left and middle panels))."
+
+SET Custom_CellLine = "HEK293T"
+complex(p(HGNC:ACE2), p(COVID:S)) -> a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Custom_CellLine
+
+SET Evidence = "MERS-CoV RBD did not bind to hACE2-expressing 293T cells (Fig. 2b (right panel)), but rather bound to hDPP4-expressing
+293T cells (Fig. 2c (right panel))."
+
+SET Custom_CellLine = "HEK293T"
+complex(p(UNIPROT:A0A140AYZ5), p(HGNC:DPP4)) -> a(TAX:"Middle East respiratory syndrome-related coronavirus")
+UNSET Custom_CellLine
+
+SET Evidence = "Third, we detected the binding of SARS-CoV-2 RBD to soluble hACE2 protein (sACE2) by ELISA. The results indicated that SARS-CoV-2 RBD bound to sACE2 in a dose dependent manner and that the binding between SARS-CoV-2 RBD and sACE2 with 50% effective dose (EC50) of 1.07 μg/ml was stronger than that between SARS-CoV RBD and sACE2 (EC50: 1.66 μg/ml)."
+
+SET Assay = "enzyme-linked immunosorbent assay"
+SET protein_type = "soluble"
+SET EC50 = "1.07 μg/ml"
+complex(p(HGNC:ACE2), p(COVID:S)) -> a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET EC50
+UNSET protein_type
+UNSET Assay
+
+SET Evidence = "Results indicated that SARSCoV-2 RBD bound strongly to 293T-expressed bACE2 with intensity similar to that of its binding to 293T-expressed hACE2 (Fig. 3a, c), and that this binding occurred in a dose-dependent manner (Fig. 3e, f)."
+
+SET Custom_CellLine = "HEK293T"
+complex(p(UNIPROT:G1PXH7), p(COVID:S)) -> a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET Custom_CellLine
+
+SET Evidence = "These data suggest that SARS-CoV-2 RBD can bind to both bACE2 and hACE2 with significantly stronger binding than that of
+SARS-CoV RBD to either bACE2 or hACE2, supporting the bat origin of SARS-CoV-2."
+
+SET Custom_CellLine = "HEK293T"
+SET BioAssay = "flow cytometry"
+complex(p(UNIPROT:G1PXH7), p(COVID:S)) -> a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+# happens in HEK293T cells expressing Bat ACE
+complex(p(HGNC:ACE2), p(COVID:S)) -> a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+# happens in HEK293T cells expressing human ACE
+UNSET BioAssay
+UNSET Custom_CellLine
+
+SET Evidence = "As expected, SARS-CoV-2 RBD protein inhibited SARS-CoV-2 pseudovirus entry into hACE2-expressing 293T cells in a dose-dependent manner with 50% inhibition concentration (IC50) as low as 1.35 μg/ml. Interestingly, it also blocked the entry of SARS-CoV pseudovirus into hACE2-expressing 293T cells with IC50 of 5.47 μg/ml5.47 μg/ml (Fig. 4a)."
+
+SET Custom_CellLine = "HEK293T"
+SET Virus_type = "pseudovirus"
+SET IC50 = "1.35 μg/ml"
+complex(p(COVID:S), p(HGNC:ACE2)) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET IC50
+SET IC50 = "5.47 μg/ml"
+complex(p(COVID:S), p(HGNC:ACE2)) -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+UNSET IC50
+UNSET Virus_type
+UNSET Custom_CellLine
+
+SET Evidence = "Similarly, SARS-CoV RBD protein blocked the entry of both SARS-CoV pseudovirus and SARS-CoV-2 pseudovirus into hACE2-expressing 293T cells with IC50 of 4.1 and 11.63 μg/ml, respectively (Fig. 4b)."
+
+SET Custom_CellLine = "HEK293T"
+SET Virus_type = "pseudovirus"
+SET IC50 = "11.63 μg/ml"
+complex(p(UNIPROT:P59594), p(HGNC:ACE2)) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2")
+UNSET IC50
+SET IC50 = "4.1 μg/ml"
+complex(p(UNIPROT:P59594), p(HGNC:ACE2)) -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+UNSET IC50
+UNSET Virus_type
+UNSET Custom_CellLine
+
+SET Evidence = "MERS-CoV RBD did not block the entry of SARS-CoV-2 pseudovirus or SARS-CoV pseudovirus into hACE2-expressing 293T cells, but it did block the entry of MERS-CoV pseudovirus into hDPP4-expressing 293T cells (IC50: 22.25 μg/ml) (Fig. 4a–c)."
+
+SET Virus_type = "pseudovirus"
+SET Custom_CellLine = "HEK293T"
+SET IC50 = "22.25 μg/ml"
+complex(p(UNIPROT:A0A140AYZ5), p(HGNC:DPP4)) -| a(TAX:"Middle East respiratory syndrome-related coronavirus")
+UNSET IC50
+UNSET Custom_CellLine
+UNSET Virus_type
+
+SET Evidence = "The results showed that SARS-CoV-2 RBD reacted strongly with anti-SARS-CoV RBD IgG with antibody titer of 1:2.4 × 104 (Fig. 4d), but it did not react with anti-MERS-CoV RBD IgG (Fig. 4e). As expected, SARS-CoV RBD reacted strongly with anti-SARS-CoV RBD IgG (antibody titer: 1:1.4 × 105) (Fig. 4d),but not with anti-MERS-CoV RBD IgG (Fig. 4e)."
+
+complex(p(COVID:S), p(MESH:"Immunoglobulin G")) -| p(COVID:S)
+complex(p(UNIPROT:P59594), p(MESH:"Immunoglobulin G")) -| p(UNIPROT:P59594)
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
