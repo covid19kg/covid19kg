@@ -26,7 +26,7 @@ The table below contains information of the different releases of the COVID-19 K
 |---------|------------|----------|
 | 0.0.1   | [12.04.2020](https://github.com/covid19kg/covid19kg/blob/master/releases/12-04-2020.zip) | 145      |
 
-## Python Package
+## Python Package [![DOI](https://img.shields.io/pypi/pyversions/diffupy.svg)](https://doi.org/10.5281/zenodo.3748950)
 The COVID-19 Knowledge Graph can be programmatically used as a Python package. 
 
 ### Installation
