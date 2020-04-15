@@ -7,6 +7,11 @@ This Knowledge Graphs comprises information encoded in Biological Expression Lan
 COVID-19. A [summary of the corpus](https://github.com/covid19kg/covid19kg/blob/master/supplement/summary.csv) is listed
 here. Additional information about customized terms used is available [here](https://github.com/covid19kg/covid19kg/blob/master/supplement/).
 
+### Citation
+If you use the COVID-19 Knowledge Graph in your work, please consider citing:
+
+Daniel Domingo-Fernández, Shounak Baksi, Bruce T Schultz, Yojana Gadiya, Reagon Karki, Tamara Raschka, Christian Ebeling, Martin Hofmann-Apitius, and Alpha Tom Kodamullil (2020). [COVID-19 Knowledge Graph: a computable, multi-modal, cause-and-effect knowledge model of COVID-19 pathophysiology](https://doi.org/10.1101/2020.04.14.040667). *bioRxiv* 2020.04.14.040667. 
+
 ### Formats
 Although the COVID-19 KG was generated using BEL, it can also be exported to multiple standard formats:
 
