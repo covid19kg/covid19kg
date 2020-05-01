@@ -4,7 +4,7 @@
 SET DOCUMENT Name = "https://doi.org/10.1101/2020.03.22.002386"
 SET DOCUMENT Authors = "Reagon Karki"
 SET DOCUMENT ContactInfo = "reagon.karki@scai.fraunhofer.de"
-SET DOCUMENT Description = "SIF files converted to BEL, source: Pathway folder in COVID-19_SEM(owncloud)"
+SET DOCUMENT Description = "SIF files from PathwayCommons converted to BEL. Original files available at https://drive.google.com/drive/folders/1fuksYEsEZInuVjBg37iNj03jPfpsJanB"
 
 SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
 SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
@@ -61,6 +61,7 @@ DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/na
 # ANNOTATIONS Section
 ##################################################################################
 
+DEFINE ANNOTATION Source AS PATTERN ".*"
 # DEFINE ANNOTATION Anatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno"
 # DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
 # DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
@@ -84,6 +85,7 @@ SET Citation = {"DOI","https://doi.org/10.1101/2020.03.22.002386"}
 SET Evidence = "From https://doi.org/10.1101/2020.03.22.002386"
 
 SET SIF_INFO = "complex-memberships-between-interacting-prots"
+SET Source = "PathwayCommons"
 
 complex(p(HGNC:MOV10),p(HGNC:PPIL3))
 complex(p(HGNC:FBLN5),p(HGNC:FBN1))
@@ -957,3 +959,5 @@ g(HGNC:POR) reg g(HGNC:HMOX1)
 g(HGNC:GNB1) reg g(HGNC:ARF6)
 g(HGNC:COLGALT1) reg g(HGNC:COL6A1)
 g(HGNC:ABCC1) reg g(HGNC:DNMT1)
+
+UNSET Source
