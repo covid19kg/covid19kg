@@ -1,26 +1,26 @@
-ID,AUTHOR,TERM,TYPE,REFERENCE,DESCRIPTION,TAXONOMY
-COV00001,Yojana,ap8ab,protein,pmid:24987391,accessory protein 8ab,SARS-CoV
-COV00002,Yojana,cytokine release syndrome,pathology,doid:https://doi.org/10.1016/S0140-6736(20)30628-0,It is a  form of systemic inflammatory response syndrome (SIRS) that can be triggered by a variety of factors,
-COV00003,Yojana,Ground-glass opacity,pathology,pmid:32081636,It is a is a nonspecific finding on computed tomography scans (CT) consisting of a hazy opacity,
-COV00004,Yojana,nsp1,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Non-structral protein 1,SARS-CoV-2
-COV00005,Yojana,nsp12,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Non-structral protein 12,SARS-CoV-2
-COV00006,Yojana,nsp13,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Non-structral protein 13,SARS-CoV-2
-COV00007,Yojana,nsp14,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Non-structral protein 14,SARS-CoV-2
-COV00008,Yojana,nsp15,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Non-structral protein 15,SARS-CoV-2
-COV00009,Yojana,nsp16,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Non-structral protein 16,SARS-CoV-2
-COV00010,Yojana,nsp2,protein,pmdi:32169119,Non-structral protein 2 of SARS-CoV-2,SARS-CoV
-COV00011,Yojana,nsp3,protein,pmid:32169119,Non-structral protein 3 of SARS-CoV-2,SARS-CoV
-COV00012,Yojana,nsp5,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Non-structral protein 5,SARS-CoV-2
-COV00013,Yojana,nsp5a,protein,pmid:24987391,Non-structral protein 5a,Hepatatis Virus C
-COV00014,Yojana,orf1b,protein,pmid:24987391,,SARS-CoV-2
-COV00015,Yojana,orf9a,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Open reading frame 9a,SARS-CoV-2
-COV00016,Yojana,orf9b,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Open reading frame 9b,SARS-CoV-2
-COV00017,Yojana,orf9c,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Open reading frame 9c,SARS-CoV-2
-COV00018,Yojana,polyprotein 1a,protein,pmid:24987391,Protein formed by the translation of ORF1a,SARS-CoV-2
-COV00019,Yojana,polyprotein 1ab,protein,pmid:24987391,Protein formed due to ribosomal frameshifting between ORF1a and ORF1b,SARS-CoV-2
-COV00020,Yojana,RNAaemia,pathology,pmid:32113704,Detection of SARS-CoV-2 viral load in blood serum,
-COV00021,Yojana,s1,protein,pmid:32169119,S glycoprotein subunit s1,SARS-CoV-2
-COV00022,Yojana,s2,protein,pmid:32169119,S glycoprotein subunit s2,SARS-CoV-2
-COV00023,Yojana,SARS-CoV-2 entry,biological process,,Entry of SARS-CoV-2 virus in the host cell,
-COV00024,Yojana,SARS-CoV-2 infection,pathology,,Spreaad of SARS-CoV-2 infection in the host cell,
-COV00025,Yojana,SARs-CoV-2 replication,biological process,pmid:24987391,SARS-CoV-2 replication cycle,SARS-CoV-2
+ID,AUTHOR,TERM,TYPE,REFERENCE,DESCRIPTION,TAXONOMY,TAXID
+COV00001,Yojana,ap8ab,protein,pmid:24987391,accessory protein 8ab,SARS-CoV,694009
+COV00002,Yojana,cytokine release syndrome,pathology,doid:https://doi.org/10.1016/S0140-6736(20)30628-0,It is a  form of systemic inflammatory response syndrome (SIRS) that can be triggered by a variety of factors,,
+COV00003,Yojana,Ground-glass opacity,pathology,pmid:32081636,It is a is a nonspecific finding on computed tomography scans (CT) consisting of a hazy opacity,,
+COV00004,Yojana,nsp1,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Non-structral protein 1,SARS-CoV-2,2697049
+COV00005,Yojana,nsp12,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Non-structral protein 12,SARS-CoV-2,2697050
+COV00006,Yojana,nsp13,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Non-structral protein 13,SARS-CoV-2,2697051
+COV00007,Yojana,nsp14,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Non-structral protein 14,SARS-CoV-2,2697052
+COV00008,Yojana,nsp15,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Non-structral protein 15,SARS-CoV-2,2697053
+COV00009,Yojana,nsp16,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Non-structral protein 16,SARS-CoV-2,2697054
+COV00010,Yojana,nsp2,protein,pmdi:32169119,Non-structral protein 2 of SARS-CoV-2,SARS-CoV,2697055
+COV00011,Yojana,nsp3,protein,pmid:32169119,Non-structral protein 3 of SARS-CoV-2,SARS-CoV,2697056
+COV00012,Yojana,nsp5,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Non-structral protein 5,SARS-CoV-2,2697057
+COV00013,Yojana,nsp5a,protein,pmid:24987391,Non-structral protein 5a,Hepatatis Virus C,11103
+COV00014,Yojana,orf1b,protein,pmid:24987391,,SARS-CoV-2,2697049
+COV00015,Yojana,orf9a,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Open reading frame 9a,SARS-CoV-2,2697050
+COV00016,Yojana,orf9b,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Open reading frame 9b,SARS-CoV-2,2697051
+COV00017,Yojana,orf9c,protein,doid:https://doi.org/10.1101/2020.03.22.002386,Open reading frame 9c,SARS-CoV-2,2697052
+COV00018,Yojana,polyprotein 1a,protein,pmid:24987391,Protein formed by the translation of ORF1a,SARS-CoV-2,2697053
+COV00019,Yojana,polyprotein 1ab,protein,pmid:24987391,Protein formed due to ribosomal frameshifting between ORF1a and ORF1b,SARS-CoV-2,2697054
+COV00020,Yojana,RNAaemia,pathology,pmid:32113704,Detection of SARS-CoV-2 viral load in blood serum,,
+COV00021,Yojana,s1,protein,pmid:32169119,S glycoprotein subunit s1,SARS-CoV-2,2697056
+COV00022,Yojana,s2,protein,pmid:32169119,S glycoprotein subunit s2,SARS-CoV-2,2697057
+COV00023,Yojana,SARS-CoV-2 entry,biological process,,Entry of SARS-CoV-2 virus in the host cell,,
+COV00024,Yojana,SARS-CoV-2 infection,pathology,,Spreaad of SARS-CoV-2 infection in the host cell,,
+COV00025,Yojana,SARs-CoV-2 replication,biological process,pmid:24987391,SARS-CoV-2 replication cycle,SARS-CoV-2,2697060
