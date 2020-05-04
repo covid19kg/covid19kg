@@ -23,4 +23,4 @@ COV00021,Yojana,s1,protein,pmid:32169119,S glycoprotein subunit s1,SARS-CoV-2,26
 COV00022,Yojana,s2,protein,pmid:32169119,S glycoprotein subunit s2,SARS-CoV-2,2697057
 COV00023,Yojana,SARS-CoV-2 entry,biological process,,Entry of SARS-CoV-2 virus in the host cell,,
 COV00024,Yojana,SARS-CoV-2 infection,pathology,,Spreaad of SARS-CoV-2 infection in the host cell,,
-COV00025,Yojana,SARs-CoV-2 replication,biological process,pmid:24987391,SARS-CoV-2 replication cycle,SARS-CoV-2,2697060
+COV00025,Yojana,SARs-CoV-2 replication,biological process,pmid:24987391,SARS-CoV-2 replication cycle,,
