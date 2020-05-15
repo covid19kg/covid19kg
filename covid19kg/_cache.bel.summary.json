@@ -1,17 +1,16 @@
-
 {
-  "Title": "Covid19KG",
-  "Authors": "Fraunhofer SCAI",
+  "Title": "COVID-19 Knowledge Graph",
+  "Authors": "Shounak Baksi, Daniel Domingo-Fern\u00e1ndez, Yojana Gadiya, Martin Hofmann-Apitius, Reagon Karki, Alpha Tom Kodamullil",
   "Number of URL Namespaces": 26,
   "Number of Regex Namespaces": 8,
   "Number of URL Annotations": 9,
   "Number of Regex Annotations": 1,
   "Number of Local Annotations": 67,
-  "Number of Nodes": 3954,
-  "Number of Edges": 9484,
-  "Number of Citations": 185,
-  "Number of Authors": 950,
-  "Network Density": "6.07E-04",
+  "Number of Nodes": 4016,
+  "Number of Edges": 10232,
+  "Number of Citations": 198,
+  "Number of Authors": 1045,
+  "Network Density": "6.35E-04",
   "Number of Components": 29,
-  "Number of Warnings": 0
+  "Number of Warnings": 108
 }

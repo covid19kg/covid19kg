@@ -1,0 +1,109 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32334118.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Severity AS LIST {"severe"}
+DEFINE ANNOTATION Assay AS LIST {"reverse transcription polymerase chain reaction"}
+DEFINE ANNOTATION Sample AS LIST {"throat-swab", "nasopharynx-swab", "sputum"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","Int J Infect Dis. 2020 Apr 22. pii: S1201-9712(20)30257-5. doi:10.1016/j.ijid.2020.04.041.", "32334118"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Species = "9606"
+
+SET Evidence = "Fever (108 [85.04%]), cough (105 [82.86%]), fatigue (80 [62.99%]), expectoration (75 [59.06%]), anorexia (59 [46.46%]) and nausea (57 [44.88%]) were the most common symptoms. Hypertension (31 [24.42%]) was the most common underlying disease."
+
+SET Severity = "severe"
+path(DO:"COVID-19") pos path(MESH:Fever)
+path(DO:"COVID-19") pos path(MESH:Cough)
+path(DO:"COVID-19") pos path(MESH:Fatigue)
+path(DO:"COVID-19") pos path(MESH:Sputum)
+path(DO:"COVID-19") pos path(HP:Anorexia)
+path(DO:"COVID-19") pos path(MESH:Nausea)
+path(DO:hypertension) pos path(DO:"COVID-19")
+UNSET Severity
+
+SET Evidence = "Neutrophil%, neutrophil-to-lymphocyte ratio (NLR), fibrinogen, sialic acid (SA), C-reaction protein (CRP), IL-6, interleukin-10 (IL-10) and interferon-γ (IFN-γ) in the severe group were significantly higher than those in the non-severe group (P<0.05)."
+
+SET Severity = "severe"
+SET Sample = {"throat-swab", "nasopharynx-swab", "sputum"}
+SET Assay = "reverse transcription polymerase chain reaction"
+path(DO:"COVID-19") -> a(MESH:Neutrophils)
+path(DO:"COVID-19") -> p(HGNC:FGA)
+path(DO:"COVID-19") -> p(HGNC:FGB)
+path(DO:"COVID-19") -> p(HGNC:FGG)
+path(DO:"COVID-19") -> p(HGNC:CRP)
+path(DO:"COVID-19") -> p(HGNC:IL10)
+path(DO:"COVID-19") -> p(HGNC:IFNG)
+UNSET Assay
+UNSET Sample
+UNSET Severity
+
+
+SET Evidence = "While lymphocyte%, lymphocyte count and platelet count were significantly lower in the severe group when compared with the non-severe group (P<0.05)."
+
+SET Severity = "severe"
+SET Sample = {"throat-swab", "nasopharynx-swab", "sputum"}
+SET Assay = "reverse transcription polymerase chain reaction"
+path(DO:"COVID-19") -| a(MESH:Lymphocytes)
+path(DO:"COVID-19") -| a(MESH:"Blood Platelets")
+UNSET Assay
+UNSET Sample
+UNSET Severity
+
+SET Evidence = "The baseline IL-6 was positively correlated with neutrophil% (r=0.398,P<0.001), NLR (r=0.428, P<0.001), fibrinogen (r=0.370, P<0.001), SA (r=0.420, P<0.001), CRP (r=0.468, P<0.001), IL-10 (r=0.638, P<0.001) and IFN-γ (r=0.434, P<0.001)."
+
+SET Severity = "severe"
+p(HGNC:IL6) pos a(MESH:Neutrophils)
+p(HGNC:IL6) pos p(HGNC:FGA)
+p(HGNC:IL6) pos p(HGNC:FGB)
+p(HGNC:IL6) pos p(HGNC:FGG)
+p(HGNC:IL6) pos a(CHEBI:"sialic acid")
+p(HGNC:IL6) pos p(HGNC:CRP)
+p(HGNC:IL6) pos p(HGNC:IL10)
+p(HGNC:IL6) pos p(HGNC:IFNG)
+UNSET Severity
+
+SET Evidence = "Meanwhile, it was negatively correlated with lymphocyte% (r=-0.438, P<0.001), lymphocyte count (r=-0.446, P<0.001) and platelet count (r=-0.375, P<0.001). Additional, IL-6 was higher in patients with hypertension than without hypertension (P=0.001)) (Figure 2)."
+
+SET Severity = "severe"
+p(HGNC:IL6) neg a(MESH:Lymphocytes)
+p(HGNC:IL6) neg a(MESH:"Blood Platelets")
+path(DO:hypertension) pos p(HGNC:IL6)
+UNSET Severity
+
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType

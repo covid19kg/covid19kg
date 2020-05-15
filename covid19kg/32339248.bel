@@ -1,0 +1,101 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32339248.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Dose AS LIST {"600 mg twice daily"}
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+# Document Annotations #
+
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+SET Citation = {"PubMed", "JAMA Netw Open. 2020 Apr 1;3(4):e208857. doi: 10.1001/jamanetworkopen.2020.8857.", "32339248"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+SET Custom_Disease = "COVID-19"
+SET Species = "9606"
+
+SET Evidence = "Hypertension (25 of 55 [45.5%]), alcohol use disorder (14 of 51 \
+[27.5%]), and diabetes (14 of 55 [25.5%]) were the most frequent \
+comorbidities"
+
+path(DO:"COVID-19") -- path(DO:hypertension)
+path(DO:"COVID-19") -- path(DO:"alcohol use disorder")
+path(DO:"COVID-19") -- path(DO:"diabetes mellitus")
+
+SET Evidence = "Older age (mean [SD] age, 54.7 [13.7] years vs 47.4 [13.3] years) and \
+more heart disease (5 of 28 [17.9%] vs 0) were seen in the high-dose \
+group"
+
+path(DO:"COVID-19") -- path(DO:"heart disease")
+
+SET Evidence = "Occurrence of myocarditis (defined as a creatine kinase-MB [CKMB] \
+level more than twice the upper normal limit), which may be a final \
+complication of severe sepsis or a lesion triggered by the virus \
+itself, was seen in 2 of 26 (7.7%) patients (1 patient per group)."
+
+path(DO:"COVID-19") -- path(DO:myocarditis)
+path(DO:myocarditis) -> path(MESH:Sepsis)
+
+SET Evidence = "Creatine phosphokinase (CK) and CKMB levels were elevated in 13 of 33 \
+patients (39.4%) and 10 of 26 patients (38.4%), respectively"
+
+path(DO:"COVID-19") -- path(HP:"Elevated serum creatine phosphokinase")
+path(DO:"COVID-19")  -> p(HGNC:CKM)
+
+SET Evidence = "Only 1 patient developed severe rhabdomyolysis, and causality could be \
+attributed to the virus or to CQ, which is already known to cause \
+myolysis (Table 2)."
+
+path(DO:"COVID-19") -- path(MESH:Rhabdomyolysis)
+
+SET Evidence = "Two of 37 patients (2.7%) in the high-dosage group, both with \
+confirmed COVID-19, experienced ventricular tachycardia before death, \
+without torsade de pointes."
+
+path(DO:"COVID-19") -- path(HP:"Ventricular tachycardia")
+
+SET Evidence = "Hemoglobin decrease was observed in 11 of 42 patients (26.2%). \
+Creatinine increase was observed in 16 of 38 (42.1%)."
+
+path(DO:"COVID-19") -- path(HP:"Increased hemoglobin concentration")
+path(DO:"COVID-19") -- path(HP:"Abnormal circulating creatinine level")
+
+SET Evidence = "Despite the small sample size, in an exploratory multivariate \
+analysis, the high-dosage CQ was no longer associated with death when \
+controlled by age (odds ratio, 2.8; 95% CI, 0.9-8.5)."
+
+SET Dose = "600 mg twice daily"
+a(MESH:"chloroquine diphosphate") -| a(MESH:Mortality)
+UNSET Dose
+
+SET Evidence = "In 5 patients with chronic cardiac disease, 3 (60.0%) died; their \
+clinical details are presented in Table 3."
+
+path(DO:"COVID-19") -- a(FIXME:"chronic cardiac disease")
+UNSET Custom_Disease
+UNSET Species

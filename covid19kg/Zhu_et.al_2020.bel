@@ -1,0 +1,160 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Zhu_et.al_2020.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+DEFINE ANNOTATION BioAssay AS PATTERN ".*"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Custom_CellLine AS LIST {"Vero E6 cell"}
+DEFINE ANNOTATION EC50 AS LIST {"2.39 µM"}
+DEFINE ANNOTATION concentration AS LIST {"150 mg/kg","300 mg/kg"}
+DEFINE ANNOTATION Timeline AS LIST {"7 days","14 days"}
+DEFINE ANNOTATION mode_of_administration AS LIST {"intravenous injection"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"DOI", "10.1101/2020.05.02.074021"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+
+SET Evidence = "First, a cytopathic effect (CPE) inhibition assay with only one dose \
+was performed in Vero E6 cells (ATCC-1586) for fast screening. Among \
+the five tested drugs, liquiritin exhibited significant CPE inhibition \
+at 10 µM qualitatively."
+
+SET Custom_Disease = "COVID-19"
+SET Custom_CellLine = "Vero E6 cell"
+SET BioAssay = "cytotoxicity assay"
+path(DO:"COVID-19") -> bp(MESH:"Cytopathogenic Effect, Viral")
+a(CHEBI:liquiritin) -| bp(MESH:"Cytopathogenic Effect, Viral")
+UNSET BioAssay
+
+SET Evidence = "Vero E6 cells were infected with SARS-CoV-2 at 100 µl median tissue \
+culture infectious dose (TCID 50 ). Notably, liquiritin potently \
+blocked virus infection at low-micromolar concentration (EC 50 = 2.39 \
+µM, Figure 1c)."
+
+a(TAX:"Severe acute respiratory syndrome coronavirus 2") -> path(DO:"COVID-19")
+SET EC50 = "2.39 µM"
+a(CHEBI:liquiritin) -| path(DO:"COVID-19")
+UNSET EC50
+UNSET Custom_CellLine
+
+SET Evidence = "Gene Ontology analysis reveals that the upregulated genes are enriched \
+in the “type I interferon signaling pathway”, “negative regulation of \
+viral genome replication”, “defense response to virus” and “response \
+to virus” categories (Figure 2b) with p-value < 8.26e-4, 8.29e-4, \
+0.0021 and 0.0039, respectively."
+
+SET Species = "9606"
+SET CellLine = "MCF7 cell"
+a(CHEBI:liquiritin) -> bp(GO:"type I interferon signaling pathway")
+a(CHEBI:liquiritin) -> bp(GO:"negative regulation of viral genome replication")
+a(CHEBI:liquiritin) -> bp(GO:"defense response to virus")
+a(CHEBI:liquiritin) -> bp(GO:"response to virus")
+
+SET Evidence = "Nine genes in the first category were IFIT1, IFIT3, IFITM1, IFI6, \
+IFI27, OAS3, OAS1, PSMB8 and IRF8. The induced ISGs include MX1, OAS, \
+IFIT, IFITM and etc. as shown in the “negative regulation of viral \
+genome replication” category."
+
+a(CHEBI:liquiritin) -> r(HGNC:IFIT1)
+a(CHEBI:liquiritin) -> r(HGNC:IFIT3)
+a(CHEBI:liquiritin) -> r(HGNC:IFITM1)
+a(CHEBI:liquiritin) -> r(HGNC:IFI6)
+a(CHEBI:liquiritin) -> r(HGNC:IFI27)
+a(CHEBI:liquiritin) -> r(HGNC:OAS1)
+a(CHEBI:liquiritin) -> r(HGNC:OAS3)
+a(CHEBI:liquiritin) -> r(HGNC:PSMB8)
+a(CHEBI:liquiritin) -> r(HGNC:IRF8)
+r(HGNC:IFIT1) -> bp(GO:"type I interferon signaling pathway")
+r(HGNC:IFIT3) -> bp(GO:"type I interferon signaling pathway")
+r(HGNC:IFITM1) -> bp(GO:"type I interferon signaling pathway")
+r(HGNC:IFI6) -> bp(GO:"type I interferon signaling pathway")
+r(HGNC:IFI27) -> bp(GO:"type I interferon signaling pathway")
+r(HGNC:OAS1) -> bp(GO:"type I interferon signaling pathway")
+r(HGNC:OAS3) -> bp(GO:"type I interferon signaling pathway")
+r(HGNC:PSMB8) -> bp(GO:"type I interferon signaling pathway")
+r(HGNC:IRF8) -> bp(GO:"type I interferon signaling pathway")
+r(HGNC:IFIT1) -> bp(GO:"negative regulation of viral genome replication")
+r(HGNC:IFIT3) -> bp(GO:"negative regulation of viral genome replication")
+r(HGNC:IFITM1) -> bp(GO:"negative regulation of viral genome replication")
+r(HGNC:OAS1) -> bp(GO:"negative regulation of viral genome replication")
+r(HGNC:OAS3) -> bp(GO:"negative regulation of viral genome replication")
+
+SET Evidence = "Further, the “inflammatory response” is also enriched in down- \
+regulated genes with p-value < 0.015 (Figure 2c), showing liquiritin \
+reduced inflammatory response. In this category, IL13, IL17B and etc. \
+showed up."
+
+a(CHEBI:liquiritin) -> r(HGNC:IL13)
+a(CHEBI:liquiritin) -> r(HGNC:IL17B)
+r(HGNC:IL13) -> bp(GO:"inflammatory response")
+r(HGNC:IL17B) -> bp(GO:"inflammatory response")
+UNSET CellLine
+UNSET Species
+
+SET Evidence = "No mortality was observed at 150 mg/kg dose of one-time treatment of \
+liquiritin by intravenous administration during the 14 days monitoring \
+period (Figure 3a)."
+
+path(DO:"COVID-19") -> path(MESH:Death)
+SET Species = "10090"
+SET BioAssay = "toxicity assay"
+SET concentration = "150 mg/kg"
+SET Timeline = "14 days"
+SET mode_of_administration = "intravenous injection"
+a(CHEBI:liquiritin) -| path(MESH:Death)
+UNSET Timeline
+UNSET concentration
+
+SET Evidence = "A continuous treatment for seven days at 300 mg/kg was also performed. \
+The mortality rate is also zero (Figure 3d)."
+
+SET concentration = "300 mg/kg"
+SET Timeline = "7 days"
+a(CHEBI:liquiritin) -| path(MESH:Death)
+UNSET Timeline
+UNSET concentration
+UNSET BioAssay
+
+SET Evidence = "We observed declined ALT and it may be due to the anti-inflammatory \
+effect of liquiritin."
+
+a(CHEBI:liquiritin) -| p(MGI:Gpt)
+UNSET mode_of_administration
+UNSET Species
+UNSET Custom_Disease
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

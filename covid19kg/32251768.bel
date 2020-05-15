@@ -58,7 +58,6 @@ DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/b
 #DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
 #DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
 #DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
-#DEFINE ANNOTATION BioAssay AS URL   "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/bao/bao-20190130.belanno"
 DEFINE ANNOTATION Sample AS LIST {"Cell Pellet", "Supernatant"}
 # Document Annotations #
 DEFINE ANNOTATION PublicationType AS LIST {"Review", "Research", "Commnent"}

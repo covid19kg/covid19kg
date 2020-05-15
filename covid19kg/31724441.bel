@@ -1,0 +1,78 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "31724441.bel"
+SET DOCUMENT Authors = "Abish K"
+SET DOCUMENT ContactInfo = "abish@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Assay AS LIST {"absorption spetroscopy"}
+DEFINE ANNOTATION concentration AS LIST {"20 μM","40 μM"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+##################################################################################
+# Statements #
+##################################################################################
+SET Citation = {"PubMed","J Enzyme Inhib Med Chem. 2020;35(1):145‐151. doi:10.1080/14756366.2019.1690480","31724441"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "Among them, herbacetin (3,4',5,7,8-pentahydroxyflavone), rhoifolin \
+(apigenin-7-O-rhamno-glucoside) and pectolinarin (5,7-dihydroxy \
+4',6-dimethoxyflavone 7-rutinoside) were found to have prominent \
+inhibitory activity (Figure 2)."
+
+SET concentration = "20 μM"
+SET BioAssay = "fluorescence resonance energy transfer"
+a(PUBCHEM:5280544) -| p(UNIPROT:P0C6X7, frag("3241_3546"))
+a(PUBCHEM:5282150) -| p(UNIPROT:P0C6X7, frag("3241_3546"))
+a(PUBCHEM:168849) -| p(UNIPROT:P0C6X7, frag("3241_3546"))
+p(UNIPROT:P0C6X7) -- a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+UNSET concentration
+UNSET BioAssay
+
+SET Evidence = "Intriguingly, the three inhibitory compounds obviously reduced the \
+fluorescence intensity of the catalytic domain compared with others \
+(Figure 3). The decreased emission intensity confirmed the complex \
+formation between the catalytic domain and inhibitory compounds."
+
+SET Assay = "absorption spetroscopy"
+SET concentration = "40 μM"
+complex(a(PUBCHEM:5280544),p(UNIPROT:P0C6X7, frag("3241_3546"))) -| p(UNIPROT:P0C6X7, frag("3241_3546"))
+complex(a(PUBCHEM:5282150),p(UNIPROT:P0C6X7, frag("3241_3546"))) -| p(UNIPROT:P0C6X7, frag("3241_3546"))
+complex(a(PUBCHEM:168849),p(UNIPROT:P0C6X7, frag("3241_3546"))) -| p(UNIPROT:P0C6X7, frag("3241_3546"))
+UNSET concentration
+UNSET Assay
+
+SET Evidence = "Top-ranked structures (according to the glide gscores) from the \
+induced-fit docking results for herbacetin (–9.263), rhoifolin \
+(–9.565) and pectolinarin (–8.054) were selected and hypothesised to \
+be biological complexes."
+
+SET BioAssay = "molecular docking"
+complex(a(PUBCHEM:5280544),p(UNIPROT:P0C6X7, frag("3241_3546"))) -| p(UNIPROT:P0C6X7, frag("3241_3546"))
+complex(a(PUBCHEM:5282150),p(UNIPROT:P0C6X7, frag("3241_3546"))) -| p(UNIPROT:P0C6X7, frag("3241_3546"))
+complex(a(PUBCHEM:168849),p(UNIPROT:P0C6X7, frag("3241_3546"))) -| p(UNIPROT:P0C6X7, frag("3241_3546"))
+UNSET BioAssay
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
+UNSET Citation

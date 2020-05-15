@@ -1,0 +1,114 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32358956.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Timeline AS LIST {"20-30 days", "30-40 days", "40-50 days", "10 days", "10-20 days"}
+DEFINE ANNOTATION Assay AS LIST {"Antibody assay"}
+DEFINE ANNOTATION Sample AS LIST {"nasopharyxn swab", "oropharynx swab"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","J Infect Dis. 2020 May 2. pii: 5828055. doi: 10.1093/infdis/jiaa229.", "32358956"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Species = "9606"
+
+SET Evidence = "With the exception of 10 patients who reported no symptoms (8.93%), most common symptoms were fever (61, 54.46%), cough (52, 46.43%), fatigue (29, 25.89%), dizziness (2,1.79%), pharyngeal pain (15, 13.39%), diarrhoea (11, 9.82%), vomiting (2, 1.79%), myalgia (2,1.79%), headache (4, 3.57%), and eye discomfort (1, 0.89%) (Table 1)."
+
+path(DO:"COVID-19") pos path(MESH:Fever)
+path(DO:"COVID-19") pos path(MESH:Cough)
+path(DO:"COVID-19") pos path(MESH:Fatigue)
+path(DO:"COVID-19") pos path(MESH:Dizziness)
+path(DO:"COVID-19") pos path(DO:pharyngitis)
+path(DO:"COVID-19") pos path(DO:diarrhea)
+path(DO:"COVID-19") pos path(MESH:Vomiting)
+path(DO:"COVID-19") pos path(MESH:Myalgia)
+path(DO:"COVID-19") pos path(MESH:Headache)
+path(DO:"COVID-19") pos path(FIXME:"eye discomfort")
+
+SET Evidence = "Fifty-eight (51.79%) of 112 patients were positive for IgM (20.93 ± 45.94 AU/ml, mean ± SD) and IgG (122.26 ± 60.94 AU/ml), 7 (6.25%) were negative for both antibodies, 1 (0.89%) was positive for IgM with no response to IgG, and 46 (41.07%) were positive for IgG but not for IgM."
+
+SET Sample = {"nasopharyxn swab", "oropharynx swab"}
+SET Assay = "Antibody assay"
+path(DO:"COVID-19") -> a(MESH:"Immunoglobulin M")
+path(DO:"COVID-19") -> a(MESH:"Immunoglobulin G")
+UNSET Assay
+UNSET Sample
+
+SET Evidence = "Compared to the IgG titres tested within 10 days after the onset of COVID-19, the IgG titers tested 20-30 days (p=0.0025), 30-40 days (p=0.0147) and 40-50 days (p=0.0049) after disease onset were significantly higher (Table 2)."
+
+SET Sample = {"nasopharyxn swab", "oropharynx swab"}
+SET Assay = "Antibody assay"
+SET Timeline = {"20-30 days", "30-40 days", "40-50 days"}
+path(DO:"COVID-19") -> a(MESH:"Immunoglobulin G")
+UNSET Timeline
+UNSET Assay
+UNSET Sample
+
+
+SET Evidence = "Among the 7 patients who were tested for serological antibody within 10 days after the onset of the disease, 4 were positive for both antibodies (6-8 days after disease onset), one was positive for only IgM (4 days after the onset of the disease), and two patients were negative for both antibodies."
+
+SET Sample = {"nasopharyxn swab", "oropharynx swab"}
+SET Assay = "Antibody assay"
+SET Timeline = "10 days"
+path(DO:"COVID-19") -> a(MESH:"Immunoglobulin M")
+UNSET Timeline
+UNSET Assay
+UNSET Sample
+
+SET Evidence = "Among the 10 patients who underwent serological antibody testing 10-20 days after disease onset, 5 were positive for both IgM (37.42±18.69) and IgG (161.19±16.80) antibodies, 3 were positive for IgG (43.46±20.42)."
+
+SET Sample = {"nasopharyxn swab", "oropharynx swab"}
+SET Assay = "Antibody assay"
+SET Timeline = {"10-20 days"}
+path(DO:"COVID-19") -> a(MESH:"Immunoglobulin G")
+path(DO:"COVID-19") -> a(MESH:"Immunoglobulin M")
+UNSET Timeline
+UNSET Assay
+UNSET Sample
+
+SET Evidence = "Among the 8 patients who underwent serological antibody testing 40-50 days after disease onset, 4 patients were positive for both IgM (35.48±10.74) and IgG (174.53±12.17) antibodies, and the rest were positive for IgG (86.01±71.63); 5 out of 8 patients showed a positive nucleic acid test when the antibody test was implemented."
+
+SET Sample = {"nasopharyxn swab", "oropharynx swab"}
+SET Assay = "Antibody assay"
+SET Timeline = {"40-50 days"}
+path(DO:"COVID-19") -> a(MESH:"Immunoglobulin G")
+path(DO:"COVID-19") -> a(MESH:"Immunoglobulin M")
+UNSET Timeline
+UNSET Assay
+UNSET Sample
+
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType

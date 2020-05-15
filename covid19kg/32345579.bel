@@ -1,0 +1,183 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32345579.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Severity AS LIST {"Severe"}
+DEFINE ANNOTATION Cohort_Median_Age AS LIST {"64 years"}
+DEFINE ANNOTATION Patient_Condition AS LIST {"died", "Diabetic"}
+DEFINE ANNOTATION Analysis AS LIST {"Kaplan-Meier survival curve"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed", "32345579"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Evidence = "The most common symptoms were fever (89.6%), cough (69.9%), dyspnea (59.6%) and fatigue (52.3%) at the onset of illness."
+SET Species = "9606"
+SET Custom_Disease = "COVID-19"
+SET Severity = "Severe"
+SET Cohort_Median_Age = "64 years"
+path(DO:"COVID-19") -- path(MESH:Fever)
+path(DO:"COVID-19") -- path(MESH:Cough)
+path(DO:"COVID-19") -- path(MESH:Fatigue)
+path(DO:"COVID-19") -- path(MESH:Dyspnea)
+
+SET Evidence = "Some patients also presented with anorexia (35.2%) and diarrhea (26.4%)."
+path(DO:"COVID-19") -- path(MESH:Anorexia)
+path(DO:"COVID-19") -- path(DO:diarrhea)
+
+SET Evidence = "Other symptoms included headache, pectoralgia, nausea and vomiting."
+path(DO:"COVID-19") -- path(MESH:Headache)
+path(DO:"COVID-19") -- path(MESH:"Chest Pain")
+path(DO:"COVID-19") -- path(MESH:Nausea)
+path(DO:"COVID-19") -- path(MESH:Vomiting)
+
+SET Evidence = "Ninety-four (48.7%) patients had comorbidities, including hypertension (37.8%), cardiovascular disease (16.1%), cerebrovascular disease (4.1%), chronic pulmonary disease (7.3%), chronic kidney disease (2.1%) and chronic liver disease (0.5%) (table 1)."
+path(DO:"COVID-19") -- path(DO:hypertension)
+path(DO:"COVID-19") -- path(MESH:"Cardiovascular Diseases")
+path(DO:"COVID-19") -- path(DO:"cerebrovascular disease")
+path(DO:"COVID-19") -- path(DO:"chronic obstructive pulmonary disease")
+path(DO:"COVID-19") -- path(DO:"chronic kidney disease")
+path(DO:"COVID-19") -- path(MESH:"End Stage Liver Disease")
+
+SET Evidence = "Compared with patients without diabetes, patients with diabetes were older (median age, 70 (IQR 62–77) years vs 60 (IQR 43–71) years) and were more likely to have hypertension (24 (50.0%) patients vs 49 (33.8%) patients), cardiovascular disease (13 (27.1%) patients vs 18 (12.4%) patients) and cerebrovascular disease (5 (10.4%) patients vs 3 (2.1%) patients)."
+SET Patient_Condition = "Diabetic"
+path(DO:"COVID-19") -- path(DO:"diabetes mellitus")
+path(DO:"diabetes mellitus") pos path(HP:"human aged stage")
+path(DO:"diabetes mellitus") pos path(DO:hypertension)
+path(DO:"diabetes mellitus") pos path(DO:"cerebrovascular disease")
+path(DO:"diabetes mellitus") pos path(DO:"cerebrovascular disease")
+
+SET Evidence = "Patients with diabetes also had a shorter duration of hospital stay (10 (IQR 6–13) days vs 13 (IQR 9–18) days) and higher mortality (81.3% vs 47.6%) than patients without diabetes (table 1)."
+path(DO:"diabetes mellitus") -> path(MESH:Mortality)
+
+SET Evidence = "Obviously patients with diabetes had higher levels of random blood glucose (11.31 mmol/L vs 6.56 mmol/L) and glycated hemoglobin (7.2% vs 5.8%)."
+SET MeSHAnatomy = "Blood"
+path(DO:"diabetes mellitus") pos a(MESH:"Blood Glucose")
+path(DO:"diabetes mellitus") pos p(MESH:"Hemoglobin A, Glycosylated")
+
+SET Evidence = "On admission, patients with diabetes had higher levels of leukocyte count (7.99×109/L vs 5.55×109/L), neutrophil count (7.25×109/L vs 3.94×109/L), hsCRP (75.5 mg/L vs 43.3 mg/L), procalcitonin (0.16 ng/mL vs 0.09 ng/mL), ferritin (1373.0 μg/L vs 630.5 μg/L), IL-2 receptor (1098 U/mL vs 649 U/mL), IL-6 (47.08 pg/mL vs 21.31 pg/ mL), IL-8 (26.0 pg/mL vs 16.4 pg/mL), TNFα (11.3 pg/ mL vs 8.3 pg/mL), D-dimer (2.6 μg/mL fibrinogen equivalent units (FEU) vs 1.2 μg/mL FEU), lactic dehydrogenase (465 U/L vs 330 U/L) and N-terminal pro-brain natriuretic peptide (NT-proBNP) (665 pg/mL vs 259 pg/ mL)."
+path(DO:"diabetes mellitus") pos bp(MESH:"Leukocyte Count")
+path(DO:"diabetes mellitus") pos a(MESH:Neutrophils)
+path(DO:"diabetes mellitus") pos p(HGNC:CRP)
+path(DO:"diabetes mellitus") pos p(HGNC:CALCA)
+path(DO:"diabetes mellitus") pos p(PFAM:Ferritin)
+path(DO:"diabetes mellitus") pos a(MESH:"Receptors, Interleukin-2")
+path(DO:"diabetes mellitus") pos p(HGNC:IL6)
+path(DO:"diabetes mellitus") pos p(HGNC:CXCL8)
+path(DO:"diabetes mellitus") pos p(HGNC:TNF)
+path(DO:"diabetes mellitus") pos p(MESH:"fibrin fragment D")
+path(DO:"diabetes mellitus") pos p(HGNC:LDHA)
+path(DO:"diabetes mellitus") pos p(HGNC:LDHB)
+path(DO:"diabetes mellitus") pos p(HGNC:LDHC)
+path(DO:"diabetes mellitus") pos p(HGNC:LDHD)
+path(DO:"diabetes mellitus") pos p(HGNC:NPPB, frag("?"))
+UNSET MeSHAnatomy
+
+SET Evidence = "And most of these values in both groups were above the normal range, which indicated patients with diabetes had more severe inflammatory response and myocardial damage."
+path(DO:"diabetes mellitus") -> bp(GO:"inflammatory response")
+path(DO:"diabetes mellitus") -> path(MESH:"Heart Injuries")
+
+SET Evidence = "The level of cardiac troponin I had no statistically significant difference between the two groups, but showed a higher trend in patients with diabetes."
+SET MeSHAnatomy = "Blood"
+path(DO:"diabetes mellitus") pos a(MESH:"Troponin I")
+
+SET Evidence = "The levels of lymphocyte count (0.54 ×109/L vs 0.81 ×109/L) and albumin (32.2 g/L vs 34.9 g/L) were below the normal range in both groups and patients with diabetes had lower values than patients without diabetes."
+path(DO:"diabetes mellitus") neg bp(MESH:"Lymphocyte Count")
+path(DO:"diabetes mellitus") pos path(MESH:Hypoalbuminemia)
+
+SET Evidence = "In addition, most patients had normal liver and kidney function, although patients with diabetes had higher levels of total bilirubin (11.3 μmol/L vs 8.7 μmol/L), triglyceride (1.79 μmol/L vs 1.34 mmol/L) and urea nitrogen (8.0 μmol/L vs 5.3 mmol/L) compared with patients without diabetes."
+path(DO:"diabetes mellitus") pos a(MESH:Bilirubin)
+path(DO:"diabetes mellitus") pos a(CHEBI:triglyceride)
+path(DO:"diabetes mellitus") -- path(HP:"Increased blood urea nitrogen")
+UNSET MeSHAnatomy
+UNSET Patient_Condition
+
+SET Evidence = "Non-survivors were more likely to have chronic diseases, including diabetes (39 (36.1%) patients vs 9 (10.6%) patients), hypertension (57 (52.8%) patients vs 16 (18.8%) patients), cardiovascular disease (27 (25.0%) patients vs 4 (4.7%) patients), cerebrovascular disease (8 (7.4%) patients vs 0 (0.0%) patients)."
+SET Patient_Condition = "died"
+path(DO:"COVID-19") -- path(DO:"diabetes mellitus")
+path(DO:"COVID-19") -- path(DO:hypertension)
+path(DO:"COVID-19") -- path(MESH:"Cardiovascular Diseases")
+path(DO:"COVID-19") -- path(DO:"cerebrovascular disease")
+UNSET Patient_Condition
+SET Evidence = "The Kaplan-Meier survival curve also showed a trend toward poorer survival in patients with diabetes compared with patients without diabetes, and the HR was 3.17 (95% CI 1.93 to 5.20) (figure 1)."
+SET Analysis  = "Kaplan-Meier survival curve"
+path(DO:"diabetes mellitus") -> path(MESH:Mortality)
+UNSET Analysis
+
+SET Evidence = "Compared with survivors with diabetes, non-survivors had higher levels of leukocyte count, neutrophil count, hsCRP, procalcitonin, ferritin, IL-2 receptor, IL-6, TNFα, and lower levels of lymphocyte count, which indicated non-survivors with diabetes had more severe inflammatory response."
+SET Patient_Condition = {"died", "Diabetic"}
+path(DO:"diabetes mellitus") pos bp(MESH:"Leukocyte Count")
+path(DO:"diabetes mellitus") pos a(MESH:Neutrophils)
+path(DO:"diabetes mellitus") pos p(HGNC:CRP)
+path(DO:"diabetes mellitus") pos p(HGNC:CALCA)
+path(DO:"diabetes mellitus") pos p(PFAM:Ferritin)
+path(DO:"diabetes mellitus") pos a(MESH:"Receptors, Interleukin-2")
+path(DO:"diabetes mellitus") pos p(HGNC:IL6)
+path(DO:"diabetes mellitus") pos p(HGNC:TNF)
+path(DO:"diabetes mellitus") neg bp(MESH:"Lymphocyte Count")
+path(DO:"diabetes mellitus") -> bp(GO:"inflammatory response")
+
+SET Evidence = "Non-survivors with diabetes also had a lower level of albumin, and higher levels of total bilirubin, aspartate aminotransferase, creatine kinase,lactic dehydrogenase, urea nitrogen, creatine, cardiac troponin I, NT-proBNP, prothrombin time, D-dimer than survivors, reflecting severe cardiac, hepatic, renal and coagulation impairment (table 5)."
+path(DO:"diabetes mellitus") pos path(MESH:Hypoalbuminemia)
+path(DO:"diabetes mellitus") pos a(MESH:Bilirubin)
+path(DO:"diabetes mellitus") pos p(HGNC:GOT1)
+path(DO:"diabetes mellitus") pos p(HGNC:GOT2)
+path(DO:"diabetes mellitus") pos p(HGNC:CKB)
+path(DO:"diabetes mellitus") pos p(HGNC:LDHA)
+path(DO:"diabetes mellitus") pos p(HGNC:LDHB)
+path(DO:"diabetes mellitus") pos p(HGNC:LDHC)
+path(DO:"diabetes mellitus") pos p(HGNC:LDHD)
+path(DO:"diabetes mellitus") -- path(HP:"Increased blood urea nitrogen")
+path(DO:"diabetes mellitus") pos a(MESH:Creatine)
+path(DO:"diabetes mellitus") pos a(MESH:"Troponin I")
+path(DO:"diabetes mellitus") pos p(HGNC:NPPB, frag("?"))
+path(DO:"diabetes mellitus") -- path(HP:"Prolonged prothrombin time")
+path(DO:"diabetes mellitus") pos p(MESH:"fibrin fragment D")
+UNSET Patient_Condition
+UNSET Species
+UNSET Custom_Disease
+UNSET Severity
+UNSET Cohort_Median_Age
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation

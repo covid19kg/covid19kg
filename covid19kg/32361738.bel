@@ -1,0 +1,131 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32361738.bel"
+SET DOCUMENT Authors = "Priya S"
+SET DOCUMENT ContactInfo = "priya@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE GO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+DEFINE NAMESPACE FIXME AS PATTERN ".*"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Disease_Stage AS LIST {"non-severe", "severe", "critical"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Published"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","Clin Infect Dis. 2020 May 3. pii: 5828282. doi: 10.1093/cid/ciaa539.", "32361738"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+
+SET Species = "9606"
+
+SET Evidence = "On admission, fever (83.9%, 271/323) and cough (50.8%, 164/323) were the most common symptoms, while dyspnea (4.3%, 14/323), chest distress (0.9%, 3/323) and headache (0.9%, 3/323) were uncommon."
+
+path(DO:"COVID-19") pos path(MESH:Fever)
+path(DO:"COVID-19") pos path(MESH:Cough)
+path(DO:"COVID-19") pos path(MESH:Fatigue)
+path(DO:"COVID-19") pos path(MESH:Dyspnea)
+path(DO:"COVID-19") pos path(HP:"Respiratory distress")
+path(DO:"COVID-19") pos path(DO:diarrhea)
+path(DO:"COVID-19") pos path(MESH:Headache)
+
+SET Evidence = "Ground-glass opacity (GGO) findings were bilateral in 55.0% (83/151), 52.1% (76/146) and 26.9% (7/26) of patients in the non-severe, severe and critical disease groups, respectively."
+
+SET Disease_Stage = {"non-severe", "severe", "critical"}
+path(DO:"COVID-19") pos path(HP:"Ground-glass opacification on pulmonary HRCT")
+UNSET Disease_Stage
+
+SET Evidence = "Multiple bilateral pulmonary consolidations and intralocular interstitial thickening were observed more frequently among patients with unfavorable outcomes (11.1%, 7/63) than those with favorable outcomes (0.8%,2/260)."
+
+path(DO:"COVID-19") pos path(HP:"Intralobular interstitial thickening")
+path(DO:"COVID-19") pos path(FIXME:"Pulmonary Consolidation")
+
+SET Evidence = "Laboratory findings between patients with favorable and unfavorable outcomes showed differences in leukocyte and neutrophil counts and C-reactive protein, as well as lactate dehydrogenase, creatinine, alanine aminotransferase, aspartate aminotransferase, blood urea nitrogen, glucose, and serum amyloid A, which were all higher among patients with unfavorable
+outcomes."
+
+SET Disease_Stage = {"non-severe", "severe", "critical"}
+path(DO:"COVID-19") pos a(MESH:Neutrophils)
+path(DO:"COVID-19") pos a(MESH:Leukocytes)
+path(DO:"COVID-19") pos p(HGNC:CRP)
+path(DO:"COVID-19") pos p(HGNC:LDHA)
+path(DO:"COVID-19") pos p(HGNC:LDHB)
+path(DO:"COVID-19") pos a(MESH:Creatinine)
+path(DO:"COVID-19") pos p(HGNC:GPT)
+path(DO:"COVID-19") pos p(HGNC:GOT1)
+path(DO:"COVID-19") pos p(HGNC:GOT2)
+path(DO:"COVID-19") pos a(CHEBI:glucose)
+path(DO:"COVID-19") pos p(HGNC:SAA1)
+UNSET Disease_Stage
+
+SET Evidence = "Oseltamivir (69.7%, 225/323), ganciclovir (71.2%, 230/323), and arbidol (208/323, 64.4%) were the three most
+frequently used antiviral medications."
+
+SET Disease_Stage = {"non-severe", "severe", "critical"}
+a(CHEBI:oseltamivir) -| path(DO:"COVID-19")
+a(CHEBI:ganciclovir) -| path(DO:"COVID-19")
+a(CHEBI:umifenovir) -| path(DO:"COVID-19")
+UNSET Disease_Stage
+
+SET Evidence = "And one or more courses of moxifloxacin, a broadspectrum antibiotic, was administered to 94.1% (304/323) of patients."
+
+SET Disease_Stage = {"non-severe", "severe", "critical"}
+a(CHEBI:moxifloxacin) -| path(DO:"COVID-19")
+UNSET Disease_Stage
+
+SET Evidence  = "Also, 60.7% (196/323) of patients were given corticosteroid and glucocorticoid, and 95.7% (309/323) received alternative therapy or traditional Chinese medicine."
+
+SET Disease_Stage = {"non-severe", "severe", "critical"}
+a(CHEBI:corticosteroid) -| path(DO:"COVID-19")
+a(CHEBI:glucocorticoid) -| path(DO:"COVID-19")
+a(MESH:"Medicine, Chinese Traditional") -| path(DO:"COVID-19")
+UNSET Disease_Stage
+
+SET Evidence = "Interferon-α was also given more often to patients with unfavorable than favorable outcomes (9.5% vs. 6.2%)."
+SET Disease_Stage = {"non-severe", "severe", "critical"}
+a(CHEBI:"Interferon alfa-2a") -| path(DO:"COVID-19")
+UNSET Disease_Stage
+
+SET Evidence = "Oxygen therapy via invasive ventilation and non-invasive ventilation was also given more often to patients with unfavorable clinical outcomes."
+
+SET Disease_Stage = {"non-severe", "severe", "critical"}
+a(MESH:"Oxygen Inhalation Therapy") -| path(DO:"COVID-19")
+UNSET Disease_Stage
+
+SET Evidence = "The results indicated that age (patients over 65 years) (OR=3.546, 95%CI=1.626–7.733, p<0.001), smoking (OR=3.464, 95%CI=1.18–10.166, p=0.001), critical disease designation (OR=7.390, 95%CI=2.056–26.569, p=0.002), diabetes (OR=3.109, 95%CI=1.155–8.373, p=0.025), abnormal higher hypersensitive troponin I (>0.04 pg/mL) (OR=4.388, 95%CI=1.261–15.271, p=0.02), white blood cell count (>10x109 /L ) (OR=10.853, 95%CI=3.040–38.748, p<0.001) and neutrophil count (>75 x109 /L) (OR=5.929, 95%CI=2.299–15.290, p<0.001) were associated with unfavorable clinical outcome, and hypnotics showed significant protective effects on patient outcomes (OR=0.082, 95%CI=0.025–0.274, p<0.001) (Fig. 2A)."
+
+bp(GO:aging) -- path(DO:"COVID-19")
+path(MESH:Smoking) -- path(DO:"COVID-19")
+path(DO:"diabetes mellitus") -- path(DO:"COVID-19")
+p(HGNC:TNNT1) -- path(DO:"COVID-19")
+p(HGNC:TNNI3) -- path(DO:"COVID-19")
+p(HGNC:TNNT2) -- path(DO:"COVID-19")
+a(MESH:Leukocytes) -- path(DO:"COVID-19")
+a(MESH:Neutrophils) -- path(DO:"COVID-19")
+a(MESH:"Hypnotics and Sedatives") -| path(DO:"COVID-19")
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType
