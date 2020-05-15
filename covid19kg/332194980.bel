@@ -1,0 +1,175 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "332194980.bel"
+SET DOCUMENT Authors = "Shounak Baksi"
+SET DOCUMENT ContactInfo = "shounak.baksi@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+#DEFINE NAMESPACE ADO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/alzheimer-disease-ontology/alzheimer-disease-ontology-1.0.2.belns"
+#DEFINE NAMESPACE BRCO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/brain-region-ontology/brain-region-ontology-1.0.0.belns"
+#DEFINE NAMESPACE NIFT AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/nift/NIFT.belns"
+
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+#DEFINE NAMESPACE MGI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mgi-mouse-genes/mgi-mouse-genes-20190128.belns"
+#DEFINE NAMESPACE RGD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/rgd-rat-genes/rgd-rat-genes-20190128.belns"
+#DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+#DEFINE NAMESPACE SCOMP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-named-complexes/selventa-named-complexes-20190128.belns"
+#DEFINE NAMESPACE SFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/selventa-protein-families/selventa-protein-families-20190128.belns"
+#DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE DRUGBANK AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/drugbank/drugbank-20180906.belns"
+#DEFINE NAMESPACE INTERPRO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/interpro/interpro-names-20181021.belns"
+#DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+#DEFINE NAMESPACE GOBP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-biological-process/go-biological-process-20190128.belns"
+#DEFINE NAMESPACE GOCC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go-cellular-component/go-cellular-component-20190128.belns"
+#DEFINE NAMESPACE EFO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/efo/efo-20171206.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE TAX AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-taxonomy/ncbi-taxonomy-20200322.belns"
+#DEFINE NAMESPACE MESHC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-chemicals/mesh-chemicals-20190128.belns"
+#DEFINE NAMESPACE MESHD AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-diseases/mesh-diseases-20190128.belns"
+#DEFINE NAMESPACE MESHPP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-processes/mesh-processes-20190128.belns"
+#DEFINE NAMESPACE MESHA AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-anatomy/mesh-anatomy-20190128.belns"
+#DEFINE NAMESPACE MESHCS AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh-cellular-structures/mesh-cellular-structures-20190128.belns"
+#DEFINE NAMESPACE NCBIGENE AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-gene/ncbi-gene-20190224.belns"
+DEFINE NAMESPACE COVID AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/ncbi-covid19/ncbi-covid19-20200326.belns"
+DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z, 0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$"
+DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
+#DEFINE NAMESPACE dbSNP AS PATTERN "rs[0-9]+"
+#DEFINE NAMESPACE FIXMECHEM AS LIST {".."}
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+#DEFINE ANNOTATION Anatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/anatomy/anatomy-20190128.belanno"
+#DEFINE ANNOTATION CellLine AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell-line/cell-line-20190128.belanno"
+#DEFINE ANNOTATION Cell AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/cell/cell-20190128.belanno"
+#DEFINE ANNOTATION Disease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/disease/disease-20190128.belanno"
+#DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+#DEFINE ANNOTATION MeSHDisease AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-diseases/mesh-diseases-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+#DEFINE ANNOTATION TextLocation AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/text-location/text-location-1.0.1.belanno"
+#DEFINE ANNOTATION BioAssay AS URL   "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/bao/bao-20190130.belanno"
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Review", "Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint", "Published"}
+DEFINE ANNOTATION Section AS LIST {"Full Text", "Abstract", "Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed","Cell Discov. 2020 Mar 16;6:14. doi: 10.1038/s41421-020-0153-3", "32194980"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Published"
+SET Section = "Results"
+SET Species = "9606"
+
+SET Evidence = " We identified several hub proteins including JUN, XPO1, NPM1, and HNRNPA1, with the highest number of connections within the 119 proteins."
+
+path(DO:"COVID-19") reg p(HGNC:JUN)
+path(DO:"COVID-19") reg p(HGNC:XPO1)
+path(DO:"COVID-19") reg p(HGNC:NPM1)
+path(DO:"COVID-19") reg p(HGNC:HNRNPA1)
+
+SET Evidence = "KEGG pathway enrichment analysis revealed multiple significant biological pathways (adjusted P value < 0.05), including measles, RNA transport, NF-kappa B signaling, Epstein-Barr virus infection, and influenza (Fig. 3b). Gene ontology (GO) biological process enrichment analysis further confirmed multiple viral infection-related processes (adjusted P value < 0.001), including viral life cycle, modulation by virus of host morphology or physiology, viral process, positive regulation of viral life cycle, transport of virus, and virion attachment to host cell (Fig. 3c)."
+
+path(DO:"COVID-19") -- path(DO:measles)
+path(DO:"COVID-19") -- bp(GO:"RNA transport")
+path(DO:"COVID-19") -- bp(GO:"NIK/NF-kappaB signaling")
+path(DO:"COVID-19") -- path(MESH:"Epstein-Barr Virus Infections")
+path(DO:"COVID-19") -- path(DO:influenza)
+path(DO:"COVID-19") -- bp(GO:"viral life cycle")
+path(DO:"COVID-19") -- bp(GO:"transport of virus")
+path(DO:"COVID-19") -- bp(GO:"modulation by virus of host morphology or physiology")
+path(DO:"COVID-19") -- bp(GO:"viral process")
+path(DO:"COVID-19") -- bp(GO:"virion attachment to host cell")
+
+SET Evidence = "Mesalazine (an approved drug for inflammatory bowel disease), sirolimus (an approved immunosuppressive drug), and equilin (an approved agonist of the estrogen receptor for menopausal symptoms) achieved the highest GSEA scores of 3, followed by paroxetine and melatonin with GSEA scores of 2."
+
+a(PUBCHEM:4075) -| path(DO:"inflammatory bowel disease")
+#in DRUGBANK, but not in arti folder. 
+a(CHEBI:sirolimus) isA a(MESH:"Immunosuppressive Agents")
+a(CHEBI:equilin) -> p(HGNC:ESR1)
+bp(GO:menopause) -- p(HGNC:ESR1)
+
+SET Evidence = "As shown in Fig. 5b, toremifene potentially affects several key host proteins associated with HCoV, such as RPL19, HNRNPA1, NPM1, EIF3I, EIF3F, and EIF3E40,41"
+
+a(CHEBI:toremifene) reg p(HGNC:RPL19)
+a(CHEBI:toremifene) reg p(HGNC:HNRNPA1)
+a(CHEBI:toremifene) reg p(HGNC:NPM1)
+a(CHEBI:toremifene) reg p(HGNC:EIF3I)
+a(CHEBI:toremifene) reg p(HGNC:EIF3F)
+a(CHEBI:toremifene) reg p(HGNC:EIF3E)
+
+SET Evidence = "Irbesartan can inhibit NTCP, thus inhibiting viral entry45,46. SLC10A1 interacts with C11orf74, a potential transcriptional repressor that interacts with nsp-10 of SARS-CoV47. There are several other ARBs (such as eletriptan, frovatriptan, and zolmitriptan) in which their targets are potentially associated with HCoV-associated host proteins in the human interactome."
+
+a(CHEBI:irbesartan) -| bp(GO:"viral entry into host cell")
+complex(p(HGNC:SLC10A1), p(HGNC:C11orf74)) reg p(UNIPROT:P0C6X7)
+p(UNIPROT:P0C6X7) -- a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+
+SET Evidence = "Mercaptopurine has been reported as a selective inhibitor of both SARS-CoV and MERS-CoV by targeting papain-like protease which plays key roles in viral maturation and antagonism to interferon stimulation53,5"
+
+a(CHEBI:mercaptopurine) -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+a(CHEBI:mercaptopurine) -| a(TAX:"Middle East respiratory syndrome-related coronavirus")
+a(CHEBI:mercaptopurine) reg a(CHEBI:interferon)
+
+SET Evidence = "Mechanistically, mercaptopurine potentially target several host proteins in HCoVs, such as JUN, PABPC1, NPM1, and NCL40,55 (Fig. 5d)."
+
+a(CHEBI:mercaptopurine) reg p(HGNC:JUN)
+a(CHEBI:mercaptopurine) reg p(HGNC:PABPC1)
+a(CHEBI:mercaptopurine) reg p(HGNC:NPM1)
+a(CHEBI:mercaptopurine) reg p(HGNC:NCL)
+SET Evidence = "As shown in Fig. 5e, melatonin indirectly targets several HCoV cellular targets, including ACE2, BCL2L1, JUN, and IKBKB."
+a(CHEBI:melatonin) reg p(HGNC:JUN)
+a(CHEBI:melatonin) reg p(HGNC:ACE2)
+a(CHEBI:melatonin) reg p(HGNC:BCL2L1)
+a(CHEBI:melatonin) reg p(HGNC:IKBKB)
+
+SET Evidence = "Eplerenone (Z = –1.59), an aldosterone receptor antagonist, is reported to have a similar anti-inflammatory effect as melatonin. "
+
+a(CHEBI:eplerenone) -| p(HGNC:NR3C2)
+a(CHEBI:eplerenone) -| path(MESH:Inflammation)
+a(CHEBI:melatonin) -| path(MESH:Inflammation)
+
+SET Evidence = "The mTOR signaling plays an essential role for MERS-CoV infection66."
+
+a(TAX:"Middle East respiratory syndrome-related coronavirus") reg bp(GO:"TOR signaling")
+
+SET Evidence = "Specifically, sirolimus and dactinomycin may inhibit both mTOR signaling and RNA synthesis pathway (including DNA topoisomerase 2-alpha (TOP2A) and DNA topoisomerase 2-beta (TOP2B)) in HCoV-infected cells (Fig. 6b)."
+
+a(CHEBI:sirolimus) -| bp(GO:"TOR signaling")
+a(MESH:Dactinomycin) -| bp(GO:"TOR signaling")
+a(MESH:Dactinomycin) -| bp(GO:"viral transcription")
+a(CHEBI:sirolimus) -| bp(GO:"viral transcription")
+a(CHEBI:sirolimus) -| p(HGNC:TOP2A)
+a(MESH:Dactinomycin) -| p(HGNC:TOP2A)
+a(CHEBI:sirolimus) -| p(HGNC:TOP2B)
+a(MESH:Dactinomycin) -| p(HGNC:TOP2B)
+
+SET Evidence = "Specifically, emdoin inhibited SARS-CoV-associated 3a protein70, and blocked an interaction between the SARS-CoV spike protein and ACE2 (ref. 71)."
+a(DRUGBANK:DB07715) -| complex(p(COVID:S), p(HGNC:ACE2))
+a(DRUGBANK:DB07715) -| p(UNIPROT:P59632)
+p(UNIPROT:P59632) -- a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+a(DRUGBANK:DB07715) -| a(TAX:"Severe acute respiratory syndrome-related coronavirus")
+
+SET Evidence = "In summary, combination of mercaptopurine and melatonin may offer a potential combination therapy for 2019-nCoV/SARS-CoV-2 by synergistically targeting papain-like protease, ACE2, c-Jun signaling, and anti-inflammatory pathways (Fig. 6d)."
+
+composite(a(CHEBI:mercaptopurine), a(CHEBI:melatonin)) -| a(TAX:"Severe acute respiratory syndrome coronavirus 2") 
+composite(a(CHEBI:mercaptopurine), a(CHEBI:melatonin)) -| p(HGNC:ACE2)
+composite(a(CHEBI:mercaptopurine), a(CHEBI:melatonin)) reg p(HGNC:JUN)
+composite(a(CHEBI:mercaptopurine), a(CHEBI:melatonin)) -| path(MESH:Inflammation)
+UNSET Species
+UNSET Section
+UNSET PublicationStatus
+UNSET PublicationType

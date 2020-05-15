@@ -1,0 +1,110 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "Yang_et.al_2020.bel"
+SET DOCUMENT Authors = "Thrishna"
+SET DOCUMENT ContactInfo = "thrishna@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE MESH AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE GO AS URL 	"https://arty.scai.fraunhofer.de/artifactory/bel/namespace/go/go-20180109.belns"
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+DEFINE ANNOTATION Severity AS LIST {"Severe"}
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+SET Citation = {"DOI", "10.1101/2020.03.02.20029975"}
+
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+
+SET Custom_Disease = "COVID-19"
+SET Species = "9606"
+
+SET Evidence = "Moreover, IP-10, MCP-3, and IL-1ra were 25 significantly higher in \
+severe cases, and highly associated with the PaO2/FaO2 and 26 Murray \
+score."
+
+SET Severity = "Severe"
+path(DO:"COVID-19") -> p(HGNC:CXCL10)
+path(DO:"COVID-19") -> p(HGNC:CCL7)
+path(DO:"COVID-19") -> p(HGNC:IL1RN)
+
+SET Evidence = "Complications occurred more frequently in the severe cases, including \
+ARDS, respiratory failure, hepatic and renal insufficiency (Table S1)."
+
+path(DO:"COVID-19") -> path(DO:"adult respiratory distress syndrome")
+path(DO:"COVID-19") -> path(DO:"respiratory failure")
+path(DO:"COVID-19") -> path(MESH:"Hepatic Insufficiency")
+path(DO:"COVID-19") -> path(MESH:"Renal Insufficiency")
+
+SET Evidence = "The percentage of lymphocyte (LYM) and neutrophil (NEU) as well as the \
+CD4 and CD8 counts were significantly lower in the severe cases, \
+indicating a possible dysfunction of immune responses."
+
+path(DO:"COVID-19") -| bp(MESH:"Lymphocyte Count")
+path(DO:"COVID-19") -| a(MESH:Neutrophils)
+path(DO:"COVID-19") -| p(HGNC:CD4)
+path(DO:"COVID-19") -| p(HGNC:CD8A)
+p(HGNC:CD8A) pos bp(GO:"immune response")
+a(MESH:Neutrophils) pos bp(GO:"immune response")
+bp(MESH:"Lymphocyte Count") pos bp(GO:"immune response")
+p(HGNC:CD4) pos bp(GO:"immune response")
+
+UNSET Severity
+
+SET Evidence = "Elevated concentrations of both pro- and anti-inflammatory cytokines \
+were observed in these cases including IFN-γ (interferon, IFN), IL-1ra \
+(interleukin, IL), IL-2ra, IL-6, IL-10, IL-18, HGF (hepatocyte growth \
+factor), MCP-3 (monocyte chemotactic protein-3), MIG (monokine induced \
+gamma interferon), M-CSF (macrophage colony stimulating factor), G-CSF \
+(granulocyte colony-stimulating factor), MIG-1a (macrophage \
+inflammatory protein 1 alpha) CTACK (cutaneous T-cell-attracting \
+chemokine) and IP-10 (interferon gamma induced protein 10), when \
+compared with healthy control, indicating that cytokine storm occurred \
+following SARS-CoV-2 infection (Figure 1) as previously reported 3,25 \
+."
+
+path(DO:"COVID-19") -> p(HGNC:IFNG)
+path(DO:"COVID-19") -> p(HGNC:IL1RN)
+path(DO:"COVID-19") -> p(HGNC:IL6)
+path(DO:"COVID-19") -> p(HGNC:IL10)
+path(DO:"COVID-19") -> p(HGNC:IL18)
+path(DO:"COVID-19") -> p(HGNC:HGF)
+path(DO:"COVID-19") -> p(HGNC:CCL7)
+path(DO:"COVID-19") -> p(HGNC:CXCL9)
+path(DO:"COVID-19") -> p(HGNC:CCL3)
+path(DO:"COVID-19") -> p(HGNC:CCL27)
+path(DO:"COVID-19") -> p(HGNC:CXCL10)
+
+SET Evidence = "These results indicated that these three cytokines could be considered \
+as biomarkers to predict disease progression and outcome of SARS-CoV-2 \
+infections."
+
+#CXCL10, CCL7 and IL1RN
+p(HGNC:CXCL10) prognosticBiomarkerFor path(DO:"COVID-19")
+p(HGNC:CCL7) prognosticBiomarkerFor path(DO:"COVID-19")
+p(HGNC:IL1RN) prognosticBiomarkerFor path(DO:"COVID-19")
+
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Custom_Disease
+UNSET Species
+UNSET Citation

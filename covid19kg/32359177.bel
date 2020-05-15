@@ -1,0 +1,159 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32359177.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+DEFINE NAMESPACE PFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/pfam/pfam-names-20181024.belns"
+DEFINE NAMESPACE CHEBI AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/chebi/chebi-20190708.belns"
+DEFINE NAMESPACE GFAM AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc-gene-families/hgnc-genefamily-names-20181221.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Severity AS LIST {"Severe"}
+DEFINE ANNOTATION Cohort_Median_Age AS LIST {"56 years"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed", "32359177"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+
+SET Evidence = "ALT, AST, ALP, and TBIL levels were lower and less disperse in non-severe cases. These levels increased and grew more disperse as the disease became more severe."
+SET Species = "9606"
+SET Custom_Disease = "COVID-19"
+SET Severity = "Severe"
+SET Cohort_Median_Age = "56 years"
+SET MeSHAnatomy = "Serum"
+path(DO:"COVID-19") pos p(HGNC:GPT) 
+path(DO:"COVID-19") pos p(HGNC:GOT1)
+path(DO:"COVID-19") pos p(HGNC:GOT2)
+path(DO:"COVID-19") pos p(GFAM:"Alkaline phosphatases")
+path(DO:"COVID-19") pos a(MESH:Bilirubin)
+UNSET MeSHAnatomy
+
+SET Evidence = "The dynamic changes in indicators suggested potential mechanisms of COVID-19-associated liver injury."
+path(DO:"COVID-19") pos path(DO:"liver disease")
+
+SET Evidence = "Among these liver enzymes, elevated AST was associated with the highest mortality risk."
+p(HGNC:GOT1) pos path(MESH:Mortality)
+p(HGNC:GOT2) pos path(MESH:Mortality)
+
+SET Evidence = "Moreover, elevation of other enzymes and TBIL were also significantly associated with adverse outcomes of COVID-19 (Table 2 and Supporting Table S4-S5)."
+p(HGNC:GPT) pos path(MESH:Mortality)
+p(GFAM:"Alkaline phosphatases") pos path(MESH:Mortality)
+a(MESH:Bilirubin) pos path(MESH:Mortality)
+p(HGNC:GOT1) pos path(MESH:"Shock, Septic")
+p(HGNC:GOT2) pos path(MESH:"Shock, Septic")
+p(HGNC:GPT) pos path(MESH:"Shock, Septic")
+p(GFAM:"Alkaline phosphatases") pos path(MESH:"Shock, Septic")
+a(MESH:Bilirubin) pos path(MESH:"Shock, Septic")
+p(HGNC:GOT1) pos path(DO:"adult respiratory distress syndrome")
+p(HGNC:GOT2) pos path(DO:"adult respiratory distress syndrome")
+p(HGNC:GPT) pos path(DO:"adult respiratory distress syndrome")
+p(GFAM:"Alkaline phosphatases") pos path(DO:"adult respiratory distress syndrome")
+a(MESH:Bilirubin) pos path(DO:"adult respiratory distress syndrome")
+p(HGNC:GOT1) pos path(MESH:"Acute Kidney Injury")
+p(HGNC:GOT2) pos path(MESH:"Acute Kidney Injury")
+p(HGNC:GPT) pos path(MESH:"Acute Kidney Injury")
+p(GFAM:"Alkaline phosphatases") pos path(MESH:"Acute Kidney Injury")
+a(MESH:Bilirubin) pos path(MESH:"Acute Kidney Injury")
+p(HGNC:GOT1) pos path(MESH:"Heart Injuries")
+p(HGNC:GOT2) pos path(MESH:"Heart Injuries")
+p(HGNC:GPT) pos path(MESH:"Heart Injuries")
+p(GFAM:"Alkaline phosphatases") pos path(MESH:"Heart Injuries")
+a(MESH:Bilirubin) pos path(MESH:"Heart Injuries")
+p(HGNC:GOT1) pos path(DO:hypertension)
+p(HGNC:GOT2) pos path(DO:hypertension)
+p(HGNC:GPT) pos path(DO:hypertension)
+p(GFAM:"Alkaline phosphatases") pos path(DO:hypertension)
+a(MESH:Bilirubin) pos path(DO:hypertension)
+p(HGNC:GOT1) pos path(DO:"coronary artery disease")
+p(HGNC:GOT2) pos path(DO:"coronary artery disease")
+p(HGNC:GPT) pos path(DO:"coronary artery disease")
+p(GFAM:"Alkaline phosphatases") pos path(DO:"coronary artery disease")
+a(MESH:Bilirubin) pos path(DO:"coronary artery disease")
+p(HGNC:GOT1) pos path(DO:"cerebrovascular disease")
+p(HGNC:GOT2) pos path(DO:"cerebrovascular disease")
+p(HGNC:GPT) pos path(DO:"cerebrovascular disease")
+p(GFAM:"Alkaline phosphatases") pos path(DO:"cerebrovascular disease")
+a(MESH:Bilirubin) pos path(DO:"cerebrovascular disease")
+p(HGNC:GOT1) pos path(DO:"type 2 diabetes mellitus")
+p(HGNC:GOT2) pos path(DO:"type 2 diabetes mellitus")
+p(HGNC:GPT) pos path(DO:"type 2 diabetes mellitus")
+p(GFAM:"Alkaline phosphatases") pos path(DO:"type 2 diabetes mellitus")
+a(MESH:Bilirubin) pos path(DO:"type 2 diabetes mellitus")
+p(HGNC:GOT1) pos path(DO:"chronic kidney disease")
+p(HGNC:GOT2) pos path(DO:"chronic kidney disease")
+p(HGNC:GPT) pos path(DO:"chronic kidney disease")
+p(GFAM:"Alkaline phosphatases") pos path(DO:"chronic kidney disease")
+a(MESH:Bilirubin) pos path(DO:"chronic kidney disease")
+
+SET Evidence = "Male gender, systemic corticosteroids application, lymphocyte count decrease, neutrophil count increase, and fever were factors positively associated with elevated ALT levels (Table 3)."
+a(MESH:Male) -- p(HGNC:GPT)
+a(CHEBI:"corticosteroid hormone") pos p(HGNC:GPT)
+path(DO:lymphopenia) pos p(HGNC:GPT) 
+path(HP:Neutrophilia) pos p(HGNC:GPT) 
+path(MESH:Fever) pos p(HGNC:GPT)
+
+SET Evidence = "Use of antifungal drugs, lymphocyte count decrease, chronic liver disease, systemic corticosteroids use, and male gender were the leading factors positively associated with elevated AST levels"
+a(CHEBI:"antifungal drug") pos p(HGNC:GOT1)
+a(CHEBI:"antifungal drug") pos p(HGNC:GOT2)
+path(DO:lymphopenia) pos p(HGNC:GOT1)
+path(DO:lymphopenia) pos p(HGNC:GOT2)
+path(DO:"liver disease") pos p(HGNC:GOT1)
+path(DO:"liver disease") pos p(HGNC:GOT2)
+a(CHEBI:"corticosteroid hormone") pos p(HGNC:GOT1)
+a(CHEBI:"corticosteroid hormone") pos p(HGNC:GOT2)
+a(MESH:Male) -- p(HGNC:GOT1)
+a(MESH:Male) -- p(HGNC:GOT2)
+
+SET Evidence = "ALP levels were tightly associated with antifungal drug use, neutrophil counts increase, chronic liver disease, and male gender."
+p(GFAM:"Alkaline phosphatases") pos a(CHEBI:"antifungal drug")
+p(GFAM:"Alkaline phosphatases") pos path(HP:Neutrophilia)
+p(GFAM:"Alkaline phosphatases") pos path(DO:"liver disease")
+p(GFAM:"Alkaline phosphatases") -- a(MESH:Male)
+
+SET Evidence = "Antifungal, antiviral, systemic corticosteroids use, and platelet count reduction were main factors positively correlated with increased TBIL levels."
+a(CHEBI:"antifungal drug") pos a(MESH:Bilirubin)
+a(CHEBI:"antiviral drug") pos a(MESH:Bilirubin)
+a(CHEBI:"corticosteroid hormone") pos a(MESH:Bilirubin)
+path(DO:thrombocytopenia) pos a(MESH:Bilirubin)
+
+UNSET Species 
+UNSET Custom_Disease
+UNSET Severity
+UNSET Cohort_Median_Age 
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation
+

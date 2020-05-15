@@ -1,0 +1,96 @@
+##################################################################################
+# Document Properties
+##################################################################################
+SET DOCUMENT Name = "32344321.bel"
+SET DOCUMENT Authors = "Geena Mariya Jose"
+SET DOCUMENT ContactInfo = "geena.mariya.jose@causalitybiomodels.com"
+SET DOCUMENT Description = "COVID Knowledge Curation project"
+
+SET DOCUMENT Licenses = "Private Ownership to Fraunhofer Institute SCAI"
+SET DOCUMENT Copyright = "Copyright © 2020 Fraunhofer Institute SCAI, All rights reserved"
+SET DOCUMENT Version = "2.0.0"
+
+
+##################################################################################
+# NAMESPACES Section
+##################################################################################
+
+DEFINE NAMESPACE HP AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hp/hp-20190130.belns"
+DEFINE NAMESPACE DO AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/disease-ontology/disease-ontology-20200407.belns"
+DEFINE NAMESPACE HGNC AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/hgnc/hgnc-20190708.belns"
+DEFINE NAMESPACE MESH AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/namespace/mesh/mesh-names-20181007.belns"
+
+##################################################################################
+# ANNOTATIONS Section
+##################################################################################
+
+DEFINE ANNOTATION MeSHAnatomy AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/mesh-anatomy/mesh-anatomy-20190128.belanno"
+DEFINE ANNOTATION Species AS URL "https://arty.scai.fraunhofer.de/artifactory/bel/annotation/species-taxonomy-id/species-taxonomy-id-20170511.belanno"
+DEFINE ANNOTATION Custom_Disease AS LIST {"COVID-19"}
+DEFINE ANNOTATION Severity AS LIST {"Severe","Mild"}
+DEFINE ANNOTATION Cohort_Median_Age AS LIST {"65.5 years"}
+DEFINE ANNOTATION Analysis AS LIST {"Kaplan-Meier survival curve", "Multivariate Cox model"}
+
+# Document Annotations #
+DEFINE ANNOTATION PublicationType AS LIST {"Research"}
+DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
+DEFINE ANNOTATION Section AS LIST {"Results"}
+
+##################################################################################
+# Statements #
+##################################################################################
+
+SET Citation = {"PubMed", "32344321"}
+SET PublicationType = "Research"
+SET PublicationStatus = "Preprint"
+SET Section = "Results"
+
+SET Evidence = "Overall, the most common initial symptoms were fever (64.3%) and cough (45.0%), followed by fatigue, muscle soreness, and chest tightness (Table 1)."
+SET Species = "9606"
+SET Custom_Disease = "COVID-19"
+SET Severity = {"Severe","Mild"}
+SET Cohort_Median_Age = "65.5 years"
+path(DO:"COVID-19") -- path(MESH:Fever)
+path(DO:"COVID-19") -- path(MESH:Cough)
+path(DO:"COVID-19") -- path(MESH:Fatigue)
+path(DO:"COVID-19") -- path(HP:"Chest tightness")
+
+SET Evidence = "Most patients had comorbidities, including hypertension (45%), heart disease（25%）,
+diabetes（24.3%）, and respiratory diseases（11.4%）."
+path(DO:"COVID-19") -- path(DO:hypertension)
+path(DO:"COVID-19") -- path(DO:"heart disease")
+path(DO:"COVID-19") -- path(DO:"diabetes mellitus")
+path(DO:"COVID-19") -- path(DO:"respiratory system disease")
+UNSET Severity 
+
+SET Evidence = "The proportion of patients with increased levels of IL-6, CRP, and PCT was significantly higher in the SG (P<0.001, p<0.001, and p=0.025 for IL-6, CRP, and PCT, respectively) (Table 2 and Figure 1)."
+SET MeSHAnatomy = "Serum"
+SET Severity = "Severe"
+path(DO:"COVID-19") pos p(HGNC:IL6)
+path(DO:"COVID-19") pos p(HGNC:CRP)
+path(DO:"COVID-19") pos p(HGNC:CALCA)
+UNSET MeSHAnatomy
+UNSET Severity 
+
+SET Evidence = "Kaplan-Meier survival curves showed that patients with IL-6, CRP, or PCT higher than the optimal threshold had a significantly higher probability of developing severe disease (log-rank, P<0.0001,
+Figure 3)."
+SET Analysis  = "Kaplan-Meier survival curve"
+p(HGNC:IL6) pos path(HP:Severity)
+p(HGNC:CRP) pos path(HP:Severity)
+p(HGNC:CALCA) pos path(HP:Severity)
+UNSET Analysis
+
+SET Evidence = "The multivariate Cox model showed that IL-6 (P<0.001), CRP (P<0.001), and PCT (P=0.002) could be used as independent factors to predict the severity of COVID-19"
+SET Analysis  = "Multivariate Cox model"
+p(HGNC:IL6) pos path(HP:Severity)
+p(HGNC:CRP) pos path(HP:Severity)
+p(HGNC:CALCA) pos path(HP:Severity)
+UNSET Analysis
+UNSET Species 
+UNSET Custom_Disease
+UNSET Cohort_Median_Age 
+UNSET PublicationType
+UNSET PublicationStatus
+UNSET Section
+UNSET Citation
+

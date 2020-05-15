@@ -47,7 +47,6 @@ DEFINE NAMESPACE UNIPROT AS PATTERN "^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][
 #DEFINE NAMESPACE PUBCHEM AS PATTERN "^\d+$"
 #DEFINE NAMESPACE dbSNP AS PATTERN "rs[0-9]+"
 #DEFINE NAMESPACE FIXMECHEM AS LIST {".."}
-#DEFINE NAMESPACE FIXME AS LIST {".."}
 
 ##################################################################################
 # ANNOTATIONS Section

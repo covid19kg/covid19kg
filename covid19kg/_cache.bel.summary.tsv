@@ -1,5 +1,5 @@
-Title	Authors	Number of URL Namespaces	Number of Regex Namespaces	Number of URL Annotations	Number of Regex Annotations	Number of Local Annotations	Number of Nodes	Number of Edges	Number of Citations	Number of Authors	Network Density	Number of Components	Number of Warnings
-15194747.bel	Covid19KG	Yojana Gadiya	26	8	9	1	67	9	13	1	10	1.81E-01	1	0
+	Title	Authors	Number of URL Namespaces	Number of Regex Namespaces	Number of URL Annotations	Number of Regex Annotations	Number of Local Annotations	Number of Nodes	Number of Edges	Number of Citations	Number of Authors	Network Density	Number of Components	Number of Warnings
+15194747.bel	COVID-19 Knowledge Graph	Shounak Baksi, Daniel Domingo-Fernández, Yojana Gadiya, Martin Hofmann-Apitius, Reagon Karki, Alpha Tom Kodamullil	26	8	9	1	67	9	13	1	10	1.81E-01	1	0
 15294014.bel	15294014.bel	Priya S	1	1	1	1	5	19	30	1	5	8.77E-02	1	0
 15878679.bel	15878679.bel	Abish K	3	1	2	0	8	11	32	1	23	2.91E-01	1	0
 15916886.bel	15916886.bel	Geena Mariya Jose	4	1	2	1	4	11	15	1	5	1.36E-01	1	0
@@ -25,6 +25,7 @@ Title	Authors	Number of URL Namespaces	Number of Regex Namespaces	Number of URL 
 30463975.bel	30463975.bel	Geena Mariya Jose	3	2	3	1	7	14	31	1	13	1.70E-01	1	0
 30761102.bel	30761102.bel	Abish K	4	2	1	1	5	21	47	1	4	1.12E-01	1	0
 31233808.bel	31233808.bel	Priya S	2	1	2	0	5	4	5	1	10	4.17E-01	1	0
+31724441.bel	31724441.bel	Abish K	1	2	0	0	5	9	18	1	4	2.50E-01	1	0
 31986264.bel	31986264.bel	Priya S	5	0	1	0	5	35	51	1	29	4.29E-02	1	0
 31987001.bel	31987001.bel	Shounak Baksi	4	1	3	0	5	14	15	1	7	8.24E-02	3	0
 32081636.bel	PMID_32081636	Yojana Gadiya	7	3	0	0	0	20	30	1	5	7.89E-02	1	0
@@ -109,11 +110,21 @@ Title	Authors	Number of URL Namespaces	Number of Regex Namespaces	Number of URL 
 32227090.bel	32227090.bel	Abish K	5	0	2	1	4	18	24	1	5	7.84E-02	2	0
 32227760.bel	32227760.bel	Thrishna	9	0	3	0	4	27	33	1	0	4.70E-02	1	0
 32227916.bel	32227916.bel	Geena Mariya Jose	6	0	1	0	3	9	11	1	1	1.53E-01	1	0
+32228222.bel	32228222.bel	Abish K	5	1	2	0	4	10	15	1	13	1.67E-01	1	0
 32228226.bel	32228226.bel	Shounak Baksi	5	0	3	1	5	594	1271	1	18	3.61E-03	1	0
 32231345.bel	32231345.bel	Shounak Baksi	6	1	2	0	4	15	19	1	16	9.05E-02	1	0
 32232214.bel	32232214.bel	Abish K	6	1	1	0	7	119	195	1	1	1.39E-02	1	0
 32246845.bel	Lukassen_et.al_2020.bel	Geena Mariya Jose	8	0	3	1	3	32	73	1	14	7.36E-02	1	0
 32251768.bel	32251768.bel	Shounak Baksi	4	0	1	0	4	4	4	1	5	3.33E-01	1	0
+32334118.bel	32334118.bel	Priya S	5	0	1	0	6	19	45	1	7	1.32E-01	1	0
+32339248.bel	32339248.bel	Thrishna	4	1	1	0	5	16	25	1	29	1.04E-01	2	0
+32344321.bel	32344321.bel	Geena Mariya Jose	4	0	2	0	7	13	34	1	9	2.18E-01	1	0
+32345579.bel	32345579.bel	Geena Mariya Jose	7	0	2	0	8	51	148	1	8	5.80E-02	1	0
+32358956.bel	32358956.bel	Priya S	5	1	1	0	6	13	28	1	3	1.79E-01	1	0
+32359177.bel	32359177.bel	Geena Mariya Jose	7	0	2	0	6	25	158	1	37	2.63E-01	1	0
+32359205.bel	32359205.bel	Thrishna	6	1	1	0	5	13	19	1	6	1.22E-01	1	0
+32361738.bel	32361738.bel	Priya S	6	1	1	0	4	38	68	1	20	4.84E-02	1	0
+332194980.bel	332194980.bel	Shounak Baksi	8	2	1	0	3	57	77	1	6	2.41E-02	4	0
 Arya_et.al_2020.bel	Arya_et.al_2020.bel	Thrishna	2	1	0	1	3	34	49	1	0	4.37E-02	1	0
 Balasubramaniam_et.al_2020.bel	Balasubramaniam_et.al_2020.bel	Abish K	7	1	0	1	3	36	63	1	0	5.00E-02	1	0
 Bao_et.al_2020.bel	Bao_et.al_2020.bel	Geena Mariya Jose	5	1	2	1	9	14	33	1	0	1.81E-01	1	0
@@ -122,6 +133,7 @@ COVID19_drugs_targets.bel	DrugBank	Reagon Karki	2	1	0	0	1	28	57	41	205	7.54E-02	
 Diao_et.al_2020.bel	Diao_et.al_2020.bel	Abish K	3	0	2	0	7	10	55	1	0	6.11E-01	1	0
 Gordon_et.al_2020.bel	Gordon_et.al_2020.bel	Abish K	16	5	3	0	5	333	750	1	0	6.78E-03	5	0
 Guan_et.al_2020.bel	Guan_et.al_2020.bel	Shounak Baksi	5	0	2	0	4	17	28	1	0	1.03E-01	1	0
+GuoAX_et.al_2020.bel	GuoAX_et.al_2020.bel	Shounak Baksi	7	1	2	0	4	44	116	1	0	6.13E-02	1	0
 Guo_et.al_2020.bel	GUO_et.al_2020.bel	Geena Mariya Jose	4	0	2	1	5	6	16	1	0	5.33E-01	1	0
 Huang_et.al_2020.bel	Huang_et.al_2020.bel	Thrishna	3	1	0	1	3	86	98	1	0	1.34E-02	1	0
 Jazzi_et.al_2020.bel	Jazzi_et.al_2020.bel	Geena Mariya Jose	4	1	0	0	4	11	14	1	0	1.27E-01	1	0
@@ -139,10 +151,14 @@ Pfaender_et.al_2020.bel	Pfaender_et.al_2020.bel	Thrishna	4	1	0	0	4	8	12	1	0	2.14
 Pizzorno_et.al_2020.bel	Pizzorno_et.al_2020.bel	Abish K	7	1	2	0	6	37	77	1	0	5.78E-02	1	0
 Rao_et.al_2020.bel	Rao_et.al_2020	Geena Mariya Jose	6	0	2	0	3	20	35	1	0	9.21E-02	1	0
 Rodrigues_et.al_2020.bel	Rodrigues_et.al_2020.bel	Abish K	7	0	3	0	7	15	34	1	0	1.62E-01	1	0
+Rossi_et.al_2020.bel	Rossi_et.al_2020.bel	Shounak Baksi	5	0	1	0	4	17	42	1	0	1.54E-01	1	0
+Rothan_et.al_2020.bel	Rothan_et.al_2020.bel	Shounak Baksi	5	0	2	1	6	0	0	0	0	0.00E+00	0	35
 SIF2BEL_RK.bel	https://doi.org/10.1101/2020.03.22.002386	Reagon Karki	1	0	0	0	1	1077	1513	1	0	1.31E-03	16	0
 Shaghaghi_et.al_2020.bel	Shaghaghi_et.al_2020.bel	Priya S	3	1	0	1	3	21	28	1	0	6.67E-02	1	0
 Tetz_et.al_2020.bel	Tetz_et.al_2020.bel	Priya S	5	0	0	0	3	6	10	1	0	3.33E-01	1	0
 Thevarajan_et.al_2020.bel	Thevarajan_et.al_2020.bel	Priya S	4	2	1	0	6	17	22	1	0	8.09E-02	1	0
 Thuy_et.al_2020.bel	Thuy_et.al_2020.bel	Priya S	4	1	0	1	3	54	105	1	0	3.67E-02	1	0
 Wang_et.al_2020.bel	Wang_et.al_2020.bel	Thrishna	8	2	1	1	6	10	15	1	0	1.67E-01	2	0
+Yang_et.al_2020.bel	Yang_et.al_2020.bel	Thrishna	4	0	1	0	5	21	33	1	0	7.86E-02	1	0
 Zhang_et.al_2020.bel	Zhang_et.al_2020.bel	Geena Mariya Jose	9	1	3	0	6	20	41	1	0	1.08E-01	1	0
+Zhu_et.al_2020.bel	Zhu_et.al_2020.bel	Abish K	7	0	2	1	9	0	0	0	0	0.00E+00	0	73
