@@ -18991,7 +18991,7 @@
       ]
     },
     {
-      "bel": "composite(complex(GO:\"HOPS complex\"), p(NCBIGENE:43740569))",
+      "bel": "composite(complex(GO:\"HOPS complex\"), p(UNIPROT:P0DTC3))",
       "function": "Composite",
       "id": "c199548fe0312e33fd4482b568d5bf66",
       "members": [
@@ -19005,7 +19005,7 @@
           "id": "3f16a3fd6b769a1d75b4185abc46816f"
         },
         {
-          "bel": "p(NCBIGENE:43740569)",
+          "bel": "p(UNIPROT:P0DTC3)",
           "concept": {
             "name": "43740569",
             "namespace": "NCBIGENE"
@@ -19016,7 +19016,7 @@
       ]
     },
     {
-      "bel": "composite(complex(GO:\"vacuolar proton-transporting V-type ATPase complex\"), p(NCBIGENE:43740571))",
+      "bel": "composite(complex(GO:\"vacuolar proton-transporting V-type ATPase complex\"), p(UNIPROT:P0DTC5))",
       "function": "Composite",
       "id": "9c9dbd1559827f029789755a20d6c4e5",
       "members": [
@@ -19030,7 +19030,7 @@
           "id": "a8b4db5bcec2487b3ceb1ae86f9f0a74"
         },
         {
-          "bel": "p(NCBIGENE:43740571)",
+          "bel": "p(UNIPROT:P0DTC5)",
           "concept": {
             "name": "43740571",
             "namespace": "NCBIGENE"
@@ -19066,7 +19066,7 @@
       ]
     },
     {
-      "bel": "composite(complex(p(HGNC:CUL2), p(HGNC:ZYG11B)), p(NCBIGENE:43740576))",
+      "bel": "composite(complex(p(HGNC:CUL2), p(HGNC:ZYG11B)), p(UNIPROT:A0A663DJA2))",
       "function": "Composite",
       "id": "67b83eee0066f2bb1afe6dc2ea2af7a5",
       "members": [
@@ -19096,7 +19096,7 @@
           ]
         },
         {
-          "bel": "p(NCBIGENE:43740576)",
+          "bel": "p(UNIPROT:A0A663DJA2)",
           "concept": {
             "name": "43740576",
             "namespace": "NCBIGENE"
@@ -19107,7 +19107,7 @@
       ]
     },
     {
-      "bel": "composite(complex(p(HGNC:GOLGA7), p(HGNC:ZDHHC5)), p(NCBIGENE:43740568))",
+      "bel": "composite(complex(p(HGNC:GOLGA7), p(HGNC:ZDHHC5)), p(UNIPROT:P0DTC2))",
       "function": "Composite",
       "id": "177d327984d51c745afdb340d7f644e6",
       "members": [
@@ -19137,7 +19137,7 @@
           ]
         },
         {
-          "bel": "p(NCBIGENE:43740568)",
+          "bel": "p(UNIPROT:P0DTC2)",
           "concept": {
             "name": "43740568",
             "namespace": "NCBIGENE"
@@ -19196,7 +19196,7 @@
       ]
     },
     {
-      "bel": "composite(p(ECCODE:\"2.7.11.1\"), p(NCBIGENE:43740575))",
+      "bel": "composite(p(ECCODE:\"2.7.11.1\"), p(UNIPROT:P0DTC9))",
       "function": "Composite",
       "id": "8dc915543424ab5fdcd922d1fcb9ad76",
       "members": [
@@ -19210,7 +19210,7 @@
           "id": "4dffacf9afb11da18603e02849f8d387"
         },
         {
-          "bel": "p(NCBIGENE:43740575)",
+          "bel": "p(UNIPROT:P0DTC9)",
           "concept": {
             "name": "43740575",
             "namespace": "NCBIGENE"
@@ -19395,7 +19395,7 @@
       ]
     },
     {
-      "bel": "composite(p(GFAM:\"Adaptor related protein complex 3\"), p(NCBIGENE:43740570))",
+      "bel": "composite(p(GFAM:\"Adaptor related protein complex 3\"), p(UNIPROT:P0DTC4))",
       "function": "Composite",
       "id": "790f099a7880f638d571a28409b86c46",
       "members": [
@@ -19409,7 +19409,7 @@
           "id": "1db0221453e510b98f12a588751807c1"
         },
         {
-          "bel": "p(NCBIGENE:43740570)",
+          "bel": "p(UNIPROT:P0DTC4)",
           "concept": {
             "name": "43740570",
             "namespace": "NCBIGENE"
@@ -19420,7 +19420,7 @@
       ]
     },
     {
-      "bel": "composite(p(HGNC:BRD2), p(NCBIGENE:43740570))",
+      "bel": "composite(p(HGNC:BRD2), p(UNIPROT:P0DTC4))",
       "function": "Composite",
       "id": "873448272b35e71f1757cce0276cbca4",
       "members": [
@@ -19434,7 +19434,7 @@
           "id": "9a579d4b79593b50067254af1f20a8ff"
         },
         {
-          "bel": "p(NCBIGENE:43740570)",
+          "bel": "p(UNIPROT:P0DTC4)",
           "concept": {
             "name": "43740570",
             "namespace": "NCBIGENE"
@@ -19445,7 +19445,7 @@
       ]
     },
     {
-      "bel": "composite(p(HGNC:BRD4), p(NCBIGENE:43740570))",
+      "bel": "composite(p(HGNC:BRD4), p(UNIPROT:P0DTC4))",
       "function": "Composite",
       "id": "5925ece605c3e4f5cf449888879607fd",
       "members": [
@@ -19459,7 +19459,7 @@
           "id": "9fc9e3928d8dc85229a8a09bcccc6464"
         },
         {
-          "bel": "p(NCBIGENE:43740570)",
+          "bel": "p(UNIPROT:P0DTC4)",
           "concept": {
             "name": "43740570",
             "namespace": "NCBIGENE"
@@ -19470,7 +19470,7 @@
       ]
     },
     {
-      "bel": "composite(p(HGNC:G3BP1), p(NCBIGENE:43740575))",
+      "bel": "composite(p(HGNC:G3BP1), p(UNIPROT:P0DTC9))",
       "function": "Composite",
       "id": "58d23657335ddfd12198f43ee56afc92",
       "members": [
@@ -19484,7 +19484,7 @@
           "id": "393c18dd6afc93f9ceeca99a12444f80"
         },
         {
-          "bel": "p(NCBIGENE:43740575)",
+          "bel": "p(UNIPROT:P0DTC9)",
           "concept": {
             "name": "43740575",
             "namespace": "NCBIGENE"
@@ -19495,7 +19495,7 @@
       ]
     },
     {
-      "bel": "composite(p(HGNC:G3BP2), p(NCBIGENE:43740575))",
+      "bel": "composite(p(HGNC:G3BP2), p(UNIPROT:P0DTC9))",
       "function": "Composite",
       "id": "054a6989883b9289aaa2ef9e98ab91d0",
       "members": [
@@ -19509,7 +19509,7 @@
           "id": "a9688a423c6c2793021ae7f33ce2bc97"
         },
         {
-          "bel": "p(NCBIGENE:43740575)",
+          "bel": "p(UNIPROT:P0DTC9)",
           "concept": {
             "name": "43740575",
             "namespace": "NCBIGENE"
@@ -19520,7 +19520,7 @@
       ]
     },
     {
-      "bel": "composite(p(HGNC:LARP1), p(NCBIGENE:43740575))",
+      "bel": "composite(p(HGNC:LARP1), p(UNIPROT:P0DTC9))",
       "function": "Composite",
       "id": "e51800c9de8423bfd160e9afc1fab6ec",
       "members": [
@@ -19534,7 +19534,7 @@
           "id": "983fbf0809345b84dcd98bc755e4d569"
         },
         {
-          "bel": "p(NCBIGENE:43740575)",
+          "bel": "p(UNIPROT:P0DTC9)",
           "concept": {
             "name": "43740575",
             "namespace": "NCBIGENE"
@@ -20763,7 +20763,7 @@
       ]
     },
     {
-      "bel": "p(NCBIGENE:43740568)",
+      "bel": "p(UNIPROT:P0DTC2)",
       "concept": {
         "name": "43740568",
         "namespace": "NCBIGENE"
@@ -20772,7 +20772,7 @@
       "id": "7c0c25d9b85462ae1b80a07e4192e4b9"
     },
     {
-      "bel": "p(NCBIGENE:43740569)",
+      "bel": "p(UNIPROT:P0DTC3)",
       "concept": {
         "name": "43740569",
         "namespace": "NCBIGENE"
@@ -20781,7 +20781,7 @@
       "id": "2fa75ecd587cfb16bd6260712778a3ac"
     },
     {
-      "bel": "p(NCBIGENE:43740570)",
+      "bel": "p(UNIPROT:P0DTC4)",
       "concept": {
         "name": "43740570",
         "namespace": "NCBIGENE"
@@ -20790,7 +20790,7 @@
       "id": "98ab7388c7e7d0c20a22fcd1c3d5d051"
     },
     {
-      "bel": "p(NCBIGENE:43740571)",
+      "bel": "p(UNIPROT:P0DTC5)",
       "concept": {
         "name": "43740571",
         "namespace": "NCBIGENE"
@@ -20824,7 +20824,7 @@
       ]
     },
     {
-      "bel": "p(NCBIGENE:43740575)",
+      "bel": "p(UNIPROT:P0DTC9)",
       "concept": {
         "name": "43740575",
         "namespace": "NCBIGENE"
@@ -20833,7 +20833,7 @@
       "id": "d50ff9377ab2b6a6c44058bed4aea3b1"
     },
     {
-      "bel": "p(NCBIGENE:43740576)",
+      "bel": "p(UNIPROT:A0A663DJA2)",
       "concept": {
         "name": "43740576",
         "namespace": "NCBIGENE"

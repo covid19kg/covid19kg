@@ -1277,7 +1277,7 @@
       "id": "60bbae25b4e0ac32c4c03901c2b4960c"
     },
     {
-      "bel": "composite(p(HGNC:ACE2), p(NCBIGENE:43740568))",
+      "bel": "composite(p(HGNC:ACE2), p(UNIPROT:P0DTC2))",
       "function": "Composite",
       "id": "a1540b5171a1daf28d43f2071238e748",
       "members": [
@@ -1291,7 +1291,7 @@
           "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
         },
         {
-          "bel": "p(NCBIGENE:43740568)",
+          "bel": "p(UNIPROT:P0DTC2)",
           "concept": {
             "name": "43740568",
             "namespace": "NCBIGENE"
@@ -1473,7 +1473,7 @@
       "id": "3537912f85b0c685b323cfa4aaff98c1"
     },
     {
-      "bel": "p(NCBIGENE:43740568)",
+      "bel": "p(UNIPROT:P0DTC2)",
       "concept": {
         "name": "43740568",
         "namespace": "NCBIGENE"

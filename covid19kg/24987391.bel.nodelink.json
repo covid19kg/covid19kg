@@ -6542,7 +6542,7 @@
       ]
     },
     {
-      "bel": "complex(p(MESH:\"RNA, Double-Stranded\"), p(NCBIGENE:956533))",
+      "bel": "complex(p(MESH:\"RNA, Double-Stranded\"), p(UNIPROT:P03496))",
       "function": "Complex",
       "id": "75dfe9fd33b059f6701e0f98b3697864",
       "members": [
@@ -6556,7 +6556,7 @@
           "id": "c9d904daab1a35fb8073d0abca5eac38"
         },
         {
-          "bel": "p(NCBIGENE:956533)",
+          "bel": "p(UNIPROT:P03496)",
           "concept": {
             "name": "956533",
             "namespace": "NCBIGENE"
@@ -7469,7 +7469,7 @@
       "id": "ff14515e0db36b0ed0ca98187805f11d"
     },
     {
-      "bel": "p(NCBIGENE:14254597)",
+      "bel": "p(UNIPROT:A0A0U2GLX8)",
       "concept": {
         "name": "14254597",
         "namespace": "NCBIGENE"
@@ -7496,7 +7496,7 @@
       "id": "3913f371850673d30266b18b1351dcf0"
     },
     {
-      "bel": "p(NCBIGENE:956533)",
+      "bel": "p(UNIPROT:P03496)",
       "concept": {
         "name": "956533",
         "namespace": "NCBIGENE"

@@ -3035,7 +3035,7 @@
       "id": "566e84a966adc67499c2c7a143cc9a51"
     },
     {
-      "bel": "p(NCBIGENE:155971)",
+      "bel": "p(UNIPROT:P04578)",
       "concept": {
         "name": "155971",
         "namespace": "NCBIGENE"
@@ -3044,7 +3044,7 @@
       "id": "f04ac6c138bf86be8249a4e7adebfaaf"
     },
     {
-      "bel": "p(NCBIGENE:155971, pmod(Glyco))",
+      "bel": "p(UNIPROT:P04578, pmod(Glyco))",
       "concept": {
         "name": "155971",
         "namespace": "NCBIGENE"

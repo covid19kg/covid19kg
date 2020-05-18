@@ -54,10 +54,10 @@ SET Custom_Disease = "COVID-19"
 SET Species = "9606"
 SET MeSHAnatomy = "Plasma"
 SET BioAssay = "ELISA"
-complex(a(MESH:Immunoglobulins),p(NCBIGENE:43740568,frag("?")))
+complex(a(MESH:Immunoglobulins),p(UNIPROT:P0DTC2,frag("?")))
 a(MESH:Immunoglobulins) -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
 #Antibody against present ARS-CoV-2 present in plsama
-p(NCBIGENE:43740568,frag("?")) --  p(COVID:S)
+p(UNIPROT:P0DTC2,frag("?")) --  p(COVID:S)
 #Spike protein receptor-binding domain
 complex(a(MESH:Immunoglobulins),p(COVID:N))
 
@@ -73,18 +73,18 @@ UNSET BioAssay
 SET Evidence = "The number of RBD-specific B cells are relatively higher in P#2, P#5, P#16, and P#22 (Figure 1E), which appeared to correlate well with binding activity of
 corresponding plasma samples to SARS-CoV-2 RBD and trimeric Spike protein (Figure 1A and 1B)."
 SET BioAssay = "flow cytometry"
-complex(a(MESH:"B-Lymphocytes"), p(NCBIGENE:43740568,frag("?")))
+complex(a(MESH:"B-Lymphocytes"), p(UNIPROT:P0DTC2,frag("?")))
 complex(a(MESH:"B-Lymphocytes"), p(COVID:S))
 UNSET BioAssay
 
 SET Evidence = "The most powerful were P2C-1F11 and P2B-2F6, which reduced ACE2 binding
 about 99.2% and 98.5%, respectively."
-p(FIXME:"P2C-1F11") -| complex(p(NCBIGENE:43740568,frag("?")), p(HGNC:ACE2))
-p(FIXME:"P2B-2F6") -| complex(p(NCBIGENE:43740568,frag("?")), p(HGNC:ACE2))
+p(FIXME:"P2C-1F11") -| complex(p(UNIPROT:P0DTC2,frag("?")), p(HGNC:ACE2))
+p(FIXME:"P2B-2F6") -| complex(p(UNIPROT:P0DTC2,frag("?")), p(HGNC:ACE2))
 
 SET Evidence = "Two of the three representative antibodies from the clonal expanded clusters (P2A-1A10 and P2A-1B3) had slightly over 80% and 90% reduction, respectively."
-p(FIXME:"P2A-1A10") -| complex(p(NCBIGENE:43740568,frag("?")), p(HGNC:ACE2))
-p(FIXME:"P2A-1B3") -| complex(p(NCBIGENE:43740568,frag("?")), p(HGNC:ACE2))
+p(FIXME:"P2A-1A10") -| complex(p(UNIPROT:P0DTC2,frag("?")), p(HGNC:ACE2))
+p(FIXME:"P2A-1B3") -| complex(p(UNIPROT:P0DTC2,frag("?")), p(HGNC:ACE2))
 
 SET Evidence = "P2C-1F11 and P2B-2F6 were the most potent, followed by P2C-1A3 and P2C-1C10."
 p(FIXME:"P2C-1F11") -| p(COVID:S)

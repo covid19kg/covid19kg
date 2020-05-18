@@ -106,7 +106,7 @@ p(NCBIGENE:43740578) -> p(FIXME:"polyprotein 1a")
 p(FIXME:orf1b) -> p(FIXME:"polyprotein 1ab")
 
 SET Evidence = "Replication and transcription of the coronavirus genome involve the formation of the replication/transcription complexes (RTCs), which are anchored to the intracellular membranes via the multi-spanning transmembrane proteins nsp3, nsp4, and nsp6 (Oostra et al., 2007)."
-complex(GO:"viral replication complex") hasMembers list(p(REFSEQ:"YP_009725299.1"),p(REFSEQ:"YP_009725298.1"),p(REFSEQ:"YP_009725302.1"))
+complex(GO:"viral replication complex") hasMembers list(p(REFSEQ:"YP_009725299.1"),p(REFSEQ:"YP_009725298.1"),p(UNIPROT:P0DTC6))
 
 SET Evidence = "Transmembrane structural proteins (S, M, and E) are synthesized, inserted, and folded in the endoplasmic reticulum (ER) and transported to the ER–Golgi intermediate compartment (ERGIC)."
 p(MESH:"Spike Glycoprotein, Coronavirus",loc(GOCC:"endoplasmic reticulum")) -> tloc(p(MESH:"Spike Glycoprotein, Coronavirus"),fromLoc(GOCC:"endoplasmic reticulum"),toLoc(GOCC:"endoplasmic reticulum-Golgi intermediate compartment"))
@@ -147,7 +147,7 @@ SET MeSHDisease = "Coronavirus Infections"
 SET CellLine = "HEK293T"
 p(REFSEQ:"YP_009725299.1") -> complex(GO:"double membrane vesicle viral factory")
 p(REFSEQ:"YP_009725298.1") -> complex(GO:"double membrane vesicle viral factory")
-p(REFSEQ:"YP_009725302.1") -> complex(GO:"double membrane vesicle viral factory")
+p(UNIPROT:P0DTC6) -> complex(GO:"double membrane vesicle viral factory")
 UNSET CellLine
 UNSET MeSHDisease
 
@@ -241,7 +241,7 @@ SET MeSHDisease = "Hepatitis, Viral, Human"
 complex(p(FIXME:nsp5a),p(HGNC:EIF2AK2)) -| act(p(HGNC:EIF2AK2))
 UNSET MeSHDisease
 #in influenza A
-complex(p(NCBIGENE:956533),p(MESH:"RNA, Double-Stranded")) -| act(p(HGNC:EIF2AK2))
+complex(p(UNIPROT:P03496),p(MESH:"RNA, Double-Stranded")) -| act(p(HGNC:EIF2AK2))
 
 SET Evidence = "However, similar to PKR, viruses have adopted counter measures to inhibit PERK-mediated translation attenuation."
 #EIF2AK3 - PERK
@@ -472,7 +472,7 @@ bp(GOBP:"type I interferon signaling pathway") -| bp(GOBP:"viral genome replicat
 UNSET MeSHDisease
 
 SET Evidence = "The NS4B protein of HCV has been shown to activate ATF6 signaling in cultured cells (Li et al.,2009)."
-p(NCBIGENE:14254597) -> bp(GOBP:"ATF6-mediated unfolded protein response")
+p(UNIPROT:A0A0U2GLX8) -> bp(GOBP:"ATF6-mediated unfolded protein response")
 
 SET Evidence = "The authors thus conclude that global translation shutdown via eIF2α phosphorylation prevents accumulation of ATF6 and activation of ATF6 target genes (Bechill et al., 2008)."
 p(HGNC:EIF2S1,pmod(Ph)) -| p(HGNC:ATF6)

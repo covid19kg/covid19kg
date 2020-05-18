@@ -132,4 +132,4 @@ p(HGNC:IL2) pos path(DO:"COVID-19")
 UNSET Anatomy
 
 SET Evidence = "Importantly, the sequence of the receptor-binding domain of COVID-19 spikes is similar to that of SARS-CoV. This data strongly suggests that entry into the host cells is most likely via the ACE2 receptor [20]."
-composite(p(NCBIGENE:43740568),p(HGNC:ACE2)) -> bp(GOBP:"viral entry into host cell")
+composite(p(UNIPROT:P0DTC2),p(HGNC:ACE2)) -> bp(GOBP:"viral entry into host cell")

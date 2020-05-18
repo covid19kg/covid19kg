@@ -967,7 +967,7 @@
       "id": "60bbae25b4e0ac32c4c03901c2b4960c"
     },
     {
-      "bel": "complex(p(HGNC:ACE2), p(NCBIGENE:43740568))",
+      "bel": "complex(p(HGNC:ACE2), p(UNIPROT:P0DTC2))",
       "function": "Complex",
       "id": "383613253f5ec67244a3aa1ec645a0fb",
       "members": [
@@ -981,7 +981,7 @@
           "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
         },
         {
-          "bel": "p(NCBIGENE:43740568)",
+          "bel": "p(UNIPROT:P0DTC2)",
           "concept": {
             "name": "43740568",
             "namespace": "NCBIGENE"
@@ -992,12 +992,12 @@
       ]
     },
     {
-      "bel": "composite(complex(p(HGNC:ACE2), p(NCBIGENE:43740568)), p(HGNC:TMPRSS2))",
+      "bel": "composite(complex(p(HGNC:ACE2), p(UNIPROT:P0DTC2)), p(HGNC:TMPRSS2))",
       "function": "Composite",
       "id": "6ea928ed742e841e1a9c608debd7333f",
       "members": [
         {
-          "bel": "complex(p(HGNC:ACE2), p(NCBIGENE:43740568))",
+          "bel": "complex(p(HGNC:ACE2), p(UNIPROT:P0DTC2))",
           "function": "Complex",
           "id": "383613253f5ec67244a3aa1ec645a0fb",
           "members": [
@@ -1011,7 +1011,7 @@
               "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
             },
             {
-              "bel": "p(NCBIGENE:43740568)",
+              "bel": "p(UNIPROT:P0DTC2)",
               "concept": {
                 "name": "43740568",
                 "namespace": "NCBIGENE"
@@ -1084,7 +1084,7 @@
       "id": "1ac71e8152c90a7b43c9bc546579050d"
     },
     {
-      "bel": "p(NCBIGENE:43740568)",
+      "bel": "p(UNIPROT:P0DTC2)",
       "concept": {
         "name": "43740568",
         "namespace": "NCBIGENE"
@@ -1093,7 +1093,7 @@
       "id": "7c0c25d9b85462ae1b80a07e4192e4b9"
     },
     {
-      "bel": "p(NCBIGENE:43740568, frag(\"?\"))",
+      "bel": "p(UNIPROT:P0DTC2, frag(\"?\"))",
       "concept": {
         "name": "43740568",
         "namespace": "NCBIGENE"

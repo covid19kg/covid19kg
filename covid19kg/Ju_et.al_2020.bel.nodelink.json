@@ -576,7 +576,7 @@
       ]
     },
     {
-      "bel": "complex(a(MESH:\"B-Lymphocytes\"), p(NCBIGENE:43740568, frag(\"?\")))",
+      "bel": "complex(a(MESH:\"B-Lymphocytes\"), p(UNIPROT:P0DTC2, frag(\"?\")))",
       "function": "Complex",
       "id": "d5cfbd822571831d199586b463a925f1",
       "members": [
@@ -590,7 +590,7 @@
           "id": "f58463c9771eaea79cce530465284035"
         },
         {
-          "bel": "p(NCBIGENE:43740568, frag(\"?\"))",
+          "bel": "p(UNIPROT:P0DTC2, frag(\"?\"))",
           "concept": {
             "name": "43740568",
             "namespace": "NCBIGENE"
@@ -657,7 +657,7 @@
       ]
     },
     {
-      "bel": "complex(a(MESH:Immunoglobulins), p(NCBIGENE:43740568, frag(\"?\")))",
+      "bel": "complex(a(MESH:Immunoglobulins), p(UNIPROT:P0DTC2, frag(\"?\")))",
       "function": "Complex",
       "id": "e8ffd74fb4b9662fd944c04d516248cc",
       "members": [
@@ -671,7 +671,7 @@
           "id": "ee83657f1cb91b45697f9647ef2f9149"
         },
         {
-          "bel": "p(NCBIGENE:43740568, frag(\"?\"))",
+          "bel": "p(UNIPROT:P0DTC2, frag(\"?\"))",
           "concept": {
             "name": "43740568",
             "namespace": "NCBIGENE"
@@ -738,7 +738,7 @@
       ]
     },
     {
-      "bel": "complex(p(HGNC:ACE2), p(NCBIGENE:43740568, frag(\"?\")))",
+      "bel": "complex(p(HGNC:ACE2), p(UNIPROT:P0DTC2, frag(\"?\")))",
       "function": "Complex",
       "id": "701eb38a847b7b756f3ad56e47bf5eba",
       "members": [
@@ -752,7 +752,7 @@
           "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
         },
         {
-          "bel": "p(NCBIGENE:43740568, frag(\"?\"))",
+          "bel": "p(UNIPROT:P0DTC2, frag(\"?\"))",
           "concept": {
             "name": "43740568",
             "namespace": "NCBIGENE"
@@ -850,7 +850,7 @@
       "id": "bb9a231a2c68ff8f3bad2adad9ed6a94"
     },
     {
-      "bel": "p(NCBIGENE:43740568)",
+      "bel": "p(UNIPROT:P0DTC2)",
       "concept": {
         "name": "43740568",
         "namespace": "NCBIGENE"
@@ -859,7 +859,7 @@
       "id": "7c0c25d9b85462ae1b80a07e4192e4b9"
     },
     {
-      "bel": "p(NCBIGENE:43740568, frag(\"?\"))",
+      "bel": "p(UNIPROT:P0DTC2, frag(\"?\"))",
       "concept": {
         "name": "43740568",
         "namespace": "NCBIGENE"

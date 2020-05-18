@@ -150,10 +150,10 @@ p(HGNC:BSG) -- bp(GOBP:"viral entry into host cell")
 
 SET Evidence = "The result showed that there was an interaction between CD147 and SP (RBD), which was consistent with the SPR assay (Figure 2B). In addition, the interaction of CD147-SP (RBD) was also confirmed by ELISA assay (Figure 2C). In the meanwhile, competitive inhibition assay showed that Meplazumab could competitively inhibit the binding of SP and CD147, with an IC50 of 16.44 μg/mL (Figure 2D). These results confirm the interaction of CD147 and SP, indicating a novel potential route for SARS-CoV-2 to invade host cells."
 #BSG - CD147
-complex(p(NCBIGENE:43740568),p(HGNC:BSG)) -> bp(GOBP:"viral entry into host cell")
+complex(p(UNIPROT:P0DTC2),p(HGNC:BSG)) -> bp(GOBP:"viral entry into host cell")
 
 SET Evidence = "After traced by 10 nm (CD147) and 20 nm (SP) gold colloid-labeled antibodies, we found that the two proteins mainly presented in viral inclusion bodies of Vero E6 cells (Figure 3A-C). These results reinforce the finding that the CD147-SP interaction enhances viral invasion for host cells."
-complex(p(NCBIGENE:43740568),p(HGNC:BSG)) -> complex(p(NCBIGENE:43740568,loc(MESH:"Inclusion Bodies, Viral")),p(HGNC:BSG,loc(MESH:"Inclusion Bodies, Viral")))
-complex(p(NCBIGENE:43740568,loc(MESH:"Inclusion Bodies, Viral")),p(HGNC:BSG,loc(MESH:"Inclusion Bodies, Viral"))) pos bp(GOBP:"viral entry into host cell")
+complex(p(UNIPROT:P0DTC2),p(HGNC:BSG)) -> complex(p(UNIPROT:P0DTC2,loc(MESH:"Inclusion Bodies, Viral")),p(HGNC:BSG,loc(MESH:"Inclusion Bodies, Viral")))
+complex(p(UNIPROT:P0DTC2,loc(MESH:"Inclusion Bodies, Viral")),p(HGNC:BSG,loc(MESH:"Inclusion Bodies, Viral"))) pos bp(GOBP:"viral entry into host cell")
 
 UNSET Cells
