@@ -172,8 +172,8 @@ a(CHEBI:chloroquine) -- bp(GOBP:"uncoating of virus")
 SET Evidence = "For HIV, the antiretroviral effect of chloroquine is attributable to a post-transcriptional inhibition of glycosylation of the gp120 envelope glycoprotein, and the neosynthesised virus particles are non-infectious [19,65]."
 #155971 - gp120
 SET Disease = "human immunodeficiency virus infectious disease"
-a(CHEBI:chloroquine) -| p(NCBIGENE:155971,pmod(Glyco))
-p(NCBIGENE:155971,pmod(Glyco)) -> a(MESH:Viruses)
+a(CHEBI:chloroquine) -| p(UNIPROT:P04578,pmod(Glyco))
+p(UNIPROT:P04578,pmod(Glyco)) -> a(MESH:Viruses)
 a(MESH:Viruses) -> path(MESH:"Virus Diseases")
 UNSET Disease
 

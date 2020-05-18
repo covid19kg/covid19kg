@@ -3493,7 +3493,7 @@
       "id": "44ae8ae8183b8714c7e02f17400a7be6"
     },
     {
-      "bel": "p(NCBIGENE:43740568)",
+      "bel": "p(UNIPROT:P0DTC2)",
       "concept": {
         "name": "43740568",
         "namespace": "NCBIGENE"

@@ -149,18 +149,18 @@ UNSET Section
 # SET DOCUMENT Authors = "Yojana Gadiya"
 
 SET Evidence = "The infection of SARS virus is initiated by the attachment of S protein to the receptor ACE2 [19], followed by cleavage with host cell protease TMPRSS2 [20-22]. The viruses are then transported through the early and late endosomes, subsequently endo/lysosomes, during which host protein extracellular proteases including cathepsin L mediates the further cleavage of S protein in endocytic vesicles [23-26]. The activated S protein will then activate the fusion between viral and cell membranes and release the genome of SARS-CoV into cytoplasm."
-complex(p(NCBIGENE:43740568),p(HGNC:ACE2)) -> composite(complex(p(NCBIGENE:43740568),p(HGNC:ACE2)),p(HGNC:TMPRSS2))
-composite(complex(p(NCBIGENE:43740568),p(HGNC:ACE2)),p(HGNC:TMPRSS2)) -> p(NCBIGENE:43740568,frag("?"))
-p(NCBIGENE:43740568,frag("?")) -> bp(GOBP:"endosome membrane permeabilization involved in viral entry into host cell")
+complex(p(UNIPROT:P0DTC2),p(HGNC:ACE2)) -> composite(complex(p(UNIPROT:P0DTC2),p(HGNC:ACE2)),p(HGNC:TMPRSS2))
+composite(complex(p(UNIPROT:P0DTC2),p(HGNC:ACE2)),p(HGNC:TMPRSS2)) -> p(UNIPROT:P0DTC2,frag("?"))
+p(UNIPROT:P0DTC2,frag("?")) -> bp(GOBP:"endosome membrane permeabilization involved in viral entry into host cell")
 bp(GOBP:"endosome membrane permeabilization involved in viral entry into host cell") -> bp(GOBP:"endosome lysis involved in viral entry into host cell")
 SET MeSHAnatomy = "Lysosomes"
 bp(GOBP:"endosome lysis involved in viral entry into host cell") -> path(DO:"COVID-19")
 path(DO:"COVID-19") -> act(p(HGNC:CTSL))
 UNSET MeSHAnatomy
 #second fragmentation
-act(p(HGNC:CTSL)) -> p(NCBIGENE:43740568,frag("?"))
-p(NCBIGENE:43740568,frag("?")) -> act(p(NCBIGENE:43740568))
-act(p(NCBIGENE:43740568)) -> bp(GOBP:"membrane fusion involved in viral entry into host cell")
+act(p(HGNC:CTSL)) -> p(UNIPROT:P0DTC2,frag("?"))
+p(UNIPROT:P0DTC2,frag("?")) -> act(p(UNIPROT:P0DTC2))
+act(p(UNIPROT:P0DTC2)) -> bp(GOBP:"membrane fusion involved in viral entry into host cell")
 SET MeSHAnatomy = "Cytoplasm"
 bp(GOBP:"membrane fusion involved in viral entry into host cell") -> path(MESH:"Genome, Viral")
 UNSET MeSHAnatomy

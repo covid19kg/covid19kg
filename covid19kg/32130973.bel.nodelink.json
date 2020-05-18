@@ -2330,7 +2330,7 @@
       ]
     },
     {
-      "bel": "complex(a(MESH:Integrins), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "bel": "complex(a(MESH:Integrins), p(UNIPROT:P0DTC2, frag(\"403_405\")))",
       "function": "Complex",
       "id": "9e189f86dc3f56693263c0eea802d23b",
       "members": [
@@ -2344,7 +2344,7 @@
           "id": "e7cf7fbe17796a1907da2a3b59d94542"
         },
         {
-          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "bel": "p(UNIPROT:P0DTC2, frag(\"403_405\"))",
           "concept": {
             "name": "43740568",
             "namespace": "NCBIGENE"
@@ -2387,7 +2387,7 @@
       ]
     },
     {
-      "bel": "complex(complex(GO:\"integrin alpha5-beta1 complex\"), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "bel": "complex(complex(GO:\"integrin alpha5-beta1 complex\"), p(UNIPROT:P0DTC2, frag(\"403_405\")))",
       "function": "Complex",
       "id": "5cae30502ccb8cd2dace9d87da96df27",
       "members": [
@@ -2401,7 +2401,7 @@
           "id": "3297a0a1255facd15a223cd0037829ae"
         },
         {
-          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "bel": "p(UNIPROT:P0DTC2, frag(\"403_405\"))",
           "concept": {
             "name": "43740568",
             "namespace": "NCBIGENE"
@@ -2419,7 +2419,7 @@
       ]
     },
     {
-      "bel": "complex(complex(GO:\"integrin alpha8-beta1 complex\"), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "bel": "complex(complex(GO:\"integrin alpha8-beta1 complex\"), p(UNIPROT:P0DTC2, frag(\"403_405\")))",
       "function": "Complex",
       "id": "c7b17242d49b439f4af0656adef999d6",
       "members": [
@@ -2433,7 +2433,7 @@
           "id": "d8e6eca70d60518b0b73648eee7d7aa6"
         },
         {
-          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "bel": "p(UNIPROT:P0DTC2, frag(\"403_405\"))",
           "concept": {
             "name": "43740568",
             "namespace": "NCBIGENE"
@@ -2451,7 +2451,7 @@
       ]
     },
     {
-      "bel": "complex(complex(GO:\"integrin alphaIIb-beta3 complex\"), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "bel": "complex(complex(GO:\"integrin alphaIIb-beta3 complex\"), p(UNIPROT:P0DTC2, frag(\"403_405\")))",
       "function": "Complex",
       "id": "e36ac59bbc8eaf1d18ecfc7a1affc815",
       "members": [
@@ -2465,7 +2465,7 @@
           "id": "1f598c157a0d24dd83e1b5549c10996d"
         },
         {
-          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "bel": "p(UNIPROT:P0DTC2, frag(\"403_405\"))",
           "concept": {
             "name": "43740568",
             "namespace": "NCBIGENE"
@@ -2483,7 +2483,7 @@
       ]
     },
     {
-      "bel": "complex(complex(GO:\"integrin alphav-beta1 complex\"), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "bel": "complex(complex(GO:\"integrin alphav-beta1 complex\"), p(UNIPROT:P0DTC2, frag(\"403_405\")))",
       "function": "Complex",
       "id": "d046d2adfa422fa024d0fb5ad79b96a0",
       "members": [
@@ -2497,7 +2497,7 @@
           "id": "00bff8d84f23c3eb6e56ada4710404c2"
         },
         {
-          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "bel": "p(UNIPROT:P0DTC2, frag(\"403_405\"))",
           "concept": {
             "name": "43740568",
             "namespace": "NCBIGENE"
@@ -2515,7 +2515,7 @@
       ]
     },
     {
-      "bel": "complex(complex(GO:\"integrin alphav-beta3 complex\"), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "bel": "complex(complex(GO:\"integrin alphav-beta3 complex\"), p(UNIPROT:P0DTC2, frag(\"403_405\")))",
       "function": "Complex",
       "id": "84464fd953da7695096c51690e33882b",
       "members": [
@@ -2529,7 +2529,7 @@
           "id": "2765ba097274e02d6dbd929111ab39b9"
         },
         {
-          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "bel": "p(UNIPROT:P0DTC2, frag(\"403_405\"))",
           "concept": {
             "name": "43740568",
             "namespace": "NCBIGENE"
@@ -2547,7 +2547,7 @@
       ]
     },
     {
-      "bel": "complex(complex(GO:\"integrin alphav-beta5 complex\"), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "bel": "complex(complex(GO:\"integrin alphav-beta5 complex\"), p(UNIPROT:P0DTC2, frag(\"403_405\")))",
       "function": "Complex",
       "id": "445eb6ea90c7fa1cb41dc38f9c09fa8d",
       "members": [
@@ -2561,7 +2561,7 @@
           "id": "1bb437ae49168e317f58f85997fe8898"
         },
         {
-          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "bel": "p(UNIPROT:P0DTC2, frag(\"403_405\"))",
           "concept": {
             "name": "43740568",
             "namespace": "NCBIGENE"
@@ -2579,7 +2579,7 @@
       ]
     },
     {
-      "bel": "complex(complex(GO:\"integrin alphav-beta6 complex\"), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "bel": "complex(complex(GO:\"integrin alphav-beta6 complex\"), p(UNIPROT:P0DTC2, frag(\"403_405\")))",
       "function": "Complex",
       "id": "d58b04e5bba158fddf6ce5c0cdc51e46",
       "members": [
@@ -2593,7 +2593,7 @@
           "id": "df13eb7e2d4a301bb486810791cb3395"
         },
         {
-          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "bel": "p(UNIPROT:P0DTC2, frag(\"403_405\"))",
           "concept": {
             "name": "43740568",
             "namespace": "NCBIGENE"
@@ -2611,7 +2611,7 @@
       ]
     },
     {
-      "bel": "complex(complex(GO:\"integrin alphav-beta8 complex\"), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "bel": "complex(complex(GO:\"integrin alphav-beta8 complex\"), p(UNIPROT:P0DTC2, frag(\"403_405\")))",
       "function": "Complex",
       "id": "6ac32a67261333849329196477d19ca7",
       "members": [
@@ -2625,7 +2625,7 @@
           "id": "4b22bd2f4d3d4a558626eb3cb2f88ef4"
         },
         {
-          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "bel": "p(UNIPROT:P0DTC2, frag(\"403_405\"))",
           "concept": {
             "name": "43740568",
             "namespace": "NCBIGENE"
@@ -2668,7 +2668,7 @@
       ]
     },
     {
-      "bel": "complex(p(HGNC:ITGA5), p(NCBIGENE:43740568, frag(\"403_405\")))",
+      "bel": "complex(p(HGNC:ITGA5), p(UNIPROT:P0DTC2, frag(\"403_405\")))",
       "function": "Complex",
       "id": "069e92d10ce921ead67a9815606c1f87",
       "members": [
@@ -2682,7 +2682,7 @@
           "id": "800209a9e5d63ef9a0a7d0e178e6b1a3"
         },
         {
-          "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+          "bel": "p(UNIPROT:P0DTC2, frag(\"403_405\"))",
           "concept": {
             "name": "43740568",
             "namespace": "NCBIGENE"
@@ -2727,7 +2727,7 @@
       "id": "800209a9e5d63ef9a0a7d0e178e6b1a3"
     },
     {
-      "bel": "p(NCBIGENE:43740568)",
+      "bel": "p(UNIPROT:P0DTC2)",
       "concept": {
         "name": "43740568",
         "namespace": "NCBIGENE"
@@ -2736,7 +2736,7 @@
       "id": "7c0c25d9b85462ae1b80a07e4192e4b9"
     },
     {
-      "bel": "p(NCBIGENE:43740568, frag(\"403_405\"))",
+      "bel": "p(UNIPROT:P0DTC2, frag(\"403_405\"))",
       "concept": {
         "name": "43740568",
         "namespace": "NCBIGENE"

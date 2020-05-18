@@ -90,7 +90,7 @@ p(FIXME:sarsnsp3,var("?")) -- path(DO:"COVID-19")
 p(FIXME:sarsnsp3,var("?")) -- path(FIXME:"SARS-CoV-2 infection")
 
 SET Evidence = " S glycoprotein includes two sub-units, S1 and S2 [30]. S1 determines the virus-host range and cellular tropism with the key function domain−RBD, while S2 mediates virus-cell membrane fusion by two tandem domains, heptad repeats 1 (HR1) [31] and HR2[32]."
-p(NCBIGENE:43740568) hasMembers list(p(FIXME:s1), p(FIXME:s2))
+p(UNIPROT:P0DTC2) hasMembers list(p(FIXME:s1), p(FIXME:s2))
 p(FIXME:s1) reg path(MESH:"Host Specificity")
 p(FIXME:s1) reg bp(GOBP:tropism)
 p(FIXME:s2) reg bp(GOBP:"membrane fusion involved in viral entry into host cell")
