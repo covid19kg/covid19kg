@@ -32,9 +32,8 @@ DEFINE ANNOTATION Section AS LIST {"Results"}
 ##################################################################################
 # Statements #
 ##################################################################################
-SET Citation = {"DOI","10.1101/2020.03.05.979260"}
+SET Citation = {"PubMed","32511345"}
 SET PublicationType = "Research"
-SET PublicationStatus = "Preprint"
 SET Section = "Results"
 
 SET Evidence = "The ISG lymphocyte antigen 6 complex, locus E (LY6E) strikingly \
@@ -94,6 +93,5 @@ act(p(HGNC:LY6E)) -| act(p(UNIPROT:P15423))
 UNSET Infection_Type
 
 UNSET PublicationType
-UNSET PublicationStatus
 UNSET Section
 UNSET Citation

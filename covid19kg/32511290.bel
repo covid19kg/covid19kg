@@ -35,9 +35,8 @@ DEFINE ANNOTATION Section AS LIST {"Results"}
 ##################################################################################
 # Statements #
 ##################################################################################
-SET Citation = {"DOI","10.26434/chemrxiv.12084822.v2"}
+SET Citation = {"PubMed","32511290"}
 SET PublicationType = "Research"
-SET PublicationStatus = "Preprint"
 SET Section = "Results"
 
 SET Evidence = "We selected three viral proteins that play essential roles in replication of the RNA genome of SARS-CoV-2: (1) RNA-dependent RNA polymerase (RdRP), (2) papain-like proteinase, and (3) helicase."
@@ -89,6 +88,5 @@ complex(a(CHEBI:elbasvir),p(COVID:S),p(HGNC:ACE2)) -| bp(GO:"viral entry into ho
 bp(GO:"viral entry into host cell") -> path(DO:"COVID-19")
 UNSET BioAssay
 UNSET Section
-UNSET PublicationStatus
 UNSET PublicationType
 UNSET Citation

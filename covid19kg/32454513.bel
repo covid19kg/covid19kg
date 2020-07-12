@@ -42,11 +42,10 @@ DEFINE ANNOTATION Section AS LIST {"Results"}
 # Statements #
 ##################################################################################
 
-SET Citation = {"DOI","10.1101/2020.03.21.990770"}
+SET Citation = {"PubMed","32454513"}
 
 
 SET PublicationType = "Research"
-SET PublicationStatus = "Preprint"
 SET Section = "Results"
 
 SET Evidence = "Samples from P#1, P#2, P#5, and P#16 demonstrated higher binding to both SARS-CoV-2 RBD and NP than the rest (Figure 1A)."
@@ -91,8 +90,8 @@ p(FIXME:"P2C-1F11") -| p(COVID:S)
 p(FIXME:"P2B-2F6") -| p(COVID:S)
 p(FIXME:"P2C-1A3") -| p(COVID:S)
 p(FIXME:"P2C-1C10") -| p(COVID:S)
+
 UNSET Custom_Disease
 UNSET Species
 UNSET PublicationType
-UNSET PublicationStatus
 UNSET Section

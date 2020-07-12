@@ -36,10 +36,9 @@ DEFINE ANNOTATION PublicationStatus AS LIST {"Preprint"}
 DEFINE ANNOTATION Section AS LIST {"Results"}
 
 
-SET Citation = {"DOI","10.1101/2020.03.07.982264"}
+SET Citation = {"PubMed","32511335"}
 
 SET PublicationType = "Research"
-SET PublicationStatus = "Preprint"
 SET Section = "Results"
 
 SET Evidence = "Vero E6 lack the capacity to produce IFN-I, but are able to respond to \
@@ -108,6 +107,5 @@ C-terminal of SARS-CoV ORF6 resulted in ablated antagonism 31 146 ."
 p(COVID:ORF6) -- a(TAX:"Severe acute respiratory syndrome coronavirus 2")
 
 UNSET PublicationType
-UNSET PublicationStatus
 UNSET Section
 UNSET Citation

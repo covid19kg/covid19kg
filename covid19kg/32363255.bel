@@ -34,7 +34,7 @@ DEFINE ANNOTATION Section AS LIST {"Results"}
 # Statements #
 ##################################################################################
 
-SET Citation = {"DOI","10.1021/acsomega.0c00772"}
+SET Citation = {"PubMed","32363255"}
 
 SET PublicationType = "Research"
 #insilico study
