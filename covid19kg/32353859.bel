@@ -84,9 +84,8 @@ DEFINE ANNOTATION Section AS LIST {"Full Text"}
 ##################################################################################
 # Statements #
 ##################################################################################
-SET Citation = {"DOI", "https://doi.org/10.1101/2020.03.22.002386"}
+SET Citation = {"PubMed", "32353859"}
 SET PublicationType = "Research"
-SET PublicationStatus = "Preprint"
 SET Section = "Full Text"
 
 SET Evidence = "Infection with these highly pathogenic coronaviruses can result in Acute Respiratory Distress Syndrome (ARDS), which may lead to long-term reduction in lung function, arrhythmia, and death."

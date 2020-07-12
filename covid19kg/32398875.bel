@@ -37,10 +37,9 @@ DEFINE ANNOTATION Section AS LIST {"Results"}
 # Statements #
 ##################################################################################
 
-SET Citation = {"DOI","10.1101/2020.02.23.20026690"}
+SET Citation = {"PubMed","32398875"}
 
 SET PublicationType = "Research"
-SET PublicationStatus = "Preprint"
 SET Section = "Results"
 
 SET Evidence = "There were higher proportions of T and NK cells in the COVID-19 patients than those in controls, while epithelial cells in patients are fewer."
@@ -183,5 +182,4 @@ UNSET Custom_Disease
 UNSET Species
 
 UNSET PublicationType
-UNSET PublicationStatus
 UNSET Section

@@ -36,9 +36,8 @@ DEFINE ANNOTATION Section AS LIST {"Full Text"}
 ##################################################################################
 # Statements #
 ##################################################################################
-SET Citation = {"DOI","10.1101/2020.03.10.986398"}
+SET Citation = {"PubMed","32365751"}
 SET PublicationType = "Research"
-SET PublicationStatus = "Preprint"
 SET Section = "Full Text"
 
 SET Evidence = "Coronavirus disease 2019 (COVID-19), initially detected in the Wuhan seafood market in the Hubei province of China (1) is caused by SARS-CoV-2 (referred to as the COVID-19 virus for clarity)."
@@ -78,6 +77,5 @@ p(COVID:S, var("p.Leu486Phe")) -> complex(p(HGNC:ACE2),p(COVID:S))
 UNSET BioAssay
 UNSET Species
 UNSET Section
-UNSET PublicationStatus
 UNSET PublicationType
 UNSET Citation

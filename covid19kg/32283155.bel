@@ -71,9 +71,8 @@ DEFINE ANNOTATION Section AS LIST {"Full Text", "Abstract", "Results"}
 # Statements #
 ##################################################################################
 
-SET Citation = {"DOI","https://doi.org/10.1101/2020.02.06.20020974"}
+SET Citation = {"PubMed", "32283155"}
 SET PublicationType = "Research"
-SET PublicationStatus = "Preprint"
 SET Section = "Results"
 SET Species = "9606"
 SET Custom_Disease = "COVID-19"
@@ -111,5 +110,4 @@ path(DO:"COVID-19") -- path(EFO:"acute respiratory distress syndrome")
 UNSET Custom_Disease
 UNSET Species
 UNSET Section
-UNSET PublicationStatus
 UNSET PublicationType

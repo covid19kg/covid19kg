@@ -35,9 +35,8 @@ DEFINE ANNOTATION Section AS LIST {"Results"}
 ##################################################################################
 # Statements #
 ##################################################################################
-SET Citation = {"DOI","10.1101/2020.02.18.20024364"}
+SET Citation = {"PubMed","32425950"}
 SET PublicationType = "Research"
-SET PublicationStatus = "Preprint"
 SET Section = "Results"
 
 SET Evidence = "5.75% (359/499), 75.95% (379/499) and 71.54% (357/499) patients had remarkably low total T cell counts, CD4 + and CD8 + T cell counts, respectively."
@@ -128,6 +127,5 @@ UNSET Disease_Stage
 UNSET Cohort
 UNSET Species
 UNSET Section
-UNSET PublicationStatus
 UNSET PublicationType
 UNSET Citation

@@ -39,7 +39,7 @@ DEFINE ANNOTATION Section AS LIST {"Full Text"}
 # Statements #
 ##################################################################################
 
-SET Citation = {"DOI","10.1038/s41591-020-0819-2"}
+SET Citation = {"PubMed"," 32284614"}
 
 SET PublicationType = "Case report"
 SET PublicationStatus = "Published"
