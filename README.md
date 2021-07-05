@@ -10,7 +10,7 @@ here. Additional information about customized terms used is available [here](htt
 ### Citation
 If you use COVID-19 KG for your research please cite our [paper](https://doi.org/10.1093/bioinformatics/btaa834): 
 
-> Daniel Domingo-Fernández, Shounak Baksi, Bruce T Schultz, Yojana Gadiya, Reagon Karki, Tamara Raschka, Christian Ebeling, Martin Hofmann-Apitius, and Alpha Tom Kodamullil (2020). [COVID-19 Knowledge Graph: a computable, multi-modal, cause-and-effect knowledge model of COVID-19 pathophysiology](https://doi.org/10.1093/bioinformatics/btaa834). *Bioinformatics*, btaa834. 
+> Daniel Domingo-Fernández, Shounak Baksi, Bruce T Schultz, Yojana Gadiya, Reagon Karki, Tamara Raschka, Christian Ebeling, Martin Hofmann-Apitius, and Alpha Tom Kodamullil (2020). [COVID-19 Knowledge Graph: a computable, multi-modal, cause-and-effect knowledge model of COVID-19 pathophysiology](https://doi.org/10.1093/bioinformatics/btaa834). *Bioinformatics*, 37(9), 1332-1334. 
 
 ### Formats
 Although the COVID-19 KG was generated using BEL, it can also be exported to multiple standard formats:
